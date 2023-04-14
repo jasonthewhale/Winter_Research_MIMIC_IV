@@ -1,0 +1,401 @@
+subject_id,hadm_id,hcpcs_cd,seq_num,short_description
+13190051,28207805,99219,1,Hospital observation services
+10227399,26446562,99219,1,Hospital observation services
+19763672,26034989,99219,1,Hospital observation services
+15375607,21000958,G0378,3,Hospital observation per hr
+15375607,21000958,36247,1,Cardiovascular system
+15375607,21000958,35470,2,Cardiovascular system
+18345557,29242008,99218,1,Hospital observation services
+18345557,29242008,58999,2,Female genital system
+12274101,25483724,47999,1,Digestive system
+12274101,25483724,43264,3,Digestive system
+12274101,25483724,43262,2,Digestive system
+12274101,25483724,G0378,4,Hospital observation per hr
+11619087,24719770,G0378,2,Hospital observation per hr
+11619087,24719770,36246,1,Cardiovascular system
+18441294,20509715,99218,1,Hospital observation services
+18331753,21258442,19318,1,Integumentary system
+18331753,21258442,99218,2,Hospital observation services
+17061465,25746995,99219,1,Hospital observation services
+17095170,29813296,99219,1,Hospital observation services
+15204476,28068407,43262,1,Digestive system
+15204476,28068407,99219,3,Hospital observation services
+15204476,28068407,43261,2,Digestive system
+15356744,28414297,43264,1,Digestive system
+15356744,28414297,43262,2,Digestive system
+15356744,28414297,G0378,3,Hospital observation per hr
+19713309,20567148,99218,1,Hospital observation services
+13300421,26594613,G0378,1,Hospital observation per hr
+14895934,29346677,43268,1,Digestive system
+14895934,29346677,G0378,3,Hospital observation per hr
+14895934,29346677,43262,2,Digestive system
+17891117,21401416,64727,6,Nervous system
+17891117,21401416,99218,7,Hospital observation services
+17891117,21401416,64822,2,Nervous system
+17891117,21401416,64721,1,Nervous system
+17891117,21401416,64820,3,Nervous system
+17891117,21401416,64718,5,Nervous system
+17891117,21401416,64820,4,Nervous system
+13850176,23777556,58561,1,Female genital system
+13850176,23777556,99218,2,Hospital observation services
+12127994,26846257,G0378,4,Hospital observation per hr
+12127994,26846257,37205,2,Cardiovascular system
+12127994,26846257,35474,1,Cardiovascular system
+12127994,26846257,36247,3,Cardiovascular system
+14061397,29292564,G0378,4,Hospital observation per hr
+14061397,29292564,43264,3,Digestive system
+14061397,29292564,43262,2,Digestive system
+14061397,29292564,43269,1,Digestive system
+13057729,29903892,G0378,3,Hospital observation per hr
+13057729,29903892,G0378,2,Hospital observation per hr
+13057729,29903892,36246,1,Cardiovascular system
+10750666,29801173,99218,2,Hospital observation services
+10750666,29801173,49652,1,Digestive system
+17447691,28917371,99219,1,Hospital observation services
+15070972,26328818,99218,2,Hospital observation services
+15070972,26328818,45378,1,Digestive system
+17986838,23561087,43262,1,Digestive system
+17986838,23561087,99219,3,Hospital observation services
+17986838,23561087,43268,2,Digestive system
+17470382,21644036,G0378,1,Hospital observation per hr
+10104109,21657914,45381,2,Digestive system
+10104109,21657914,G0378,3,Hospital observation per hr
+10104109,21657914,45385,1,Digestive system
+18634738,27857774,G0378,1,Hospital observation per hr
+12651589,23519753,G0378,1,Hospital observation per hr
+13155356,21237714,G0378,1,Hospital observation per hr
+17366913,25538016,62270,1,Nervous system
+17366913,25538016,99218,2,Hospital observation services
+12038492,21105531,99218,1,Hospital observation services
+19451054,28752579,99219,1,Hospital observation services
+12982112,27300068,99219,1,Hospital observation services
+18823138,23461028,99219,1,Hospital observation services
+17374087,21923176,G0378,1,Hospital observation per hr
+14764651,29377731,99219,1,Hospital observation services
+11230772,24774283,99219,1,Hospital observation services
+16586450,22582786,99218,1,Hospital observation services
+19180223,27406415,G0378,1,Hospital observation per hr
+18438447,22289364,99219,1,Hospital observation services
+14572249,25316541,99219,1,Hospital observation services
+19113646,24641673,99219,1,Hospital observation services
+16079067,22238499,99219,1,Hospital observation services
+15464144,20747755,G0378,1,Hospital observation per hr
+19472546,24965017,99219,1,Hospital observation services
+10286334,25259938,99219,1,Hospital observation services
+14327368,21384589,G0378,2,Hospital observation per hr
+14327368,21384589,37609,1,Cardiovascular system
+10347400,28384630,G0378,1,Hospital observation per hr
+15468859,22657272,99219,1,Hospital observation services
+14238229,22809247,99219,1,Hospital observation services
+14870784,25713812,99218,1,Hospital observation services
+18295608,28325452,12004,1,Integumentary system
+18295608,28325452,G0378,2,Hospital observation per hr
+18077999,20808986,52235,1,Urinary system
+18077999,20808986,99219,2,Hospital observation services
+11381180,28050058,99219,1,Hospital observation services
+14797007,23590590,99218,1,Hospital observation services
+16551112,25966913,G0378,1,Hospital observation per hr
+17918100,20601944,G0378,1,Hospital observation per hr
+17922751,27442627,99219,1,Hospital observation services
+19202617,20256869,99220,1,Hospital observation services
+18156502,25223366,99220,1,Hospital observation services
+10523930,20932890,99219,1,Hospital observation services
+13309925,20018001,99219,2,Hospital observation services
+13309925,20018001,20610,1,Musculoskeletal system
+10859759,26479753,99219,1,Hospital observation services
+18508098,27432430,G0378,1,Hospital observation per hr
+14513439,24072975,G0378,1,Hospital observation per hr
+15943993,27300204,99218,1,Hospital observation services
+16533299,29837162,99219,1,Hospital observation services
+15696146,24231051,G0378,1,Hospital observation per hr
+15464144,25904664,G0378,1,Hospital observation per hr
+17155219,23695034,99218,1,Hospital observation services
+13693940,26646584,99219,1,Hospital observation services
+13422344,24304291,99218,1,Hospital observation services
+19536212,22723752,99219,1,Hospital observation services
+10599925,29629973,99218,1,Hospital observation services
+17688201,24264712,99219,1,Hospital observation services
+11993840,26568192,92980,1,Cardiovascular
+11993840,26568192,99218,2,Hospital observation services
+11313865,23144199,99219,1,Hospital observation services
+15270361,28119537,99218,1,Hospital observation services
+10502532,22884641,63076,4,Nervous system
+10502532,22884641,20931,6,Musculoskeletal system
+10502532,22884641,63075,3,Nervous system
+10502532,22884641,22585,2,Musculoskeletal system
+10502532,22884641,22554,1,Musculoskeletal system
+10502532,22884641,99218,7,Hospital observation services
+10502532,22884641,22845,5,Musculoskeletal system
+18136887,28924103,99219,1,Hospital observation services
+14288316,22660367,37205,2,Cardiovascular system
+14288316,22660367,35473,1,Cardiovascular system
+14288316,22660367,36200,3,Cardiovascular system
+14288316,22660367,99218,4,Hospital observation services
+11364345,26758506,36246,2,Cardiovascular system
+11364345,26758506,36248,3,Cardiovascular system
+11364345,26758506,37205,1,Cardiovascular system
+11364345,26758506,G0378,4,Hospital observation per hr
+11659261,23959744,G0378,3,Hospital observation per hr
+11659261,23959744,43239,2,Digestive system
+11659261,23959744,45378,1,Digestive system
+18346742,29428439,99219,1,Hospital observation services
+18589343,29826185,G0378,1,Hospital observation per hr
+11149803,21215590,99218,1,Hospital observation services
+14137738,27742434,G0378,2,Hospital observation per hr
+14137738,27742434,36821,1,Cardiovascular system
+16208717,29923465,99220,1,Hospital observation services
+13279730,26621210,G0378,1,Hospital observation per hr
+18730402,24210049,99219,2,Hospital observation services
+18730402,24210049,36246,1,Cardiovascular system
+19076599,20992579,99219,1,Hospital observation services
+15146455,29449907,G0378,1,Hospital observation per hr
+15464144,24616167,G0378,1,Hospital observation per hr
+15496609,28320383,99218,1,Hospital observation services
+17688201,26587231,99220,1,Hospital observation services
+17385493,24341425,99218,1,Hospital observation services
+17805038,28100493,99219,1,Hospital observation services
+13208894,20693117,99219,1,Hospital observation services
+12604608,23585798,99218,1,Hospital observation services
+14911126,22863747,99218,1,Hospital observation services
+15852020,21276186,12001,1,Integumentary system
+15852020,21276186,99219,2,Hospital observation services
+10149179,24503941,99218,1,Hospital observation services
+10079128,23182134,99220,1,Hospital observation services
+17185236,23894707,99219,1,Hospital observation services
+14075343,27268527,99218,1,Hospital observation services
+11548699,26848394,99219,1,Hospital observation services
+16662168,20697581,99219,1,Hospital observation services
+13382305,24244847,G0378,1,Hospital observation per hr
+13265412,24858410,45378,1,Digestive system
+13265412,24858410,G0378,2,Hospital observation per hr
+15571405,23657831,99219,1,Hospital observation services
+16539771,26868343,G0378,1,Hospital observation per hr
+17738918,23530749,45330,1,Digestive system
+17738918,23530749,G0378,2,Hospital observation per hr
+16296659,21856669,99219,1,Hospital observation services
+18314104,28571517,G0378,1,Hospital observation per hr
+13884158,20600312,G0378,1,Hospital observation per hr
+19393021,23190799,99219,1,Hospital observation services
+13701069,29555713,99219,1,Hospital observation services
+11757719,23625984,99219,1,Hospital observation services
+12749849,26338866,G0378,1,Hospital observation per hr
+12360188,26991501,99219,1,Hospital observation services
+19788003,28590637,99219,1,Hospital observation services
+18487839,20432029,99220,1,Hospital observation services
+16948236,23772582,99220,1,Hospital observation services
+11648053,24615257,99219,1,Hospital observation services
+12678704,23358779,99218,1,Hospital observation services
+12640265,25569097,99220,1,Hospital observation services
+11296716,29766770,G0378,1,Hospital observation per hr
+10276690,28372338,G0378,1,Hospital observation per hr
+13415438,22051489,G0378,1,Hospital observation per hr
+16820070,29764686,99219,1,Hospital observation services
+16664573,26070692,G0378,1,Hospital observation per hr
+10192748,27448401,G0378,1,Hospital observation per hr
+12949021,25018247,G0378,1,Hospital observation per hr
+18754895,24855459,G0378,1,Hospital observation per hr
+17329106,23935599,99219,1,Hospital observation services
+17198844,22296218,99218,1,Hospital observation services
+14704061,27681791,99220,1,Hospital observation services
+17989683,21173574,99220,1,Hospital observation services
+14840893,26002860,99219,1,Hospital observation services
+11652693,27698065,G0378,1,Hospital observation per hr
+17170869,26265827,G0378,3,Hospital observation per hr
+17170869,26265827,43264,2,Digestive system
+17170869,26265827,43262,1,Digestive system
+12113800,29356276,28308,2,Musculoskeletal system
+12113800,29356276,28296,1,Musculoskeletal system
+12113800,29356276,G0378,3,Hospital observation per hr
+15123526,29774872,43246,1,Digestive system
+15571449,28229654,99220,1,Hospital observation services
+13268892,22535010,99219,1,Hospital observation services
+18722797,27258207,99218,1,Hospital observation services
+10252224,20305951,99219,2,Hospital observation services
+10252224,20305951,47562,1,Digestive system
+15829259,22016587,99220,1,Hospital observation services
+16508953,27238154,99220,1,Hospital observation services
+11707384,28553978,99220,1,Hospital observation services
+13921280,27229160,99218,1,Hospital observation services
+10415234,24356528,G0378,1,Hospital observation per hr
+10382431,20939006,G0378,1,Hospital observation per hr
+10147394,21893432,99220,1,Hospital observation services
+10910820,21853968,G0378,2,Hospital observation per hr
+10910820,21853968,45380,1,Digestive system
+10329846,24018324,99220,1,Hospital observation services
+18795078,24677078,99219,1,Hospital observation services
+12489477,25580186,99219,1,Hospital observation services
+18115228,26810778,99219,1,Hospital observation services
+17793561,23735981,99219,1,Hospital observation services
+19762428,26951488,99219,1,Hospital observation services
+17071580,23735975,99219,1,Hospital observation services
+13910770,26274864,G0378,1,Hospital observation per hr
+10714009,26158584,99218,1,Hospital observation services
+10236957,28497506,G0378,1,Hospital observation per hr
+10149179,25450320,99218,1,Hospital observation services
+16529393,21868784,43262,1,Digestive system
+16529393,21868784,99218,2,Hospital observation services
+13515548,23231832,99220,1,Hospital observation services
+10458644,24748978,99218,5,Hospital observation services
+10458644,24748978,20680,1,Musculoskeletal system
+10458644,24748978,20680,4,Musculoskeletal system
+10458644,24748978,20680,2,Musculoskeletal system
+10458644,24748978,20680,3,Musculoskeletal system
+10636786,23783928,99219,1,Hospital observation services
+17447691,26488097,99219,1,Hospital observation services
+13930250,21553818,99219,1,Hospital observation services
+11125826,21064088,99219,1,Hospital observation services
+14791872,29612755,99219,1,Hospital observation services
+17122760,21894855,99219,1,Hospital observation services
+19759225,29360996,99220,1,Hospital observation services
+11875581,28254988,99220,1,Hospital observation services
+17181302,24061968,99219,1,Hospital observation services
+15723840,25540704,G0378,1,Hospital observation per hr
+14281366,29914030,99218,1,Hospital observation services
+13110835,29317306,99219,1,Hospital observation services
+11616194,20671224,43272,1,Digestive system
+11616194,20671224,G0378,3,Hospital observation per hr
+11616194,20671224,43268,2,Digestive system
+11743275,26831164,43262,2,Digestive system
+11743275,26831164,G0378,5,Hospital observation per hr
+11743275,26831164,43268,4,Digestive system
+11743275,26831164,43271,3,Digestive system
+11743275,26831164,43264,1,Digestive system
+16866064,29491450,G0378,2,Hospital observation per hr
+16866064,29491450,49080,1,Digestive system
+15885593,25164810,99218,1,Hospital observation services
+11224566,27765518,99219,1,Hospital observation services
+12107623,21305009,99219,1,Hospital observation services
+15960537,27419330,99219,1,Hospital observation services
+14587486,22628070,99219,1,Hospital observation services
+14734152,23577843,99218,1,Hospital observation services
+17359859,26141895,99219,1,Hospital observation services
+15331012,21830740,99219,2,Hospital observation services
+15331012,21830740,59841,1,Maternity care and delivery
+19605807,27925771,G0378,1,Hospital observation per hr
+15608828,23732433,99219,1,Hospital observation services
+14970529,26445313,G0378,1,Hospital observation per hr
+14792953,25006731,99219,1,Hospital observation services
+15974261,23997976,G0378,1,Hospital observation per hr
+12533828,26445057,99220,1,Hospital observation services
+18736866,20217199,99219,1,Hospital observation services
+12218430,24225729,G0378,1,Hospital observation per hr
+12875171,27126299,43239,1,Digestive system
+12875171,27126299,99219,2,Hospital observation services
+12018196,20567029,99219,1,Hospital observation services
+14098000,20952153,99220,1,Hospital observation services
+17622388,23724936,99219,1,Hospital observation services
+17995056,21121546,G0378,1,Hospital observation per hr
+15762146,24073437,99219,1,Hospital observation services
+16510199,24652861,99218,1,Hospital observation services
+15461458,26164663,43262,1,Digestive system
+15461458,26164663,G0378,3,Hospital observation per hr
+15461458,26164663,43264,2,Digestive system
+14342500,24618756,31638,3,Respiratory system
+14342500,24618756,G0378,4,Hospital observation per hr
+14342500,24618756,31645,1,Respiratory system
+14342500,24618756,31641,2,Respiratory system
+13854004,26835167,G0378,1,Hospital observation per hr
+10119744,27953010,99218,1,Hospital observation services
+13036174,25931795,99218,1,Hospital observation services
+17852478,25007177,43760,1,Digestive system
+17852478,25007177,G0378,2,Hospital observation per hr
+12188966,22534824,99220,1,Hospital observation services
+11673092,29744270,G0378,1,Hospital observation per hr
+13279713,23076084,99219,1,Hospital observation services
+17540438,26048923,99220,1,Hospital observation services
+12252226,29442357,G0378,1,Hospital observation per hr
+13166511,20553792,99220,1,Hospital observation services
+14740889,27922570,99218,1,Hospital observation services
+17216244,27620321,99219,1,Hospital observation services
+16869104,20670320,G0378,1,Hospital observation per hr
+18490282,26142314,G0378,1,Hospital observation per hr
+19968039,25601147,G0378,1,Hospital observation per hr
+11303674,27492948,G0378,1,Hospital observation per hr
+10975175,28444148,99219,1,Hospital observation services
+11619755,26746793,93526,2,Cardiovascular
+11619755,26746793,G0378,4,Hospital observation per hr
+11619755,26746793,93545,3,Cardiovascular
+11619755,26746793,92980,1,Cardiovascular
+17687665,28757718,99219,3,Hospital observation services
+17687665,28757718,43264,2,Digestive system
+17687665,28757718,43262,1,Digestive system
+10704156,25864961,99218,1,Hospital observation services
+17551950,23914830,99219,1,Hospital observation services
+11229228,26620407,99219,1,Hospital observation services
+10388429,23749586,G0378,1,Hospital observation per hr
+19300883,25041982,99220,1,Hospital observation services
+19202573,20903053,99220,1,Hospital observation services
+12949021,23067336,G0378,1,Hospital observation per hr
+12833852,22023937,99219,1,Hospital observation services
+18589318,26165970,99218,1,Hospital observation services
+10847927,21331248,G0378,1,Hospital observation per hr
+18340971,21086541,99219,1,Hospital observation services
+11821527,21920470,99218,1,Hospital observation services
+19353810,27462995,G0378,1,Hospital observation per hr
+11167042,24074862,99219,1,Hospital observation services
+11604994,21877652,G0378,1,Hospital observation per hr
+14183317,24950597,G0378,1,Hospital observation per hr
+12331896,20241201,99219,1,Hospital observation services
+13864184,28940676,G0378,1,Hospital observation per hr
+19390752,27395871,99218,1,Hospital observation services
+12471237,25725588,99218,1,Hospital observation services
+14740925,28832935,99218,1,Hospital observation services
+15255128,20096270,99218,1,Hospital observation services
+13653377,26702252,99220,1,Hospital observation services
+14797197,21676821,99219,1,Hospital observation services
+13997162,23900858,37204,1,Cardiovascular system
+13997162,23900858,99218,2,Hospital observation services
+10014060,22445463,99218,1,Hospital observation services
+19502544,22486697,G0378,1,Hospital observation per hr
+17617840,23256808,99219,1,Hospital observation services
+18596181,28714028,G0378,1,Hospital observation per hr
+11548699,29699179,99219,1,Hospital observation services
+10193372,25554787,G0378,1,Hospital observation per hr
+10208054,20530978,99219,1,Hospital observation services
+10579637,25847332,99219,1,Hospital observation services
+16081366,29592017,G0378,1,Hospital observation per hr
+16402279,29524516,99218,1,Hospital observation services
+17736690,21881423,99219,1,Hospital observation services
+15424775,26625203,99219,1,Hospital observation services
+11910230,27876528,99220,1,Hospital observation services
+12468627,20039398,G0378,1,Hospital observation per hr
+14973419,23227489,99218,1,Hospital observation services
+14109944,20927320,99220,1,Hospital observation services
+11399433,23104968,99218,1,Hospital observation services
+13894846,29898586,99218,1,Hospital observation services
+13070242,23368747,99219,1,Hospital observation services
+13225064,26989507,G0378,1,Hospital observation per hr
+19438264,20904869,G0378,1,Hospital observation per hr
+19354367,29751648,99218,1,Hospital observation services
+17475598,20523110,99218,2,Hospital observation services
+17475598,20523110,12001,1,Integumentary system
+17438385,24021851,99218,1,Hospital observation services
+12783996,29806218,99219,1,Hospital observation services
+13110835,23035796,99220,1,Hospital observation services
+18174141,22602454,G0378,1,Hospital observation per hr
+13267166,25828167,99218,1,Hospital observation services
+11712074,23211963,99219,1,Hospital observation services
+14890653,27814303,99219,2,Hospital observation services
+14890653,27814303,12001,1,Integumentary system
+13305547,25206742,99219,1,Hospital observation services
+10060829,22318948,G0378,1,Hospital observation per hr
+17350019,25164393,99218,1,Hospital observation services
+13653377,24943393,99219,1,Hospital observation services
+13420205,20703254,99218,1,Hospital observation services
+14529915,23060320,92980,1,Cardiovascular
+14529915,23060320,93510,2,Cardiovascular
+14529915,23060320,99219,4,Hospital observation services
+14529915,23060320,93545,3,Cardiovascular
+13820970,26540855,93545,3,Cardiovascular
+13820970,26540855,G0378,4,Hospital observation per hr
+13820970,26540855,93510,2,Cardiovascular
+13820970,26540855,92980,1,Cardiovascular
+14829254,28105080,99219,1,Hospital observation services
+16085188,28483124,99218,1,Hospital observation services
+13870813,25198547,99220,1,Hospital observation services
+13939020,28160936,G0378,1,Hospital observation per hr
+11487485,27967386,99218,1,Hospital observation services
+12309728,24615259,99220,1,Hospital observation services
+10640398,29650829,99219,1,Hospital observation services
+12640265,21528814,99220,1,Hospital observation services
+13049666,23850086,99220,1,Hospital observation services
