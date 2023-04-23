@@ -1,0 +1,525 @@
+/Volumes/Jasonthewha/mimic-iv-0.4/core/patients.csv info of 12427812 is:
+       subject_id gender  anchor_age  anchor_year anchor_year_group  dod
+17463    12427812      F          35         2184       2017 - 2019  NaN
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/core/admissions.csv info of 12427812 is:
+       subject_id   hadm_id            admittime            dischtime  ... ethnicity            edregtime            edouttime hospital_expire_flag
+0        12427812  21593330  2184-01-06 11:51:00  2184-01-10 11:45:00  ...   UNKNOWN                  NaN                  NaN                    0
+10253    12427812  23948770  2185-01-20 00:08:00  2185-01-21 11:45:00  ...     WHITE  2185-01-19 18:58:00  2185-01-20 01:34:00                    0
+
+[2 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/core/transfers.csv info of 12427812 is:
+       subject_id     hadm_id  transfer_id  eventtype careunit               intime outtime
+58375    12427812  21593330.0     33823888  discharge      NaN  2184-01-10 11:46:04     NaN
+64829    12427812  23948770.0     39272780  discharge      NaN  2185-01-21 11:55:07     NaN
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/core/transfers.csv info of 12427812 is:
+        subject_id     hadm_id  transfer_id eventtype               careunit               intime              outtime
+192814    12427812  21593330.0     34567442     admit       Labor & Delivery  2184-01-06 11:52:47  2184-01-06 17:53:10
+192830    12427812  21593330.0     30921302  transfer  Obstetrics Postpartum  2184-01-06 17:53:10  2184-01-10 11:46:04
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/core/transfers.csv info of 12427812 is:
+        subject_id     hadm_id  transfer_id eventtype              careunit               intime              outtime
+206409    12427812  23948770.0     34857574        ED  Emergency Department  2185-01-19 18:58:00  2185-01-20 01:34:00
+206417    12427812  23948770.0     34628706     admit              Medicine  2185-01-20 01:34:00  2185-01-21 11:55:07
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/procedures_icd.csv info of 12427812 is:
+        subject_id   hadm_id  seq_num icd_code  icd_version
+635323    12427812  21593330        1  10D00Z1           10
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe.csv info of 12427812 is:
+               poe_id  poe_seq  subject_id   hadm_id  ... transaction_type discontinue_of_poe_id discontinued_by_poe_id order_status
+4928579   12427812-31       31    12427812  21593330  ...              New                   NaN                    NaN          NaN
+4929083   12427812-32       32    12427812  21593330  ...              New                   NaN                    NaN          NaN
+4929084   12427812-72       72    12427812  21593330  ...              New                   NaN                    NaN          NaN
+4929085   12427812-20       20    12427812  21593330  ...              New                   NaN                    NaN          NaN
+4929086   12427812-21       21    12427812  21593330  ...              New                   NaN                    NaN          NaN
+...               ...      ...         ...       ...  ...              ...                   ...                    ...          ...
+4929155  12427812-100      100    12427812  23948770  ...           Change           12427812-99                    NaN     Inactive
+4929156  12427812-102      102    12427812  23948770  ...              D/C          12427812-101                    NaN     Inactive
+4929157  12427812-103      103    12427812  23948770  ...           Change           12427812-98                    NaN     Inactive
+4929158  12427812-104      104    12427812  23948770  ...              New                   NaN                    NaN     Inactive
+4929159  12427812-105      105    12427812  23948770  ...              New                   NaN                    NaN     Inactive
+
+[78 rows x 11 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_labitems.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/emar.csv info of 12427812 is:
+        subject_id     hadm_id      emar_id  emar_seq  ...                   medication     event_txt         scheduletime            storetime
+837140    12427812  21593330.0  12427812-63        63  ...                  Simethicone  Administered  2184-01-10 05:53:00  2184-01-10 05:54:00
+837157    12427812  23948770.0  12427812-75        75  ...                          NaN       Started  2185-01-20 14:46:00  2185-01-20 14:46:00
+837158    12427812  23948770.0  12427812-76        76  ...                          NaN     Confirmed  2185-01-20 17:56:00  2185-01-20 17:56:00
+837159    12427812  23948770.0  12427812-77        77  ...                      Heparin     Not Given  2185-01-20 20:00:00  2185-01-20 20:20:00
+837160    12427812  21593330.0  12427812-18        18  ...  Sodium Chloride 0.9%  Flush   Not Flushed  2184-01-06 19:00:00  2184-01-06 20:59:00
+...            ...         ...          ...       ...  ...                          ...           ...                  ...                  ...
+837218    12427812  23948770.0  12427812-80        80  ...  Sodium Chloride 0.9%  Flush   Not Flushed  2185-01-21 04:00:00  2185-01-21 06:28:00
+837219    12427812  23948770.0  12427812-81        81  ...                          NaN     Confirmed  2185-01-21 07:55:00  2185-01-21 07:55:00
+837220    12427812  23948770.0  12427812-82        82  ...                      Heparin     Not Given  2185-01-21 08:00:00  2185-01-21 08:01:00
+837221    12427812  23948770.0  12427812-83        83  ...                          NaN       Stopped  2185-01-21 08:44:00  2185-01-21 08:44:00
+837222    12427812  23948770.0  12427812-84        84  ...  Sodium Chloride 0.9%  Flush       Flushed  2185-01-21 08:44:00  2185-01-21 08:44:00
+
+[67 rows x 11 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/emar_detail.csv info of 12427812 is:
+          subject_id      emar_id  emar_seq  parent_field_ordinal  ... restart_interval  side site non_formulary_visual_verification
+13662260    12427812  12427812-18        18                   NaN  ...              NaN   NaN  NaN                               NaN
+13662261    12427812  12427812-19        19                   1.1  ...              NaN   NaN  NaN                               NaN
+13662262    12427812  12427812-19        19                   NaN  ...              NaN   NaN  NaN                               NaN
+13662263    12427812  12427812-20        20                   1.1  ...              NaN   NaN  NaN                               NaN
+13662264    12427812  12427812-20        20                   NaN  ...              NaN   NaN  NaN                               NaN
+...              ...          ...       ...                   ...  ...              ...   ...  ...                               ...
+13662385    12427812  12427812-82        82                   NaN  ...              NaN   NaN  NaN                               NaN
+13662386    12427812  12427812-83        83                   1.1  ...              NaN   NaN  NaN                               NaN
+13662387    12427812  12427812-83        83                   NaN  ...              NaN   NaN  NaN                               NaN
+13662388    12427812  12427812-84        84                   1.1  ...              NaN   NaN  NaN                               NaN
+13662389    12427812  12427812-84        84                   NaN  ...              NaN   NaN  NaN                               NaN
+
+[130 rows x 33 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper flag  priority comments
+27139115     29992152    12427812  23948770.0     64930669   51519  ...             NaN             NaN  NaN      STAT      NaN
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper      flag  priority comments
+33139831     29992220    12427812  23948770.0     73017078   50947  ...             NaN             NaN       NaN   ROUTINE      NaN
+33151372     29992129    12427812  21593330.0     12856427   51277  ...            10.5            15.5  abnormal      STAT      NaN
+33151373     29992123    12427812  21593330.0     12856427   51221  ...            34.0            45.0  abnormal      STAT      NaN
+33151374     29992124    12427812  21593330.0     12856427   51222  ...            11.2            15.7  abnormal      STAT      NaN
+33151375     29992125    12427812  21593330.0     12856427   51248  ...            26.0            32.0  abnormal      STAT      NaN
+...               ...         ...         ...          ...     ...  ...             ...             ...       ...       ...      ...
+33151454     29992234    12427812  23948770.0     98914616   50912  ...             0.4             1.1       NaN   ROUTINE      NaN
+33151455     29992236    12427812  23948770.0     98914616   50934  ...             NaN             NaN       NaN   ROUTINE      NaN
+33151456     29992237    12427812  23948770.0     98914616   50947  ...             NaN             NaN       NaN   ROUTINE      NaN
+33151457     29992240    12427812  23948770.0     98914616   51006  ...             6.0            20.0  abnormal   ROUTINE      NaN
+33151458     29992241    12427812  23948770.0     98914616   51676  ...             NaN             NaN       NaN   ROUTINE      NaN
+
+[87 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper flag  priority  comments
+42845998     29992147    12427812  23948770.0     64930669   51506  ...             NaN             NaN  NaN      STAT  Clear.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  ...  ref_range_upper      flag priority                                  comments
+42941685     29992135    12427812  23948770.0     64930669  ...              NaN  abnormal     STAT                                   FEW*.
+42999920     29992155    12427812  23948770.0     43147194  ...            105.0  abnormal     STAT  Hemolysis falsely decreases this test.
+
+[2 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  ...      flag  priority                                                                 comments
+43014500     29992153    12427812  23948770.0  ...  abnormal      STAT                                  Hemolysis falsely elevates this test.
+43016477     29992157    12427812  23948770.0  ...  abnormal      STAT                                  Hemolysis falsely elevates this test.
+43022255     29992170    12427812  23948770.0  ...       NaN      STAT  Hemolysis falsely elevates this test.  New reference range as of ___.
+
+[3 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  ...  ref_range_upper flag priority                                    comments
+43144384     29992195    12427812  23948770.0     56503818  ...              NaN  NaN     STAT  HOLD.  DISCARD GREATER THAN 4 HOURS OLD.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  ...  ref_range_upper flag priority                                                 comments
+43206475     29992235    12427812  23948770.0     98914616  ...              100  NaN  ROUTINE  If fasting, 70-100 normal, >125 provisional diabetes.
+43206476     29992218    12427812  23948770.0     73017078  ...              100  NaN  ROUTINE  If fasting, 70-100 normal, >125 provisional diabetes.
+43206477     29992164    12427812  23948770.0     43147194  ...              100  NaN     STAT  If fasting, 70-100 normal, >125 provisional diabetes.
+
+[3 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper flag  priority                             comments
+43507756     29992193    12427812  23948770.0     54799648   52130  ...             0.0             0.6  NaN      STAT  INCLUDES METAS, MYELOS AND PROS..
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper  flag  priority comments
+43791626     29992137    12427812  23948770.0     64930669   51466  ...             NaN             NaN   NaN      STAT   NEG.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper  flag  priority comments
+43818940     29992139    12427812  23948770.0     64930669   51478  ...             0.0             0.0   NaN      STAT   NEG.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper  flag  priority comments
+43900035     29992140    12427812  23948770.0     64930669   51484  ...             0.0             0.0   NaN      STAT   NEG.
+43959447     29992141    12427812  23948770.0     64930669   51486  ...             NaN             NaN   NaN      STAT   NEG.
+
+[2 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper  flag  priority comments
+44017591     29992142    12427812  23948770.0     64930669   51487  ...             NaN             NaN   NaN      STAT   NEG.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  ...  flag  priority                                                         comments
+44198368     29992133    12427812  23948770.0  ...   NaN      STAT  NEGATIVE.  FOR QUANTITATION OF POSITIVES, SEND SERUM FOR HCG.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper  flag  priority                          comments
+44276847     29992238    12427812  23948770.0     98914616   50971  ...             3.5             5.4   NaN   ROUTINE  New reference range as of ___.
+44276848     29992223    12427812  23948770.0     73017078   50971  ...             3.5             5.4   NaN   ROUTINE  New reference range as of ___.
+
+[2 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper  flag  priority                          comments
+44330028     29992156    12427812  23948770.0     43147194   50868  ...            10.0            18.0   NaN      STAT  New reference range as of ___.
+44330029     29992211    12427812  23948770.0     73017078   50868  ...            10.0            18.0   NaN   ROUTINE  New reference range as of ___.
+44330030     29992229    12427812  23948770.0     98914616   50868  ...            10.0            18.0   NaN   ROUTINE  New reference range as of ___.
+44386526     29992171    12427812  23948770.0     43147194   50983  ...           135.0           147.0   NaN      STAT  New reference range as of ___.
+44386527     29992239    12427812  23948770.0     98914616   50983  ...           135.0           147.0   NaN   ROUTINE  New reference range as of ___.
+44386528     29992224    12427812  23948770.0     73017078   50983  ...           135.0           147.0   NaN   ROUTINE  New reference range as of ___.
+
+[6 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper      flag  priority comments
+44593359     29992149    12427812  23948770.0     64930669   51512  ...             NaN             NaN  abnormal      STAT  OCC*.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper flag  priority   comments
+44697838     29992134    12427812  23948770.0       767670   51087  ...             NaN             NaN  NaN      STAT  RANDOM.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  subject_id     hadm_id  specimen_id  itemid  ... ref_range_lower ref_range_upper      flag  priority comments
+44812617     29992136    12427812  23948770.0     64930669   51464  ...             NaN             NaN  abnormal      STAT   SM*.
+44839691     29992144    12427812  23948770.0     64930669   51492  ...             0.0             0.0  abnormal      STAT   TR*.
+
+[2 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 12427812 is:
+          labevent_id  ...                                                                                                                                                                                                                                                                                                                                                                                                                               comments
+44955057     29992163  ...  Using this patient's age, gender, and serum creatinine value of 0.8, .  estimated GFR (eGFR) is likely >75 mL/min/1.73 m2, .  provided the serum creatinine value is stable. .  (Patients with more muscle mass and better nutritional status are more .  likely to be at the higher end of this range.) .  An eGFR < 60 suggests kidney disease in those below the age of 65 .  and there may be kidney disease in those over 65..
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 12427812 is:
+             poe_id  poe_seq  subject_id field_name field_value
+182768  12427812-23       23    12427812   Admit to  Obstetrics
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 12427812 is:
+             poe_id  poe_seq  subject_id   field_name field_value
+237334  12427812-42       42    12427812  Transfer to  Obstetrics
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 12427812 is:
+             poe_id  poe_seq  subject_id           field_name                                field_value
+711915  12427812-30       30    12427812  Tubes & Drains type  Indwelling urinary catheter (IUC) - Foley
+711916  12427812-51       51    12427812  Tubes & Drains type  Indwelling urinary catheter (IUC) - Foley
+758035  12427812-97       97    12427812  Consult Status Time                        2185-01-20 08:08:25
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 12427812 is:
+              poe_id  poe_seq  subject_id      field_name           field_value
+1867125  12427812-42       42    12427812  Admit category    Admit to inpatient
+1867126  12427812-23       23    12427812  Admit category    Admit to inpatient
+1867127  12427812-80       80    12427812  Admit category  Place in observation
+1867128  12427812-82       82    12427812  Admit category  Place in observation
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 12427812 is:
+              poe_id  poe_seq  subject_id   field_name                         field_value
+2177037  12427812-84       84    12427812  Code status  Full code  (attempt resuscitation)
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 12427812 is:
+              poe_id  poe_seq  subject_id      field_name field_value
+2218909  12427812-97       97    12427812  Consult Status    Accepted
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 12427812 is:
+               poe_id  poe_seq  subject_id          field_name field_value
+2702959   12427812-71       71    12427812  Discharge Planning   Finalized
+2702960  12427812-104      104    12427812  Discharge Planning   Finalized
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 12427812 is:
+               poe_id  poe_seq  subject_id      field_name    field_value
+3157422   12427812-72       72    12427812  Discharge When  Discharge Now
+3157423  12427812-105      105    12427812  Discharge When  Discharge Now
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 12427812 is:
+              poe_id  poe_seq  subject_id        field_name                field_value
+3243972  12427812-97       97    12427812  Level of Urgency  Routine (within 24 hours)
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/pharmacy.csv info of 12427812 is:
+          subject_id   hadm_id  pharmacy_id        poe_id  ... expiration_unit expirationdate              dispensation fill_quantity
+13611630    12427812  21593330     62964837   12427812-45  ...  Enter on Label            NaN  Distribution-Floor Stock           NaN
+13611631    12427812  21593330      1935912   12427812-58  ...            Days            NaN                  Omnicell           NaN
+13611647    12427812  21593330     38142663   12427812-59  ...            Days            NaN                  Omnicell           NaN
+13611662    12427812  21593330     76803758   12427812-38  ...            Days            NaN                  Omnicell           NaN
+13611663    12427812  21593330      3521988   12427812-39  ...            Days            NaN                  Omnicell           NaN
+13611664    12427812  21593330     92209305   12427812-40  ...            Days            NaN                  Omnicell           NaN
+13611665    12427812  21593330     79051386   12427812-41  ...            Days            NaN                  Omnicell           NaN
+13611666    12427812  21593330     90161390   12427812-43  ...            Days            NaN          Floor Stock Item           NaN
+13611667    12427812  21593330     97653816   12427812-60  ...            Days            NaN                  Omnicell           NaN
+13611668    12427812  21593330     35094660   12427812-61  ...            Days            NaN                  Omnicell           NaN
+13611669    12427812  21593330     35232663   12427812-62  ...            Days            NaN                  Omnicell           NaN
+13611670    12427812  21593330     48407457   12427812-63  ...            Days            NaN                  Omnicell           NaN
+13611671    12427812  21593330     43089389   12427812-64  ...            Days            NaN                  Omnicell           NaN
+13611672    12427812  21593330     31301671   12427812-65  ...            Days            NaN                  Omnicell           NaN
+13611673    12427812  23948770      2518845   12427812-86  ...            Days            NaN                  Omnicell           NaN
+13611674    12427812  23948770     23306437   12427812-89  ...            Days            NaN          Floor Stock Item           NaN
+13611675    12427812  23948770     58694951   12427812-92  ...            Days            NaN                  Omnicell           NaN
+13611676    12427812  23948770      3575254   12427812-93  ...            Days            NaN                  Omnicell           NaN
+13611677    12427812  23948770     81788522   12427812-94  ...            Days            NaN                  Omnicell           NaN
+13611678    12427812  23948770     93777486   12427812-95  ...            Days            NaN                  Omnicell           NaN
+13611679    12427812  23948770     53523818   12427812-96  ...  Enter on Label            NaN  Distribution-Floor Stock           NaN
+13611680    12427812  23948770     28256142  12427812-101  ...  Enter on Label            NaN  Distribution-Floor Stock           NaN
+
+[22 rows x 27 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/prescriptions.csv info of 12427812 is:
+          subject_id   hadm_id  pharmacy_id            starttime             stoptime  ... dose_unit_rx form_val_disp form_unit_disp  doses_per_24_hrs  route
+15643862    12427812  21593330     38142663  2184-01-06 19:00:00  2184-01-10 15:00:00  ...           mg             1            TAB               NaN     PO
+15643863    12427812  21593330     76803758  2184-01-06 20:00:00  2184-01-10 15:00:00  ...          mcg             1             mL               NaN     IV
+15643864    12427812  21593330      3521988  2184-01-06 20:00:00  2184-01-07 20:00:00  ...           mg           1-2           VIAL               NaN     IV
+15643865    12427812  21593330     92209305  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mg             1           VIAL               NaN     IV
+15643866    12427812  21593330     79051386  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mg             1           VIAL               NaN     IV
+15643867    12427812  21593330     90161390  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mL           0.3            SYR               3.0     IV
+15643868    12427812  21593330     62964837  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mL          1000             mL               NaN     IV
+15643869    12427812  21593330      1935912  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mg             1            CAP               NaN     PO
+15643870    12427812  21593330     97653816  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mg           1-2            TAB               NaN     PO
+15643871    12427812  21593330     35094660  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mg             1           SUPP               NaN     PR
+15643872    12427812  21593330     35232663  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mL             1          UDCUP               NaN     PO
+15643873    12427812  21593330     48407457  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mg             1            TAB               NaN     PO
+15643874    12427812  21593330     43089389  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mg             1            TAB               NaN     PO
+15643875    12427812  21593330     31301671  2184-01-06 20:00:00  2184-01-10 15:00:00  ...           mg           1-2            TAB               NaN  PO/NG
+15643876    12427812  23948770     23306437  2185-01-20 03:00:00  2185-01-21 16:00:00  ...           mL         0.3-1            SYR               3.0     IV
+15643877    12427812  23948770     58694951  2185-01-20 03:00:00  2185-01-21 16:00:00  ...           mg             1            TAB               NaN     PO
+15643878    12427812  23948770      3575254  2185-01-20 03:00:00  2185-01-21 16:00:00  ...           mg             1            CAP               NaN     PO
+15643879    12427812  23948770     81788522  2185-01-20 03:00:00  2185-01-21 16:00:00  ...           mg             1           VIAL               NaN     IV
+15643880    12427812  23948770     93777486  2185-01-20 03:00:00  2185-01-21 16:00:00  ...           mg           1-2            TAB               NaN  PO/NG
+15643881    12427812  23948770     53523818  2185-01-20 03:00:00  2185-01-20 13:00:00  ...           mL          1000             mL               NaN     IV
+15643882    12427812  23948770      2518845  2185-01-20 08:00:00  2185-01-21 16:00:00  ...         UNIT             1             mL               2.0     SC
+15643883    12427812  23948770     28256142  2185-01-20 15:00:00  2185-01-21 08:00:00  ...           mL          1000             mL               NaN     IV
+
+[22 rows x 17 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/drgcodes.csv info of 12427812 is:
+        subject_id   hadm_id drg_type  drg_code                  description  drg_severity  drg_mortality
+777079    12427812  21593330      APR      5401            Cesarean Delivery           1.0            1.0
+777080    12427812  21593330     HCFA       766  CESAREAN SECTION W/O CC/MCC           NaN            NaN
+777081    12427812  21593330      APR      5401            Cesarean Delivery           1.0            1.0
+777082    12427812  21593330      APR      5401            Cesarean Delivery           1.0            1.0
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/hcpcsevents.csv info of 12427812 is:
+        subject_id   hadm_id hcpcs_cd  seq_num              short_description
+127976    12427812  23948770    43264        2               Digestive system
+127977    12427812  23948770    99219        3  Hospital observation services
+127978    12427812  23948770    43262        1               Digestive system
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/diagnoses_icd.csv info of 12427812 is:
+         subject_id   hadm_id  seq_num icd_code  icd_version
+3447487    12427812  21593330        4  Z370              10
+3447488    12427812  21593330        1  O34211            10
+3447489    12427812  21593330        2  O360930           10
+3447490    12427812  21593330        3  Z3A39             10
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/diagnoses_icd.csv info of 12427812 is:
+         subject_id   hadm_id  seq_num icd_code  icd_version
+3991153    12427812  23948770        3  Y929              10
+3991154    12427812  23948770        1  K9186             10
+3991155    12427812  23948770        2  Y836              10
+3991156    12427812  23948770        4  K831              10
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/services.csv info of 12427812 is:
+      subject_id   hadm_id         transfertime prev_service curr_service
+4248    12427812  21593330  2184-01-06 11:52:47          NaN          OBS
+5653    12427812  23948770  2185-01-20 00:10:14          NaN          MED
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/icu/d_items.csv doesn't have subject_id column

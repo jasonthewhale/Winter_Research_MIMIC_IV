@@ -1,0 +1,363 @@
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/core/._patients.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/core/admissions.csv info of 14495017 is:
+      subject_id   hadm_id  ... edouttime hospital_expire_flag
+2       14495017  22484010  ...       NaN                    0
+1870    14495017  23358160  ...       NaN                    0
+
+[2 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/core/._admissions.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/core/transfers.csv info of 14495017 is:
+       subject_id     hadm_id  ...               intime outtime
+25597    14495017  23358160.0  ...  2175-01-25 14:54:16     NaN
+25714    14495017  22484010.0  ...  2175-02-01 14:47:03     NaN
+
+[2 rows x 7 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/core/transfers.csv info of 14495017 is:
+        subject_id     hadm_id  ...               intime              outtime
+126200    14495017  23358160.0  ...  2175-01-23 06:12:12  2175-01-23 06:47:12
+126201    14495017  23358160.0  ...  2175-01-23 06:47:12  2175-01-25 14:54:16
+126349    14495017  22484010.0  ...  2175-01-28 15:42:35  2175-01-28 15:52:09
+126350    14495017  22484010.0  ...  2175-01-28 15:52:09  2175-01-28 18:30:30
+126358    14495017  22484010.0  ...  2175-01-28 18:30:30  2175-01-28 18:33:46
+126359    14495017  22484010.0  ...  2175-01-28 18:33:46  2175-01-28 18:42:50
+126360    14495017  22484010.0  ...  2175-01-28 18:42:50  2175-02-01 14:47:03
+
+[7 rows x 7 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/core/._transfers.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/procedures_icd.csv info of 14495017 is:
+        subject_id   hadm_id  seq_num  icd_code  icd_version
+313872    14495017  22484010        1      9983            9
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe.csv info of 14495017 is:
+              poe_id  poe_seq  ...  discontinued_by_poe_id  order_status
+3819509  14495017-27       27  ...                     NaN           NaN
+
+[1 rows x 11 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe.csv info of 14495017 is:
+              poe_id  poe_seq  ...  discontinued_by_poe_id  order_status
+3820052  14495017-22       22  ...                     NaN           NaN
+3820053  14495017-23       23  ...             14495017-24           NaN
+3820054  14495017-21       21  ...                     NaN           NaN
+3820055  14495017-24       24  ...                     NaN           NaN
+3820056  14495017-29       29  ...                     NaN           NaN
+3820057  14495017-30       30  ...                     NaN           NaN
+3820058  14495017-31       31  ...                     NaN           NaN
+3820059  14495017-26       26  ...                     NaN           NaN
+3820060  14495017-25       25  ...                     NaN           NaN
+3820061  14495017-28       28  ...                     NaN           NaN
+3820062  14495017-32       32  ...                     NaN           NaN
+3820063  14495017-37       37  ...                     NaN           NaN
+3820064  14495017-39       39  ...             14495017-44           NaN
+3820065  14495017-33       33  ...                     NaN           NaN
+3820066  14495017-34       34  ...                     NaN           NaN
+3820067  14495017-36       36  ...                     NaN           NaN
+3820068  14495017-38       38  ...                     NaN           NaN
+3820069  14495017-40       40  ...                     NaN           NaN
+3820070  14495017-41       41  ...                     NaN           NaN
+3820071  14495017-42       42  ...                     NaN           NaN
+3820072  14495017-43       43  ...                     NaN           NaN
+3820073  14495017-44       44  ...                     NaN           NaN
+
+[22 rows x 11 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._procedures_icd.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_labitems.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._d_hcpcs.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._emar.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 14495017 is:
+          labevent_id  subject_id     hadm_id  ...      flag  priority comments
+35757675     55918496    14495017  23358160.0  ...  abnormal      STAT      NaN
+35757676     55918497    14495017  23358160.0  ...       NaN      STAT      NaN
+35757677     55918498    14495017  23358160.0  ...       NaN      STAT      NaN
+35757678     55918499    14495017  23358160.0  ...  abnormal      STAT      NaN
+35757679     55918500    14495017  22484010.0  ...       NaN      STAT      NaN
+35757680     55918501    14495017  22484010.0  ...       NaN      STAT      NaN
+35757681     55918502    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757682     55918503    14495017  22484010.0  ...       NaN      STAT      NaN
+35757683     55918505    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757684     55918506    14495017  22484010.0  ...       NaN      STAT      NaN
+35757685     55918507    14495017  22484010.0  ...       NaN      STAT      NaN
+35757686     55918509    14495017  22484010.0  ...       NaN      STAT      NaN
+35757687     55918510    14495017  22484010.0  ...       NaN      STAT      NaN
+35757688     55918511    14495017  22484010.0  ...       NaN      STAT      NaN
+35757689     55918512    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757690     55918513    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757691     55918504    14495017  22484010.0  ...  abnormal      STAT      ___
+35757692     55918514    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757693     55918516    14495017  22484010.0  ...       NaN      STAT      NaN
+35757694     55918518    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757695     55918519    14495017  22484010.0  ...       NaN      STAT      NaN
+35757696     55918520    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757697     55918521    14495017  22484010.0  ...       NaN      STAT      NaN
+35757698     55918523    14495017  22484010.0  ...       NaN      STAT      NaN
+35757699     55918524    14495017  22484010.0  ...       NaN      STAT      NaN
+35757700     55918525    14495017  22484010.0  ...       NaN      STAT      NaN
+35757701     55918526    14495017  22484010.0  ...       NaN      STAT      NaN
+35757702     55918530    14495017  22484010.0  ...       NaN      STAT      NaN
+35757703     55918531    14495017  22484010.0  ...       NaN      STAT      NaN
+35757704     55918532    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757705     55918534    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757706     55918535    14495017  22484010.0  ...       NaN      STAT      NaN
+35757707     55918536    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757708     55918537    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757709     55918538    14495017  22484010.0  ...       NaN      STAT      NaN
+35757710     55918539    14495017  22484010.0  ...  abnormal      STAT      NaN
+35757711     55918540    14495017  22484010.0  ...  abnormal      STAT      NaN
+
+[37 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 14495017 is:
+          labevent_id  subject_id     hadm_id  ...  flag  priority comments
+42685411     55918517    14495017  22484010.0  ...   NaN      STAT    1+.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 14495017 is:
+          labevent_id  subject_id     hadm_id  ...  flag  priority              comments
+42829252     55918533    14495017  22484010.0  ...   NaN      STAT  CHECKED FOR NRBCS.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 14495017 is:
+          labevent_id  subject_id     hadm_id  ...  flag  priority   comments
+44456003     55918508    14495017  22484010.0  ...   NaN      STAT  NORMAL.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 14495017 is:
+          labevent_id  subject_id     hadm_id  ...  flag  priority   comments
+44465828     55918515    14495017  22484010.0  ...   NaN      STAT  NORMAL.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 14495017 is:
+          labevent_id  subject_id     hadm_id  ...  flag  priority   comments
+44503039     55918522    14495017  22484010.0  ...   NaN      STAT  NORMAL.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 14495017 is:
+          labevent_id  subject_id     hadm_id  ...  flag  priority   comments
+44520059     55918527    14495017  22484010.0  ...   NaN      STAT  NORMAL.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 14495017 is:
+          labevent_id  subject_id     hadm_id  ...  flag  priority   comments
+44531007     55918528    14495017  22484010.0  ...   NaN      STAT  NORMAL.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/labevents.csv info of 14495017 is:
+          labevent_id  subject_id     hadm_id  ...  flag  priority   comments
+44545823     55918529    14495017  22484010.0  ...   NaN      STAT  NORMAL.
+
+[1 rows x 15 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 14495017 is:
+             poe_id  poe_seq  subject_id field_name field_value
+128206  14495017-33       33    14495017   Admit to        NICU
+128207  14495017-25       25    14495017   Admit to     Nursery
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 14495017 is:
+             poe_id  poe_seq  subject_id   field_name field_value
+229810  14495017-42       42    14495017  Transfer to     Nursery
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/poe_detail.csv info of 14495017 is:
+              poe_id  poe_seq  subject_id      field_name         field_value
+1559518  14495017-33       33    14495017  Admit category  Admit to inpatient
+1559519  14495017-25       25    14495017  Admit category  Admit to inpatient
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/pharmacy.csv info of 14495017 is:
+          subject_id   hadm_id  pharmacy_id  ... expirationdate dispensation fill_quantity
+10712511    14495017  23358160     14436686  ...            NaN     Omnicell           NaN
+10712512    14495017  23358160     75150292  ...            NaN     Omnicell           NaN
+10712513    14495017  23358160     16807239  ...            NaN     Omnicell           NaN
+
+[3 rows x 27 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._d_icd_procedures.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._d_labitems.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/prescriptions.csv info of 14495017 is:
+          subject_id   hadm_id  pharmacy_id  ... form_unit_disp doses_per_24_hrs      route
+12200717    14495017  23358160     14436686  ...           TUBE              1.0  BOTH EYES
+12200718    14495017  23358160     75150292  ...            SYR              1.0         IM
+12200719    14495017  23358160     16807239  ...           VIAL              NaN         IM
+
+[3 rows x 17 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._microbiologyevents.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._poe.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._prescriptions.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._pharmacy.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/drgcodes.csv info of 14495017 is:
+        subject_id   hadm_id  ... drg_severity  drg_mortality
+263065    14495017  23358160  ...          1.0            1.0
+263066    14495017  23358160  ...          1.0            1.0
+263067    14495017  23358160  ...          NaN            NaN
+264365    14495017  22484010  ...          NaN            NaN
+264366    14495017  22484010  ...          2.0            1.0
+
+[5 rows x 7 columns]
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._d_icd_diagnoses.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._drgcodes.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._emar_detail.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._labevents.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._hcpcsevents.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/diagnoses_icd.csv info of 14495017 is:
+        subject_id   hadm_id  seq_num icd_code  icd_version
+959019    14495017  23358160        3  7746               9
+959020    14495017  23358160        2  V053               9
+959021    14495017  23358160        1  V3000              9
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/diagnoses_icd.csv info of 14495017 is:
+        subject_id   hadm_id  seq_num icd_code  icd_version
+964445    14495017  22484010        1  77439              9
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._poe_detail.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/services.csv info of 14495017 is:
+       subject_id   hadm_id         transfertime prev_service curr_service
+12106    14495017  23358160  2175-01-23 06:12:12          NaN           NB
+15192    14495017  22484010  2175-01-28 15:42:35          NaN          NBB
+
+
+----------------------------
+
+
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._services.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/hosp/._diagnoses_icd.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/icu/._chartevents.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/icu/d_items.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/icu/._d_items.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/icu/._datetimeevents.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/icu/._icustays.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/icu/._inputevents.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/icu/._outputevents.csv doesn't have subject_id column
+/Volumes/Jasonthewha/mimic-iv-0.4/icu/._procedureevents.csv doesn't have subject_id column
