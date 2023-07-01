@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 67
+  (3) race: WHITE - OTHER EUROPEAN
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2180-06-23 00:00:00
+  (6) discharge time: 2180-06-28 13:30:00
+  (7) transfer history: 
+2180-06-23 06:36:17 - 2180-06-23 08:50:43: Discharge Lounge
+2180-06-24 20:48:56 - 2180-06-28 13:36:10: Cardiology Surgery Intermediate
+2180-06-23 08:50:43 - 2180-06-24 20:48:56: Cardiac Vascular Intensive Care Unit (CVICU)
+2180-06-28 13:36:10: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2180-06-23 09:48:00        29.6         9.8 30.2  33.1 91.0     118.0 3.25 13.0    NaN 12.7
+2180-06-23 10:22:00        34.6        11.7 30.2  33.8 89.0     128.0 3.87 13.3    NaN 21.9
+2180-06-23 17:10:00        36.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2180-06-24 02:03:00        33.1        11.3 30.1  34.1 88.0     129.0 3.75 13.4    NaN 17.3
+2180-06-25 04:13:00        32.0        10.8 30.2  33.8 89.0     110.0 3.58 13.2    NaN 17.8
+2180-06-26 05:19:00        29.8        10.1 30.1  33.9 89.0     120.0 3.35 13.2    NaN 13.5
+2180-06-27 05:05:00        29.6        10.2 30.4  34.5 88.0     150.0 3.35 13.2    NaN 11.7
+2180-06-28 04:40:00        30.0        10.1 30.1  33.7 90.0     180.0 3.35 13.2    NaN 11.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2180-06-23 11:30:00
+sbp: 98.0
+dbp: 70.0
+mbp: 82.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 17.0
+temperature: 36.560000000
+temperature_site: None
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 3
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Nonrheumatic aortic (valve) insufficiency
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W/O CARD CATH W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Nonrheumatic aortic (valve) insufficiency
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 1
+
+Medication:
+- Calcium Gluconate 2 g / 100 mL 0.9% Sodium Chloride *Premix Bag* (Administered from 2180-06-23 10:00:00 to 2180-06-25 04:00:00)
+- Fentanyl Citrate (Administered from 2180-06-23 10:00:00 to 2180-06-24 07:00:00)
+- Acetaminophen IV (Administered from 2180-06-23 10:00:00 to 2180-06-24 07:00:00)
+- Fentanyl Citrate (Administered from 2180-06-23 10:00:00 to 2180-06-24 07:00:00)
+- CeFAZolin 2 g / 100 mL Iso-Osmotic Dextrose (Administered from 2180-06-23 16:00:00 to 2180-06-25 04:00:00)
+- OxyCODONE (Immediate Release) 5mg Tablet (Administered from 2180-06-23 10:00:00 to 2180-06-28 17:00:00)
+- Potassium Chloride 20 mEq / 50 mL Sterile Water (Administered from 2180-06-23 10:00:00 to 2180-06-25 04:00:00)
+- Ranitidine 150mg Tablet (Administered from 2180-06-23 20:00:00 to 2180-06-28 17:00:00)
+- Atorvastatin (Administered from 2180-06-23 20:00:00 to 2180-06-28 17:00:00)

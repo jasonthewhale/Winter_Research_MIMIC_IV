@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 65
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2112-12-18 03:46:00
+  (6) discharge time: 2112-12-22 16:00:00
+  (7) transfer history: 
+2112-12-18 03:48:44 - 2112-12-18 10:23:54: Discharge Lounge
+2112-12-21 16:48:03 - 2112-12-22 16:38:19: Cardiac Surgery
+2112-12-18 10:23:54 - 2112-12-21 16:48:03: Cardiac Vascular Intensive Care Unit (CVICU)
+2112-12-22 16:38:19: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2112-12-18 13:54:00        28.6         9.8 32.3  34.3 94.0     158.0 3.03 12.5    NaN  9.2
+2112-12-18 15:00:00        31.3        10.9 32.8  34.8 94.0     141.0 3.32 12.5    NaN 11.3
+2112-12-18 18:10:00         NaN         NaN  NaN   NaN  NaN     181.0  NaN  NaN    NaN  NaN
+2112-12-18 22:31:00        28.9         9.9  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2112-12-19 02:30:00        28.6         9.7 31.9  33.9 94.0     189.0 3.04 12.6    NaN 10.9
+2112-12-19 13:02:00        25.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2112-12-20 02:42:00        24.9         8.5 32.4  34.1 95.0     137.0 2.62 12.8    NaN  8.6
+2112-12-21 02:29:00        25.2         8.8 32.8  34.9 94.0     124.0 2.68 12.5    NaN  6.5
+2112-12-22 04:46:00        24.6         8.6 33.0  35.0 94.0     151.0 2.61 12.6    NaN  5.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2112-12-19 04:00:00
+sbp: 90.0
+dbp: 52.0
+mbp: 66.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 13.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery with angina pectoris with documented spasm
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Atherosclerotic heart disease of native coronary artery with angina pectoris with documented spasm
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 1
+   drg_mortality: 1
+
+Medication:
+- Potassium Chloride 20 mEq / 50 mL Sterile Water (Administered) - Start Time: 2112-12-18 11:00:00, Stop Time: 2112-12-21 17:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2112-12-18 11:00:00, Stop Time: 2112-12-22 20:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2112-12-18 08:00:00, Stop Time: 2112-12-22 20:00:00
+- Mupirocin Ointment 2% (Administered) - Start Time: 2112-12-18 20:00:00, Stop Time: 2112-12-22 20:00:00
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix) (Administered) - Start Time: 2112-12-18 20:00:00, Stop Time: 2112-12-20 19:00:00
+- Atorvastatin (Administered) - Start Time: 2112-12-18 20:00:00, Stop Time: 2112-12-22 20:00:00
+- Docusate Sodium 100 mg Tablet (Administered) - Start Time: 2112-12-18 20:00:00, Stop Time: 2112-12-22 20:00:00
+- Ranitidine (Liquid) 150mg UD Cup (Administered) - Start Time: 2112-12-18 20:00:00, Stop Time: 2112-12-22 20:00:00
+- TiCAGRELOR 90 mg Tablet (Administered) - Start Time: 2112-12-18 20:00:00, Stop Time: 2112-12-22 20:00:00

@@ -1,0 +1,79 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 57
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2151-06-01 00:20:00
+  (6) discharge time: 2151-06-10 18:00:00
+  (7) transfer history: 
+2151-05-31 19:47:00 - 2151-06-01 01:53:00: Emergency Department
+2151-06-01 01:53:00 - 2151-06-01 19:11:40: Medicine/Cardiology
+2151-06-02 22:49:12 - 2151-06-10 18:21:13: Med/Surg
+2151-06-01 19:11:40 - 2151-06-02 22:49:12: Surgical Intensive Care Unit (SICU)
+2151-06-10 18:21:13: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2151-05-31 22:30:00        25.8         7.8 26.4  30.2 88.0     441.0 2.95 18.7    NaN 14.0
+2151-06-01 03:23:00        27.1         8.0 26.1  29.5 88.0     402.0 3.07 19.2    NaN 12.2
+2151-06-01 08:05:00        25.0         7.6 26.8  30.4 88.0     388.0 2.84 18.7    NaN 10.2
+2151-06-01 19:12:00        25.2         7.6 26.9  30.2 89.0     378.0 2.83 18.8    NaN 11.0
+2151-06-02 01:21:00        23.3         7.0 27.0  30.0 90.0     372.0 2.59 18.8    NaN  8.1
+2151-06-02 12:46:00        26.2         8.1 27.6  30.9 89.0     395.0 2.94 18.3    NaN  9.9
+2151-06-03 08:10:00        27.5         8.5 27.6  30.9 89.0     346.0 3.08 18.1    NaN  6.7
+2151-06-04 07:50:00        27.9         8.5 27.3  30.5 90.0     341.0 3.11 17.8    NaN  5.4
+2151-06-05 07:40:00        27.2         8.0 26.6  29.4 90.0     350.0 3.01 17.6    NaN  5.9
+2151-06-06 07:38:00        27.3         8.3 27.7  30.4 91.0     327.0 3.00 18.1    NaN  6.3
+2151-06-07 06:36:00        28.0         8.4 27.4  30.0 91.0     308.0 3.07 18.6    NaN  6.4
+2151-06-08 07:22:00        30.1         8.8 27.3  29.2 94.0     375.0 3.22 19.4    NaN  7.8
+2151-06-09 07:45:00        25.8         7.8 28.5  30.2 94.0     237.0 2.74 19.9    NaN  5.3
+2151-06-10 06:51:00        24.5         7.6 28.7  31.0 93.0     210.0 2.65 20.2    NaN  5.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2151-06-02 04:00:00
+sbp: 129.0
+dbp: 59.0
+mbp: 83.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.0
+temperature: 36.940000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 1
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Hypertensive heart disease with heart failure
+   drg_type: HCFA
+   description: CIRCULATORY DISORDERS EXCEPT AMI, W CARD CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Hypertensive heart disease with heart failure
+   drg_type: APR
+   description: CARDIAC CATHETERIZATION FOR OTHER NON-CORONARY CONDITIONS
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Flushed: 3 mL of Sodium Chloride 0.9% Flush, started on 2151-06-01 03:00:00 and stopped on 2151-06-10 23:00:00
+- Administered: 100 mcg of Levothyroxine Sodium 100mcg Tablet, started on 2151-06-01 04:00:00 and stopped on 2151-06-10 23:00:00
+- Administered: 200 mg of Carbamazepine (Extended-Release) 200mg XR Tablet, started on 2151-06-01 04:00:00 and stopped on 2151-06-10 23:00:00
+- Administered: 20 mg of Citalopram 20mg Tablet, started on 2151-06-01 04:00:00 and stopped on 2151-06-02 10:00:00
+- Administered: 300 mg of Gabapentin 300mg Capsule, started on 2151-06-01 04:00:00 and stopped on 2151-06-10 23:00:00
+- Administered: 5000 UNIT of Heparin, started on 2151-06-01 03:00:00 and stopped on 2151-06-01 12:00:00
+- Administered: 50 mg of Metoprolol Tartrate 50mg Tablet, started on 2151-06-01 04:00:00 and stopped on 2151-06-02 10:00:00
+- Administered: 1 TAB of Multivitamins 1 Tablet, started on 2151-06-01 04:00:00 and stopped on 2151-06-10 23:00:00

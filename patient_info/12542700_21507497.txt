@@ -1,0 +1,102 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 58
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2110-08-21 23:03:00
+  (6) discharge time: 2110-09-04 21:44:00
+  (7) transfer history: 
+2110-08-21 22:08:00 - 2110-08-22 00:51:00: Emergency Department
+2110-08-22 00:51:00 - 2110-08-27 14:49:56: Medical Intensive Care Unit (MICU)
+2110-08-29 11:42:24 - 2110-08-30 14:25:27: Med/Surg
+2110-09-01 16:14:39 - 2110-09-01 16:23:44: Transplant
+2110-09-01 16:23:44 - 2110-09-02 09:53:28: Transplant
+2110-08-30 14:25:27 - 2110-08-31 01:52:13: Coronary Care Unit (CCU)
+2110-09-02 09:53:28 - 2110-09-04 22:51:00: Medical Intensive Care Unit (MICU)
+2110-08-31 01:52:13 - 2110-09-01 16:14:39: Medical Intensive Care Unit (MICU)
+2110-08-27 14:49:56 - 2110-08-29 11:42:24: Medical Intensive Care Unit (MICU)
+2110-09-04 22:51:00: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2110-08-22 02:03:00        27.5         9.4 30.7  34.2 90.0     193.0 3.06 17.6    NaN 20.2
+2110-08-22 16:00:00        21.0         7.5 31.6  35.7 89.0     143.0 2.37 17.2    NaN 18.2
+2110-08-22 21:33:00        21.3         7.3 30.7  34.3 90.0     133.0 2.38 17.3    NaN 18.5
+2110-08-23 04:10:00        21.7         7.4 30.5  34.1 89.0     142.0 2.43 17.2    NaN 19.5
+2110-08-24 03:36:00        19.0         6.6 31.3  34.7 90.0     120.0 2.11 17.6    NaN 18.7
+2110-08-24 22:37:00        21.0         7.2 31.2  34.3 91.0      84.0 2.31 18.0    NaN 16.5
+2110-08-25 03:43:00        20.2         6.9 30.9  34.2 91.0      70.0 2.23 17.9    NaN 14.8
+2110-08-25 09:45:00        22.3         7.3 29.8  32.7 91.0      71.0 2.45 18.4    NaN 14.2
+2110-08-25 15:33:00        21.7         7.4 30.6  34.1 90.0      72.0 2.42 18.6    NaN 16.3
+2110-08-26 03:51:00        24.6         8.1 30.1  32.9 91.0      77.0 2.69 18.7    NaN 20.1
+2110-08-26 12:52:00        25.2         8.3 30.1  32.9 91.0      77.0 2.76 18.7    NaN 21.1
+2110-08-26 15:56:00        25.1         8.5 30.7  33.9 91.0      68.0 2.77 18.7    NaN 21.8
+2110-08-27 03:23:00        23.5         7.9 30.5  33.6 91.0      74.0 2.59 18.2    NaN 26.4
+2110-08-27 12:55:00        24.3         8.3 31.3  34.2 92.0      85.0 2.65 18.1    NaN 35.1
+2110-08-28 03:54:00        23.9         8.0 31.1  33.5 93.0     100.0 2.57 18.0    NaN 37.5
+2110-08-29 03:58:00        24.6         8.4 31.0  34.1 91.0     103.0 2.71 18.4    NaN 31.1
+2110-08-30 06:14:00        25.9         8.7 31.2  33.6 93.0     142.0 2.79 18.8    NaN 34.1
+2110-08-30 14:04:00        13.3         4.3 31.2  32.3 96.0      56.0 1.38 18.8    NaN 16.3
+2110-08-30 14:59:00        28.0         9.4 31.2  33.6 93.0     104.0 3.01 18.4    NaN 31.0
+2110-08-31 05:04:00        24.5         8.1 30.7  33.1 93.0      82.0 2.64 19.3    NaN 23.5
+2110-09-01 03:57:00        22.6         7.7 31.3  34.1 92.0      86.0 2.46 18.6    NaN 19.8
+2110-09-02 00:19:00        25.2         8.3 30.7  32.9 93.0     101.0 2.70 19.3    NaN 25.3
+2110-09-02 04:38:00        26.0         8.7 31.0  33.5 93.0     126.0 2.81 19.2    NaN 16.9
+2110-09-02 09:35:00        22.2         7.1 30.6  32.0 96.0      91.0 2.32 19.5    NaN 16.6
+2110-09-02 12:58:00        31.0        10.7 31.8  34.5 92.0     113.0 3.37 19.0    NaN 35.1
+2110-09-02 16:56:00        27.9         9.4 30.7  33.7 91.0     105.0 3.06 19.6    NaN 38.9
+2110-09-02 23:21:00        29.0        10.1 31.6  34.8 91.0     114.0 3.20 19.7    NaN 45.5
+2110-09-03 04:34:00        28.7        10.1 31.6  35.2 90.0     103.0 3.20 19.1    NaN 43.1
+2110-09-03 15:33:00        28.1         9.6 31.1  34.2 91.0      92.0 3.09 19.8    NaN 41.1
+2110-09-04 03:15:00        27.7         9.5 30.7  34.3 90.0      90.0 3.09 19.5    NaN 42.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2110-09-04 00:00:00
+sbp: 108.0
+dbp: 34.0
+mbp: 54.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 23.0
+temperature: 36.200000000
+temperature_site: Rectal
+spo2: 97.0
+cardiovascular: 4
+cns: 0
+renal: <NA>
+respiration_24hours: 4
+coagulation_24hours: 2
+liver_24hours: 2
+cns_24hours: 0
+renal_24hours: 3
+sofa_24hours: 15
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+2. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Albumin 25% (25g /100mL) - Administered - Start Time: 2110-08-22 03:00:00, Stop Time: 2110-08-23 00:00:00
+- Sodium Chloride 0.9% Flush - Flushed - Start Time: 2110-08-22 03:00:00, Stop Time: 2110-08-30 12:00:00
+- CefTAZidime 1 g / 100 mL NS (Mini Bag Plus) - Administered - Start Time: 2110-08-22 04:00:00, Stop Time: 2110-08-23 00:00:00
+- Magnesium Sulfate 2 g / 50 mL (Premix Bag) - Administered - Start Time: 2110-08-22 05:00:00, Stop Time: 2110-08-23 00:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial - Administered - Start Time: 2110-08-22 03:00:00, Stop Time: 2110-08-25 18:00:00
+- Hydrocortisone Na Succ. - Administered - Start Time: 2110-08-22 04:00:00, Stop Time: 2110-08-26 09:00:00
+- Midodrine - Administered - Start Time: 2110-08-22 03:00:00, Stop Time: 2110-08-27 12:00:00
+- Midodrine - Administered - Start Time: 2110-08-22 03:00:00, Stop Time: 2110-08-27 12:00:00
+- Midodrine - Administered - Start Time: 2110-08-22 03:00:00, Stop Time: 2110-08-27 12:00:00
+- Nephrocaps - Administered - Start Time: 2110-08-22 03:00:00, Stop Time: 2110-09-03 12:00:00

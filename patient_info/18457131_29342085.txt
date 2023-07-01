@@ -1,0 +1,75 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 70
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2113-07-17 23:15:00
+  (6) discharge time: 2113-07-25 20:49:00
+  (7) transfer history: 
+2113-07-17 23:17:29 - 2113-07-21 07:52:33: Cardiac Surgery
+2113-07-21 07:52:33 - 2113-07-21 08:59:12: PACU
+2113-07-22 18:31:54 - 2113-07-25 20:49:53: Cardiac Surgery
+2113-07-21 08:59:12 - 2113-07-22 18:31:54: Cardiac Vascular Intensive Care Unit (CVICU)
+2113-07-25 20:49:53: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2113-07-18 00:28:00        40.7        13.3 30.6  32.7 94.0     227.0 4.35 12.6    NaN  7.1
+2113-07-19 03:53:00        41.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2113-07-21 12:07:00        28.6         9.4 30.9  32.9 94.0     128.0 3.04 12.9    NaN  8.9
+2113-07-21 13:00:00        27.7         9.1 30.7  32.9 94.0     125.0 2.96 12.9    NaN 14.4
+2113-07-21 17:30:00        35.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2113-07-22 02:57:00        34.6        11.4 30.6  32.9 93.0     172.0 3.73 13.1    NaN 12.1
+2113-07-23 05:56:00        30.6         9.8 30.6  32.0 96.0     150.0 3.20 13.3    NaN 10.4
+2113-07-25 06:00:00        28.9         9.3 31.0  32.2 96.0     196.0 3.00 13.2    NaN  7.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2113-07-22 12:00:00
+sbp: 135.0
+dbp: 70.0
+mbp: 90.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.0
+temperature: 37.440000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 4
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 4
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery with unstable angina pectoris
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Atherosclerotic heart disease of native coronary artery with unstable angina pectoris
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 1
+
+Medication:
+- Sodium Chloride 0.9% Flush (start time: 2113-07-18 00:00:00, stop time: 2113-07-21 09:00:00)
+- Aspirin 81mg Tab (start time: 2113-07-18 00:00:00, stop time: 2113-07-21 09:00:00)
+- Loratadine 10mg Tab (start time: 2113-07-18 00:00:00, stop time: 2113-07-21 09:00:00)
+- Metoprolol Tartrate (start time: 2113-07-18 00:00:00, stop time: 2113-07-21 09:00:00)
+- Multivitamins 1 Tablet (start time: 2113-07-18 00:00:00, stop time: 2113-07-21 09:00:00)
+- Mupirocin Ointment 2% (start time: 2113-07-18 08:00:00, stop time: 2113-07-21 09:00:00)
+- Polyethylene Glycol 17g Packet (start time: 2113-07-19 08:00:00, stop time: 2113-07-21 09:00:00)
+- Sodium Chloride 0.9% Flush (start time: 2113-07-18 00:00:00, stop time: 2113-07-21 09:00:00)
+- Fluticasone Propionate NASAL (start time: 2113-07-18 00:00:00, stop time: 2113-07-21 09:00:00)
+- Insulin (start time: 2113-07-18 11:00:00, stop time: 2113-07-19 13:00:00)

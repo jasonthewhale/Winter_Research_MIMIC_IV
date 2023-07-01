@@ -1,0 +1,82 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 67
+  (3) race: OTHER
+  (4) admission type: EW EMER.
+  (5) admit time: 2146-12-20 19:17:00
+  (6) discharge time: 2147-01-02 11:00:00
+  (7) transfer history: 
+2146-12-20 06:20:00 - 2146-12-20 19:17:40: Emergency Department
+2146-12-20 19:17:40 - 2146-12-20 22:03:25: Transplant
+2146-12-20 22:03:25 - 2146-12-21 19:43:48: Transplant
+2146-12-24 16:55:55 - 2146-12-24 17:21:49: Transplant
+2146-12-24 17:45:41 - 2147-01-02 14:52:36: Transplant
+2146-12-24 17:21:49 - 2146-12-24 17:45:41: Med/Surg/Trauma
+2146-12-24 13:53:06 - 2146-12-24 16:55:55: Med/Surg/Trauma
+2146-12-21 19:43:48 - 2146-12-24 13:53:06: Medical Intensive Care Unit (MICU)
+2147-01-02 14:52:36: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2146-12-21 02:58:00        35.9        10.9 29.1  30.3 96.0      64.0 3.73 19.2    NaN  8.8
+2146-12-21 16:11:00        36.2        10.8 28.5  30.0 95.0      57.0 3.80 19.8    NaN  7.3
+2146-12-21 20:01:00        39.4        11.8 28.5  29.9 95.0      57.0 4.13 19.4    NaN  7.7
+2146-12-22 09:00:00        36.3        10.8 28.7  29.9 96.0      54.0 3.78 19.7    NaN  8.1
+2146-12-22 16:10:00        36.5        10.5 27.9  28.9 97.0      57.0 3.78 19.6    NaN  8.3
+2146-12-23 03:24:00        35.6        10.4 28.1  29.3 96.0      46.0 3.71 19.6    NaN  9.0
+2146-12-24 04:00:00        36.8        10.8 28.0  29.3 96.0      70.0 3.85 19.7    NaN 11.1
+2146-12-25 04:45:00        36.4        10.5 27.3  28.8 95.0      74.0 3.83 19.8    NaN 10.3
+2146-12-26 18:30:00        35.7        10.7 28.1  30.0 94.0      92.0 3.81 19.8    NaN  8.2
+2146-12-27 11:14:00        35.8        10.7 28.2  29.8 95.0      95.0 3.79 20.1    NaN  8.5
+2146-12-28 05:00:00        35.2        10.8 29.1  30.7 95.0     112.0 3.72 20.0    NaN  9.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2146-01-06 00:00:00
+sbp: 164.0
+dbp: 55.0
+mbp: 94.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.5
+temperature: 36.560000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 1
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Unspecified septicemia
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV 96+ HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Unspecified septicemia
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2146-12-21 01:00:00, stop time: 2146-12-27 11:00:00
+- Administered: Vancomycin Oral Liquid, dose: 125 mg, start time: 2146-12-21 01:00:00, stop time: 2146-12-21 08:00:00
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2146-12-21 08:00:00, stop time: 2147-01-02 19:00:00
+- Flushed: Heparin Flush (10 units/ml), start time: 2146-12-21 08:00:00, stop time: 2147-01-02 19:00:00
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2146-12-21 08:00:00, stop time: 2146-12-21 20:00:00
+- Administered: Insulin (Regular) for Hyperkalemia, dose: 10 units, start time: 2146-12-21 06:00:00, stop time: 2146-12-21 20:00:00
+- Administered: Dextrose 50%, dose: 25 gm, start time: 2146-12-21 06:00:00, stop time: 2147-01-02 19:00:00
+- Administered: Levothyroxine Sodium, dose: 25 mcg, start time: 2146-12-21 01:00:00, stop time: 2147-01-02 19:00:00
+- Administered: Sirolimus, dose: 1 mg, start time: 2146-12-21 01:00:00, stop time: 2146-12-23 16:00:00
+- Administered: Vancomycin Oral Liquid, dose: 125 mg, start time: 2146-12-21 01:00:00, stop time: 2146-12-21 08:00:00

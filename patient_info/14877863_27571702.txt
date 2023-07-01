@@ -1,0 +1,75 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 63
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2117-12-09 05:24:00
+  (6) discharge time: 2117-12-17 15:26:00
+  (7) transfer history: 
+2117-12-09 02:39:00 - 2117-12-09 05:24:55: Emergency Department
+2117-12-09 05:24:55 - 2117-12-09 19:01:27: Emergency Department Observation
+2117-12-09 19:01:27 - 2117-12-13 09:27:55: Med/Surg
+2117-12-15 13:26:59 - 2117-12-17 15:33:19: Cardiac Surgery
+2117-12-13 09:27:55 - 2117-12-15 13:26:59: Cardiac Vascular Intensive Care Unit (CVICU)
+2117-12-17 15:33:19: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2117-12-10 06:45:00        31.4        11.1 30.9  35.4 87.0     204.0 3.60 16.2    NaN  4.1
+2117-12-11 07:40:00        33.3        11.7 31.3  35.2 89.0     216.0 3.74 16.0    NaN  4.7
+2117-12-12 11:20:00        30.0        10.6 31.5  35.2 89.0     223.0 3.35 15.9    NaN  5.7
+2117-12-13 12:40:00        25.4         8.8 31.1  34.6 90.0     178.0 2.82 16.1    NaN  6.5
+2117-12-13 14:02:00        29.1        10.0 30.6  34.3 89.0     158.0 3.26 16.1    NaN  4.3
+2117-12-14 02:22:00        29.4        10.2 30.9  34.6 89.0     224.0 3.29 16.0    NaN  8.0
+2117-12-14 12:24:00        25.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2117-12-15 01:36:00        25.3         9.0 31.3  35.6 88.0     161.0 2.88 16.2    NaN  6.8
+2117-12-16 05:50:00        27.3         9.3 30.6  33.9 90.0     163.0 3.03 15.9    NaN  5.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2117-12-14 00:00:00
+sbp: 99.0
+dbp: 50.0
+mbp: 69.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 20.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 1
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Subendocardial infarction, initial episode of care
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 2
+2. Subendocardial infarction, initial episode of care
+   drg_type: HCFA
+   description: CORONARY BYPASS W CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- BuPROPion (Sustained Release) 150mg SR Tablet, administered from 2117-12-09 21:00:00 to 2117-12-13 13:00:00
+- Lovastatin 20MG TAB, administered from 2117-12-09 23:00:00 to 2117-12-13 13:00:00
+- ClonazePAM 1mg Tablet, administered from 2117-12-09 23:00:00 to 2117-12-13 13:00:00
+- Sodium Chloride 0.9% Flush, flushed 3 mL, from 2117-12-09 23:00:00 to 2117-12-13 13:00:00
+- Aspirin 81mg Tab, administered from 2117-12-10 08:00:00 to 2117-12-13 13:00:00
+- Senna 8.6 mg Tablet, administered from 2117-12-10 22:00:00 to 2117-12-13 13:00:00
+- Gabapentin 400mg Capsule, administered from 2117-12-10 22:00:00 to 2117-12-13 13:00:00
+- Acetaminophen 500mg Tablet, administered from 2117-12-09 23:00:00 to 2117-12-10 11:00:00

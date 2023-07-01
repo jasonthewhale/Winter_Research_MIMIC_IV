@@ -1,0 +1,104 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 66
+  (3) race: ASIAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2142-04-10 04:33:00
+  (6) discharge time: 2142-05-01 20:13:00
+  (7) transfer history: 
+2142-04-09 14:55:00 - 2142-04-10 04:34:37: Emergency Department
+2142-04-10 04:34:37 - 2142-04-10 04:53:05: Medicine
+2142-04-10 04:53:05 - 2142-04-13 16:14:02: Medicine
+2142-04-13 16:14:02 - 2142-04-20 02:59:46: Trauma SICU (TSICU)
+2142-04-27 10:51:46 - 2142-05-01 20:17:59: Hematology/Oncology Intermediate
+2142-04-20 02:59:46 - 2142-04-27 10:51:46: Hematology/Oncology Intermediate
+2142-05-01 20:17:59: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2142-04-09 16:09:00        29.7         9.1 29.8  30.6 97.0     205.0 3.05 13.4    NaN  5.2
+2142-04-10 08:58:00        28.6         9.0 30.2  31.5 96.0     182.0 2.98 13.2    NaN  5.6
+2142-04-11 06:17:00        28.4         8.9 30.6  31.3 98.0     194.0 2.91 13.1    NaN  5.6
+2142-04-12 06:20:00        28.1         8.9 30.8  31.7 97.0     205.0 2.89 12.9    NaN  5.9
+2142-04-13 07:03:00        30.1         9.6 30.2  31.9 95.0     225.0 3.18 12.7    NaN  5.6
+2142-04-13 17:39:00        34.1        11.1 30.5  32.6 94.0     114.0 3.64 13.8    NaN 11.7
+2142-04-13 21:50:00        32.8        11.0 30.4  33.5 91.0     122.0 3.62 14.1    NaN 12.2
+2142-04-14 03:49:00        32.9        10.8 29.8  32.8 91.0     132.0 3.63 14.4    NaN 10.2
+2142-04-14 12:51:00        28.0         9.2 30.1  32.9 92.0     101.0 3.06 14.6    NaN  8.6
+2142-04-14 19:25:00        25.6         8.4 30.2  32.8 92.0      96.0 2.78 14.5    NaN  8.6
+2142-04-15 05:40:00        29.0         9.5 30.5  32.8 93.0      77.0 3.11 14.5    NaN  6.3
+2142-04-15 13:36:00        24.8         8.1 30.6  32.7 94.0     128.0 2.65 14.2    NaN  8.7
+2142-04-15 18:53:00        23.4         7.5 30.5  32.1 95.0      87.0 2.46 14.2    NaN  8.1
+2142-04-16 02:44:00        24.7         8.0 30.1  32.4 93.0      92.0 2.66 14.1    NaN  7.9
+2142-04-16 13:44:00        27.8         9.1 30.1  32.7 92.0     135.0 3.02 14.6    NaN  6.9
+2142-04-17 01:43:00        27.6         9.0 30.3  32.6 93.0     142.0 2.97 14.1    NaN  6.1
+2142-04-17 23:14:00        26.6         8.7 30.4  32.7 93.0     212.0 2.86 13.7    NaN 11.3
+2142-04-17 23:51:00        24.4         7.9 29.7  32.4 92.0     163.0 2.66 13.5    NaN  7.5
+2142-04-18 04:04:00        24.8         8.1 29.7  32.7 91.0     182.0 2.73 13.8    NaN 12.1
+2142-04-18 15:44:00        21.7         7.0 30.3  32.3 94.0     178.0 2.31 13.9    NaN  8.4
+2142-04-18 19:51:00        23.7         7.6 30.0  32.1 94.0     165.0 2.53 13.9    NaN  7.9
+2142-04-19 01:19:00        25.5         8.2 30.1  32.2 94.0     154.0 2.72 13.8    NaN  6.6
+2142-04-20 03:29:00        19.7         6.4 30.3  32.5 93.0     207.0 2.11 13.5    NaN  8.0
+2142-04-20 16:02:00        24.5         8.0 30.2  32.7 93.0     247.0 2.65 13.5    NaN  8.2
+2142-04-21 00:00:00        24.7         8.2 30.1  33.2 91.0     280.0 2.72 13.9    NaN  8.3
+2142-04-21 10:34:00        25.1         8.3 30.3  33.1 92.0     318.0 2.74 13.8    NaN  9.6
+2142-04-22 00:00:00        23.7         7.8 30.2  32.9 92.0     333.0 2.58 13.6    NaN  9.6
+2142-04-23 00:00:00        23.9         7.8 30.1  32.6 92.0     396.0 2.59 13.3    NaN 11.4
+2142-04-24 00:00:00        23.5         7.6 30.2  32.3 93.0     461.0 2.52 13.3    NaN 17.6
+2142-04-25 00:00:00        24.7         7.9 30.4  32.0 95.0     509.0 2.60 13.3    NaN 13.8
+2142-04-26 00:00:00        25.2         7.9 30.0  31.3 96.0     516.0 2.63 13.3    NaN 16.4
+2142-04-27 00:00:00        25.7         8.2 30.5  31.9 96.0     473.0 2.69 13.4    NaN 12.4
+2142-04-28 00:00:00        29.1         9.2 30.6  31.6 97.0     602.0 3.01 13.7    NaN 16.5
+2142-04-29 00:00:00        26.7         8.4 30.2  31.5 96.0     443.0 2.78 13.9    NaN 13.8
+2142-04-30 00:00:00        28.4         8.8 30.1  31.0 97.0     456.0 2.92 14.0    NaN 11.5
+2142-05-01 00:00:00        26.7         8.4 30.3  31.5 96.0     399.0 2.77 14.2    NaN  9.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2142-04-18 08:00:00
+sbp: 120.0
+dbp: 90.0
+mbp: 105.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.0
+temperature: 36.720000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Pathological fracture in neoplastic disease, other specified site, initial encounter for fracture
+   drg_type: APR
+   description: DORSAL & LUMBAR FUSION PROC EXCEPT FOR CURVATURE OF BACK
+   drg_severity: 3
+   drg_mortality: 4
+2. Pathological fracture in neoplastic disease, other specified site, initial encounter for fracture
+   drg_type: HCFA
+   description: COMBINED ANTERIOR/POSTERIOR SPINAL FUSION W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Heparin: Administered from 2142-04-10 08:00:00 to 2142-04-12 19:00:00, dose given: 5000 units, dose given unit: mL
+- Sodium Chloride 0.9% Flush: Flushed from 2142-04-10 08:00:00 to 2142-04-18 08:00:00, dose given: 3 mL, dose given unit: SYR
+- Gabapentin 300mg Capsule: Administered from 2142-04-11 08:00:00 to 2142-04-12 07:00:00, dose given: 300 mg, dose given unit: CAP
+- Acetaminophen 500mg Tablet: Administered from 2142-04-10 08:00:00 to 2142-04-13 22:00:00, dose given: 500 mg, dose given unit: TAB
+- Atorvastatin: Administered from 2142-04-10 08:00:00 to 2142-04-24 08:00:00, dose given: 10 mg, dose given unit: TAB
+- Docusate Sodium 100mg Capsule: Administered from 2142-04-10 08:00:00 to 2142-04-13 17:00:00, dose given: 100 mg, dose given unit: CAP
+- Heparin: Administered from 2142-04-10 08:00:00 to 2142-04-12 19:00:00, dose given: 5000 units, dose given unit: mL
+- Senna 8.6 mg Tablet: Administered from 2142-04-10 08:00:00 to 2142-04-14 08:00:00, dose given: 8.6 mg, dose given unit: TAB
+- OxyCODONE (Immediate Release) 5mg Tablet: Administered from 2142-04-10 08:00:00 to 2142-04-11 15:00:00, dose given: 5 mg, dose given unit: TAB

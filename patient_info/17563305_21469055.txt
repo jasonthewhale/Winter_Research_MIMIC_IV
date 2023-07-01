@@ -1,0 +1,90 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 56
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2170-01-29 21:18:00
+  (6) discharge time: 2170-02-11 16:37:00
+  (7) transfer history: 
+2170-01-29 21:19:14 - 2170-01-31 15:48:17: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2170-02-06 21:28:57 - 2170-02-07 20:51:23: Medicine
+2170-01-31 15:48:17 - 2170-02-05 15:40:56: Hematology/Oncology Intermediate
+2170-02-07 20:51:23 - 2170-02-11 16:44:48: Hematology/Oncology Intermediate
+2170-02-05 15:40:56 - 2170-02-06 21:28:57: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2170-02-11 16:44:48: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available for the heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2170-01-29 22:27:00        26.6         8.7 34.4  32.7 105.0      20.0 2.53 15.0    NaN 11.5
+2170-01-30 05:20:00        26.3         8.7 34.4  33.1 104.0      23.0 2.53 15.0    NaN 11.5
+2170-01-30 12:00:00        28.9         9.6 34.4  33.2 104.0      32.0 2.79 14.7    NaN 15.2
+2170-01-31 01:28:00        27.6         8.9 33.8  32.2 105.0      19.0 2.63 15.0    NaN 12.4
+2170-01-31 17:16:00        26.7         8.7 33.6  32.6 103.0      27.0 2.59 15.0    NaN  6.7
+2170-02-01 06:00:00        23.0         7.5 33.9  32.6 104.0      17.0 2.21 15.2    NaN  8.0
+2170-02-01 07:40:00        22.9         7.5 34.2  32.8 105.0      18.0 2.19 15.4    NaN  8.0
+2170-02-02 05:44:00        23.6         7.5 33.8  31.8 106.0      17.0 2.22 15.2    NaN  9.9
+2170-02-03 06:40:00        24.9         7.9 34.3  31.7 108.0      24.0 2.30 15.3    NaN 10.2
+2170-02-04 03:55:00        22.9         7.1 34.0  31.0 110.0      37.0 2.09 15.2    NaN  7.4
+2170-02-05 06:00:00        23.4         7.2 34.1  30.8 111.0      61.0 2.11 15.6    NaN  9.0
+2170-02-05 15:07:00        24.7         7.4 33.8  30.0 113.0      42.0 2.19 15.7    NaN  4.1
+2170-02-05 20:43:00        24.3         7.4 33.9  30.5 112.0      43.0 2.18 15.9    NaN 19.2
+2170-02-06 01:32:00        21.5         6.5 33.9  30.2 112.0      40.0 1.92 16.1    NaN 17.6
+2170-02-06 05:35:00        21.9         6.7 33.7  30.6 110.0      37.0 1.99 15.7    NaN 14.7
+2170-02-06 11:41:00        23.6         7.5 34.1  31.8 107.0      49.0 2.20 17.7    NaN 13.3
+2170-02-07 05:22:00        22.0         6.9 33.0  31.4 105.0      53.0 2.09 17.8    NaN 10.6
+2170-02-07 16:53:00        25.5         8.2 33.3  32.2 104.0      73.0 2.46 17.7    NaN 12.5
+2170-02-08 04:01:00        25.0         7.9 32.8  31.6 104.0      71.0 2.41 17.6    NaN  8.7
+2170-02-09 05:34:00        26.2         8.2 32.8  31.3 105.0      99.0 2.50 17.0    NaN  7.4
+2170-02-10 05:35:00        27.5         8.7 33.2  31.6 105.0     128.0 2.62 17.0    NaN  7.1
+2170-02-11 05:36:00        27.3         8.5 33.2  31.1 107.0     141.0 2.56 17.2    NaN  6.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2169-07-06 12:00:00
+sbp: 95.0
+dbp: 62.0
+mbp: 75.0
+sbp_ni: 95.0
+dbp_ni: 62.0
+mbp_ni: 75.0
+resp_rate: nan
+temperature: 36.780000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 3
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 2
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Sepsis due to Escherichia coli [E. coli]
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis due to Escherichia coli [E. coli]
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 10 mL, administered from 2170-01-29 23:00:00 to 2170-01-31 01:00:00
+- Administered: Hydrocortisone Na Succ., 50 mg, administered from 2170-01-30 00:00:00 to 2170-02-01 13:00:00
+- Administered: Metronidazole 500 mg / 100 mL NS, 500 mg, administered from 2170-01-30 00:00:00 to 2170-01-31 11:00:00
+- Administered: Potassium Chloride 20 mEq / 50 mL Sterile Water, 20 mEq, administered from 2170-01-30 01:00:00 to 2170-02-11 21:00:00
+- Administered: Potassium Chloride 20 mEq / 50 mL Sterile Water, 20 mEq, administered from 2170-01-30 01:00:00 to 2170-02-11 21:00:00
+- Administered: Potassium Chloride 20 mEq / 50 mL Sterile Water, 20 mEq, administered from 2170-01-30 01:00:00 to 2170-02-11 21:00:00
+- Administered: CefePIME, 2 g, administered from 2170-01-30 02:00:00 to 2170-01-30 17:00:00
+- Flushed: Sodium Chloride 0.9% Flush, 10 mL, administered from 2170-01-30 08:00:00 to 2170-02-05 09:00:00
+- Flushed: Sodium Chloride 0.9% Flush, 10 mL, administered from 2170-01-30 08:00:00 to 2170-02-09 05:00:00
+- Administered: Acetaminophen IV, 1000 mg, administered from 2170-01-30 04:00:00 to 2170-01-30 17:00:00

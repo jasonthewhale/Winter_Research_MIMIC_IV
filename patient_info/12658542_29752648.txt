@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 72
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2136-05-09 01:12:00
+  (6) discharge time: 2136-05-30 16:09:00
+  (7) transfer history: 
+2136-05-08 16:46:00 - 2136-05-09 01:39:00: Emergency Department
+2136-05-09 01:39:00 - 2136-05-09 01:59:06: Medical Intensive Care Unit (MICU)
+2136-05-13 21:30:12 - 2136-05-30 16:09:17: Medicine
+2136-05-09 21:46:07 - 2136-05-13 21:30:12: Medicine
+2136-05-09 01:59:06 - 2136-05-09 21:46:07: Surgical Intensive Care Unit (SICU)
+2136-05-30 16:09:17: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2136-05-08 18:06:00        28.4         9.3 32.2  32.7  98.0     462.0 2.89 13.8    NaN  8.4
+2136-05-09 04:47:00        25.0         8.3 32.2  33.2  97.0     430.0 2.58 13.8    NaN 12.1
+2136-05-10 09:00:00        27.7         9.4 32.9  33.9  97.0     435.0 2.86 15.6    NaN  9.9
+2136-05-11 08:25:00        26.0         8.3 31.9  31.9 100.0     407.0 2.60 16.2    NaN  7.4
+2136-05-11 15:11:00        26.4         8.5 32.3  32.2 100.0     382.0 2.63 16.0    NaN  6.4
+2136-05-12 06:20:00        24.8         8.0 32.5  32.3 101.0     365.0 2.46 16.3    NaN  4.8
+2136-05-13 06:25:00        24.1         7.6 32.6  31.5 103.0     351.0 2.33 16.4    NaN  5.1
+2136-05-14 08:16:00        24.9         7.9 33.1  31.7 104.0     351.0 2.39 16.0    NaN  5.4
+2136-05-15 06:48:00        25.3         7.9 32.6  31.2 105.0     365.0 2.42 15.8    NaN  6.0
+2136-05-16 08:25:00        25.1         7.7 32.4  30.7 106.0     351.0 2.38 15.6    NaN  5.7
+2136-05-17 07:14:00        27.3         8.3 31.6  30.4 104.0     404.0 2.63 15.5    NaN  5.8
+2136-05-18 07:08:00        28.3         8.7 32.1  30.7 104.0     441.0 2.71 15.4    NaN  6.4
+2136-05-19 07:00:00        24.9         7.5 30.9  30.1 103.0     371.0 2.43 15.6    NaN  5.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2136-05-09 12:00:00
+sbp: 132.0
+dbp: 55.0
+mbp: 75.0
+sbp_ni: 132.0
+dbp_ni: 55.0
+mbp_ni: 75.0
+resp_rate: 22.0
+temperature: 37.780000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Poisoning by 4-Aminophenol derivatives, accidental (unintentional), initial encounter
+   drg_type: HCFA
+   description: POISONING & TOXIC EFFECTS OF DRUGS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Poisoning by 4-Aminophenol derivatives, accidental (unintentional), initial encounter
+   drg_type: APR
+   description: POISONING OF MEDICINAL AGENTS
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Fomepizole (Administered) - Start Time: 2136-05-09 04:00:00, Stop Time: 2136-05-10 03:00:00
+- Sodium Bicarbonate (Administered) - Start Time: 2136-05-09 04:00:00, Stop Time: 2136-05-10 03:00:00
+- Insulin (Administered) - Start Time: 2136-05-09 07:00:00, Stop Time: 2136-05-30 08:00:00
+- Apixaban (Administered) - Start Time: 2136-05-09 08:00:00, Stop Time: 2136-05-10 16:00:00
+- Multivitamins (Administered) - Start Time: 2136-05-09 04:00:00, Stop Time: 2136-05-30 20:00:00
+- OLANZapine (Administered) - Start Time: 2136-05-09 05:00:00, Stop Time: 2136-05-30 20:00:00
+- Omeprazole (Administered) - Start Time: 2136-05-09 05:00:00, Stop Time: 2136-05-30 20:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2136-05-09 04:00:00, Stop Time: 2136-05-29 13:00:00
+- Apixaban (Administered) - Start Time: 2136-05-09 08:00:00, Stop Time: 2136-05-10 16:00:00

@@ -1,0 +1,76 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 45
+  (3) race: OTHER
+  (4) admission type: EW EMER.
+  (5) admit time: 2115-07-04 10:38:00
+  (6) discharge time: 2115-07-12 16:20:00
+  (7) transfer history: 
+2115-07-04 09:12:00 - 2115-07-04 10:43:42: Emergency Department
+2115-07-04 10:43:42 - 2115-07-04 17:37:43: Discharge Lounge
+2115-07-04 17:37:43 - 2115-07-06 16:14:20: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2115-07-06 16:14:20 - 2115-07-10 22:08:04: Neuro Intermediate
+2115-07-10 22:08:04 - 2115-07-12 16:38:56: Neurology
+2115-07-12 16:38:56: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2115-07-04 11:21:00        41.1        13.5 30.2  32.8 92.0     276.0 4.47 13.2    NaN 14.0
+2115-07-05 02:26:00        33.7        11.1 30.7  32.9 93.0     228.0 3.62 13.1    NaN 10.9
+2115-07-06 02:08:00        35.7        11.6 30.1  32.5 93.0     213.0 3.85 13.4    NaN 10.8
+2115-07-07 02:27:00        34.5        11.4 30.3  33.0 92.0     243.0 3.76 13.1    NaN 10.9
+2115-07-08 06:23:00        33.7        11.1 30.2  32.9 92.0     238.0 3.68 13.3    NaN  8.4
+2115-07-09 11:09:00        34.9        11.8 30.6  33.8 91.0     261.0 3.85 13.4    NaN 10.4
+2115-07-10 18:10:00        35.9        11.7 30.1  32.6 92.0     259.0 3.89 13.8    NaN  8.7
+2115-07-11 05:45:00        35.6        11.6 30.4  32.6 93.0     265.0 3.81 13.9    NaN  7.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2115-07-10 08:00:00
+sbp: 110.0
+dbp: 72.0
+mbp: 82.0
+sbp_ni: 110.0
+dbp_ni: 72.0
+mbp_ni: 82.0
+resp_rate: 14.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Cerebral infarction due to thrombosis of right middle cerebral artery
+   drg_type: APR
+   description: EXTRACRANIAL VASCULAR PROCEDURES
+   drg_severity: 4
+   drg_mortality: 3
+2. Cerebral infarction due to thrombosis of right middle cerebral artery
+   drg_type: HCFA
+   description: CRANIOTOMY W MAJOR DEVICE IMPLANT OR ACUTE COMPLEX CNS PDX W MCC OR CHEM
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 10 mL, started at 2115-07-04 19:00:00 and stopped at 2115-07-12 21:00:00
+- Flushed: Sodium Chloride 0.9% Flush, 10 mL, started at 2115-07-04 19:00:00 and stopped at 2115-07-12 21:00:00
+- Administered: Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride, 20 mg, started at 2115-07-04 19:00:00 and stopped at 2115-07-06 17:00:00
+- Administered: Heparin, 5000 UNIT, started at 2115-07-04 20:00:00 and stopped at 2115-07-04 23:00:00
+- Administered: Acetaminophen IV, 1000 mg, started at 2115-07-04 22:00:00 and stopped at 2115-07-04 23:00:00
+- Administered: HYDROmorphone (Dilaudid), 0.25 mg, started at 2115-07-05 01:00:00 and stopped at 2115-07-05 03:00:00
+- Flushed: Sodium Chloride 0.9% Flush, 10 mL, started at 2115-07-04 19:00:00 and stopped at 2115-07-12 21:00:00
+- Administered: Potassium Chloride 20 mEq / 50 mL Sterile Water, 20 mEq, started at 2115-07-05 04:00:00 and stopped at 2115-07-06 16:00:00
+- Administered: Potassium Chloride 20 mEq / 50 mL Sterile Water, 20 mEq, started at 2115-07-05 04:00:00 and stopped at 2115-07-06 16:00:00
+- Administered: Acetaminophen IV, 1000 mg, started at 2115-07-05 06:00:00 and stopped at 2115

@@ -1,0 +1,66 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 71
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2191-08-13 01:21:00
+  (6) discharge time: 2191-08-14 14:38:00
+  (7) transfer history: 
+2191-08-12 23:54:00 - 2191-08-13 01:55:00: Emergency Department
+2191-08-13 01:55:00 - 2191-08-13 20:26:07: Trauma SICU (TSICU)
+2191-08-13 20:26:07 - 2191-08-13 23:57:29: Med/Surg/Trauma
+2191-08-13 23:57:29 - 2191-08-14 14:39:54: Med/Surg/Trauma
+2191-08-14 14:39:54: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+Empty DataFrame
+Columns: [charttime, hematocrit, hemoglobin, mch, mchc, mcv, platelet, rbc, rdw, rdwsd, wbc]
+Index: []
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2191-08-13 20:00:00
+sbp: 135.0
+dbp: 78.0
+mbp: 90.0
+sbp_ni: 135.0
+dbp_ni: 78.0
+mbp_ni: 90.0
+resp_rate: 16.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Multiple fractures of ribs, bilateral, initial encounter for closed fracture
+   drg_type: HCFA
+   description: MAJOR CHEST TRAUMA W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Multiple fractures of ribs, bilateral, initial encounter for closed fracture
+   drg_type: APR
+   description: MAJOR CHEST & RESPIRATORY TRAUMA
+   drg_severity: 3
+   drg_mortality: 2
+
+Medication:
+- HYDROmorphone (Dilaudid) - Administered from 2191-08-13 03:00:00 to 2191-08-14 18:00:00
+- Acetaminophen 325mg Tablet - Administered from 2191-08-13 03:00:00 to 2191-08-14 18:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial - Administered from 2191-08-13 03:00:00 to 2191-08-14 18:00:00
+- OxycoDONE (Immediate Release) 5mg Tablet - Administered from 2191-08-13 03:00:00 to 2191-08-14 18:00:00
+- Acetaminophen 325mg Tablet - Administered from 2191-08-13 03:00:00 to 2191-08-14 18:00:00
+- Hydrochlorothiazide 25mg Tablet - Administered from 2191-08-14 08:00:00 to 2191-08-14 18:00:00
+- OxycoDONE (Immediate Release) 5mg Tablet - Administered from 2191-08-13 03:00:00 to 2191-08-14 18:00:00

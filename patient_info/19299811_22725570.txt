@@ -1,0 +1,70 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 77
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2191-12-22 01:50:00
+  (6) discharge time: 2191-12-26 19:45:00
+  (7) transfer history: 
+2191-12-21 20:36:00 - 2191-12-22 02:53:00: Emergency Department
+2191-12-22 02:53:00 - 2191-12-24 06:17:58: Cardiac Vascular Intensive Care Unit (CVICU)
+2191-12-24 06:17:58 - 2191-12-26 20:20:49: Medicine/Cardiology
+2191-12-26 20:20:49: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2191-12-21 21:26:00        23.9         7.3 29.4  30.5 96.0     193.0 2.48 18.0    NaN  8.5
+2191-12-22 03:15:00        25.6         7.8 29.1  30.5 96.0     192.0 2.68 18.1    NaN  7.5
+2191-12-23 04:53:00        22.3         6.7 28.8  30.0 96.0     203.0 2.33 18.2    NaN  9.4
+2191-12-24 02:52:00        22.7         7.0 29.3  30.8 95.0     218.0 2.39 18.2    NaN  9.1
+2191-12-25 06:40:00        22.9         6.9 29.0  30.1 96.0     188.0 2.38 18.1    NaN  7.1
+2191-12-26 06:30:00        21.9         6.5 29.0  29.7 98.0     182.0 2.24 18.1    NaN  6.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2192-06-24 04:00:00
+sbp: 107.0
+dbp: 35.0
+mbp: 61.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.5
+temperature: 37.670000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 2
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Acute on chronic diastolic heart failure
+   drg_type: HCFA
+   description: HEART FAILURE & SHOCK W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Acute on chronic diastolic heart failure
+   drg_type: APR
+   description: HEART FAILURE
+   drg_severity: 3
+   drg_mortality: 4
+
+Medication:
+- Amiodarone 200 mg Tab (Administered) - Start Time: 2191-12-22 04:00:00, Stop Time: 2191-12-27 00:00:00
+- Aspirin 81mg Tab (Administered) - Start Time: 2191-12-22 04:00:00, Stop Time: 2191-12-27 00:00:00
+- Cyanocobalamin 100 mcg Tablet (Administered) - Start Time: 2191-12-22 04:00:00, Stop Time: 2191-12-27 00:00:00
+- Ferrous Sulfate 325 mg Tablet (Administered) - Start Time: 2191-12-22 04:00:00, Stop Time: 2191-12-27 00:00:00
+- HydrALAzine 50 mg Tab (Administered) - Start Time: 2191-12-22 04:00:00, Stop Time: 2191-12-27 00:00:00
+- Isosorbide Dinitrate 10mg Tab (Administered) - Start Time: 2191-12-22 04:00:00, Stop Time: 2191-12-25 13:00:00
+- Omeprazole 20mg DR Capsule (Administered) - Start Time: 2191-12-22 04:00:00, Stop Time: 2191-12-27 00:00:00
+- Sodium Bicarbonate 650mg Tab (Administered) - Start Time: 2191-12-22 04:00:00, Stop Time: 2191-12-24 12:00:00

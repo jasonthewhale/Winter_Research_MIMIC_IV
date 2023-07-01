@@ -1,0 +1,127 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 70
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2174-09-28 19:14:00
+  (6) discharge time: 2174-10-15 16:15:00
+  (7) transfer history: 
+2174-09-28 15:39:00 - 2174-09-28 20:36:00: Emergency Department
+2174-09-28 20:36:00 - 2174-10-05 11:33:18: Medicine/Cardiology
+2174-10-07 09:29:17 - 2174-10-15 17:00:25: Cardiology Surgery Intermediate
+2174-10-05 11:33:18 - 2174-10-05 15:10:25: PACU
+2174-10-05 15:10:25 - 2174-10-07 09:29:17: Cardiac Vascular Intensive Care Unit (CVICU)
+2174-10-15 17:00:25: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2174-09-29 07:26:00        33.5        11.1 29.8  33.1 90.0     152.0 3.73 13.3    NaN  4.3
+2174-09-30 07:55:00        34.3        11.4 29.9  33.2 90.0     137.0 3.81 13.3    NaN  4.4
+2174-10-01 07:37:00        33.7        11.2 30.0  33.2 90.0     134.0 3.73 13.2    NaN  4.8
+2174-10-03 07:26:00        37.8        12.4 29.9  32.8 91.0     138.0 4.15 13.2    NaN  5.0
+2174-10-04 06:32:00        39.8        13.4 30.3  33.7 90.0     158.0 4.42 13.2    NaN  5.8
+2174-10-05 07:51:00        35.6        12.0 30.2  33.7 89.0     135.0 3.98 13.2    NaN  5.6
+2174-10-05 17:27:00        21.5         7.2 30.0  33.5 90.0      76.0 2.40 13.2    NaN  6.3
+2174-10-05 18:04:00        24.9         8.2 29.7  32.9 90.0     110.0 2.76 13.2    NaN 10.8
+2174-10-05 20:37:00        20.7         NaN  NaN   NaN  NaN     122.0  NaN  NaN    NaN  NaN
+2174-10-06 00:11:00        20.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2174-10-06 01:52:00        22.3         7.5 30.0  33.6 89.0      99.0 2.50 13.3    NaN  6.6
+2174-10-06 03:48:00        26.4         NaN  NaN   NaN  NaN      86.0  NaN  NaN    NaN  NaN
+2174-10-06 12:02:00        25.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2174-10-07 01:51:00        24.4         8.4 30.4  34.4 88.0      71.0 2.76 14.1    NaN  7.3
+2174-10-08 05:08:00        23.5         8.0 30.2  34.0 89.0      98.0 2.65 13.7    NaN  7.8
+2174-10-09 03:50:00        21.2         7.2 30.1  34.0 89.0     112.0 2.39 13.5    NaN  5.8
+2174-10-10 04:42:00        22.3         7.4 30.2  33.2 91.0     125.0 2.45 13.8    NaN  5.2
+2174-10-11 05:10:00        22.8         7.6 30.3  33.3 91.0     158.0 2.51 14.1    NaN  5.6
+2174-10-12 03:09:00        23.3         7.4 29.1  31.8 92.0     170.0 2.54 14.0    NaN  5.4
+2174-10-13 05:30:00        24.2         7.8 29.7  32.2 92.0     212.0 2.63 14.0    NaN  5.7
+2174-10-14 05:16:00        24.1         7.7 29.3  32.0 92.0     212.0 2.63 14.2    NaN  5.1
+2174-10-15 05:05:00        23.4         7.6 29.7  32.5 91.0     216.0 2.56 14.2    NaN  5.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2174-10-05 18:40:00
+sbp: 111.0
+dbp: 71.0
+mbp: 86.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 11.0
+temperature: 36.000000000
+temperature_site: Blood
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 1
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 3
+2. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W CARD CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Metoprolol Tartrate: 
+  - Start Time: 2174-09-28 23:00:00
+  - Stop Time: 2174-09-29 23:00:00
+  - Dose Given: 25 mg
+  - Dose Given Unit: mg
+  - Product Amount Given: 1
+  - Product Unit: TAB
+  - Product Code: METO25
+  - Product Description: Metoprolol Tartrate
+  
+- Zolpidem Tartrate: 
+  - Start Time: 2174-09-29 00:00:00
+  - Stop Time: 2174-10-05 17:00:00
+  - Dose Given: 5 mg
+  - Dose Given Unit: mg
+  - Product Amount Given: 1
+  - Product Unit: TAB
+  - Product Code: AMBI5
+  - Product Description: Zolpidem Tartrate 5mg Tablet
+  
+- Sodium Chloride 0.9% Flush: 
+  - Start Time: 2174-09-28 23:00:00
+  - Stop Time: 2174-10-05 17:00:00
+  - Dose Given: 3 mL
+  - Dose Given Unit: mL
+  - Product Amount Given: 0.3
+  - Product Unit: SYR
+  - Product Code: NACLFLUSH
+  - Product Description: Sodium Chloride 0.9% Flush
+  
+- Aspirin 81mg Tab: 
+  - Start Time: 2174-09-29 08:00:00
+  - Stop Time: 2174-10-05 17:00:00
+  - Dose Given: 81 mg
+  - Dose Given Unit: mg
+  - Product Amount Given: 1
+  - Product Unit: TAB
+  - Product Code: ASA81
+  - Product Description: Aspirin 81mg Tab
+  
+- Clopidogrel 75 mg Tablet: 
+  - Start Time: 2174-09-29 08:00:00
+  - Stop Time: 2174-09-29 18:00:00
+  - Dose Given: 75 mg
+  - Dose Given Unit: mg
+  - Product Amount Given: 1
+  - Product Unit

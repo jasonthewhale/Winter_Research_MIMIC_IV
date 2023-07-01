@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 55
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2177-04-27 22:47:00
+  (6) discharge time: 2177-05-04 18:15:00
+  (7) transfer history: 
+2177-04-27 19:26:00 - 2177-04-28 01:25:00: Emergency Department
+2177-04-28 01:25:00 - 2177-04-28 16:32:16: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2177-04-28 20:04:03 - 2177-05-04 18:33:47: Neuro Intermediate
+2177-04-28 16:32:16 - 2177-04-28 20:04:03: Neuro Intermediate
+2177-05-04 18:33:47: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2177-04-28 02:54:00        38.0        12.4 28.6  32.6 88.0     265.0 4.34 13.5    NaN 10.9
+2177-04-29 05:45:00        38.6        12.9 29.3  33.4 88.0     276.0 4.40 13.4    NaN  9.3
+2177-04-30 06:00:00        36.9        12.3 28.7  33.3 86.0     239.0 4.29 13.2    NaN  7.9
+2177-05-01 06:30:00        38.5        13.2 29.4  34.3 86.0     223.0 4.49 13.2    NaN  7.5
+2177-05-03 06:10:00        37.6        12.5 28.9  33.2 87.0     247.0 4.33 13.5    NaN  6.9
+2177-05-04 09:07:00        41.5        13.8 29.7  33.3 89.0     271.0 4.65 14.0    NaN  7.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2177-05-03 00:00:00
+sbp: 118.0
+dbp: 76.0
+mbp: nan
+sbp_ni: 118.0
+dbp_ni: 76.0
+mbp_ni: nan
+resp_rate: 20.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Cerebral infarction due to embolism of left middle cerebral artery
+   drg_type: APR
+   description: CVA & PRECEREBRAL OCCLUSION W INFARCT
+   drg_severity: 3
+   drg_mortality: 1
+2. Cerebral infarction due to embolism of left middle cerebral artery
+   drg_type: HCFA
+   description: INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W CC OR TPA IN 24 HRS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, started on 2177-04-28 03:00:00 and stopped on 2177-05-04 23:00:00
+- Administered: Acetaminophen IV, 1000 mg, started on 2177-04-28 04:00:00 and stopped on 2177-04-28 08:00:00
+- Administered: Docusate Sodium 100mg Capsule, 100 mg, started on 2177-04-28 03:00:00 and stopped on 2177-05-04 23:00:00
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial, 5000 UNIT, started on 2177-04-28 03:00:00 and stopped on 2177-05-04 23:00:00
+- Administered: Acetaminophen 325mg Tablet, 325 mg, started on 2177-04-28 03:00:00 and stopped on 2177-05-04 23:00:00
+- Administered: Acetaminophen 325mg Tablet, 325 mg, started on 2177-04-28 03:00:00 and stopped on 2177-05-04 23:00:00
+- Flushed: Sodium Chloride 0.9% Flush, 10 mL, started on 2177-04-28 03:00:00 and stopped on 2177-05-04 23:00:00
+- Administered: Topiramate (Topamax) 25mg Tablet, 25 mg, started on 2177-04-28 11:00:00 and stopped on 2177-05-04 23:00:00
+- Administered: Topiramate (Topamax) 25mg Tablet, 25 mg, started on 2177-04-28 11:00:00 and stopped on 2177-05-04 23:00:00
+- Administered: Topiramate (Topamax) 25mg Tablet, 25 mg, started on 2177-04-28 11:00:00 and stopped on 2177-05

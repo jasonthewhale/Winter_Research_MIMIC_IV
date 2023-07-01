@@ -1,0 +1,82 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 72
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2168-08-24 16:04:00
+  (6) discharge time: 2168-09-03 14:38:00
+  (7) transfer history: 
+2168-08-24 14:43:00 - 2168-08-24 16:04:39: Emergency Department
+2168-08-24 16:04:39 - 2168-08-24 20:29:48: Medicine/Cardiology
+2168-08-26 14:26:40 - 2168-08-28 00:41:33: Medicine
+2168-08-31 17:19:21 - 2168-08-31 17:21:28: Medicine/Cardiology
+2168-08-31 17:26:44 - 2168-09-03 14:39:00: Medicine/Cardiology
+2168-08-24 20:29:48 - 2168-08-26 14:26:40: Medicine/Cardiology
+2168-08-31 17:21:28 - 2168-08-31 17:26:44: Medicine/Cardiology
+2168-08-28 00:41:33 - 2168-08-31 17:19:21: Coronary Care Unit (CCU)
+2168-09-03 14:39:00: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2168-08-25 06:20:00        22.1         7.2 32.7  32.6 101.0     114.0 2.20 15.0    NaN  5.1
+2168-08-25 17:00:00        24.2         7.9 32.5  32.6 100.0     112.0 2.43 15.0    NaN  6.2
+2168-08-26 05:15:00        23.5         7.6 32.6  32.3 101.0     121.0 2.33 15.2    NaN  7.0
+2168-08-27 05:50:00        24.1         7.6 32.3  31.5 103.0     112.0 2.35 15.6    NaN  8.6
+2168-08-27 10:35:00        22.7         7.3 33.2  32.2 103.0      91.0 2.20 15.4    NaN  8.3
+2168-08-28 09:12:00        26.6         8.6 32.8  32.3 102.0     120.0 2.62 15.1    NaN 10.2
+2168-08-28 18:00:00        29.7         9.8 32.6  33.0  99.0     145.0 3.01 16.7    NaN 12.8
+2168-08-29 03:45:00        28.7         9.2 31.6  32.1  99.0     152.0 2.91 16.7    NaN 10.0
+2168-08-30 03:15:00        29.8         9.7 32.0  32.6  98.0     168.0 3.03 16.6    NaN  8.5
+2168-08-31 09:05:00        27.3         8.8 32.0  32.2  99.0     154.0 2.75 16.8    NaN 10.8
+2168-09-01 04:25:00        28.6         9.0 32.0  31.5 102.0     160.0 2.81 17.3    NaN 13.7
+2168-09-02 04:30:00        28.5         8.9 32.1  31.2 103.0     162.0 2.77 17.5    NaN 11.9
+2168-09-03 05:45:00        31.3         9.7 32.3  31.0 104.0     173.0 3.00 18.2    NaN 10.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2168-08-29 16:00:00
+sbp: 128.0
+dbp: 34.0
+mbp: 55.0
+sbp_ni: 128.0
+dbp_ni: 34.0
+mbp_ni: 55.0
+resp_rate: 18.0
+temperature: 36.330000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 4
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Atrioventricular block, second degree
+   drg_type: HCFA
+   description: PERMANENT CARDIAC PACEMAKER IMPLANT W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Atrioventricular block, second degree
+   drg_type: APR
+   description: PERM CARDIAC PACEMAKER IMPLANT W/O AMI, HEART FAILURE OR SHOCK
+   drg_severity: 3
+   drg_mortality: 2
+
+Medication:
+- Allopurinol 100mg Tab (Administered) - Start Time: 2168-08-24 23:00:00, Stop Time: 2168-09-03 19:00:00
+- Atorvastatin (Administered) - Start Time: 2168-08-24 23:00:00, Stop Time: 2168-08-28 01:00:00
+- CloniDINE 0.1mg Tablet (Administered) - Start Time: 2168-08-24 23:00:00, Stop Time: 2168-08-27 14:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2168-08-24 23:00:00, Stop Time: 2168-09-03 19:00:00
+- Torsemide 100 mg Tab (Administered) - Start Time: 2168-08-24 23:00:00, Stop Time: 2168-08-25 08:00:00
+- Amlodipine 5mg Tablet (Administered) - Start Time: 2168-08-24 23:00:00, Stop Time: 2168-08-28 01:00:00
+- Calcium Acetate 667mg Capsule (Administered) - Start Time: 2168-08-24 23:00:00, Stop Time: 2168-09-03 19:00:00
+- CefazoLIN 1 g / 50 mL Iso-Osmotic Dextrose (Administered) - Start Time: 2168-08-24 21:00:00, Stop Time: 2168-08-25 20:00:00

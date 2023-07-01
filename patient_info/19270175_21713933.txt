@@ -1,0 +1,98 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 64
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2126-01-27 19:30:00
+  (6) discharge time: 2126-02-27 06:20:00
+  (7) transfer history: 
+2126-01-27 17:06:00 - 2126-01-27 19:34:00: Emergency Department
+2126-01-27 19:34:00 - 2126-01-30 21:30:28: Coronary Care Unit (CCU)
+2126-01-30 21:30:28 - 2126-01-31 12:22:05: Medicine/Cardiology Intermediate
+2126-02-02 18:41:59 - 2126-02-27 13:23:44: Medicine/Cardiology Intermediate
+2126-01-31 12:22:05 - 2126-02-02 18:41:59: Coronary Care Unit (CCU)
+2126-02-27 13:23:44: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2126-01-28 05:40:00        24.9         8.4 31.1  33.7  92.0     288.0 2.70 15.2    NaN  9.5
+2126-01-28 10:30:00        24.7         8.4 31.1  34.0  92.0     291.0 2.70 15.2    NaN  7.8
+2126-01-28 14:15:00        24.8         8.4 31.3  33.9  93.0     280.0 2.68 15.1    NaN  8.0
+2126-01-29 03:14:00        23.5         7.8 30.5  33.2  92.0     255.0 2.56 15.3    NaN  6.7
+2126-01-30 03:17:00        23.7         7.9 31.2  33.3  94.0     260.0 2.53 15.6    NaN  6.3
+2126-01-31 06:15:00        27.7         9.0 31.0  32.5  96.0     304.0 2.90 15.8    NaN 12.3
+2126-01-31 13:07:00        25.3         8.2 30.8  32.4  95.0     252.0 2.66 15.8    NaN 10.3
+2126-02-01 07:23:00        23.2         7.8 31.3  33.6  93.0     230.0 2.49 15.7    NaN  8.6
+2126-02-02 05:00:00        21.6         7.2 31.4  33.3  94.0     225.0 2.29 16.1    NaN  7.7
+2126-02-03 03:05:00        22.9         7.4 31.4  32.3  97.0     250.0 2.36 16.7    NaN  8.1
+2126-02-04 03:52:00        24.6         7.9 31.5  32.1  98.0     274.0 2.51 17.2    NaN  9.7
+2126-02-05 05:12:00        21.8         7.1 31.3  32.6  96.0     232.0 2.27 17.2    NaN  9.2
+2126-02-06 05:56:00        21.4         7.0 31.4  32.7  96.0     218.0 2.23 17.5    NaN  8.8
+2126-02-07 06:00:00        22.4         7.2 31.4  32.1  98.0     247.0 2.29 17.7    NaN  9.3
+2126-02-08 05:24:00        21.9         7.2 32.1  32.9  98.0     254.0 2.24 18.0    NaN  8.8
+2126-02-09 05:48:00        22.4         7.3 31.1  32.6  95.0     239.0 2.35 17.9    NaN  8.3
+2126-02-10 05:23:00        22.9         7.3 31.5  31.9  99.0     227.0 2.32 17.7    NaN  7.9
+2126-02-11 05:03:00        22.8         7.2 31.3  31.6  99.0     248.0 2.30 17.9    NaN  8.2
+2126-02-12 05:06:00        22.7         7.2 31.3  31.7  99.0     221.0 2.30 18.0    NaN  7.8
+2126-02-13 05:16:00        24.5         7.6 30.9  31.0 100.0     249.0 2.46 18.1    NaN  7.8
+2126-02-14 04:55:00        24.6         7.8 31.7  31.7 100.0     244.0 2.46 18.0    NaN  8.9
+2126-02-15 04:42:00        23.8         7.5 31.9  31.5 101.0     246.0 2.35 17.9    NaN  7.8
+2126-02-16 05:21:00        23.1         7.3 31.7  31.6 100.0     225.0 2.30 18.1    NaN  8.5
+2126-02-17 05:09:00        24.3         7.5 31.5  30.9 102.0     222.0 2.38 18.2    NaN  8.4
+2126-02-18 05:52:00        23.6         7.4 31.6  31.4 101.0     224.0 2.34 18.0    NaN  7.5
+2126-02-19 05:20:00        23.8         7.4 31.5  31.1 101.0     225.0 2.35 18.0    NaN  6.0
+2126-02-20 05:42:00        23.9         7.4 31.4  31.0 101.0     220.0 2.36 18.0    NaN  5.8
+2126-02-21 05:35:00        22.6         7.1 31.6  31.4 100.0     223.0 2.25 17.2    NaN  6.5
+2126-02-22 04:40:00        22.9         7.2 30.6  31.4  97.0     227.0 2.35 16.6    NaN  7.4
+2126-02-23 06:05:00        21.6         7.1 31.7  32.9  96.0     243.0 2.24 16.2    NaN  7.0
+2126-02-24 04:26:00        20.9         7.0 31.5  33.5  94.0     233.0 2.22 15.8    NaN  6.9
+2126-02-25 05:34:00        20.9         6.9 31.1  33.0  94.0     247.0 2.22 15.5    NaN  6.6
+2126-02-26 05:54:00        20.7         6.9 31.2  33.3  94.0     255.0 2.21 15.3    NaN  6.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2123-10-05 22:00:00
+sbp: 139.0
+dbp: 69.0
+mbp: 91.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 11.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Acute on chronic systolic (congestive) heart failure
+   drg_type: HCFA
+   description: HEART FAILURE & SHOCK W MCC OR PERIPHERAL EXTRACORPOREAL MEMBRANE OXYGEN
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Acute on chronic systolic (congestive) heart failure
+   drg_type: APR
+   description: HEART FAILURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Furosemide: Administered from 2126-01-27 23:00:00 to 2126-01-28 09:00:00
+- Amiodarone: Administered from 2126-01-28 08:00:00 to 2126-01-28 09:00:00
+- Atorvastatin: Administered from 2126-01-27 23:00:00 to 2126-01-30 12:00:00
+- BusPIRone: Administered from 2126-01-27 23:00:00 to 2126-02-26 15:00:00
+- Clotrimazole: Administered from 2126-01-27 23:00:00 to 2126-02-26 15:00:00
+- Sodium Chloride 0.9% Flush: Administered from 2126-01-27 22:00:00 to 2126-02-19 01:00:00
+- Acetaminophen: Administered from 2126-01-27 23:00:00 to 2126-02-27 17:00:00

@@ -1,0 +1,70 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 46
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2146-11-26 17:39:00
+  (6) discharge time: 2146-12-03 16:25:00
+  (7) transfer history: 
+2146-11-26 17:40:05 - 2146-11-27 14:10:41: Neurology
+2146-11-27 14:10:41 - 2146-11-27 19:20:51: PACU
+2146-11-29 06:44:19 - 2146-12-03 16:25:46: Med/Surg
+2146-11-27 19:20:51 - 2146-11-28 01:51:48: Transplant
+2146-11-28 01:53:40 - 2146-11-28 02:25:43: Transplant
+2146-11-28 02:25:43 - 2146-11-29 06:44:19: Trauma SICU (TSICU)
+2146-11-28 01:51:48 - 2146-11-28 01:53:40: Trauma SICU (TSICU)
+2146-12-03 16:25:46: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2146-11-26 19:45:00        22.5         6.9 32.1  30.7 105.0     116.0 2.15 14.7    NaN  5.5
+2146-11-28 00:11:00        19.5         6.2 30.8  31.8  97.0      94.0 2.01 17.0    NaN  5.6
+2146-11-28 06:17:00        21.2         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2146-11-28 14:07:00        19.9         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2146-11-29 02:09:00        24.0         8.0 30.4  33.3  91.0     101.0 2.63 17.9    NaN  3.6
+2146-11-30 04:51:00        23.8         7.7 29.8  32.4  92.0     101.0 2.58 17.5    NaN  4.9
+2146-12-01 06:49:00        25.9         8.3 30.2  32.0  94.0     122.0 2.75 17.2    NaN  4.4
+2146-12-02 04:54:00        27.4         8.6 29.6  31.4  94.0     146.0 2.91 16.9    NaN  7.3
+2146-12-03 05:38:00        27.8         8.7 30.1  31.3  96.0     197.0 2.89 16.6    NaN  6.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2142-07-08 08:00:00
+sbp: 116.0
+dbp: 49.0
+mbp: 69.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 13.0
+temperature: 37.500000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: 2
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 3
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Other specified complication of vascular prosthetic devices, implants and grafts, initial encounter
+   drg_type: HCFA
+   description: OTHER VASCULAR PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Docusate Sodium 100mg Capsule: Administered from 2146-11-26 22:00:00 to 2146-11-28 05:00:00
+- Ferrous Sulfate 325 mg Tablet: Administered from 2146-11-26 22:00:00 to 2146-11-28 05:00:00
+- LaMOTrigine 100mg Tablet: Administered from 2146-11-26 22:00:00 to 2146-12-03 20:00:00
+- LeVETiracetam: Administered from 2146-11-26 22:00:00 to 2146-11-28 05:00:00
+- Acetaminophen 325mg Tablet: Administered from 2146-11-26 22:00:00 to 2146-12-03 20:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial: Administered from 2146-11-26 18:00:00 to 2146-12-03 20:00:00

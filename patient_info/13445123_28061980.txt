@@ -1,0 +1,67 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 64
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2143-03-03 00:00:00
+  (6) discharge time: 2143-03-05 12:30:00
+  (7) transfer history: 
+2143-03-03 05:38:24 - 2143-03-03 21:53:22: Discharge Lounge
+2143-03-03 22:34:41 - 2143-03-05 01:14:35: Neuro Intermediate
+2143-03-03 21:53:22 - 2143-03-03 22:34:41: PACU
+2143-03-05 01:14:35 - 2143-03-05 12:34:14: Neurology
+2143-03-05 12:34:14: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2143-03-04 04:17:00        30.1         9.8 32.8  32.6 101.0     263.0 2.99 13.6    NaN 13.8
+2143-03-05 05:35:00        29.7         9.6 33.0  32.3 102.0     251.0 2.91 13.8    NaN 17.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2143-03-04 00:00:00
+sbp: 108.0
+dbp: 53.0
+mbp: 74.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 11.0
+temperature: 36.940000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Cerebral aneurysm, nonruptured
+   drg_type: APR
+   description: CRANIOTOMY EXCEPT FOR TRAUMA
+   drg_severity: 2
+   drg_mortality: 1
+2. Cerebral aneurysm, nonruptured
+   drg_type: HCFA
+   description: CRANIOTOMY & ENDOVASCULAR INTRACRANIAL PROCEDURES W/O CC/MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen 500mg Tablet (dose: 500mg, unit: mg, start time: 2143-03-03 11:00:00, stop time: 2143-03-04 10:00:00)
+- Atenolol 50 mg Tab (dose: 50mg, unit: mg, start time: 2143-03-03 20:00:00, stop time: 2143-03-05 16:00:00)
+- Atorvastatin (dose: 80mg, unit: mg, start time: 2143-03-03 20:00:00, stop time: 2143-03-05 16:00:00)
+- Brimonidine Tartrate 0.15% Ophth. 5mL Dropper Bottle (dose: 1 drop, unit: None, start time: 2143-03-03 20:00:00, stop time: 2143-03-05 16:00:00)
+- OxyCODONE (Immediate Release) 5mg Tablet (dose: 5mg, unit: mg, start time: 2143-03-03 23:00:00, stop time: 2143-03-05 16:00:00)
+- Fluticasone-Salmeterol Diskus (100/50) 100/50 mcg Diskus (dose: 1 inh, unit: None, start time: 2143-03-03 20:00:00, stop time: 2143-03-05 16:00:00)
+- TraZODone 50mg Tablet (dose: 50mg, unit: mg, start time: 2143-03-03 23:00:00, stop time: 2143-03-05 16:00:00)
+- Morphine Sulfate (dose: 1mg, unit: mg, start time: 2143-03-03 23:00:00, stop time: 2143-03-05 16:00:00)

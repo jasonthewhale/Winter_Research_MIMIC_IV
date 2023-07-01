@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 64
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2182-12-25 19:06:00
+  (6) discharge time: 2182-12-30 13:18:00
+  (7) transfer history: 
+2182-12-25 19:08:43 - 2182-12-27 12:07:06: Cardiac Vascular Intensive Care Unit (CVICU)
+2182-12-27 12:07:06 - 2182-12-30 13:18:36: Cardiac Surgery
+2182-12-30 13:18:36: discharge
+
+2. Medical Data
+(1) heart rate: 
+2182-12-26 19:00:00-ST (Sinus Tachycardia)
+2182-12-26 19:00:00-PVC's (Premature Ventricular Contractions)-Occasional
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2182-12-25 19:50:00        40.6        13.4 30.0  33.0 91.0     234.0 4.46 12.5    NaN  9.8
+2182-12-26 11:34:00        33.9        11.4 31.3  33.6 93.0     147.0 3.64 12.4    NaN 14.8
+2182-12-26 12:45:00        35.0        11.6 30.5  33.1 92.0     171.0 3.80 12.4    NaN 15.2
+2182-12-26 18:21:00        36.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2182-12-27 03:31:00        32.9        10.9 30.6  33.1 92.0     176.0 3.56 12.5    NaN 16.1
+2182-12-28 05:37:00        33.0        11.0 31.0  33.3 93.0     180.0 3.55 12.7    NaN 16.6
+2182-12-29 06:35:00        31.8        10.4 31.3  32.7 96.0     177.0 3.32 12.6    NaN 11.1
+2182-12-30 06:25:00        29.7         9.7 30.4  32.7 93.0     257.0 3.19 12.5    NaN  9.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2182-12-26 01:00:00
+sbp: 105.0
+dbp: 90.0
+mbp: 100.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery with unstable angina pectoris
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 1
+2. Atherosclerotic heart disease of native coronary artery with unstable angina pectoris
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Metoprolol Tartrate: Administered from 2182-12-25 20:00:00 to 2182-12-26 08:00:00, dose given: 12.5 mg
+- Mupirocin Ointment 2%: Administered from 2182-12-25 20:00:00 to 2182-12-26 08:00:00, dose given: 1 Appl
+- Simvastatin 10mg Tablet: Administered from 2182-12-25 20:00:00 to 2182-12-26 08:00:00, dose given: 10 mg
+- Mupirocin Ointment 2%: Administered from 2182-12-25 20:00:00 to 2182-12-26 08:00:00, dose given: 1 Appl
+- Fentanyl Citrate: Administered from 2182-12-26 09:00:00 to 2182-12-27 12:00:00, dose given: 25 mcg
+- Fentanyl Citrate: Administered from 2182-12-26 09:00:00 to 2182-12-27 12:00:00, dose given: 25 mcg
+- Glycopyrrolate 0.4 mg / 2 mL Vial: Administered from 2182-12-26 16:00:00 to 2182-12-27 12:00:00, dose given: 0.4 mg
+- Glycopyrrolate 0.4 mg / 2 mL Vial: Administered from 2182-12-26 16:00:00 to 2182-12-27 12:00:00, dose given: 0.4 mg
+- Glycopyrrolate 0.4 mg / 2 mL Vial: Administered from 2182-12-26 16:00:00 to 2182-12-27 12:00:00, dose given: 0.1 mg
+- Neostigmine: Administered from 2182-12-26 16:00:00 to 2182-12-27 12:00:00, dose given: 

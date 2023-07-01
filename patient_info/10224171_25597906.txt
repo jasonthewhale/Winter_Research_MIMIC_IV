@@ -1,0 +1,92 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 79
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2189-06-05 07:15:00
+  (6) discharge time: 2189-06-16 15:00:00
+  (7) transfer history: 
+2189-06-05 05:30:29 - 2189-06-05 20:58:43: Discharge Lounge
+2189-06-09 14:12:45 - 2189-06-09 14:16:30: PACU
+2189-06-05 20:58:43 - 2189-06-09 14:12:45: Med/Surg
+2189-06-13 17:52:36 - 2189-06-16 15:58:25: Med/Surg
+2189-06-11 22:12:39 - 2189-06-12 03:40:27: Med/Surg
+2189-06-09 14:16:30 - 2189-06-11 22:12:39: Trauma SICU (TSICU)
+2189-06-12 03:40:27 - 2189-06-13 17:52:36: Trauma SICU (TSICU)
+2189-06-16 15:58:25: discharge
+
+2. Medical Data
+(1) heart rate: 
+2189-08-03 20:31:00-2189-08-03 21:00:00 ST (Sinus Tachycardia) PVC's Rare
+2189-08-03 21:00:00-2189-08-03 22:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2189-08-03 22:00:00-2189-08-03 23:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2189-08-03 23:00:00-2189-08-04 00:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2189-08-04 00:00:00-2189-08-04 01:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2189-08-04 01:00:00-2189-08-04 02:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2189-08-04 02:00:00-2189-08-04 03:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2189-08-04 03:00:00-2189-08-04 04:00:00 ST (Sinus Tachycardia) PVC's Frequent
+2189-08-04 04:00:00-2189-08-04 05:00:00 ST (Sinus Tachycardia) Vent. Bigeminy Frequent
+2189-08-04 05:00:00-2189-08-04 06:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2189-08-04 06:00:00-2189-08-04 07:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2189-08-04 07:00:00-2189-08-04 09:00:00 ST (Sinus Tachycardia) PVC's Frequent
+2189-08-04 09:00:00-2189-08-04 10:
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2189-06-05 15:00:00        31.3        10.0 27.9  32.0 87.0     169.0 3.60 14.8    NaN  9.1
+2189-06-05 17:58:00        30.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2189-06-06 10:59:00        34.5        10.8 28.5  31.2 91.0     147.0 3.78 15.0    NaN  9.4
+2189-06-07 07:40:00        29.8         9.3 27.9  31.4 89.0     115.0 3.35 15.0    NaN  7.3
+2189-06-08 07:30:00        29.4         9.6 29.1  32.7 89.0     125.0 3.30 14.9    NaN  6.1
+2189-06-09 11:00:00        31.3         9.9 28.5  31.6 90.0     163.0 3.48 15.0    NaN  8.2
+2189-06-09 15:45:00        28.0         9.1 28.6  32.6 88.0     141.0 3.18 15.0    NaN  6.1
+2189-06-10 01:48:00        27.4         8.8 28.0  32.1 87.0     145.0 3.14 14.8    NaN  7.4
+2189-06-11 02:51:00        27.2         8.6 28.1  31.5 89.0     167.0 3.05 14.8    NaN  7.9
+2189-06-12 02:29:00        28.9         9.0 27.4  31.1 88.0     200.0 3.29 14.8    NaN 10.2
+2189-06-12 09:43:00        31.3         9.7 27.3  30.8 89.0     220.0 3.54 14.7    NaN 12.1
+2189-06-13 06:04:00        28.0         8.8 27.6  31.6 87.0     232.0 3.21 14.6    NaN 11.2
+2189-06-14 09:40:00        29.5         9.1 27.1  30.7 88.0     296.0 3.34 14.5    NaN 11.2
+2189-06-15 08:30:00        28.2         8.6 27.1  30.5 89.0     355.0 3.16 14.6    NaN  9.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2189-02-24 14:05:00
+sbp: 119.0
+dbp: 44.0
+mbp: 65.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 21.0
+temperature: 35.000000000
+temperature_site: Rectal
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Malignant neoplasm of lower lobe, bronchus or lung
+   drg_type: HCFA
+   description: MAJOR CHEST PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Malignant neoplasm of lower lobe, bronchus or lung
+   drg_type: APR
+   description: MAJOR RESPIRATORY & CHEST PROCEDURES
+   drg_severity: 2
+   drg_mortality: 2
+
+Medication:
+- Pantoprazole 40mg Tablet (Administered) - Start Time: 2189-06-05 20:00:00, Stop Time: 2189-06-09 14:00:00
+- Simvastatin (Administered) - Start Time: 2189-06-06 08:00:00, Stop Time: 2189-06-12 04:00:00
+- Tamsulosin 0.4mg Capsule (Administered) - Start Time: 2189-06-05 22:00:00, Stop Time: 2189-06-09 14:00:00
+- Insulin (Administered) - Start Time: 2189-06-05 22:00:00, Stop Time: 2189-06-07 21:00:00
+- Acetaminophen 325mg Tablet (Administered) - Start Time: 2189-06-05 22:00:00, Stop Time: 2189-06-11 22:00:00
+- Ipratropium-Albuterol Neb (Administered) - Start Time: 2189-06-06 01:00:00, Stop Time: 2189-06-06 09:00:00

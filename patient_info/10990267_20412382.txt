@@ -1,0 +1,93 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 68
+  (3) race: BLACK/AFRICAN
+  (4) admission type: URGENT
+  (5) admit time: 2159-09-30 04:56:00
+  (6) discharge time: 2159-10-21 17:15:00
+  (7) transfer history: 
+2159-09-29 22:22:00 - 2159-09-30 04:57:31: Emergency Department
+2159-09-30 04:57:31 - 2159-09-30 06:43:28: Med/Surg
+2159-10-03 19:10:57 - 2159-10-05 17:30:22: Med/Surg
+2159-09-30 11:44:01 - 2159-10-01 12:54:55: Med/Surg
+2159-10-08 02:01:01 - 2159-10-21 17:17:27: Med/Surg
+2159-10-05 17:30:22 - 2159-10-06 08:42:13: Med/Surg/Trauma
+2159-09-30 06:43:28 - 2159-09-30 11:44:01: Discharge Lounge
+2159-10-01 12:54:55 - 2159-10-03 19:10:57: Medical Intensive Care Unit (MICU)
+2159-10-06 08:42:13 - 2159-10-08 02:01:01: Surgical Intensive Care Unit (SICU)
+2159-10-21 17:17:27: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2159-09-30 15:39:00        31.8        10.3 27.2  32.4 84.0     131.0 3.79 15.1    NaN  4.5
+2159-10-01 04:50:00        30.2         9.7 27.1  32.1 84.0     121.0 3.58 15.1    NaN  4.1
+2159-10-01 13:12:00        34.1        10.8 26.9  31.7 85.0     121.0 4.02 15.0    NaN 10.7
+2159-10-02 04:47:00        32.8        10.4 26.9  31.7 85.0     115.0 3.87 15.2    NaN 16.9
+2159-10-03 03:06:00        28.6         9.3 27.0  32.5 83.0      93.0 3.44 14.8    NaN 10.1
+2159-10-04 06:47:00        27.7         8.8 26.8  31.8 85.0      78.0 3.28 15.0    NaN  6.8
+2159-10-04 16:52:00         NaN         NaN  NaN   NaN  NaN      72.0  NaN  NaN    NaN  NaN
+2159-10-05 05:10:00        27.1         8.7 27.0  32.1 84.0      71.0 3.22 14.7    NaN  5.6
+2159-10-05 19:22:00        27.2         8.6 26.9  31.6 85.0      74.0 3.20 14.8    NaN  8.4
+2159-10-06 06:50:00        25.8         8.1 26.8  31.4 85.0      70.0 3.02 15.0    NaN  7.4
+2159-10-06 07:48:00        25.6         8.1 27.1  31.6 86.0      75.0 2.99 15.0    NaN  7.1
+2159-10-06 13:36:00        24.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2159-10-06 19:15:00        23.5         7.4 27.0  31.5 86.0      74.0 2.74 15.1    NaN  7.5
+2159-10-07 02:41:00        23.7         7.4 27.0  31.2 87.0      77.0 2.74 15.2    NaN  8.2
+2159-10-08 07:16:00        22.7         7.1 27.0  31.3 86.0      80.0 2.63 15.1    NaN  8.2
+2159-10-09 07:20:00        22.6         7.0 26.0  31.0 84.0     132.0 2.69 14.8    NaN  5.9
+2159-10-10 06:41:00        22.4         7.2 27.0  32.1 84.0     173.0 2.67 14.8    NaN  5.2
+2159-10-11 06:37:00        22.6         7.0 26.1  31.0 84.0     209.0 2.68 15.0    NaN  6.7
+2159-10-11 15:26:00        23.3         7.3 26.5  31.3 85.0     213.0 2.75 15.0    NaN  6.7
+2159-10-12 06:57:00        22.2         7.1 27.0  32.0 84.0     252.0 2.63 15.0    NaN  7.5
+2159-10-13 06:12:00        23.1         7.3 26.8  31.6 85.0     300.0 2.72 15.3    NaN  7.7
+2159-10-14 05:59:00        22.8         7.2 26.6  31.6 84.0     299.0 2.71 15.3    NaN  8.6
+2159-10-15 05:54:00        24.2         7.6 26.5  31.4 84.0     373.0 2.87 15.3    NaN  7.7
+2159-10-17 16:53:00        27.4         8.3 26.6  30.3 88.0     344.0 3.12 15.9    NaN  6.4
+2159-10-18 06:56:00        24.9         7.6 25.9  30.5 85.0     390.0 2.93 15.4    NaN  4.6
+2159-10-19 06:37:00        24.6         7.9 26.8  32.1 83.0     409.0 2.95 15.2    NaN  5.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2159-10-03 00:00:00
+sbp: 134.0
+dbp: 82.0
+mbp: 93.0
+sbp_ni: 134.0
+dbp_ni: 82.0
+mbp_ni: 93.0
+resp_rate: 23.0
+temperature: 37.000000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 4
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Other digestive system complications
+   drg_type: HCFA
+   description: MAJOR SMALL & LARGE BOWEL PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Labetalol 100mg Tablet (dose: 50mg, start time: 2159-09-30 15:00:00, stop time: 2159-09-30 15:00:00)
+- Labetalol 100mg Tablet (dose: 100mg, start time: 2159-09-30 15:00:00, stop time: 2159-09-30 15:00:00)
+- Labetalol 100mg Tablet (dose: 100mg, start time: 2159-09-30 17:00:00, stop time: 2159-10-01 13:00:00)
+- Labetalol 100mg Tablet (dose: 50mg, start time: 2159-09-30 17:00:00, stop time: 2159-10-01 13:00:00)
+- Amlodipine 5mg Tablet (dose: 5mg, start time: 2159-09-30 20:00:00, stop time: 2159-10-05 13:00:00)
+- Amlodipine 5mg Tablet (dose: 5mg, start time: 2159-09-30 20:00:00, stop time: 2159-10-05 13:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (dose: 5000 Units, start time: 2159-09-30 17:00:00, stop time: 2159-10-01 09:00:00)
+- Potassium Chloride 10 mEq / 100 mL SW (dose: 10 mEq, start time: 2159-09-30 20:00:00, stop time: 2159-10-01 09:00:00)
+- Albuterol 0.083% Neb Soln 0.083%;3mL Vial (dose: 1 Neb, start time: 2159-09-30 20:00:00, stop time: 2159-10-02 00:00:00)
+- Citalopram 20mg Tablet (dose: 20mg, start time: 

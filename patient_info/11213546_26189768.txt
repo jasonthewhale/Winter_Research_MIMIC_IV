@@ -1,0 +1,133 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 62
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2183-04-27 10:10:00
+  (6) discharge time: 2183-06-05 15:09:00
+  (7) transfer history: 
+2183-04-27 09:18:00 - 2183-04-27 10:11:31: Emergency Department
+2183-04-27 10:11:31 - 2183-04-27 12:31:20: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2183-05-27 17:10:02 - 2183-05-27 17:20:58: Medicine
+2183-05-27 17:20:58 - 2183-05-29 20:06:53: Medicine
+2183-05-08 06:51:56 - 2183-05-16 07:08:12: Transplant
+2183-05-02 04:29:19 - 2183-05-08 06:51:45: Transplant
+2183-05-08 06:51:45 - 2183-05-08 06:51:56: Transplant
+2183-04-27 12:31:20 - 2183-04-27 12:34:52: Discharge Lounge
+2183-05-16 07:08:12 - 2183-05-16 18:50:11: Coronary Care Unit (CCU)
+2183-05-23 17:54:37 - 2183-05-27 17:10:02: Medical Intensive Care Unit (MICU)
+2183-04-27 12:34:52 - 2183-05-02 04:29:19: Medical Intensive Care Unit (MICU)
+2183-05-29 20:06:53 - 2183-06-05 15:09:57: Medical Intensive Care Unit (MICU)
+2183-05-16 18:50:11 - 2183-05-23 17:54:37: Medical Intensive Care Unit (MICU)
+2183-06-05 15:09:57: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2183-04-27 14:25:00        29.8         9.4 29.6  31.5 94.0     288.0 3.18 19.3    NaN  4.8
+2183-04-28 01:31:00        26.9         8.7 29.6  32.3 92.0     255.0 2.94 19.5    NaN  5.9
+2183-04-29 03:15:00        22.8         7.3 29.7  32.0 93.0     189.0 2.46 20.0    NaN  8.6
+2183-04-29 14:17:00        23.5         7.3 29.4  31.1 95.0     192.0 2.48 20.5    NaN  8.9
+2183-04-30 03:46:00        21.5         6.8 29.6  31.6 94.0     162.0 2.30 21.2    NaN  9.7
+2183-04-30 11:04:00        25.9         8.4 29.5  32.4 91.0     157.0 2.85 20.0    NaN  9.8
+2183-05-01 02:54:00        24.2         7.9 29.0  32.6 89.0     149.0 2.72 20.8    NaN 10.9
+2183-05-02 05:40:00        24.5         8.1 29.5  33.1 89.0     164.0 2.75 21.1    NaN 17.4
+2183-05-03 05:30:00        23.5         7.8 29.2  33.2 88.0     194.0 2.67 20.7    NaN 20.4
+2183-05-04 06:09:00        25.7         8.4 29.2  32.7 89.0     272.0 2.88 20.9    NaN 18.6
+2183-05-05 06:47:00        24.2         7.8 29.1  32.2 90.0     277.0 2.68 20.9    NaN 13.5
+2183-05-06 06:18:00        23.7         7.7 29.1  32.5 89.0     292.0 2.65 21.1    NaN  9.7
+2183-05-07 05:21:00        23.8         7.9 29.9  33.2 90.0     311.0 2.64 21.4    NaN  8.8
+2183-05-08 05:35:00        25.0         8.1 29.6  32.4 91.0     318.0 2.74 21.9    NaN  7.9
+2183-05-09 05:10:00        20.5         6.5 28.9  31.7 91.0     296.0 2.25 21.9    NaN  8.9
+2183-05-09 12:58:00        24.6         8.0 29.7  32.5 91.0     281.0 2.69 20.3    NaN 11.7
+2183-05-09 23:00:00        21.3         6.9 29.2  32.4 90.0     247.0 2.36 20.8    NaN 10.7
+2183-05-10 07:00:00        26.1         8.7 29.8  33.3 89.0     237.0 2.92 18.2    NaN 11.7
+2183-05-10 14:34:00        24.1         8.1 29.8  33.6 89.0     221.0 2.72 18.6    NaN  9.9
+2183-05-10 23:30:00        24.6         8.2 29.9  33.3 90.0     223.0 2.74 18.7    NaN 11.8
+2183-05-11 06:00:00        24.1         8.0 30.0  33.2 90.0     208.0 2.67 19.0    NaN 10.9
+2183-05-11 21:45:00        21.1         6.8 29.6  32.2 92.0     197.0 2.30 19.2    NaN 10.1
+2183-05-12 06:00:00        23.7         7.6 29.6  32.1 92.0     179.0 2.57 17.6    NaN 10.0
+2183-05-12 14:57:00        25.6         8.3  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2183-05-12 23:25:00        26.4         8.5 29.7  32.2 92.0     194.0 2.86 18.6    NaN 12.5
+2183-05-13 04:03:00        26.3         8.4 29.8  31.9 93.0     171.0 2.82 19.1    NaN 11.8
+2183-05-13 14:48:00        23.0         7.4 30.1  32.2 94.0     171.0 2.46 18.7    NaN 10.5
+2183-05-13 23:40:00        21.8         6.9 30.1  31.7 95.0     142.0 2.29 19.1    NaN 11.4
+2183-05-14 05:33:00        26.1         8.3 29.4  31.8 93.0     163.0 2.82 19.1    NaN  9.8
+2183-05-14 12:15:00        26.3         8.5 29.5  32.3 91.0     160.0 2.88 19.4    NaN  9.9
+2183-05-14 23:19:00        25.3         8.2 29.6  32.4 91.0     172.0 2.77 19.3    NaN  9.6
+2183-05-15 05:33:00        27.0         8.6 29.6  31.9 93.0     186.0 2.91 19.3    NaN  9.8
+2183-05-15 16:02:00        27.1         8.9 30.1  32.8 92.0     201.0 2.96 19.1    NaN 11.5
+2183-05-16 04:57:00        27.9         9.0 29.8  32.3 92.0     221.0 3.02 19.3    NaN 12.3
+2183-05-16 16:00:00        24.9         8.0 29.5  32.1 92.0     197.0 2.71 18.9    NaN 12.1
+2183-05-17 04:33:00        25.0         8.1 29.9  32.4 92.0     215.0 2.71 18.8    NaN 11.3
+2183-05-17 14:57:00        25.7         8.3 29.9  32.3 92.0     244.0 2.78 18.5    NaN 12.6
+2183-05-18 04:06:00        26.3         8.6 30.0  32.7 92.0     259.0 2.87 18.7    NaN 17.1
+2183-05-19 04:01:00        25.6         8.2 29.5  32.0 92.0     289.0 2.78 18.6    NaN 19.7
+2183-05-20 03:45:00        23.5         7.5 29.4  31.9 92.0     260.0 2.55 18.9    NaN 17.7
+2183-05-21 03:25:00        22.7         7.3 29.4  32.2 92.0     261.0 2.48 18.8    NaN 16.2
+2183-05-21 18:53:00        22.2         7.3 29.8  32.9 91.0     259.0 2.45 18.6    NaN 13.8
+2183-05-22 02:44:00        22.9         7.3 29.1  31.9 91.0     269.0 2.51 18.7    NaN 15.3
+2183-05-22 15:57:00        21.1         7.0 29.9  33.2 90.0     243.0 2.34 18.9    NaN 14.0
+2183-05-23 01:59:00        22.1         7.1 29.1  32.1 91.0     239.0 2.44 18.6    NaN 13.6
+2183-05-24 03:17:00        22.9         7.5 29.3  32.8 90.0     263.0 2.56 18.7    NaN 11.0
+2183-05-25 04:30:00        23.0         7.6 29.5  33.0 89.0     258.0 2.58 18.7    NaN  9.0
+2183-05-26 03:38:00        22.0         7.2 29.6  32.7 91.0     225.0 2.43 18.5    NaN  8.4
+2183-05-26 17:57:00        24.2         7.9 29.6  32.6 91.0     208.0 2.67 18.6    NaN  8.6
+2183-05-27 05:01:00        23.3         7.6 29.2  32.6 90.0     245.0 2.60 18.8    NaN 12.6
+2183-05-28 05:35:00        24.0         7.8 29.3  32.5 90.0     270.0 2.66 19.7    NaN 14.9
+2183-05-29 04:43:00        23.8         7.7 29.4  32.4 91.0     284.0 2.62 19.8    NaN 15.7
+2183-05-29 18:13:00        19.7         6.2 29.2  31.5 93.0     235.0 2.12 20.2    NaN 14.2
+2183-05-29 20:45:00        21.8         6.8 29.7  31.2 95.0     300.0 2.29 20.4    NaN 19.1
+2183-05-30 00:25:00        20.6         6.5 30.0  31.6 95.0     252.0 2.17 20.0    NaN 14.7
+2183-05-30 03:53:00        24.1         7.5 29.0  31.1 93.0     223.0 2.59 18.9    NaN 16.8
+2183-05-30 15:00:00        23.7         7.6 29.3  32.1 92.0     234.0 2.59 19.2    NaN 15.6
+2183-05-31 03:57:00        32.8        10.6 29.8  32.3 92.0     172.0 3.56 19.8    NaN 11.0
+2183-06-01 03:48:00        23.4         7.3 29.3  31.2 94.0     216.0 2.49 19.5    NaN 11.9
+2183-06-02 03:31:00        23.5         7.4 29.7  31.5 94.0     196.0 2.49 19.4    NaN  9.3
+2183-06-02 15:14:00        23.7         7.5 29.6  31.6 94.0     188.0 2.53 19.7    NaN  8.7
+2183-06-03 03:14:00        23.7         7.5 29.5  31.6 93.0     184.0 2.54 19.4    NaN  8.7
+2183-06-04 04:08:00        20.9         6.6 29.5  31.6 93.0     160.0 2.24 19.7    NaN  7.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2183-05-23 16:00:00
+sbp: 129.0
+dbp: 47.0
+mbp: 71.0
+sbp_ni: 129.0
+dbp_ni: 47.0
+mbp_ni: 71.0
+resp_rate: 20.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 3
+cns: 0
+renal: <NA>
+respiration_24hours: 3
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 1
+sofa_24hours: 9
+
+Physician's Diagnoses:
+1. Type 1 diabetes mellitus with ketoacidosis without coma
+   drg_type: APR
+   description: DIABETES
+   drg_severity: 4
+   drg_mortality: 4
+2. Type 1 diabetes mellitus with ketoacidosis without coma
+   drg_type: HCFA
+   description: OTHER ENDOCRINE, NUTRIT & METAB O.R. PROC W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Heparin: Administered from 2183-04-27 14:00:00 to 2183-05-02 11:00:00, dose given: 5000 UNIT, product amount given: 1 mL, product unit: HEPA5I, product code: None, product description: None, pharmacy id: 33732146, route: SC, frequency: TID, disp_sched: 08, 14, 20, doses per 24 hrs: 3.0, duration: Ongoing, expiration value: 365, expiration unit: Days
+- None: Administered from 2183-04-27 15:00:00 to 2183-04-28 16:00:00, dose given: 1000 mL, product amount given: None, product unit: None, product code: None, product description: None, pharmacy id: 9968479, route: IV, frequency: ONCE, disp_sched: 15, doses per 24 hrs: 1.0, duration: 1.0, expiration value: Doses, expiration unit: Enter on Label
+- Azithromycin: Administered from 2183-04-27 16:00:00 to 2183-04-28 16:00:00, dose given: 500 mg, product amount given: 250 mL, product unit: mL, product code: None, product description: Azithromycin 500 mg in 250 mL 0.9% Sodium Chloride, pharmacy id: 55367170, route: IV, frequency: ONCE, disp_sched: 16, doses per 24 hrs: 1.0, duration: 1.0, expiration value: Doses, expiration unit: Enter on Label
+- Vancomycin: Administered from 2183-04-27 16:00:00 to 2183-04-27 18:00:00, dose given: 750 mg, product amount given: 150 mL, product unit: mL, product code: VANC750F, product description: Vancomycin 750 mg / 150 mL Iso-Osmotic Dextrose (Premix)___, pharmacy id: 94692765, route: IV, frequency: Q 24H, disp_sched: 08, doses per 24 hrs: 1.0,

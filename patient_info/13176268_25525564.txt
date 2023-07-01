@@ -1,0 +1,110 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 60
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2189-04-14 00:56:00
+  (6) discharge time: 2189-05-16 14:20:00
+  (7) transfer history: 
+2189-04-13 17:57:00 - 2189-04-14 02:31:00: Emergency Department
+2189-04-14 02:31:00 - 2189-04-15 02:29:16: Cardiac Vascular Intensive Care Unit (CVICU)
+2189-04-18 21:40:53 - 2189-05-02 00:23:41: Medicine
+2189-05-02 00:23:41 - 2189-05-16 14:20:56: Vascular
+2189-04-15 02:29:16 - 2189-04-18 21:40:53: Surgical Intensive Care Unit (SICU)
+2189-05-16 14:20:56: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2189-04-13 18:15:00        30.2         9.5 30.1  31.5 96.0     257.0 3.16 14.8    NaN 12.5
+2189-04-14 04:55:00        29.9         9.5 30.4  31.8 96.0     278.0 3.12 14.9    NaN 12.1
+2189-04-14 10:09:00        28.3         8.9 30.0  31.4 95.0     261.0 2.97 14.9    NaN  8.7
+2189-04-15 02:49:00        32.0        10.4 30.8  32.5 95.0     267.0 3.38 14.7    NaN  8.7
+2189-04-16 00:56:00        30.6        10.1 30.7  33.0 93.0     283.0 3.29 14.8    NaN 10.8
+2189-04-16 20:15:00        30.0         9.7 29.9  32.3 93.0     309.0 3.24 14.8    NaN 12.8
+2189-04-17 02:23:00        30.4         9.6 29.6  31.6 94.0     271.0 3.24 14.7    NaN 11.5
+2189-04-18 02:49:00        25.3         7.9 29.5  31.2 94.0     231.0 2.68 15.0    NaN 10.0
+2189-04-19 05:21:00        26.3         8.2 29.5  31.2 95.0     251.0 2.78 15.0    NaN 10.8
+2189-04-20 04:55:00        26.7         8.2 29.2  30.7 95.0     271.0 2.81 15.0    NaN 11.7
+2189-04-21 05:37:00        29.8         9.4 29.6  31.5 94.0     361.0 3.18 15.2    NaN 17.9
+2189-04-22 06:18:00        24.4         7.6 29.7  31.1 95.0     364.0 2.56 15.2    NaN 10.7
+2189-04-22 10:00:00        23.8         7.5 30.2  31.5 96.0     348.0 2.48 15.5    NaN 10.5
+2189-04-22 22:50:00        24.2         7.6  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2189-04-23 06:13:00        24.3         7.6 29.7  31.3 95.0     410.0 2.56 15.5    NaN 11.2
+2189-04-23 14:20:00        24.5         7.7 30.0  31.4 95.0     440.0 2.57 15.5    NaN 11.0
+2189-04-24 06:22:00        23.3         7.2 29.5  30.9 96.0     427.0 2.44 15.4    NaN 12.3
+2189-04-25 03:58:00        25.7         8.1 30.1  31.5 96.0     437.0 2.69 15.7    NaN 12.3
+2189-04-25 12:53:00        24.5         7.6  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2189-04-26 06:07:00        24.3         7.6 29.9  31.3 96.0     435.0 2.54 15.6    NaN 12.7
+2189-04-27 06:17:00        24.5         7.4 29.0  30.2 96.0     450.0 2.55 15.9    NaN 12.3
+2189-04-28 06:47:00        23.6         7.1 29.8  30.1 99.0     372.0 2.38 16.2    NaN 10.2
+2189-04-29 05:59:00        25.0         7.5 29.8  30.0 99.0     382.0 2.52 16.2    NaN 10.8
+2189-04-29 13:15:00        24.8         7.5 29.6  30.2 98.0     387.0 2.53 16.1    NaN 10.2
+2189-04-30 05:21:00        24.8         7.8 30.7  31.5 98.0     320.0 2.54 16.1    NaN  9.1
+2189-05-01 06:40:00        26.4         8.0 29.5  30.3 97.0     228.0 2.71 16.4    NaN  8.8
+2189-05-01 20:40:00        29.6         9.2 28.8  31.1 93.0     111.0 3.20 17.7    NaN 14.7
+2189-05-02 02:18:00        26.9         8.3 29.1  30.9 94.0      75.0 2.85 18.2    NaN 11.4
+2189-05-03 02:51:00        25.5         7.7 29.4  30.2 97.0      47.0 2.62 18.2    NaN 10.1
+2189-05-04 06:23:00        24.0         7.2 29.3  30.0 98.0      48.0 2.46 17.7    NaN  9.8
+2189-05-05 03:55:00        24.9         7.5 29.1  30.1 97.0      54.0 2.58 17.3    NaN  7.8
+2189-05-06 06:55:00        26.5         7.9 29.3  29.8 98.0      80.0 2.70 17.3    NaN  6.3
+2189-05-07 06:42:00        24.6         7.5 29.8  30.5 98.0     113.0 2.52 17.2    NaN  5.8
+2189-05-08 06:50:00        25.0         7.3 28.6  29.2 98.0     162.0 2.55 17.3    NaN  6.8
+2189-05-09 06:44:00        25.8         7.5 28.4  29.1 98.0     223.0 2.64 17.6    NaN  6.4
+2189-05-09 17:57:00        27.5         8.5 29.3  30.9 95.0     206.0 2.90 17.2    NaN  7.6
+2189-05-10 06:58:00        27.2         8.5 29.6  31.3 95.0     246.0 2.87 17.4    NaN  8.7
+2189-05-11 04:45:00        26.5         8.0 29.1  30.2 96.0     275.0 2.75 17.0    NaN  7.5
+2189-05-12 05:54:00        26.8         8.0 29.0  29.9 97.0     292.0 2.76 16.3    NaN  7.1
+2189-05-13 05:09:00        26.9         8.1 28.9  30.1 96.0     336.0 2.80 16.0    NaN  8.0
+2189-05-14 07:55:00        29.2         8.8 29.2  30.1 97.0     371.0 3.01 15.9    NaN  7.0
+2189-05-15 06:10:00        28.9         8.6 28.9  29.8 97.0     391.0 2.98 15.8    NaN  6.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2189-04-14 12:00:00
+sbp: 112.0
+dbp: 59.0
+mbp: 77.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 16.0
+temperature: 38.390000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Other atherosclerosis of native arteries of extremities, bilateral legs
+   drg_type: APR
+   description: OTHER CARDIOTHORACIC & THORACIC VASCULAR PROCEDURES
+   drg_severity: 3
+   drg_mortality: 3
+2. Other atherosclerosis of native arteries of extremities, bilateral legs
+   drg_type: HCFA
+   description: OTHER VASCULAR PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Ciprofloxacin 400 mg / 200 mL 5% Dextrose (Administered from 2189-04-14 04:00:00 to 2189-04-14 05:00:00)
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix) (Administered from 2189-04-14 04:00:00 to 2189-04-15 03:00:00)
+- Insulin (Administered from 2189-04-14 04:00:00 to 2189-04-19 16:00:00)
+- Calcium Gluconate 2 g / 100 mL 0.9% Sodium Chloride *Premix Bag* (Administered from 2189-04-14 06:00:00 to 2189-04-18 21:00:00)
+- ARIPiprazole 5 mg Tablet (Administered from 2189-04-14 08:00:00 to 2189-04-22 23:00:00)
+- Docusate Sodium 100mg Capsule (Administered from 2189-04-14 08:00:00 to 2189-04-16 19:00:00)
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (Administered from 2189-04-14 05:00:00 to 2189-04-17 12:00:00)
+- Metronidazole 500 mg / 100 mL NS (Administered from 2189-04-14 10:00:00 to 2189-04-16 08:00:00)
+- Polyethylene Glycol 17g Packet (Administered from 2189-04-14 08:00:00 to 2189-05-16 18:00:00)
+- QUEtiapine Fumarate 25mg Tablet (Administered from 2189-04-14 08:00:00 to 2189-04-22 23:00:00)

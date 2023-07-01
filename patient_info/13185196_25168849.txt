@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 75
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2149-11-02 20:25:00
+  (6) discharge time: 2149-11-07 16:27:00
+  (7) transfer history: 
+2149-11-02 20:26:12 - 2149-11-05 12:38:44: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2149-11-05 12:41:57 - 2149-11-05 13:53:25: Medicine
+2149-11-05 12:38:44 - 2149-11-05 12:41:57: Medicine
+2149-11-05 14:01:30 - 2149-11-07 16:33:35: Medicine
+2149-11-05 13:53:25 - 2149-11-05 14:01:30: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2149-11-07 16:33:35: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2149-11-02 22:00:00        26.7         8.9 31.5  33.5 94.0     290.0 2.83 13.1    NaN  9.1
+2149-11-03 03:39:00        26.7         8.8 31.0  32.8 95.0     316.0 2.82 13.1    NaN 11.9
+2149-11-04 00:06:00        26.7         8.8 31.5  33.1 95.0     404.0 2.80 13.2    NaN 16.2
+2149-11-05 00:15:00        29.0         9.6 31.5  33.0 95.0     460.0 3.04 12.8    NaN 10.5
+2149-11-06 05:31:00        27.7         9.2 31.7  33.2 95.0     425.0 2.90 13.4    NaN  7.5
+2149-11-07 05:34:00        29.0         9.5 31.0  32.6 95.0     443.0 3.06 13.5    NaN  8.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2149-11-05 00:00:00
+sbp: 128.0
+dbp: 63.0
+mbp: 79.0
+sbp_ni: 128.0
+dbp_ni: 63.0
+mbp_ni: 79.0
+resp_rate: 18.0
+temperature: 36.830000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Pneumonitis due to inhalation of food or vomitus
+   drg_type: APR
+   description: MAJOR RESPIRATORY INFECTIONS & INFLAMMATIONS
+   drg_severity: 3
+   drg_mortality: 3
+2. Pneumonitis due to inhalation of food or vomitus
+   drg_type: HCFA
+   description: RESPIRATORY INFECTIONS & INFLAMMATIONS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush (10 mL) - Start time: 2149-11-02 22:00:00, Stop time: 2149-11-07 21:00:00
+- Administered: Metronidazole 500 mg / 100 mL NS (500 mg) - Start time: 2149-11-03 13:00:00, Stop time: 2149-11-05 17:00:00
+- Administered: Gabapentin 300mg Capsule (300 mg) - Start time: 2149-11-02 23:00:00, Stop time: 2149-11-07 21:00:00
+- Administered: Ondansetron 2mg/mL-2mL (4 mg) - Start time: 2149-11-05 04:00:00, Stop time: 2149-11-06 03:00:00
+- Administered: CefePIME 1 g / 100 mL NS (Mini Bag Plus) (1 g) - Start time: 2149-11-05 19:00:00, Stop time: 2149-11-07 21:00:00
+- Administered: Doxycycline Hyclate (100 mg) - Start time: 2149-11-05 18:00:00, Stop time: 2149-11-07 21:00:00
+- Administered: Gabapentin 300mg Capsule (300 mg) - Start time: 2149-11-02 23:00:00, Stop time: 2149-11-07 21:00:00
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial (5000 Units) - Start time: 2149-11-02 23:00:00, Stop time: 2149-11-07 21:00:00
+- Flushed: Sodium Chloride 0.9% Flush (10 mL) - Start time: 2149-11-02 22:00:00, Stop time: 2149-11-07 21:00:00
+- Flushed: Sodium Chloride 0.9% Flush (10 mL

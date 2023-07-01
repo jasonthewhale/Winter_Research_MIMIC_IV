@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 57
+  (3) race: WHITE - EASTERN EUROPEAN
+  (4) admission type: ELECTIVE
+  (5) admit time: 2163-10-05 10:30:00
+  (6) discharge time: 2163-10-10 16:23:00
+  (7) transfer history: 
+2163-10-05 04:26:49 - 2163-10-05 20:47:31: Discharge Lounge
+2163-10-06 17:14:23 - 2163-10-10 16:29:42: Med/Surg/GYN
+2163-10-05 20:47:31 - 2163-10-06 17:14:23: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2163-10-10 16:29:42: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2163-10-05 16:28:00        34.9        11.4 28.0  32.5 86.0     314.0 4.06 13.4    NaN 27.3
+2163-10-05 17:58:00        23.0         7.6 28.9  33.0 88.0     196.0 2.62 13.6    NaN 15.8
+2163-10-05 21:58:00        38.9        13.0 29.1  33.5 87.0     204.0 4.48 13.7    NaN 29.1
+2163-10-06 04:03:00        31.6        10.8 28.7  34.4 84.0     169.0 3.77 14.5    NaN 22.3
+2163-10-06 08:53:00        30.8        10.3 28.2  33.5 84.0     161.0 3.66 14.8    NaN 18.9
+2163-10-06 19:00:00        28.6         9.6 28.5  33.7 85.0     142.0 3.39 14.8    NaN 18.3
+2163-10-07 08:00:00        28.6         9.6 28.7  33.7 85.0     153.0 3.36 14.4    NaN 16.5
+2163-10-08 06:10:00        29.8        10.0 28.8  33.7 86.0     196.0 3.48 14.3    NaN 13.5
+2163-10-09 06:35:00        32.0        10.5 28.2  32.9 86.0     269.0 3.73 14.5    NaN 13.4
+2163-10-10 06:37:00        32.1        10.7 28.5  33.3 86.0     283.0 3.75 14.6    NaN 12.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2163-10-06 12:00:00
+sbp: 113.0
+dbp: 72.0
+mbp: 76.0
+sbp_ni: 113.0
+dbp_ni: 72.0
+mbp_ni: 76.0
+resp_rate: 16.0
+temperature: 36.830000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Submucous leiomyoma of uterus
+   drg_type: HCFA
+   description: UTERINE & ADNEXA PROC FOR NON-MALIGNANCY W CC/MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Submucous leiomyoma of uterus
+   drg_type: APR
+   description: UTERINE & ADNEXA PROCEDURES FOR LEIOMYOMA
+   drg_severity: 1
+   drg_mortality: 1
+
+Medication:
+- Acetaminophen 325mg Tablet (dose: 325mg, start time: 2163-10-05 23:00:00, stop time: 2163-10-07 15:00:00)
+- Sodium Chloride 0.9% Flush (dose: 3mL, start time: 2163-10-06 18:00:00, stop time: 2163-10-10 21:00:00)
+- Acetaminophen IV (dose: 1000mg, start time: 2163-10-06 00:00:00, stop time: 2163-10-07 10:00:00)
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (dose: 20mg, start time: 2163-10-05 23:00:00, stop time: 2163-10-07 08:00:00)
+- Fluticasone-Salmeterol Diskus (250/50) (dose: 1 inhalation, start time: 2163-10-05 23:00:00, stop time: 2163-10-10 21:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (dose: 5000 units, start time: 2163-10-07 08:00:00, stop time: 2163-10-07 17:00:00)

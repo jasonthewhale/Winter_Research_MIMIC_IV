@@ -1,0 +1,99 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 66
+  (3) race: UNKNOWN
+  (4) admission type: URGENT
+  (5) admit time: 2137-03-20 22:35:00
+  (6) discharge time: 2137-04-05 23:00:00
+  (7) transfer history: 
+2137-03-20 22:39:04 - 2137-03-23 10:26:17: Medicine
+2137-03-25 18:24:28 - 2137-03-29 04:45:13: Medicine
+2137-03-29 04:45:13 - 2137-03-30 07:57:10: Coronary Care Unit (CCU)
+2137-03-30 07:57:10 - 2137-04-05 23:11:02: Medical Intensive Care Unit (MICU)
+2137-03-23 10:26:17 - 2137-03-25 18:24:28: Medical Intensive Care Unit (MICU)
+2137-04-05 23:11:02: discharge
+
+2. Medical Data
+(1) heart rate: 
+2137-03-29 08:01:00-2137-03-29 10:00:00 None
+2137-03-29 10:00:00-2137-03-31 22:00:00 SR (Sinus Rhythm) PVC's Rare
+2137-03-31 21:00:00-2137-03-31 22:00:00 SR (Sinus Rhythm) PVC's Frequent
+2137-03-31 22:00:00-2137-03-31 22:00:00 SR (Sinus Rhythm) PVC's Occasional
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2137-03-21 01:18:00        21.2         6.5 28.8  30.7 94.0     280.0 2.26 20.7    NaN 31.6
+2137-03-21 08:53:00        27.1         8.6 29.1  31.7 92.0     257.0 2.96 19.4    NaN 26.3
+2137-03-21 17:30:00        25.1         8.0 29.4  31.9 92.0     221.0 2.72 19.7    NaN 26.0
+2137-03-22 04:03:00        24.2         7.5 28.6  31.0 92.0     200.0 2.62 19.6    NaN 20.8
+2137-03-22 14:50:00        25.5         8.1 29.5  31.8 93.0     220.0 2.75 19.5    NaN 22.2
+2137-03-23 00:56:00        21.8         6.8 29.2  31.2 94.0     186.0 2.33 19.4    NaN 17.8
+2137-03-23 08:22:00        27.8         8.7 29.2  31.3 93.0     210.0 2.98 18.4    NaN 21.2
+2137-03-23 17:11:00        28.4         9.0 29.5  31.7 93.0     190.0 3.05 18.3    NaN 17.5
+2137-03-24 02:30:00        26.2         8.3 29.9  31.7 94.0     174.0 2.78 18.1    NaN 15.7
+2137-03-24 20:57:00        28.2         9.0 29.7  31.9 93.0     216.0 3.03 18.0    NaN 21.4
+2137-03-25 04:31:00        26.3         8.1 28.7  30.8 93.0     163.0 2.82 18.2    NaN 15.3
+2137-03-26 05:50:00        27.3         8.5 29.0  31.1 93.0     180.0 2.93 18.5    NaN 17.5
+2137-03-26 21:00:00        26.7         8.6 29.4  32.2 91.0     174.0 2.93 18.3    NaN 20.0
+2137-03-27 05:06:00        25.6         8.2 29.5  32.0 92.0     159.0 2.78 18.4    NaN 18.3
+2137-03-28 04:39:00        27.5         8.8 29.4  32.0 92.0     189.0 2.99 18.7    NaN 24.7
+2137-03-29 05:36:00        25.7         8.0 29.0  31.1 93.0     153.0 2.76 19.4    NaN 21.7
+2137-03-30 00:44:00        22.7         6.9 28.6  30.4 94.0     131.0 2.41 19.3    NaN 20.7
+2137-03-30 05:30:00        30.1         9.5 29.3  31.6 93.0     180.0 3.24 18.3    NaN 32.2
+2137-03-30 15:04:00        23.7         7.7 29.6  32.5 91.0     123.0 2.60 18.5    NaN 18.9
+2137-03-30 18:00:00        26.3         8.3 29.1  31.6 92.0     144.0 2.85 18.6    NaN 21.8
+2137-03-31 02:38:00        23.3         7.4 29.0  31.8 91.0     135.0 2.55 18.8    NaN 21.0
+2137-03-31 13:00:00        27.2         8.7 29.1  32.0 91.0     146.0 2.99 18.9    NaN 25.5
+2137-03-31 21:28:00        28.0         9.1 30.0  32.5 92.0     137.0 3.03 19.2    NaN 26.0
+2137-04-01 05:19:00        27.0         8.6 29.3  31.9 92.0     154.0 2.94 19.1    NaN 25.9
+2137-04-02 02:36:00        25.6         8.3 29.9  32.4 92.0     153.0 2.78 19.1    NaN 30.0
+2137-04-03 03:26:00        26.3         8.5 30.2  32.3 94.0     156.0 2.81 19.3    NaN 45.7
+2137-04-03 16:45:00        27.9         8.8 29.7  31.5 94.0     179.0 2.96 19.6    NaN 55.3
+2137-04-04 04:10:00        23.5         7.3 29.6  31.1 95.0     130.0 2.47 19.2    NaN 41.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2137-03-30 06:00:00
+sbp: 128.0
+dbp: 71.0
+mbp: 90.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 17.0
+temperature: 35.280000000
+temperature_site: Temporal
+spo2: 100.0
+cardiovascular: 0
+cns: 3
+renal: 1
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 3
+renal_24hours: 1
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W MV >96 HOURS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis, unspecified organism
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Metoprolol Tartrate 50mg Tablet (Administered) - Start Time: 2137-03-21 08:00:00, Stop Time: 2137-03-26 10:00:00
+- Metoprolol Tartrate 25mg Tablet (Administered) - Start Time: 2137-03-21 08:00:00, Stop Time: 2137-03-26 10:00:00
+- MetroNIDAZOLE 500 mg Tab (Administered) - Start Time: 2137-03-21 02:00:00, Stop Time: 2137-03-25 01:00:00
+- CefePIME 2 g / 100 mL Iso-Osmotic Dextrose (Frozen Bag) (Administered) - Start Time: 2137-03-21 03:00:00, Stop Time: 2137-03-22 02:00:00
+- Acetaminophen (Administered) - Start Time: 2137-03-21 04:00:00, Stop Time: 2137-03-22 03:00:00
+- Vancomycin 1500 mg / 500 mL 0.9% Sodium Chloride (Administered) - Start Time: 2137-03-21 08:00:00, Stop Time: 2137-03-25 10:00:00
+- Pantoprazole 40mg Tablet (Administered) - Start Time: 2137-03-21 03:00:00, Stop Time: 2137-03-25 07:00:00
+- Pregabalin 75 mg Capsule (Administered) - Start Time: 2137-03-21 03:00:00, Stop Time: 2137-03-26 10:00:00
+- MetroNIDAZOLE 500 mg Tab (Administered) - Start Time: 2137-03-21 02:00:00, Stop Time: 2137-03-25 01:00:00
+- Insulin (Administered) - Start Time: 2137-03-21 03:00:00, Stop Time: 2137-03-25 14:00

@@ -1,0 +1,70 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 43
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2167-05-28 02:30:00
+  (6) discharge time: 2167-06-05 14:00:00
+  (7) transfer history: 
+2167-05-28 02:31:08 - 2167-05-28 16:01:41: Discharge Lounge
+2167-05-31 16:10:10 - 2167-06-05 14:25:27: Med/Surg
+2167-05-28 16:01:41 - 2167-05-31 16:10:10: Trauma SICU (TSICU)
+2167-06-05 14:25:27: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2167-05-28 16:09:00        37.6        12.3 29.6  32.7 90.0     349.0 4.16 13.0    NaN 22.3
+2167-05-29 01:36:00        39.8        12.9 29.7  32.4 92.0     266.0 4.35 13.1    NaN 25.4
+2167-05-30 02:12:00        32.2        10.4 29.5  32.3 91.0     230.0 3.53 13.1    NaN 13.0
+2167-05-31 03:09:00        28.0         8.9 29.2  31.8 92.0     201.0 3.05 13.1    NaN  9.2
+2167-06-01 05:20:00        30.4         9.6 29.3  31.6 93.0     259.0 3.28 13.0    NaN  8.3
+2167-06-02 10:20:00        33.1        10.5 28.9  31.7 91.0     317.0 3.63 13.0    NaN  9.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2167-05-29 04:00:00
+sbp: 99.0
+dbp: 89.0
+mbp: 93.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 13.0
+temperature: 37.560000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Other specified diseases of upper respiratory tract
+   drg_type: APR
+   description: MAJOR RESPIRATORY & CHEST PROCEDURES
+   drg_severity: 1
+   drg_mortality: 1
+2. Other specified diseases of upper respiratory tract
+   drg_type: HCFA
+   description: MAJOR CHEST PROCEDURES W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- HYDROmorphone (Dilaudid) - Start Time: 2167-05-28 17:00:00, Stop Time: 2167-05-29 08:00:00
+- Albuterol 0.083% Neb Soln - Start Time: 2167-05-28 17:00:00, Stop Time: 2167-06-05 18:00:00
+- Diazepam - Start Time: 2167-05-28 18:00:00, Stop Time: 2167-05-30 09:00:00
+- Fluticasone-Salmeterol Diskus (250/50) - Start Time: 2167-05-28 20:00:00, Stop Time: 2167-06-05 18:00:00
+- Acetaminophen IV - Start Time: 2167-05-28 17:00:00, Stop Time: 2167-05-29 08:00:00
+- Chlorhexidine Gluconate 15ml Cup - Start Time: 2167-05-28 20:00:00, Stop Time: 2167-05-31 10:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial - Start Time: 2167-05-28 20:00:00, Stop Time: 2167-06-05 18:00:00
+- Ipratropium-Albuterol Neb - Start Time: 2167-05-28 19:00:00, Stop Time: 2167-06-05 18:00:00

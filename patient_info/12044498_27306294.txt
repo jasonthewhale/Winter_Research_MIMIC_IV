@@ -1,0 +1,93 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 71
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2121-10-01 23:01:00
+  (6) discharge time: 2121-10-19 12:30:00
+  (7) transfer history: 
+2121-10-01 23:01:25 - 2121-10-12 16:45:37: Medical Intensive Care Unit (MICU)
+2121-10-12 16:45:37 - 2121-10-19 12:30:14: Medicine
+2121-10-19 12:30:14: discharge
+
+2. Medical Data
+(1) heart rate: 
+2122-09-15 20:43:00-2122-09-15 21:00:00 SR (Sinus Rhythm) PVC's Frequent
+2122-09-15 21:00:00-2122-09-15 22:00:00 SR (Sinus Rhythm) PVC's Frequent
+2122-09-15 22:00:00-2122-09-15 23:00:00 SR (Sinus Rhythm) PVC's Frequent
+2122-09-15 23:00:00-2122-09-16 00:00:00 ST (Sinus Tachycardia) PVC's Frequent
+2122-09-16 00:00:00-2122-09-16 01:00:00 SR (Sinus Rhythm) PVC's Occasional
+2122-09-16 01:00:00-2122-09-16 02:00:00 SR (Sinus Rhythm) PVC's Frequent
+2122-09-16 02:00:00-2122-09-16 03:00:00 SR (Sinus Rhythm) PVC's Frequent
+2122-09-16 03:00:00-2122-09-16 04:00:00 SR (Sinus Rhythm) PVC's Frequent
+2122-09-16 04:00:00-2122-09-16 05:00:00 SR (Sinus Rhythm) PVC's Frequent
+2122-09-16 05:00:00-2122-09-16 07:00:00 SR (Sinus Rhythm) PVC's Frequent
+2122-09-16 07:00:00-2122-09-16 08:00:00 SR (Sinus Rhythm) PVC's Occasional
+2122-09-16 08:00:00-2122-09-16 09:00:00 SR (Sinus Rhythm) PVC's Frequent
+2122-09-16 09:00:00-2122-09-16 10:00:00 SR (Sinus Rhythm) PVC's Occasional
+2122-09-16 10:00:00-2122-09-16 11:00:00
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2121-10-01 23:14:00        41.2        12.9 28.7  31.3 92.0     130.0 4.49 15.8    NaN  6.6
+2121-10-02 05:45:00        42.1        13.5 29.0  32.1 90.0     132.0 4.66 15.7    NaN  9.7
+2121-10-03 03:31:00        38.6        12.7 29.2  32.9 89.0     154.0 4.35 15.3    NaN  9.7
+2121-10-04 03:42:00        34.4        11.8 29.9  34.3 87.0     162.0 3.95 16.2    NaN 15.4
+2121-10-04 17:21:00        35.7        12.1 29.4  33.9 87.0     196.0 4.11 16.3    NaN 19.4
+2121-10-05 03:42:00        31.5        10.6 29.2  33.7 87.0     171.0 3.63 16.5    NaN 16.2
+2121-10-06 02:45:00        31.1        10.4 29.1  33.4 87.0     167.0 3.57 16.4    NaN 14.9
+2121-10-07 03:24:00        33.0        11.0 29.4  33.3 88.0     175.0 3.74 16.2    NaN 20.8
+2121-10-08 06:30:00        30.3        10.3 29.6  34.0 87.0     162.0 3.48 16.2    NaN 20.4
+2121-10-09 04:44:00        30.4        10.2 29.8  33.6 89.0     160.0 3.42 16.5    NaN 21.7
+2121-10-10 02:57:00        28.9         9.7 30.0  33.6 90.0     151.0 3.23 16.5    NaN 18.1
+2121-10-11 03:43:00        28.9         9.5 30.0  32.9 91.0     136.0 3.17 17.1    NaN 14.4
+2121-10-12 05:30:00        29.0         9.5 30.1  32.8 92.0     122.0 3.16 17.3    NaN 13.3
+2121-10-13 06:32:00        30.9        10.3 30.7  33.3 92.0     132.0 3.35 17.9    NaN 12.6
+2121-10-14 05:38:00        29.2         9.8 30.4  33.6 91.0     123.0 3.22 17.8    NaN 10.6
+2121-10-15 05:43:00        29.6         9.7 30.1  32.8 92.0     123.0 3.22 18.4    NaN 10.8
+2121-10-16 05:58:00        30.9        10.0 30.2  32.4 93.0     131.0 3.31 18.9    NaN 10.6
+2121-10-17 05:35:00        29.4         9.8 31.1  33.3 93.0     138.0 3.15 19.1    NaN 10.6
+2121-10-19 06:14:00        32.0        10.3 31.1  32.2 97.0     149.0 3.31 19.2    NaN  9.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2121-10-08 12:00:00
+sbp: 122.0
+dbp: 70.0
+mbp: 80.0
+sbp_ni: 122.0
+dbp_ni: 70.0
+mbp_ni: 80.0
+resp_rate: nan
+temperature: 36.780000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Acute respiratory failure with hypoxia
+   drg_type: HCFA
+   description: PULMONARY EDEMA & RESPIRATORY FAILURE
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Acute respiratory failure with hypoxia
+   drg_type: APR
+   description: RESPIRATORY FAILURE
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Azithromycin 250 mg Tablet (Administered) - Start Time: 2121-10-02 02:00:00, Stop Time: 2121-10-02 01:00:00
+- PredniSONE (Inactive) - Start Time: 2121-10-02 02:00:00, Stop Time: 2121-10-02 01:00:00
+- Acetaminophen 325mg Tablet (Inactive) - Start Time: 2121-10-02 00:00:00, Stop Time: 2121-10-10 09:00:00
+- Sodium Chloride 0.9% Flush (Discontinued) - Start Time: 2121-10-02 00:00:00, Stop Time: 2121-10-19 16:00:00
+- Pyridostigmine Bromide 60mg Tablet (Inactive) - Start Time: 2121-10-02 02:00:00, Stop Time: 2121-10-05 15:00:00
+- HYDROmorphone (Dilaudid) 2mg Tablet (Inactive) - Start Time: 2121-10-02 05:00:00, Stop Time: 2121-10-02 15:00:00

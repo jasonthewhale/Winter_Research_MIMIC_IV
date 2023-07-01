@@ -1,0 +1,102 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 91
+  (3) race: UNKNOWN
+  (4) admission type: URGENT
+  (5) admit time: 2110-03-22 19:58:00
+  (6) discharge time: 2110-04-20 13:06:00
+  (7) transfer history: 
+2110-03-22 19:59:52 - 2110-03-25 01:32:19: Surgery/Trauma
+2110-04-01 21:45:59 - 2110-04-20 13:06:19: Surgery/Trauma
+2110-03-25 01:32:19 - 2110-04-01 21:45:59: Surgical Intensive Care Unit (SICU)
+2110-04-20 13:06:19: discharge
+
+2. Medical Data
+(1) heart rate: 
+2110-03-26 03:00:00-2110-03-26 05:00:00 SR (Sinus Rhythm) with PVC's occurring occasionally
+2110-03-26 12:00:00-2110-03-26 13:00:00 SR (Sinus Rhythm) with PAC's occurring occasionally
+2110-03-26 15:00:00-2110-03-26 23:00:00 SR (Sinus Rhythm) with PAC's occurring frequently
+2110-03-27 00:00:00-2110-03-27 05:00:00 SR (Sinus Rhythm) with PAC's occurring frequently
+2110-03-27 07:00:00-2110-03-27 08:00:00 SR (Sinus Rhythm) with PAC's occurring occasionally
+2110-03-27 09:00:00-2110-03-27 13:00:00 SR (Sinus Rhythm) with PAC's occurring frequently
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2110-03-22 23:09:00        37.8        11.9 31.5  31.5 100.0     225.0 3.78 15.5    NaN 14.6
+2110-03-25 02:47:00        30.6         9.5 30.6  31.0  99.0     259.0 3.10 15.6    NaN 40.2
+2110-03-25 15:45:00        28.0         9.1 31.4  32.5  97.0     255.0 2.90 15.8    NaN 41.2
+2110-03-26 01:06:00        24.9         8.1 31.4  32.5  97.0     251.0 2.58 16.0    NaN 34.4
+2110-03-26 16:00:00        22.4         7.2 31.6  32.1  98.0     228.0 2.28 16.1    NaN 28.7
+2110-03-27 02:03:00        22.7         7.3 31.3  32.2  97.0     212.0 2.33 16.4    NaN 24.1
+2110-03-27 15:42:00        25.7         8.4 30.9  32.7  95.0     217.0 2.72 17.3    NaN 23.0
+2110-03-28 02:20:00        23.6         7.8 31.2  33.1  94.0     212.0 2.50 17.6    NaN 18.4
+2110-03-28 09:21:00        23.3         7.5 30.5  32.2  95.0     204.0 2.46 17.7    NaN 14.1
+2110-03-29 02:59:00        21.9         7.2 31.7  32.9  97.0     181.0 2.27 17.2    NaN 13.7
+2110-03-30 03:06:00        24.6         7.7 30.9  31.3  99.0     213.0 2.49 17.2    NaN 15.2
+2110-03-31 03:29:00        25.4         7.9 30.6  31.1  98.0     235.0 2.58 17.3    NaN 21.7
+2110-03-31 15:25:00        25.4         7.8 30.1  30.7  98.0     243.0 2.59 17.4    NaN 22.2
+2110-04-01 02:28:00        24.1         7.5 30.5  31.1  98.0     257.0 2.46 17.4    NaN 19.7
+2110-04-02 04:01:00        24.7         7.5 30.5  30.4 100.0     266.0 2.46 17.1    NaN 15.3
+2110-04-03 05:10:00        26.1         7.7 29.8  29.5 101.0     304.0 2.58 16.9    NaN 17.6
+2110-04-04 05:20:00        25.1         7.4 30.2  29.5 102.0     299.0 2.45 17.1    NaN 16.4
+2110-04-05 05:15:00        26.7         8.0 30.5  30.0 102.0     282.0 2.62 17.3    NaN 16.6
+2110-04-06 03:38:00        27.9         8.3 30.6  29.7 103.0     358.0 2.71 17.4    NaN 25.1
+2110-04-07 04:40:00        25.9         7.7 30.4  29.7 102.0     343.0 2.53 17.5    NaN 18.8
+2110-04-08 04:10:00        23.6         7.1 30.6  30.1 102.0     352.0 2.32 17.5    NaN 16.7
+2110-04-08 13:16:00        24.4         7.2 30.3  29.5 103.0     358.0 2.38 17.5    NaN 16.0
+2110-04-09 03:07:00        22.4         6.7 30.3  29.9 101.0     344.0 2.21 17.6    NaN 14.4
+2110-04-09 19:18:00        25.3         7.9 30.7  31.2  98.0     373.0 2.57 17.9    NaN 13.3
+2110-04-10 04:56:00        27.1         8.2 30.3  30.3 100.0     395.0 2.71 18.0    NaN 14.0
+2110-04-11 05:00:00        29.8         8.8 30.4  29.5 103.0     390.0 2.89 17.9    NaN 15.0
+2110-04-12 03:14:00        29.3         8.7 30.4  29.7 102.0     357.0 2.86 17.9    NaN 16.0
+2110-04-13 05:15:00        30.6         9.0 30.3  29.4 103.0     320.0 2.97 18.3    NaN 14.6
+2110-04-14 04:06:00        30.9         9.3 31.1  30.1 103.0     306.0 2.99 18.4    NaN 14.5
+2110-04-15 05:51:00        31.2         9.4 30.8  30.1 102.0     270.0 3.05 18.5    NaN 15.4
+2110-04-16 04:01:00        29.7         8.8 30.4  29.6 103.0     269.0 2.89 18.3    NaN 12.0
+2110-04-17 09:56:00        31.3         9.5 30.4  30.4 100.0     269.0 3.13 18.0    NaN 13.2
+2110-04-18 06:21:00        30.1         9.1 30.6  30.2 101.0     241.0 2.97 17.8    NaN 11.4
+2110-04-19 04:54:00        31.2         9.4 30.6  30.1 102.0     266.0 3.07 18.0    NaN 11.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2110-03-25 20:00:00
+sbp: 111.0
+dbp: 52.0
+mbp: 73.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 18.0
+temperature: 36.720000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 2
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Pathological fracture in neoplastic disease, other specified site, initial encounter for fracture
+   drg_type: APR
+   description: DORSAL & LUMBAR FUSION PROC EXCEPT FOR CURVATURE OF BACK
+   drg_severity: 4
+   drg_mortality: 4
+2. Pathological fracture in neoplastic disease, other specified site, initial encounter for fracture
+   drg_type: HCFA
+   description: SPINAL FUS EXC CERV W SPINAL CURV/MALIG/INFEC OR EXT FUS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen 325mg Tablet (dose: 325mg, unit: TAB, start time: 2110-03-22 23:00:00, stop time: 2110-03-25 03:00:00)
+- Sodium Chloride 0.9% Flush (dose: 3mL, unit: None, start time: 2110-03-22 23:00:00, stop time: 2110-03-25 03:00:00)
+- OxyCODONE (Immediate Release) 5mg Tablet (dose: 5mg, unit: TAB, start time: 2110-03-23 07:00:00, stop time: 2110-03-25 03:00:00)
+- Aspirin (Chewable) 81mg Tab (dose: 81mg, unit: TAB, start time: 2110-03-23 08:00:00, stop time: 2110-03-25 03:00:00)
+- Diltiazem Extended-Release (dose: 120mg, unit: CAP, start time: 2110-03-23 08:00:00, stop time: 2110-03-25 03:00:00)
+- Sodium Chloride 0.9% Flush (dose: 3mL, unit: 0.3SYR, start time: 2110-03-22 23:00:00, stop time: 2110-03-25 03:00:00)
+- OxyCODONE (Immediate Release) 5mg Tablet (dose: 5mg, unit: TAB, start time: 2110-03-23 07:00:00, stop time: 2110-03-25 03:00:00)

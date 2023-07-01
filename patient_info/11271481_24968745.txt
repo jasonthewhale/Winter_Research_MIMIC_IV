@@ -1,0 +1,76 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 87
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2181-02-07 03:17:00
+  (6) discharge time: 2181-02-13 14:42:00
+  (7) transfer history: 
+2181-02-06 17:38:00 - 2181-02-07 05:23:00: Emergency Department
+2181-02-07 05:23:00 - 2181-02-07 23:44:46: Medicine
+2181-02-10 12:58:33 - 2181-02-13 14:50:55: Medicine
+2181-02-07 23:44:46 - 2181-02-10 12:58:33: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2181-02-13 14:50:55: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2181-02-06 20:15:00        21.0         5.9 24.1  28.1 86.0     127.0 2.45 18.8    NaN 11.2
+2181-02-07 11:05:00        26.5         7.8 25.4  29.4 86.0     116.0 3.07 18.3    NaN 14.2
+2181-02-07 21:47:00        21.0         6.5 25.5  31.0 82.0     104.0 2.55 18.1    NaN  7.3
+2181-02-08 02:57:00        23.0         6.9 24.7  30.0 82.0     103.0 2.79 18.0    NaN  6.5
+2181-02-08 14:25:00        29.2         8.9 25.5  30.5 84.0     155.0 3.49 17.5    NaN  8.0
+2181-02-08 17:16:00        30.9         9.5 25.9  30.7 84.0     146.0 3.67 17.8    NaN  7.7
+2181-02-09 01:21:00        28.5         8.7 25.7  30.5 84.0     136.0 3.38 17.8    NaN  7.3
+2181-02-10 04:34:00        28.4         8.3 25.0  29.2 86.0     161.0 3.32 17.8    NaN  5.1
+2181-02-11 06:30:00        26.9         8.0 25.4  29.7 85.0     148.0 3.15 18.0    NaN  4.5
+2181-02-12 06:35:00        29.7         8.7 25.2  29.3 86.0     146.0 3.45 18.6    NaN  5.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2181-02-08 05:45:00
+sbp: 97.0
+dbp: 52.0
+mbp: 64.0
+sbp_ni: 97.0
+dbp_ni: 52.0
+mbp_ni: 64.0
+resp_rate: 23.0
+temperature: 37.220000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 3
+   drg_mortality: 3
+2. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- CefTRIAXone: Administered from 2181-02-07 08:00:00 to 2181-02-07 18:00:00
+- Ipratropium-Albuterol Neb: Administered from 2181-02-07 13:00:00 to 2181-02-08 18:00:00
+- Acetaminophen: Administered from 2181-02-07 09:00:00 to 2181-02-13 19:00:00
+- Furosemide: Administered from 2181-02-07 13:00:00 to 2181-02-08 07:00:00
+- Sodium Chloride 0.9% - Floor Stock Bag: Administered from 2181-02-07 19:00:00 to 2181-02-08 07:00:00
+- Metoprolol Tartrate: Administered from 2181-02-07 20:00:00 to 2181-02-08 07:00:00
+- Lactated Ringers - Floor Stock Bag: Administered from 2181-02-07 21:00:00 to 2181-02-08 07:00:00
+- Clotrimazole Cream: Administered from 2181-02-07 19:00:00 to 2181-02-13 19:00:00
+- Piperacillin-Tazobactam: Administered from 2181-02-07 20:00:00 to 2181-02-08 07:00:00

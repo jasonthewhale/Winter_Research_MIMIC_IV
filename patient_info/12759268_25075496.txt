@@ -1,0 +1,66 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 42
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2131-05-02 00:00:00
+  (6) discharge time: 2131-05-08 18:50:00
+  (7) transfer history: 
+2131-05-02 05:57:17 - 2131-05-02 22:22:27: Discharge Lounge
+2131-05-03 21:01:13 - 2131-05-08 18:56:25: Surgery/Trauma
+2131-05-02 22:22:27 - 2131-05-03 21:01:13: Surgical Intensive Care Unit (SICU)
+2131-05-08 18:56:25: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2131-05-02 14:14:00        25.9         8.1 29.0  31.3 93.0     138.0 2.79 18.8    NaN  6.0
+2131-05-03 02:00:00        25.7         7.8 29.0  30.4 96.0     118.0 2.69 18.5    NaN  5.6
+2131-05-04 04:35:00        24.9         7.7 29.1  30.9 94.0     120.0 2.65 18.2    NaN  6.5
+2131-05-05 04:21:00        25.7         8.1 29.6  31.5 94.0     127.0 2.74 18.0    NaN  5.1
+2131-05-06 06:59:00        26.4         8.2 29.0  31.1 93.0     142.0 2.83 17.2    NaN  6.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2131-02-13 00:00:00
+sbp: 175.0
+dbp: 88.0
+mbp: 119.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 24.5
+temperature: 36.900000000
+temperature_site: Esophogeal
+spo2: 100.0
+cardiovascular: 3
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 4
+cns_24hours: 4
+renal_24hours: 4
+sofa_24hours: 17
+
+Physician's Diagnoses:
+1. Encounter for planned postprocedural wound closure
+   drg_type: HCFA
+   description: O.R. PROC W DIAGNOSES OF OTHER CONTACT W HEALTH SERVICES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Encounter for planned postprocedural wound closure
+   drg_type: APR
+   description: PROCEDURE W DIAG OF REHAB, AFTERCARE OR OTH CONTACT W HEALTH SERVICE
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Heparin: Administered from 2131-05-03 00:00:00 to 2131-05-08 23:00:00, dose given: 5000 units, dose given unit: UNIT, product amount given: 1, product unit: VIAL, product code: HEPA5I, product description: Heparin Sodium 5000 Units / mL- 1mL Vial, route: SC, frequency: TID (08, 14, 20)
+- OxyCODONE (Immediate Release): Administered from 2131-05-03 00:00:00 to 2131-05-05 20:00:00, dose given: 5 mg, dose given unit: mg, product amount given: 1, product unit: TAB, product code: OXYC5, product description: OxyCODONE (Immediate Release) 5mg Tablet, route: PO/NG, frequency: Q4H:PRN
+- CeFAZolin: Administered from 2131-05-03 04:00:00 to 2131-05-03 08:00:00, dose given: 1 g, dose given unit: g, product amount given: 50, product unit: mL, product code: CEFA1F, product description: CefazoLIN 1 g / 50 mL Iso-Osmotic Dextrose, route: IV, frequency: Q8H (4, 12, 20)
+- Sodium Chloride 0.9% Flush: Administered from 2131-05-03 00:00:00 to 2131-05-08 23:00:00, dose given: 10 mL, dose given unit: mL, product amount given: 1, product unit: SYR, product code: NACLFLUSH, product description: Sodium Chloride 0.9% Flush, route: IV, frequency: Q8H (0, 8, 16)
+- Aspirin: Administered from 2131-05-03 08:00:00 to 2131-05-08 23:00:00, dose given: 81 mg, dose given unit: mg, product amount given: 1, product unit: TAB, product code: ASA81, product description: Aspirin 81mg Tab

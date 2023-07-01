@@ -1,0 +1,108 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 83
+  (3) race: UNKNOWN
+  (4) admission type: URGENT
+  (5) admit time: 2151-10-26 19:52:00
+  (6) discharge time: 2151-11-25 14:10:00
+  (7) transfer history: 
+2151-10-26 19:53:41 - 2151-11-01 08:02:02: Cardiac Surgery
+2151-11-01 08:02:02 - 2151-11-01 08:37:27: PACU
+2151-11-22 17:50:39 - 2151-11-25 15:19:46: Cardiac Surgery
+2151-11-16 20:57:41 - 2151-11-16 20:58:40: Cardiac Surgery
+2151-11-04 16:29:26 - 2151-11-15 11:29:52: Cardiac Surgery
+2151-11-01 08:37:27 - 2151-11-04 16:29:26: Cardiac Vascular Intensive Care Unit (CVICU)
+2151-11-16 20:58:40 - 2151-11-22 17:50:39: Cardiac Vascular Intensive Care Unit (CVICU)
+2151-11-15 11:29:52 - 2151-11-16 20:57:41: Cardiac Vascular Intensive Care Unit (CVICU)
+2151-11-25 15:19:46: discharge
+
+2. Medical Data
+(1) heart rate: 
+2151-11-15 15:00:00-2151-11-15 19:00:00 SR (Sinus Rhythm) PVC's Frequent
+2151-11-15 20:00:00-2151-11-15 22:00:00 SR (Sinus Rhythm) PVC's Occasional
+2151-11-16 07:00:00-2151-11-16 07:00:00 ST (Sinus Tachycardia) PVC's Rare
+2151-11-16 10:00:00-2151-11-16 21:00:00 SR (Sinus Rhythm) PVC's Occasional
+2151-11-16 22:00:00-2151-11-17 04:00:00 SR (Sinus Rhythm) PVC's Rare
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2151-10-26 21:39:00        43.0        13.8 28.6  32.1 89.0     188.0 4.82 14.0    NaN  6.6
+2151-10-28 06:07:00        39.7         NaN  NaN   NaN  NaN     178.0  NaN  NaN    NaN  8.7
+2151-10-28 16:00:00        41.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2151-10-30 06:05:00        41.4        13.6 29.0  32.9 88.0     216.0 4.69 14.2    NaN  7.5
+2151-11-01 12:51:00        32.6        10.5 29.1  32.2 90.0     119.0 3.61 13.7    NaN  8.8
+2151-11-01 14:37:00        37.6        12.4 29.2  33.0 89.0     124.0 4.24 13.9    NaN 12.4
+2151-11-01 20:12:00        35.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2151-11-02 02:43:00        34.4        11.4 29.8  33.1 90.0     135.0 3.83 14.4    NaN 12.1
+2151-11-03 02:28:00        32.2        10.3 29.2  32.0 91.0     122.0 3.53 14.8    NaN 13.0
+2151-11-04 02:10:00        34.1        10.9 29.0  32.0 91.0     140.0 3.76 14.9    NaN 16.8
+2151-11-05 05:31:00        30.9         9.9 29.6  32.0 93.0     183.0 3.34 14.6    NaN 15.0
+2151-11-06 05:49:00        31.5        10.2 29.1  32.4 90.0     211.0 3.50 14.7    NaN 22.4
+2151-11-07 06:25:00        30.9         9.9 29.4  32.0 92.0     236.0 3.37 14.7    NaN 22.8
+2151-11-08 06:08:00        31.7        10.0 28.7  31.5 91.0     270.0 3.48 15.0    NaN 19.6
+2151-11-09 06:02:00        31.5        10.1 28.9  32.1 90.0     302.0 3.49 14.8    NaN 16.5
+2151-11-10 05:30:00        31.5        10.1 29.0  32.1 91.0     322.0 3.48 14.6    NaN 15.9
+2151-11-11 05:15:00        32.0        10.2 28.6  31.9 90.0     334.0 3.57 14.4    NaN 17.6
+2151-11-12 05:47:00        31.7        10.1 28.6  31.9 90.0     355.0 3.53 14.3    NaN 14.3
+2151-11-13 04:06:00        31.9        10.2 28.6  32.0 89.0     330.0 3.57 14.3    NaN 16.1
+2151-11-14 04:21:00        33.6        10.4 28.2  31.0 91.0     426.0 3.69 14.3    NaN 16.0
+2151-11-14 17:31:00        35.4        10.9 28.3  30.8 92.0     440.0 3.85 14.3    NaN 19.5
+2151-11-15 04:19:00        31.4        10.0 28.6  31.8 90.0     381.0 3.50 14.6    NaN 23.0
+2151-11-15 12:15:00        27.7         8.6 28.4  31.0 91.0     321.0 3.03 14.4    NaN 20.3
+2151-11-16 03:45:00        26.7         8.5 28.1  31.8 88.0     366.0 3.03 14.5    NaN 21.8
+2151-11-17 02:01:00        25.9         8.3 28.4  32.0 89.0     369.0 2.92 14.6    NaN 19.8
+2151-11-18 01:23:00        25.8         7.9 28.0  30.6 92.0     359.0 2.82 14.5    NaN 13.6
+2151-11-19 02:26:00        26.3         8.0 27.9  30.4 92.0     384.0 2.87 14.9    NaN 11.3
+2151-11-20 03:02:00        26.8         8.2 28.5  30.6 93.0     353.0 2.88 15.0    NaN 10.8
+2151-11-21 03:10:00        26.8         8.2 27.8  30.6 91.0     358.0 2.95 14.8    NaN  9.6
+2151-11-22 02:01:00        27.1         8.3 27.8  30.6 91.0     353.0 2.99 15.1    NaN  8.1
+2151-11-23 04:56:00        27.5         8.5 27.9  30.9 90.0     341.0 3.05 15.3    NaN  7.5
+2151-11-24 05:21:00        27.9         8.5 27.5  30.5 90.0     319.0 3.09 15.2    NaN  7.1
+2151-11-25 06:33:00        28.3         8.8 27.8  31.1 90.0     302.0 3.16 15.2    NaN  6.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2151-11-17 08:00:00
+sbp: 112.0
+dbp: 55.0
+mbp: 72.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 18.0
+temperature: 36.830000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 2
+2. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W/O CARD CATH W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Pravastatin 40mg Tablet (Administered) - Start Time: 2151-10-26 20:00:00, Stop Time: 2151-11-01 08:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2151-10-26 20:00:00, Stop Time: 2151-11-01 08:00:00
+- Docusate Sodium 100mg Capsule (Administered) - Start Time: 2151-10-26 20:00:00, Stop Time: 2151-11-01 08:00:00
+- Insulin (Administered) - Start Time: 2151-10-26 22:00:00, Stop Time: 2151-10-28 13:00:00
+- Insulin (Administered) - Start Time: 2151-10-26 21:00:00, Stop Time: 2151-10-28 13:00:00
+- Senna 8.6 mg Tablet (Administered) - Start Time: 2151-10-26 20:00:00, Stop Time: 2151-10-28 09:00:00
+- Senna 8.6 mg Tablet (Administered) - Start Time: 2151-10-26 20:00:00, Stop Time: 2151-10-28 09:00:00
+- Nitroglycerin SL 0.3mg SL Tablet Bottle (Administered) - Start Time: 2151-10-27 04:00:00, Stop Time: 2151-11-01 08:00:00
+- Nitroglycerin SL 0.3mg SL Tablet Bottle (Administered) - Start Time: 2151-10-27 04:00:00, Stop Time: 2151-11-01 08:00:00
+- Nitroglycerin SL 0.3mg SL Tablet Bottle (Administered) - Start Time: 2151-10-27 04:00:00, Stop Time: 2151-11-01 08:00:00

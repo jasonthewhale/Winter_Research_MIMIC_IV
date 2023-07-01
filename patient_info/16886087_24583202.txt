@@ -1,0 +1,79 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 71
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2140-01-07 16:07:00
+  (6) discharge time: 2140-01-19 16:14:00
+  (7) transfer history: 
+2140-01-07 14:43:00 - 2140-01-07 18:16:00: Emergency Department
+2140-01-07 18:16:00 - 2140-01-14 04:29:29: Medical Intensive Care Unit (MICU)
+2140-01-14 04:29:29 - 2140-01-19 16:14:38: Medicine/Cardiology
+2140-01-19 16:14:38: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2140-01-08 04:04:00        34.2        10.9 28.9  31.9 91.0      96.0 3.77 15.7    NaN  8.7
+2140-01-08 16:25:00        34.8        11.1 28.9  31.9 91.0     107.0 3.84 15.7    NaN 14.6
+2140-01-09 04:14:00        33.4        10.2 28.3  30.5 93.0     102.0 3.61 15.9    NaN  9.5
+2140-01-10 03:23:00        30.4         9.4 28.4  30.9 92.0      82.0 3.31 15.9    NaN  3.4
+2140-01-10 15:07:00        29.8         9.4 29.2  31.5 93.0      84.0 3.22 15.9    NaN  3.3
+2140-01-11 04:39:00        29.6         9.2 28.2  31.1 91.0      80.0 3.26 15.9    NaN  3.7
+2140-01-12 02:52:00        33.9        10.6 28.6  31.3 91.0      86.0 3.71 15.7    NaN  3.8
+2140-01-13 05:00:00        35.2        11.1 28.5  31.5 91.0     109.0 3.89 16.1    NaN  7.0
+2140-01-14 03:49:00        37.5        12.0 28.6  32.0 89.0     138.0 4.20 15.9    NaN  7.9
+2140-01-14 05:01:00        38.0        12.0 28.2  31.6 89.0     134.0 4.25 16.3    NaN  7.2
+2140-01-16 07:35:00        33.4        10.6 28.6  31.7 90.0     132.0 3.70 16.2    NaN  7.7
+2140-01-17 05:10:00        36.6        11.3 28.2  30.9 91.0     145.0 4.01 16.2    NaN  9.8
+2140-01-19 07:45:00        30.1         9.4 28.8  31.2 92.0     139.0 3.26 16.4    NaN 10.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2140-01-08 00:00:00
+sbp: 103.0
+dbp: 70.0
+mbp: nan
+sbp_ni: 103.0
+dbp_ni: 70.0
+mbp_ni: nan
+resp_rate: 24.0
+temperature: 36.170000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 4
+cns: 3
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 3
+renal_24hours: 2
+sofa_24hours: 11
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+2. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W MV >96 HOURS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2140-01-07 21:00:00 and stopped on 2140-01-19 20:00:00
+- Administered: CefePIME 1 g, started on 2140-01-07 22:00:00 and stopped on 2140-01-08 21:00:00
+- Administered: Vancomycin 500 mg / 100 mL Iso-Osmotic Dextrose (Premix), started on 2140-01-07 22:00:00 and stopped on 2140-01-08 08:00:00
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial, started on 2140-01-07 21:00:00 and stopped on 2140-01-08 09:00:00
+- Administered: Lansoprazole Oral Disintegrating Tab *NF* 30mg SoluTab, started on 2140-01-08 08:00:00 and stopped on 2140-01-10 11:00:00
+- Administered: Ipratropium Bromide HFA 12.9g Inhaler, started on 2140-01-08 10:00:00 and stopped on 2140-01-08 09:00:00
+- Administered: Azithromycin 250 mg in 250 mL 0.9% Sodium Chloride, started on 2140-01-08 08:00:00 and stopped on 2140-01-08 09:00:00
+- Administered: Chlorhexidine Gluconate 15 mL Cup, started on 2140-01-08 10:00:00 and stopped on 2140-01-08 16:00:00
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial, started on 2140-01-07 21:00:00 and stopped on 2140-01-08 09:00:00
+- Administered: Lansoprazole Oral Disintegrating Tab *NF* 30mg SoluTab, started on 2140-01-08 08:00

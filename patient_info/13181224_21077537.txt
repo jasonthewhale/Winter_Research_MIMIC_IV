@@ -1,0 +1,99 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 53
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2205-06-15 09:14:00
+  (6) discharge time: 2205-07-03 16:17:00
+  (7) transfer history: 
+2205-06-15 06:47:00 - 2205-06-15 10:27:00: Emergency Department
+2205-06-15 10:27:00 - 2205-06-16 16:41:27: Medicine/Cardiology
+2205-06-16 20:13:35 - 2205-06-17 13:18:02: Medicine/Cardiology Intermediate
+2205-06-22 14:08:06 - 2205-07-03 16:18:56: Cardiology Surgery Intermediate
+2205-06-17 13:18:02 - 2205-06-17 13:22:13: PACU
+2205-06-16 16:41:27 - 2205-06-16 20:13:35: PACU
+2205-06-17 17:39:50 - 2205-06-22 14:08:06: Cardiac Vascular Intensive Care Unit (CVICU)
+2205-06-17 13:22:13 - 2205-06-17 17:39:50: Cardiac Vascular Intensive Care Unit (CVICU)
+2205-07-03 16:18:56: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2205-06-16 05:24:00        30.0         9.7 29.8  32.3 92.0     265.0 3.26 15.4    NaN  9.9
+2205-06-16 10:45:00        26.7         9.0 30.5  33.7 91.0     245.0 2.95 15.2    NaN  9.2
+2205-06-17 06:35:00        27.6         8.8 30.1  31.9 95.0     245.0 2.92 15.3    NaN  7.7
+2205-06-17 19:24:00        20.9         6.7 30.0  32.1 94.0     163.0 2.23 14.8    NaN 12.8
+2205-06-17 20:08:00        25.6         8.4 30.7  32.8 93.0     189.0 2.74 14.9    NaN 18.6
+2205-06-18 01:01:00        25.5         8.6 30.6  33.7 91.0     234.0 2.81 14.7    NaN 20.4
+2205-06-18 08:45:00        27.7         9.4 29.9  33.9 88.0     174.0 3.14 15.0    NaN 15.0
+2205-06-18 17:37:00        21.6         7.4  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2205-06-18 18:34:00        22.6         7.5  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2205-06-19 04:08:00        27.5         9.4 30.0  34.2 88.0     134.0 3.13 15.2    NaN 10.3
+2205-06-19 11:10:00        27.2         9.4  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2205-06-19 21:11:00        26.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2205-06-20 02:13:00        25.6         8.9 30.3  34.8 87.0     128.0 2.94 14.9    NaN  9.0
+2205-06-20 09:34:00        26.6         9.0 30.1  33.8 89.0     138.0 2.99 15.2    NaN  8.7
+2205-06-20 17:00:00        25.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2205-06-20 19:25:00        25.2         8.6  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2205-06-21 01:17:00        27.1         9.5 30.2  35.1 86.0     118.0 3.15 15.1    NaN  7.1
+2205-06-21 15:35:00        29.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2205-06-22 02:19:00        30.2        10.3 29.6  34.1 87.0     138.0 3.48 15.3    NaN  6.3
+2205-06-23 04:31:00        31.9        10.6 29.4  33.2 88.0     142.0 3.61 15.3    NaN  6.1
+2205-06-24 03:31:00        32.2        10.8 29.4  33.5 88.0     128.0 3.67 15.2    NaN  8.2
+2205-06-26 06:33:00        32.5        10.7 29.3  32.9 89.0      91.0 3.65 15.3    NaN  6.6
+2205-06-27 04:25:00        32.0        10.7 29.6  33.4 89.0     118.0 3.61 15.3    NaN  7.4
+2205-06-28 05:00:00        30.5        10.2 29.6  33.4 88.0     123.0 3.45 15.5    NaN  7.6
+2205-06-29 05:22:00        32.4        10.7 29.1  33.0 88.0     170.0 3.68 15.5    NaN  9.1
+2205-06-30 04:29:00        29.7        10.0 29.7  33.7 88.0     170.0 3.37 15.4    NaN  8.1
+2205-07-01 05:02:00        29.4         9.6 29.1  32.7 89.0     207.0 3.30 15.5    NaN  7.8
+2205-07-02 04:51:00        29.1         9.5 29.2  32.6 90.0     210.0 3.25 15.3    NaN  7.4
+2205-07-03 05:00:00        27.5         8.9 28.7  32.4 89.0     221.0 3.10 15.4    NaN  6.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2197-02-07 04:00:00
+sbp: 116.0
+dbp: 60.0
+mbp: 74.0
+sbp_ni: 116.0
+dbp_ni: 60.0
+mbp_ni: 74.0
+resp_rate: 18.0
+temperature: 36.170000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: <NA>
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 2
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 4
+   drg_mortality: 4
+2. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: HCFA
+   description: CORONARY BYPASS W CARDIAC CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2205-06-15 11:00:00 and stopped on 2205-06-18 00:00:00
+- Administered: Furosemide 20 mg, started on 2205-06-15 19:00:00 and stopped on 2205-06-15 23:00:00
+- Administered: Atorvastatin 80 mg, started on 2205-06-15 18:00:00 and stopped on 2205-06-18 00:00:00
+- Administered: Calcium Carbonate 500 mg, started on 2205-06-15 18:00:00 and stopped on 2205-06-18 00:00:00
+- Administered: Clonazepam 0.25 mg, started on 2205-06-15 20:00:00 and stopped on 2205-06-16 08:00:00
+- Administered: Metoprolol Succinate XL 50 mg, started on 2205-06-15 18:00:00 and stopped on 2205-06-16 04:00:00
+- Administered: Pantoprazole 40 mg, started on 2205-06-15 18:00:00 and stopped on 2205-06-18 00:00:00
+- Administered: Tacrolimus 0.5 mg, started on 2205-06-15 18:00:00 and stopped on 2205-06-18 00:00:00
+- Administered: Tacrolimus 1 mg, started on 2205-06-15 18:00:00 and stopped on 2205-06-18 00:00:00

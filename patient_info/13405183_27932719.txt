@@ -1,0 +1,87 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 48
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2165-07-17 01:54:00
+  (6) discharge time: 2165-07-26 11:43:00
+  (7) transfer history: 
+2165-07-16 18:29:00 - 2165-07-17 02:42:00: Emergency Department
+2165-07-17 02:42:00 - 2165-07-22 23:00:37: Medical Intensive Care Unit (MICU)
+2165-07-22 23:00:37 - 2165-07-26 11:43:38: Medicine
+2165-07-26 11:43:38: discharge
+
+2. Medical Data
+(1) heart rate: 
+2165-07-17 03:00:00-2165-07-17 03:00:00 SR (Sinus Rhythm)
+2165-07-22 09:00:00-2165-07-22 09:00:00 ST (Sinus Tachycardia)
+2165-07-22 10:00:00-2165-07-22 10:00:00 ST (Sinus Tachycardia)
+2165-07-22 11:00:00-2165-07-22 11:00:00 SR (Sinus Rhythm)
+2165-07-22 12:00:00-2165-07-22 12:00:00 SR (Sinus Rhythm)
+2165-07-22 13:00:00-2165-07-22 13:00:00 ST (Sinus Tachycardia)
+2165-07-22 14:00:00-2165-07-22 14:00:00 SR (Sinus Rhythm)
+2165-07-22 15:00:00-2165-07-22 15:00:00 SR (Sinus Rhythm)
+2165-07-22 16:00:00-2165-07-22 16:00:00 SR (Sinus Rhythm)
+2165-07-22 17:00:00-2165-07-22 17:00:00 SR (Sinus Rhythm)
+2165-07-22 18:00:00-2165-07-22 18:00:00 SR (Sinus Rhythm)
+2165-07-22 21:00:00-2165-07-22 21:00:00 SR (Sinus Rhythm)
+2165-07-22 22:00:00-2165-07-22 22:00:00 ST (Sinus Tachycardia)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2165-07-17 14:17:00        27.5         8.5 28.2  30.9 91.0     212.0 3.01 17.5    NaN  6.0
+2165-07-18 04:31:00        29.0         8.9 28.1  30.7 92.0     213.0 3.17 17.1    NaN  6.5
+2165-07-19 03:09:00        34.0        10.6 27.6  31.2 89.0     263.0 3.84 15.9    NaN  8.0
+2165-07-20 02:46:00        30.7         9.7 28.4  31.6 90.0     235.0 3.42 16.2    NaN  8.1
+2165-07-20 15:57:00        31.5         9.5 27.6  30.2 92.0     252.0 3.44 16.4    NaN  9.8
+2165-07-21 04:22:00        33.7        10.3 28.0  30.6 92.0     279.0 3.68 16.7    NaN 12.5
+2165-07-22 04:05:00        31.4         9.3 27.8  29.6 94.0     250.0 3.34 17.1    NaN 12.1
+2165-07-23 04:26:00        32.8        10.0 27.9  30.5 91.0     256.0 3.59 16.8    NaN  9.1
+2165-07-24 08:00:00        33.2        10.2 28.1  30.7 92.0     282.0 3.63 16.5    NaN 11.8
+2165-07-25 08:35:00        33.3        10.2 28.3  30.6 92.0     312.0 3.61 16.5    NaN 11.0
+2165-07-26 08:05:00        30.9         9.6 28.7  31.1 92.0     292.0 3.35 16.5    NaN 12.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2165-07-21 15:00:00
+sbp: 118.0
+dbp: 77.0
+mbp: 90.0
+sbp_ni: 118.0
+dbp_ni: 77.0
+mbp_ni: 90.0
+resp_rate: 25.5
+temperature: 37.220000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Pneumonitis due to inhalation of food and vomit
+   drg_type: APR
+   description: RESPIRATORY SYSTEM DIAGNOSIS W VENTILATOR SUPPORT 96+ HOURS
+   drg_severity: 2
+   drg_mortality: 1
+2. Pneumonitis due to inhalation of food and vomit
+   drg_type: HCFA
+   description: RESPIRATORY SYSTEM DIAGNOSIS W VENTILATOR SUPPORT >96 HOURS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- CEFE1/100MBP (CefePIME 1 g / 100 mL NS) - Administered from 2165-07-17 05:00:00 to 2165-07-17 23:00:00
+- NACLFLUSH (Sodium Chloride 0.9% Flush) - Flushed from 2165-07-17 04:00:00 to 2165-07-20 12:00:00
+- OMEP20 (Omeprazole 20mg DR Capsule) - Administered from 2165-07-17 08:00:00 to 2165-07-17 09:00:00
+- FENT2.550 (Fentanyl Citrate) - Administered Bolus from IV Drip from 2165-07-17 05:00:00 to 2165-07-17 09:00:00
+- HEPA5I (Heparin Sodium 5000 Units / mL- 1mL Vial) - Administered from 2165-07-17 08:00:00 to 2165-07-19 09:00:00
+- FENT2.550 (Fentanyl Citrate) - Administered Bolus from IV Drip from 2165-07-17 10:00:00 to 2165-07-21 10:00:00
+- VANC1F (Vancomycin 1000 mg / 200 mL Dextrose) - Administered from 2165-07-17 16:00:00 to 2165-07-19 16:00:00
+- PHEN130I (PHENObarbital 130 mg / mL Vial) - Administered from 2165-07-17 10:00:00 to 2165-07-17 23:00:00

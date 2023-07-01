@@ -1,0 +1,71 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 74
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2128-11-07 15:11:00
+  (6) discharge time: 2128-11-11 15:30:00
+  (7) transfer history: 
+2128-11-07 14:32:00 - 2128-11-07 17:36:00: Emergency Department
+2128-11-07 17:36:00 - 2128-11-11 15:49:14: Medical Intensive Care Unit (MICU)
+2128-11-11 15:49:14: discharge
+
+2. Medical Data
+(1) heart rate: 
+2128-12-14 02:15:00-2128-12-14 17:00:00 SR (Sinus Rhythm) with PVC's occurring occasionally.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2128-11-07 20:58:00        26.6         7.2 29.5  27.1 109.0     343.0 2.44 18.4    NaN  7.5
+2128-11-08 03:24:00        27.2         7.4 30.8  27.2 113.0     351.0 2.40 18.5    NaN  7.8
+2128-11-09 03:17:00        27.3         7.3 29.7  26.7 111.0     362.0 2.46 18.4    NaN  9.0
+2128-11-10 01:52:00        24.1         6.5 30.0  27.0 111.0     285.0 2.17 18.5    NaN  5.9
+2128-11-10 08:07:00        25.7         7.3 30.3  28.4 107.0     280.0 2.41 18.6    NaN  6.9
+2128-11-11 04:09:00        25.4         7.1 30.1  28.0 108.0     251.0 2.36 18.5    NaN  6.6
+2128-11-11 10:44:00        25.6         7.2 30.8  28.1 109.0     247.0 2.34 18.8    NaN  6.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2128-08-06 10:30:00
+sbp: 136.0
+dbp: 84.0
+mbp: 104.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 39.0
+temperature: 37.000000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Hemorrhage from tracheostomy stoma
+   drg_type: APR
+   description: OTHER RESPIRATORY DIAGNOSES EXCEPT SIGNS, SYMPTOMS & MINOR DIAGNOSES
+   drg_severity: 4
+   drg_mortality: 4
+2. Hemorrhage from tracheostomy stoma
+   drg_type: HCFA
+   description: RESPIRATORY SYSTEM DIAGNOSIS W VENTILATOR SUPPORT <=96 HOURS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- OxyCODONE (Immediate Release) 5mg Tablet: Administered from 2128-11-07 21:00:00 to 2128-11-10 12:00:00
+- Atorvastatin: Administered from 2128-11-07 21:00:00 to 2128-11-11 20:00:00
+- Chlorhexidine Gluconate 15 mL Cup: Administered from 2128-11-07 21:00:00 to 2128-11-11 20:00:00
+- Gabapentin 100mg Capsule: Administered from 2128-11-07 21:00:00 to 2128-11-09 12:00:00
+- Metoprolol Tartrate: Administered from 2128-11-07 21:00:00 to 2128-11-11 20:00:00
+- Senna 8.6 mg Tablet: Administered from 2128-11-07 21:00:00 to 2128-11-11 20:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2128-11-07 19:00:00 to 2128-11-11 20:00:00
+- Timolol Maleate 0.25% Dropper Bottle: Administered from 2128-11-07 21:00:00 to 2128-11-11 20:00:00
+- Latanoprost 0.005% Ophth. Soln. 2.5mL Dropper Bottle: Administered from 2128-11-07 21:00:00 to 2128-11-11 20:00:00

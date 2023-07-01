@@ -1,0 +1,92 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 61
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2167-04-20 04:58:00
+  (6) discharge time: 2167-05-01 14:00:00
+  (7) transfer history: 
+2167-04-20 04:59:23 - 2167-04-20 10:35:38: Discharge Lounge
+2167-04-27 16:20:42 - 2167-05-01 14:27:03: Cardiac Surgery
+2167-04-25 21:53:04 - 2167-04-27 16:20:42: Cardiac Vascular Intensive Care Unit (CVICU)
+2167-04-20 10:35:38 - 2167-04-25 21:53:04: Cardiac Vascular Intensive Care Unit (CVICU)
+2167-05-01 14:27:03: discharge
+
+2. Medical Data
+(1) heart rate: 
+2167-04-21 00:00:00-2167-04-21 00:59:59 SR (Sinus Rhythm)
+2167-04-21 01:00:00-2167-04-21 02:59:59 ST (Sinus Tachycardia)
+2167-04-21 03:00:00-2167-04-21 03:59:59 ST (Sinus Tachycardia)
+2167-04-21 04:00:00-2167-04-21 11:59:59 SR (Sinus Rhythm)
+2167-04-25 12:00:00-2167-04-25 12:59:59 ST (Sinus Tachycardia)
+2167-04-25 13:00:00-2167-04-25 13:59:59 ST (Sinus Tachycardia)
+2167-04-25 14:00:00-2167-04-25 14:59:59 ST (Sinus Tachycardia)
+2167-04-25 15:00:00-2167-04-25 23:59:59 SR (Sinus Rhythm)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2167-04-20 15:50:00        27.1         9.2 32.3  33.9 95.0     158.0 2.85 12.0    NaN 13.6
+2167-04-20 16:45:00        31.6        10.7 32.2  33.9 95.0     162.0 3.32 12.0    NaN 20.0
+2167-04-21 00:52:00        31.5        10.7 32.4  34.0 96.0     194.0 3.30 12.1    NaN 15.4
+2167-04-22 02:18:00        24.6         8.3 32.8  33.7 97.0     146.0 2.53 12.2    NaN 17.7
+2167-04-22 12:47:00        26.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2167-04-22 20:58:00        28.0         9.3 31.6  33.2 95.0     115.0 2.94 13.1    NaN 13.9
+2167-04-23 03:01:00        27.1         9.0 31.5  33.2 95.0     106.0 2.86 12.9    NaN 11.2
+2167-04-24 02:54:00        25.7         8.6 32.1  33.5 96.0     109.0 2.68 12.7    NaN 10.0
+2167-04-24 12:29:00        28.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2167-04-25 01:30:00        27.3         9.1 31.3  33.3 94.0     166.0 2.91 12.7    NaN 11.0
+2167-04-26 01:42:00        24.6         8.3 31.7  33.7 94.0     152.0 2.62 12.4    NaN  8.1
+2167-04-26 14:25:00        27.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2167-04-27 01:56:00        28.0         9.1 31.4  32.5 97.0     193.0 2.90 12.7    NaN  9.5
+2167-04-28 07:00:00        32.4        10.2 31.0  31.5 99.0     311.0 3.29 12.8    NaN 14.2
+2167-04-28 10:00:00        30.3         9.7 31.5  32.0 98.0     270.0 3.08 12.8    NaN 10.2
+2167-04-29 06:50:00        29.3         9.4 31.2  32.1 97.0     299.0 3.01 12.8    NaN 11.6
+2167-04-30 06:25:00        30.8         9.8 30.2  31.8 95.0     345.0 3.24 12.6    NaN 14.1
+2167-05-01 06:40:00        28.2         9.2 30.8  32.6 94.0     311.0 2.99 12.8    NaN 13.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2167-04-20 21:00:00
+sbp: 98.0
+dbp: 48.0
+mbp: 63.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.0
+temperature: 36.560000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 2
+2. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush (10 mL) - Start time: 2167-04-20 08:00:00, Stop time: 2167-05-01 18:00:00
+- Administered: Fentanyl Citrate (50 mcg/mL) - Start time: 2167-04-20 13:00:00, Stop time: 2167-04-28 15:00:00
+- Administered: Acetaminophen Drug (1000 mg/100 mL) - Start time: 2167-04-20 22:00:00, Stop time: 2167-04-22 07:00:00
+- Administered: Glycopyrrolate (0.6 mg/5 mL Vial) - Start time: 2167-04-20 13:00:00, Stop time: 2167-04-20 20:00:00
+- Administered: Neostigmine (3 mg/0.3 mL Vial) - Start time: 2167-04-20 13:00:00, Stop time: 2167-04-20 20:00:00
+- Administered: Atorvastatin (40 mg Tablet) - Start time: 2167-04-20 20:00:00, Stop time: 2167-05-01 18:00:00
+- Administered: Chlorhexidine Gluconate 0.12% Oral Rinse (15 mL Cup) - Start time: 2167-04-20 20:00:00, Stop time: 2167-04-23 09:00:00
+- Administered: Docusate Sodium (Liquid) 100mg / 10 mL (100 mg Cup) - Start time: 2167-04-20 20:00:00, Stop time: 2167-05-01 18:00:00
+- Administered: Ranitidine (Liquid) 150mg UD Cup (150 mg Cup) - Start time: 2167-04-20 20:00:00, Stop time: 2167-05-01 18:00:00
+- Administered: OxycoDONE (Immediate Release) 5mg Tablet - Start time

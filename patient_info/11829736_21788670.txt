@@ -1,0 +1,82 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 77
+  (3) race: UNKNOWN
+  (4) admission type: URGENT
+  (5) admit time: 2185-07-25 18:15:00
+  (6) discharge time: 2185-08-03 15:18:00
+  (7) transfer history: 
+2185-07-25 18:16:44 - 2185-07-27 07:08:30: Cardiology Surgery Intermediate
+2185-07-29 18:49:10 - 2185-08-03 15:18:18: Cardiology Surgery Intermediate
+2185-07-27 09:45:52 - 2185-07-27 11:50:08: PACU
+2185-07-27 09:41:36 - 2185-07-27 09:45:52: PACU
+2185-07-27 07:08:30 - 2185-07-27 09:41:36: PACU
+2185-07-27 11:50:08 - 2185-07-29 18:49:10: Cardiac Vascular Intensive Care Unit (CVICU)
+2185-08-03 15:18:18: discharge
+
+2. Medical Data
+(1) heart rate: 
+2185-07-28 06:00:00-2185-07-28 06:00:00 1st AV (First degree AV Block)
+2185-07-28 06:00:00-2185-07-28 06:00:00 PAC's
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2185-07-25 20:00:00        41.5        13.5 30.1  32.5 93.0     152.0 4.48 13.7    NaN  6.9
+2185-07-26 05:18:00        41.0        13.4 30.2  32.7 93.0     150.0 4.43 13.7    NaN  6.0
+2185-07-27 04:41:00        41.1        13.5 30.1  32.8 92.0     142.0 4.48 13.6    NaN  6.5
+2185-07-27 14:08:00        27.6         9.0 30.5  32.6 94.0     101.0 2.95 13.5    NaN 15.5
+2185-07-27 16:05:00        31.2        10.2 30.5  32.7 93.0     133.0 3.34 13.6    NaN 15.2
+2185-07-27 19:00:00        26.4         8.7 30.9  33.0 94.0     105.0 2.82 13.7    NaN 12.4
+2185-07-28 02:10:00        25.6         8.2 30.0  32.0 94.0     109.0 2.73 13.9    NaN  9.6
+2185-07-28 10:56:00        23.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2185-07-28 16:40:00        25.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2185-07-29 03:56:00        22.0         7.1 30.2  32.3 94.0      89.0 2.35 14.2    NaN 10.2
+2185-07-29 08:54:00        23.7         7.7  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2185-07-29 21:10:00        27.0         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2185-07-30 06:00:00        27.3         9.0 30.8  33.0 94.0     101.0 2.92 14.2    NaN 11.3
+2185-07-31 06:21:00        28.7         9.4 30.5  32.8 93.0     133.0 3.08 14.3    NaN  9.1
+2185-08-01 05:57:00        28.4         9.1 30.5  32.0 95.0     140.0 2.98 14.5    NaN  7.2
+2185-08-02 05:50:00        28.1         9.0 30.4  32.0 95.0     166.0 2.96 14.6    NaN  6.9
+2185-08-03 05:35:00        27.1         8.6 30.8  31.7 97.0     169.0 2.79 14.6    NaN  6.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2185-07-27 19:45:00
+sbp: 87.0
+dbp: 48.0
+mbp: 58.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 16.0
+temperature: 36.000000000
+temperature_site: None
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W/O CARD CATH W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 2
+
+Medication:
+- Docusate Sodium 100mg Capsule: Administered from 2185-07-25 19:00:00 to 2185-07-27 12:00:00
+- Metoprolol Tartrate 12.5mg Tablet: Administered from 2185-07-25 21:00:00 to 2185-07-27 12:00:00
+- Rosuvastatin Calcium 20mg Tablet: Administered from 2185-07-25 20:00:00 to 2185-07-27 12:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2185-07-25 19:00:00 to 2185-07-27 12:00:00
+- Clotrimazole Cream 1% 30g Cream: Administered from 2185-07-25 08:00:00 to 2185-07-27 12:00:00

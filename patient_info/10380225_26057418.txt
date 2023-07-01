@@ -1,0 +1,69 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 61
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2144-11-15 15:00:00
+  (6) discharge time: 2144-11-20 13:00:00
+  (7) transfer history: 
+2144-11-15 15:01:00 - 2144-11-16 09:14:01: Cardiac Surgery
+2144-11-16 09:14:01 - 2144-11-16 11:53:11: PACU
+2144-11-17 21:24:11 - 2144-11-20 13:42:06: Cardiac Surgery
+2144-11-16 11:53:11 - 2144-11-17 21:24:11: Cardiac Vascular Intensive Care Unit (CVICU)
+2144-11-20 13:42:06: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2144-11-15 16:40:00        37.9        12.7 29.5  33.5 88.0     177.0 4.31 12.5    NaN  7.0
+2144-11-16 13:30:00        34.9        11.6 29.7  33.2 89.0     152.0 3.91 12.8    NaN 13.3
+2144-11-16 21:57:00        35.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2144-11-17 02:15:00        34.7        11.9 29.9  34.3 87.0     145.0 3.98 12.5    NaN  9.5
+2144-11-18 06:00:00        36.1        12.1 29.5  33.5 88.0     154.0 4.10 12.8    NaN  9.0
+2144-11-19 06:10:00        37.3        12.4 29.2  33.2 88.0     165.0 4.24 12.7    NaN  8.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2144-11-16 13:53:00
+sbp: 99.0
+dbp: 50.0
+mbp: 67.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.0
+temperature: 36.560000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Thoracic aortic aneurysm, without rupture
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W/O CARD CATH W/O CC/MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Thoracic aortic aneurysm, without rupture
+   drg_type: APR
+   description: MAJOR ABDOMINAL VASCULAR PROCEDURES
+   drg_severity: 2
+   drg_mortality: 1
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush (3 mL) - Start time: 2144-11-15 17:00:00, Stop time: 2144-11-16 12:00:00
+- Administered: Insulin (2 Units) - Start time: 2144-11-15 17:00:00, Stop time: 2144-11-16 12:00:00
+- Administered: Atorvastatin (80 mg) - Start time: 2144-11-15 20:00:00, Stop time: 2144-11-16 12:00:00
+- Administered: Mupirocin Ointment 2% (1 Appl) - Start time: 2144-11-15 17:00:00, Stop time: 2144-11-16 12:00:00
+- Administered: Valsartan 80mg Tablet (80 mg) - Start time: 2144-11-15 17:00:00, Stop time: 2144-11-16 12:00:00
+- Administered: Gabapentin 400mg Capsule (400 mg) - Start time: 2144-11-15 17:00:00, Stop time: 2144-11-16 12:00:00

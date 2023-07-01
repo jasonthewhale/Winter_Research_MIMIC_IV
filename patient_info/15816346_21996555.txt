@@ -1,0 +1,82 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 74
+  (3) race: WHITE - EASTERN EUROPEAN
+  (4) admission type: ELECTIVE
+  (5) admit time: 2161-05-14 00:00:00
+  (6) discharge time: 2161-05-20 12:45:00
+  (7) transfer history: 
+2161-05-14 06:47:44 - 2161-05-14 17:56:40: Discharge Lounge
+2161-05-14 18:25:54 - 2161-05-14 18:34:08: PACU
+2161-05-19 15:56:14 - 2161-05-20 12:53:48: Med/Surg
+2161-05-14 17:56:40 - 2161-05-14 18:25:54: Med/Surg
+2161-05-14 18:34:08 - 2161-05-14 20:07:28: Med/Surg
+2161-05-14 20:07:28 - 2161-05-19 15:56:14: Trauma SICU (TSICU)
+2161-05-20 12:53:48: discharge
+
+2. Medical Data
+(1) heart rate: 
+2161-05-15 15:00:00-2161-05-15 15:00:00 SR (Sinus Rhythm)
+2161-05-16 00:00:00-2161-05-16 00:00:00 AF (Atrial Fibrillation)
+2161-05-18 22:00:00-2161-05-18 22:00:00 SR (Sinus Rhythm)
+2161-05-18 23:00:00-2161-05-18 23:00:00 SR (Sinus Rhythm)
+2161-05-19 06:00:00-2161-05-19 06:00:00 SR (Sinus Rhythm)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2161-05-14 13:40:00        40.4        12.6 30.2  31.2 97.0     165.0 4.17 12.9    NaN 16.2
+2161-05-14 16:21:00        39.7        12.9 30.9  32.5 95.0     167.0 4.18 12.9    NaN 15.8
+2161-05-15 02:02:00        37.7        12.1 30.1  32.1 94.0     175.0 4.02 13.2    NaN 14.4
+2161-05-16 02:39:00        39.5        12.7 30.5  32.2 95.0     156.0 4.16 12.9    NaN 12.9
+2161-05-16 11:28:00        41.9        13.4 30.5  32.0 95.0     181.0 4.39 12.8    NaN 15.7
+2161-05-17 01:33:00        34.8        11.2 30.1  32.2 94.0     167.0 3.72 12.8    NaN 14.6
+2161-05-18 01:34:00        34.6        11.1 30.5  32.1 95.0     168.0 3.64 12.9    NaN  9.1
+2161-05-19 03:32:00        33.6        10.8 30.3  32.1 94.0     205.0 3.57 13.2    NaN  7.3
+2161-05-20 05:41:00        37.7        12.2 30.0  32.4 93.0     252.0 4.06 13.0    NaN  9.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2161-05-15 20:00:00
+sbp: 98.0
+dbp: 61.0
+mbp: 74.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 23.5
+temperature: 37.330000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Malignant neoplasm of lower lobe, left bronchus or lung
+   drg_type: HCFA
+   description: MAJOR CHEST PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Malignant neoplasm of lower lobe, left bronchus or lung
+   drg_type: APR
+   description: OTHER RESPIRATORY & CHEST PROCEDURES
+   drg_severity: 2
+   drg_mortality: 1
+
+Medication:
+- Magnesium Sulfate (IV Piggyback) - Start Time: 2161-05-14 19:00:00, Stop Time: 2161-05-14 20:00:00
+- Heparin (Unit Dose) - Start Time: 2161-05-14 20:00:00, Stop Time: 2161-05-19 12:00:00
+- Sodium Chloride 0.9% Flush (Unit Dose) - Start Time: 2161-05-14 19:00:00, Stop Time: 2161-05-20 17:00:00
+- Sodium Chloride 0.9% Flush (Unit Dose) - Start Time: 2161-05-14 22:00:00, Stop Time: 2161-05-20 17:00:00
+- Famotidine (IV Piggyback) - Start Time: 2161-05-15 00:00:00, Stop Time: 2161-05-16 07:00:00
+- Sodium Chloride 0.9% Flush (Unit Dose) - Start Time: 2161-05-14 19:00:00, Stop Time: 2161-05-20 17:00:00
+- Sodium Chloride 0.9% Flush (Unit Dose) - Start Time: 2161-05-14 22:00:00, Stop Time: 2161-05-20 17:00:00
+- Calcium Gluconate (IV Piggyback) - Start Time: 2161-05-15 06:00:00, Stop Time: 2161-05-15 07:00:00
+- Famotidine (IV Piggyback) - Start Time: 2161-05-15 00:00:00, Stop Time: 2161-05-16 07:00:00
+- Heparin (Unit Dose) - Start Time: 2161-05-14 20:00:00, Stop Time: 2161-05-19 12:00:00

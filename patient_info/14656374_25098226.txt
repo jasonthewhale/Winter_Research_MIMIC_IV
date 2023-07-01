@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 46
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2139-10-13 08:00:00
+  (6) discharge time: 2139-10-23 20:00:00
+  (7) transfer history: 
+2139-10-13 03:22:00 - 2139-10-13 08:01:56: Emergency Department
+2139-10-13 08:01:56 - 2139-10-13 10:52:04: PACU
+2139-10-16 17:56:07 - 2139-10-23 20:07:54: Transplant
+2139-10-13 10:52:04 - 2139-10-16 17:56:07: Trauma SICU (TSICU)
+2139-10-23 20:07:54: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2139-10-13 11:09:00        29.4        10.1 32.7  34.4 95.0     174.0 3.09 15.2    NaN 23.9
+2139-10-13 17:43:00        23.8         8.3 33.2  34.9 95.0     186.0 2.50 15.3    NaN 24.6
+2139-10-13 22:12:00        26.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2139-10-14 02:14:00        25.5         8.7 32.1  34.1 94.0     183.0 2.71 15.7    NaN 20.0
+2139-10-14 14:57:00        22.3         7.6 32.9  34.1 97.0     122.0 2.31 15.9    NaN  8.0
+2139-10-14 23:57:00        22.8         7.8 32.8  34.2 96.0     109.0 2.38 16.1    NaN  8.1
+2139-10-15 04:40:00        26.0         8.4 30.8  32.3 95.0     115.0 2.73 16.3    NaN  8.2
+2139-10-15 15:55:00        26.3         9.0 32.1  34.2 94.0      97.0 2.80 16.5    NaN  7.7
+2139-10-16 01:57:00        25.9         8.9 31.9  34.4 93.0      91.0 2.79 16.5    NaN  7.3
+2139-10-17 05:03:00        28.5         9.7 31.9  34.0 94.0      68.0 3.04 16.2    NaN  8.6
+2139-10-18 05:07:00        28.1         9.4 31.5  33.5 94.0      76.0 2.98 16.3    NaN  9.2
+2139-10-19 05:51:00        28.5         9.5 31.5  33.3 94.0      88.0 3.02 16.6    NaN  8.1
+2139-10-20 06:20:00        29.1         9.7 31.4  33.3 94.0     109.0 3.09 16.5    NaN 11.1
+2139-10-21 05:05:00        28.7         9.8 31.8  34.1 93.0     117.0 3.08 16.3    NaN 12.2
+2139-10-22 05:13:00        25.6         8.7 31.5  34.0 93.0     104.0 2.76 16.3    NaN 10.1
+2139-10-23 06:10:00        27.4         9.4 31.8  34.3 93.0     129.0 2.96 16.4    NaN 10.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2139-10-15 02:00:00
+sbp: 103.0
+dbp: 48.0
+mbp: 65.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 26.0
+temperature: 37.670000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Incisional hernia with gangrene
+   drg_type: HCFA
+   description: MAJOR SMALL & LARGE BOWEL PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Piperacillin-Tazobactam 4.5 g / 100 mL Iso-Osmotic Dextrose
+- HYDROmorphone (Dilaudid)
+- Albumin 5% (25g / 500mL) 500mL Bottle
+- Magnesium Sulfate 2 g / 50 mL (Premix Bag)
+- PHENObarbital 130 mg / mL Vial

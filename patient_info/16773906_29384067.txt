@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 56
+  (3) race: UNKNOWN
+  (4) admission type: URGENT
+  (5) admit time: 2185-07-08 19:31:00
+  (6) discharge time: 2185-07-15 13:15:00
+  (7) transfer history: 
+2185-07-08 19:33:25 - 2185-07-11 07:58:23: Cardiac Surgery
+2185-07-11 07:58:23 - 2185-07-11 09:46:42: PACU
+2185-07-12 22:14:17 - 2185-07-15 13:18:19: Cardiac Surgery
+2185-07-11 09:46:42 - 2185-07-11 09:46:51: Cardiac Vascular Intensive Care Unit (CVICU)
+2185-07-11 09:46:51 - 2185-07-12 22:14:17: Cardiac Vascular Intensive Care Unit (CVICU)
+2185-07-15 13:18:19: discharge
+
+2. Medical Data
+(1) heart rate: 
+2185-07-12 15:00:00-2185-07-12 15:00:00 SR (Sinus Rhythm)
+2185-07-12 15:00:00-2185-07-12 15:00:00 PVC's (Premature Ventricular Contractions) Rare
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2185-07-08 21:40:00        42.9        14.5 31.1  33.8 92.0     260.0 4.66 12.7    NaN  6.8
+2185-07-10 03:01:00        42.8        14.5 31.0  33.9 92.0     259.0 4.67 12.6    NaN  9.8
+2185-07-11 02:25:00        41.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2185-07-11 12:20:00        25.0         8.3 31.3  33.2 94.0     137.0 2.65 12.6    NaN 13.3
+2185-07-11 13:50:00        34.4        11.6 31.3  33.7 93.0     162.0 3.71 12.4    NaN 12.8
+2185-07-11 18:54:00        32.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2185-07-12 02:01:00        31.5        11.2 32.7  35.6 92.0     170.0 3.42 12.6    NaN  9.9
+2185-07-12 10:26:00        31.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2185-07-12 16:23:00        30.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2185-07-13 03:47:00        29.5        10.1 31.5  34.2 92.0     190.0 3.21 12.2    NaN 10.3
+2185-07-14 11:00:00        31.5        10.8 31.2  34.3 91.0     253.0 3.46 12.2    NaN  9.7
+2185-07-15 05:47:00        31.2        10.7 31.3  34.3 91.0     306.0 3.42 12.3    NaN 10.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2185-07-11 21:00:00
+sbp: 100.0
+dbp: 54.0
+mbp: 71.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 10.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 1
+coagulation_24hours: 1
+liver_24hours: 1
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 2
+
+Medication:
+- Atorvastatin: Administered from 2185-07-08 21:00:00 to 2185-07-11 09:00:00, dose given: 80 mg
+- Metoprolol Tartrate: Administered from 2185-07-08 21:00:00 to 2185-07-11 09:00:00, dose given: 12.5 mg
+- Mupirocin Ointment 2%: Administered from 2185-07-08 21:00:00 to 2185-07-11 09:00:00, dose given: 1 Appl
+- Sodium Chloride 0.9% Flush: Flushed from 2185-07-08 21:00:00 to 2185-07-11 09:00:00, dose given: 3 mL
+- Aspirin 81mg Tab: Administered from 2185-07-08 21:00:00 to 2185-07-11 09:00:00, dose given: 81 mg
+- Multivitamins 1 Tablet: Administered from 2185-07-08 21:00:00 to 2185-07-11 09:00:00, dose given: 1 TAB
+- Thiamine 100mg Tablet: Administered from 2185-07-08 21:00:00 to 2185-07-11 09:00:00, dose given: 100 mg
+- Metoprolol Tartrate: Administered from 2185-07-08 21:00:00 to 2185-07-11 09:00:00, dose given: 12.5 mg
+- FoLIC Acid 1 mg Tab: Administered from 2185-07-08 21:00:00 to 2185-07-11 09:00:00, dose given: 1 mg

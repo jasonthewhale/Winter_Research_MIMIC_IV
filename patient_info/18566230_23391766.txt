@@ -1,0 +1,93 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 38
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2166-05-01 14:51:00
+  (6) discharge time: 2166-05-18 18:40:00
+  (7) transfer history: 
+2166-05-01 13:03:00 - 2166-05-01 15:10:00: Emergency Department
+2166-05-01 15:10:00 - 2166-05-11 18:38:38: Trauma SICU (TSICU)
+2166-05-11 18:38:38 - 2166-05-13 00:16:25: Surgery/Trauma
+2166-05-13 18:28:26 - 2166-05-18 18:44:14: Surgery/Trauma
+2166-05-13 00:16:25 - 2166-05-13 18:28:26: Trauma SICU (TSICU)
+2166-05-18 18:44:14: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2166-05-01 17:10:00        30.9        10.3 30.4  33.3 91.0     196.0 3.39 15.3    NaN 16.3
+2166-05-01 20:45:00        30.6        10.2 29.8  33.3 90.0     224.0 3.42 15.7    NaN 15.1
+2166-05-02 02:18:00        28.9         9.8 30.2  33.9 89.0     179.0 3.24 15.8    NaN 11.5
+2166-05-02 09:40:00        26.4         8.9 29.7  33.7 88.0     181.0 3.00 15.7    NaN 12.0
+2166-05-02 20:15:00        25.1         8.7 30.3  34.7 88.0     172.0 2.87 15.4    NaN 13.3
+2166-05-03 02:12:00        23.4         8.0 30.2  34.2 88.0     163.0 2.65 15.3    NaN 12.5
+2166-05-04 00:59:00        21.6         7.2 29.9  33.3 90.0     173.0 2.41 15.0    NaN 15.0
+2166-05-04 04:04:00        22.1         7.4 30.2  33.5 90.0     202.0 2.45 14.9    NaN 16.5
+2166-05-05 01:13:00        20.4         6.8 30.8  33.3 92.0     201.0 2.21 15.0    NaN 13.5
+2166-05-05 06:19:00        22.3         7.4 30.7  33.2 93.0     205.0 2.41 14.5    NaN 13.6
+2166-05-05 11:53:00        21.8         7.1 30.2  32.6 93.0     198.0 2.35 14.8    NaN 12.0
+2166-05-05 18:24:00        21.6         7.3 31.7  33.8 94.0     209.0 2.30 14.9    NaN 11.8
+2166-05-06 00:54:00        22.0         7.3 31.1  33.2 94.0     229.0 2.35 14.8    NaN 12.0
+2166-05-07 01:31:00        23.2         7.5 30.4  32.3 94.0     277.0 2.47 14.4    NaN 14.0
+2166-05-08 02:00:00        23.8         7.5 30.0  31.5 95.0     319.0 2.50 14.1    NaN 14.5
+2166-05-09 02:17:00        26.1         8.2 29.9  31.4 95.0     401.0 2.74 14.2    NaN 16.7
+2166-05-10 04:34:00        26.9         8.6 29.9  32.0 93.0     398.0 2.88 14.6    NaN 23.5
+2166-05-11 01:54:00        27.0         8.8 30.0  32.6 92.0     328.0 2.93 14.5    NaN 27.1
+2166-05-12 05:29:00        27.9         9.0 30.1  32.3 93.0     342.0 2.99 14.8    NaN 23.7
+2166-05-13 01:42:00        26.2         8.3 30.0  31.7 95.0     351.0 2.77 15.0    NaN 24.4
+2166-05-14 03:03:00        26.3         8.0 29.3  30.4 96.0     319.0 2.73 15.2    NaN 23.5
+2166-05-15 06:22:00        28.4         8.7 29.7  30.6 97.0     418.0 2.93 14.8    NaN 21.3
+2166-05-16 05:14:00        27.0         8.4 29.9  31.1 96.0     490.0 2.81 14.9    NaN 17.8
+2166-05-17 05:34:00        26.6         8.2 29.5  30.8 96.0     541.0 2.78 14.9    NaN 16.9
+2166-05-18 05:13:00        26.7         8.2 29.9  30.7 97.0     590.0 2.74 15.1    NaN 15.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2166-05-05 05:00:00
+sbp: 136.0
+dbp: 54.0
+mbp: 77.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 19.0
+temperature: 37.170000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 1
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Fracture of nasal bones, initial encounter for closed fracture
+   drg_type: HCFA
+   description: ECMO OR TRACH W MV >96 HRS OR PDX EXC FACE, MOUTH & NECK W MAJ O.R.
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Fracture of nasal bones, initial encounter for closed fracture
+   drg_type: APR
+   description: TRACHEOSTOMY W MV 96+ HOURS W EXTENSIVE PROCEDURE
+   drg_severity: 4
+   drg_mortality: 3
+
+Medication:
+- Fentanyl Citrate: Administered from 2166-05-01 21:00:00 to 2166-05-01 21:00:00
+- Tetanus-DiphTox-Acellular Pertuss (Adacel) 0.5 mL Injection: Administered from 2166-05-01 22:00:00 to 2166-05-02 03:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2166-05-01 22:00:00 to 2166-05-18 23:00:00
+- Magnesium Sulfate 2 g / 50 mL (Premix Bag): Administered from 2166-05-01 23:00:00 to 2166-05-11 19:00:00
+- Cyclopentolate 1%: Administered from 2166-05-01 23:00:00 to 2166-05-04 14:00:00
+- PrednisoLONE Acetate 1% Ophth. Susp.: Administered from 2166-05-01 23:00:00 to 2166-05-02 07:00:00
+- Timolol Maleate 0.5%: Administered from 2166-05-01 23:00:00 to 2166-05-18 23:00:00
+- Ciprofloxacin 0.3% Ophth Soln: Administered from 2166-05-01 23:00:00 to 2166-05-04 14:00:00
+- PrednisoLONE Acetate 1% Ophth. Susp.: Administered from 2166-05-01 23:00:00 to 2166-05-02 07:00:00
+- LamoTRIgine 100mg Tablet: Administered from 2166-05-01 23:00:00 to 2166-05-04 10:00:00

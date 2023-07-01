@@ -1,0 +1,90 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 70
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2190-06-28 16:49:00
+  (6) discharge time: 2190-07-04 21:25:00
+  (7) transfer history: 
+2190-06-28 15:34:00 - 2190-06-28 18:28:00: Emergency Department
+2190-06-28 18:28:00 - 2190-07-04 11:44:04: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2190-07-04 11:44:04 - 2190-07-04 21:27:21: Neuro Stepdown
+2190-07-04 21:27:21: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2190-06-28 20:42:00        24.2         7.4 34.4  30.6 113.0     211.0 2.15 19.7    NaN  9.3
+2190-06-29 04:16:00        26.4         8.0 34.2  30.3 113.0     245.0 2.34 19.9    NaN 10.0
+2190-06-29 08:14:00        28.2         8.7 34.4  30.9 112.0     280.0 2.53 19.8    NaN 11.2
+2190-06-30 02:22:00        28.8         9.0 34.5  31.3 110.0     254.0 2.61 19.7    NaN 15.9
+2190-07-01 00:16:00        32.3         9.8 34.5  30.3 114.0     228.0 2.84 19.4    NaN 16.3
+2190-07-02 01:14:00        26.4         8.3 34.6  31.4 110.0     306.0 2.40 19.1    NaN 13.3
+2190-07-02 02:50:00        27.0         8.4 34.4  31.1 111.0     329.0 2.44 19.4    NaN 14.5
+2190-07-03 04:02:00        29.2         9.2 34.6  31.5 110.0     410.0 2.66 19.2    NaN 12.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2190-06-28 20:00:00
+sbp: 70.0
+dbp: 46.0
+mbp: 51.0
+sbp_ni: 70.0
+dbp_ni: 46.0
+mbp_ni: 51.0
+resp_rate: 12.0
+temperature: 36.440000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Cerebral infarction due to embolism of other cerebral artery
+   drg_type: APR
+   description: CVA & PRECEREBRAL OCCLUSION W INFARCT
+   drg_severity: 4
+   drg_mortality: 4
+2. Cerebral infarction due to embolism of other cerebral artery
+   drg_type: HCFA
+   description: INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Cerebral infarction due to embolism of other cerebral artery: 
+  - Medication 1: Sodium Chloride 0.9% - Floor Stock (500 mL) 
+    - Start time: 2190-06-29 16:00:00 
+    - Stop time: 2190-06-29 16:00:00 
+  - Medication 2: Atorvastatin (40 mg) 
+    - Start time: 2190-06-29 20:00:00 
+    - Stop time: 2190-07-03 14:00:00 
+  - Medication 3: Docusate Sodium 100 mg Tablet (100 mg) 
+    - Start time: 2190-06-29 20:00:00 
+    - Stop time: 2190-07-03 14:00:00 
+  - Medication 4: Senna 8.6 mg Tablet (8.6 mg) 
+    - Start time: 2190-06-29 20:00:00 
+    - Stop time: 2190-07-03 14:00:00 
+  - Medication 5: Chlorhexidine Gluconate 15ml Cup (15 mL) 
+    - Start time: 2190-06-29 20:00:00 
+    - Stop time: 2190-07-03 14:00:00 
+  - Medication 6: Heparin Sodium 5000 Units / mL- 1mL Vial (5000 UNIT) 
+    - Start time: 2190-06-29 20:00:00 
+    - Stop time: 2190-07-01 08:00:00 
+  - Medication 7: Metoprolol Tartrate (25 mg) 
+    - Start time: 2190-06-29 20:00:00 
+    - Stop time: 2190-07-03 14:00:00 
+  - Medication 8: Diltiazem 90 mg Tab (90 mg) 
+    - Start time: 2190-06-29 18:00:00 
+    - Stop time: 2190-07-03 14:00:00 
+  - Medication 9: Diltiazem 90 mg Tab (

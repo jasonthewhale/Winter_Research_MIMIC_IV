@@ -1,0 +1,76 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 58
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2166-03-28 21:30:00
+  (6) discharge time: 2166-04-02 12:54:00
+  (7) transfer history: 
+2166-03-28 12:50:00 - 2166-03-28 21:30:53: Emergency Department
+2166-03-28 21:30:53 - 2166-03-28 22:04:53: Medicine
+2166-03-28 22:04:53 - 2166-03-29 04:40:26: Medicine
+2166-03-29 04:47:42 - 2166-04-02 16:14:26: Medical Intensive Care Unit (MICU)
+2166-03-29 04:40:26 - 2166-03-29 04:47:42: Medical Intensive Care Unit (MICU)
+2166-04-02 16:14:26: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2166-03-29 01:21:00        45.4        15.4 29.7  33.9 88.0     182.0 5.18 15.1    NaN 23.3
+2166-03-29 05:07:00        45.5        14.6 30.2  32.1 94.0     169.0 4.83 15.4    NaN 32.7
+2166-03-29 11:11:00        39.3        13.0 30.0  33.1 91.0     163.0 4.34 15.3    NaN 30.3
+2166-03-29 18:01:00        38.8        12.8 29.4  33.0 89.0     166.0 4.35 15.4    NaN 30.7
+2166-03-30 04:05:00        37.4        12.7 30.0  34.0 88.0     170.0 4.24 15.5    NaN 32.1
+2166-03-31 02:37:00        36.2        11.8 29.4  32.6 90.0     198.0 4.02 16.2    NaN 35.6
+2166-04-01 03:46:00        32.7        10.8 29.4  33.0 89.0     244.0 3.67 16.2    NaN 34.2
+2166-04-02 04:31:00        32.2        10.4 29.1  32.3 90.0     292.0 3.57 16.5    NaN 39.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2166-04-01 00:00:00
+sbp: 104.0
+dbp: 52.0
+mbp: 67.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: nan
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 4
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 1
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Sepsis due to Methicillin susceptible Staphylococcus aureus
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+2. Sepsis due to Methicillin susceptible Staphylococcus aureus
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W MV >96 HOURS OR PERIPHERAL EXTRACORPOREAL
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, started on 2166-03-29 00:00:00 and stopped on 2166-03-30 23:00:00
+- Administered: Acetaminophen 500mg Tablet, 500 mg, started on 2166-03-29 01:00:00 and stopped on 2166-04-02 20:00:00
+- Administered: Acetaminophen 500mg Tablet, 500 mg, started on 2166-03-29 01:00:00 and stopped on 2166-04-02 20:00:00
+- Administered: Vancomycin 1500 mg / 500 mL 0.9% Sodium Chloride, 1500 mg, started on 2166-03-29 04:00:00 and stopped on 2166-03-29 07:00:00
+- Administered: MetroNIDAZOLE 500 mg Tab, 500 mg, started on 2166-03-29 02:00:00 and stopped on 2166-03-29 05:00:00
+- Administered: CefTRIAXone 2g Vial, 2 gm, started on 2166-03-29 02:00:00 and stopped on 2166-03-30 12:00:00
+- Administered: OxyCODONE (Immediate Release) 5mg Tablet, 5 mg, started on 2166-03-29 02:00:00 and stopped on 2166-03-29 05:00:00
+- Administered: Ampicillin Sodium 2 g / 100 mL 0.9% Sodium Chloride (Mini Bag Plus), 2 g, started on 2166-03-29 02:00:00 and stopped on 2166-03-29 12:00:00
+- Administered: Hydrocortisone Na Succ., 100 mg, started on 2166-03-29 07:00:00 and stopped on 2166-03-30 14:00:00
+- Administered: Ampicillin Sodium 2 g / 100 mL 0.9% Sodium Chloride (Mini

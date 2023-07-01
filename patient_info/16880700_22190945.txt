@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 73
+  (3) race: WHITE
+  (4) admission type: DIRECT EMER.
+  (5) admit time: 2116-04-03 00:28:00
+  (6) discharge time: 2116-04-14 21:24:00
+  (7) transfer history: 
+2116-04-03 17:33:00 - 2116-04-04 02:06:00: Emergency Department
+2116-04-04 02:06:00 - 2116-04-05 17:12:56: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2116-04-13 19:50:13 - 2116-04-14 21:24:26: Hematology/Oncology Intermediate
+2116-04-05 17:12:56 - 2116-04-13 19:50:13: Hematology/Oncology Intermediate
+2116-04-14 21:24:26: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2116-04-04 03:43:00        24.4         8.3 30.4  34.0 89.0     336.0 2.73 15.7    NaN  3.6
+2116-04-05 02:02:00        22.9         7.8 30.7  34.1 90.0     325.0 2.54 15.9    NaN  3.0
+2116-04-06 02:15:00        24.5         8.3 30.6  33.9 90.0     398.0 2.71 16.5    NaN  3.2
+2116-04-07 00:12:00        25.3         8.6 31.3  34.0 92.0     393.0 2.75 16.6    NaN  3.4
+2116-04-08 00:00:00        24.2         8.0 31.1  33.1 94.0     391.0 2.57 17.1    NaN  4.2
+2116-04-09 00:00:00        24.0         7.8 31.3  32.5 96.0     340.0 2.49 17.4    NaN  3.7
+2116-04-10 00:00:00        24.3         7.5 30.1  30.9 98.0     311.0 2.49 17.6    NaN  5.8
+2116-04-11 00:00:00        23.8         7.7 31.0  32.4 96.0     288.0 2.48 17.5    NaN  4.7
+2116-04-12 00:00:00        24.6         7.9 31.1  32.1 97.0     305.0 2.54 17.6    NaN  4.2
+2116-04-13 00:00:00        24.5         7.8 31.1  31.8 98.0     297.0 2.51 18.0    NaN  4.4
+2116-04-14 00:00:00        23.9         7.6 31.4  31.8 99.0     284.0 2.42 18.2    NaN  4.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2116-04-05 04:00:00
+sbp: 88.0
+dbp: 59.0
+mbp: 66.0
+sbp_ni: 88.0
+dbp_ni: 59.0
+mbp_ni: 66.0
+resp_rate: 15.0
+temperature: 36.330000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Syndrome of inappropriate secretion of antidiuretic hormone
+   drg_type: APR
+   description: OTHER ENDOCRINE DISORDERS
+   drg_severity: 3
+   drg_mortality: 3
+2. Syndrome of inappropriate secretion of antidiuretic hormone
+   drg_type: HCFA
+   description: ENDOCRINE DISORDERS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Sodium Chloride: Administered from 2116-04-04 05:00:00 to 2116-04-04 11:00:00
+- Magnesium Sulfate: Administered from 2116-04-04 06:00:00 to 2116-04-04 11:00:00
+- Heparin Sodium: Administered from 2116-04-04 08:00:00 to 2116-04-04 11:00:00
+- Acyclovir: Administered from 2116-04-04 10:00:00 to 2116-04-04 11:00:00
+- Atovaquone Suspension: Administered from 2116-04-05 08:00:00 to 2116-04-04 10:00:00
+- Multivitamins W/minerals: Administered from 2116-04-05 08:00:00 to 2116-04-04 11:00:00
+- Pantoprazole: Administered from 2116-04-04 10:00:00 to 2116-04-04 11:00:00
+- Cyanocobalamin: Administered from 2116-04-04 11:00:00 to 2116-04-15 02:00:00
+- Atovaquone Suspension: Administered from 2116-04-04 12:00:00 to 2116-04-04 13:00:00
+- Voriconazole: Administered from 2116-04-04 08:00:00 to 2116-04-15 02:00:00

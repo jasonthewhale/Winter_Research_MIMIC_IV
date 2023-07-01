@@ -1,0 +1,93 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 65
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2111-06-06 19:19:00
+  (6) discharge time: 2111-07-04 17:54:00
+  (7) transfer history: 
+2111-06-06 17:02:00 - 2111-06-06 19:20:18: Emergency Department
+2111-06-06 19:20:18 - 2111-06-06 20:12:28: Coronary Care Unit (CCU)
+2111-06-07 16:36:33 - 2111-07-04 17:54:29: Medicine
+2111-06-06 20:12:28 - 2111-06-07 16:36:33: Coronary Care Unit (CCU)
+2111-07-04 17:54:29: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2111-06-07 03:33:00        28.4         9.7 32.6  34.2  95.0     131.0 2.98 14.8    NaN  2.5
+2111-06-08 07:33:00        25.2         8.7 32.2  34.5  93.0     130.0 2.70 14.5    NaN  2.3
+2111-06-09 05:30:00        25.9         9.0 32.6  34.7  94.0     139.0 2.76 14.6    NaN  2.4
+2111-06-10 05:00:00        24.8         8.5 32.8  34.3  96.0     156.0 2.59 14.6    NaN  3.0
+2111-06-11 05:36:00        25.8         8.8 32.8  34.1  96.0     196.0 2.68 14.9    NaN  2.9
+2111-06-12 05:25:00        25.9         8.6 32.2  33.2  97.0     237.0 2.67 15.0    NaN  3.0
+2111-06-14 07:34:00        29.5         9.8 32.0  33.2  96.0     302.0 3.06 14.9    NaN  4.8
+2111-06-15 14:09:00        26.9         8.6 32.2  32.0 101.0     291.0 2.67 15.0    NaN  4.6
+2111-06-16 07:01:00        26.5         8.7 32.1  32.8  98.0     285.0 2.71 14.8    NaN  3.9
+2111-06-18 06:45:00        27.6         8.9 31.0  32.2  96.0     289.0 2.87 14.2    NaN  5.7
+2111-06-19 17:10:00        30.6        10.1 32.0  33.0  97.0     235.0 3.16 13.6    NaN  9.8
+2111-06-20 05:35:00        30.6        10.3 32.4  33.7  96.0     298.0 3.18 13.6    NaN  8.8
+2111-06-21 07:57:00        29.2         9.7 31.4  33.2  95.0     267.0 3.09 13.3    NaN  7.8
+2111-06-22 07:30:00        27.4         9.0 31.3  32.8  95.0     256.0 2.88 13.4    NaN  6.3
+2111-06-23 05:45:00        27.9         9.0 30.5  32.3  95.0     245.0 2.95 13.5    NaN  5.7
+2111-06-24 05:55:00        29.0         9.3 30.5  32.1  95.0     245.0 3.05 13.9    NaN  4.4
+2111-06-24 20:25:00        26.1         8.3 30.3  31.8  95.0     196.0 2.74 14.1    NaN  4.8
+2111-06-25 05:30:00        29.6         9.2 30.1  31.1  97.0     194.0 3.06 14.2    NaN  6.5
+2111-06-26 05:35:00        26.2         8.4 30.5  32.1  95.0     186.0 2.75 14.6    NaN  5.0
+2111-06-27 05:55:00        26.9         8.6 30.2  32.0  94.0     183.0 2.85 14.7    NaN  5.5
+2111-06-28 07:45:00        27.0         8.8 30.3  32.6  93.0     179.0 2.90 14.8    NaN  5.0
+2111-06-29 07:31:00        28.1         9.0 29.8  32.0  93.0     186.0 3.02 15.1    NaN  5.5
+2111-06-30 05:32:00        28.5         9.1 30.0  31.9  94.0     206.0 3.03 15.5    NaN  5.9
+2111-07-02 05:35:00        29.7         9.6 30.2  32.3  93.0     284.0 3.18 15.5    NaN  6.5
+2111-07-04 05:10:00        31.3        10.1 29.9  32.3  93.0     324.0 3.38 15.6    NaN  8.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2111-06-07 08:00:00
+sbp: 93.0
+dbp: 76.0
+mbp: 84.0
+sbp_ni: 93.0
+dbp_ni: 76.0
+mbp_ni: 84.0
+resp_rate: 14.0
+temperature: 37.060000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Hypotension, unspecified
+   drg_type: HCFA
+   description: OTHER CIRCULATORY SYSTEM DIAGNOSES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Hypotension, unspecified
+   drg_type: APR
+   description: MODERATELY EXTENSIVE PROCEDURE UNRELATED TO PRINCIPAL DIAGNOSIS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Vancomycin 1500 mg / 500 mL 0.9% Sodium Chloride (Started from 2111-06-06 23:00:00 to 2111-07-04 22:00:00)
+- Bisacodyl (Discontinued via patient discharge on 2111-06-06 22:36:57)
+- Pantoprazole 40 mg Via (Administered from 2111-06-07 00:00:00 to 2111-06-07 16:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered from 2111-06-07 08:00:00 to 2111-06-13 10:00:00)
+- Thiamine 200 mg in 250 mL 0.9% Sodium Chloride (Administered from 2111-06-06 23:00:00 to 2111-06-07 16:00:00)
+- Diazepam 10 mg Tab (Administered from 2111-06-06 23:00:00 to 2111-06-11 11:00:00)
+- Piperacillin-Tazobactam 4.5 g / 100 mL Iso-Osmotic Dextrose (Administered from 2111-06-07 04:00:00 to 2111-06-07 16:00:00)
+- Magnesium Sulfate 4 g / 100 mL (Premix Bag) (Administered from 2111-06-06 23:00:00 to 2111-06-07 16:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered from 2111-06-07 08:00:00 to 2111-06-13 10:00:00)
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix) (Administered from 2111-06-07 08:00:00 to 2111-06-07 09:00:00)
+- Docusate Sodium 100mg Capsule (Administered from 2111-06-07 08:00:00 to 2111-06-10 07

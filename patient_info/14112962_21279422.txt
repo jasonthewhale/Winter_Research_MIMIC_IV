@@ -1,0 +1,67 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 82
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2160-11-21 09:54:00
+  (6) discharge time: 2160-11-24 16:52:00
+  (7) transfer history: 
+2160-11-21 07:47:00 - 2160-11-21 11:46:00: Emergency Department
+2160-11-21 11:46:00 - 2160-11-21 21:15:23: Medical Intensive Care Unit (MICU)
+2160-11-21 21:15:23 - 2160-11-24 16:52:39: Medicine
+2160-11-24 16:52:39: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2160-11-22 06:50:00        30.8         9.6 27.9  31.2 90.0     144.0 3.44 14.9    NaN  8.4
+2160-11-23 07:10:00        30.9         9.7 27.8  31.4 89.0     166.0 3.49 14.7    NaN  8.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2156-10-16 08:00:00
+sbp: 117.0
+dbp: 48.0
+mbp: 66.0
+sbp_ni: 117.0
+dbp_ni: 48.0
+mbp_ni: 66.0
+resp_rate: 23.0
+temperature: 36.780000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: <NA>
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Pneumonitis due to inhalation of food and vomit
+   drg_type: HCFA
+   description: RESPIRATORY INFECTIONS & INFLAMMATIONS W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Pneumonitis due to inhalation of food and vomit
+   drg_type: APR
+   description: MAJOR RESPIRATORY INFECTIONS & INFLAMMATIONS
+   drg_severity: 3
+   drg_mortality: 2
+
+Medication:
+- Aspirin 81mg Tab: Administered from 2160-11-21 15:00:00 to 2160-11-24 21:00:00
+- Carbidopa-Levodopa (25-100) 25-100 mg Tablet: Administered from 2160-11-21 15:00:00 to 2160-11-24 21:00:00
+- Entacapone 200 mg Tablet: Administered from 2160-11-21 15:00:00 to 2160-11-24 21:00:00
+- Polyethylene Glycol 17g Packet: Administered from 2160-11-22 08:00:00 to 2160-11-24 21:00:00
+- Ropinirole 0.25mg Tab: Administered from 2160-11-21 15:00:00 to 2160-11-24 21:00:00
+- Senna 8.6 mg Tablet: Administered from 2160-11-21 20:00:00 to 2160-11-24 21:00:00
+- Sodium Chloride 0.9% Flush: Administered from 2160-11-21 14:00:00 to 2160-11-24 21:00:00
+- Omeprazole 20mg DR Capsule: Administered from 2160-11-21 14:00:00 to 2160-11-24 21:00:00
+- Sodium Chloride 0.9% Flush: Administered from 2160-11-21 16:00:00 to 2160-11-24 21:00:00

@@ -1,0 +1,66 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 64
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2112-08-04 00:00:00
+  (6) discharge time: 2112-08-09 14:29:00
+  (7) transfer history: 
+2112-08-04 04:31:54 - 2112-08-04 18:15:19: Discharge Lounge
+2112-08-04 18:15:19 - 2112-08-09 14:49:36: Neuro Intermediate
+2112-08-09 14:49:36: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2112-08-05 05:33:00        37.1        12.3 31.7  33.2 96.0     178.0 3.88 13.1    NaN 13.1
+2112-08-06 09:38:00        42.2        14.1 32.1  33.4 96.0     201.0 4.39 12.9    NaN 10.8
+2112-08-07 06:46:00        40.7        13.7 31.4  33.7 93.0     221.0 4.36 12.5    NaN  8.4
+2112-08-09 07:15:00        41.3        14.0 31.9  33.9 94.0     229.0 4.39 12.5    NaN  8.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2112-08-05 04:00:00
+sbp: 129.0
+dbp: 55.0
+mbp: 80.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.0
+temperature: 36.830000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Benign neoplasm of cerebral meninges
+   drg_type: HCFA
+   description: CRANIOTOMY & ENDOVASCULAR INTRACRANIAL PROCEDURES W/O CC/MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Benign neoplasm of cerebral meninges
+   drg_type: APR
+   description: CRANIOTOMY EXCEPT FOR TRAUMA
+   drg_severity: 2
+   drg_mortality: 1
+
+Medication:
+- HydrALAzine: 10 mg, started on 2112-08-04 19:00:00, stopped on 2112-08-05 20:00:00, administered via IV, frequency: Q6H:PRN
+- Morphine Sulfate: 2 mg, started on 2112-08-05 02:00:00, stopped on 2112-08-06 01:00:00, administered via IV, frequency: ONCE
+- Dexamethasone: 4 mg, started on 2112-08-04 19:00:00, stopped on 2112-08-05 12:00:00, administered via IV, frequency: Q6H
+- Sodium Chloride 0.9% Flush: 3 mL, started on 2112-08-04 19:00:00, stopped on 2112-08-09 19:00:00, administered via IV, frequency: Q8H
+- OxyCODONE (Immediate Release): 5 mg, started on 2112-08-04 19:00:00, stopped on 2112-08-05 20:00:00, administered via PO/NG, frequency: Q4H:PRN
+- Famotidine: 20 mg, started on 2112-08-04 19:00:00, stopped on 2112-08-08 08:00:00, administered via IV Piggyback, frequency: Q12H
+- Ondansetron: 4 mg, started on 2112-08-04 19:00:00, stopped on 2112-08-09 19:00:00, administered via IV, frequency: Q8H:PRN

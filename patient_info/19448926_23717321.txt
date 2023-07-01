@@ -1,0 +1,97 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 52
+  (3) race: UNKNOWN
+  (4) admission type: EW EMER.
+  (5) admit time: 2164-02-25 22:50:00
+  (6) discharge time: 2164-03-07 17:20:00
+  (7) transfer history: 
+2164-02-25 20:46:00 - 2164-02-25 22:52:16: Emergency Department
+2164-02-25 22:52:16 - 2164-02-25 23:49:18: Medical Intensive Care Unit (MICU)
+2164-03-01 19:52:52 - 2164-03-02 10:49:07: Medicine/Cardiology
+2164-02-25 23:49:18 - 2164-03-01 19:52:52: Medical Intensive Care Unit (MICU)
+2164-03-05 14:52:13 - 2164-03-07 17:40:48: Cardiac Vascular Intensive Care Unit (CVICU)
+2164-03-02 10:49:07 - 2164-03-05 14:52:13: Cardiac Vascular Intensive Care Unit (CVICU)
+2164-03-07 17:40:48: discharge
+
+2. Medical Data
+(1) heart rate: 
+2164-02-29 11:00:00-2164-02-29 11:00:00 SR (Sinus Rhythm)
+2164-03-02 18:00:00-2164-03-02 18:00:00 SB (Sinus Bradycardia)
+2164-03-02 19:00:00-2164-03-02 19:00:00 SR (Sinus Rhythm)
+2164-03-02 20:00:00-2164-03-02 20:00:00 SB (Sinus Bradycardia)
+2164-03-02 21:00:00-2164-03-02 21:00:00 SB (Sinus Bradycardia)
+2164-03-02 22:00:00-2164-03-02 22:00:00 SB (Sinus Bradycardia)
+2164-03-02 23:00:00-2164-03-02 23:00:00 SB (Sinus Bradycardia)
+2164-03-03 00:00:00-2164-03-03 00:00:00 SB (Sinus Bradycardia)
+2164-03-03 01:00:00-2164-03-03 01:00:00 SB (Sinus Bradycardia)
+2164-03-03 02:00:00-2164-03-03 02:00:00 SB (Sinus Bradycardia)
+2164-03-03 03:00:00-2164-03-03 03:00:00 SR (Sinus Rhythm)
+2164-03-03 06:00:00-2164-03-03 06:00:00 SB (Sinus Bradycardia)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2164-02-26 01:01:00        37.7        12.1 28.6  32.1 89.0     200.0 4.23 13.1    NaN 14.1
+2164-02-26 03:48:00        33.5        10.4 28.4  31.0 92.0     176.0 3.66 12.9    NaN 12.6
+2164-02-26 09:46:00        31.8        10.4 28.8  32.7 88.0     174.0 3.61 13.0    NaN  8.4
+2164-02-26 16:51:00        34.6        11.2 28.4  32.4 88.0     205.0 3.94 13.1    NaN 10.5
+2164-02-26 21:20:00        33.4        10.7 28.5  32.0 89.0     193.0 3.76 13.2    NaN 12.6
+2164-02-27 03:38:00        31.2        10.4 29.4  33.3 88.0     204.0 3.54 13.2    NaN 10.5
+2164-02-28 01:15:00        30.7        10.1 29.0  32.9 88.0     171.0 3.48 13.2    NaN  8.7
+2164-02-29 01:41:00        28.2         9.2 29.2  32.6 90.0     179.0 3.15 13.4    NaN  5.9
+2164-03-01 03:41:00        25.9         8.5 28.9  32.8 88.0     162.0 2.94 12.9    NaN  6.1
+2164-03-02 07:32:00        27.9         9.2 29.3  33.0 89.0     191.0 3.14 12.9    NaN  6.5
+2164-03-02 12:43:00        30.1         9.7 28.8  32.2 89.0     199.0 3.37 12.7    NaN  7.5
+2164-03-03 03:53:00        30.4        10.0 29.3  32.9 89.0     236.0 3.41 12.9    NaN  9.8
+2164-03-04 03:57:00        29.8         9.5 28.2  31.9 88.0     174.0 3.37 13.2    NaN 10.1
+2164-03-05 04:08:00        27.4         9.1 29.1  33.2 88.0     244.0 3.13 13.3    NaN  9.0
+2164-03-05 15:48:00        26.9         8.9  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2164-03-06 02:18:00        25.4         8.5 29.3  33.5 88.0     252.0 2.90 13.2    NaN 13.7
+2164-03-07 02:12:00        22.7         7.5 29.3  33.0 89.0     220.0 2.56 13.6    NaN 10.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2164-03-02 17:00:00
+sbp: 131.0
+dbp: 69.0
+mbp: 85.0
+sbp_ni: 131.0
+dbp_ni: 69.0
+mbp_ni: 85.0
+resp_rate: 11.0
+temperature: 36.940000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Ventricular fibrillation
+   drg_type: APR
+   description: CARDIAC DEFIBRILLATOR & HEART ASSIST IMPLANT
+   drg_severity: 3
+   drg_mortality: 4
+2. Ventricular fibrillation
+   drg_type: HCFA
+   description: CARDIAC DEFIB IMPLANT W CARDIAC CATH W/O AMI/HF/SHOCK W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- CoQ10 (300mg) - Administered from 2164-02-26 08:00:00 to 2164-02-26 07:00:00
+- CefePIME - Administered from 2164-02-26 03:00:00 to 2164-02-26 08:00:00
+- Vancomycin - Administered from 2164-02-26 03:00:00 to 2164-02-26 08:00:00
+- Magnesium Sulfate Replacement (Critical Care and Oncology) - Administered from 2164-02-26 06:00:00 to 2164-02-29 23:00:00
+- Acetaminophen IV - Administered from 2164-02-26 06:00:00 to 2164-02-26 08:00:00
+- LORazepam - Administered from 2164-02-26 03:00:00 to 2164-02-26 08:00:00
+- Famotidine - Administered from 2164-02-26 01:00:00 to 2164-02-29 12:00:00
+- Heparin - Administered from 2164-02-26 01:00:00 to 2164-03-04 10:00:00
+- Lactated Ringers - Floor Stock Bag - Administered from 2164-02-26 07:00:00 to 2164-02-26 08:00:00
+- Chlorhexidine Gluconate 0.12% Oral Rinse - Administered from 2164-02-26 08:00:00 to 2164-02-29 12:00:00

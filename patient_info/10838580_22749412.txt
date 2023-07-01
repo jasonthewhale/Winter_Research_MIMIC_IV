@@ -1,0 +1,96 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 84
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2174-01-23 19:19:00
+  (6) discharge time: 2174-02-12 19:43:00
+  (7) transfer history: 
+2174-01-23 17:01:00 - 2174-01-23 20:43:00: Emergency Department
+2174-01-23 20:43:00 - 2174-02-06 21:04:11: Medical Intensive Care Unit (MICU)
+2174-02-06 21:04:11 - 2174-02-12 19:43:11: Medicine
+2174-02-12 19:43:11: discharge
+
+2. Medical Data
+(1) heart rate: 
+2174-01-23 23:00:00-2174-01-24 03:00:00 AF (Atrial Fibrillation) PVC's Occasional
+2174-01-24 04:00:00-2174-01-24 04:00:00 AF (Atrial Fibrillation) PVC's Rare
+2174-01-24 23:00:00-2174-01-25 08:00:00 SB (Sinus Bradycardia) PAC's Occasional
+2174-01-25 09:00:00-2174-01-25 09:00:00 1st AV (First degree AV Block) PAC's Occasional
+2174-01-25 11:00:00-2174-01-25 14:00:00 SR (Sinus Rhythm) PAC's None
+2174-01-26 00:00:00-2174-01-26 06:00:00 SR (Sinus Rhythm) PAC's Occasional
+2174-01-26 07:00:00-2174-01-26 07:00:00 SR (Sinus Rhythm) PVC's Occasional
+2174-01-26 08:00:00-2174-01-26 08:00:00 SR (Sinus Rhythm) PVC's Occasional
+2174-01-26 09:00:00-2174-01-26 10:00:00 SR (Sinus Rhythm) PVC's Rare
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2174-01-24 03:55:00        40.7        12.9 30.0  31.7 95.0     190.0 4.30 14.1    NaN 18.3
+2174-01-24 05:03:00        38.6        12.5 30.3  32.4 94.0     178.0 4.12 14.1    NaN 20.1
+2174-01-24 17:10:00        37.8        11.9 30.3  31.5 96.0     196.0 3.93 14.2    NaN 15.5
+2174-01-25 04:47:00        36.9        11.3 29.7  30.6 97.0     182.0 3.80 14.3    NaN 12.0
+2174-01-26 04:03:00        41.3        12.7 29.7  30.8 97.0     189.0 4.27 14.3    NaN 13.0
+2174-01-27 04:25:00        41.5        12.7 30.2  30.6 99.0     229.0 4.21 14.6    NaN 19.4
+2174-01-28 00:15:00        35.7        10.6 29.5  29.7 99.0     152.0 3.59 14.2    NaN 15.7
+2174-01-28 06:02:00        35.6        10.7 29.6  30.1 98.0     149.0 3.62 14.1    NaN 18.0
+2174-01-28 16:54:00        37.1        11.5 30.1  31.0 97.0     163.0 3.82 13.8    NaN 18.4
+2174-01-29 03:44:00        39.6        12.3 30.1  31.1 97.0     166.0 4.09 14.0    NaN 20.7
+2174-01-30 03:58:00        39.3        12.2 29.8  31.0 96.0     170.0 4.09 13.8    NaN 21.6
+2174-01-31 03:01:00        36.5        11.2 29.9  30.7 98.0     171.0 3.74 13.9    NaN 17.5
+2174-02-01 03:22:00        38.2        11.7 29.6  30.6 97.0     300.0 3.95 13.8    NaN 24.1
+2174-02-02 04:38:00        32.6        10.0 29.9  30.7 98.0     276.0 3.34 14.0    NaN 14.6
+2174-02-03 03:53:00        30.9         9.6 30.2  31.1 97.0     267.0 3.18 14.1    NaN 13.8
+2174-02-04 03:02:00        33.1        10.2 29.7  30.8 96.0     333.0 3.44 13.9    NaN 14.4
+2174-02-05 02:57:00        31.8         9.6 29.5  30.2 98.0     342.0 3.25 14.3    NaN 10.8
+2174-02-06 04:05:00        32.8        10.1 29.9  30.8 97.0     333.0 3.38 14.1    NaN  9.7
+2174-02-07 06:32:00        34.1        10.4 30.0  30.5 98.0     354.0 3.47 14.5    NaN  8.7
+2174-02-08 06:00:00        33.9        10.5 30.4  31.0 98.0     325.0 3.45 14.6    NaN  7.0
+2174-02-09 05:54:00        30.6         9.4 29.8  30.7 97.0     285.0 3.15 14.5    NaN  9.1
+2174-02-11 13:09:00        32.6        10.3 30.6  31.6 97.0     281.0 3.37 14.9    NaN 10.9
+2174-02-12 07:20:00        30.4         9.3 30.0  30.6 98.0     229.0 3.10 15.1    NaN  7.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2166-09-19 01:00:00
+sbp: 94.0
+dbp: 55.0
+mbp: 64.0
+sbp_ni: 94.0
+dbp_ni: 55.0
+mbp_ni: 64.0
+resp_rate: 14.0
+temperature: 35.940000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Sepsis due to Streptococcus pneumoniae
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W MV >96 HOURS OR PERIPHERAL EXTRACORPOREAL
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis due to Streptococcus pneumoniae
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Magnesium Sulfate Replacement (Critical Care and Oncology) - Administered from 2174-01-24 00:00:00 to 2174-02-06 21:00:00
+- Heparin - Administered from 2174-01-24 08:00:00 to 2174-01-24 03:00:00
+- Sodium Chloride 0.9% Flush - Flushed from 2174-01-24 00:00:00 to 2174-02-07 23:00:00
+- Senna - Administered from 2174-01-23 23:00:00 to 2174-01-26 11:00:00
+- Atorvastatin - Administered from 2174-01-24 00:00:00 to 2174-02-13 00:00:00
+- Tamsulosin - Administered from 2174-01-24 00:00:00 to 2174-02-13 00:00:00
+- Lansoprazole Oral Disintegrating Tab - Administered from 2174-01-24 01:00:00 to 2174-02-13 00:00:00
+- Potassium Chloride (Powder) 20mEq Packet - None from 2174-01-24 01:00:00 to 2174-01-25 18:00:00
+- GuaiFENesin 200 mg / 10 mL UDCup - Administered from 2174-01-24 01:00:00 to 2174-01-27 08:00:00

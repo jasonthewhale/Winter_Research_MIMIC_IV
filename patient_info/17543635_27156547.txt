@@ -1,0 +1,89 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 50
+  (3) race: UNKNOWN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2128-01-20 22:27:00
+  (6) discharge time: 2128-02-14 14:20:00
+  (7) transfer history: 
+2128-01-20 18:53:00 - 2128-01-20 22:57:00: Emergency Department
+2128-01-20 22:57:00 - 2128-01-22 16:39:57: Trauma SICU (TSICU)
+2128-02-08 17:39:23 - 2128-02-14 14:26:08: Surgery/Trauma
+2128-01-27 17:26:56 - 2128-02-08 17:39:23: Surgery/Trauma
+2128-01-22 16:39:57 - 2128-01-27 17:26:56: Surgery/Trauma
+2128-02-14 14:26:08: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2128-01-21 01:00:00        38.2        11.9 30.9  31.2 99.0     155.0 3.85 13.2    NaN 13.8
+2128-01-21 04:54:00        31.7        10.3 31.1  32.5 96.0     159.0 3.31 13.5    NaN 10.8
+2128-01-21 14:20:00        28.8         9.6 31.6  33.3 95.0     151.0 3.04 13.6    NaN 12.0
+2128-01-22 00:51:00        26.1         8.6 31.4  33.0 95.0     153.0 2.74 13.7    NaN 11.4
+2128-01-22 12:15:00        22.9         7.5 31.0  32.8 95.0     145.0 2.42 13.5    NaN 10.7
+2128-01-22 17:50:00        24.9         7.9 30.5  31.7 96.0     132.0 2.59 13.5    NaN 11.1
+2128-01-24 05:54:00        21.3         6.8 30.1  31.9 94.0     186.0 2.26 14.9    NaN 11.7
+2128-01-25 05:46:00        26.0         8.5 30.5  32.7 93.0     226.0 2.79 14.6    NaN 12.0
+2128-01-26 06:18:00        27.5         8.8 30.0  32.0 94.0     271.0 2.93 14.4    NaN 12.3
+2128-01-27 05:37:00        28.2         9.0 30.4  31.9 95.0     337.0 2.96 14.4    NaN 12.7
+2128-01-29 07:35:00        24.7         7.8 30.4  31.6 96.0     378.0 2.57 14.0    NaN 13.0
+2128-01-30 08:54:00        22.4         7.0 29.7  31.3 95.0     408.0 2.36 14.1    NaN 11.6
+2128-01-31 05:46:00        23.1         7.4 30.3  32.0 95.0     469.0 2.44 13.9    NaN 11.7
+2128-02-02 08:45:00        24.1         7.4 29.4  30.7 96.0     597.0 2.52 14.0    NaN 12.0
+2128-02-03 07:40:00        23.6         7.3 30.0  30.9 97.0     632.0 2.43 14.1    NaN 13.9
+2128-02-04 07:50:00        27.1         8.2 29.6  30.3 98.0     668.0 2.77 15.5    NaN 11.2
+2128-02-05 08:00:00        28.5         8.5 29.2  29.8 98.0     659.0 2.91 15.9    NaN  8.4
+2128-02-06 07:50:00        27.7         8.3 29.4  30.0 98.0     540.0 2.82 15.7    NaN  7.9
+2128-02-09 11:00:00        29.1         8.8 28.9  30.2 96.0     397.0 3.04 15.5    NaN  6.4
+2128-02-10 06:40:00        28.6         8.6 29.0  30.1 96.0     341.0 2.97 16.0    NaN  9.3
+2128-02-11 06:50:00        26.9         8.0 29.0  29.7 98.0     317.0 2.76 15.9    NaN 10.3
+2128-02-12 07:20:00        27.1         8.1 29.2  29.9 98.0     271.0 2.77 15.6    NaN  6.7
+2128-02-14 06:23:00        28.1         8.4 28.5  29.9 95.0     311.0 2.95 14.9    NaN  5.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2128-01-21 12:00:00
+sbp: 99.0
+dbp: 69.0
+mbp: 79.0
+sbp_ni: 99.0
+dbp_ni: 69.0
+mbp_ni: 79.0
+resp_rate: 14.0
+temperature: 37.280000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: 0
+cns: 0
+renal: 1
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Unspecified fracture of lower end of left femur, initial encounter for open fracture type I or II
+   drg_type: APR
+   description: MUSCULOSKELETAL & OTHER PROCEDURES FOR MULTIPLE SIGNIFICANT TRAUMA
+   drg_severity: 4
+   drg_mortality: 3
+2. Unspecified fracture of lower end of left femur, initial encounter for open fracture type I or II
+   drg_type: HCFA
+   description: LIMB REATTACHMENT, HIP & FEMUR PROC FOR MULTIPLE SIGNIFICANT TRAUMA
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Sodium Chloride 0.9% Flush (starttime: 2128-01-21 01:00:00, stoptime: 2128-02-09 15:00:00)
+- Magnesium Sulfate 4 g / 100 mL (Premix Bag) (starttime: 2128-01-21 02:00:00, stoptime: 2128-01-22 16:00:00)
+- Acetaminophen IV (starttime: 2128-01-21 05:00:00, stoptime: 2128-01-21 09:00:00)
+- Calcium Gluconate 2 g / 100 mL (starttime: 2128-01-21 06:00:00, stoptime: 2128-01-21 19:00:00)
+- HYDROmorphone (Dilaudid) (starttime: 2128-01-21 07:00:00, stoptime: 2128-01-22 16:00:00)
+- Sodium Chloride 0.9% Flush (starttime: 2128-01-21 01:00:00, stoptime: 2128-02-09 15:00:00)
+- CeFAZolin 2 g / 100 mL Iso-Osmotic Dextrose (starttime: 2128-01-21 01:00:00, stoptime: 2128-01-21 19:00:00)
+- Acetaminophen 500mg Tablet (starttime: 2128-01-21 10:00:00, stoptime: 2128-02-09 15:00:00)

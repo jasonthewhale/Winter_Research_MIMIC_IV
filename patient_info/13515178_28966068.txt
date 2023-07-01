@@ -1,0 +1,122 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 56
+  (3) race: HISPANIC/LATINO - GUATEMALAN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2154-04-10 18:36:00
+  (6) discharge time: 2154-05-08 17:27:00
+  (7) transfer history: 
+2154-04-10 10:13:00 - 2154-04-10 18:37:14: Emergency Department
+2154-04-10 18:37:14 - 2154-04-10 20:03:59: Med/Surg
+2154-04-12 20:39:55 - 2154-04-15 00:47:20: Med/Surg
+2154-05-03 18:49:20 - 2154-05-08 17:27:24: Medicine
+2154-04-22 19:11:34 - 2154-04-27 01:11:24: Medicine
+2154-04-18 20:54:10 - 2154-04-22 19:11:34: Medicine
+2154-04-10 20:03:59 - 2154-04-10 20:11:06: Discharge Lounge
+2154-04-10 20:11:06 - 2154-04-12 20:39:55: Medical Intensive Care Unit (MICU)
+2154-04-27 01:11:24 - 2154-05-03 18:49:20: Medical Intensive Care Unit (MICU)
+2154-04-15 00:47:20 - 2154-04-18 20:54:10: Medical Intensive Care Unit (MICU)
+2154-05-08 17:27:24: discharge
+
+2. Medical Data
+(1) heart rate: 
+2154-04-11 22:00:00-2154-04-11 23:00:00 SR (Sinus Rhythm) PVC's Runs Vtach
+2154-04-12 02:00:00-2154-04-12 03:00:00 SR (Sinus Rhythm) PVC's Occasional
+2154-04-12 03:00:00-2154-04-12 04:00:00 SR (Sinus Rhythm) PVC's Runs Vtach
+2154-04-12 04:00:00-2154-04-12 05:00:00 SR (Sinus Rhythm) PVC's Occasional
+2154-04-12 05:00:00-2154-04-12 06:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2154-04-12 06:00:00-2154-04-12 07:00:00 ST (Sinus Tachycardia) PVC's None
+2154-04-12 07:00:00-2154-04-12 08:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2154-04-12 08:00:00-2154-04-12 09:00:00 ST (Sinus Tachycardia) PVC's Occasional
+2154-04-12 09:00:00-2154-04-12 10:00:00 SR (Sinus Rhythm) PVC's Occasional
+2154-04-12 10:00:00-2154-04-12 11:00:00 SR (Sinus Rhythm) PVC's Occasional
+2154-04-12 11:00:00-2154-04-12 12:00:00 SR (Sinus Rhythm) PVC's Occasional
+2154-04-12 12:00:00-2154-04-12 13:00:00 SR (Sinus Rhythm) PVC's Occasional
+2154-04-12 13:00:00-2154-04-12 14:00:00 SR (Sinus Rhythm) PVC's Occasional
+2154-04-12
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2154-04-11 04:14:00        23.4         6.9 27.2  29.5  92.0     218.0 2.54 16.7    NaN 28.7
+2154-04-11 14:08:00        27.8         8.6 27.7  30.9  89.0     219.0 3.11 16.5    NaN 25.1
+2154-04-12 04:53:00        29.1         9.2 27.9  31.6  88.0     261.0 3.30 16.8    NaN 21.7
+2154-04-13 07:43:00        29.5         9.3 27.8  31.5  88.0     243.0 3.34 17.4    NaN 25.0
+2154-04-14 04:51:00        26.9         8.3 27.8  30.9  90.0     185.0 2.99 18.0    NaN 19.0
+2154-04-15 00:27:00        27.6         8.0 27.4  29.0  95.0     168.0 2.92 18.2    NaN 23.0
+2154-04-15 01:36:00        24.9         7.4 27.7  29.7  93.0     160.0 2.67 18.1    NaN 21.2
+2154-04-15 07:10:00        24.9         7.6 27.9  30.5  92.0     169.0 2.72 18.1    NaN 21.2
+2154-04-15 11:16:00        25.8         8.0 27.9  31.0  90.0     199.0 2.87 18.0    NaN 28.6
+2154-04-15 17:17:00        26.4         8.1 27.7  30.7  90.0     217.0 2.92 18.0    NaN 31.4
+2154-04-16 04:14:00        23.7         7.5 28.2  31.6  89.0     174.0 2.66 18.0    NaN 23.3
+2154-04-17 03:50:00        24.0         7.6 27.8  31.7  88.0     151.0 2.73 17.9    NaN 15.5
+2154-04-18 02:06:00        24.0         7.6 27.7  31.7  88.0     158.0 2.74 18.0    NaN 15.6
+2154-04-19 06:25:00        22.2         6.9 28.0  31.1  90.0     121.0 2.46 17.9    NaN 15.8
+2154-04-20 05:32:00        26.5         8.2 28.7  30.9  93.0     126.0 2.86 17.0    NaN 11.1
+2154-04-21 05:06:00        27.9         8.2 32.2  29.4 109.0     114.0 2.55 18.2    NaN  9.0
+2154-04-21 08:44:00        27.5         8.4 28.2  30.5  92.0     135.0 2.98 17.0    NaN 11.2
+2154-04-22 05:59:00        27.1         8.0 30.9  29.5 105.0     122.0 2.59 18.2    NaN 11.5
+2154-04-23 06:02:00        25.9         7.6 28.3  29.3  96.0     113.0 2.69 17.3    NaN 12.0
+2154-04-24 06:13:00        25.1         7.4 28.6  29.5  97.0     103.0 2.59 17.2    NaN 11.1
+2154-04-25 06:11:00        23.4         6.9 28.4  29.5  96.0     104.0 2.43 16.9    NaN  8.2
+2154-04-26 06:22:00        27.9         8.5 29.4  30.5  97.0     100.0 2.89 16.2    NaN  9.7
+2154-04-27 00:39:00        28.8         8.5 28.7  29.5  97.0      99.0 2.96 16.0    NaN  8.7
+2154-04-27 01:15:00        27.3         8.1 28.5  29.7  96.0      99.0 2.84 15.9    NaN  6.4
+2154-04-27 04:58:00        26.6         8.1 28.7  30.5  94.0      97.0 2.82 15.8    NaN  5.6
+2154-04-28 04:02:00        25.0         7.8 29.3  31.2  94.0     113.0 2.66 16.5    NaN  7.6
+2154-04-29 04:16:00        26.6         8.2 28.9  30.8  94.0     117.0 2.84 16.2    NaN  7.4
+2154-04-30 04:18:00        26.7         8.4 29.5  31.5  94.0     120.0 2.85 16.4    NaN 10.0
+2154-05-01 04:00:00        27.0         8.3 28.7  30.7  93.0     126.0 2.89 16.5    NaN  7.9
+2154-05-02 03:26:00        26.2         8.1 29.0  30.9  94.0     150.0 2.79 17.2    NaN  8.3
+2154-05-03 02:54:00        27.4         8.1 28.2  29.6  96.0     172.0 2.87 17.2    NaN  9.7
+2154-05-04 06:00:00        26.4         8.1 29.3  30.7  96.0     193.0 2.76 17.8    NaN  9.6
+2154-05-05 05:51:00        25.0         7.6 28.7  30.4  94.0     202.0 2.65 17.2    NaN 10.5
+2154-05-06 06:00:00        25.2         7.7 28.8  30.6  94.0     221.0 2.67 16.7    NaN 11.1
+2154-05-07 05:20:00        24.3         7.4 28.7  30.5  94.0     247.0 2.58 16.7    NaN  9.9
+2154-05-08 06:06:00        22.4         7.1 29.5  31.7  93.0     230.0 2.41 16.5    NaN 11.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2154-07-09 06:00:00
+sbp: 126.0
+dbp: 60.0
+mbp: 78.0
+sbp_ni: 126.0
+dbp_ni: 60.0
+mbp_ni: 78.0
+resp_rate: 12.0
+temperature: 37.600000000
+temperature_site: Esophogeal
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 2
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Other Gram-negative sepsis
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+2. Other Gram-negative sepsis
+   drg_type: HCFA
+   description: INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Administered Lactated Ringers - Floor Stock Bag from 2154-04-10 23:00:00 to 2154-04-11 01:00:00
+- Administered Insulin Unit Dose from 2154-04-10 23:00:00 to 2154-04-10 23:00:00
+- Administered Heparin Unit Dose from 2154-04-10 23:00:00 to 2154-04-24 08:00:00
+- Administered CefePIME Unit Dose from 2154-04-11 00:00:00 to 2154-04-11 01:00:00
+- Administered Vancomycin IV Piggyback from 2154-04-11 00:00:00 to 2154-04-11 06:00:00
+- Administered Ondansetron Unit Dose from 2154-04-11 07:00:00 to 2154-05-08 22:00:00
+- Administered Metoclopramide Unit Dose from 2154-04-11 08:00:00 to 2154-04-11 09:00:00
+- Applied Fentanyl Patch Unit Dose from 2154-04-11 00:00:00 to 2154-04-15 01:00:00
+- Administered Heparin Unit Dose from 2154-04-10 23:00:00 to 2154-04-24 08:00:00
+- Administered Insulin Unit Dose from 2154-04-11 08:00:00 to 2154-04-13 08:00:00

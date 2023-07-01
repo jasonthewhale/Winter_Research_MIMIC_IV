@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 74
+  (3) race: BLACK/CAPE VERDEAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2123-06-03 04:44:00
+  (6) discharge time: 2123-06-09 17:54:00
+  (7) transfer history: 
+2123-06-02 20:32:00 - 2123-06-03 04:46:12: Emergency Department
+2123-06-03 04:46:12 - 2123-06-03 05:33:39: Medical Intensive Care Unit (MICU)
+2123-06-05 19:19:10 - 2123-06-09 17:54:14: Medicine
+2123-06-03 05:33:39 - 2123-06-05 19:19:10: Coronary Care Unit (CCU)
+2123-06-09 17:54:14: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2123-06-02 20:52:00        25.8         7.8 25.7  30.2 85.0     206.0 3.03 15.3    NaN  7.7
+2123-06-04 02:15:00        22.1         6.6 25.7  29.9 86.0     193.0 2.57 15.2    NaN  6.4
+2123-06-04 10:08:00        22.2         6.8 26.3  30.6 86.0     201.0 2.59 15.3    NaN  6.1
+2123-06-04 17:53:00        25.5         7.7 26.1  30.2 86.0     191.0 2.95 15.5    NaN  5.5
+2123-06-05 03:00:00        26.4         8.0 26.2  30.3 87.0     204.0 3.05 15.2    NaN  5.6
+2123-06-06 06:30:00        27.1         8.1 25.4  29.9 85.0     196.0 3.19 15.4    NaN  5.5
+2123-06-07 05:55:00        28.0         8.5 26.0  30.4 86.0     221.0 3.27 15.5    NaN  5.5
+2123-06-08 07:08:00        29.7         8.9 25.7  30.0 86.0     224.0 3.46 15.5    NaN  5.7
+2123-06-09 07:04:00        30.4         9.2 25.6  30.3 85.0     220.0 3.59 15.5    NaN  5.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2123-06-03 06:39:00
+sbp: 161.0
+dbp: 80.0
+mbp: 101.0
+sbp_ni: 161.0
+dbp_ni: 80.0
+mbp_ni: 101.0
+resp_rate: nan
+temperature: 36.720000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 3
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   drg_type: HCFA
+   description: ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   drg_type: APR
+   description: HEART FAILURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- CefTRIAXone 1 g (Vial to be attached to MB+ on floor) - Administered from 2123-06-03 08:00:00 to 2123-06-07 10:00:00
+- Docusate Sodium 100mg Capsule - Administered from 2123-06-03 08:00:00 to 2123-06-06 03:00:00
+- Ferrous Sulfate 325 mg Tablet - Administered from 2123-06-03 08:00:00 to 2123-06-09 22:00:00
+- Omeprazole 20mg DR Capsule - Administered from 2123-06-03 08:00:00 to 2123-06-09 22:00:00
+- Sertraline 100mg Tablet - Administered from 2123-06-03 09:00:00 to 2123-06-09 22:00:00
+- Sodium Bicarbonate 650mg Tab - Administered from 2123-06-03 08:00:00 to 2123-06-09 22:00:00
+- Sodium Chloride 0.9% Flush - Flushed from 2123-06-03 07:00:00 to 2123-06-09 22:00:00
+- Vitamin D 1,000 Unit (25 mcg) Tablet - Administered from 2123-06-03 08:00:00 to 2123-06-09 22:00:00

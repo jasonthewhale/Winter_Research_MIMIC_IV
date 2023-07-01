@@ -1,0 +1,90 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 82
+  (3) race: UNKNOWN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2184-11-17 10:01:00
+  (6) discharge time: 2184-12-15 17:35:00
+  (7) transfer history: 
+2184-11-17 05:58:00 - 2184-11-17 10:02:12: Emergency Department
+2184-11-17 10:02:12 - 2184-11-20 19:46:32: Med/Surg/Trauma
+2184-12-12 11:38:28 - 2184-12-15 17:36:11: Med/Surg/Trauma
+2184-12-03 14:30:04 - 2184-12-12 11:38:28: Med/Surg/Trauma
+2184-11-20 19:46:32 - 2184-12-03 14:30:04: Trauma SICU (TSICU)
+2184-12-15 17:36:11: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2184-11-18 02:39:00        32.3        10.7 33.2  33.1 100.0     173.0 3.22 15.1    NaN  9.3
+2184-11-19 08:00:00        42.8        14.1 32.3  32.9  98.0     193.0 4.36 14.8    NaN 11.6
+2184-11-20 07:35:00        46.6        15.3 32.0  32.8  98.0     231.0 4.78 15.0    NaN 13.5
+2184-11-20 16:40:00        45.3        14.6 31.4  32.2  97.0     235.0 4.65 14.8    NaN 14.8
+2184-11-21 01:57:00        38.3        12.5 31.9  32.6  98.0     186.0 3.92 15.2    NaN 10.4
+2184-11-22 01:03:00        32.3        10.3 31.8  31.9 100.0     149.0 3.24 15.5    NaN 11.9
+2184-11-23 01:05:00        32.0        10.4 31.9  32.5  98.0     144.0 3.26 15.2    NaN 10.6
+2184-11-24 01:20:00        35.3        11.5 31.7  32.6  97.0     191.0 3.63 15.2    NaN 10.9
+2184-11-25 02:12:00        31.5        10.4 32.2  33.0  98.0     180.0 3.23 15.0    NaN  9.7
+2184-11-26 02:24:00        30.6        10.1 32.8  33.0  99.0     162.0 3.08 15.0    NaN  8.2
+2184-11-27 03:01:00        31.4         9.9 31.1  31.5  99.0     202.0 3.18 14.9    NaN  7.7
+2184-11-28 02:47:00        29.5         9.4 31.4  31.9  99.0     206.0 2.99 14.9    NaN  8.7
+2184-11-28 03:54:00        29.6         9.3 31.3  31.4 100.0     194.0 2.97 15.2    NaN  8.9
+2184-11-29 01:43:00        29.5         9.4 31.5  31.9  99.0     246.0 2.98 14.9    NaN 11.7
+2184-11-30 02:10:00        29.7         9.7 32.4  32.7  99.0     281.0 2.99 15.0    NaN 11.2
+2184-12-01 02:19:00        32.2        10.2 31.2  31.7  99.0     358.0 3.27 15.2    NaN 19.8
+2184-12-01 11:02:00        28.7         9.2 31.5  32.1  98.0     345.0 2.92 15.1    NaN 19.8
+2184-12-02 04:04:00        29.2         9.2 31.2  31.5  99.0     364.0 2.95 15.1    NaN 19.8
+2184-12-03 01:08:00        28.4         9.1 31.6  32.0  99.0     366.0 2.88 15.1    NaN 17.2
+2184-12-04 05:40:00        29.3         9.1 31.1  31.1 100.0     510.0 2.93 15.1    NaN 16.3
+2184-12-05 07:49:00        29.4         9.2 31.0  31.3  99.0     516.0 2.97 15.2    NaN 14.5
+2184-12-06 05:33:00        25.4         8.2 32.0  32.3  99.0     427.0 2.56 15.4    NaN 11.5
+2184-12-07 05:55:00        27.1         8.7 31.8  32.1  99.0     495.0 2.74 15.5    NaN 10.8
+2184-12-09 04:30:00        28.3         9.1 31.7  32.2  99.0     520.0 2.87 15.2    NaN  8.7
+2184-12-10 03:54:00        29.7         9.3 30.5  31.3  97.0     539.0 3.05 15.2    NaN  7.5
+2184-12-11 05:10:00        29.4         9.3 30.5  31.6  96.0     490.0 3.05 15.2    NaN  7.2
+2184-12-14 06:42:00        26.6         8.2 30.8  30.8 100.0     460.0 2.66 15.3    NaN  8.8
+2184-12-15 05:00:00        26.9         8.3 30.4  30.9  99.0     436.0 2.73 15.3    NaN  9.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2180-07-16 19:00:00
+sbp: 140.0
+dbp: 72.0
+mbp: 97.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 27.0
+temperature: 36.720000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Volvulus
+   drg_type: HCFA
+   description: MAJOR SMALL & LARGE BOWEL PROCEDURES W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2184-11-17 14:00:00 and stopped on 2184-11-25 03:00:00
+- Administered: Pantoprazole 40 mg Via, started on 2184-11-17 15:00:00 and stopped on 2184-11-18 15:00:00
+- Administered: Acetaminophen IV, started on 2184-11-17 14:00:00 and stopped on 2184-11-18 15:00:00
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial, started on 2184-11-17 14:00:00 and stopped on 2184-12-02 16:00:00
+- Administered: Pantoprazole 40 mg Via, started on 2184-11-17 15:00:00 and stopped on 2184-11-18 15:00:00
+- Administered: Acetaminophen IV, started on 2184-11-17 14:00:00 and stopped on 2184-11-18 15:00:00
+- Flushed: Sodium Chloride 0.9% Flush, started on 2184-11-17 14:00:00 and stopped on 2184-11-25 03:00:00
+- Administered: Morphine Sulfate, started on 2184-11-17 14:00:00 and stopped on 2184-11-20 22:00:00
+- None: Magnesium Sulfate 2 g / 50 mL (Premix Bag), started on 2184-11-18 12:00:00 and stopped on 2184-11-18 15:00:00

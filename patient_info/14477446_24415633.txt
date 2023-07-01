@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 88
+  (3) race: UNKNOWN
+  (4) admission type: EW EMER.
+  (5) admit time: 2114-02-18 17:39:00
+  (6) discharge time: 2114-02-27 06:20:00
+  (7) transfer history: 
+2114-02-18 14:32:00 - 2114-02-18 17:40:02: Emergency Department
+2114-02-18 17:40:02 - 2114-02-18 19:18:56: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2114-02-18 22:25:04 - 2114-02-27 08:41:52: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2114-02-18 19:18:56 - 2114-02-18 22:25:04: Discharge Lounge
+2114-02-27 08:41:52: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2114-02-19 00:17:00        34.5        11.4 29.8  33.0 90.0     332.0 3.83 14.8    NaN 10.1
+2114-02-20 00:02:00        33.2        11.0 29.6  33.1 90.0     315.0 3.71 14.8    NaN 12.8
+2114-02-21 00:29:00        29.4         9.7 29.8  33.0 91.0     284.0 3.25 15.1    NaN 10.5
+2114-02-22 00:12:00        26.6         8.5 29.6  32.0 93.0     257.0 2.87 15.4    NaN  7.2
+2114-02-23 00:31:00        26.3         8.4 29.5  31.9 92.0     273.0 2.85 15.6    NaN  8.0
+2114-02-24 01:40:00        28.6         9.4 30.2  32.9 92.0     307.0 3.11 15.7    NaN 11.1
+2114-02-25 01:10:00        27.3         9.0 30.4  33.0 92.0     316.0 2.96 15.7    NaN  9.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2114-02-23 04:00:00
+sbp: 140.0
+dbp: 51.0
+mbp: 84.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.0
+temperature: 37.670000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Traumatic subarachnoid hemorrhage with loss of consciousness of any duration with death due to brain injury prior to regaining consciousness, initial encounter
+   drg_type: APR
+   description: HEAD TRAUMA W COMA >1 HR OR HEMORRHAGE
+   drg_severity: 4
+   drg_mortality: 4
+2. Traumatic subarachnoid hemorrhage with loss of consciousness of any duration with death due to brain injury prior to regaining consciousness, initial encounter
+   drg_type: HCFA
+   description: NON-EXTENSIVE O.R. PROC UNRELATED TO PRINCIPAL DIAGNOSIS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (Administered) - Start Time: 2114-02-19 00:00:00, Stop Time: 2114-02-19 09:00:00
+- Acetaminophen IV 1000 mg / 100 mL Bottle (Administered) - Start Time: 2114-02-19 00:00:00, Stop Time: 2114-02-20 10:00:00
+- LevETiracetam 1000 mg in 100 mL 0.9% Sodium Chloride (Administered) - Start Time: 2114-02-19 08:00:00, Stop Time: 2114-02-20 22:00:00
+- Furosemide 20mg Tablet (Administered) - Start Time: 2114-02-20 08:00:00, Stop Time: 2114-02-23 10:00:00
+- Insulin (Administered) - Start Time: 2114-02-19 00:00:00, Stop Time: 2114-02-21 07:00:00
+- HydrALAzine (Administered) - Start Time: 2114-02-19 00:00:00, Stop Time: 2114-02-21 08:00:00
+- Magnesium Sulfate 2 g / 50 mL (Premix Bag) (Administered) - Start Time: 2114-02-19 00:00:00, Stop Time: 2114-02-25 13:00:00
+- Potassium Chloride (Powder) 20mEq Packet (Administered) - Start Time: 2114-02-19 00:00:00, Stop Time: 2114-02-25 13:00:00

@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 25
+  (3) race: BLACK/AFRICAN AMERICAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2128-11-22 23:28:00
+  (6) discharge time: 2128-11-28 19:20:00
+  (7) transfer history: 
+2128-11-22 20:53:00 - 2128-11-23 01:01:00: Emergency Department
+2128-11-23 01:01:00 - 2128-11-24 20:55:57: Medical Intensive Care Unit (MICU)
+2128-11-24 20:55:57 - 2128-11-28 19:21:05: Medicine
+2128-11-28 19:21:05: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2128-11-23 04:39:00        27.6         8.2 27.5  29.5 93.0     207.0 2.97 17.9    NaN  7.1
+2128-11-24 04:47:00        30.2         9.0 27.6  30.0 92.0     202.0 3.28 18.3    NaN  7.7
+2128-11-25 05:27:00        28.2         8.3 27.2  29.6 92.0     197.0 3.07 17.8    NaN  6.3
+2128-11-26 05:39:00        27.8         8.5 27.4  30.6 90.0     209.0 3.10 17.6    NaN  7.4
+2128-11-27 08:15:00        29.1         8.7 26.8  30.0 89.0     205.0 3.26 17.7    NaN 13.7
+2128-11-28 05:47:00        28.0         8.5 27.1  30.3 90.0     199.0 3.13 17.2    NaN  7.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2124-10-26 07:00:00
+sbp: 140.0
+dbp: 98.0
+mbp: 107.0
+sbp_ni: 140.0
+dbp_ni: 98.0
+mbp_ni: 107.0
+resp_rate: 22.0
+temperature: 37.280000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Diabetes with hyperosmolarity, type I [juvenile type], uncontrolled
+   drg_type: HCFA
+   description: DIABETES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Diabetes with hyperosmolarity, type I [juvenile type], uncontrolled
+   drg_type: APR
+   description: DIABETES
+   drg_severity: 3
+   drg_mortality: 2
+
+Medication:
+- HYDROmorphone (Dilaudid) 2mg Tablet: Administered from 2128-11-24 22:00:00 to 2128-11-25 10:00:00
+- Insulin Glargine: Administered from 2128-11-24 17:00:00 to 2128-11-25 08:00:00
+- Labetalol 200mg Tablet: Administered from 2128-11-23 02:00:00 to 2128-11-25 10:00:00
+- Insulin: Administered from 2128-11-24 13:00:00 to 2128-11-25 08:00:00
+- Insulin: Administered from 2128-11-24 22:00:00 to 2128-11-25 10:00:00
+- Insulin: Administered from 2128-11-25 00:00:00 to 2128-11-25 08:00:00
+- Insulin Lispro 100 Units / mL - 10 mL Vial: Administered from 2128-11-25 06:00:00 to 2128-11-25 08:00:00
+- Insulin Glargine: Administered from 2128-11-25 08:00:00 to 2128-11-25 16:00:00
+- Labetalol 200mg Tablet: Administered from 2128-11-23 02:00:00 to 2128-11-25 10:00:00
+- HYDROmorphone (Dilaudid) 2mg Tablet: Administered from 2128-11-24 22:00:00 to 2128-11-25 10:00:00

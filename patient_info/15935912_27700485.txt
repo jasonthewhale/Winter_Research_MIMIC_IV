@@ -1,0 +1,86 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 63
+  (3) race: OTHER
+  (4) admission type: EW EMER.
+  (5) admit time: 2173-08-31 23:21:00
+  (6) discharge time: 2173-09-14 18:29:00
+  (7) transfer history: 
+2173-08-31 18:37:00 - 2173-09-01 00:55:00: Emergency Department
+2173-09-01 00:55:00 - 2173-09-02 13:44:06: Medical Intensive Care Unit (MICU)
+2173-09-02 13:44:06 - 2173-09-14 18:30:06: Transplant
+2173-09-14 18:30:06: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2173-09-01 04:35:00        24.0         8.0 30.1  33.3 91.0     136.0 2.66 23.6    NaN 17.6
+2173-09-01 17:50:00        21.4         7.0 30.3  32.8 92.0     106.0 2.31 24.2    NaN 12.6
+2173-09-02 00:10:00        25.6         8.5 30.5  33.2 92.0     122.0 2.79 23.3    NaN 11.5
+2173-09-02 04:49:00        26.9         8.9 30.0  32.9 91.0     114.0 2.95 23.2    NaN 11.2
+2173-09-02 13:12:00        27.4         9.2 29.9  33.4 90.0     118.0 3.06 22.1    NaN 11.1
+2173-09-03 07:10:00        29.0         9.6 30.5  33.2 92.0     139.0 3.16 22.4    NaN 12.8
+2173-09-04 07:20:00        28.7         9.4 30.3  32.6 93.0     129.0 3.09 22.3    NaN 14.5
+2173-09-05 06:50:00        29.8         9.6 31.2  32.2 97.0     134.0 3.08 22.0    NaN 15.0
+2173-09-06 07:29:00        28.6         9.3 31.7  32.5 98.0     130.0 2.93 21.5    NaN 15.6
+2173-09-07 07:05:00        30.9         9.6 30.9  31.2 99.0     156.0 3.12 21.2    NaN 19.8
+2173-09-08 07:15:00        28.4         9.2 31.4  32.5 97.0     151.0 2.93 20.7    NaN 15.1
+2173-09-09 06:24:00        24.3         8.0 31.9  32.8 97.0     143.0 2.50 20.6    NaN 14.1
+2173-09-09 13:00:00        26.2         8.3 31.5  31.9 99.0     139.0 2.65 20.8    NaN 13.8
+2173-09-10 07:20:00        26.9         8.7 31.2  32.3 97.0     142.0 2.79 20.5    NaN 11.8
+2173-09-11 07:50:00        26.7         8.8 31.9  32.9 97.0     135.0 2.75 20.1    NaN 10.7
+2173-09-11 19:25:00        27.1         8.6 31.1  31.6 99.0     133.0 2.75 20.0    NaN  9.6
+2173-09-12 07:40:00        26.3         8.5 31.5  32.2 98.0     131.0 2.70 20.1    NaN  9.6
+2173-09-13 07:25:00        26.8         8.5 30.6  31.8 96.0     125.0 2.78 20.1    NaN 10.2
+2173-09-14 08:34:00        26.1         8.3 30.7  31.7 97.0     120.0 2.69 20.0    NaN 10.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2173-09-01 02:30:00
+sbp: 121.0
+dbp: 49.0
+mbp: 65.0
+sbp_ni: 121.0
+dbp_ni: 49.0
+mbp_ni: 65.0
+resp_rate: 11.0
+temperature: 37.000000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 3
+cns_24hours: 0
+renal_24hours: 2
+sofa_24hours: 7
+
+Physician's Diagnoses:
+1. Alcoholic cirrhosis of liver
+   drg_type: APR
+   description: ALCOHOLIC LIVER DISEASE
+   drg_severity: 4
+   drg_mortality: 4
+2. Alcoholic cirrhosis of liver
+   drg_type: HCFA
+   description: CIRRHOSIS & ALCOHOLIC HEPATITIS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Octreotide Acetate 50mcg/mL-1mL (Administered) - Start Time: 2173-09-01 02:00:00, Stop Time: 2173-09-14 23:00:00
+- Influenza Vaccine Quadrivalent (Administered) - Start Time: 2173-09-01 02:00:00, Stop Time: 2173-09-14 23:00:00
+- Lactulose (Administered) - Start Time: 2173-09-02 15:00:00, Stop Time: 2173-09-04 17:00:00
+- Sucralfate (Administered) - Start Time: 2173-09-01 10:00:00, Stop Time: 2173-09-14 23:00:00
+- Pantoprazole 40 mg Via (Administered) - Start Time: 2173-09-02 11:00:00, Stop Time: 2173-09-05 10:00:00
+- Rifaximin 550mg Tablet (Administered) - Start Time: 2173-09-01 02:00:00, Stop Time: 2173-09-14 23:00:00
+- Lactulose (Administered) - Start Time: 2173-09-02 15:00:00, Stop Time: 2173-09-04 17:00:00
+- Sucralfate (Administered) - Start Time: 2173-09-01 10:00:00, Stop Time: 2173-09-14 23:00:00
+- Lactulose (Administered) - Start Time: 2173-09-02 15:00:00, Stop Time: 2173-09-04 17:00:00
+- Acetaminophen 325mg Tablet (Administered) - Start Time: 2173-09-02 18:00:00, Stop Time: 2173-09-14 23:00:00
+- Lactulose (Administered) - Start Time: 2173-09-02 15:00:00, Stop Time: 2173-09

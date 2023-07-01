@@ -1,0 +1,86 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 54
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2147-05-20 01:11:00
+  (6) discharge time: 2147-05-31 15:25:00
+  (7) transfer history: 
+2147-05-19 12:24:00 - 2147-05-20 01:12:32: Emergency Department
+2147-05-20 01:12:32 - 2147-05-20 02:28:56: Surgical Intensive Care Unit (SICU)
+2147-05-20 19:40:57 - 2147-05-31 15:45:09: Med/Surg
+2147-05-20 02:28:56 - 2147-05-20 19:40:57: Surgical Intensive Care Unit (SICU)
+2147-05-31 15:45:09: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2147-05-19 12:50:00        42.1        13.6 31.2  32.4 96.0     201.0 4.36 13.7    NaN  7.9
+2147-05-19 23:40:00        35.0        11.5 31.0  32.8 95.0     147.0 3.70 13.5    NaN  6.3
+2147-05-20 03:34:00        37.8        12.2 31.0  32.3 96.0     198.0 3.93 13.5    NaN  7.9
+2147-05-20 07:47:00        36.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2147-05-21 06:15:00        35.2        11.9 31.6  33.8 93.0     142.0 3.78 13.4    NaN  6.9
+2147-05-21 16:05:00        32.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2147-05-22 01:21:00        35.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2147-05-22 10:40:00        36.0        11.7 30.8  32.4 95.0     153.0 3.79 13.7    NaN  9.0
+2147-05-22 16:45:00        34.6        11.7 31.2  33.8 92.0     173.0 3.75 13.3    NaN  9.5
+2147-05-23 06:45:00        33.6        11.2 31.4  33.4 94.0     163.0 3.58 13.4    NaN  8.5
+2147-05-24 07:45:00        33.5        11.3 31.5  33.7 94.0     161.0 3.58 13.3    NaN  7.1
+2147-05-25 10:35:00        31.1        10.7 31.8  34.3 93.0     199.0 3.35 13.3    NaN  7.3
+2147-05-26 07:20:00        29.8         9.9 31.3  33.2 94.0     205.0 3.16 13.3    NaN  7.5
+2147-05-26 16:10:00        30.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2147-05-27 10:30:00        30.7         9.6 30.2  31.2 97.0     248.0 3.17 13.6    NaN  5.3
+2147-05-28 07:48:00        29.1         9.7 31.8  33.4 95.0     257.0 3.06 13.2    NaN  4.9
+2147-05-29 07:00:00        30.8        10.2 31.2  33.0 95.0     290.0 3.25 13.1    NaN  3.9
+2147-05-30 07:35:00        31.0        10.3 31.3  33.3 94.0     320.0 3.30 13.2    NaN  4.5
+2147-05-31 08:00:00        30.8        10.4 31.3  33.7 93.0     330.0 3.32 13.2    NaN  5.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2147-05-20 16:00:00
+sbp: 115.0
+dbp: 58.0
+mbp: 71.0
+sbp_ni: 115.0
+dbp_ni: 58.0
+mbp_ni: 71.0
+resp_rate: 14.0
+temperature: 37.670000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 3
+cns: 0
+renal: 1
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Closed fracture of ilium
+   drg_type: HCFA
+   description: FRACTURES OF HIP & PELVIS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Closed fracture of ilium
+   drg_type: APR
+   description: FRACTURE OF PELVIS OR DISLOCATION OF HIP
+   drg_severity: 3
+   drg_mortality: 1
+
+Medication:
+- Enoxaparin Sodium 40mg Syringe (Administered) - Start Time: 2147-05-20 20:00:00, Stop Time: 2147-05-26 13:00:00
+- Calcium Carbonate (Tums) 500mg Tablet (Administered) - Start Time: 2147-05-20 04:00:00, Stop Time: 2147-05-31 19:00:00
+- Docusate Sodium 100mg Capsule (Administered) - Start Time: 2147-05-20 20:00:00, Stop Time: 2147-05-30 14:00:00
+- Famotidine (PO) 20 mg Tablet (Administered) - Start Time: 2147-05-20 04:00:00, Stop Time: 2147-05-31 19:00:00
+- Lactulose (Administered) - Start Time: 2147-05-20 04:00:00, Stop Time: 2147-05-21 15:00:00
+- Polyethylene Glycol 17g Packet (Administered) - Start Time: 2147-05-20 04:00:00, Stop Time: 2147-05-22 19:00:00
+- Rifaximin 550mg Tablet (Administered) - Start Time: 2147-05-20 08:00:00, Stop Time: 2147-05-31 19:00:00
+- Simvastatin 10mg Tablet (Administered) - Start Time: 2147-05-20 04:00:00, Stop Time: 2147-05-31 19:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2147-05-20 20:00:00, Stop Time: 2147-05-31 19:00:00
+- Tacrolimus 0.5mg Capsule (Administered) - Start Time: 2147-05-20 20:00:00, Stop Time: 2147-05-22 11:00:00

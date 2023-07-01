@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 55
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2186-07-10 10:14:00
+  (6) discharge time: 2186-07-19 16:30:00
+  (7) transfer history: 
+2186-07-10 07:27:00 - 2186-07-10 10:14:29: Emergency Department
+2186-07-10 10:14:29 - 2186-07-10 10:15:19: Vascular
+2186-07-12 13:34:13 - 2186-07-15 09:28:34: Vascular
+2186-07-10 12:01:00 - 2186-07-12 13:34:13: Vascular
+2186-07-16 15:44:42 - 2186-07-19 17:51:51: Cardiac Surgery
+2186-07-10 10:15:19 - 2186-07-10 12:01:00: Emergency Department Observation
+2186-07-15 09:28:34 - 2186-07-16 15:44:42: Cardiac Vascular Intensive Care Unit (CVICU)
+2186-07-19 17:51:51: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2186-07-11 06:28:00        44.7        15.1 32.7  33.7 97.0     233.0 4.62 13.6    NaN 13.8
+2186-07-12 06:45:00        44.9        15.5 33.7  34.6 98.0     245.0 4.60 13.8    NaN 10.5
+2186-07-13 07:15:00        45.1        15.5 33.3  34.4 97.0     265.0 4.65 14.3    NaN 11.2
+2186-07-14 15:57:00        47.2        15.7 32.5  33.1 98.0     288.0 4.82 14.7    NaN 11.2
+2186-07-15 14:56:00        36.3        12.4 33.1  34.0 97.0     190.0 3.73 14.0    NaN 21.3
+2186-07-15 16:03:00        40.3        13.8 33.0  34.2 97.0     187.0 4.18 13.9    NaN 19.9
+2186-07-16 02:58:00        33.6        11.5 33.2  34.1 97.0     221.0 3.45 14.0    NaN 19.0
+2186-07-17 04:45:00        31.6        10.8 33.5  34.4 98.0     202.0 3.23 13.8    NaN 17.4
+2186-07-18 04:15:00        32.1        11.0 33.2  34.2 97.0     217.0 3.30 13.7    NaN 15.6
+2186-07-19 06:00:00        28.6         9.8 33.8  34.1 99.0     262.0 2.89 13.7    NaN 12.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2186-07-16 08:00:00
+sbp: 112.0
+dbp: 63.0
+mbp: 76.0
+sbp_ni: 112.0
+dbp_ni: 63.0
+mbp_ni: 76.0
+resp_rate: 14.0
+temperature: 36.720000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 3
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Coronary atherosclerosis of native coronary artery
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 2
+2. Coronary atherosclerosis of native coronary artery
+   drg_type: HCFA
+   description: CORONARY BYPASS W CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Sodium Chloride 0.9% Flush (start time: 2186-07-10 14:00:00, stop time: 2186-07-15 10:00:00)
+- Amiodarone 200 mg Tab (start time: 2186-07-10 14:00:00, stop time: 2186-07-14 10:00:00)
+- Diazepam 5 mg Tab (start time: 2186-07-10 14:00:00, stop time: 2186-07-15 10:00:00)
+- Amiodarone 200 mg Tab (start time: 2186-07-10 14:00:00, stop time: 2186-07-14 10:00:00)
+- Atorvastatin (start time: 2186-07-10 14:00:00, stop time: 2186-07-15 10:00:00)
+- Docusate Sodium 100mg Capsule (start time: 2186-07-10 14:00:00, stop time: 2186-07-12 09:00:00)
+- Metoprolol Tartrate (start time: 2186-07-10 14:00:00, stop time: 2186-07-15 10:00:00)
+- Mirtazapine 15 mg Tablet (start time: 2186-07-10 20:00:00, stop time: 2186-07-15 10:00:00)

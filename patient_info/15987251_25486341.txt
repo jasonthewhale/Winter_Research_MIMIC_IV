@@ -1,0 +1,109 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 74
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2166-06-19 07:15:00
+  (6) discharge time: 2166-07-15 14:30:00
+  (7) transfer history: 
+2166-06-19 02:31:26 - 2166-06-19 19:49:50: Discharge Lounge
+2166-06-22 17:20:33 - 2166-06-23 16:48:19: Med/Surg
+2166-06-23 16:48:19 - 2166-07-03 02:01:01: Med/Surg
+2166-07-06 20:47:48 - 2166-07-15 14:51:55: Medicine/Cardiology
+2166-07-03 02:01:01 - 2166-07-03 11:27:53: Trauma SICU (TSICU)
+2166-06-19 19:49:50 - 2166-06-22 17:20:33: Trauma SICU (TSICU)
+2166-07-03 11:27:53 - 2166-07-06 20:47:48: Coronary Care Unit (CCU)
+2166-07-15 14:51:55: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2166-06-19 20:15:00        35.3        11.1 33.1  31.4 105.0     158.0 3.35 12.9    NaN  7.4
+2166-06-20 02:58:00        30.9        10.3 34.4  33.3 103.0     127.0 2.99 12.5    NaN  8.5
+2166-06-20 11:11:00        27.5         8.9 33.6  32.3 104.0     109.0 2.64 13.1    NaN  8.7
+2166-06-21 03:03:00        29.2         9.7 34.5  33.2 104.0     115.0 2.81 12.5    NaN 13.3
+2166-06-21 11:02:00        27.1         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2166-06-21 15:02:00        25.9         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2166-06-21 20:48:00        24.1         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2166-06-22 03:06:00        23.3         7.9 34.9  33.9 103.0     116.0 2.27 12.3    NaN  9.5
+2166-06-22 08:03:00        26.1         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2166-06-22 13:46:00        27.1         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2166-06-22 19:19:00        26.3         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2166-06-23 02:50:00        25.9         8.6 33.6  33.2 101.0     117.0 2.56 13.1    NaN  6.8
+2166-06-24 05:27:00        26.7         8.9 33.7  33.4 101.0     155.0 2.65 13.2    NaN  7.3
+2166-06-25 15:30:00        28.8         9.5 33.9  33.2 102.0     190.0 2.81 13.7    NaN  6.6
+2166-06-26 08:56:00        34.6        10.7 32.4  31.0 105.0     246.0 3.32 14.4    NaN  6.3
+2166-06-27 05:24:00        28.5         9.3 33.0  32.5 102.0     190.0 2.81 13.7    NaN  4.8
+2166-06-28 05:02:00        27.9         8.7 32.0  31.0 103.0     194.0 2.70 14.4    NaN  7.5
+2166-06-29 03:25:00        27.6         9.1 33.5  33.1 101.0     167.0 2.73 13.8    NaN  8.2
+2166-06-30 06:30:00        23.8         7.5 32.3  31.6 102.0     159.0 2.33 14.3    NaN  7.0
+2166-06-30 13:00:00        24.2         7.9 33.1  32.8 101.0     188.0 2.40 13.8    NaN  8.7
+2166-06-30 16:00:00        25.2         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2166-06-30 23:54:00        23.2         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2166-07-01 06:58:00        21.4         7.2 33.5  33.5 100.0     142.0 2.14 13.9    NaN  9.2
+2166-07-01 18:45:00        29.8         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2166-07-02 04:05:00        28.8         9.5 32.6  33.0  99.0     136.0 2.93 14.5    NaN 10.2
+2166-07-03 00:49:00        32.5        10.8 32.9  33.2  99.0     161.0 3.28 14.4    NaN 10.2
+2166-07-03 02:08:00        32.7        10.8 32.5  32.9  99.0     141.0 3.31 14.4    NaN  7.2
+2166-07-03 04:40:00        30.1         9.9 32.8  32.9 100.0     138.0 3.03 14.4    NaN 13.1
+2166-07-04 02:51:00        30.5         9.7 31.7  31.7 100.0     100.0 3.05 14.6    NaN  8.5
+2166-07-05 02:49:00        31.0         9.7 31.5  31.2 101.0     100.0 3.07 14.5    NaN  6.9
+2166-07-06 05:40:00        33.2        10.7 32.5  32.3 101.0      75.0 3.30 13.8    NaN  6.9
+2166-07-06 16:05:00         NaN         NaN  NaN   NaN   NaN      76.0  NaN  NaN    NaN  NaN
+2166-07-07 05:16:00        32.9        10.7 32.4  32.4 100.0      79.0 3.30 13.9    NaN  9.6
+2166-07-08 02:46:00        31.7         9.7 31.2  30.8 102.0      86.0 3.12 14.5    NaN  9.9
+2166-07-09 04:20:00        29.8         9.6 31.8  32.3  98.0     101.0 3.03 14.0    NaN  7.2
+2166-07-10 03:41:00        27.2         8.8 32.5  32.1 101.0     140.0 2.70 14.5    NaN  6.7
+2166-07-11 05:24:00        26.3         8.1 31.5  30.7 102.0     170.0 2.57 14.9    NaN  6.4
+2166-07-12 04:40:00        24.9         8.1 32.9  32.5 101.0     181.0 2.46 14.9    NaN  7.2
+2166-07-15 06:10:00        26.9         8.8 33.1  32.8 101.0     252.0 2.67 15.3    NaN  6.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2166-06-22 15:00:00
+sbp: 115.0
+dbp: 63.0
+mbp: 83.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 12.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Malignant neoplasm of head of pancreas
+   drg_type: HCFA
+   description: PANCREAS, LIVER & SHUNT PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Malignant neoplasm of head of pancreas
+   drg_type: APR
+   description: MAJOR PANCREAS, LIVER & SHUNT PROCEDURES
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Heparin Flush (10 units/ml) - started on 2166-06-22 18:00:00 and stopped on 2166-07-03 10:00:00
+- Sodium Chloride 0.9% Flush - started on 2166-06-22 18:00:00 and stopped on 2166-07-03 10:00:00
+- Docusate Sodium (Liquid) - started on 2166-06-20 20:00:00 and stopped on 2166-06-24 07:00:00
+- Heparin Sodium 5000 Units / mL - started on 2166-06-21 20:00:00 and stopped on 2166-06-26 10:00:00
+- Metoprolol Tartrate - started on 2166-06-22 14:00:00 and stopped on 2166-07-01 20:00:00
+- Metoprolol Tartrate - started on 2166-06-21 11:00:00 and stopped on 2166-06-24 13:00:00
+- Insulin - started on 2166-06-22 19:00:00 and stopped on 2166-07-15 19:00:00
+- Acetaminophen IV - started on 2166-06-20 19:00:00 and stopped on 2166-06-24 07:00:00
+- Heparin Flush (10 units/ml) - started on 2166-06-22 18:00:00 and stopped on 2166-07-03 10:00:00
+- Sodium Chloride 0.9% Flush - started on 2166-06-22 18:00:00 and stopped on 2166-07-03 10:00:00

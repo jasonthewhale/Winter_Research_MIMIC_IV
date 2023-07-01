@@ -1,0 +1,79 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 65
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2161-11-11 19:14:00
+  (6) discharge time: 2161-11-24 17:32:00
+  (7) transfer history: 
+2161-11-11 15:16:00 - 2161-11-11 22:45:00: Emergency Department
+2161-11-11 22:45:00 - 2161-11-13 03:15:52: Medicine
+2161-11-22 21:02:54 - 2161-11-24 17:32:42: Medicine
+2161-11-13 03:15:52 - 2161-11-16 16:57:01: Medical Intensive Care Unit (MICU)
+2161-11-16 16:57:01 - 2161-11-22 21:02:54: Medical Intensive Care Unit (MICU)
+2161-11-24 17:32:42: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2161-11-12 02:01:00        37.1        11.7 30.7  31.5 97.0     169.0 3.81 13.1    NaN  6.7
+2161-11-12 06:19:00        35.5        11.2 30.9  31.5 98.0     151.0 3.63 12.9    NaN  7.7
+2161-11-13 03:29:00        36.6        11.9 31.2  32.5 96.0     168.0 3.81 12.8    NaN  8.7
+2161-11-14 05:57:00        34.6        11.6 31.4  33.5 94.0     191.0 3.70 12.6    NaN 12.6
+2161-11-15 04:00:00        36.9        12.0 30.5  32.5 94.0     251.0 3.94 12.8    NaN 15.1
+2161-11-16 04:47:00        35.8        11.7 30.8  32.7 94.0     240.0 3.80 12.6    NaN 11.7
+2161-11-17 04:03:00        38.4        12.6 30.9  32.8 94.0     246.0 4.08 12.8    NaN  9.4
+2161-11-18 05:41:00        37.2        12.3 31.0  33.1 94.0     229.0 3.97 12.7    NaN  8.7
+2161-11-19 04:19:00        37.8        12.5 30.9  33.1 94.0     216.0 4.04 12.9    NaN  9.8
+2161-11-20 04:43:00        36.9        12.0 30.5  32.5 94.0     198.0 3.93 12.7    NaN  7.8
+2161-11-21 06:05:00        38.1        12.8 31.4  33.6 94.0     209.0 4.07 13.1    NaN  8.9
+2161-11-22 03:58:00        38.7        12.9 31.0  33.3 93.0     222.0 4.16 13.1    NaN  8.3
+2161-11-23 06:20:00        39.2        12.9 30.9  32.9 94.0     215.0 4.17 13.2    NaN  7.5
+2161-11-24 06:24:00        37.7        12.5 31.3  33.2 94.0     210.0 4.00 13.3    NaN  8.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2161-11-22 17:10:00
+sbp: 138.0
+dbp: 89.0
+mbp: 102.0
+sbp_ni: 138.0
+dbp_ni: 89.0
+mbp_ni: 102.0
+resp_rate: 23.0
+temperature: 36.780000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Other specified interstitial pulmonary diseases
+   drg_type: HCFA
+   description: INTERSTITIAL LUNG DISEASE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Other specified interstitial pulmonary diseases
+   drg_type: APR
+   description: INTERSTITIAL & ALVEOLAR LUNG DISEASES
+   drg_severity: 4
+   drg_mortality: 3
+
+Medication:
+- Mycophenolate Mofetil 500mg Tablet (Administered) - Start Time: 2161-11-12 08:00:00, Stop Time: 2161-11-24 21:00:00
+- Simvastatin (Administered) - Start Time: 2161-11-12 00:00:00, Stop Time: 2161-11-24 21:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2161-11-12 00:00:00, Stop Time: 2161-11-24 21:00:00
+- Citalopram 20mg Tablet (Administered) - Start Time: 2161-11-12 00:00:00, Stop Time: 2161-11-24 21:00:00
+- ValACYclovir 500mg Tablet (Administered) - Start Time: 2161-11-12 00:00:00, Stop Time: 2161-11-13 03:00:00
+- Aspirin 81mg Tab (Administered) - Start Time: 2161-11-12 00:00:00, Stop Time: 2161-11-24 21:00:00
+- Fish Oil (Omega 3) 1000 mg Cap (None) - Start Time: 2161-11-12 00:00:00, Stop Time: 2161-11-13 10:00:00

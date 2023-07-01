@@ -1,0 +1,77 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 60
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2126-12-04 01:25:00
+  (6) discharge time: 2126-12-11 15:50:00
+  (7) transfer history: 
+2126-12-03 23:42:00 - 2126-12-04 02:17:00: Emergency Department
+2126-12-04 02:17:00 - 2126-12-09 11:23:21: Cardiac Vascular Intensive Care Unit (CVICU)
+2126-12-09 11:23:21 - 2126-12-11 15:51:51: Cardiac Surgery
+2126-12-11 15:51:51: discharge
+
+2. Medical Data
+(1) heart rate: 
+2126-11-28 10:00:00-2126-11-28 10:59:59 V Paced
+2126-11-28 11:00:00-2126-11-28 11:59:59 V Paced
+2126-11-28 14:00:00-2126-11-28 14:59:59 AV Paced
+2126-11-28 15:00:00-2126-11-28 15:59:59 AV Paced
+2126-11-28 16:00:00-2126-11-28 16:59:59 AV Paced
+2126-11-28 17:00:00-2126-11-28 17:59:59 AV Paced
+2126-11-28 18:00:00-2126-11-28 18:59:59 AV Paced
+2126-11-28 19:00:00-2126-11-28 19:59:59 AV Paced
+2126-11-28 20:00:00-2126-11-28 20:59:59 AV Paced
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2126-12-05 02:34:00        30.2        10.3 31.3  34.1 92.0     264.0 3.29 12.7    NaN  9.3
+2126-12-06 02:41:00        29.8        10.2 31.5  34.2 92.0     299.0 3.24 12.7    NaN 12.4
+2126-12-07 02:09:00        27.9         9.3 31.1  33.3 93.0     247.0 2.99 13.2    NaN 12.1
+2126-12-08 01:55:00        28.9         9.5 31.0  32.9 94.0     267.0 3.06 13.2    NaN 11.9
+2126-12-09 01:24:00        25.7         8.7 31.5  33.9 93.0     261.0 2.76 13.2    NaN 11.8
+2126-12-10 04:41:00        25.2         8.5 30.9  33.7 92.0     261.0 2.75 13.1    NaN  8.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2126-12-04 08:00:00
+sbp: 108.0
+dbp: 76.0
+mbp: 86.0
+sbp_ni: 108.0
+dbp_ni: 76.0
+mbp_ni: 86.0
+resp_rate: 19.0
+temperature: 36.830000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Ventricular tachycardia
+   drg_type: HCFA
+   description: CARDIAC DEFIB IMPLANT W CARDIAC CATH W/O AMI/HF/SHOCK W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Ventricular tachycardia
+   drg_type: APR
+   description: CARDIAC DEFIBRILLATOR & HEART ASSIST IMPLANT
+   drg_severity: 2
+   drg_mortality: 3
+
+Medication:
+- Insulin: Administered from 2126-12-04 04:00:00 to 2126-12-07 22:00:00
+- Magnesium Sulfate: Administered from 2126-12-04 05:00:00 to 2126-12-05 04:00:00
+- Lidocaine: Administered from 2126-12-04 07:00:00 to 2126-12-05 06:00:00
+- Metoprolol Tartrate: Administered from 2126-12-04 06:00:00 to 2126-12-09 08:00:00
+- Docusate Sodium: Administered from 2126-12-04 08:00:00 to 2126-12-11 20:00:00
+- Omeprazole: Administered from 2126-12-04 08:00:00 to 2126-12-11 20:00:00
+- Acetaminophen: Administered from 2126-12-04 04:00:00 to 2126-12-11 20:00:00

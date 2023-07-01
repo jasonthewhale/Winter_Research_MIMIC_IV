@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 87
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2164-10-24 00:00:00
+  (6) discharge time: 2164-10-30 15:00:00
+  (7) transfer history: 
+2164-10-24 19:59:37 - 2164-10-30 07:46:23: Medicine/Cardiology
+2164-10-30 07:46:23 - 2164-10-30 08:52:28: PACU
+2164-10-30 08:52:28 - 2164-10-30 18:40:54: Cardiac Vascular Intensive Care Unit (CVICU)
+2164-10-30 18:40:54: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available for the heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2164-10-24 21:03:00        45.1        14.4 29.0  32.0 91.0     195.0 4.97 14.8    NaN  8.9
+2164-10-25 06:20:00        41.9        13.6 29.4  32.5 90.0     194.0 4.64 14.9    NaN  7.9
+2164-10-26 08:27:00        49.6        15.3 28.3  30.9 92.0     242.0 5.42 14.9    NaN  9.1
+2164-10-27 08:30:00        50.9        15.7 28.1  30.9 91.0     245.0 5.60 14.7    NaN  8.4
+2164-10-28 06:00:00        46.2        14.7 28.5  31.7 90.0     245.0 5.14 14.9    NaN  9.5
+2164-10-30 03:44:00        43.7        14.0 28.1  32.0 88.0     203.0 4.97 14.7    NaN  9.5
+2164-10-30 10:45:00        32.7        10.4 28.3  31.9 89.0     180.0 3.68 14.8    NaN  6.7
+2164-10-30 11:18:00        36.0        11.6 28.4  32.2 88.0     143.0 4.07 14.8    NaN  6.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2164-10-30 11:15:00
+sbp: 107.0
+dbp: 57.0
+mbp: 76.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 16.0
+temperature: 33.670000000
+temperature_site: Axillary
+spo2: 100.0
+cardiovascular: 4
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Aortic valve disorders
+   drg_type: HCFA
+   description: ENDOVASCULAR CARDIAC VALVE REPLACEMENT W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Aortic valve disorders
+   drg_type: APR
+   description: PERCUTANEOUS CORONARY INTERVENTION W/O AMI
+   drg_severity: 4
+   drg_mortality: 3
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2164-10-24 21:00:00 and stopped on 2164-10-30 22:00:00
+- Administered: Atorvastatin 20mg Tablet, started on 2164-10-24 22:00:00 and stopped on 2164-10-30 22:00:00
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial, started on 2164-10-24 21:00:00 and stopped on 2164-10-30 00:00:00
+- Administered: TRIAzolam 0.25 mg Tablet, started on 2164-10-24 22:00:00 and stopped on 2164-10-30 22:00:00
+- Administered: Furosemide 40mg, started on 2164-10-24 22:00:00 and stopped on 2164-10-24 22:00:00
+- Administered: Magnesium Sulfate 2gm, started on 2164-10-24 23:00:00 and stopped on 2164-10-25 17:00:00
+- Flushed: Sodium Chloride 0.9% Flush, started on 2164-10-24 21:00:00 and stopped on 2164-10-30 22:00:00
+- Administered: Aspirin 81mg Tablet, started on 2164-10-24 22:00:00 and stopped on 2164-10-30 22:00:00
+- Administered: Clopidogrel 75mg Tablet, started on 2164-10-24 22:00:00 and stopped on 2164-10-28 13:00:00
+- Administered: Docusate Sodium 100mg Capsule, started on 2164-10-25 08:00:00 and stopped on 2164-10-30 22:00:00

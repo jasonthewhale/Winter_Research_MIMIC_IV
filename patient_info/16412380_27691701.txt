@@ -1,0 +1,88 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 64
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2165-02-04 21:38:00
+  (6) discharge time: 2165-02-13 16:01:00
+  (7) transfer history: 
+2165-02-04 20:28:00 - 2165-02-04 23:22:00: Emergency Department
+2165-02-04 23:22:00 - 2165-02-06 18:50:26: Medical Intensive Care Unit (MICU)
+2165-02-06 18:50:26 - 2165-02-09 03:42:32: Transplant
+2165-02-09 03:42:32 - 2165-02-10 21:22:36: Medical Intensive Care Unit (MICU)
+2165-02-10 21:22:36 - 2165-02-13 20:18:02: Medical Intensive Care Unit (MICU)
+2165-02-13 20:18:02: discharge
+
+2. Medical Data
+(1) heart rate: 
+2165-02-09 04:00:00-2165-02-09 06:00:00 ST (Sinus Tachycardia) with PAC's, frequent ectopy
+2165-02-09 07:00:00-2165-02-09 07:00:00 ST (Sinus Tachycardia) with PAC's, rare ectopy
+2165-02-09 12:00:00-2165-02-09 14:00:00 ST (Sinus Tachycardia) with PAC's, occasional ectopy
+2165-02-09 15:00:00-2165-02-09 15:00:00 ST (Sinus Tachycardia) with PAC's, rare ectopy
+2165-02-09 16:00:00-2165-02-09 16:00:00 ST (Sinus Tachycardia) with PAC's, frequent ectopy
+2165-02-09 17:00:00-2165-02-09 17:00:00 ST (Sinus Tachycardia) with PAC's, occasional ectopy
+2165-02-09 18:00:00-2165-02-09 18:00:00 ST (Sinus Tachycardia) with PAC's, frequent ectopy
+2165-02-09 19:00:00-2165-02-09 19:00:00 ST (Sinus Tachycardia) with PAC's, occasional ectopy
+2165-02-09 20:00:00-2165-02-09 20:00:00 ST (Sinus Tachycardia) with PAC's, rare ectopy
+2165-02-09 22:00:00-2165-02-09 22:00:00 ST (Sinus Tachycardia) with PVC's, rare ectopy
+2165-02-09 23:00:00-2165-02-09 23:00:00 SR (Sinus Rhythm) with PAC's, occasional ectopy
+2165-02-10 00:00:00-2165-02-10 00:00:00 SR (Sinus Rhythm) with PAC's, rare ectopy
+2165
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2165-02-05 04:38:00        28.7        10.4 37.8  36.2 104.0     151.0 2.75 14.7    NaN 12.6
+2165-02-06 03:44:00        28.2        10.4 38.4  36.9 104.0     144.0 2.71 15.1    NaN 14.1
+2165-02-07 05:04:00        28.8        10.2 37.5  35.4 106.0     160.0 2.72 15.5    NaN 13.2
+2165-02-08 04:55:00        29.5        10.7 38.1  36.3 105.0     158.0 2.81 15.9    NaN 16.4
+2165-02-08 20:30:00        27.2         9.9 38.7  36.4 106.0     169.0 2.56 15.9    NaN 19.4
+2165-02-09 04:04:00        23.0         8.1 38.4  35.2 109.0     141.0 2.11 16.5    NaN 16.1
+2165-02-09 13:38:00        22.7         7.8 38.2  34.4 111.0     144.0 2.04 16.7    NaN 17.2
+2165-02-10 03:19:00        23.1         8.3 39.3  35.9 110.0     144.0 2.11 16.8    NaN 16.9
+2165-02-11 04:16:00        23.7         8.1 38.2  34.2 112.0     134.0 2.12 17.5    NaN 14.5
+2165-02-12 04:09:00        22.1         7.4 38.3  33.5 115.0     118.0 1.93 18.2    NaN 15.5
+2165-02-13 02:59:00        23.7         7.7 38.3  32.5 118.0      99.0 2.01 18.9    NaN 20.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2165-02-11 00:00:00
+sbp: 99.0
+dbp: 63.0
+mbp: 72.0
+sbp_ni: 99.0
+dbp_ni: 63.0
+mbp_ni: 72.0
+resp_rate: 26.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 3
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 3
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 8
+
+Physician's Diagnoses:
+1. Hypo-osmolality and hyponatremia
+   drg_type: APR
+   description: NONEXTENSIVE PROCEDURE UNRELATED TO PRINCIPAL DIAGNOSIS
+   drg_severity: 4
+   drg_mortality: 4
+2. Hypo-osmolality and hyponatremia
+   drg_type: HCFA
+   description: MISC DISORDERS OF NUTRITION,METABOLISM,FLUIDS/ELECTROLYTES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2165-02-05 00:00:00 and stopped on 2165-02-14 00:00:00
+- Administered: Potassium Chloride 40 mEq / 500 mL 0.9% Sodium Chloride, started on 2165-02-05 01:00:00 and stopped on 2165-02-05 06:00:00
+- Administered: CeftriaXONE 2 g / 100 mL 0.9% Sodium Chloride (Mini Bag Plus), started on 2165-02-05 03:00:00 and stopped on 2165-02-05 09:00:00
+- Administered: Sodium Chloride 0.9% - Floor Stock Bag, started on 2165-02-05 05:00:00 and stopped on 2165-02-05 06:00:00
+- Administered: Potassium Chloride 10mEq ER Tablet, started on 2165-02-05 07:00:00 and stopped on 2165-02-05 23:00:00
+- Administered: Cyanocobalamin 100 mcg Tablet, started on 2165-02-05 08:00:00 and stopped on 2165-02-13 15:00:00
+- Administered: FoLIC Acid 1 mg Tab, started on 2165-02-05 08:00:00 and stopped on 2165-02-13 15:00:00

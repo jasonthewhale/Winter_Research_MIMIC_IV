@@ -1,0 +1,85 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 72
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2124-02-13 19:15:00
+  (6) discharge time: 2124-02-29 12:55:00
+  (7) transfer history: 
+2124-02-13 19:16:43 - 2124-02-15 05:36:24: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2124-02-15 18:27:04 - 2124-02-21 14:18:30: Medicine
+2124-02-15 05:36:24 - 2124-02-15 18:27:04: Medicine
+2124-02-26 18:38:32 - 2124-02-29 12:59:55: Med/Surg/GYN
+2124-02-21 14:18:30 - 2124-02-26 18:38:32: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2124-02-29 12:59:55: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2124-02-13 19:37:00        30.5         9.8 30.6  32.1  95.0     190.0 3.20 16.7    NaN 20.5
+2124-02-14 05:53:00        29.3         9.4 30.5  32.1  95.0     205.0 3.08 16.9    NaN 17.0
+2124-02-15 06:05:00        31.7        10.4 31.4  32.8  96.0     233.0 3.31 16.6    NaN 18.5
+2124-02-15 15:03:00        30.6         9.8 30.5  32.0  95.0     222.0 3.21 16.9    NaN 17.3
+2124-02-16 06:07:00        30.0         9.4 30.4  31.3  97.0     219.0 3.09 17.0    NaN 16.6
+2124-02-17 05:09:00        31.3         9.9 31.0  31.6  98.0     235.0 3.19 17.0    NaN 21.4
+2124-02-18 06:21:00        29.9         9.3 30.6  31.1  98.0     237.0 3.04 17.3    NaN 18.9
+2124-02-19 05:30:00        30.2         9.4 30.6  31.1  98.0     236.0 3.07 17.3    NaN 17.5
+2124-02-20 05:05:00        31.9         9.9 30.6  31.0  99.0     249.0 3.24 16.8    NaN 16.4
+2124-02-21 05:03:00        29.6         9.5 31.1  32.1  97.0     208.0 3.05 16.5    NaN 11.5
+2124-02-22 01:29:00        32.2        10.1 31.1  31.4  99.0     231.0 3.25 16.4    NaN 14.6
+2124-02-23 02:53:00        32.3        10.0 30.7  31.0  99.0     217.0 3.26 16.8    NaN 12.6
+2124-02-24 04:06:00        31.3         9.8 30.9  31.3  99.0     218.0 3.17 16.4    NaN 12.8
+2124-02-25 03:57:00        32.9        10.2 31.0  31.0 100.0     225.0 3.29 16.6    NaN 10.5
+2124-02-26 01:56:00        33.0        10.3 30.7  31.2  98.0     264.0 3.36 16.4    NaN 11.0
+2124-02-27 05:06:00        33.9        10.5 30.8  31.0  99.0     239.0 3.41 16.8    NaN 11.0
+2124-02-28 05:27:00        33.8        10.5 30.7  31.1  99.0     231.0 3.42 16.3    NaN 10.8
+2124-02-29 05:42:00        31.0         9.9 31.1  31.9  98.0     239.0 3.18 16.0    NaN 11.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2124-05-01 17:00:00
+sbp: 117.0
+dbp: 90.0
+mbp: 96.0
+sbp_ni: 117.0
+dbp_ni: 90.0
+mbp_ni: 96.0
+resp_rate: 18.0
+temperature: 37.170000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Acute respiratory failure with hypoxia
+   drg_type: HCFA
+   description: PULMONARY EDEMA & RESPIRATORY FAILURE
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Acute respiratory failure with hypoxia
+   drg_type: APR
+   description: RESPIRATORY FAILURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- QUEtiapine Fumarate 50mg Tablet (Administered) - Start Time: 2124-02-13 21:00:00, Stop Time: 2124-02-14 15:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2124-02-13 20:00:00, Stop Time: 2124-02-22 22:00:00
+- Haloperidol 5mg/mL Vial (Administered) - Start Time: 2124-02-13 22:00:00, Stop Time: 2124-02-14 21:00:00
+- Lorazepam 2mg/mL Syringe (Administered) - Start Time: 2124-02-13 23:00:00, Stop Time: 2124-02-14 22:00:00
+- Piperacillin-Tazobactam 4.5 g / 100 mL Iso-Osmotic Dextrose (Administered) - Start Time: 2124-02-13 22:00:00, Stop Time: 2124-02-14 21:00:00
+- QUEtiapine Fumarate 50mg Tablet (Administered) - Start Time: 2124-02-14 00:00:00, Stop Time: 2124-02-14 23:00:00
+- Acetaminophen 325mg Tablet (Administered) - Start Time: 2124-02-13 23:00:00, Stop Time: 2124-02-29 17:00:00
+- Metoprolol Tartrate (Administered) - Start Time: 2124-02-13 22:00:00, Stop Time: 2124-02-14 10:00:00
+- Furosemide (Administered) - Start Time: 2124-02-14 02:00:00, Stop Time: 2124-02-15 01:00:00

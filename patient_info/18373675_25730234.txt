@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 63
+  (3) race: BLACK/AFRICAN AMERICAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2189-06-28 12:53:00
+  (6) discharge time: 2189-07-04 15:20:00
+  (7) transfer history: 
+2189-06-28 11:24:00 - 2189-06-28 13:42:00: Emergency Department
+2189-06-28 13:42:00 - 2189-06-29 15:12:52: Medical Intensive Care Unit (MICU)
+2189-07-02 19:49:40 - 2189-07-04 16:35:46: Med/Surg
+2189-06-29 15:12:52 - 2189-06-30 04:52:24: Medicine
+2189-06-30 04:52:24 - 2189-07-02 19:49:40: Medical Intensive Care Unit (MICU)
+2189-07-04 16:35:46: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2189-06-28 14:34:00        41.2        13.3 29.9  32.3 93.0     167.0 4.45 13.9    NaN 15.7
+2189-06-28 21:03:00        38.8        12.8 29.7  33.0 90.0     176.0 4.31 14.4    NaN 12.2
+2189-06-29 03:47:00        38.7        12.7 29.7  32.8 90.0     158.0 4.28 14.8    NaN 11.4
+2189-06-30 03:00:00        33.6        10.8 29.5  32.1 92.0     184.0 3.66 14.4    NaN 10.7
+2189-06-30 07:42:00        35.7        11.5 29.4  32.2 91.0     147.0 3.91 14.4    NaN 11.6
+2189-06-30 12:31:00        35.8        11.7 29.5  32.7 90.0     150.0 3.96 14.5    NaN 10.4
+2189-06-30 20:48:00        35.7        11.9 29.8  33.3 89.0     163.0 4.00 14.4    NaN 11.8
+2189-07-01 03:42:00        34.1        11.1 30.0  32.6 92.0     149.0 3.70 14.6    NaN 10.7
+2189-07-01 14:53:00        32.6        10.5 30.1  32.2 93.0     157.0 3.49 14.8    NaN  8.8
+2189-07-02 03:07:00        29.8         9.7 30.0  32.6 92.0     152.0 3.23 14.6    NaN 10.0
+2189-07-02 15:41:00        29.4         9.4 29.9  32.0 94.0     154.0 3.14 15.0    NaN  8.9
+2189-07-03 06:57:00        28.3         9.0 30.0  31.8 94.0     148.0 3.00 14.8    NaN  8.2
+2189-07-04 06:41:00        30.0         9.8 30.0  32.7 92.0     169.0 3.27 14.6    NaN  6.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2180-12-25 12:00:00
+sbp: 149.0
+dbp: 88.0
+mbp: 104.0
+sbp_ni: 149.0
+dbp_ni: 88.0
+mbp_ni: 104.0
+resp_rate: 15.0
+temperature: 36.780000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Diverticulosis of large intestine without perforation or abscess with bleeding
+   drg_type: APR
+   description: DIVERTICULITIS & DIVERTICULOSIS
+   drg_severity: 4
+   drg_mortality: 4
+2. Diverticulosis of large intestine without perforation or abscess with bleeding
+   drg_type: HCFA
+   description: G.I. HEMORRHAGE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Lactated Ringers - Floor Stock Bag (Administered from 2189-06-28 15:00:00 to 2189-06-29 14:00:00)
+- Pantoprazole 40 mg Via (Administered from 2189-06-28 15:00:00 to 2189-07-01 09:00:00)
+- Brimonidine Tartrate 0.15% Ophth. 5mL Dropper Bottle (Administered from 2189-06-28 15:00:00 to 2189-07-04 21:00:00)
+- Latanoprost 0.005% Ophth. Soln. 2.5mL Dropper Bottle (Administered from 2189-06-28 15:00:00 to 2189-07-04 21:00:00)
+- Pantoprazole 40 mg Via (Administered from 2189-06-28 15:00:00 to 2189-07-01 09:00:00)
+- Timolol Maleate 0.5% 5 mL Bottle (Administered from 2189-06-28 15:00:00 to 2189-07-04 21:00:00)
+- Pantoprazole 40 mg Via (Administered from 2189-06-28 15:00:00 to 2189-07-01 09:00:00)
+- Latanoprost 0.005% Ophth. Soln. 2.5mL Dropper Bottle (Administered from 2189-06-28 15:00:00 to 2189-07-04 21:00:00)
+- Sodium Chloride 0.9% Flush (Flushed from 2189-06-29 16:00:00 to 2189-07-02 21:00:00)

@@ -1,0 +1,62 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 52
+  (3) race: BLACK/AFRICAN AMERICAN
+  (4) admission type: URGENT
+  (5) admit time: 2130-07-24 18:07:00
+  (6) discharge time: 2130-07-29 12:10:00
+  (7) transfer history: 
+2130-07-23 17:49:00 - 2130-07-24 18:08:45: Emergency Department
+2130-07-24 18:08:45 - 2130-07-25 00:35:19: PACU
+2130-07-27 16:49:10 - 2130-07-29 12:13:18: Neurology
+2130-07-25 00:35:19 - 2130-07-27 16:49:10: Surgical Intensive Care Unit (SICU)
+2130-07-29 12:13:18: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2130-07-23 20:35:00        42.8        13.9 27.4  32.5 84.0     289.0 5.08 14.1    NaN  8.5
+2130-07-25 02:29:00        42.2        13.9 27.8  32.9 84.0     301.0 5.00 14.4    NaN 12.9
+2130-07-26 01:10:00        38.1        12.1 27.1  31.8 85.0     289.0 4.47 14.3    NaN 10.8
+2130-07-27 00:00:00        37.2        11.9 27.1  32.0 85.0     292.0 4.39 14.1    NaN 10.6
+2130-07-28 07:15:00        39.4        12.5 27.2  31.7 86.0     360.0 4.60 14.2    NaN  8.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2130-07-25 16:00:00
+sbp: 135.0
+dbp: 84.0
+mbp: 96.0
+sbp_ni: 135.0
+dbp_ni: 84.0
+mbp_ni: 96.0
+resp_rate: 22.0
+temperature: 36.940000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Nontraumatic subarachnoid hemorrhage from left posterior communicating artery
+   drg_type: HCFA
+   description: INTRACRANIAL VASCULAR PROCEDURES W PDX HEMORRHAGE W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- LeVETiracetam 500 mg in 100 mL 0.9% Sodium Chloride (Administered) - Start Time: 2130-07-24 20:00:00, Stop Time: 2130-07-25 11:00:00
+- Nimodipine 30mg Capsule (Administered) - Start Time: 2130-07-24 21:00:00, Stop Time: 2130-07-25 01:00:00
+- Dexamethasone (Administered) - Start Time: 2130-07-25 01:00:00, Stop Time: 2130-07-26 10:00:00
+- Acetaminophen 325mg Tablet (Administered) - Start Time: 2130-07-25 01:00:00, Stop Time: 2130-07-29 17:00:00
+- Nimodipine 30mg Capsule (Administered) - Start Time: 2130-07-25 02:00:00, Stop Time: 2130-07-29 17:00:00

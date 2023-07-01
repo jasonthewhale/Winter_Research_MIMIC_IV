@@ -1,0 +1,67 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 69
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2189-01-23 21:00:00
+  (6) discharge time: 2189-01-26 20:45:00
+  (7) transfer history: 
+2189-01-23 16:00:00 - 2189-01-23 21:50:00: Emergency Department
+2189-01-23 21:50:00 - 2189-01-26 22:44:57: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2189-01-26 22:44:57: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2189-01-24 00:49:00        33.9        11.5 30.3  33.9 89.0     124.0 3.80 12.7    NaN  8.6
+2189-01-24 23:22:00        32.0        10.7 30.8  33.4 92.0     107.0 3.47 12.9    NaN  8.1
+2189-01-26 02:00:00        31.1        10.5 30.7  33.8 91.0      94.0 3.42 12.8    NaN  9.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2189-01-23 22:00:00
+sbp: 119.0
+dbp: 97.0
+mbp: 106.0
+sbp_ni: 119.0
+dbp_ni: 97.0
+mbp_ni: 106.0
+resp_rate: 24.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 3
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Nontraumatic intracerebral hemorrhage in hemisphere, subcortical
+   drg_type: APR
+   description: CRANIOTOMY EXCEPT FOR TRAUMA
+   drg_severity: 4
+   drg_mortality: 4
+2. Nontraumatic intracerebral hemorrhage in hemisphere, subcortical
+   drg_type: HCFA
+   description: CRANIOTOMY W MAJOR DEVICE IMPLANT OR ACUTE CNS PDX W MCC OR CHEMOTHERAPY
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- LevETIRAcetam - STAT Dose: Administered 1000 mg in 100 mL 5% Dextrose via IV Piggyback. Start time: 2189-01-24 01:00:00, Stop time: 2189-01-25 00:00:00.
+- Sodium Chloride 0.9% Flush: Flushed 10 mL via IV. Start time: 2189-01-23 23:00:00, Stop time: 2189-01-27 02:00:00.
+- Sodium Chloride 0.9% - Floor Stock Bag: Administered 500 mL via IV Large Volume. Start time: 2189-01-24 05:00:00, Stop time: 2189-01-25 04:00:00.
+- Chlorhexidine Gluconate 15 mL Cup: Administered 15 mL via Oral Rinse. Start time: 2189-01-24 08:00:00, Stop time: 2189-01-26 13:00:00.
+- Citalopram 10mg tablet: Administered 10 mg via Unit Dose. Start time: 2189-01-23 23:00:00, Stop time: 2189-01-26 13:00:00.
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride: Administered 20 mg via IV Piggyback. Start time: 2189-01-23 23:00:00, Stop time: 2189-01-26 13:00:00.
+- Fluticasone Propionate NASAL 16g NASAL SPRAY: Administered 1 spray via Unit Dose. Start time: 2189-01-23 23:00:00, Stop time: 2189-01-26 13:00:00.
+- Docusate Sodium 100 mg Tablet: Administered 100 mg via Unit Dose. Start time: 2189-01-24 09:00:00, Stop time: 2189-01-26 13:00:00.
+- FoLIC Acid 1 mg Tab: Administered 1 mg via Unit Dose. Start time: 2189-01-25 08:00:

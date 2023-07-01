@@ -1,0 +1,110 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 51
+  (3) race: UNKNOWN
+  (4) admission type: URGENT
+  (5) admit time: 2128-12-08 17:08:00
+  (6) discharge time: 2129-01-01 04:30:00
+  (7) transfer history: 
+2128-12-08 17:08:52 - 2128-12-16 23:07:03: Transplant
+2128-12-20 01:38:40 - 2128-12-24 14:35:10: Med/Surg
+2128-12-24 14:35:10 - 2129-01-02 05:51:26: Med/Surg
+2128-12-16 23:07:03 - 2128-12-20 01:38:40: Medical Intensive Care Unit (MICU)
+2129-01-02 05:51:26: discharge
+
+2. Medical Data
+(1) heart rate: 
+2128-12-18 01:00:00-2128-12-18 02:00:00 SR (Sinus Rhythm)
+2128-12-18 02:00:00-2128-12-18 03:00:00 SR (Sinus Rhythm)
+2128-12-18 03:00:00-2128-12-18 04:00:00 ST (Sinus Tachycardia)
+2128-12-18 04:00:00-2128-12-18 05:00:00 SR (Sinus Rhythm)
+2128-12-18 05:00:00-2128-12-18 06:00:00 SR (Sinus Rhythm)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2128-12-09 07:11:00        29.3         9.7 38.3  33.1 116.0      46.0 2.53 16.5    NaN 25.9
+2128-12-10 05:26:00        30.4        10.1 37.6  33.1 114.0      40.0 2.67 16.7    NaN 19.7
+2128-12-10 14:10:00        28.0         9.4 37.7  33.4 113.0      48.0 2.49 16.7    NaN 20.9
+2128-12-10 21:18:00        25.6         8.8 38.4  34.4 112.0      43.0 2.29 16.9    NaN 19.7
+2128-12-11 05:10:00        26.0         8.6 36.9  33.0 112.0      40.0 2.32 17.2    NaN 17.4
+2128-12-11 15:13:00        21.9         7.3 37.5  33.6 112.0      28.0 1.96 17.0    NaN 12.1
+2128-12-11 18:00:00        20.5         7.0 38.0  34.1 112.0      24.0 1.84 17.1    NaN 10.8
+2128-12-12 00:30:00        23.9         8.4 37.9  35.0 108.0      33.0 2.21 18.8    NaN 13.8
+2128-12-12 03:13:00         NaN         NaN  NaN   NaN   NaN      57.0  NaN  NaN    NaN  NaN
+2128-12-12 05:39:00        24.1         8.1 36.7  33.7 109.0      50.0 2.21 18.9    NaN 12.8
+2128-12-13 04:54:00        25.4         8.7 36.8  34.0 108.0      51.0 2.35 18.9    NaN 16.9
+2128-12-14 05:23:00        27.7         9.2 36.3  33.3 109.0      54.0 2.55 19.0    NaN 21.4
+2128-12-15 05:49:00        26.5         8.9 36.8  33.5 110.0      45.0 2.41 19.1    NaN 24.1
+2128-12-16 03:03:00        26.4         8.7 36.4  32.8 111.0      45.0 2.38 19.6    NaN 24.0
+2128-12-16 15:00:00         NaN         NaN  NaN   NaN   NaN      47.0  NaN  NaN    NaN  NaN
+2128-12-16 22:59:00        26.0         8.6 36.5  32.9 111.0      77.0 2.34 19.8    NaN 27.0
+2128-12-17 07:35:00        26.6         8.6 36.0  32.5 111.0      71.0 2.40 19.7    NaN 24.8
+2128-12-18 03:01:00        30.0         9.7 35.9  32.4 111.0      82.0 2.71 19.8    NaN 22.2
+2128-12-19 03:12:00        27.4         9.5 37.8  34.5 110.0      72.0 2.50 19.9    NaN 21.2
+2128-12-20 06:17:00        28.7         9.5 37.1  32.9 113.0      59.0 2.55 19.8    NaN 17.2
+2128-12-21 09:00:00        29.6         9.7 36.6  32.9 111.0      77.0 2.66 20.2    NaN 17.1
+2128-12-22 12:30:00        29.2         9.7 37.1  33.4 111.0      81.0 2.63 20.1    NaN 15.4
+2128-12-23 05:16:00        25.3         8.4 36.0  33.1 109.0      53.0 2.32 20.0    NaN 14.8
+2128-12-23 14:30:00        26.5         9.1 37.5  34.2 110.0      58.0 2.42 20.1    NaN 14.3
+2128-12-24 04:11:00        27.5         9.3 37.3  33.9 110.0      59.0 2.50 19.4    NaN 14.4
+2128-12-25 04:01:00        24.4         7.9 35.9  32.2 112.0      34.0 2.19 19.6    NaN 10.6
+2128-12-25 14:41:00        26.9         8.8 37.0  32.8 113.0      36.0 2.38 19.3    NaN  9.7
+2128-12-25 21:38:00        26.3         8.5 36.0  32.2 112.0      32.0 2.36 19.3    NaN  9.2
+2128-12-26 04:39:00        24.9         8.3 36.5  33.3 110.0      45.0 2.27 19.3    NaN 10.6
+2128-12-26 19:45:00        25.1         8.2 36.4  32.7 111.0      48.0 2.26 19.0    NaN  9.4
+2128-12-27 05:11:00        24.9         8.1 36.0  32.6 110.0      42.0 2.26 19.1    NaN 11.0
+2128-12-28 05:40:00        24.6         8.0 36.2  32.6 111.0      33.0 2.22 18.6    NaN 10.8
+2128-12-28 23:41:00        28.3         9.3 36.1  32.8 110.0      49.0 2.57 18.4    NaN 17.4
+2128-12-29 05:30:00        27.6         8.9 36.3  32.4 112.0      42.0 2.47 18.6    NaN 17.5
+2128-12-30 04:27:00        27.7         9.1 36.7  33.0 111.0      44.0 2.49 18.6    NaN 17.7
+2128-12-30 13:01:00        27.7         9.2 37.3  33.4 112.0      36.0 2.48 18.7    NaN 21.5
+2128-12-31 04:06:00        25.7         8.5 37.0  33.1 112.0      39.0 2.30 18.7    NaN 17.9
+2128-12-31 21:42:00        24.8         7.8  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2129-01-01 06:31:00        24.4         7.7 36.8  31.7 116.0      38.0 2.09 18.5    NaN 21.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2128-12-17 12:00:00
+sbp: 90.0
+dbp: 50.0
+mbp: 59.0
+sbp_ni: 90.0
+dbp_ni: 50.0
+mbp_ni: 59.0
+resp_rate: 15.0
+temperature: 36.610000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 3
+liver_24hours: 2
+cns_24hours: 0
+renal_24hours: 3
+sofa_24hours: 9
+
+Physician's Diagnoses:
+1. Hepatorenal syndrome
+   drg_type: APR
+   description: HEPATIC COMA & OTHER MAJOR ACUTE LIVER DISORDERS
+   drg_severity: 4
+   drg_mortality: 4
+2. Hepatorenal syndrome
+   drg_type: HCFA
+   description: DISORDERS OF LIVER EXCEPT MALIG,CIRR,ALC HEPA W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, Unit Dose, IV, Q8H, 19, 3, 11, Discontinued
+- Administered: Omeprazole 20mg DR Capsule, 20 mg, Unit Dose, PO, BID, 08, 20, Discontinued
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial, 5000 UNIT, Unit Dose, SC, BID, 08, 20, Discontinued
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, Unit Dose, IV, Q8H, 20, 4, 12, Discontinued
+- Delayed Administered: Probenecid 500mg Tab, 500 mg, Unit Dose, PO, BID, 08, 20, Discontinued
+- Administered: Lactulose, 30 mL, Unit Dose, PO/NG, TID, 08, 14, 20, Inactive (Due to a change order)
+- Administered: OxycoDONE (Immediate Release) 5mg Tablet, 2.5 mg, Unit Dose, PO/NG, Q4H:PRN, None, Inactive (Due to a change order)
+- Administered: FoLIC Acid 1 mg Tab, 1 mg, Unit Dose, PO/NG, DAILY, 08, Discontinued
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial, 5000 UNIT, Unit Dose, SC, BID, 08, 20, Discontinued
+- Administered: Lactulose, 30 mL, Unit Dose, PO/NG, TID, 08, 14, 20, Inactive (Due to a change order)

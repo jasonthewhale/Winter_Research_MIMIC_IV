@@ -1,0 +1,107 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 76
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2175-04-17 02:41:00
+  (6) discharge time: 2175-05-09 18:00:00
+  (7) transfer history: 
+2175-04-16 22:28:00 - 2175-04-17 02:42:09: Emergency Department
+2175-04-17 02:42:09 - 2175-04-17 05:21:40: Medical Intensive Care Unit (MICU)
+2175-05-04 10:09:43 - 2175-05-09 18:05:48: Cardiology Surgery Intermediate
+2175-04-25 20:35:57 - 2175-05-02 10:39:42: Medicine/Cardiology Intermediate
+2175-04-19 17:59:45 - 2175-04-25 20:35:57: Medicine/Cardiology Intermediate
+2175-04-18 20:26:00 - 2175-04-19 17:59:45: Medicine
+2175-04-17 05:54:45 - 2175-04-17 12:25:45: Medicine
+2175-04-17 05:21:40 - 2175-04-17 05:54:45: Discharge Lounge
+2175-04-17 12:25:45 - 2175-04-18 20:26:00: Medical Intensive Care Unit (MICU)
+2175-05-02 10:39:42 - 2175-05-04 10:09:43: Cardiac Vascular Intensive Care Unit (CVICU)
+2175-05-09 18:05:48: discharge
+
+2. Medical Data
+(1) heart rate: 
+2175-05-02 21:00:00-2175-05-02 22:00:00 SR (Sinus Rhythm) PVC's None None None
+2175-05-03 00:00:00-2175-05-03 04:00:00 SR (Sinus Rhythm) PVC's None None None
+2175-05-03 05:00:00-2175-05-03 07:00:00 SR (Sinus Rhythm) PVC's None None None
+2175-05-03 12:00:00-2175-05-03 12:07:00 SR (Sinus Rhythm) PVC's Occasional None None
+2175-05-03 15:00:00-2175-05-03 22:00:00 SR (Sinus Rhythm) PAC's Occasional None None
+2175-05-04 00:00:00-2175-05-04 00:00:00 SR (Sinus Rhythm) PAC's None None None
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2175-04-16 22:50:00        20.6         5.9 21.5  28.6 75.0     301.0 2.75 20.8    NaN  9.4
+2175-04-17 04:01:00        25.4         7.9 23.5  31.1 76.0     249.0 3.36 19.3    NaN 12.9
+2175-04-17 13:00:00        32.6        10.3 24.8  31.6 79.0     254.0 4.15 18.8    NaN 10.5
+2175-04-17 21:00:00        31.4        10.2 25.1  32.5 77.0     254.0 4.07 19.0    NaN 11.5
+2175-04-18 04:49:00        32.1        10.1 24.7  31.5 79.0     237.0 4.09 19.2    NaN 12.1
+2175-04-18 17:40:00        30.2         9.6 25.0  31.8 79.0     244.0 3.84 19.8    NaN 12.8
+2175-04-19 06:15:00        31.3         9.8 24.9  31.3 79.0     240.0 3.94 20.3    NaN 10.1
+2175-04-20 07:25:00        31.4         9.9 25.3  31.5 80.0     289.0 3.92 21.9    NaN 10.2
+2175-04-21 07:15:00        32.7        10.1 25.3  30.9 82.0     296.0 3.99 22.5    NaN  7.7
+2175-04-22 06:13:00        31.9         9.9 25.3  31.0 82.0     299.0 3.91 22.7    NaN  9.6
+2175-04-23 06:50:00        30.8         9.6 25.3  31.2 81.0     275.0 3.79 23.0    NaN  8.4
+2175-04-24 06:15:00        29.8         9.3 25.5  31.2 82.0     286.0 3.65 22.9    NaN  8.9
+2175-04-25 08:15:00        30.2         9.4 25.5  31.1 82.0     321.0 3.68 23.4    NaN  7.6
+2175-04-26 09:08:00        32.6        10.1 25.8  31.0 83.0     371.0 3.91 23.6    NaN 10.6
+2175-04-27 06:33:00        34.5        10.5 25.7  30.4 84.0     368.0 4.09 23.8    NaN  9.8
+2175-04-28 06:06:00        32.5         9.9 25.7  30.5 84.0     362.0 3.85 23.9    NaN  6.8
+2175-04-29 07:52:00        34.0        10.3 26.2  30.3 87.0     434.0 3.93 24.3    NaN  6.7
+2175-04-30 07:56:00        33.8        10.1 25.7  29.9 86.0     430.0 3.93 24.5    NaN  6.3
+2175-05-01 07:20:00        32.5         9.9 26.1  30.5 86.0     416.0 3.80 24.6    NaN  6.5
+2175-05-02 11:53:00        26.3         8.1 27.0  30.8 88.0     239.0 3.00 22.9    NaN 11.5
+2175-05-02 12:41:00        35.5        10.9 26.6  30.7 87.0     262.0 4.10 22.9    NaN 24.1
+2175-05-02 18:00:00        35.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-05-03 02:42:00        32.8         9.9 26.8  30.2 89.0     298.0 3.69 23.0    NaN 20.9
+2175-05-04 12:20:00        23.0         7.1 26.8  30.9 87.0     224.0 2.65 23.8    NaN 16.9
+2175-05-04 18:24:00        23.5         7.2  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-05-05 04:27:00        22.8         7.0 27.0  30.7 88.0     208.0 2.59 24.0    NaN 14.4
+2175-05-05 13:17:00        23.0         7.1  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-05-06 04:32:00        23.5         7.2 27.7  30.6 90.0     249.0 2.60 24.1    NaN 10.5
+2175-05-07 04:49:00        24.5         7.4 27.5  30.2 91.0     281.0 2.69 24.5    NaN  9.0
+2175-05-08 05:15:00        24.2         7.5 28.2  31.0 91.0     314.0 2.66 25.2    NaN  9.5
+2175-05-09 05:04:00        24.5         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2175-08-27 10:00:00
+sbp: 87.0
+dbp: 49.0
+mbp: 57.0
+sbp_ni: 87.0
+dbp_ni: 49.0
+mbp_ni: 57.0
+resp_rate: 23.0
+temperature: 37.440000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 2
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Myocardial infarction type 2
+   drg_type: HCFA
+   description: CORONARY BYPASS W CARDIAC CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Myocardial infarction type 2
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Docusate Sodium 100mg Capsule: Administered from 2175-04-17 08:00:00 to 2175-04-17 13:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2175-04-17 08:00:00 to 2175-04-22 20:00:00
+- Furosemide: Administered from 2175-04-17 11:00:00 to 2175-04-18 02:00:00
+- Nitroglycerin SL 0.3mg SL Tablet Bottle: Administered from 2175-04-17 11:00:00 to 2175-04-18 02:00:00
+- Metoprolol Tartrate: Administered from 2175-04-17 12:00:00 to 2175-04-18 02:00:00
+- Aspirin 81mg Tab: Administered from 2175-04-18 08:00:00 to 2175-05-02 16:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2175-04-17 13:00:00 to 2175-04-22 20:00:00
+- Insulin: Administered from 2175-04-17 11:00:00 to 2175-05-04 06:00:00

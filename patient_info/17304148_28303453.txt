@@ -1,0 +1,83 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 71
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2169-05-01 00:00:00
+  (6) discharge time: 2169-05-09 12:43:00
+  (7) transfer history: 
+2169-05-01 02:43:36 - 2169-05-01 16:42:55: Discharge Lounge
+2169-05-04 20:53:16 - 2169-05-08 15:18:43: Cardiology Surgery Intermediate
+2169-05-08 15:18:43 - 2169-05-08 18:10:33: Cardiology Surgery Intermediate
+2169-05-08 18:10:33 - 2169-05-09 12:46:26: Medicine
+2169-05-01 16:42:55 - 2169-05-04 20:53:16: Trauma SICU (TSICU)
+2169-05-09 12:46:26: discharge
+
+2. Medical Data
+(1) heart rate: 
+2169-05-03 03:00:00-2169-05-03 09:00:00 AF (Atrial Fibrillation)
+2169-05-03 09:00:00-2169-05-03 10:00:00 SR (Sinus Rhythm) with PAC's Occasional
+2169-05-03 10:00:00-2169-05-03 11:00:00 SR (Sinus Rhythm) with PAC's Frequent
+2169-05-03 11:00:00-2169-05-03 18:00:00 SR (Sinus Rhythm) with PAC's None
+2169-05-03 18:00:00-2169-05-03 19:00:00 ST (Sinus Tachycardia) with PAC's None
+2169-05-03 19:00:00-2169-05-03 20:00:00 SR (Sinus Rhythm) with PAC's Occasional
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2169-05-01 17:00:00        34.0        11.3 33.4  33.2 101.0     201.0 3.38 15.9    NaN 13.9
+2169-05-02 01:57:00        29.3         9.7 33.7  33.1 102.0     188.0 2.88 16.1    NaN 13.1
+2169-05-03 01:58:00        30.0         9.7 33.2  32.3 103.0     174.0 2.92 16.2    NaN 13.9
+2169-05-04 01:43:00        27.7         8.8 33.5  31.8 105.0     157.0 2.63 15.1    NaN  9.9
+2169-05-05 04:00:00        26.7         8.6 33.5  32.2 104.0     175.0 2.57 14.4    NaN  7.5
+2169-05-06 03:30:00        26.3         8.6 33.6  32.7 103.0     195.0 2.56 13.9    NaN  7.3
+2169-05-06 05:00:00        26.5         8.6 33.3  32.5 103.0     214.0 2.58 14.0    NaN  7.3
+2169-05-07 04:30:00        26.7         8.8 33.7  33.0 102.0     210.0 2.61 13.9    NaN  7.1
+2169-05-08 04:00:00        20.3         6.6 33.8  32.5 104.0     199.0 1.95 14.1    NaN  6.2
+2169-05-08 09:10:00        25.9         8.6 33.7  33.2 102.0     276.0 2.55 13.9    NaN  8.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2169-05-02 00:00:00
+sbp: 114.0
+dbp: 50.0
+mbp: 71.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Malignant neoplasm of lower third of esophagus
+   drg_type: HCFA
+   description: STOMACH, ESOPHAGEAL & DUODENAL PROC W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Malignant neoplasm of lower third of esophagus
+   drg_type: APR
+   description: MAJOR STOMACH, ESOPHAGEAL & DUODENAL PROCEDURES
+   drg_severity: 3
+   drg_mortality: 1
+
+Medication:
+- Heparin (starttime: 2169-05-01 03:00:00, stoptime: 2169-05-02 02:00:00)
+- Albuterol 0.083% Neb Soln (starttime: 2169-05-01 18:00:00, stoptime: 2169-05-04 21:00:00)
+- HYDROmorphone 10 mcg/mL + Bupivacaine 0.1% 1 mg/mL ED (* Standard *) (starttime: 2169-05-01 20:00:00, stoptime: 2169-05-05 09:00:00)
+- Pantoprazole 40 mg Via (starttime: 2169-05-01 18:00:00, stoptime: 2169-05-04 21:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (starttime: 2169-05-01 20:00:00, stoptime: 2169-05-04 21:00:00)
+- Insulin (starttime: 2169-05-01 21:00:00, stoptime: 2169-05-04 21:00:00)
+- Magnesium Sulfate 2 g / 50 mL (Premix Bag) (starttime: 2169-05-01 21:00:00, stoptime: 2169-05-04 21:00:00)
+- Albumin 5% (12.5g / 250mL) 250 mL Bag (starttime: 2169-05-01 22:00:00, stoptime: 2169-05-02 21:00:00)
+- Albumin 5% (12.5g / 250mL) (starttime: 2169-05-02 00:00:00, stoptime: 2169-05-02 23:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (starttime: 2169-05-01 20:00:00, stoptime: 2169-05-04 21:00:00)

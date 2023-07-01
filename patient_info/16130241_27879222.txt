@@ -1,0 +1,81 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 84
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2139-03-04 18:00:00
+  (6) discharge time: 2139-03-13 14:47:00
+  (7) transfer history: 
+2139-03-04 10:37:00 - 2139-03-04 18:40:00: Emergency Department
+2139-03-04 18:40:00 - 2139-03-07 07:58:09: Neuro Intermediate
+2139-03-07 19:42:01 - 2139-03-09 17:27:22: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2139-03-07 07:58:09 - 2139-03-07 19:42:01: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2139-03-09 17:27:22 - 2139-03-12 22:41:19: Neuro Intermediate
+2139-03-12 22:41:19 - 2139-03-13 14:48:04: Neurology
+2139-03-13 14:48:04: discharge
+
+2. Medical Data
+(1) heart rate: 
+2139-03-07 12:00:00-2139-03-07 13:00:00 V Paced PVC's Occasional
+2139-03-07 14:00:00-2139-03-07 16:00:00 V Paced PVC's Rare
+2139-03-07 17:00:00-2139-03-07 23:00:00 V Paced PVC's Occasional
+2139-03-08 00:00:00-2139-03-08 06:00:00 V Paced PVC's Occasional
+2139-03-08 07:00:00-2139-03-08 11:00:00 V Paced PVC's Frequent
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2139-03-05 06:30:00        44.4        14.5 32.1  32.7 98.0     179.0 4.52 13.5    NaN  9.7
+2139-03-06 02:16:00        42.4        13.8 32.1  32.5 99.0     153.0 4.30 13.6    NaN 10.6
+2139-03-07 06:35:00        43.2        14.3 31.9  33.1 96.0     173.0 4.48 13.5    NaN 14.8
+2139-03-08 00:15:00        43.1        14.2 31.4  32.9 95.0     176.0 4.52 13.5    NaN 13.3
+2139-03-09 01:53:00        43.0        14.1 32.0  32.8 98.0     188.0 4.40 13.5    NaN 14.5
+2139-03-10 06:00:00        42.8        13.8 31.4  32.2 97.0     196.0 4.40 13.7    NaN 13.3
+2139-03-11 06:00:00        41.7        13.8 32.0  33.1 97.0     196.0 4.31 13.5    NaN 12.0
+2139-03-12 06:10:00        43.0        14.0 31.7  32.6 98.0     187.0 4.41 13.5    NaN 11.4
+2139-03-13 08:35:00        43.3        14.0 32.1  32.3 99.0     208.0 4.36 13.6    NaN 13.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2139-03-07 20:00:00
+sbp: 149.0
+dbp: 72.0
+mbp: 95.0
+sbp_ni: 149.0
+dbp_ni: 72.0
+mbp_ni: 95.0
+resp_rate: 21.0
+temperature: 37.170000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 0
+cns: 1
+renal: <NA>
+respiration_24hours: 1
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Nontraumatic intracerebral hemorrhage in hemisphere, cortical
+   drg_type: APR
+   description: MODERATELY EXTENSIVE PROCEDURE UNRELATED TO PRINCIPAL DIAGNOSIS
+   drg_severity: 4
+   drg_mortality: 4
+2. Nontraumatic intracerebral hemorrhage in hemisphere, cortical
+   drg_type: HCFA
+   description: INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Carbidopa-Levodopa (25-100) 25-100 mg Tablet: Administered from 2139-03-04 07:00:00 to 2139-03-13 19:00:00, 6 times a day at 7, 10, 13, 16, 19, 22
+- LeVETiracetam 500 mg Tablet: Administered from 2139-03-04 20:00:00 to 2139-03-06 12:00:00, twice a day at 08, 20
+- Losartan Potassium 50 mg Tablet: Administered from 2139-03-04 20:00:00 to 2139-03-05 11:00:00, once a day at 08
+- Sodium Chloride 0.9% Flush: Flushed from 2139-03-04 20:00:00 to 2139-03-13 19:00:00, every 8 hours at 20, 4, 12
+- Pramipexole 0.125 mg Tablet: Administered from 2139-03-04 13:00:00 to 2139-03-13 19:00:00, twice a day at 13, 19
+- Carbidopa-Levodopa (25-100) 25-100 mg Tablet: Administered from 2139-03-04 07:00:00 to 2139-03-13 19:00:00, 6 times a day at 7, 10, 13, 16, 19, 22
+- Carbidopa-Levodopa (25-100) 25-100 mg Tablet: Administered from 2139-03-04 07:00:00 to 2139-03-13 19:00:00, 6 times a day at 7, 10, 13, 16, 19, 22
+- Levothyroxine Sodium 50mcg Tablet: Administered from 2139-03-04 20:00:00 to 2139-03-13 19:00:00, once a day at 08
+- Amantadine 100 mg Cap: Administered from 2139-03-

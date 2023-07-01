@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 88
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2121-09-21 19:11:00
+  (6) discharge time: 2121-09-30 14:22:00
+  (7) transfer history: 
+2121-09-21 19:12:36 - 2121-09-26 09:19:57: Cardiology Surgery Intermediate
+2121-09-27 17:42:49 - 2121-09-30 14:22:10: Cardiology Surgery Intermediate
+2121-09-26 09:19:57 - 2121-09-26 13:17:45: PACU
+2121-09-26 13:17:45 - 2121-09-27 17:42:49: Cardiac Vascular Intensive Care Unit (CVICU)
+2121-09-30 14:22:10: discharge
+
+2. Medical Data
+(1) heart rate: 
+2121-09-26 17:19:00-2121-09-26 19:00:00 A Paced
+2121-09-26 19:00:00-2121-09-27 17:00:00 AV Paced
+2121-09-27 17:00:00-ongoing SR (Sinus Rhythm)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2121-09-21 21:08:00        41.4        13.6 29.8  32.9 91.0     143.0 4.56 12.6    NaN  5.9
+2121-09-22 10:30:00        38.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2121-09-25 05:20:00        39.3        12.9 29.7  32.8 91.0     128.0 4.34 12.7    NaN  6.0
+2121-09-26 15:30:00        28.9         9.4 29.9  32.5 92.0      56.0 3.14 12.7    NaN  2.0
+2121-09-26 16:40:00        33.2        10.9 29.9  32.8 91.0     115.0 3.65 12.5    NaN  3.0
+2121-09-26 21:29:00        35.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2121-09-27 03:06:00        35.0        12.0 30.2  34.3 88.0     172.0 3.97 12.9    NaN 14.3
+2121-09-27 13:09:00        36.0        12.2 30.0  33.9 89.0     145.0 4.06 12.9    NaN 14.1
+2121-09-28 05:10:00        33.3        10.9 29.8  32.7 91.0     121.0 3.66 12.9    NaN 12.2
+2121-09-29 05:40:00        32.9        10.7 30.0  32.5 92.0     114.0 3.57 12.8    NaN 11.3
+2121-09-30 05:13:00        33.1        10.8 30.0  32.6 92.0     134.0 3.60 12.6    NaN 10.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2121-09-27 05:00:00
+sbp: 125.0
+dbp: 61.0
+mbp: 80.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: nan
+temperature: 36.280000000
+temperature_site: Temporal
+spo2: 97.0
+cardiovascular: 4
+cns: 0
+renal: <NA>
+respiration_24hours: 4
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 11
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery with unstable angina pectoris
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 1
+2. Atherosclerotic heart disease of native coronary artery with unstable angina pectoris
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Atorvastatin: Administered from 2121-09-21 20:00:00 to 2121-09-26 13:00:00, dose given: 40 mg
+- Docusate Sodium: Administered from 2121-09-21 21:00:00 to 2121-09-26 13:00:00, dose given: 100 mg
+- Heparin: Administered from 2121-09-21 21:00:00 to 2121-09-26 13:00:00, dose given: 5000 units
+- Mupirocin Ointment 2%: Administered from 2121-09-21 21:00:00 to 2121-09-26 13:00:00, dose given: 1 application
+- Doxazosin: Administered from 2121-09-21 21:00:00 to 2121-09-26 13:00:00, dose given: 1 mg
+- Senna: Administered from 2121-09-21 21:00:00 to 2121-09-26 13:00:00, dose given: 8.6 mg
+- HydrALAzine: Administered from 2121-09-21 23:00:00 to 2121-09-22 18:00:00, dose given: 10 mg
+- Sodium Chloride 0.9% Flush: Administered from 2121-09-21 21:00:00 to 2121-09-26 13:00:00, dose given: 3 mL

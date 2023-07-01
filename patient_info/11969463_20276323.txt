@@ -1,0 +1,61 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 22
+  (3) race: UNKNOWN
+  (4) admission type: EW EMER.
+  (5) admit time: 2145-01-02 02:59:00
+  (6) discharge time: 2145-01-03 17:49:00
+  (7) transfer history: 
+2145-01-02 01:19:00 - 2145-01-02 03:46:00: Emergency Department
+2145-01-02 03:46:00 - 2145-01-02 18:34:03: Trauma SICU (TSICU)
+2145-01-02 18:34:03 - 2145-01-03 17:49:46: Med/Surg/Trauma
+2145-01-03 17:49:46: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2145-01-02 05:30:00        42.8        14.6 31.2  34.1 92.0     208.0 4.68 12.7    NaN 12.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2145-01-02 08:00:00
+sbp: 102.0
+dbp: 49.0
+mbp: 63.0
+sbp_ni: 102.0
+dbp_ni: 49.0
+mbp_ni: 63.0
+resp_rate: 19.0
+temperature: 37.000000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Traumatic pneumothorax without mention of open wound into thorax
+   drg_type: APR
+   description: MAJOR CHEST & RESPIRATORY TRAUMA
+   drg_severity: 4
+   drg_mortality: 2
+2. Traumatic pneumothorax without mention of open wound into thorax
+   drg_type: HCFA
+   description: RESPIRATORY SYSTEM DIAGNOSIS W VENTILATOR SUPPORT <96 HOURS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen 500mg Tablet (start time: 2145-01-02 18:00:00, stop time: 2145-01-03 22:00:00)
+- Sodium Chloride 0.9% Flush (start time: 2145-01-02 19:00:00, stop time: 2145-01-03 22:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (start time: 2145-01-02 05:00:00, stop time: 2145-01-03 22:00:00)
+- Ketorolac (start time: 2145-01-02 16:00:00, stop time: 2145-01-03 22:00:00)

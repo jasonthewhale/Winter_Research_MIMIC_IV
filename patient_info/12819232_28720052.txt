@@ -1,0 +1,88 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 37
+  (3) race: AMERICAN INDIAN/ALASKA NATIVE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2138-08-04 16:32:00
+  (6) discharge time: 2138-08-23 20:25:00
+  (7) transfer history: 
+2138-08-02 13:06:00 - 2138-08-04 17:49:00: Emergency Department
+2138-08-04 17:49:00 - 2138-08-07 17:57:05: Transplant
+2138-08-08 17:20:58 - 2138-08-10 19:10:55: Transplant
+2138-08-18 17:01:07 - 2138-08-23 20:28:36: Transplant
+2138-08-10 19:10:55 - 2138-08-18 17:01:07: Medical Intensive Care Unit (MICU)
+2138-08-07 17:57:05 - 2138-08-08 17:20:58: Surgical Intensive Care Unit (SICU)
+2138-08-23 20:28:36: discharge
+
+2. Medical Data
+(1) heart rate: 
+2138-08-17 10:00:00-2138-08-17 12:00:00 Sinus Rhythm with PAC's
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2138-08-02 13:35:00        28.8         9.1 29.2  31.6 92.0     201.0 3.12 15.3    NaN  6.6
+2138-08-03 06:40:00        26.7         8.2 29.1  30.7 95.0     177.0 2.82 15.3    NaN  5.7
+2138-08-05 05:28:00        25.9         8.1 29.0  31.3 93.0     160.0 2.79 15.2    NaN  6.8
+2138-08-06 05:00:00        25.2         7.8 28.8  31.0 93.0     163.0 2.71 15.3    NaN  7.4
+2138-08-06 16:20:00        24.9         7.9 29.0  31.7 92.0     170.0 2.72 15.5    NaN  7.6
+2138-08-07 07:05:00        24.8         7.6 28.6  30.6 93.0     171.0 2.66 15.4    NaN  7.7
+2138-08-08 05:00:00        23.1         7.4 29.1  32.0 91.0     186.0 2.54 15.4    NaN  9.5
+2138-08-09 05:39:00        22.7         7.4 29.4  32.6 90.0     233.0 2.52 15.2    NaN  8.5
+2138-08-10 06:00:00        23.0         7.2 28.6  31.3 91.0     260.0 2.52 15.2    NaN  9.9
+2138-08-10 16:20:00        23.8         7.6 29.0  31.9 91.0     291.0 2.62 15.2    NaN  9.1
+2138-08-11 03:58:00        20.9         6.7 29.0  32.1 91.0     291.0 2.31 15.4    NaN 14.1
+2138-08-11 12:43:00        23.1         7.4 29.0  32.0 91.0     286.0 2.55 15.3    NaN 14.0
+2138-08-12 03:58:00        24.1         7.6 29.2  31.5 93.0     311.0 2.60 15.5    NaN 14.0
+2138-08-13 02:45:00        20.2         6.5 29.0  32.2 90.0     305.0 2.24 15.4    NaN 12.1
+2138-08-13 11:11:00        24.5         7.9 28.6  32.2 89.0     316.0 2.76 15.9    NaN 11.1
+2138-08-14 04:10:00        23.9         7.6 29.1  31.8 92.0     308.0 2.61 16.3    NaN 12.3
+2138-08-15 01:50:00        23.3         7.6 28.6  32.6 88.0     294.0 2.66 15.9    NaN  9.9
+2138-08-16 02:10:00        20.9         6.7 28.9  32.1 90.0     257.0 2.32 15.7    NaN  8.9
+2138-08-17 05:31:00        22.1         7.1 28.5  32.1 89.0     244.0 2.49 16.0    NaN  9.8
+2138-08-18 04:57:00        21.0         6.7 28.5  31.9 89.0     242.0 2.35 16.1    NaN  9.5
+2138-08-19 04:50:00        23.9         7.6 28.4  31.8 89.0     238.0 2.68 16.5    NaN  8.9
+2138-08-20 05:20:00        24.5         7.8 28.6  31.8 90.0     226.0 2.73 16.1    NaN  8.7
+2138-08-21 07:30:00        24.2         7.5 28.6  31.0 92.0     234.0 2.62 16.3    NaN  9.9
+2138-08-22 06:19:00        24.2         7.7 29.4  31.8 92.0     213.0 2.62 16.2    NaN 10.4
+2138-08-23 04:50:00        24.5         7.6 28.6  31.0 92.0     225.0 2.66 16.7    NaN 11.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2138-08-12 19:00:00
+sbp: 128.0
+dbp: 69.0
+mbp: 83.0
+sbp_ni: 128.0
+dbp_ni: 69.0
+mbp_ni: 83.0
+resp_rate: 21.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: 0
+cns: 0
+renal: 4
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 4
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Pneumocystosis
+   drg_type: APR
+   description: MAJOR RESPIRATORY INFECTIONS & INFLAMMATIONS
+   drg_severity: 4
+   drg_mortality: 3
+2. Pneumocystosis
+   drg_type: HCFA
+   description: OTHER RESP SYSTEM O.R. PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- PredniSONE (Administered) - Start Time: 2137-01-11 08:00:00, Stop Time: 2137-01-12 15:00:00
+- Sodium Bicarbonate 650mg Tab (Administered) - Start Time: 2137-01-11 08:00:00, Stop Time: 2137-01-12 15:00:00
+- Atovaquone Suspension 750mg/5mL Packet (Administered) - Start Time: 2137-01-09 08:00:00, Stop Time: 2137-01-08 09:00:00
+- Everolimus 0.5 mg Tablet (Administered) - Start Time: 2137-01-10 08:00:00, Stop Time: 2137-01-08 09:00:00

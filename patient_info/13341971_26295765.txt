@@ -1,0 +1,90 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 19
+  (3) race: UNKNOWN
+  (4) admission type: EW EMER.
+  (5) admit time: 2178-02-21 05:38:00
+  (6) discharge time: 2178-03-11 13:10:00
+  (7) transfer history: 
+2178-02-21 03:44:00 - 2178-02-21 07:17:00: Emergency Department
+2178-02-21 07:17:00 - 2178-03-04 17:56:18: Trauma SICU (TSICU)
+2178-03-06 12:35:23 - 2178-03-11 13:18:53: Surgery/Trauma
+2178-03-04 17:56:18 - 2178-03-06 12:35:23: Trauma SICU (TSICU)
+2178-03-11 13:18:53: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2178-02-21 07:53:00        34.9        11.3 29.6  32.4 91.0     196.0 3.82 12.9    NaN 13.5
+2178-02-21 13:40:00        19.1         6.1 29.6  31.4 94.0     110.0 2.06 13.1    NaN  5.9
+2178-02-21 14:00:00        34.8        11.7 29.9  33.6 89.0     200.0 3.91 13.1    NaN 10.9
+2178-02-21 20:56:00        32.4        10.7 29.2  33.0 88.0     184.0 3.67 12.9    NaN  8.1
+2178-02-22 02:15:00        30.6        10.1 29.3  33.0 89.0     193.0 3.45 13.1    NaN  8.7
+2178-02-23 02:11:00        26.6         8.8 29.6  33.1 90.0     152.0 2.97 13.3    NaN  5.8
+2178-02-23 17:39:00        31.4        10.4 29.1  33.1 88.0     189.0 3.57 12.9    NaN 10.7
+2178-02-24 02:49:00        26.8         9.3 30.7  34.7 88.0     204.0 3.03 12.7    NaN  8.4
+2178-02-25 02:04:00        26.0         8.6 29.2  33.1 88.0     202.0 2.95 12.9    NaN  7.7
+2178-02-26 02:07:00        21.7         7.4 30.6  34.1 90.0     210.0 2.42 13.1    NaN  7.3
+2178-02-26 11:46:00        30.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2178-02-27 01:47:00        30.0         9.9 28.7  33.0 87.0     268.0 3.45 12.7    NaN  9.4
+2178-02-28 02:04:00        27.1         9.1 29.1  33.6 87.0     341.0 3.13 13.0    NaN  6.2
+2178-03-01 01:36:00        27.8         9.2 28.7  33.1 87.0     362.0 3.21 13.1    NaN  7.4
+2178-03-02 00:12:00        23.2         7.6 28.7  32.8 88.0     376.0 2.65 13.2    NaN  8.7
+2178-03-03 02:14:00        18.8         6.1 29.0  32.4 90.0     325.0 2.10 13.2    NaN  8.0
+2178-03-03 02:55:00        21.6         7.0 28.8  32.4 89.0     322.0 2.43 13.2    NaN  8.1
+2178-03-04 01:15:00        21.7         7.2 29.6  33.2 89.0     396.0 2.43 13.4    NaN  8.1
+2178-03-05 02:49:00        23.9         7.7 28.8  32.2 90.0     531.0 2.67 13.4    NaN 11.9
+2178-03-06 02:54:00        23.2         7.4 28.5  31.9 89.0     552.0 2.60 13.4    NaN 11.1
+2178-03-07 06:18:00        27.0         8.7 29.3  32.2 91.0     701.0 2.97 13.6    NaN 11.8
+2178-03-08 05:00:00        26.8         8.5 28.9  31.7 91.0     706.0 2.94 13.8    NaN 13.1
+2178-03-09 06:35:00        27.7         8.9 29.3  32.1 91.0     720.0 3.04 14.3    NaN 13.9
+2178-03-10 06:25:00        30.7         9.6 29.1  31.3 93.0     822.0 3.30 14.7    NaN 11.1
+2178-03-11 06:15:00        33.5        10.4 29.1  31.0 94.0     904.0 3.58 15.2    NaN  8.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2178-03-05 08:00:00
+sbp: 117.0
+dbp: 50.0
+mbp: 67.0
+sbp_ni: 117.0
+dbp_ni: 50.0
+mbp_ni: 67.0
+resp_rate: 24.0
+temperature: 37.280000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. LeFort III fracture, initial encounter for closed fracture
+   drg_type: HCFA
+   description: ECMO OR TRACH W MV >96 HRS OR PDX EXC FACE, MOUTH & NECK W MAJ O.R.
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. LeFort III fracture, initial encounter for closed fracture
+   drg_type: APR
+   description: TRACHEOSTOMY W MV 96+ HOURS W EXTENSIVE PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Metronidazole 500 mg / 100 mL NS (Administered from 2178-02-21 08:00:00 to 2178-02-24 08:00:00)
+- Magnesium Sulfate 4 g / 100 mL (Premix Bag) (Administered from 2178-02-21 08:00:00 to 2178-03-07 21:00:00)
+- Lidocaine Jelly 2% (Glydo) 6 mL Syringe (Administered from 2178-02-21 08:00:00 to 2178-02-21 23:00:00)
+- CeFAZolin 2 g / 100 mL Iso-Osmotic Dextrose (Administered from 2178-02-21 08:00:00 to 2178-02-24 08:00:00)
+- Lactated Ringers - Floor Stock Bag (Administered from 2178-02-21 21:00:00 to 2178-02-21 23:00:00)
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (Administered from 2178-02-21 21:00:00 to 2178-03-08 15:00:00)
+- Potassium Phosphate 30 mmol in 500 mL 0.9% Sodium Chloride (Administered on 2178-02-22 01:00:00)
+- Metronidazole 500 mg / 100 mL NS (Administered from 2178-02-21 08:00:00 to 2178-02-24 08:00:00)

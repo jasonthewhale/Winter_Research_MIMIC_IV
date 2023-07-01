@@ -1,0 +1,85 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 82
+  (3) race: BLACK/CAPE VERDEAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2155-09-16 20:57:00
+  (6) discharge time: 2155-09-24 17:50:00
+  (7) transfer history: 
+2155-09-15 17:33:00 - 2155-09-16 22:18:00: Emergency Department
+2155-09-16 22:18:00 - 2155-09-19 05:59:38: Surgery/Trauma
+2155-09-21 17:59:46 - 2155-09-24 17:53:14: Surgery/Trauma
+2155-09-19 05:59:38 - 2155-09-19 10:55:01: Surgery/Trauma
+2155-09-21 09:16:10 - 2155-09-21 09:17:18: Discharge Lounge
+2155-09-19 10:55:01 - 2155-09-21 09:16:10: Trauma SICU (TSICU)
+2155-09-21 09:17:18 - 2155-09-21 17:59:46: Trauma SICU (TSICU)
+2155-09-24 17:53:14: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2155-09-15 18:00:00        24.2         7.6 29.2  31.4 93.0     292.0 2.60 14.0    NaN 20.9
+2155-09-15 23:23:00        24.6         7.6 29.1  30.9 94.0     268.0 2.61 14.0    NaN 22.3
+2155-09-17 07:45:00        29.6         9.3 29.4  31.4 94.0     317.0 3.16 14.4    NaN 17.0
+2155-09-18 06:10:00        28.8         9.1 29.6  31.6 94.0     307.0 3.07 14.4    NaN 12.4
+2155-09-19 03:46:00        30.5         9.5 29.5  31.1 95.0     326.0 3.22 14.4    NaN 11.8
+2155-09-19 11:25:00        22.0         7.0 30.0  31.8 94.0     218.0 2.33 14.6    NaN 35.2
+2155-09-19 12:48:00        24.8         7.9 29.5  31.9 93.0     235.0 2.68 14.8    NaN 31.8
+2155-09-19 18:24:00        25.8         8.3 28.2  32.2 88.0     185.0 2.94 17.3    NaN 23.9
+2155-09-20 01:48:00        25.1         8.3 28.6  33.1 87.0     187.0 2.90 18.3    NaN 17.0
+2155-09-20 17:00:00        25.4         8.1 28.3  31.9 89.0     210.0 2.86 18.4    NaN 16.5
+2155-09-21 02:10:00        23.2         7.3 28.5  31.5 91.0     196.0 2.56 18.5    NaN 15.2
+2155-09-21 12:06:00        23.7         7.4 28.8  31.2 92.0     220.0 2.57 18.2    NaN 12.3
+2155-09-22 04:37:00        23.5         7.4 28.8  31.5 91.0     266.0 2.57 17.6    NaN 12.0
+2155-09-23 05:01:00        23.8         7.3 28.3  30.7 92.0     351.0 2.58 17.9    NaN 10.6
+2155-09-24 08:09:00        26.0         7.9 28.7  30.4 95.0     398.0 2.75 17.9    NaN  9.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2155-09-20 04:00:00
+sbp: 137.0
+dbp: 58.0
+mbp: 89.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.5
+temperature: 36.780000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis, unspecified organism
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, started at 2155-09-16 23:00:00, stopped at 2155-09-22 11:00:00
+- Administered: Metoprolol Tartrate, 5 mg, started at 2155-09-17 00:00:00, stopped at 2155-09-17 13:00:00
+- Administered: Metronidazole 500 mg / 100 mL NS, 500 mg, started at 2155-09-17 00:00:00, stopped at 2155-09-23 14:00:00
+- Administered: CefTRIAXone 2 g Vial (Vial to be attached to MB+ on floor), 2 gm, started at 2155-09-17 00:00:00, stopped at 2155-09-23 14:00:00
+- Administered: Sodium Chloride 0.9% Flush, 3 mL, started at 2155-09-16 23:00:00, stopped at 2155-09-22 11:00:00
+- Administered: Metronidazole 500 mg / 100 mL NS, 500 mg, started at 2155-09-17 00:00:00, stopped at 2155-09-23 14:00:00
+- Administered: Heparin, 5000 UNIT, started at 2155-09-16 23:00:00, stopped at 2155-09-24 22:00:00
+- Administered: Metoprolol Tartrate, 5 mg, started at 2155-09-17 00:00:00, stopped at 2155-09-17 13:00:00
+- Administered: Sodium Chloride 0.9% Flush, 3 mL, started at 2155-09-16 23:00:00, stopped at 2155-09-22 11:00:00
+- Administered: Magnesium Sulfate 4 g / 100 mL (Premix Bag), 4 gm, started at 2155-09-17 10:00:00, stopped at

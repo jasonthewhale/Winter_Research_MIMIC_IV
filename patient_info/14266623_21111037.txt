@@ -1,0 +1,71 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 36
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2121-07-21 00:20:00
+  (6) discharge time: 2121-07-27 14:00:00
+  (7) transfer history: 
+2121-07-21 00:21:09 - 2121-07-21 18:14:46: Discharge Lounge
+2121-07-23 16:56:22 - 2121-07-27 14:34:51: Med/Surg
+2121-07-21 18:14:46 - 2121-07-23 16:56:22: Trauma SICU (TSICU)
+2121-07-27 14:34:51: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2121-07-21 16:22:00        38.1        12.7 27.7  33.3 83.0     257.0 4.59 12.6    NaN 18.5
+2121-07-22 01:51:00        34.5        11.5 27.3  33.3 82.0     236.0 4.21 12.4    NaN 13.6
+2121-07-22 13:55:00        31.2        10.5 27.6  33.7 82.0     195.0 3.80 12.8    NaN 12.8
+2121-07-23 02:00:00        31.9        10.3 26.8  32.3 83.0     209.0 3.84 13.0    NaN 12.9
+2121-07-24 06:00:00        30.7         9.9 27.2  32.2 84.0     237.0 3.64 12.8    NaN 11.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2121-07-22 08:00:00
+sbp: 98.0
+dbp: 52.0
+mbp: 68.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 17.0
+temperature: 37.000000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Other diseases of bronchus, not elsewhere classified
+   drg_type: APR
+   description: MAJOR RESPIRATORY & CHEST PROCEDURES
+   drg_severity: 1
+   drg_mortality: 1
+2. Other diseases of bronchus, not elsewhere classified
+   drg_type: HCFA
+   description: MAJOR CHEST PROCEDURES W/O CC/MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen (starttime: 2121-07-21 07:00:00, stoptime: 2121-07-22 08:00:00)
+- Pregabalin (starttime: 2121-07-21 07:00:00, stoptime: 2121-07-22 08:00:00)
+- Heparin (starttime: 2121-07-21 07:00:00, stoptime: 2121-07-22 08:00:00)
+- HYDROmorphone 10 mcg/mL + Bupivacaine 0.1% 1 mg/mL ED (* Standard *) (starttime: 2121-07-21 19:00:00, stoptime: 2121-07-21 21:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (starttime: 2121-07-21 20:00:00, stoptime: 2121-07-27 18:00:00)
+- Magnesium Sulfate 2 g / 50 mL (Premix Bag) (starttime: 2121-07-21 21:00:00, stoptime: 2121-07-23 17:00:00)
+- Albuterol 0.083% Neb Soln 0.083%;3mL Vial (starttime: 2121-07-21 19:00:00, stoptime: 2121-07-27 18:00:00)
+- HYDROmorphone 10 mcg/mL + Bupivacaine 0.1% 1 mg/mL ED (* Standard *) (starttime: 2121-07-21 22:00:00, stoptime: 2121-07-22 10:00:00)
+- HYDROmorphone 10 mcg/mL + Bupivacaine 0.1% 1 mg/mL ED (* Standard *) (starttime: 2121-07-21 19:00:00, stoptime: 2121-07-21 21:00:00)
+- Acetaminophen IV (starttime: 2121-07-21 23:00:00, stoptime: 2121-07

@@ -1,0 +1,96 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 91
+  (3) race: WHITE - EASTERN EUROPEAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2113-04-11 17:21:00
+  (6) discharge time: 2113-05-01 17:32:00
+  (7) transfer history: 
+2113-04-11 11:12:00 - 2113-04-11 17:22:38: Emergency Department
+2113-04-11 17:22:38 - 2113-04-11 18:34:55: Surgical Intensive Care Unit (SICU)
+2113-04-15 17:18:37 - 2113-04-21 19:18:04: Neuro Stepdown
+2113-04-11 20:25:36 - 2113-04-15 17:18:37: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2113-04-21 19:18:04 - 2113-04-22 15:58:59: Neurology
+2113-04-22 15:58:59 - 2113-04-24 17:22:46: Neurology
+2113-04-24 17:22:46 - 2113-05-01 17:42:28: Neurology
+2113-04-11 18:34:55 - 2113-04-11 20:25:36: Discharge Lounge
+2113-05-01 17:42:28: discharge
+
+2. Medical Data
+(1) heart rate: 
+2113-04-12 09:00:00-2113-04-12 11:00:00 SR (Sinus Rhythm) PVC's None None
+2113-04-12 12:00:00-2113-04-12 16:00:00 SR (Sinus Rhythm) PAC's Occasional None
+2113-04-12 19:00:00-2113-04-12 23:00:00 SR (Sinus Rhythm) PAC's None None
+2113-04-13 00:00:00-2113-04-13 01:00:00 SR (Sinus Rhythm) PAC's None None
+2113-04-13 09:00:00-2113-04-13 10:00:00 SR (Sinus Rhythm) PAC's Occasional None
+2113-04-14 09:00:00-2113-04-14 09:00:00 SR (Sinus Rhythm) PAC's Occasional None
+2113-04-16 02:00:00-2113-04-16 06:00:00 SR (Sinus Rhythm) PVC's None None
+2113-04-19 08:00:00-2113-04-19 12:00:00 SR (Sinus Rhythm) PVC's Rare None
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2113-04-12 03:39:00        28.3         9.3 30.7  32.9 93.0     155.0 3.03 18.8    NaN  8.1
+2113-04-13 01:00:00        26.4         8.4 30.7  31.8 96.0     133.0 2.74 19.2    NaN 10.2
+2113-04-14 01:02:00        23.1         7.6 31.0  32.9 94.0     102.0 2.45 18.8    NaN  8.1
+2113-04-15 02:15:00        25.3         8.3 30.7  32.8 94.0     110.0 2.70 18.7    NaN  8.2
+2113-04-16 04:45:00        24.2         7.9 31.5  32.6 96.0     107.0 2.51 18.4    NaN  7.6
+2113-04-17 04:51:00        23.6         7.6 31.1  32.2 97.0     101.0 2.44 18.2    NaN  7.1
+2113-04-18 02:59:00        22.4         7.2 31.2  32.1 97.0     113.0 2.31 18.4    NaN  9.5
+2113-04-19 06:00:00        23.3         7.3 30.5  31.3 98.0     121.0 2.39 18.4    NaN 11.9
+2113-04-20 06:13:00        20.8         6.7 31.3  32.2 97.0     120.0 2.14 17.9    NaN 14.4
+2113-04-21 04:59:00        19.6         6.3 31.5  32.1 98.0     116.0 2.00 18.4    NaN 10.7
+2113-04-22 05:18:00        22.7         7.3 31.2  32.2 97.0     139.0 2.34 19.2    NaN 11.6
+2113-04-23 10:15:00        25.8         8.1 30.7  31.4 98.0     221.0 2.64 18.5    NaN 14.4
+2113-04-24 06:20:00        23.2         7.3 30.7  31.5 98.0     200.0 2.38 17.6    NaN 10.5
+2113-04-25 06:20:00        23.1         7.3 31.2  31.6 99.0     246.0 2.34 17.1    NaN 11.7
+2113-04-26 05:50:00        23.3         7.3 30.9  31.3 99.0     284.0 2.36 16.8    NaN 12.8
+2113-04-27 06:25:00        22.1         6.8 30.1  30.8 98.0     291.0 2.26 16.2    NaN 10.2
+2113-04-28 09:45:00        24.5         7.6 30.5  31.0 98.0     327.0 2.49 15.9    NaN 11.9
+2113-04-29 09:15:00        22.1         6.8 30.1  30.8 98.0     301.0 2.26 15.8    NaN  9.6
+2113-04-30 09:45:00        23.4         7.1 29.6  30.3 98.0     325.0 2.40 15.9    NaN 10.8
+2113-05-01 09:39:00        28.5         9.1 29.5  31.9 93.0     331.0 3.08 17.0    NaN 12.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2113-04-12 04:00:00
+sbp: 140.0
+dbp: 59.0
+mbp: 84.0
+sbp_ni: 140.0
+dbp_ni: 59.0
+mbp_ni: 84.0
+resp_rate: 25.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Myasthenia gravis with (acute) exacerbation
+   drg_type: APR
+   description: DEGENERATIVE NERVOUS SYSTEM DISORDERS EXC MULT SCLEROSIS
+   drg_severity: 4
+   drg_mortality: 3
+2. Myasthenia gravis with (acute) exacerbation
+   drg_type: HCFA
+   description: DEGENERATIVE NERVOUS SYSTEM DISORDERS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Levothyroxine Sodium (30mg) - Administered from 2113-03-16 03:00:00 to 2113-03-23 17:00:00
+- Sodium Chloride 0.9% Flush (3mL) - Flushed from 2113-04-11 22:00:00 to 2113-04-30 03:00:00
+- HydrALAZINE (10mg) - Administered from 2113-04-11 23:00:00 to 2113-04-12 21:00:00
+- Pyridostigmine Bromide 60mg Tablet (30mg) - Administered from 2113-04-11 22:00:00 to 2113-05-01 21:00:00
+- Levothyroxine Sodium 125mcg Tab (125mcg) - Administered from 2113-04-11 08:00:00 to 2113-05-01 21:00:00
+- Pyridostigmine Bromide (30mg) - Administered from 2113-04-11 22:00:00 to 2113-05-01 21:00:00
+- Sodium Chloride 0.9% Flush (3mL) - Flushed from 2113-04-11 22:00:00 to 2113-04-30 03:00:00
+- Potassium Chloride 10 mEq / 100 mL SW (10mEq) - Administered from 2113-04-12 01:00:00 to 2113-04-20 11:00:00

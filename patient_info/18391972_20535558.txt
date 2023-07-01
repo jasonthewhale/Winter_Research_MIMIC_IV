@@ -1,0 +1,89 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 55
+  (3) race: UNKNOWN
+  (4) admission type: URGENT
+  (5) admit time: 2128-07-23 15:29:00
+  (6) discharge time: 2128-08-09 12:30:00
+  (7) transfer history: 
+2128-07-23 15:30:26 - 2128-08-09 13:13:34: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2128-08-09 13:13:34: discharge
+
+2. Medical Data
+(1) heart rate: 
+2128-08-04 16:00:00-2128-08-04 16:00:00 ST (Sinus Tachycardia)
+2128-08-04 16:00:00-2128-08-04 16:00:00 PVC's (Premature Ventricular Contractions)
+2128-08-07 05:00:00-2128-08-07 05:00:00 SR (Sinus Rhythm)
+2128-08-07 05:00:00-2128-08-07 05:00:00 N Quadrigeminy
+2128-08-07 15:00:00-2128-08-07 15:00:00 SR (Sinus Rhythm)
+2128-08-07 15:00:00-2128-08-07 15:00:00 PAC's (Premature Atrial Contractions)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2128-07-23 16:58:00        31.1         9.6 30.4  30.9  98.0     173.0 3.16 15.9    NaN  7.5
+2128-07-24 03:33:00        32.4        10.0 30.6  30.9  99.0     193.0 3.27 15.6    NaN  7.8
+2128-07-25 03:09:00        32.0         9.9 30.4  30.9  98.0     232.0 3.26 15.7    NaN 10.8
+2128-07-26 02:11:00        34.1        10.5 30.4  30.8  99.0     221.0 3.45 15.3    NaN 10.1
+2128-07-27 02:41:00        32.2        10.2 31.0  31.7  98.0     230.0 3.29 14.8    NaN 11.6
+2128-07-28 02:09:00        31.2         9.7 30.7  31.1  99.0     239.0 3.16 15.0    NaN 11.3
+2128-07-29 03:13:00        30.7         9.7 30.7  31.6  97.0     243.0 3.16 15.0    NaN 11.4
+2128-07-30 03:05:00        30.8         9.8 30.7  31.8  97.0     250.0 3.19 15.1    NaN 10.0
+2128-07-31 02:50:00        21.0         6.5 31.4  31.0 101.0     156.0 2.07 15.3    NaN  6.2
+2128-07-31 03:29:00        30.8         9.6 30.2  31.2  97.0     240.0 3.18 15.4    NaN  8.8
+2128-08-01 03:56:00        30.1         9.6 30.9  31.9  97.0     227.0 3.11 15.2    NaN 10.1
+2128-08-02 02:40:00        35.5        11.1 30.6  31.3  98.0     293.0 3.63 15.4    NaN 14.3
+2128-08-03 06:04:00        29.5         9.0 30.0  30.5  98.0     164.0 3.00 15.6    NaN  9.9
+2128-08-03 19:56:00        33.3        10.3 30.5  30.9  99.0     207.0 3.38 15.7    NaN 13.6
+2128-08-04 03:43:00        32.8        10.2 30.8  31.1  99.0     213.0 3.31 15.8    NaN 17.7
+2128-08-05 00:31:00        28.9         8.9 31.0  30.8 101.0     180.0 2.87 15.9    NaN 12.8
+2128-08-06 01:57:00        27.6         8.6 31.4  31.2 101.0     156.0 2.74 16.4    NaN 12.8
+2128-08-07 02:40:00        27.5         8.5 30.6  30.9  99.0     126.0 2.78 16.2    NaN  9.3
+2128-08-08 02:51:00        28.4         8.8 31.1  31.0 100.0     138.0 2.83 16.4    NaN 11.5
+2128-08-09 02:03:00        30.5         9.3 30.9  30.5 101.0     156.0 3.01 16.4    NaN 10.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2128-08-08 12:00:00
+sbp: 137.0
+dbp: 90.0
+mbp: 100.0
+sbp_ni: 137.0
+dbp_ni: 90.0
+mbp_ni: 100.0
+resp_rate: 18.5
+temperature: 37.000000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Alpha-1-antitrypsin deficiency
+   drg_type: HCFA
+   description: TRACH W MV >96 HRS OR PDX EXC FACE, MOUTH & NECK W/O MAJ O.R.
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Alpha-1-antitrypsin deficiency
+   drg_type: APR
+   description: INBORN ERRORS OF METABOLISM
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Albuterol Inhaler (start time: 2128-07-23 18:00:00, stop time: 2128-07-28 08:00:00)
+- Fluticasone Propionate 110mcg (start time: 2128-07-23 20:00:00, stop time: 2128-08-09 17:00:00)
+- Ipratropium Bromide HFA 12.9g Inhaler (start time: 2128-07-23 18:00:00, stop time: 2128-07-28 08:00:00)
+- Chlorhexidine Gluconate 15ml Cup (start time: 2128-07-23 17:00:00, stop time: 2128-08-09 17:00:00)
+- Docusate Sodium (Liquid) 100mg / 10 mL (start time: 2128-07-23 20:00:00, stop time: 2128-08-09 17:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (start time: 2128-07-23 17:00:00, stop time: 2128-08-04 12:00:00)
+- MethylPREDNISolone Sodium Succ (start time: 2128-07-23 19:00:00, stop time: 2128-07-25 12:00:00)
+- Metoprolol Tartrate (start time: 2128-07-23 20:00:00, stop time: 2128-08-04 10:00:00)
+- Azithromycin 250 mg in 250 mL 5% Dextrose (start time: 2128-07-23 20:00:00, stop time: 2128-07-25 12:00:00)
+- Albuterol Inhaler (start time: 2128-07-23 18:00:00, stop time: 2128-07-28 08:00:00)

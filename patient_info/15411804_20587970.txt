@@ -1,0 +1,71 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 51
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2116-04-11 00:00:00
+  (6) discharge time: 2116-04-18 12:25:00
+  (7) transfer history: 
+2116-04-11 03:10:14 - 2116-04-11 18:09:57: Discharge Lounge
+2116-04-12 17:39:37 - 2116-04-18 12:25:40: Medicine
+2116-04-11 18:09:57 - 2116-04-12 17:39:37: Trauma SICU (TSICU)
+2116-04-18 12:25:40: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2116-04-11 18:54:00        41.6        14.3 28.4  34.4 83.0     190.0 5.04 13.7    NaN 16.0
+2116-04-12 01:07:00        42.5        14.6 28.2  34.4 82.0     182.0 5.18 13.8    NaN 13.4
+2116-04-13 07:45:00        36.6        12.1 28.2  33.1 85.0     145.0 4.29 14.6    NaN 10.4
+2116-04-14 04:49:00        33.7        11.1 28.4  32.9 86.0     153.0 3.91 14.7    NaN  8.5
+2116-04-17 04:42:00        33.7        11.1 28.2  32.9 86.0     212.0 3.93 14.1    NaN  7.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2116-04-11 23:00:00
+sbp: 157.0
+dbp: 93.0
+mbp: 116.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 16.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Other specified diseases of upper respiratory tract
+   drg_type: HCFA
+   description: MAJOR CHEST PROCEDURES W/O CC/MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Other specified diseases of upper respiratory tract
+   drg_type: APR
+   description: MAJOR RESPIRATORY & CHEST PROCEDURES
+   drg_severity: 1
+   drg_mortality: 1
+
+Medication:
+- Heparin: Administered from 2116-04-11 01:00:00 to 2116-04-11 22:00:00
+- HYDROmorphone (Dilaudid): Administered from 2116-04-11 19:00:00 to 2116-04-11 20:00:00
+- HYDROmorphone (Dilaudid): Administered from 2116-04-11 19:00:00 to 2116-04-11 20:00:00
+- Heparin: Administered from 2116-04-11 20:00:00 to 2116-04-18 17:00:00
+- Famotidine: Administered from 2116-04-11 20:00:00 to 2116-04-12 08:00:00
+- Chlorhexidine Gluconate 0.12% Oral Rinse: Administered from 2116-04-11 20:00:00 to 2116-04-12 03:00:00
+- Acetaminophen IV: Administered from 2116-04-11 21:00:00 to 2116-04-12 21:00:00
+- HYDROmorphone 10 mcg/mL + Bupivacaine 0.1% 1 mg/mL ED (* Standard *): Started
+- Magnesium Sulfate: Administered from 2116-04-11 22:00:00 to 2116-04-11 22:00:00
+- HYDROmorphone (Dilaudid): Administered from 2116-04-11 23:00:00 to 2116-04-12 07:00:00

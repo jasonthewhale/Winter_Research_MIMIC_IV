@@ -1,0 +1,88 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 69
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2150-07-12 19:11:00
+  (6) discharge time: 2150-07-27 16:00:00
+  (7) transfer history: 
+2150-07-12 14:30:00 - 2150-07-12 20:20:00: Emergency Department
+2150-07-12 20:20:00 - 2150-07-14 05:03:35: Cardiac Vascular Intensive Care Unit (CVICU)
+2150-07-14 16:12:09 - 2150-07-26 01:59:41: Vascular
+2150-07-26 01:59:41 - 2150-07-27 16:50:31: Cardiac Vascular Intensive Care Unit (CVICU)
+2150-07-14 05:03:35 - 2150-07-14 16:12:09: Cardiac Vascular Intensive Care Unit (CVICU)
+2150-07-27 16:50:31: discharge
+
+2. Medical Data
+(1) heart rate: 
+2150-07-12 22:00:00-2150-07-13 06:00:00 SR (Sinus Rhythm) with PAC's occurring occasionally
+2150-07-27 13:00:00-2150-07-27 13:00:00 SR (Sinus Rhythm) with rare PAC's
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2150-07-13 01:26:00        21.7         6.7 27.7  30.9 90.0     238.0 2.42 18.6    NaN  9.8
+2150-07-13 05:45:00        26.1         8.1 27.5  31.0 89.0     235.0 2.95 17.7    NaN  9.3
+2150-07-13 10:26:00        26.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2150-07-13 16:00:00        25.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2150-07-14 00:23:00        25.3         8.0 27.6  31.6 87.0     219.0 2.90 18.2    NaN 10.9
+2150-07-14 18:48:00        24.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2150-07-15 04:00:00        22.5         7.0 27.5  31.1 88.0     221.0 2.55 18.1    NaN 11.7
+2150-07-16 05:02:00        24.9         7.9 27.7  31.7 87.0     211.0 2.85 17.1    NaN  9.3
+2150-07-17 05:50:00        23.7         7.4 27.6  31.2 88.0     218.0 2.68 17.2    NaN 10.1
+2150-07-17 20:05:00        34.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2150-07-18 06:20:00        32.0        10.7 29.2  33.4 87.0     201.0 3.67 16.0    NaN 20.2
+2150-07-18 19:20:00        30.2        10.1 28.9  33.4 87.0     180.0 3.49 16.2    NaN 17.9
+2150-07-19 06:48:00        27.0         8.8 28.9  32.6 89.0     173.0 3.04 16.3    NaN 16.6
+2150-07-20 05:03:00        24.7         7.9 28.5  32.0 89.0     161.0 2.77 16.3    NaN 14.3
+2150-07-20 15:59:00        22.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2150-07-20 23:52:00        21.5         6.8 28.5  31.6 90.0     172.0 2.39 16.3    NaN 11.7
+2150-07-21 06:29:00        24.9         8.1 29.0  32.5 89.0     178.0 2.79 15.8    NaN 12.3
+2150-07-22 05:40:00        22.9         7.4 28.9  32.3 90.0     179.0 2.56 16.4    NaN 12.0
+2150-07-23 04:51:00        22.9         7.4 28.9  32.3 90.0     181.0 2.56 16.7    NaN 11.7
+2150-07-23 17:05:00        21.3         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2150-07-24 02:43:00        23.7         7.6 29.7  32.1 93.0     176.0 2.56 16.6    NaN 14.3
+2150-07-25 04:59:00        19.5         6.0 28.8  30.8 94.0     155.0 2.08 17.5    NaN 13.0
+2150-07-25 23:37:00        27.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2150-07-26 02:36:00        25.8         8.2 29.6  31.8 93.0     160.0 2.77 17.0    NaN 16.7
+2150-07-26 10:43:00        28.4         9.4 29.6  32.3 92.0     176.0 3.18 16.5    NaN 18.1
+2150-07-26 13:53:00        28.5         9.5 30.0  33.3 90.0     139.0 3.17 16.6    NaN 18.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2150-07-26 07:30:00
+sbp: 129.0
+dbp: 44.0
+mbp: 72.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 21.0
+temperature: 36.780000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 3
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 2
+sofa_24hours: 11
+
+Physician's Diagnoses:
+1. Infection and inflammatory reaction due to other cardiac and vascular devices, implants and grafts, initial encounter
+   drg_type: HCFA
+   description: OTHER VASCULAR PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Fluconazole 400mg/200mL Iso-Osmotic Sodium Chloride (starttime: 2150-07-12 21:00:00, stoptime: 2150-07-13 09:00:00)
+- Piperacillin-Tazobactam 4.5 g / 100 mL Iso-Osmotic Dextrose *Choose this package for ICU First Dose* (starttime: 2150-07-12 21:00:00, stoptime: 2150-07-13 09:00:00)
+- Daptomycin 400 mg in 50 mL 0.9% Sodium Chloride (starttime: 2150-07-13 04:00:00, stoptime: 2150-07-13 09:00:00)
+- Magnesium Sulfate 2 g / 50 mL (Premix Bag) (starttime: 2150-07-13 05:00:00, stoptime: 2150-07-13 09:00:00)
+- Potassium Chloride 20 mEq / 50 mL Sterile Water (starttime: 2150-07-13 05:00:00, stoptime: 2150-07-13 09:00:00)
+- HydrALAzine (starttime: 2150-07-13 09:00:00, stoptime: 2150-07-13 09:00:00)
+- HydrALAzine (starttime: 2150-07-13 09:00:00, stoptime: 2150-07-13 09:00:00)
+- HydrALAzine (starttime: 2150-07-13 10:00:00, stoptime: 2150-07-14 17:00:00)

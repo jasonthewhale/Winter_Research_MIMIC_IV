@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 59
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2148-04-20 02:07:00
+  (6) discharge time: 2148-04-24 16:30:00
+  (7) transfer history: 
+2148-04-20 02:08:04 - 2148-04-20 08:38:49: Discharge Lounge
+2148-04-21 21:11:53 - 2148-04-24 16:47:44: Cardiac Surgery
+2148-04-20 08:38:49 - 2148-04-21 21:11:53: Cardiac Vascular Intensive Care Unit (CVICU)
+2148-04-24 16:47:44: discharge
+
+2. Medical Data
+(1) heart rate: 
+2148-04-21  Sinus Rhythm (SR) 2148-04-21  PVC's (Premature Ventricular Contractions) Rare
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2148-04-20 10:52:00        32.9        11.3 29.7  34.3 87.0     132.0 3.80 12.5    NaN 10.5
+2148-04-20 11:36:00        34.0        11.6 29.7  34.1 87.0     122.0 3.90 12.4    NaN  9.3
+2148-04-20 16:35:00        33.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2148-04-21 02:50:00        32.8        11.2 29.6  34.1 87.0     164.0 3.79 12.8    NaN 16.4
+2148-04-22 03:56:00        32.2        10.5 29.2  32.6 90.0     120.0 3.59 13.1    NaN 13.2
+2148-04-23 05:30:00        26.3         8.8 30.0  33.5 90.0     104.0 2.93 12.9    NaN  7.8
+2148-04-24 05:39:00        29.3         9.9 30.3  33.8 90.0     173.0 3.27 12.8    NaN  9.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2148-04-20 22:00:00
+sbp: 136.0
+dbp: 56.0
+mbp: 77.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 21.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 1
+cns: 3
+renal: 0
+respiration_24hours: 3
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 3
+renal_24hours: 0
+sofa_24hours: 8
+
+Physician's Diagnoses:
+1. Nonrheumatic aortic (valve) stenosis
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W/O CARD CATH W/O CC/MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Nonrheumatic aortic (valve) stenosis
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 1
+
+Medication:
+- Acetaminophen IV: Administered from 2148-04-20 11:00:00 to 2148-04-21 07:00:00
+- Potassium Chloride: Administered from 2148-04-20 09:00:00 to 2148-04-21 21:00:00
+- Fentanyl Citrate: Administered from 2148-04-20 09:00:00 to 2148-04-21 21:00:00
+- Albumin 5%: Administered from 2148-04-20 12:00:00 to 2148-04-21 07:00:00
+- Fentanyl Citrate: Administered from 2148-04-20 09:00:00 to 2148-04-21 21:00:00
+- Ketorolac: Administered from 2148-04-20 14:00:00 to 2148-04-23 13:00:00
+- Fentanyl Citrate: Administered from 2148-04-20 09:00:00 to 2148-04-21 21:00:00
+- Fentanyl Citrate: Administered from 2148-04-20 09:00:00 to 2148-04-21 21:00:00
+- Hydrocodone (Dilaudid): Administered from 2148-04-20 16:00:00 to 2148-04-21 07:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2148-04-20 09:00:00 to 2148-04-24 21:00:00

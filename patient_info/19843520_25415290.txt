@@ -1,0 +1,99 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 78
+  (3) race: ASIAN - CHINESE
+  (4) admission type: EW EMER.
+  (5) admit time: 2130-04-22 04:39:00
+  (6) discharge time: 2130-05-08 17:00:00
+  (7) transfer history: 
+2130-04-22 02:12:00 - 2130-04-22 07:14:00: Emergency Department
+2130-04-22 07:14:00 - 2130-04-22 16:37:32: Medicine
+2130-04-30 18:16:40 - 2130-04-30 18:19:58: Cardiology Surgery Intermediate
+2130-04-30 18:19:58 - 2130-05-08 17:27:38: Cardiology Surgery Intermediate
+2130-04-22 16:37:32 - 2130-04-23 19:49:57: Medicine/Cardiology Intermediate
+2130-04-25 08:56:12 - 2130-04-25 09:16:17: PACU
+2130-04-23 19:49:57 - 2130-04-25 08:56:12: Coronary Care Unit (CCU)
+2130-04-25 09:16:17 - 2130-04-25 09:57:47: Coronary Care Unit (CCU)
+2130-04-25 09:57:47 - 2130-04-30 18:16:40: Cardiac Vascular Intensive Care Unit (CVICU)
+2130-05-08 17:27:38: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2130-04-22 09:10:00        37.9        12.2 27.9  32.2 87.0     269.0 4.37 15.0    NaN  8.5
+2130-04-23 05:15:00        36.4        11.9 28.1  32.7 86.0     252.0 4.24 15.3    NaN  7.8
+2130-04-23 18:35:00        39.2        12.3 27.0  31.4 86.0     278.0 4.56 15.3    NaN  9.7
+2130-04-23 21:45:00        36.6        11.9 27.9  32.5 86.0     243.0 4.27 15.3    NaN  8.3
+2130-04-24 04:57:00        36.6        11.8 27.7  32.2 86.0     274.0 4.26 15.2    NaN  8.2
+2130-04-25 04:45:00        31.6        10.3 27.8  32.6 85.0     186.0 3.71 14.9    NaN  9.3
+2130-04-25 14:44:00        19.7         6.2 27.9  31.5 89.0      96.0 2.22 15.0    NaN 12.2
+2130-04-25 16:46:00        27.3         8.9 28.6  32.6 88.0     104.0 3.11 15.2    NaN 14.5
+2130-04-25 19:09:00        21.3         6.8 28.1  31.9 88.0     103.0 2.42 15.1    NaN 17.1
+2130-04-25 21:29:00        25.1         8.1 28.7  32.3 89.0      97.0 2.82 14.8    NaN 14.5
+2130-04-26 03:49:00        21.5         7.1 28.6  33.0 87.0      82.0 2.48 14.6    NaN  8.9
+2130-04-26 11:59:00        25.9         8.9 29.5  34.4 86.0      84.0 3.02 14.6    NaN  8.7
+2130-04-27 01:41:00        26.4         9.0 28.8  34.1 85.0      95.0 3.12 15.1    NaN 10.0
+2130-04-27 13:23:00        26.4         9.1  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2130-04-27 21:29:00        27.0         9.0  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2130-04-28 02:46:00        26.3         9.1 29.0  34.6 84.0      97.0 3.14 15.5    NaN 10.1
+2130-04-29 02:46:00        26.3         8.6 28.1  32.7 86.0      91.0 3.06 15.7    NaN  8.4
+2130-04-29 14:10:00        29.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2130-04-30 02:50:00        28.4         9.2 28.1  32.4 87.0     108.0 3.27 15.6    NaN  8.2
+2130-04-30 13:59:00        30.7         9.8 28.0  31.9 88.0     130.0 3.50 15.8    NaN  9.1
+2130-05-01 05:07:00        32.6        10.5 28.5  32.2 88.0     144.0 3.69 16.0    NaN  8.5
+2130-05-02 05:05:00        31.4         9.9 28.4  31.5 90.0     174.0 3.48 16.5    NaN  9.3
+2130-05-03 05:20:00        32.1        10.1 28.5  31.5 91.0     206.0 3.54 17.0    NaN 10.3
+2130-05-04 07:05:00        33.8        10.3 28.2  30.5 93.0     234.0 3.65 17.6    NaN 10.0
+2130-05-06 05:13:00        31.4         9.8 28.6  31.2 92.0     272.0 3.43 18.0    NaN 12.9
+2130-05-07 05:15:00        29.1         8.9 28.3  30.6 92.0     274.0 3.15 18.4    NaN 10.2
+2130-05-08 05:10:00        28.1         8.8 29.2  31.3 93.0     285.0 3.01 18.6    NaN  9.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2130-04-25 05:00:00
+sbp: 106.0
+dbp: 49.0
+mbp: 75.5
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 16.0
+temperature: 36.400000000
+temperature_site: None
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 3
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Combined rheumatic disorders of mitral, aortic and tricuspid valves
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W CARD CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Combined rheumatic disorders of mitral, aortic and tricuspid valves
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Azithromycin 250 mg Tablet (Administered) - Start Time: 2130-04-22 08:00:00, Stop Time: 2130-04-24 10:00:00
+- CefTRIAXone 1 g Vial (IV Push) (Administered) - Start Time: 2130-04-22 09:00:00, Stop Time: 2130-04-24 07:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2130-04-22 09:00:00, Stop Time: 2130-04-25 10:00:00
+- Furosemide (Administered) - Start Time: 2130-04-22 11:00:00, Stop Time: 2130-04-23 10:00:00
+- Aspirin 81mg Tab (Administered) - Start Time: 2130-04-23 08:00:00, Stop Time: 2130-04-25 10:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2130-04-22 09:00:00, Stop Time: 2130-04-25 10:00:00
+- HydrALAZINE 10 mg Tab (Administered) - Start Time: 2130-04-22 17:00:00, Stop Time: 2130-04-23 16:00:00
+- Ipratropium-Albuterol Neb (Administered) - Start Time: 2130-04-22 09:00:00, Stop Time: 2130-04-25 10:00:00
+- Acyclovir 400 mg Tablet (Administered) - Start Time: 2130-04-22 18:00:00, Stop Time: 2130-04-25 10:00:00
+- Atorvastatin (Administered) - Start Time: 2130-04-22 20:00:00, Stop Time: 2130-04-25 10:00:00

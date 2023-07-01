@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 55
+  (3) race: BLACK/AFRICAN AMERICAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2184-04-12 21:07:00
+  (6) discharge time: 2184-04-22 17:12:00
+  (7) transfer history: 
+2184-04-12 18:20:00 - 2184-04-12 22:26:00: Emergency Department
+2184-04-12 22:26:00 - 2184-04-20 20:32:12: Medical Intensive Care Unit (MICU)
+2184-04-20 20:32:12 - 2184-04-22 17:12:57: Medicine
+2184-04-22 17:12:57: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2184-04-13 00:07:00        39.3        12.7 30.3  32.3 94.0     145.0 4.19 14.2    NaN 11.9
+2184-04-13 04:05:00        37.6        12.7 30.9  33.8 92.0     141.0 4.11 14.1    NaN 11.2
+2184-04-13 08:15:00        36.2        12.3 30.8  34.0 91.0     145.0 3.99 14.0    NaN  9.9
+2184-04-13 14:11:00        37.3        12.4 30.3  33.2 91.0     148.0 4.09 14.2    NaN  9.5
+2184-04-14 04:06:00        35.8        11.7 30.5  32.7 93.0     134.0 3.84 14.7    NaN  9.3
+2184-04-15 03:54:00        32.4        10.9 31.5  33.6 94.0     113.0 3.46 14.6    NaN  7.9
+2184-04-16 03:45:00        33.3        11.2 31.5  33.6 94.0     141.0 3.55 15.0    NaN  8.8
+2184-04-17 03:45:00        37.3        11.9 29.9  31.9 94.0     156.0 3.98 14.7    NaN  9.0
+2184-04-17 16:19:00        35.7        11.6 30.9  32.5 95.0     154.0 3.76 14.6    NaN  9.0
+2184-04-18 03:06:00        35.0        11.2 30.4  32.0 95.0     157.0 3.69 14.6    NaN  9.2
+2184-04-19 04:00:00        34.2        10.9 30.1  31.9 95.0     186.0 3.62 14.4    NaN  8.4
+2184-04-20 03:19:00        35.9        11.3 30.4  31.5 97.0     206.0 3.72 14.3    NaN  8.9
+2184-04-21 05:55:00        35.4        11.1 30.2  31.4 96.0     219.0 3.68 14.3    NaN 10.2
+2184-04-21 09:20:00        35.9        11.4 30.5  31.8 96.0     236.0 3.74 14.2    NaN  9.6
+2184-04-22 06:18:00        35.3        11.3 30.4  32.0 95.0     221.0 3.72 13.8    NaN 10.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2184-06-13 03:49:00
+sbp: 188.0
+dbp: nan
+mbp: 100.0
+sbp_ni: 188.0
+dbp_ni: nan
+mbp_ni: 100.0
+resp_rate: 18.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Cerebral infarction due to embolism of unspecified cerebral artery
+   drg_type: HCFA
+   description: INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Cerebral infarction due to embolism of unspecified cerebral artery
+   drg_type: APR
+   description: CVA & PRECEREBRAL OCCLUSION W INFARCT
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Administered Lactated Ringers - Floor Stock Bag from 2184-04-13 14:00:00 to 2184-04-14 13:00:00
+- Flushed Sodium Chloride 0.9% from 2184-04-13 14:00:00 to 2184-04-15 20:00:00
+- Administered LevETIRAcetam 500mg from 2184-04-13 20:00:00 to 2184-04-13 14:00:00
+- Administered Chlorhexidine Gluconate 15ml Cup from 2184-04-13 20:00:00 to 2184-04-19 15:00:00
+- Administered Heparin Sodium 5000 Units / mL- 1mL Vial from 2184-04-13 20:00:00 to 2184-04-22 21:00:00
+- Administered LevETIRAcetam 750mg in 100 mL 0.9% Sodium Chloride from 2184-04-14 00:00:00 to 2184-04-14 10:00:00
+- Flushed Sodium Chloride 0.9% from 2184-04-13 14:00:00 to 2184-04-15 20:00:00
+- Administered Propofol 1000mg/100mL Vial from 2184-04-13 14:00:00 to 2184-04-16 23:00:00
+- Administered Fentanyl Citrate 50mcg from 2184-04-13 14:00:00 to 2184-04-18 09:00:00

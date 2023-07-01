@@ -1,0 +1,110 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 70
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2154-04-02 20:41:00
+  (6) discharge time: 2154-04-16 13:14:00
+  (7) transfer history: 
+2154-04-02 15:51:00 - 2154-04-02 22:03:00: Emergency Department
+2154-04-02 22:03:00 - 2154-04-04 00:36:49: Medical Intensive Care Unit (MICU)
+2154-04-04 00:36:49 - 2154-04-04 17:24:17: Vascular
+2154-04-04 17:24:17 - 2154-04-16 13:14:31: Vascular
+2154-04-16 13:14:31: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2154-04-02 22:55:00        32.5        10.3 27.4  31.7 86.0      96.0 3.76 18.6    NaN  5.6
+2154-04-03 07:56:00        32.4        10.6 27.9  32.9 85.0      99.0 3.82 18.6    NaN  7.5
+2154-04-03 16:55:00        32.5        10.3 27.5  31.7 87.0      96.0 3.74 18.9    NaN  7.9
+2154-04-04 08:10:00        30.6         9.6 26.8  31.3 86.0      93.0 3.57 18.9    NaN  5.4
+2154-04-05 06:15:00        34.7        10.7 26.9  30.9 87.0      98.0 3.99 18.6    NaN  4.2
+2154-04-06 05:27:00        35.8        11.6 29.2  32.3 90.0     105.0 3.97 19.0    NaN  5.2
+2154-04-07 07:30:00        33.8        10.8 27.6  32.0 86.0     125.0 3.91 18.9    NaN  4.9
+2154-04-08 06:55:00        32.8        10.5 27.8  32.1 87.0     158.0 3.79 19.2    NaN  4.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2154-04-03 11:00:00
+sbp: 120.0
+dbp: 43.0
+mbp: 61.0
+sbp_ni: 120.0
+dbp_ni: 43.0
+mbp_ni: 61.0
+resp_rate: 13.0
+temperature: 36.780000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 1
+cns: 1
+renal: 1
+respiration_24hours: 0
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 1
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Atrial fibrillation
+   drg_type: APR
+   description: CARDIAC ARRHYTHMIA & CONDUCTION DISORDERS
+   drg_severity: 3
+   drg_mortality: 3
+2. Atrial fibrillation
+   drg_type: HCFA
+   description: CARDIAC ARRHYTHMIA & CONDUCTION DISORDERS W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Metoprolol Tartrate: 
+  - Start Time: 2154-04-03 20:00:00
+  - Stop Time: 2154-04-04 04:00:00
+  - Dose Given: 12.5 mg
+  - Dose Given Unit: mg
+  - Product Amount Given: 1
+  - Product Unit: HALF TAB
+  - Product Code: METO12.5HT
+  - Product Description: Metoprolol Tartrate
+
+- Metoprolol Tartrate: 
+  - Start Time: 2154-04-04 08:00:00
+  - Stop Time: 2154-04-07 14:00:00
+  - Dose Given: 25 mg
+  - Dose Given Unit: mg
+  - Product Amount Given: 1
+  - Product Unit: TAB
+  - Product Code: METO25
+  - Product Description: Metoprolol Tartrate
+
+- Piperacillin-Tazobactam: 
+  - Start Time: 2154-04-03 15:00:00
+  - Stop Time: 2154-04-05 08:00:00
+  - Dose Given: 2.25 g
+  - Dose Given Unit: g
+  - Product Amount Given: 50 mL
+  - Product Unit: mL
+  - Product Code: ZOSY2.25I
+  - Product Description: Piperacillin-Tazobactam 2.25 g / 50 mL Iso-Osmotic Dextrose
+
+- Vancomycin: 
+  - Start Time: 2154-04-04 08:00:00
+  - Stop Time: 2154-04-05 08:00:00
+  - Dose Given: 1000 mg
+  - Dose Given Unit: mg
+
+- Diltiazem: 
+  - Start Time: 2154-04-03 23:00:00
+  - Stop Time: 2154-04-09 12:00:00
+  - Dose Given: 30 mg
+  - Dose Given Unit: mg
+  - Product Amount Given: 1
+  - Product Unit: TAB
+  - Product Code: DILT30
+  - Product Description: Diltiazem 30 mg Tab

@@ -1,0 +1,100 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 76
+  (3) race: WHITE
+  (4) admission type: ELECTIVE
+  (5) admit time: 2129-09-18 11:46:00
+  (6) discharge time: 2129-10-03 17:21:00
+  (7) transfer history: 
+2129-09-18 11:47:53 - 2129-09-19 07:43:08: Cardiology Surgery Intermediate
+2129-09-30 13:02:21 - 2129-10-03 17:21:12: Cardiology Surgery Intermediate
+2129-09-19 07:43:08 - 2129-09-19 10:01:36: PACU
+2129-09-19 10:01:36 - 2129-09-30 13:02:21: Cardiac Vascular Intensive Care Unit (CVICU)
+2129-10-03 17:21:12: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2129-09-18 15:00:00        23.3         7.0 26.6  30.0 89.0     199.0 2.63 16.4    NaN  7.8
+2129-09-18 21:40:00        26.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-19 12:44:00        22.9         7.3 28.7  31.9 90.0     164.0 2.54 15.6    NaN 32.2
+2129-09-19 14:03:00        24.7         7.8 29.3  31.6 93.0     112.0 2.66 15.2    NaN 24.9
+2129-09-19 15:11:00        32.5        10.4 29.1  32.0 91.0     128.0 3.58 14.9    NaN 35.7
+2129-09-19 17:01:00        27.3         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-19 17:41:00         NaN         NaN  NaN   NaN  NaN     126.0  NaN  NaN    NaN  NaN
+2129-09-19 20:13:00        29.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-20 01:54:00        23.3         7.7 28.4  33.0 86.0      99.0 2.71 15.2    NaN 14.5
+2129-09-20 06:11:00         NaN         NaN  NaN   NaN  NaN      78.0  NaN  NaN    NaN  NaN
+2129-09-20 07:02:00        27.3         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-20 10:17:00        25.7         8.6  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-20 15:56:00        23.8         7.9  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-21 04:09:00        23.0         7.6 28.7  33.0 87.0     128.0 2.65 17.9    NaN 21.7
+2129-09-21 07:44:00        22.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-21 15:45:00        25.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-22 02:20:00        23.7         7.4 27.6  31.2 88.0     111.0 2.68 17.0    NaN 14.9
+2129-09-22 07:16:00        23.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-22 14:38:00        21.0         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-23 02:15:00        23.1         7.4 28.0  32.0 88.0      89.0 2.64 16.3    NaN  9.6
+2129-09-23 14:10:00        24.0         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-09-24 00:59:00        22.9         7.5 28.4  32.8 87.0     152.0 2.64 16.2    NaN 14.2
+2129-09-24 21:14:00        26.9         8.8 28.0  32.7 86.0     161.0 3.14 16.1    NaN 13.4
+2129-09-25 03:17:00        26.7         8.7 28.3  32.6 87.0     173.0 3.07 16.5    NaN 12.9
+2129-09-26 02:12:00        27.4         8.6 27.7  31.4 88.0     200.0 3.11 16.8    NaN 12.0
+2129-09-27 02:38:00        28.6         8.7 27.4  30.4 90.0     252.0 3.17 16.9    NaN 11.3
+2129-09-28 04:03:00        27.5         8.1 27.1  29.5 92.0     267.0 2.99 17.2    NaN 11.3
+2129-09-29 04:10:00        26.4         7.6 26.8  28.8 93.0     281.0 2.84 17.1    NaN 10.2
+2129-09-30 02:07:00        24.6         7.2 27.2  29.3 93.0     295.0 2.65 17.0    NaN 11.1
+2129-09-30 17:23:00        24.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2129-10-01 04:40:00        24.8         7.3 26.9  29.4 92.0     339.0 2.71 17.1    NaN 13.7
+2129-10-01 13:00:00        24.9         7.5 27.5  30.1 91.0     334.0 2.73 17.1    NaN 13.7
+2129-10-02 05:15:00        23.5         7.2 27.2  30.6 89.0     345.0 2.65 17.5    NaN 13.2
+2129-10-03 05:08:00        23.0         6.9 27.0  30.0 90.0     358.0 2.56 17.5    NaN 13.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2129-09-20 03:30:00
+sbp: 114.0
+dbp: 50.0
+mbp: 69.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: nan
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 2
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Rheumatic disorders of both aortic and tricuspid valves
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 4
+   drg_mortality: 4
+2. Rheumatic disorders of both aortic and tricuspid valves
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W CARD CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Sodium Chloride 0.9% Flush (dose_given: 3 mL, product_unit: SYR, starttime: 2129-09-18 14:00:00, stoptime: 2129-09-19 10:00:00)
+- Insulin (dose_given: 22 UNIT, product_unit: ML, starttime: 2129-09-18 17:00:00, stoptime: 2129-09-19 10:00:00)
+- Atorvastatin (dose_given: 40 mg, product_unit: TAB, starttime: 2129-09-18 14:00:00, stoptime: 2129-09-19 10:00:00)
+- Metoprolol Tartrate 50mg Tablet (dose_given: 50 mg, product_unit: TAB, starttime: 2129-09-18 14:00:00, stoptime: 2129-09-19 10:00:00)
+- Mupirocin Ointment 2% (dose_given: 1 Appl, product_unit: None, starttime: 2129-09-18 20:00:00, stoptime: 2129-09-19 10:00:00)
+- Omeprazole 20mg DR Capsule (dose_given: 20 mg, product_unit: CAP, starttime: 2129-09-18 14:00:00, stoptime: 2129-09-19 10:00:00)
+- Insulin (dose_given: 64 UNIT, product_unit: ML, starttime: 2129-09-18 22:00:00, stoptime: 2129-09-19 10:00:00)
+- Digoxin 0.25mg Tablet (dose_given: 0.25 mg, product_unit: TAB, starttime: 2129-09-18 14:00:00, stoptime: 2129-09-19 10:00:00)
+- Levothyroxine Sodium (dose_given: 88 mcg, product_unit: TAB, starttime: 2129-09-18 14:00:00, stoptime: 2129-09-19 10:00:00)

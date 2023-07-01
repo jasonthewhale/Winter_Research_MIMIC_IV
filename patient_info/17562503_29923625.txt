@@ -1,0 +1,98 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 74
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2142-12-23 16:14:00
+  (6) discharge time: 2143-01-22 15:50:00
+  (7) transfer history: 
+2142-12-23 11:52:00 - 2142-12-23 17:22:00: Emergency Department
+2142-12-23 17:22:00 - 2142-12-29 03:31:10: Vascular
+2142-12-29 03:31:10 - 2142-12-29 07:54:22: Vascular
+2142-12-30 16:59:30 - 2143-01-02 18:42:47: Vascular
+2143-01-02 18:42:47 - 2143-01-10 21:41:03: Vascular
+2143-01-10 21:41:03 - 2143-01-22 15:52:04: Medicine/Cardiology
+2142-12-29 07:54:22 - 2142-12-29 22:02:15: Cardiac Vascular Intensive Care Unit (CVICU)
+2142-12-29 22:02:15 - 2142-12-30 16:59:30: Cardiac Vascular Intensive Care Unit (CVICU)
+2143-01-22 15:52:04: discharge
+
+2. Medical Data
+(1) heart rate: 
+2142-12-30 08:00:00-2142-12-30 10:00:00 LBBB (Left Bundle Branch Block) PVC's None None None
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2142-12-24 03:31:00        30.0        10.1 32.1  33.7 95.0     274.0 3.16 14.4    NaN  5.7
+2142-12-25 05:54:00        29.8         9.9 32.3  33.2 97.0     265.0 3.07 14.5    NaN  8.3
+2142-12-28 10:05:00        23.2         7.7 31.7  33.0 96.0     209.0 2.42 14.9    NaN  6.0
+2142-12-28 20:30:00        27.4         8.8 31.5  32.1 98.0     201.0 2.79 14.5    NaN  5.8
+2142-12-28 23:59:00        26.7         9.1 32.6  34.1 96.0     171.0 2.79 14.5    NaN  5.7
+2142-12-29 04:14:00        27.5         9.2 32.0  33.3 96.0     175.0 2.87 14.8    NaN  7.0
+2142-12-29 08:14:00        30.0         9.7 31.2  32.5 96.0     166.0 3.12 15.1    NaN  7.5
+2142-12-29 15:12:00        26.9         8.8 31.2  32.8 95.0     150.0 2.82 15.1    NaN  7.0
+2142-12-29 22:00:00        29.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2142-12-30 04:17:00        28.9         9.8 32.1  33.7 95.0     151.0 3.04 15.2    NaN  9.0
+2142-12-31 09:35:00        31.1        10.3 32.0  33.1 97.0     155.0 3.22 15.4    NaN  8.8
+2143-01-01 06:30:00        32.1        10.9 33.1  34.1 97.0     172.0 3.31 15.6    NaN  9.1
+2143-01-02 06:45:00        31.9        10.5 31.9  32.9 97.0     170.0 3.29 15.4    NaN  7.4
+2143-01-03 07:40:00        35.0        11.3 31.7  32.3 98.0     195.0 3.56 15.0    NaN  8.4
+2143-01-04 07:05:00        33.0        10.9 31.9  33.0 97.0     181.0 3.42 14.9    NaN  7.8
+2143-01-05 07:30:00        34.7        11.3 31.9  32.7 98.0     197.0 3.55 15.1    NaN  7.2
+2143-01-06 06:15:00        35.4        11.6 32.2  32.7 98.0     213.0 3.60 15.0    NaN  7.7
+2143-01-07 07:15:00        36.7        11.5 30.9  31.4 99.0     219.0 3.73 15.3    NaN 10.0
+2143-01-08 08:20:00        35.8        11.5 31.4  32.1 98.0     250.0 3.65 15.4    NaN 10.2
+2143-01-09 08:20:00        34.1        11.2 32.2  32.9 98.0     244.0 3.48 15.3    NaN 10.1
+2143-01-10 08:20:00        32.0        10.7 32.0  33.3 96.0     232.0 3.34 15.5    NaN  9.5
+2143-01-11 05:42:00        34.5        11.1 31.5  32.3 97.0     244.0 3.54 15.8    NaN  8.9
+2143-01-12 04:45:00        36.0        11.8 32.1  32.7 98.0     246.0 3.66 15.8    NaN  8.1
+2143-01-13 10:13:00        36.6        11.3 30.3  31.0 98.0     240.0 3.74 15.9    NaN  8.0
+2143-01-14 08:10:00        36.6        11.9 30.8  32.4 95.0     273.0 3.85 16.1    NaN  8.8
+2143-01-15 07:50:00        35.7        11.4 30.9  31.9 97.0     236.0 3.68 15.8    NaN  7.6
+2143-01-16 05:45:00        33.1        10.9 31.8  32.9 97.0     225.0 3.42 15.8    NaN  7.6
+2143-01-17 05:45:00        30.4        10.1 31.4  33.4 94.0     229.0 3.22 15.3    NaN  8.0
+2143-01-18 05:40:00        30.6        10.1 31.6  33.0 96.0     228.0 3.19 15.4    NaN  7.0
+2143-01-19 05:45:00        30.8        10.1 31.3  32.8 95.0     216.0 3.23 15.7    NaN  7.2
+2143-01-20 08:10:00        29.7        10.1 32.5  34.0 96.0     187.0 3.10 15.8    NaN  6.8
+2143-01-21 09:05:00        31.0        10.2 31.9  33.0 97.0     184.0 3.21 15.4    NaN  5.8
+2143-01-22 07:55:00        32.0        10.8 32.2  33.7 96.0     212.0 3.35 15.6    NaN  7.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2142-12-30 02:00:00
+sbp: 95.0
+dbp: 41.0
+mbp: 59.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.0
+temperature: 36.780000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 1
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 2
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Atherosclerosis of native arteries of the extremities with gangrene
+   drg_type: HCFA
+   description: OTHER VASCULAR PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Atorvastatin: Administered from 2142-12-23 20:00:00 to 2142-12-29 00:00:00, dose given: 80 mg
+- Carvedilol: Administered from 2142-12-23 20:00:00 to 2142-12-29 00:00:00, dose given: 3.125 mg
+- Gabapentin: Administered from 2142-12-23 20:00:00 to 2142-12-29 00:00:00, dose given: 100 mg
+- Sulfameth/Trimethoprim DS: Administered from 2142-12-23 20:00:00 to 2142-12-29 00:00:00, dose given: 1 tablet
+- OxycoDONE (Immediate Release): Administered from 2142-12-23 20:00:00 to 2142-12-29 00:00:00, dose given: 5 mg
+- Fluticasone-Salmeterol Diskus (250/50): Administered from 2142-12-23 20:00:00 to 2142-12-29 00:00:00, dose given: 1 inhalation
+- Insulin: Administered from 2142-12-23 22:00:00 to 2142-12-29 00:00:00, dose given: 14 units
+- Acetaminophen: Administered from 2142-12-23 20:00:00 to 2142-12-29 04:00:00, dose given: 325 mg
+- Morphine Sulfate: Administered from 2142-12-23 22:00:00 to 2142-12-29 00:00:00, dose given: 2 mg

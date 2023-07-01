@@ -1,0 +1,89 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 85
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2187-08-01 02:49:00
+  (6) discharge time: 2187-08-10 15:37:00
+  (7) transfer history: 
+2187-08-01 02:04:00 - 2187-08-01 04:04:00: Emergency Department
+2187-08-01 04:04:00 - 2187-08-02 22:08:26: Medical Intensive Care Unit (MICU)
+2187-08-03 17:31:33 - 2187-08-10 15:37:29: Med/Surg/Trauma
+2187-08-02 22:08:26 - 2187-08-03 17:31:33: Trauma SICU (TSICU)
+2187-08-10 15:37:29: discharge
+
+2. Medical Data
+(1) heart rate: 
+2187-09-07 05:00:00-2187-09-07 06:00:00 AF (Atrial Fibrillation) PVC's
+2187-09-08 09:00:00-2187-09-08 10:00:00 AF (Atrial Fibrillation) PAC's
+2187-09-08 10:00:00-2187-09-08 11:00:00 AF (Atrial Fibrillation) PVC's
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2187-08-01 05:27:00        26.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-08-01 05:30:00        11.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-08-01 10:29:00        24.3         7.7 30.5  31.6 97.0     108.0 2.52 16.7    NaN 10.8
+2187-08-01 17:00:00        22.9         7.3 30.4  31.6 96.0     105.0 2.38 17.1    NaN 11.4
+2187-08-02 03:40:00        21.4         6.8 30.5  31.5 97.0      99.0 2.22 17.1    NaN 10.0
+2187-08-02 12:14:00        25.1         7.9 29.9  31.7 95.0      93.0 2.65 16.8    NaN 10.6
+2187-08-02 16:50:00        26.5         8.9 31.6  33.6 94.0      87.0 2.82 16.5    NaN  9.9
+2187-08-02 20:55:00        27.4         9.1 31.3  33.2 94.0      92.0 2.91 16.8    NaN 10.8
+2187-08-03 00:05:00        25.7         8.4 30.7  32.5 95.0      82.0 2.72 16.9    NaN  9.4
+2187-08-03 04:24:00        25.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-08-03 08:44:00        24.8         8.0 30.5  32.4 94.0      83.0 2.63 16.7    NaN  9.6
+2187-08-03 13:50:00        25.2         8.1 30.5  32.0 95.0      84.0 2.65 16.9    NaN  9.9
+2187-08-04 04:57:00        23.8         7.5 30.0  31.5 95.0      96.0 2.49 16.6    NaN 10.0
+2187-08-05 04:45:00        30.5         9.8 30.5  32.3 95.0      93.0 3.22 16.4    NaN  9.1
+2187-08-05 11:08:00        28.0         9.3 31.7  33.3 95.0      97.0 2.94 16.9    NaN  8.3
+2187-08-06 04:52:00        21.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-08-06 11:15:00        30.7        10.0 30.8  32.5 95.0      78.0 3.24 15.6    NaN 11.9
+2187-08-06 18:30:00        29.3         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-08-07 03:25:00        27.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-08-08 06:30:00        26.5         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-08-09 04:56:00        25.0         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-08-09 14:15:00        26.5         8.1 30.0  30.5 99.0     149.0 2.69 16.4    NaN 10.7
+2187-08-10 02:59:00        28.4         8.9 30.6  31.3 98.0     162.0 2.91 15.9    NaN 10.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2187-09-08 08:00:00
+sbp: 83.0
+dbp: 63.0
+mbp: 67.0
+sbp_ni: 83.0
+dbp_ni: 63.0
+mbp_ni: 67.0
+resp_rate: 20.0
+temperature: 37.060000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 1
+cns: 0
+renal: 1
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 1
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Unspecified septicemia
+   drg_type: HCFA
+   description: INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Unspecified septicemia
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Docusate Sodium (Liquid) 100mg / 10 mL, administered from 2187-08-01 05:00:00 to 2187-08-10 19:00:00
+- Fluticasone-Salmeterol Diskus (500/50), administered from 2187-08-01 07:00:00 to 2187-08-10 19:00:00
+- OxycoDONE (Immediate Release) 5mg Tablet, administered from 2187-08-01 07:00:00 to 2187-08-06 16:00:00
+- Sodium Chloride 0.9% Flush, flushed from 2187-08-03 08:00:00 to 2187-08-10 19:00:00
+- Clotrimazole Cream 1% 30g Cream, administered from 2187-08-01 15:00:00 to 2187-08-10 19:00:00
+- Acetaminophen 500mg Tablet, administered from 2187-08-01 10:00:00 to 2187-08-10 19:00:00
+- Levothyroxine Sodium 75mcg Tab, administered from 2187-08-01 07:00:00 to 2187-08-10 19:00:00

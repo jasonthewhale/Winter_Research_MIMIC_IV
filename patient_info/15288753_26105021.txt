@@ -1,0 +1,84 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 66
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2143-10-08 11:24:00
+  (6) discharge time: 2143-10-16 16:45:00
+  (7) transfer history: 
+2143-10-08 10:09:00 - 2143-10-08 11:25:31: Emergency Department
+2143-10-08 11:25:31 - 2143-10-09 23:59:55: Trauma SICU (TSICU)
+2143-10-11 11:33:43 - 2143-10-11 14:39:37: PACU
+2143-10-15 12:20:43 - 2143-10-16 17:32:49: Cardiac Surgery
+2143-10-09 23:59:55 - 2143-10-11 11:33:43: Coronary Care Unit (CCU)
+2143-10-11 14:39:37 - 2143-10-15 12:20:43: Cardiac Vascular Intensive Care Unit (CVICU)
+2143-10-16 17:32:49: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2143-10-08 18:20:00        33.9        11.5 34.8  33.9 103.0     406.0 3.30 12.2    NaN  7.0
+2143-10-09 02:00:00        32.6        11.0 34.9  33.7 104.0     384.0 3.15 12.3    NaN  8.8
+2143-10-10 06:03:00        34.5        11.2 35.0  32.5 108.0     437.0 3.20 12.5    NaN 10.0
+2143-10-10 21:13:00        34.5        11.2 34.5  32.5 106.0     533.0 3.25 12.7    NaN 10.7
+2143-10-11 04:57:00        34.4        11.1 34.6  32.3 107.0     553.0 3.21 12.7    NaN  9.8
+2143-10-11 16:36:00        15.9         4.7 34.3  29.6 116.0     308.0 1.37 13.2    NaN 10.9
+2143-10-11 18:40:00        32.2        10.2 31.8  31.7 100.0     296.0 3.21 18.2    NaN 16.6
+2143-10-11 22:00:00        25.1         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2143-10-11 23:40:00        23.2         7.5  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2143-10-12 04:45:00        34.4        11.4 30.5  33.1  92.0     283.0 3.74 19.4    NaN 14.7
+2143-10-12 09:06:00        31.6        10.4 30.6  32.9  93.0     224.0 3.40 20.0    NaN 11.1
+2143-10-12 15:05:00        26.3         8.6 30.3  32.7  93.0     145.0 2.84 20.2    NaN  8.4
+2143-10-13 01:06:00        25.3         8.4 31.0  33.2  93.0     189.0 2.71 20.4    NaN 10.8
+2143-10-14 03:42:00        25.5         8.2 30.5  32.2  95.0     290.0 2.69 19.2    NaN 10.4
+2143-10-15 03:38:00        26.5         8.6 30.9  32.5  95.0     409.0 2.78 18.9    NaN  9.7
+2143-10-16 06:29:00        27.7         8.8 30.4  31.8  96.0     454.0 2.89 19.0    NaN  7.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2143-10-13 12:00:00
+sbp: 108.0
+dbp: 61.0
+mbp: 72.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 18.0
+temperature: 37.440000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 2
+2. ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W CARD CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Phytonadione 5mg Tablet (Administered from 2143-10-08 13:00:00 to 2143-10-08 16:00:00)
+- Levalbuterol Neb (Administered from 2143-10-08 17:00:00 to 2143-10-11 15:00:00)
+- Atorvastatin 80mg Tablet (Administered from 2143-10-08 20:00:00 to 2143-10-11 15:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered from 2143-10-08 20:00:00 to 2143-10-09 09:00:00)
+- TraZODone 50mg Tablet (Administered from 2143-10-08 15:00:00 to 2143-10-11 15:00:00)
+- PredniSONE 10mg Tablet (Administered from 2143-10-08 21:00:00 to 2143-10-09 00:00:00)
+- PredniSONE 20mg Tablet (Administered from 2143-10-08 21:00:00 to 2143-10-09 00:00:00)
+- TiCAGRELOR 90 mg Tablet (Administered from 2143-10-08 22:00:00 to 2143-10-11 09:00:00)
+- PredniSONE 10mg Tablet (Administered from 2143-10-09 03:00:00 to 2143-10-09 16:00:00)

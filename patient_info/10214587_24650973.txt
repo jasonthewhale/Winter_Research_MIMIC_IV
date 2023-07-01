@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 58
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2145-12-04 00:00:00
+  (6) discharge time: 2145-12-11 17:00:00
+  (7) transfer history: 
+2145-12-04 03:46:38 - 2145-12-04 17:23:42: Discharge Lounge
+2145-12-08 22:41:31 - 2145-12-11 17:35:54: Med/Surg
+2145-12-04 17:23:42 - 2145-12-08 22:41:31: Trauma SICU (TSICU)
+2145-12-11 17:35:54: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2145-12-04 17:35:00        38.5        12.3 27.6  31.9 86.0     239.0 4.46 15.3    NaN 16.8
+2145-12-05 02:39:00        37.2        11.9 27.7  32.0 87.0     236.0 4.29 15.5    NaN 19.1
+2145-12-06 00:25:00        32.9        10.2 27.8  31.0 90.0     183.0 3.67 15.7    NaN 13.8
+2145-12-07 01:05:00        36.4        11.6 28.3  31.9 89.0     163.0 4.10 15.5    NaN 10.7
+2145-12-08 04:35:00        34.3        10.8 28.0  31.5 89.0     197.0 3.86 15.5    NaN  9.0
+2145-12-09 06:10:00        31.7        10.2 27.9  32.2 87.0     211.0 3.65 15.9    NaN  9.0
+2145-12-09 10:04:00        32.3        10.3 28.1  31.9 88.0     215.0 3.67 15.6    NaN  9.6
+2145-12-10 05:20:00        33.9        10.8 27.4  31.9 86.0     243.0 3.94 15.5    NaN 11.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2145-12-05 08:52:00
+sbp: 134.0
+dbp: 87.0
+mbp: 107.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 21.0
+temperature: 37.000000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Other specified diseases of upper respiratory tract
+   drg_type: APR
+   description: MAJOR RESPIRATORY & CHEST PROCEDURES
+   drg_severity: 1
+   drg_mortality: 1
+2. Other specified diseases of upper respiratory tract
+   drg_type: HCFA
+   description: MAJOR CHEST PROCEDURES W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Heparin: Administered from 2145-12-04 07:00:00 to 2145-12-05 06:00:00, SC route, once frequency
+- Scopolamine Patch: Applied on 2145-12-04 07:00:00, TD route, once frequency
+- Acetaminophen: Administered from 2145-12-04 07:00:00 to 2145-12-05 06:00:00, PO route, once frequency
+- Pregabalin: Administered from 2145-12-04 07:00:00 to 2145-12-05 06:00:00, PO/NG route, ON CALL TO OR frequency
+- Acetaminophen IV: Administered from 2145-12-04 18:00:00 to 2145-12-05 18:00:00, IV route, Q6H frequency
+- Heparin: Administered from 2145-12-04 20:00:00 to 2145-12-04 23:00:00, SC route, BID frequency
+- Magnesium Sulfate: Administered from 2145-12-04 20:00:00 to 2145-12-08 22:00:00, IV route, ASDIR frequency
+- Albuterol 0.083% Neb Soln: Administered from 2145-12-04 20:00:00 to 2145-12-09 06:00:00, IH route, Q4H frequency
+- Potassium Chloride: Administered from 2145-12-04 20:00:00 to 2145-12-06 20:00:00, IV route, ASDIR frequency

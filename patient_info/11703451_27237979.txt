@@ -1,0 +1,88 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 77
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2158-03-13 15:30:00
+  (6) discharge time: 2158-03-30 17:30:00
+  (7) transfer history: 
+2158-03-13 15:30:52 - 2158-03-15 19:05:20: Surgical Intensive Care Unit (SICU)
+2158-03-15 19:05:20 - 2158-03-30 17:37:59: Neurology
+2158-03-30 17:37:59: discharge
+
+2. Medical Data
+(1) heart rate: 
+2158-03-14 01:00:00-2158-03-14 02:00:00 AF (Atrial Fibrillation)
+2158-03-14 07:00:00-2158-03-14 08:00:00 AF (Atrial Fibrillation)
+2158-03-14 08:00:00-2158-03-14 09:00:00 AF (Atrial Fibrillation) with Frequent PVC's
+2158-03-14 09:00:00-2158-03-14 10:00:00 AF (Atrial Fibrillation) with Frequent PVC's
+2158-03-14 10:00:00-2158-03-14 11:00:00 AF (Atrial Fibrillation) with Frequent PVC's
+2158-03-14 11:00:00-2158-03-14 12:00:00 AF (Atrial Fibrillation) with Occasional PVC's
+2158-03-14 12:00:00-2158-03-14 13:00:00 AF (Atrial Fibrillation) with Occasional PVC's
+2158-03-14 13:00:00-2158-03-14 14:00:00 AF (Atrial Fibrillation)
+2158-03-14 14:00:00-2158-03-14 15:00:00 AF (Atrial Fibrillation) with Runs Vtach PVC's
+2158-03-14 15:00:00-2158-03-14 16:00:00 AF (Atrial Fibrillation) with Frequent PVC's
+2158-03-14 16:00:00-2158-03-14 17:00:00 AF (Atrial Fibrillation) with Frequent PVC's
+2158-03-14 17:00:00-2158-03-14 18:00:00 AF (Atrial Fibrillation) with Frequent PVC's
+2158-03-14 18:00:00-2158-03-14 19:00:00 AF (Atrial Fibrillation) with Frequent PVC's
+2158-03-14 19:00:00-2158-03-14
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2158-03-13 17:05:00        41.0        13.9 31.0  33.9 92.0     314.0 4.48 13.7    NaN 11.6
+2158-03-14 02:18:00        38.1        12.7 31.4  33.3 94.0     272.0 4.04 13.7    NaN 11.5
+2158-03-15 03:58:00        38.7        12.8 30.0  33.1 91.0     345.0 4.26 13.6    NaN 11.9
+2158-03-16 05:30:00        41.5        13.8 30.3  33.3 91.0     335.0 4.56 13.7    NaN 13.1
+2158-03-18 05:50:00        39.8        13.5 31.1  33.9 92.0     359.0 4.34 13.8    NaN 14.6
+2158-03-19 10:50:00        39.2        12.6 30.1  32.1 94.0     355.0 4.19 13.8    NaN 11.8
+2158-03-20 05:45:00        40.2        13.5 31.3  33.6 93.0     384.0 4.32 14.0    NaN 13.4
+2158-03-21 05:50:00        38.8        12.9 31.1  33.2 94.0     377.0 4.15 14.1    NaN 13.2
+2158-03-22 05:45:00        37.3        12.3 30.5  33.0 93.0     376.0 4.03 14.1    NaN 12.2
+2158-03-23 05:10:00        40.0        12.8 29.8  32.0 93.0     383.0 4.29 14.2    NaN 12.4
+2158-03-25 07:52:00        39.5        13.4 31.2  33.9 92.0     411.0 4.29 14.6    NaN 12.4
+2158-03-26 05:20:00        38.7        13.0 31.3  33.6 93.0     387.0 4.16 14.7    NaN 11.3
+2158-03-27 06:15:00        37.6        12.5 30.9  33.2 93.0     372.0 4.05 14.7    NaN 11.3
+2158-03-28 05:45:00        38.2        12.7 31.4  33.2 95.0     380.0 4.04 15.1    NaN 10.2
+2158-03-29 06:00:00        40.0        13.1 31.6  32.8 97.0     393.0 4.14 15.5    NaN 12.6
+2158-03-30 05:40:00        39.5        13.2 31.8  33.4 95.0     344.0 4.15 15.5    NaN  9.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2158-03-15 04:00:00
+sbp: 147.0
+dbp: 69.0
+mbp: 96.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 2
+renal: 0
+respiration_24hours: 1
+coagulation_24hours: 0
+liver_24hours: 1
+cns_24hours: 2
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Cerebral infarction due to embolism of bilateral posterior cerebral arteries
+   drg_type: APR
+   description: CVA & PRECEREBRAL OCCLUSION W INFARCT
+   drg_severity: 3
+   drg_mortality: 4
+2. Cerebral infarction due to embolism of bilateral posterior cerebral arteries
+   drg_type: HCFA
+   description: INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W CC OR TPA IN 24 HRS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Metoprolol Tartrate: Administered from 2158-03-13 18:00:00 to 2158-03-14 07:00:00, dose given: 5 mg, dose given unit: 5 mL, product amount given: 5 mL, product unit: mL, product code: METO5I, product description: None, pharmacy id: 62974567, route: IV, frequency: Q6H:PRN, medication: Metoprolol Tartrate, proc type: Unit Dose, status: Discontinued, verified time: 2158-03-13 17:42:25
+- Heparin: Administered from 2158-03-13 18:00:00 to 2158-03-29 17:00:00, dose given: 5000 UNIT, dose given unit: 1 mL, product amount given: 1 mL, product unit: mL, product code: HEPA5I, product description: None, pharmacy id: 32933521, route: SC, frequency: BID, medication: Heparin, proc type: Unit Dose, status: Discontinued, verified time: 2158-03-13 17:07:57
+- Metoprolol Tartrate: Administered from 2158-03-13 18:00:00 to 2158-03-14 07:00:00, dose given: 5 mg, dose given unit: 5 mL, product amount given: 5 mL, product unit: mL, product code: METO5I, product description: None, pharmacy id: 62974567, route: IV, frequency: Q6H:PRN, medication: Metoprolol Tartrate, proc type: Unit Dose, status: Discontinued, verified time: 2158-03-13 17:42:25
+- CefTRIAXone: Administered from 2158-03-13 22:00:00 to 2158-03-14 09:00:00, dose given: 1 gm, dose given unit: 1 VIAL, product amount given: 1 VIAL, product unit: VIAL, product code: CEFR1I, product description: CefTRIAXone 1g Vial, pharmacy id:

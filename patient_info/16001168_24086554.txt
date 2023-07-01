@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 83
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2157-11-07 09:27:00
+  (6) discharge time: 2157-11-14 17:00:00
+  (7) transfer history: 
+2157-11-07 07:35:00 - 2157-11-07 12:11:00: Emergency Department
+2157-11-07 12:11:00 - 2157-11-07 12:11:28: Medical Intensive Care Unit (MICU)
+2157-11-09 18:02:00 - 2157-11-14 18:55:00: Neurology
+2157-11-07 12:11:28 - 2157-11-09 18:02:00: Trauma SICU (TSICU)
+2157-11-14 18:55:00: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2157-11-07 13:41:00        44.2        14.1 30.5  31.9 96.0     239.0 4.63 13.5    NaN 12.9
+2157-11-07 19:54:00        36.8        11.9 30.8  32.3 95.0     163.0 3.86 13.7    NaN  7.2
+2157-11-08 01:59:00        39.7        12.7 30.6  32.0 96.0     178.0 4.15 13.8    NaN  8.1
+2157-11-09 01:25:00        38.8        12.4 30.4  32.0 95.0     156.0 4.08 13.2    NaN  7.7
+2157-11-10 04:12:00        38.9        13.0 30.7  33.4 92.0     142.0 4.24 12.9    NaN  8.2
+2157-11-11 03:58:00        38.0        12.8 30.9  33.7 92.0     143.0 4.14 12.9    NaN  5.8
+2157-11-12 06:58:00        40.0        13.1 30.5  32.8 93.0     169.0 4.30 12.9    NaN  5.5
+2157-11-13 05:35:00        38.8        12.8 30.5  33.0 93.0     186.0 4.19 12.9    NaN  7.1
+2157-11-14 05:35:00        39.4        12.8 30.6  32.5 94.0     196.0 4.18 12.9    NaN  7.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2157-11-08 12:00:00
+sbp: 154.0
+dbp: 80.0
+mbp: 102.0
+sbp_ni: 154.0
+dbp_ni: 80.0
+mbp_ni: 102.0
+resp_rate: nan
+temperature: 37.060000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 0
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Traumatic subarachnoid hemorrhage with loss of consciousness of unspecified duration, initial encounter
+   drg_type: APR
+   description: HEAD TRAUMA W COMA >1 HR OR HEMORRHAGE
+   drg_severity: 4
+   drg_mortality: 4
+2. Traumatic subarachnoid hemorrhage with loss of consciousness of unspecified duration, initial encounter
+   drg_type: HCFA
+   description: TRAUMATIC STUPOR & COMA, COMA >1 HR W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Thiamine 200 mg in 100 mL 0.9% Sodium Chloride (Administered) - Start time: 2157-11-07 14:00:00, Stop time: 2157-11-14 23:00:00
+- Influenza Vaccine Quadrivalent (Administered) - Start time: 2157-11-07 13:23:41, Stop time: Discontinued via patient discharge
+- Sodium Chloride 0.9% Flush (Flushed) - Start time: 2157-11-07 14:00:00, Stop time: 2157-11-14 23:00:00
+- Ampicillin 2 g (Vial to be attached to MB+ on floor) (Administered) - Start time: 2157-11-07 18:00:00, Stop time: 2157-11-09 13:00:00
+- Potassium Chloride 20 mEq / 50 mL Sterile Water (None) - Start time: 2157-11-07 19:00:00, Stop time: 2157-11-09 18:00:00
+- CefTRIAXone 2 g Vial (Vial to be attached to MB+ on floor) (Administered) - Start time: 2157-11-07 17:00:00, Stop time: 2157-11-09 13:00:00
+- Chlorhexidine Gluconate 15 mL Cup (Administered) - Start time: 2157-11-07 20:00:00, Stop time: 2157-11-09 20:00:00

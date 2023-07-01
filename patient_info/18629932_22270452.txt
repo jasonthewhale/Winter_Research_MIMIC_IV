@@ -1,0 +1,84 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 59
+  (3) race: UNKNOWN
+  (4) admission type: EW EMER.
+  (5) admit time: 2168-06-03 23:44:00
+  (6) discharge time: 2168-06-15 12:37:00
+  (7) transfer history: 
+2168-06-03 18:37:00 - 2168-06-03 23:44:40: Emergency Department
+2168-06-03 23:44:40 - 2168-06-04 00:59:22: Medical Intensive Care Unit (MICU)
+2168-06-06 04:28:03 - 2168-06-06 04:32:05: PACU
+2168-06-06 17:16:21 - 2168-06-07 15:27:08: Medicine
+2168-06-07 15:27:08 - 2168-06-15 12:37:50: Medicine
+2168-06-04 00:59:22 - 2168-06-06 04:28:03: Medical Intensive Care Unit (MICU)
+2168-06-06 04:32:05 - 2168-06-06 17:16:21: Medical Intensive Care Unit (MICU)
+2168-06-15 12:37:50: discharge
+
+2. Medical Data
+(1) heart rate: 
+2168-06-05 05:15:00-2168-06-05 05:15:00 ST (Sinus Tachycardia)
+2168-06-05 05:15:00-2168-06-05 05:15:00 PAC's
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2168-06-03 23:45:00        44.2        14.0 32.1  31.8 101.0     190.0 4.37 13.1    NaN 13.6
+2168-06-04 06:04:00        44.9        14.3 31.8  31.9 100.0     169.0 4.51 13.3    NaN 13.5
+2168-06-04 13:10:00        42.6         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2168-06-04 21:19:00        39.5        13.0 31.4  32.9  96.0     110.0 4.13 13.1    NaN 12.1
+2168-06-05 02:52:00        36.8        12.3 32.4  33.5  97.0      95.0 3.80 13.5    NaN 11.2
+2168-06-05 15:15:00        39.5        12.8  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2168-06-06 03:02:00        35.9        11.9 32.1  33.2  97.0      75.0 3.71 13.4    NaN 12.2
+2168-06-06 16:30:00        37.3        12.2 31.4  32.6  96.0      62.0 3.88 13.2    NaN 12.1
+2168-06-07 08:00:00        34.5        11.5 32.1  33.2  97.0      67.0 3.57 13.4    NaN 13.2
+2168-06-08 05:45:00        29.9        10.0 32.3  33.6  96.0      77.0 3.10 13.5    NaN 12.2
+2168-06-09 05:14:00        31.9        10.6 32.1  33.3  97.0     111.0 3.31 13.2    NaN 10.8
+2168-06-10 10:03:00        31.5        10.3 31.6  32.8  96.0     158.0 3.27 13.4    NaN 10.1
+2168-06-11 03:08:00        33.0        10.6 31.0  32.1  97.0     190.0 3.42 13.4    NaN 11.5
+2168-06-11 18:00:00        33.1        10.9 31.5  32.9  96.0     202.0 3.45 13.6    NaN 10.5
+2168-06-12 10:25:00        34.1        11.0 30.9  32.3  96.0     247.0 3.56 13.7    NaN 11.3
+2168-06-13 05:06:00        31.8        10.2 31.0  32.2  96.0     266.0 3.30 13.7    NaN 11.4
+2168-06-14 06:01:00        30.2         9.8 31.1  32.4  96.0     307.0 3.15 13.9    NaN 10.0
+2168-06-15 05:43:00        30.7        10.1 31.8  32.9  97.0     351.0 3.18 14.1    NaN 10.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2168-06-04 04:00:00
+sbp: 98.0
+dbp: 72.0
+mbp: 79.0
+sbp_ni: 98.0
+dbp_ni: 72.0
+mbp_ni: 79.0
+resp_rate: 10.5
+temperature: 36.940000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 2
+liver_24hours: 1
+cns_24hours: 1
+renal_24hours: 2
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Acute kidney failure with lesion of tubular necrosis
+   drg_type: HCFA
+   description: RENAL FAILURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Lactulose: Administered from 2168-06-06 12:00:00 to 2168-06-09 10:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2168-06-06 18:00:00 to 2168-06-15 16:00:00
+- Lidocaine 5% Patch: Applied from 2168-06-04 20:00:00 to 2168-06-15 16:00:00
+- Nicotine Patch 14mg/24Hr Patch: Applied from 2168-06-05 08:00:00 to 2168-06-15 16:00:00
+- Docusate Sodium 100mg Capsule: Administered from 2168-06-06 20:00:00 to 2168-06-15 16:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial: Administered from 2168-06-05 20:00:00 to 2168-06-15 16:00:00
+- Labetalol 100mg Tablet: Administered from 2168-06-06 20:00:00 to 2168-06-15 16:00:00
+- Levofloxacin 500 mg Tablet: Administered from 2168-06-06 18:00:00 to 2168-06-10 08:00:00
+- Thiamine 100mg Tablet: Administered from 2168-06-06 18:00:00 to 2168-06-15 16:00:00
+- HYDROmorphone (Dilaudid) 2mg Tablet: Administered from 2168-06-06 13:00:00 to 2168-06-08 12:00:00

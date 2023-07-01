@@ -1,0 +1,113 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 41
+  (3) race: BLACK/AFRICAN AMERICAN
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2177-12-17 02:59:00
+  (6) discharge time: 2178-01-25 17:00:00
+  (7) transfer history: 
+2177-12-17 03:00:12 - 2177-12-17 20:16:08: Discharge Lounge
+2177-12-31 21:12:22 - 2177-12-31 21:12:40: Neuro Stepdown
+2177-12-19 00:42:34 - 2177-12-21 19:13:51: Neuro Stepdown
+2177-12-25 18:35:29 - 2177-12-31 21:12:22: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2177-12-17 20:16:08 - 2177-12-18 12:48:27: Neuro Stepdown
+2177-12-31 21:12:40 - 2178-01-16 17:09:08: Neuro Stepdown
+2177-12-24 20:33:03 - 2177-12-24 21:18:38: PACU
+2178-01-24 02:39:21 - 2178-01-24 22:49:56: Neurology
+2177-12-21 19:13:51 - 2177-12-24 20:33:03: Neurology
+2178-01-24 22:49:56 - 2178-01-25 18:02:35: Neurology
+2177-12-18 12:48:27 - 2177-12-19 00:42:34: Neurology
+2178-01-16 17:09:08 - 2178-01-24 02:39:21: Neurology
+2177-12-24 21:18:38 - 2177-12-25 18:35:29: Surgical Intensive Care Unit (SICU)
+2178-01-25 18:02:35: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2177-12-18 04:15:00        35.3        11.7 33.1  33.1 100.0     290.0 3.53 13.9    NaN 15.5
+2177-12-19 06:10:00        34.4        11.2 33.1  32.6 102.0     273.0 3.38 13.9    NaN 12.6
+2177-12-21 12:40:00        37.1        12.7 33.7  34.2  98.0     305.0 3.77 13.1    NaN  9.2
+2177-12-22 06:45:00        36.0        12.1 33.2  33.6  99.0     310.0 3.64 13.1    NaN  9.2
+2177-12-24 05:35:00        35.5        12.0 33.1  33.8  98.0     299.0 3.63 13.2    NaN  8.3
+2177-12-24 20:22:00        39.0        13.3 33.3  34.1  98.0     323.0 3.99 13.4    NaN  9.0
+2177-12-25 03:39:00        37.8        13.0 33.9  34.4  98.0     339.0 3.84 13.9    NaN 19.4
+2177-12-26 02:07:00        32.3        10.3 33.6  31.9 105.0     264.0 3.07 14.5    NaN 24.0
+2177-12-27 04:36:00        31.8        10.2 33.4  32.1 104.0     249.0 3.05 15.0    NaN 27.0
+2177-12-28 04:07:00        27.2         8.8 33.7  32.4 104.0     219.0 2.61 14.6    NaN 21.4
+2177-12-29 05:41:00        26.2         8.4 33.5  32.1 104.0     212.0 2.51 13.9    NaN 15.9
+2177-12-30 05:47:00        25.3         8.5 34.0  33.6 101.0     199.0 2.50 13.2    NaN 18.8
+2177-12-31 00:33:00        26.2         8.6 34.1  32.8 104.0     215.0 2.52 13.6    NaN 14.5
+2178-01-01 06:00:00        24.2         7.9 33.8  32.6 103.0     207.0 2.34 13.4    NaN 16.3
+2178-01-02 08:39:00        25.1         8.4 33.7  33.5 101.0     215.0 2.49 13.2    NaN 13.4
+2178-01-03 04:48:00        29.6         9.5 33.5  32.1 104.0     234.0 2.84 14.5    NaN 12.6
+2178-01-04 04:03:00        25.4         8.2 34.2  32.3 106.0     227.0 2.40 14.8    NaN 17.5
+2178-01-06 04:40:00        22.3         7.1 34.3  31.8 108.0     210.0 2.07 14.7    NaN 10.0
+2178-01-06 15:59:00        21.7         6.9 34.3  31.8 108.0     211.0 2.01 15.1    NaN 11.5
+2178-01-07 04:05:00        22.3         7.1 33.6  31.8 106.0     234.0 2.11 15.1    NaN 10.1
+2178-01-08 02:10:00        22.9         7.3 34.0  31.9 107.0     214.0 2.15 15.5    NaN 10.5
+2178-01-09 04:28:00        22.9         7.2 34.4  31.4 110.0     175.0 2.09 15.8    NaN 10.4
+2178-01-09 21:23:00        22.5         7.0 34.3  31.1 110.0     109.0 2.04 16.8    NaN 10.7
+2178-01-10 04:28:00        22.7         7.1 34.0  31.3 109.0     241.0 2.09 16.7    NaN 10.3
+2178-01-12 08:06:00        27.8         8.5 34.1  30.6 112.0     303.0 2.49 17.7    NaN 10.2
+2178-01-14 06:30:00        20.7         6.6 34.7  31.9 109.0     214.0 1.90 16.1    NaN  7.4
+2178-01-15 05:44:00        20.5         6.5 34.0  31.7 107.0     236.0 1.91 16.4    NaN  6.4
+2178-01-15 18:36:00        20.7         6.5 34.4  31.4 110.0     252.0 1.89 16.7    NaN  7.2
+2178-01-16 06:34:00        22.5         7.0 34.7  31.1 111.0     267.0 2.02 17.6    NaN  6.0
+2178-01-17 05:01:00        23.0         7.1 34.1  30.9 111.0     302.0 2.08 17.5    NaN  5.9
+2178-01-18 06:35:00        21.2         6.6 34.0  31.1 109.0     331.0 1.94 17.0    NaN  5.8
+2178-01-19 04:30:00        23.1         7.2 34.6  31.2 111.0     358.0 2.08 17.3    NaN  5.2
+2178-01-20 04:18:00        20.8         6.5 35.1  31.3 112.0     342.0 1.85 17.5    NaN  5.8
+2178-01-21 12:20:00        21.5         6.6 34.6  30.7 113.0     408.0 1.91 17.9    NaN  6.7
+2178-01-22 05:32:00        23.5         7.5 32.9  31.9 103.0     419.0 2.28 21.1    NaN  6.5
+2178-01-23 05:42:00        24.2         7.7 32.4  31.8 102.0     434.0 2.38 20.5    NaN  7.1
+2178-01-24 06:22:00        22.6         7.2 32.9  31.9 103.0     399.0 2.19 20.0    NaN  6.8
+2178-01-25 05:45:00        21.5         6.9 32.5  32.1 101.0     374.0 2.12 18.9    NaN  6.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2178-01-16 12:00:00
+sbp: 102.0
+dbp: 66.0
+mbp: nan
+sbp_ni: 102.0
+dbp_ni: 66.0
+mbp_ni: nan
+resp_rate: nan
+temperature: 37.220000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Neoplasm of uncertain behavior of craniopharyngeal duct
+   drg_type: APR
+   description: ADRENAL PROCEDURES
+   drg_severity: 2
+   drg_mortality: 2
+2. Neoplasm of uncertain behavior of craniopharyngeal duct
+   drg_type: HCFA
+   description: SKIN GRAFTS & WOUND DEBRID FOR ENDOC, NUTRIT & METAB DIS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Atenolol 50 mg Tab (Administered from 2177-12-17 08:00:00 to 2177-12-24 21:00:00)
+- Atenolol 25 mg Tab (Administered from 2177-12-17 08:00:00 to 2177-12-24 21:00:00)
+- HYDROmorphone (Dilaudid) (Administered from 2177-12-17 21:00:00 to 2177-12-24 21:00:00)
+- Hydrocortisone Na Succ. (Administered from 2177-12-17 21:00:00 to 2177-12-19 00:00:00)
+- Acetaminophen 325mg Tablet (Administered from 2177-12-17 21:00:00 to 2177-12-24 21:00:00)
+- OxyCODONE (Immediate Release) 5mg Tablet (Administered from 2177-12-17 21:00:00 to 2177-12-24 21:00:00)
+- Docusate Sodium 100mg Capsule (Delayed Administered from 2177-12-17 20:00:00 to 2177-12-24 21:00:00)
+- OxyCODONE (Immediate Release) 5mg Tablet (Administered from 2177-12-17 21:00:00 to 2177-12-24 21:00:00)
+- Hydrocortisone Na Succ. (Administered from 2177-12-18 05:00:00 to 2177-12-18 08:00:00)

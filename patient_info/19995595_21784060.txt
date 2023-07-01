@@ -1,0 +1,133 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 68
+  (3) race: UNKNOWN
+  (4) admission type: EW EMER.
+  (5) admit time: 2126-10-17 21:43:00
+  (6) discharge time: 2126-11-12 17:35:00
+  (7) transfer history: 
+2126-10-17 21:35:00 - 2126-10-18 01:43:00: Emergency Department
+2126-10-18 01:43:00 - 2126-11-05 17:32:07: Trauma SICU (TSICU)
+2126-11-05 17:32:07 - 2126-11-12 17:36:20: Medicine
+2126-11-12 17:36:20: discharge
+
+2. Medical Data
+(1) heart rate: 
+2126-10-18 06:00:00-2126-10-18 08:00:00 SR (Sinus Rhythm) PVC's Occasional
+2126-10-18 12:00:00-2126-10-18 13:00:00 SR (Sinus Rhythm) PVC's Rare
+2126-10-18 13:00:00-2126-10-18 15:00:00 SB (Sinus Bradycardia) PVC's Occasional
+2126-10-18 20:00:00-2126-10-19 10:00:00 SR (Sinus Rhythm) PVC's Rare
+2126-10-20 07:00:00-2126-10-20 11:00:00 SR (Sinus Rhythm) PVC's Occasional
+2126-10-21 10:00:00-2126-10-22 19:00:00 SR (Sinus Rhythm) PAC's None
+2126-10-24 01:00:00-2126-10-24 17:00:00 SR (Sinus Rhythm) PAC's Occasional Frequent
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2126-10-18 02:05:00        32.1        10.2 26.2  31.8  82.0     131.0 3.90 18.3    NaN  9.9
+2126-10-18 04:56:00        30.6         9.9 26.3  32.4  81.0     148.0 3.77 18.2    NaN 10.6
+2126-10-18 09:00:00        31.2         9.9 26.1  31.7  82.0     190.0 3.79 18.3    NaN 11.1
+2126-10-18 16:38:00        29.5         9.5 26.6  32.2  83.0     149.0 3.57 18.7    NaN 10.3
+2126-10-18 23:48:00        28.5         9.0 26.5  31.6  84.0     138.0 3.40 19.3    NaN 10.9
+2126-10-20 01:36:00        28.6         8.9 26.6  31.1  86.0     151.0 3.34 19.8    NaN 11.8
+2126-10-20 16:50:00        28.4         8.7 26.8  30.6  87.0     166.0 3.25 20.0    NaN 14.9
+2126-10-21 02:00:00        28.5         8.4 25.8  29.5  87.0     167.0 3.26 20.0    NaN 12.2
+2126-10-22 01:47:00        26.0         8.1 26.4  31.2  85.0     175.0 3.07 20.2    NaN  9.0
+2126-10-22 16:11:00        25.6         7.9 26.2  30.9  85.0     199.0 3.01 20.2    NaN  9.0
+2126-10-23 01:55:00        28.4         8.7 26.2  30.6  86.0     209.0 3.32 20.7    NaN 11.0
+2126-10-24 01:23:00        27.1         8.4 26.3  31.0  85.0     264.0 3.20 20.8    NaN 10.8
+2126-10-25 01:56:00        24.6         7.7 26.6  31.3  85.0     270.0 2.89 20.9    NaN  8.9
+2126-10-25 16:16:00        27.8         8.6 26.7  30.9  86.0     285.0 3.22 21.2    NaN 13.2
+2126-10-26 01:07:00        26.5         8.4 27.5  31.7  87.0     289.0 3.06 21.4    NaN 13.1
+2126-10-27 01:17:00        25.0         7.4 26.2  29.6  89.0     330.0 2.82 21.2    NaN 12.2
+2126-10-27 19:09:00        25.2         7.5 26.0  29.8  88.0     341.0 2.88 21.4    NaN 11.4
+2126-10-27 23:59:00        25.2         7.5 26.2  29.8  88.0     378.0 2.86 21.8    NaN 13.5
+2126-10-29 01:03:00        22.7         6.7 25.7  29.5  87.0     426.0 2.61 21.7    NaN 13.8
+2126-10-29 08:11:00        24.5         7.5 27.1  30.6  88.0     409.0 2.77 21.0    NaN 12.0
+2126-10-30 02:04:00        24.7         7.5 27.2  30.4  90.0     447.0 2.76 21.4    NaN 11.3
+2126-10-31 02:26:00        28.1         8.4 27.6  29.9  92.0     515.0 3.04 21.9    NaN 10.8
+2126-10-31 22:15:00         NaN         NaN  NaN   NaN   NaN     537.0  NaN  NaN    NaN  NaN
+2126-11-01 01:48:00        30.9         8.6 27.3  27.8  98.0     519.0 3.15 22.2    NaN 11.1
+2126-11-02 01:42:00        24.3         7.0 27.1  28.8  94.0     427.0 2.58 21.8    NaN 10.5
+2126-11-03 01:52:00        25.7         7.3 26.6  28.4  94.0     412.0 2.74 21.7    NaN 10.2
+2126-11-04 01:41:00        27.0         7.6 27.3  28.1  97.0     379.0 2.78 22.3    NaN  8.0
+2126-11-05 02:15:00        26.8         7.6 28.0  28.4  99.0     389.0 2.71 23.7    NaN  7.3
+2126-11-06 09:44:00        31.0         8.9 28.3  28.7  99.0     427.0 3.14 24.4    NaN  8.4
+2126-11-07 04:59:00        30.9         8.8 28.4  28.5 100.0     381.0 3.10 23.9    NaN  9.4
+2126-11-08 05:44:00        31.5         8.9 28.0  28.3  99.0     402.0 3.18 23.1    NaN 10.6
+2126-11-09 05:25:00        30.1         8.5 27.4  28.2  97.0     350.0 3.10 22.4    NaN  9.2
+2126-11-09 20:20:00        31.4         9.3 28.3  29.6  95.0     371.0 3.29 21.8    NaN 10.6
+2126-11-10 06:41:00        32.1         9.5 27.9  29.6  94.0     382.0 3.41 21.9    NaN 10.2
+2126-11-10 17:59:00        31.1         9.2 28.0  29.6  95.0     347.0 3.28 21.4    NaN  8.2
+2126-11-11 05:37:00        33.4         9.7 27.8  29.0  96.0     320.0 3.49 21.0    NaN  8.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2126-10-24 05:00:00
+sbp: 139.0
+dbp: 68.0
+mbp: 89.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 18.0
+temperature: 38.560000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 3
+coagulation_24hours: 0
+liver_24hours: 2
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 7
+
+Physician's Diagnoses:
+1. Other specified complication of vascular prosthetic devices, implants and grafts, initial encounter
+   drg_type: HCFA
+   description: AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Other specified complication of vascular prosthetic devices, implants and grafts, initial encounter
+   drg_type: APR
+   description: OTHER PERIPHERAL VASCULAR PROCEDURES
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Administered medication: Sodium Chloride 0.9% Flush
+  - Start time: 2126-10-18 08:00:00
+  - Stop time: 2126-11-12 22:00:00
+
+- Administered medication: Magnesium Sulfate 4 g / 100 mL (Premix Bag)
+  - Start time: 2126-10-18 03:00:00
+  - Stop time: 2126-11-05 17:00:00
+
+- Administered medication: CeFAZolin 2 g / 100 mL Iso-Osmotic Dextrose
+  - Start time: 2126-10-18 03:00:00
+  - Stop time: 2126-10-20 08:00:00
+
+- Administered medication: Aspirin (Rectal) 600mg Suppository
+  - Start time: 2126-10-18 08:00:00
+  - Stop time: 2126-10-19 09:00:00
+
+- Administered medication: Chlorhexidine Gluconate 15 mL Cup
+  - Start time: 2126-10-18 08:00:00
+  - Stop time: 2126-11-05 12:00:00
+
+- Administered medication: Fondaparinux 2.5 mg / 0.5 mL Syringe
+  - Start time: 2126-10-19 08:00:00
+  - Stop time: 2126-10-28 08:00:00
+
+- Administered medication: Acetaminophen IV
+  - Start time: 2126-10-18 09:00:00
+  - Stop time: 2126-10-19 09:00:00
+
+- Administered medication: Vancomycin 1000 mg / 200 mL Dextrose (Premix)
+  - Start time: 2126-10-18 08:00:00
+  - Stop time: 2126-10-20 10:00:00
+
+- Administered medication: HYDROmorphone (Dilaudid)
+  - Start time: 2126-10-18 12:00:00
+  - Stop time: 2126-10

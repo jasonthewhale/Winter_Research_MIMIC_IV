@@ -1,0 +1,87 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 77
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2120-05-10 20:22:00
+  (6) discharge time: 2120-05-17 15:12:00
+  (7) transfer history: 
+2120-05-10 16:54:00 - 2120-05-10 20:23:16: Emergency Department
+2120-05-10 20:23:16 - 2120-05-10 20:56:09: Medicine/Cardiology
+2120-05-13 11:38:09 - 2120-05-13 14:22:21: PACU
+2120-05-13 14:22:21 - 2120-05-17 15:12:38: Medicine/Cardiology
+2120-05-10 20:56:09 - 2120-05-11 23:49:31: Medicine/Cardiology
+2120-05-11 23:49:31 - 2120-05-13 11:38:09: Coronary Care Unit (CCU)
+2120-05-17 15:12:38: discharge
+
+2. Medical Data
+(1) heart rate: 
+2120-04-18 20:00:00-2120-04-18 22:00:00 AF (Atrial Fibrillation)
+2120-04-19 00:00:00-2120-04-19 03:00:00 1st AV (First degree AV Block)
+2120-04-19 03:00:00-2120-04-19 04:00:00 1st AV (First degree AV Block)
+2120-04-19 16:00:00 A Paced
+2120-04-20 08:00:00-2120-04-20 10:00:00 SR (Sinus Rhythm)
+2120-04-20 22:00:00 A Paced
+2120-04-21 01:00:00 A Paced
+2120-04-21 08:00:00-2120-04-21 20:00:00 A Paced
+2120-04-22 04:00:00-2120-04-22 05:00:00 A Paced
+2120-04-22 15:00:00-2120-04-22 20:00:00 A Paced
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2120-05-11 06:25:00        28.8         9.7 30.9  33.6 92.0     165.0 3.13 16.0    NaN  8.0
+2120-05-11 17:50:00        30.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2120-05-11 23:07:00        34.2        11.8 31.8  34.4 92.0     190.0 3.70 15.7    NaN 14.8
+2120-05-12 04:56:00        30.2        10.5 31.7  34.7 91.0     171.0 3.31 15.8    NaN 13.9
+2120-05-13 03:51:00        31.6        10.6 30.9  33.7 92.0     172.0 3.45 16.0    NaN  9.5
+2120-05-14 06:00:00        34.2        11.9 31.3  34.7 90.0     181.0 3.79 15.9    NaN 12.5
+2120-05-15 05:52:00        35.8        12.1 30.8  33.8 91.0     180.0 3.92 16.4    NaN 16.3
+2120-05-16 08:10:00        34.2        11.5 30.9  33.6 92.0     192.0 3.72 16.2    NaN 15.3
+2120-05-16 15:10:00        33.1        10.9 30.5  33.0 92.0     202.0 3.59 16.0    NaN 12.9
+2120-05-17 07:45:00        32.7        10.8 30.3  33.1 92.0     204.0 3.57 15.9    NaN 11.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2120-04-21 20:00:00
+sbp: 135.0
+dbp: 51.0
+mbp: 75.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Subendocardial infarction, initial episode of care
+   drg_type: HCFA
+   description: PERC CARDIOVASC PROC W NON-DRUG-ELUTING STENT W MCC OR 4+ VES/STENTS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Subendocardial infarction, initial episode of care
+   drg_type: APR
+   description: PERCUTANEOUS CORONARY INTERVENTION W AMI
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Atorvastatin: Administered from 2120-05-10 23:00:00 to 2120-05-13 17:00:00, dose given: 40 mg
+- Sodium Chloride 0.9% Flush: Flushed from 2120-05-10 23:00:00 to 2120-05-17 19:00:00, dose given: 3 mL
+- Aspirin 81mg Tab: Administered from 2120-05-10 08:00:00 to 2120-05-17 19:00:00, dose given: 81 mg
+- Lisinopril 2.5 mg Tablet: Administered from 2120-05-10 08:00:00 to 2120-05-12 00:00:00, dose given: 2.5 mg
+- Metoprolol Tartrate: Administered from 2120-05-10 08:00:00 to 2120-05-12 00:00:00, dose given: 25 mg
+- Oxcarbazepine: Administered from 2120-05-10 08:00:00 to 2120-05-17 19:00:00, dose given: 150 mg
+- Sodium Chloride 0.9% Flush: Flushed from 2120-05-10 23:00:00 to 2120-05-17 19:00:00, dose given: 3 mL
+- Magnesium Oxide 400 mg Tab: Administered from 2120-05-11 12:00:00 to 2120-05-11 23:00:00, dose given: 400 mg
+- Potassium Chloride 10mEq ER Tablet: Administered from 2120-05-11 12:00:00 to 2120-05-11 23:00:00, dose given: 10 mEq

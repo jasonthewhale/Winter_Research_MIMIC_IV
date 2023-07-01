@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 82
+  (3) race: OTHER
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2129-12-15 23:13:00
+  (6) discharge time: 2129-12-23 20:27:00
+  (7) transfer history: 
+2129-12-15 19:11:00 - 2129-12-16 00:11:00: Emergency Department
+2129-12-16 00:11:00 - 2129-12-17 12:33:42: Medicine
+2129-12-18 14:42:47 - 2129-12-23 20:27:47: Medicine
+2129-12-17 12:33:42 - 2129-12-18 14:42:47: Medical Intensive Care Unit (MICU)
+2129-12-23 20:27:47: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2129-12-16 09:00:00        23.4         6.8 29.8  29.1 103.0     234.0 2.28 15.1    NaN  6.6
+2129-12-16 15:00:00        23.8         6.8 30.2  28.6 106.0     232.0 2.25 15.0    NaN  6.3
+2129-12-17 06:10:00        29.2         8.3 29.7  28.4 105.0     240.0 2.79 15.0    NaN  7.5
+2129-12-18 04:31:00        30.1         8.7 29.9  28.9 103.0     241.0 2.91 14.4    NaN  8.9
+2129-12-19 06:35:00        27.8         7.9 30.2  28.4 106.0     213.0 2.62 14.5    NaN  6.7
+2129-12-20 07:09:00        25.8         7.3 29.7  28.3 105.0     189.0 2.46 14.2    NaN  6.2
+2129-12-20 15:06:00        27.1         7.8 30.8  28.8 107.0     199.0 2.53 14.3    NaN  7.3
+2129-12-21 06:55:00        25.0         6.9 29.4  27.6 106.0     198.0 2.35 14.1    NaN  7.4
+2129-12-22 00:00:00        30.9         9.0 29.6  29.1 102.0     215.0 3.04 16.5    NaN  8.0
+2129-12-22 06:54:00        31.6         9.2 29.5  29.1 101.0     207.0 3.12 16.4    NaN  7.9
+2129-12-22 15:51:00        32.0         9.0 28.8  28.1 102.0     213.0 3.13 15.9    NaN  7.1
+2129-12-23 06:45:00        28.0         8.1 29.8  28.9 103.0     204.0 2.72 15.1    NaN  5.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2129-12-17 12:00:00
+sbp: 135.0
+dbp: 98.0
+mbp: nan
+sbp_ni: 135.0
+dbp_ni: 98.0
+mbp_ni: nan
+resp_rate: nan
+temperature: 37.110000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 1
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Pneumonia, unspecified organism
+   drg_type: APR
+   description: OTHER PNEUMONIA
+   drg_severity: 2
+   drg_mortality: 2
+2. Pneumonia, unspecified organism
+   drg_type: HCFA
+   description: SIMPLE PNEUMONIA & PLEURISY W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2129-12-16 04:00:00, stop time: 2129-12-24 01:00:00
+- Administered: Levothyroxine Sodium 175mcg Tablet, start time: 2129-12-16 04:00:00, stop time: 2129-12-24 01:00:00
+- Administered: Docusate Sodium 100mg Capsule, start time: 2129-12-16 04:00:00, stop time: 2129-12-17 15:00:00
+- Administered: Fluticasone Propionate NASAL 16g NASAL SPRAY, start time: 2129-12-16 04:00:00, stop time: 2129-12-24 01:00:00
+- Administered: Lactulose, start time: 2129-12-16 04:00:00, stop time: 2129-12-21 11:00:00
+- Administered: Multivitamins 1 Tablet, start time: 2129-12-16 04:00:00, stop time: 2129-12-24 01:00:00
+- Delayed Administered: amLODIPine 5mg Tablet, start time: 2129-12-16 04:00:00, stop time: 2129-12-21 10:00:00
+- Delayed Administered: amLODIPine 5mg Tablet, start time: 2129-12-16 04:00:00, stop time: 2129-12-21 10:00:00
+- Delayed Administered: Cetirizine 10mg Tablet, start time: 2129-12-16 04:00:00, stop time: 2129-12-17 15:00:00

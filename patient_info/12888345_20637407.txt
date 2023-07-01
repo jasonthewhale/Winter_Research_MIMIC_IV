@@ -1,0 +1,82 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 69
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2174-05-30 15:05:00
+  (6) discharge time: 2174-06-06 14:25:00
+  (7) transfer history: 
+2174-05-30 15:05:58 - 2174-05-30 16:29:47: Medicine/Cardiology
+2174-05-31 07:19:13 - 2174-05-31 10:48:22: PACU
+2174-06-01 18:47:49 - 2174-06-06 14:35:08: Cardiac Surgery
+2174-05-30 16:29:47 - 2174-05-30 19:32:25: Medicine/Cardiology
+2174-05-30 19:32:25 - 2174-05-31 07:19:13: Coronary Care Unit (CCU)
+2174-05-31 10:48:22 - 2174-06-01 18:47:49: Cardiac Vascular Intensive Care Unit (CVICU)
+2174-06-06 14:35:08: discharge
+
+2. Medical Data
+(1) heart rate: 
+2174-05-31 06:00:00-2174-05-31 06:00:00 SR (Sinus Rhythm)
+2174-05-31 06:00:00-2174-05-31 06:00:00 PAC's
+2174-05-31 06:00:00-2174-05-31 06:00:00 Occasional
+2174-05-31 06:00:00-2174-05-31 06:00:00 None
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2174-05-31 06:00:00        37.8        12.7 29.3  33.6 87.0     256.0 4.33 12.8    NaN  9.3
+2174-05-31 11:44:00        27.9         9.2 29.1  33.0 88.0     166.0 3.16 12.8    NaN 24.5
+2174-05-31 12:43:00        36.3        12.2 29.5  33.6 88.0     212.0 4.13 12.8    NaN 27.8
+2174-05-31 18:03:00        31.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2174-05-31 21:18:00        29.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2174-06-01 03:01:00        30.7        10.3 29.0  33.6 87.0     197.0 3.55 13.0    NaN 15.7
+2174-06-02 06:20:00        26.9         8.7 28.9  32.3 89.0     134.0 3.01 13.2    NaN 14.4
+2174-06-02 14:53:00        25.5         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2174-06-03 07:20:00        27.5         9.0 29.2  32.7 89.0     179.0 3.08 13.2    NaN 14.9
+2174-06-04 15:45:00        26.4         8.6 29.3  32.6 90.0     204.0 2.94 13.0    NaN 11.0
+2174-06-05 03:31:00        26.0         8.4 28.8  32.3 89.0     252.0 2.92 13.0    NaN 10.9
+2174-06-06 06:35:00        27.3         8.7 28.6  31.9 90.0     315.0 3.04 12.8    NaN 11.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2174-05-31 04:00:00
+sbp: 137.0
+dbp: 73.0
+mbp: 106.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 19.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. ST elevation (STEMI) myocardial infarction of unspecified site
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 3
+2. ST elevation (STEMI) myocardial infarction of unspecified site
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W CARD CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Furosemide-Heart Failure: Administered from 2174-05-30 17:00:00 to 2174-05-30 20:00:00, dose given: 20 mg
+- Sodium Chloride 0.9% Flush: Flushed from 2174-05-30 17:00:00 to 2174-05-30 20:00:00, dose given: 3 mL
+- Nitroglycerin SL: Administered from 2174-05-30 17:00:00 to 2174-05-30 20:00:00, dose given: 0.4 mg
+- Atorvastatin: Administered from 2174-05-30 21:00:00 to 2174-05-31 11:00:00, dose given: 80 mg
+- Insulin: Administered from 2174-05-30 21:00:00 to 2174-05-31 11:00:00, dose given: 0 units
+- Mupirocin Ointment 2%: Administered from 2174-05-31 08:00:00 to 2174-05-31 11:00:00, dose given: 1 appl
+- Insulin: Administered from 2174-05-30 23:00:00 to 2174-05-31 11:00:00, dose given: 2 units
+- Acetaminophen: Administered from 2174-05-30 21:00:00 to 2174-05-31 11:00:00, dose given: 325 mg

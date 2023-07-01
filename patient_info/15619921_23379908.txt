@@ -1,0 +1,75 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 66
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2126-08-18 23:32:00
+  (6) discharge time: 2126-08-28 13:58:00
+  (7) transfer history: 
+2126-08-18 17:14:00 - 2126-08-19 00:39:00: Emergency Department
+2126-08-19 00:39:00 - 2126-08-19 18:08:39: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2126-08-19 18:08:39 - 2126-08-28 14:13:21: Med/Surg/GYN
+2126-08-28 14:13:21: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2126-08-19 04:16:00        22.5         6.9 35.3  30.8 115.0     653.0 1.97 26.5    NaN  3.8
+2126-08-19 09:15:00        26.9         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2126-08-20 08:08:00        29.0         9.2 34.0  31.9 107.0     696.0 2.72 27.1    NaN  4.2
+2126-08-21 10:10:00        27.7         8.7 34.2  31.6 108.0     617.0 2.55 26.1    NaN  3.2
+2126-08-22 07:25:00        28.0         8.7 33.9  31.1 109.0     596.0 2.57 25.9    NaN  2.9
+2126-08-24 07:40:00        28.0         8.6 33.4  30.7 109.0     559.0 2.57 25.1    NaN  3.7
+2126-08-26 06:00:00        26.1         8.1 33.5  30.9 109.0     538.0 2.40 25.6    NaN  3.1
+2126-08-27 07:30:00        25.5         8.2 34.3  32.0 107.0     497.0 2.38 25.2    NaN  2.9
+2126-08-28 07:15:00        25.1         7.7 33.9  30.7 110.0     506.0 2.28 25.8    NaN  3.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2127-04-27 12:00:00
+sbp: 154.0
+dbp: 66.0
+mbp: 88.0
+sbp_ni: 154.0
+dbp_ni: 66.0
+mbp_ni: 88.0
+resp_rate: 33.0
+temperature: 36.830000000
+temperature_site: Oral
+spo2: 91.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Acute pancreatitis
+   drg_type: APR
+   description: DISORDERS OF PANCREAS EXCEPT MALIGNANCY
+   drg_severity: 3
+   drg_mortality: 2
+2. Acute pancreatitis
+   drg_type: HCFA
+   description: DISORDERS OF PANCREAS EXCEPT MALIGNANCY W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Morphine Sulfate (Syringe) 2mg Syringe: Administered from 2126-08-19 02:00:00 to 2126-08-20 09:00:00
+- Ondansetron 2mg/mL-2mL: Administered from 2126-08-19 02:00:00 to 2126-08-27 09:00:00
+- Apixaban 5 MG TABLET: Administered from 2126-08-19 08:00:00 to 2126-08-23 06:00:00
+- Metoprolol Tartrate: Administered from 2126-08-19 08:00:00 to 2126-08-28 18:00:00
+- Atorvastatin: Administered from 2126-08-19 08:00:00 to 2126-08-28 18:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial: Delayed Administered from 2126-08-19 02:00:00 to 2126-08-20 13:00:00
+- Morphine Sulfate (Syringe) 2mg Syringe: Administered from 2126-08-19 02:00:00 to 2126-08-20 09:00:00
+- Morphine Sulfate (Syringe) 2mg Syringe: Administered from 2126-08-19 02:00:00 to 2126-08-20 09:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2126-08-19 03:00:00 to 2126-08-28 18:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2126-08-19 19:00:00 to 2126-08-28 18:00:00

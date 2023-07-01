@@ -1,0 +1,70 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 48
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2187-07-03 17:52:00
+  (6) discharge time: 2187-07-05 16:00:00
+  (7) transfer history: 
+2187-07-03 16:11:00 - 2187-07-03 18:50:00: Emergency Department
+2187-07-03 18:50:00 - 2187-07-04 16:58:59: Medicine
+2187-07-04 16:58:59 - 2187-07-04 17:52:53: PACU
+2187-07-04 17:52:53 - 2187-07-05 16:11:11: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2187-07-05 16:11:11: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2187-07-03 20:43:00        32.9        11.4 28.6  34.7 82.0     407.0 4.00 14.2    NaN  8.3
+2187-07-04 06:20:00        34.8        11.2 27.4  32.3 85.0     442.0 4.10 13.9    NaN  8.7
+2187-07-04 20:03:00        32.7        10.8 27.9  32.9 85.0     396.0 3.85 13.9    NaN  8.6
+2187-07-05 02:40:00        29.7        10.1 28.3  34.1 83.0     361.0 3.58 14.1    NaN  8.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2187-07-04 22:00:00
+sbp: 100.0
+dbp: 56.0
+mbp: 64.0
+sbp_ni: 100.0
+dbp_ni: 56.0
+mbp_ni: 64.0
+resp_rate: 14.0
+temperature: 36.500000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Malignant neoplasm of lower third of esophagus
+   drg_type: HCFA
+   description: DIGESTIVE MALIGNANCY W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Malignant neoplasm of lower third of esophagus
+   drg_type: APR
+   description: DIGESTIVE MALIGNANCY
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Metoprolol Tartrate: Administered from 2187-07-03 21:00:00 to 2187-07-04 19:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2187-07-03 21:00:00 to 2187-07-04 19:00:00
+- OxycoDONE (Immediate Release) 5mg Tablet: Administered from 2187-07-03 20:00:00 to 2187-07-04 19:00:00
+- Lisinopril 2.5 mg Tablet: Administered from 2187-07-04 08:00:00 to 2187-07-04 09:00:00
+- Lorazepam 0.5mg Tablet: Administered from 2187-07-03 21:00:00 to 2187-07-04 19:00:00
+- Aripiprazole 10mg Tablet: Administered from 2187-07-04 08:00:00 to 2187-07-04 19:00:00
+- Atorvastatin: Administered from 2187-07-04 20:00:00 to 2187-07-04 19:00:00
+- Gabapentin 300mg Capsule: Administered from 2187-07-03 22:00:00 to 2187-07-04 19:00:00
+- Venlafaxine 75mg Tablet: Administered from 2187-07-04 08:00:00 to 2187-07-04 19:00:00

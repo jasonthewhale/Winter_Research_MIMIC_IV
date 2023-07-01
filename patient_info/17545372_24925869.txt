@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 71
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2149-05-28 17:13:00
+  (6) discharge time: 2149-06-09 14:58:00
+  (7) transfer history: 
+2149-05-28 10:05:00 - 2149-05-28 17:14:22: Emergency Department
+2149-05-28 17:14:22 - 2149-05-28 22:53:25: Hematology/Oncology Intermediate
+2149-05-29 14:04:32 - 2149-05-29 18:46:52: Medicine
+2149-05-30 02:36:36 - 2149-05-30 17:19:03: Medicine
+2149-05-30 17:19:03 - 2149-06-09 14:59:06: Medicine
+2149-05-28 22:53:25 - 2149-05-28 23:40:41: Discharge Lounge
+2149-05-28 23:40:41 - 2149-05-29 14:04:32: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2149-05-29 18:46:52 - 2149-05-30 02:36:36: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2149-06-09 14:59:06: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2149-05-29 01:45:00        32.8        10.5 27.9  32.0 87.0      77.0 3.76 14.7    NaN  6.3
+2149-05-30 05:05:00        27.8         8.8 27.3  31.7 86.0      85.0 3.22 14.9    NaN  5.1
+2149-05-30 12:40:00        28.0         9.0 28.0  32.1 87.0      90.0 3.22 15.0    NaN  4.9
+2149-05-31 03:50:00        28.1         8.9 27.5  31.7 87.0      98.0 3.24 15.3    NaN  4.0
+2149-06-01 05:56:00        28.2         8.7 26.9  30.9 87.0      99.0 3.24 15.5    NaN  3.4
+2149-06-02 10:00:00        35.0        10.6 27.2  30.3 90.0     162.0 3.90 16.1    NaN  5.9
+2149-06-03 04:11:00        34.1        10.4 27.0  30.5 89.0     193.0 3.85 15.9    NaN  6.9
+2149-06-06 05:02:00        32.8        10.1 27.5  30.8 89.0     255.0 3.67 15.3    NaN  7.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2149-05-29 18:00:00
+sbp: 100.0
+dbp: 72.0
+mbp: 78.0
+sbp_ni: 100.0
+dbp_ni: 72.0
+mbp_ni: 78.0
+resp_rate: 24.0
+temperature: 37.330000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 0
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Infection following a procedure, superficial incisional surgical site, initial encounter
+   drg_type: HCFA
+   description: POSTOPERATIVE & POST-TRAUMATIC INFECTIONS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Infection following a procedure, superficial incisional surgical site, initial encounter
+   drg_type: APR
+   description: POST-OPERATIVE, POST-TRAUMATIC, OTHER DEVICE INFECTIONS
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Vancomycin 1500 mg / 500 mL 0.9% Sodium Chloride (Started: 2146-10-14 06:00:00, Stopped: 2146-10-22 20:00:00)
+- PNEUMOcoccal 23-valent polysaccharide vaccine (Started: 2146-10-14 05:08:40, Stopped: Discontinued via patient discharge)
+- Acetaminophen 325mg Tablet (Administered: 2149-05-29 03:00:00, Stopped: 2149-06-04 12:00:00)
+- Ciprofloxacin 200 mg / 100 mL 5% Dextrose (Administered: 2149-05-29 04:00:00, Stopped: 2149-05-30 03:00:00)
+- Phytonadione 5 mg in 50 mL 5% Dextrose (Administered: 2149-05-29 05:00:00, Stopped: 2149-05-30 03:00:00)
+- Magnesium Sulfate 4 g / 100 mL (Premix Bag) (Administered: 2149-05-29 05:00:00, Stopped: 2149-05-29 14:00:00)
+- Levothyroxine Sodium 100mcg Tablet (Administered: 2149-05-29 05:00:00, Stopped: 2149-06-09 19:00:00)
+- Anastrozole 1mg Tablet (Not Given: 2149-05-29 08:00:00, Stopped: 2149-05-29 14:00:00)
+- Aspirin 81mg Tab (Administered: 2149-05-29 05:00:00, Stopped: 2149-06-09 19:00:00)

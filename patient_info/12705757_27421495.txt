@@ -1,0 +1,84 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 63
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2185-07-20 15:20:00
+  (6) discharge time: 2185-08-02 16:15:00
+  (7) transfer history: 
+2185-07-20 12:28:00 - 2185-07-20 17:18:00: Emergency Department
+2185-07-20 17:18:00 - 2185-07-28 19:23:32: Medicine
+2185-07-29 23:26:47 - 2185-08-02 16:18:17: Medicine
+2185-07-28 19:23:32 - 2185-07-29 23:26:47: Trauma SICU (TSICU)
+2185-08-02 16:18:17: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2185-07-21 06:28:00        30.1         9.5 27.1  31.6 86.0     381.0 3.51 13.5    NaN  6.9
+2185-07-22 04:15:00        29.5         9.3 26.9  31.5 85.0     348.0 3.46 13.2    NaN  7.3
+2185-07-23 05:15:00        28.7         9.1 27.0  31.7 85.0     321.0 3.37 13.2    NaN  6.0
+2185-07-24 07:55:00        28.7         9.2 27.3  32.1 85.0     303.0 3.37 13.3    NaN  6.6
+2185-07-25 05:51:00        27.3         8.8 27.6  32.2 86.0     307.0 3.19 13.4    NaN  5.5
+2185-07-26 06:50:00        29.2         9.2 27.1  31.5 86.0     309.0 3.39 13.8    NaN  5.0
+2185-07-27 04:50:00        27.6         8.8 27.8  31.9 87.0     307.0 3.17 14.1    NaN  5.9
+2185-07-27 17:19:00        27.3         8.5 27.5  31.1 88.0     286.0 3.09 14.5    NaN  5.9
+2185-07-27 23:33:00        24.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2185-07-28 05:28:00        25.1         7.9 27.5  31.5 88.0     286.0 2.87 14.4    NaN  7.1
+2185-07-28 18:58:00        25.8         8.2 27.3  31.8 86.0     287.0 3.00 14.6    NaN  7.6
+2185-07-29 00:48:00        23.9         7.5 26.9  31.4 86.0     268.0 2.79 14.6    NaN  7.2
+2185-07-29 04:53:00        27.5         9.0 28.0  32.7 86.0     282.0 3.21 14.6    NaN  7.4
+2185-07-29 11:10:00        30.4        10.0 28.2  32.9 86.0     278.0 3.54 14.2    NaN  8.2
+2185-07-29 17:30:00        29.8         9.9 28.3  33.2 85.0     288.0 3.50 14.6    NaN  8.1
+2185-07-30 05:47:00        29.1         9.4 28.0  32.3 87.0     269.0 3.36 14.9    NaN  7.2
+2185-07-31 05:32:00        28.0         9.0 28.0  32.1 87.0     268.0 3.22 15.1    NaN  6.4
+2185-08-01 05:07:00        27.4         8.9 28.4  32.5 88.0     268.0 3.13 15.2    NaN  5.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2185-07-29 01:25:00
+sbp: 111.0
+dbp: 62.0
+mbp: 74.0
+sbp_ni: 111.0
+dbp_ni: 62.0
+mbp_ni: 74.0
+resp_rate: 22.0
+temperature: 36.830000000
+temperature_site: None
+spo2: 97.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 1
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene
+   drg_type: APR
+   description: AMPUTATION OF LOWER LIMB EXCEPT TOES
+   drg_severity: 4
+   drg_mortality: 4
+2. Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene
+   drg_type: HCFA
+   description: AMPUTATION FOR CIRC SYS DISORDERS EXC UPPER LIMB & TOE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2185-07-20 18:00:00, Stop Time: 2185-07-27 17:00:00
+- Insulin (Administered) - Start Time: 2185-07-20 19:00:00, Stop Time: 2185-07-21 11:00:00
+- Metronidazole 500 mg / 100 mL NS (Administered) - Start Time: 2185-07-20 18:00:00, Stop Time: 2185-07-21 19:00:00
+- OxyCODONE (Immediate Release) 5mg Tablet (Administered) - Start Time: 2185-07-20 18:00:00, Stop Time: 2185-07-29 13:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2185-07-20 18:00:00, Stop Time: 2185-07-27 17:00:00
+- Atorvastatin (Administered) - Start Time: 2185-07-20 18:00:00, Stop Time: 2185-07-27 17:00:00
+- Gabapentin 300mg Capsule (Administered) - Start Time: 2185-07-20 18:00:00, Stop Time: 2185-07-27 17:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered) - Start Time: 2185-07-20 20:00:00, Stop Time: 2185-07-27 17:00:00
+- HYDROmorphone (Dilaudid) (Administered) - Start Time: 2185-07-20 18:00:00, Stop Time: 2185-07-21 10:00:00

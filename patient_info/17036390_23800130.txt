@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 58
+  (3) race: ASIAN - CHINESE
+  (4) admission type: EW EMER.
+  (5) admit time: 2156-02-20 01:32:00
+  (6) discharge time: 2156-02-25 19:50:00
+  (7) transfer history: 
+2156-02-19 13:24:00 - 2156-02-20 04:18:00: Emergency Department
+2156-02-20 04:18:00 - 2156-02-22 01:56:24: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2156-02-22 01:56:24 - 2156-02-25 19:54:19: Medicine
+2156-02-25 19:54:19: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2156-02-19 16:08:00        39.6        12.8 31.3  32.3 97.0     136.0 4.09 20.4    NaN  6.3
+2156-02-20 06:31:00        41.3        13.1 31.4  31.7 99.0     144.0 4.17 21.0    NaN  6.6
+2156-02-20 16:43:00        41.5        13.5 31.5  32.5 97.0     144.0 4.28 20.5    NaN  7.8
+2156-02-21 05:35:00        34.6        11.3 31.5  32.7 96.0     114.0 3.59 20.2    NaN  8.0
+2156-02-22 05:30:00        33.9        11.1 31.5  32.7 96.0     115.0 3.52 20.9    NaN  6.9
+2156-02-23 06:09:00        35.5        11.5 31.3  32.4 97.0     110.0 3.68 21.1    NaN  5.5
+2156-02-24 06:50:00        34.7        11.4 31.8  32.9 97.0     117.0 3.58 21.1    NaN  4.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2152-04-24 20:00:00
+sbp: 98.0
+dbp: 55.0
+mbp: 70.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 19.0
+temperature: 37.220000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Other postprocedural shock, initial encounter
+   drg_type: APR
+   description: OTHER COMPLICATIONS OF TREATMENT
+   drg_severity: 3
+   drg_mortality: 3
+2. Other postprocedural shock, initial encounter
+   drg_type: HCFA
+   description: COMPLICATIONS OF TREATMENT W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Lidocaine Jelly 2% (Glydo) - Administered from 2156-02-20 06:00:00 to 2156-02-20 08:00:00
+- Sodium Chloride 0.9% Flush - Flushed from 2156-02-20 05:00:00 to 2156-02-23 07:00:00
+- Piperacillin-Tazobactam 4.5 g / 100 mL Iso-Osmotic Dextrose - Administered from 2156-02-20 06:00:00 to 2156-02-20 08:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial - Administered from 2156-02-20 05:00:00 to 2156-02-26 00:00:00
+- MethylPHENIDATE (Ritalin) 5mg Tablet - Administered from 2156-02-20 06:00:00 to 2156-02-25 07:00:00
+- Vancomycin 750 mg / 150 mL Iso-Osmotic Dextrose (Premix) - Administered from 2156-02-20 08:00:00 to 2156-02-20 08:00:00
+- Phytonadione 5mg Tablet - Administered from 2156-02-20 09:00:00 to 2156-02-20 14:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial - Administered from 2156-02-20 05:00:00 to 2156-02-26 00:00:00
+- Furosemide 20mg Tablet - Administered from 2156-02-21 08:00:00 to 2156-02-21 18:00:00
+- Sodium Chloride 0.9% Flush - Flushed from 2156-02-20 05:00:00 to 2156-02-23 07:00:00

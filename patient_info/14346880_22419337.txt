@@ -1,0 +1,79 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 43
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2145-01-06 08:00:00
+  (6) discharge time: 2145-01-16 19:04:00
+  (7) transfer history: 
+2145-01-06 17:34:53 - 2145-01-12 11:29:05: Transplant
+2145-01-14 13:43:32 - 2145-01-16 19:05:00: Cardiology Surgery Intermediate
+2145-01-12 11:29:05 - 2145-01-12 13:41:15: PACU
+2145-01-12 13:41:15 - 2145-01-14 13:43:32: Cardiac Vascular Intensive Care Unit (CVICU)
+2145-01-16 19:05:00: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2145-01-07 06:30:00        34.6        10.9 28.8  31.5 92.0     440.0 3.78 14.7    NaN 15.3
+2145-01-08 06:38:00        33.2        10.4 29.4  31.3 94.0     418.0 3.54 14.8    NaN 13.6
+2145-01-09 04:52:00        31.8         9.9 29.4  31.1 94.0     397.0 3.37 14.6    NaN 13.9
+2145-01-10 04:45:00        34.2        10.8 29.8  31.6 95.0     452.0 3.62 14.6    NaN 10.5
+2145-01-11 05:00:00        33.5        10.6 29.2  31.6 92.0     454.0 3.63 14.4    NaN 10.6
+2145-01-12 05:08:00        29.9         9.5 29.5  31.8 93.0     433.0 3.22 14.4    NaN  8.6
+2145-01-12 14:52:00        22.4         7.1 30.0  31.7 95.0     145.0 2.37 14.4    NaN  9.7
+2145-01-12 15:58:00        27.7         8.7 29.0  31.4 92.0     202.0 3.00 14.5    NaN 13.1
+2145-01-13 01:05:00        27.0         8.7 29.3  32.2 91.0     292.0 2.97 14.4    NaN 11.5
+2145-01-14 02:17:00        27.8         8.6 28.9  30.9 93.0     359.0 2.98 14.5    NaN 13.1
+2145-01-14 14:40:00        24.8         7.9 29.5  31.9 93.0     341.0 2.68 14.6    NaN 13.4
+2145-01-15 05:21:00        23.9         7.6 29.7  31.8 93.0     342.0 2.56 14.5    NaN 13.9
+2145-01-16 04:28:00        24.9         7.7 29.3  30.9 95.0     433.0 2.63 14.7    NaN 13.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2145-01-12 20:00:00
+sbp: 106.0
+dbp: 59.0
+mbp: 76.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 13.0
+temperature: 36.560000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 1
+cns: 1
+renal: 0
+respiration_24hours: 1
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Calculus of gallbladder and bile duct without cholecystitis without obstruction
+   drg_type: HCFA
+   description: CHOLECYSTECTOMY W C.D.E. W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Calculus of gallbladder and bile duct without cholecystitis without obstruction
+   drg_type: APR
+   description: CHOLECYSTECTOMY
+   drg_severity: 2
+   drg_mortality: 2
+
+Medication:
+- Sodium Chloride 0.9% Flush (starttime: 2145-01-06 18:00:00, stoptime: 2145-01-12 23:00:00)
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (starttime: 2145-01-06 18:00:00, stoptime: 2145-01-12 23:00:00)
+- Clindamycin 600mg / 50 mL Iso-Osmotic Dextrose (starttime: 2145-01-06 17:00:00, stoptime: 2145-01-07 04:00:00)
+- Heparin (starttime: 2145-01-06 18:00:00, stoptime: 2145-01-08 11:00:00)
+- Acetaminophen IV (starttime: 2145-01-06 18:00:00, stoptime: 2145-01-08 17:00:00)
+- Levothyroxine Sodium (starttime: 2145-01-06 08:00:00, stoptime: 2145-01-08 04:00:00)
+- Acetaminophen IV (starttime: 2145-01-06 18:00:00, stoptime: 2145-01-08 17:00:00)
+- Amphetamine-Dextroamphetamine (starttime: 2145-01-07 08:00:00, stoptime: 2145-01-12 23:00:00)
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (starttime: 2145-01-06 18:00:00, stoptime: 2145-01-12 23:00:00)

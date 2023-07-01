@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 91
+  (3) race: WHITE
+  (4) admission type: ELECTIVE
+  (5) admit time: 2139-08-01 10:30:00
+  (6) discharge time: 2139-08-07 16:30:00
+  (7) transfer history: 
+2139-08-01 14:46:14 - 2139-08-02 07:18:18: Medicine/Cardiology
+2139-08-02 07:18:18 - 2139-08-02 09:33:08: PACU
+2139-08-05 12:29:49 - 2139-08-07 17:08:28: Medicine/Cardiology
+2139-08-02 09:33:08 - 2139-08-05 12:29:49: Coronary Care Unit (CCU)
+2139-08-07 17:08:28: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2139-08-01 17:05:00        33.5        10.0 26.7  29.9 89.0     266.0 3.75 15.9    NaN  6.8
+2139-08-02 05:00:00        28.4         8.7 27.3  30.6 89.0     221.0 3.19 15.9    NaN  6.2
+2139-08-02 10:05:00        28.0         8.6 27.4  30.7 89.0     227.0 3.14 16.0    NaN 11.0
+2139-08-02 10:28:00        26.7         8.2 27.3  30.7 89.0     203.0 3.00 15.9    NaN  7.8
+2139-08-02 17:30:00        25.4         7.9 27.3  31.1 88.0     188.0 2.89 16.0    NaN  7.9
+2139-08-02 21:46:00        25.1         7.8 27.5  31.1 88.0     215.0 2.84 15.9    NaN  9.5
+2139-08-03 03:59:00        23.9         7.3 26.8  30.5 88.0     194.0 2.72 16.1    NaN  9.1
+2139-08-03 17:51:00        30.3         9.6 27.7  31.7 87.0     182.0 3.47 15.6    NaN  8.6
+2139-08-04 03:48:00        25.5         8.1 28.0  31.8 88.0     156.0 2.89 15.6    NaN  6.7
+2139-08-04 10:20:00        30.8         9.7 27.7  31.5 88.0     177.0 3.50 15.9    NaN  8.0
+2139-08-05 03:02:00        26.2         8.2 28.0  31.3 89.0     166.0 2.93 15.9    NaN  6.5
+2139-08-06 08:45:00        30.1         9.2 27.5  30.6 90.0     156.0 3.34 16.0    NaN  8.3
+2139-08-07 04:25:00        29.4         9.0 28.0  30.6 91.0     154.0 3.22 16.0    NaN  8.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2139-08-02 12:00:00
+sbp: 122.0
+dbp: 51.0
+mbp: 75.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.0
+temperature: 36.330000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Nonrheumatic aortic (valve) stenosis
+   drg_type: APR
+   description: PERCUTANEOUS CORONARY INTERVENTION W/O AMI
+   drg_severity: 4
+   drg_mortality: 3
+2. Nonrheumatic aortic (valve) stenosis
+   drg_type: HCFA
+   description: ENDOVASCULAR CARDIAC VALVE REPLACEMENT W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, administered from 2139-08-01 16:00:00 to 2139-08-02 10:00:00
+- Administered: Clopidogrel 300 mg Tablet, 300 mg, administered from 2139-08-01 18:00:00 to 2139-08-01 21:00:00
+- Administered: Mupirocin Ointment 2%, applied once, administered from 2139-08-01 16:00:00 to 2139-08-01 21:00:00
+- Administered: Docusate Sodium 100mg Capsule, 100 mg, administered from 2139-08-01 20:00:00 to 2139-08-02 10:00:00
+- Administered: Senna 8.6 mg Tablet, 8.6 mg, administered from 2139-08-01 22:00:00 to 2139-08-02 10:00:00
+- Administered: Simvastatin 10mg Tablet, 10 mg, administered from 2139-08-01 22:00:00 to 2139-08-02 10:00:00
+- Administered: Metoprolol Tartrate, 12.5 mg, administered from 2139-08-01 22:00:00 to 2139-08-02 10:00:00
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, administered from 2139-08-01 16:00:00 to 2139-08-02 10:00:00
+- Administered: Mupirocin Ointment 2%, applied once, administered from 2139-08-01 16:00:00 to 2139-08-02 10:00:00
+- Administered: Aspirin, 325 mg, administered from 2139-08-02 06:00:00 to 2139-08-02 10:00:00

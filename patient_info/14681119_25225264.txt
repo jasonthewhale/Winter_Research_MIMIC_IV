@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 73
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2111-08-12 16:30:00
+  (6) discharge time: 2111-08-20 19:18:00
+  (7) transfer history: 
+2111-08-12 15:24:00 - 2111-08-12 16:31:55: Emergency Department
+2111-08-12 16:31:55 - 2111-08-12 16:38:37: Neuro Intermediate
+2111-08-12 17:12:07 - 2111-08-12 19:03:55: Neuro Intermediate
+2111-08-12 19:03:55 - 2111-08-17 04:26:30: Neuro Intermediate
+2111-08-17 04:26:30 - 2111-08-20 19:18:22: Medicine
+2111-08-12 16:38:37 - 2111-08-12 17:12:07: Discharge Lounge
+2111-08-20 19:18:22: discharge
+
+2. Medical Data
+(1) heart rate: 
+2111-08-12 20:04:00-2111-08-13 00:00:00 SR (Sinus Rhythm)
+2111-08-13 00:00:00-2111-08-13 04:00:00 ST (Sinus Tachycardia)
+2111-08-13 04:00:00-2111-08-13 04:00:00 SR (Sinus Rhythm)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2111-08-13 06:32:00        26.9         8.0 28.0  29.7 94.0     300.0 2.86 18.3    NaN 10.4
+2111-08-14 06:30:00        27.9         8.5 27.8  30.5 91.0     349.0 3.06 18.7    NaN 12.6
+2111-08-14 12:01:00        26.7         8.1 27.8  30.3 92.0     350.0 2.91 18.6    NaN 11.3
+2111-08-15 05:31:00        29.2         8.8 28.6  30.1 95.0     314.0 3.08 19.2    NaN 12.7
+2111-08-16 05:00:00        25.7         7.7 28.2  30.0 94.0     350.0 2.73 19.3    NaN  8.5
+2111-08-17 08:02:00        25.7         7.8 28.2  30.4 93.0     351.0 2.77 19.3    NaN  7.6
+2111-08-18 07:52:00        25.0         7.5 28.4  30.0 95.0     354.0 2.64 19.1    NaN  7.9
+2111-08-19 08:12:00        26.8         8.0 28.2  29.9 94.0     385.0 2.84 19.1    NaN 10.8
+2111-08-20 08:04:00        27.4         8.2 28.1  29.9 94.0     368.0 2.92 19.0    NaN 10.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2111-08-12 20:04:00
+sbp: 151.0
+dbp: 58.0
+mbp: 77.0
+sbp_ni: 151.0
+dbp_ni: 58.0
+mbp_ni: 77.0
+resp_rate: nan
+temperature: 37.170000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: <NA>
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Traumatic subdural hemorrhage without loss of consciousness, initial encounter
+   drg_type: APR
+   description: HEAD TRAUMA W COMA >1 HR OR HEMORRHAGE
+   drg_severity: 3
+   drg_mortality: 3
+2. Traumatic subdural hemorrhage without loss of consciousness, initial encounter
+   drg_type: HCFA
+   description: TRAUMATIC STUPOR & COMA, COMA <1 HR W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Diltiazem 30 mg Tab (Administered) - Start time: 2111-08-12 20:00:00, Stop time: 2111-08-13 22:00:00
+- Docusate Sodium 100mg Capsule (Administered) - Start time: 2111-08-12 20:00:00, Stop time: 2111-08-20 23:00:00
+- Ipratropium-Albuterol Neb (Administered) - Start time: 2111-08-12 21:00:00, Stop time: 2111-08-20 23:00:00
+- Furosemide (Administered) - Start time: 2111-08-12 21:00:00, Stop time: 2111-08-13 18:00:00
+- Furosemide (Administered) - Start time: 2111-08-12 21:00:00, Stop time: 2111-08-13 18:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start time: 2111-08-12 20:00:00, Stop time: 2111-08-19 09:00:00
+- CarBAMazepine 200mg Tablet (Administered) - Start time: 2111-08-12 20:00:00, Stop time: 2111-08-20 23:00:00
+- CarBAMazepine 200mg Tablet (Administered) - Start time: 2111-08-12 20:00:00, Stop time: 2111-08-20 23:00:00
+- Acetaminophen 325mg Tablet (Administered) - Start time: 2111-08-12 20:00:00, Stop time: 2111-08-20 23:00:00
+- Acetaminophen 325mg Tablet (Administered) - Start time: 2111-08-12 20:00:00, Stop time: 2111-08-20 23:00:00

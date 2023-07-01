@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 56
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2151-07-31 17:21:00
+  (6) discharge time: 2151-08-08 16:30:00
+  (7) transfer history: 
+2151-07-31 17:24:07 - 2151-08-04 15:01:19: Coronary Care Unit (CCU)
+2151-08-04 15:01:19 - 2151-08-08 19:03:46: Medicine/Cardiology
+2151-08-08 19:03:46: discharge
+
+2. Medical Data
+(1) heart rate: 
+2151-09-07 05:57:00-06:00:00 AF (Atrial Fibrillation) with PVC's occurring occasionally.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2151-07-31 18:28:00        34.0        11.5 33.0  33.8  98.0     256.0 3.48 14.0    NaN  7.3
+2151-08-01 01:54:00        35.8        11.7 32.8  32.7 100.0     230.0 3.57 14.2    NaN  8.0
+2151-08-02 03:25:00        37.6        11.6 32.1  30.9 104.0     246.0 3.61 14.6    NaN  6.9
+2151-08-02 14:48:00        33.6        10.7 33.2  31.8 104.0     220.0 3.22 14.5    NaN  6.8
+2151-08-02 20:13:00        37.5        11.6 32.8  30.9 106.0     233.0 3.54 14.8    NaN 13.2
+2151-08-03 05:10:00        36.5        11.4 32.8  31.2 105.0     253.0 3.48 14.9    NaN 13.4
+2151-08-04 06:07:00        35.9        11.5 32.6  32.0 102.0     226.0 3.53 14.9    NaN 10.2
+2151-08-05 06:08:00        36.6        11.9 33.1  32.5 102.0     251.0 3.59 15.0    NaN 12.7
+2151-08-06 06:55:00        37.5        12.1 32.9  32.3 102.0     298.0 3.68 15.0    NaN 10.0
+2151-08-07 06:48:00        36.0        11.4 33.0  31.7 104.0     305.0 3.45 14.8    NaN  9.2
+2151-08-08 07:51:00        37.5        11.9 32.3  31.7 102.0     339.0 3.68 14.9    NaN  9.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2151-08-02 14:00:00
+sbp: 176.0
+dbp: 96.0
+mbp: 118.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 17.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Pericardial effusion (noninflammatory)
+   drg_type: APR
+   description: OTHER CIRCULATORY SYSTEM PROCEDURES
+   drg_severity: 4
+   drg_mortality: 4
+2. Pericardial effusion (noninflammatory)
+   drg_type: HCFA
+   description: OTHER MAJOR CARDIOVASCULAR PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen 500mg Tablet (dose: 500mg, unit: TAB, start time: 2151-07-31 21:00:00, stop time: 2151-08-08 23:00:00)
+- Atorvastatin (dose: 20mg, unit: TAB, start time: 2151-07-31 20:00:00, stop time: 2151-08-06 09:00:00)
+- Heparin (dose: 5000 UNIT, unit: mL, start time: 2151-07-31 18:00:00, stop time: 2151-08-03 10:00:00)
+- Lidocaine 5% Patch (dose: 1 PTCH, unit: PTCH, start time: 2151-08-01 20:00:00, stop time: 2151-08-08 23:00:00)
+- OxyCODONE (Immediate Release) 5mg Tablet (dose: 5mg, unit: TAB, start time: 2151-07-31 21:00:00, stop time: 2151-08-03 17:00:00)
+- Lorazepam 2mg/mL Syringe (dose: 0.5mg, unit: mL, start time: 2151-07-31 23:00:00, stop time: 2151-08-01 10:00:00)

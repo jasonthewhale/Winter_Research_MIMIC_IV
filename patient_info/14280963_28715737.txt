@@ -1,0 +1,124 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 82
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2140-10-21 07:15:00
+  (6) discharge time: 2140-10-25 16:45:00
+  (7) transfer history: 
+2140-10-21 06:51:52 - 2140-10-21 08:35:24: Discharge Lounge
+2140-10-22 20:43:33 - 2140-10-22 20:47:10: Cardiac Surgery
+2140-10-22 20:47:10 - 2140-10-25 16:53:10: Cardiac Surgery
+2140-10-21 08:35:24 - 2140-10-22 20:43:33: Cardiac Vascular Intensive Care Unit (CVICU)
+2140-10-25 16:53:10: discharge
+
+2. Medical Data
+(1) heart rate: 
+2140-10-21 10:45:00-2140-10-21 11:30:00 SB (Sinus Bradycardia)
+2140-10-21 11:30:00-2140-10-21 11:45:00 A Paced
+2140-10-21 11:45:00-2140-10-21 12:00:00 A Paced
+2140-10-21 12:00:00-2140-10-21 13:00:00 A Paced
+2140-10-21 13:00:00-2140-10-21 14:00:00 SR (Sinus Rhythm)
+2140-10-21 14:00:00-2140-10-21 15:00:00 A Paced
+2140-10-21 15:00:00-2140-10-21 15:15:00 A Paced
+2140-10-21 15:15:00-2140-10-21 16:00:00 A Paced
+2140-10-21 16:00:00-2140-10-21 19:00:00 SR (Sinus Rhythm)
+2140-10-21 19:00:00-2140-10-22 08:00:00 A Paced
+2140-10-22 08:00:00-2140-10-22 09:00:00 SR (Sinus Rhythm)
+2140-10-22 09:00:00-2140-10-22 10:00:00 SR (Sinus Rhythm)
+2140-10-22 10:00:00-2140-10-22 12:00:00 SR (Sinus Rhythm)
+2140-10-22 12:00:00-2140-10-22 14:00:00 SR (Sinus Rhythm)
+2140-10-22 14:00:00-2140-10-22 15:00:00 SR (Sinus Rhythm)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2140-10-21 10:04:00        29.3         9.8 30.0  33.4 90.0     141.0 3.27 14.0    NaN 12.1
+2140-10-21 10:55:00        35.2        11.7 29.8  33.2 90.0     129.0 3.92 14.0    NaN 16.9
+2140-10-21 18:14:00        29.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2140-10-22 02:29:00        30.5        10.5 30.5  34.4 89.0     109.0 3.44 14.2    NaN 10.8
+2140-10-23 04:37:00        32.1        10.9 30.3  34.0 89.0      92.0 3.60 14.2    NaN 11.5
+2140-10-24 04:05:00        31.7        10.5 29.5  33.1 89.0      91.0 3.56 14.3    NaN 10.2
+2140-10-25 05:10:00        33.3        11.1 29.6  33.3 89.0     128.0 3.75 14.1    NaN  9.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2140-10-21 11:00:00
+sbp: 79.0
+dbp: 38.0
+mbp: 52.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 18.0
+temperature: 34.500000000
+temperature_site: Esophogeal
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 7
+
+Physician's Diagnoses:
+1. Congenital insufficiency of aortic valve
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 1
+2. Congenital insufficiency of aortic valve
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W/O CARD CATH W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Magnesium Sulfate: 2g / 50mL (Premix Bag)
+   - Start Time: 2140-10-21 11:00:00
+   - Stop Time: 2140-10-22 20:00:00
+   - Medication: Magnesium Sulfate
+   - Route: IV
+   - Frequency: PRN
+
+- Potassium Chloride: 20mEq / 50mL Sterile Water
+   - Start Time: 2140-10-21 11:00:00
+   - Stop Time: 2140-10-22 20:00:00
+   - Medication: Potassium Chloride
+   - Route: IV
+   - Frequency: PRN
+
+- Sodium Chloride 0.9% Flush
+   - Start Time: 2140-10-21 08:00:00
+   - Stop Time: 2140-10-25 21:00:00
+   - Medication: Sodium Chloride 0.9% Flush
+   - Route: IV
+   - Frequency: DAILY
+
+- Glycopyrrolate
+   - Start Time: 2140-10-21 11:00:00
+   - Stop Time: 2140-10-22 18:00:00
+   - Medication: Glycopyrrolate
+   - Route: IV
+   - Frequency: ONCE
+
+- Albumin 5% (25g / 500mL)
+   - Start Time: 2140-10-21 14:00:00
+   - Stop Time: 2140-10-22 18:00:00
+   - Medication: Albumin 5% (25g / 500mL)
+   - Route: IV
+   - Frequency: ONCE MR1
+
+- Neostigmine
+   - Start Time: 2140-10-21 11:00:00
+   - Stop Time: 2140-10-22 18:00:00
+   - Medication: Neostigmine
+   - Route: IV
+   - Frequency: ONCE
+
+- Acetaminophen IV
+   - Start Time: 2140-10-21 16:00:00
+   - Stop Time: 2140-10-22 18:00:00
+   - Medication

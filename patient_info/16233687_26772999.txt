@@ -1,0 +1,89 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 75
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2175-10-01 12:46:00
+  (6) discharge time: 2175-10-16 13:00:00
+  (7) transfer history: 
+2175-10-01 12:47:41 - 2175-10-16 13:08:53: Surgical Intensive Care Unit (SICU)
+2175-10-16 13:08:53: discharge
+
+2. Medical Data
+(1) heart rate: 
+2175-10-01 19:00:00-20:00:00 SR (Sinus Rhythm) PAC's Occasional
+2175-10-01 21:00:00-23:00:00 SR (Sinus Rhythm) PAC's Frequent
+2175-10-02 00:00:00-03:00:00 SR (Sinus Rhythm) PAC's Occasional
+2175-10-02 12:00:00-18:00:00 SR (Sinus Rhythm) PAC's Occasional
+2175-10-03 01:00:00-01:00:00 SR (Sinus Rhythm) PVC's Occasional
+2175-10-03 02:00:00-02:00:00 SR (Sinus Rhythm) PAC's Rare
+2175-10-03 03:00:00-05:00:00 SR (Sinus Rhythm) PAC's Occasional
+2175-10-03 10:00:00-12:00:00 SR (Sinus Rhythm) PAC's Occasional
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2175-10-01 19:30:00        32.3        10.2 27.6  31.6 88.0     150.0 3.69 14.4    NaN 10.0
+2175-10-02 02:03:00        33.9        10.6 27.6  31.3 88.0     158.0 3.84 14.5    NaN 12.3
+2175-10-03 01:49:00        29.6         9.1 27.3  30.7 89.0     127.0 3.33 14.1    NaN 10.2
+2175-10-04 01:53:00        28.2         8.8 27.5  31.2 88.0     142.0 3.20 14.2    NaN  9.1
+2175-10-05 02:21:00        27.6         8.8 28.2  31.9 89.0     154.0 3.12 14.3    NaN 10.0
+2175-10-06 03:28:00        30.2         9.2 27.0  30.5 89.0     179.0 3.41 14.4    NaN 11.2
+2175-10-07 01:42:00        28.2         8.7 27.4  30.9 89.0     179.0 3.17 14.4    NaN 11.1
+2175-10-08 02:06:00        28.2         8.5 27.0  30.1 90.0     177.0 3.15 14.6    NaN 10.8
+2175-10-09 02:16:00        27.6         8.6 27.6  31.2 89.0     189.0 3.12 14.7    NaN 11.8
+2175-10-09 16:45:00        32.0        10.1 28.0  31.6 89.0     239.0 3.61 14.7    NaN 16.7
+2175-10-10 01:16:00        25.9         7.9 27.1  30.5 89.0     186.0 2.92 14.8    NaN 12.9
+2175-10-11 01:21:00        25.5         7.7 26.9  30.2 89.0     203.0 2.86 14.7    NaN 12.9
+2175-10-11 13:44:00        25.4         7.8 27.2  30.7 89.0     206.0 2.87 14.6    NaN 12.1
+2175-10-12 01:36:00        23.3         7.2 27.5  30.9 89.0     183.0 2.62 14.6    NaN 10.6
+2175-10-13 04:08:00        23.8         7.4 27.7  31.1 89.0     227.0 2.67 14.7    NaN 13.5
+2175-10-14 04:24:00        24.3         7.3 27.2  30.0 91.0     250.0 2.68 15.3    NaN 14.1
+2175-10-15 03:06:00        23.3         7.1 27.4  30.5 90.0     268.0 2.59 15.6    NaN 13.0
+2175-10-16 01:27:00        21.9         6.7 27.8  30.6 91.0     231.0 2.41 15.8    NaN 12.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2175-10-05 10:07:00
+sbp: 110.0
+dbp: 62.0
+mbp: 74.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: nan
+temperature: 36.000000000
+temperature_site: Temporal
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Nontoxic multinodular goiter
+   drg_type: APR
+   description: TRACHEOSTOMY W MV 96+ HOURS W/O EXTENSIVE PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+2. Nontoxic multinodular goiter
+   drg_type: HCFA
+   description: ECMO OR TRACH W MV >96 HRS OR PDX EXC FACE, MOUTH & NECK W MAJ O.R.
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen IV: Start time - 2175-10-01 15:00:00, Stop time - 2175-10-02 21:00:00
+- Lactated Ringers - Floor Stock Bag: Start time - 2175-10-01 15:00:00, Stop time - 2175-10-02 07:00:00
+- Lactated Ringers - Floor Stock Bag: Start time - 2175-10-01 17:00:00, Stop time - 2175-10-02 07:00:00
+- Lactated Ringers - Floor Stock Bag: Start time - 2175-10-01 18:00:00, Stop time - 2175-10-02 07:00:00
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride: Start time - 2175-10-01 15:00:00, Stop time - 2175-10-04 11:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial: Start time - 2175-10-01 20:00:00, Stop time - 2175-10-02 21:00:00
+- Chlorhexidine Gluconate 15 mL Cup: Start time - 2175-10-01 20:00:00, Stop time - 2175-10-15 08:00:00
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix): Start time - 2175-10-01 22:00:00, Stop time - 2175-10-02 21:00:00
+- CefePIME: Start time - 2175-10-01 22:00:00, Stop time - 2175-10-02 09:00:00
+- Calcium Gluconate 1 g Vial: Start time - 2175-10-01 23:00:00, Stop time - 2175-10-02 07:00:00

@@ -1,0 +1,71 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 43
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2130-08-17 15:47:00
+  (6) discharge time: 2130-08-23 19:25:00
+  (7) transfer history: 
+2130-08-17 15:48:19 - 2130-08-19 22:25:15: Cardiac Vascular Intensive Care Unit (CVICU)
+2130-08-19 22:25:15 - 2130-08-23 19:31:38: Cardiac Surgery
+2130-08-23 19:31:38: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2130-08-17 16:17:00        30.4         8.9 21.0  29.2 72.0     128.0 4.22 22.8    NaN  3.3
+2130-08-17 20:40:00        30.4         9.0  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2130-08-18 04:27:00        29.9         9.2 22.0  30.7 72.0     128.0 4.16 22.7    NaN  3.4
+2130-08-19 05:11:00        30.5         9.0 21.5  29.5 73.0     109.0 4.17 22.7    NaN  2.8
+2130-08-20 05:54:00        30.1         8.7 21.3  29.0 73.0     129.0 4.10 22.7    NaN  3.1
+2130-08-21 05:26:00        31.5         9.2 21.4  29.3 73.0     131.0 4.32 22.7    NaN  3.2
+2130-08-22 04:06:00        31.5         8.9 20.9  28.4 74.0     159.0 4.28 22.4    NaN  3.1
+2130-08-23 05:10:00        32.6         9.1 20.7  28.0 74.0     154.0 4.43 22.1    NaN  2.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2130-08-18 15:00:00
+sbp: 95.0
+dbp: 57.0
+mbp: 65.0
+sbp_ni: 95.0
+dbp_ni: 57.0
+mbp_ni: 65.0
+resp_rate: 13.0
+temperature: 37.100000000
+temperature_site: Blood
+spo2: 98.0
+cardiovascular: 1
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Postoperative shock, cardiogenic
+   drg_type: HCFA
+   description: COMPLICATIONS OF TREATMENT W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Postoperative shock, cardiogenic
+   drg_type: APR
+   description: OTHER COMPLICATIONS OF TREATMENT
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Heparin Flush (10 units/ml) - started on 2130-08-18 08:00:00 and stopped on 2130-08-23 23:00:00
+- Sodium Chloride 0.9% Flush - started on 2130-08-20 00:00:00 and stopped on 2130-08-23 23:00:00
+- Aspirin 81mg Tab - started on 2130-08-18 08:00:00 and stopped on 2130-08-23 23:00:00
+- Clopidogrel 75 mg Tablet - started on 2130-08-18 08:00:00 and stopped on 2130-08-23 23:00:00
+- Docusate Sodium 100mg Capsule - started on 2130-08-18 08:00:00 and stopped on 2130-08-23 23:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial - started on 2130-08-17 17:00:00 and stopped on 2130-08-21 19:00:00
+- Lorazepam 0.5mg Tablet - started on 2130-08-18 08:00:00 and stopped on 2130-08-23 23:00:00
+- Methadone 10 mg Tablet - started on 2130-08-19 14:00:00 and stopped on 2130-08-23 23:00:00

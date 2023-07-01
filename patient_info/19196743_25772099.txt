@@ -1,0 +1,81 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 79
+  (3) race: BLACK/AFRICAN AMERICAN
+  (4) admission type: ELECTIVE
+  (5) admit time: 2175-07-23 17:17:00
+  (6) discharge time: 2175-08-01 16:08:00
+  (7) transfer history: 
+2175-07-23 17:18:15 - 2175-07-24 08:20:03: Cardiology Surgery Intermediate
+2175-07-29 17:43:58 - 2175-08-01 16:59:37: Cardiology Surgery Intermediate
+2175-07-24 08:20:03 - 2175-07-24 11:39:24: PACU
+2175-07-24 11:39:24 - 2175-07-29 17:43:58: Cardiac Vascular Intensive Care Unit (CVICU)
+2175-08-01 16:59:37: discharge
+
+2. Medical Data
+(1) heart rate: 
+2175-07-25 13:00:00-2175-07-25 13:00:00 AF (Atrial Fibrillation)
+2175-07-26 03:00:00-2175-07-26 03:00:00 JR (Junctional Rhythm)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2175-07-23 19:40:00        37.6        12.0 29.9  31.9 94.0     221.0 4.01 14.0    NaN  5.7
+2175-07-24 13:07:00        23.9         7.5 30.4  31.4 97.0     145.0 2.47 14.0    NaN 13.0
+2175-07-24 14:31:00        32.1        10.5 30.5  32.7 93.0     115.0 3.44 14.5    NaN 13.3
+2175-07-24 19:01:00        32.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-07-24 23:21:00        29.1         9.6  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-07-25 01:59:00        30.0        10.1 30.1  33.7 89.0     111.0 3.36 15.0    NaN 11.0
+2175-07-25 11:15:00        32.4        10.6  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-07-25 16:00:00        31.5         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-07-26 02:30:00        31.2        10.3 29.8  33.0 90.0     108.0 3.46 15.1    NaN 14.2
+2175-07-27 01:50:00        28.9         9.5 30.0  32.9 91.0      91.0 3.17 14.9    NaN 12.6
+2175-07-28 01:55:00        27.1         8.8 29.5  32.5 91.0      99.0 2.98 15.0    NaN  8.6
+2175-07-29 02:46:00        30.1         9.5 29.0  31.6 92.0     155.0 3.28 14.6    NaN  8.0
+2175-07-30 06:18:00        29.4         9.5 29.5  32.3 91.0     190.0 3.22 14.0    NaN  6.0
+2175-07-31 06:13:00        28.9         9.4 29.6  32.5 91.0     222.0 3.18 13.8    NaN  7.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2175-07-26 12:00:00
+sbp: 129.0
+dbp: 58.0
+mbp: 83.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 7.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 90.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Rheumatic disorders of both mitral and tricuspid valves
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 3
+2. Rheumatic disorders of both mitral and tricuspid valves
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W/O CARD CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, started on 2175-07-23 18:00:00 and stopped on 2175-07-24 16:00:00
+- Administered: Atorvastatin, 20 mg, started on 2175-07-23 20:00:00 and stopped on 2175-07-24 16:00:00
+- Administered: Metoprolol Tartrate, 12.5 mg, started on 2175-07-23 18:00:00 and stopped on 2175-07-24 16:00:00
+- Administered: Acetaminophen 325mg Tablet, 325 mg, started on 2175-07-23 20:00:00 and stopped on 2175-07-24 16:00:00
+- Administered: Mupirocin Ointment 2%, 1 Appl, started on 2175-07-23 20:00:00 and stopped on 2175-07-24 16:00:00
+- Administered: Colchicine 0.6 mg Tablet, 0.6 mg, started on 2175-07-24 02:00:00 and stopped on 2175-07-24 16:00:00
+- Administered: Sodium Chloride 0.9% Flush, 3 mL, started on 2175-07-23 18:00:00 and stopped on 2175-07-24 16:00:00
+- Administered: Aspirin 81mg Tab, 81 mg, started on 2175-07-23 18:00:00 and stopped on 2175-07-24 16:00:00
+- Administered: Metoprolol Tartrate, 12.5 mg, started on 2175-07-23 18:00:00 and stopped on 2175-07-24 16:00:00

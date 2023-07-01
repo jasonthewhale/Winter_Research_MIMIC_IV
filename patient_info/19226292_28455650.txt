@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 41
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2129-07-13 14:51:00
+  (6) discharge time: 2129-07-24 18:10:00
+  (7) transfer history: 
+2129-07-13 14:53:05 - 2129-07-15 15:39:29: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2129-07-15 15:39:29 - 2129-07-15 16:13:56: Med/Surg/GYN
+2129-07-15 16:13:56 - 2129-07-24 18:14:31: Med/Surg/GYN
+2129-07-24 18:14:31: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2129-07-13 17:30:00        39.8        13.0 29.6  32.7 91.0     216.0 4.39 13.4    NaN  2.9
+2129-07-14 04:02:00        36.4        11.9 29.7  32.7 91.0     171.0 4.01 13.6    NaN  2.8
+2129-07-15 03:14:00        30.1         9.9 29.6  32.9 90.0     120.0 3.35 13.7    NaN  3.3
+2129-07-16 07:00:00        30.0         9.7 29.7  32.3 92.0     135.0 3.27 14.4    NaN  3.9
+2129-07-17 07:55:00        30.1         9.8 29.6  32.6 91.0     159.0 3.31 14.6    NaN  4.5
+2129-07-18 07:50:00        35.0        11.2 29.3  32.0 92.0     167.0 3.82 14.6    NaN  6.0
+2129-07-19 07:50:00        31.6        10.3 29.9  32.6 92.0     195.0 3.45 14.6    NaN  7.9
+2129-07-20 06:39:00        31.1        10.0 29.9  32.2 93.0     195.0 3.34 14.5    NaN  7.1
+2129-07-21 06:55:00        32.8        10.2 29.1  31.1 93.0     216.0 3.51 14.4    NaN  6.7
+2129-07-22 07:10:00        30.0         9.5 29.6  31.7 94.0     198.0 3.21 14.4    NaN  5.5
+2129-07-23 07:16:00        30.2         9.6 29.5  31.8 93.0     217.0 3.25 14.3    NaN  6.4
+2129-07-24 07:25:00        31.3         9.8 29.1  31.3 93.0     236.0 3.37 14.5    NaN  5.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2129-07-14 05:00:00
+sbp: 116.0
+dbp: 67.0
+mbp: 77.0
+sbp_ni: 116.0
+dbp_ni: 67.0
+mbp_ni: 77.0
+resp_rate: 18.0
+temperature: 37.330000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis, unspecified organism
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Vancomycin: Administered from 2129-07-13 18:00:00 to 2129-07-14 11:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2129-07-13 18:00:00 to 2129-07-19 10:00:00
+- Meperidine: Administered from 2129-07-13 19:00:00 to 2129-07-14 11:00:00
+- Sodium Chloride 0.9% - Floor Stock Bag: Administered from 2129-07-13 19:00:00 to 2129-07-14 18:00:00
+- Metronidazole: Administered from 2129-07-13 20:00:00 to 2129-07-22 18:00:00
+- Heparin Sodium: Administered from 2129-07-13 18:00:00 to 2129-07-24 22:00:00
+- Acetaminophen IV: Administered from 2129-07-13 20:00:00 to 2129-07-14 11:00:00
+- Ciprofloxacin: Administered from 2129-07-13 20:00:00 to 2129-07-22 18:00:00
+- Lactated Ringers - Floor Stock Bag: Administered from 2129-07-14 00:00:00 to 2129-07-14 11:00:00
+- Metronidazole: Administered from 2129-07-13 20:00:00 to 2129-07-22 18:00:00

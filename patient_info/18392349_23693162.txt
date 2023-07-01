@@ -1,0 +1,95 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 73
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2176-02-09 03:15:00
+  (6) discharge time: 2176-03-01 16:35:00
+  (7) transfer history: 
+2176-02-09 03:15:39 - 2176-02-14 01:20:53: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2176-02-14 01:20:53 - 2176-02-18 04:37:06: Medicine
+2176-02-19 23:20:13 - 2176-02-24 06:41:19: Med/Surg/GYN
+2176-02-27 23:10:02 - 2176-03-01 16:39:42: Med/Surg/GYN
+2176-02-24 06:41:19 - 2176-02-27 23:10:02: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2176-02-18 04:37:06 - 2176-02-19 23:20:13: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2176-03-01 16:39:42: discharge
+
+2. Medical Data
+(1) heart rate: 
+2176-02-10 09:00:00-2176-02-10 09:00:00 ST (Sinus Tachycardia)
+2176-02-24 22:00:00-2176-02-24 22:00:00 ST (Sinus Tachycardia)
+2176-02-25 01:00:00-2176-02-25 02:00:00 ST (Sinus Tachycardia)
+2176-02-25 12:14:00-2176-02-25 12:14:00 V Quadrigenimy (Rare)
+2176-02-25 12:15:00-2176-02-25 12:15:00 V Quadrigenimy
+2176-02-27 05:00:00-2176-02-27 05:00:00 SR (Sinus Rhythm)
+2176-02-27 08:00:00-2176-02-27 08:00:00 SR (Sinus Rhythm) (Rare)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2176-02-09 03:35:00        21.9         7.0 30.6  32.2 95.0     184.0 2.30 16.0    NaN  7.9
+2176-02-09 17:30:00        25.0         8.2 29.9  32.7 92.0     221.0 2.73 16.5    NaN  7.5
+2176-02-10 04:28:00        27.2         8.7 29.5  32.0 92.0     230.0 2.95 15.8    NaN  7.6
+2176-02-11 05:15:00        26.9         8.7 30.2  32.3 93.0     264.0 2.88 15.7    NaN 10.4
+2176-02-12 04:13:00        25.8         8.6 31.0  33.2 93.0     278.0 2.77 15.8    NaN  8.7
+2176-02-13 03:06:00        27.3         8.9 30.1  32.6 92.0     287.0 2.95 16.2    NaN  8.5
+2176-02-14 06:20:00        27.0         8.6 29.8  31.9 94.0     337.0 2.88 16.2    NaN 11.4
+2176-02-15 05:21:00        27.9         8.9 29.9  31.9 94.0     400.0 2.98 16.2    NaN 13.1
+2176-02-16 04:53:00        28.0         8.8 30.3  31.3 97.0     382.0 2.89 16.0    NaN 15.4
+2176-02-17 09:56:00        27.1         8.3 30.1  30.8 98.0     361.0 2.78 16.4    NaN 15.0
+2176-02-18 05:15:00        32.8        10.4 30.6  31.6 97.0     392.0 3.39 16.7    NaN 15.7
+2176-02-19 02:03:00        26.5         8.4 30.0  31.6 95.0     282.0 2.80 16.9    NaN  8.9
+2176-02-20 07:27:00        28.3         9.1 30.7  32.2 95.0     265.0 2.97 16.9    NaN  7.8
+2176-02-21 06:45:00        25.7         8.0 29.6  31.0 96.0     229.0 2.69 17.1    NaN  5.9
+2176-02-22 06:40:00        27.2         8.6 30.1  31.7 95.0     193.0 2.87 16.9    NaN  5.7
+2176-02-23 05:20:00        27.3         8.6 30.0  31.7 95.0     199.0 2.88 17.2    NaN  8.2
+2176-02-23 22:05:00        28.7         9.1 30.0  31.8 94.0     245.0 3.04 17.9    NaN 13.5
+2176-02-24 00:28:00        26.3         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-02-24 09:23:00        27.1         8.7 30.5  32.3 95.0     246.0 2.87 17.4    NaN 10.1
+2176-02-25 02:45:00        27.6         8.9 30.0  32.3 93.0     258.0 2.97 17.7    NaN 10.5
+2176-02-26 04:26:00        23.0         7.2 29.8  31.4 95.0     246.0 2.42 18.0    NaN  7.2
+2176-02-26 23:56:00        23.5         7.3 29.6  31.1 95.0     220.0 2.47 18.1    NaN  8.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2176-02-27 08:00:00
+sbp: 182.0
+dbp: 90.0
+mbp: 108.0
+sbp_ni: 182.0
+dbp_ni: 90.0
+mbp_ni: 108.0
+resp_rate: 22.0
+temperature: 36.780000000
+temperature_site: Axillary
+spo2: nan
+cardiovascular: 0
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 2
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Pneumonitis due to inhalation of food or vomitus
+   drg_type: HCFA
+   description: RESPIRATORY SYSTEM DIAGNOSIS W VENTILATOR SUPPORT <96 HOURS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Pneumonitis due to inhalation of food or vomitus
+   drg_type: APR
+   description: MAJOR RESPIRATORY INFECTIONS & INFLAMMATIONS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Labetalol 100mg Tablet (dose: 100mg, unit: mg, start time: 2176-02-12 16:00:00, stop time: 2176-02-18 05:00:00)
+- Pantoprazole 40 mg Via (dose: 40mg, unit: mg, start time: 2176-02-09 04:00:00, stop time: 2176-02-15 07:00:00)
+- Heparin Flush (10 Units/mL) 10 Units/mL - 5 mL Syringe (dose: 2mL, unit: mL, start time: 2176-02-10 08:00:00, stop time: 2176-02-18 05:00:00)
+- Sodium Chloride 0.9% Flush (dose: 10mL, unit: mL, start time: 2176-02-09 08:00:00, stop time: 2176-02-14 08:00:00)
+- Albuterol 0.083% Neb Soln 0.083%;3mL Vial (dose: 1 Neb, unit: NEB, start time: 2176-02-12 12:00:00, stop time: 2176-02-24 17:00:00)
+- Aspirin (dose: 325mg, unit: mg, start time: 2176-02-09 04:00:00, stop time: 2176-02-18 05:00:00)
+- CefePIME 2 g / 100 mL NS (Mini Bag Plus) (dose: 2g, unit: g, start time: 2176-02-13 12:00:00, stop time: 2176-02-16 19:00:00)
+- ClonazePAM 1mg Tablet (dose: 1mg, unit: mg, start time: 2176-02-12 20:00:00, stop time: 2176-02-18 05:00:00)

@@ -1,0 +1,83 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 50
+  (3) race: ASIAN - CHINESE
+  (4) admission type: EW EMER.
+  (5) admit time: 2136-10-11 14:09:00
+  (6) discharge time: 2136-10-17 17:36:00
+  (7) transfer history: 
+2136-10-11 06:00:00 - 2136-10-11 15:00:00: Emergency Department
+2136-10-11 15:00:00 - 2136-10-12 15:37:21: Medical Intensive Care Unit (MICU)
+2136-10-12 20:58:01 - 2136-10-17 17:36:46: Medicine
+2136-10-12 15:37:21 - 2136-10-12 20:58:01: Medicine
+2136-10-17 17:36:46: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2136-10-11 19:10:00        33.1        10.9 32.1  32.9 97.0     131.0 3.40 14.2    NaN  9.6
+2136-10-12 04:00:00        29.2         9.6 32.4  32.9 99.0     110.0 2.96 14.2    NaN  9.5
+2136-10-12 12:23:00        24.7         8.3 32.5  33.6 97.0      91.0 2.55 13.7    NaN  5.5
+2136-10-12 19:14:00        26.7         8.8 32.4  33.0 98.0      99.0 2.72 13.8    NaN  6.9
+2136-10-13 04:29:00        23.0         7.6 32.2  33.0 98.0      95.0 2.36 13.5    NaN  5.6
+2136-10-13 10:38:00        26.0         8.9 33.1  34.2 97.0     111.0 2.69 13.5    NaN  6.4
+2136-10-13 15:55:00        26.8         8.9 31.8  33.2 96.0     109.0 2.80 13.5    NaN  7.8
+2136-10-14 06:50:00        26.3         8.6 32.0  32.7 98.0     113.0 2.69 14.3    NaN  6.7
+2136-10-14 13:22:00        22.9         7.6 32.3  33.2 97.0      99.0 2.35 14.0    NaN  5.7
+2136-10-14 21:35:00        24.3         8.0 31.7  32.9 96.0      91.0 2.52 13.8    NaN  5.9
+2136-10-15 06:50:00        25.4         8.5 32.0  33.5 96.0     105.0 2.66 14.3    NaN  5.3
+2136-10-15 13:00:00        27.3         9.0 31.8  33.0 97.0     116.0 2.83 14.3    NaN  6.5
+2136-10-16 04:42:00        26.2         8.5 31.7  32.4 98.0     116.0 2.68 14.5    NaN  5.4
+2136-10-16 15:10:00        27.9         9.3 32.5  33.3 98.0     130.0 2.86 14.3    NaN  6.5
+2136-10-17 04:25:00        27.6         9.1 31.9  33.0 97.0     141.0 2.85 14.8    NaN  5.3
+2136-10-17 15:10:00        29.2         9.6 31.9  32.9 97.0     172.0 3.01 14.9    NaN  6.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2128-08-11 12:00:00
+sbp: 109.0
+dbp: 89.0
+mbp: 93.0
+sbp_ni: 109.0
+dbp_ni: 89.0
+mbp_ni: 93.0
+resp_rate: 25.0
+temperature: 35.830000000
+temperature_site: Oral
+spo2: 93.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Diverticulosis of both small and large intestine without perforation or abscess with bleeding
+   drg_type: HCFA
+   description: G.I. HEMORRHAGE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Diverticulosis of both small and large intestine without perforation or abscess with bleeding
+   drg_type: APR
+   description: DIVERTICULITIS & DIVERTICULOSIS
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Sodium Chloride 0.9% Flush (10 mL) - Start Time: 2136-10-11 17:00:00, Stop Time: 2136-10-17 21:00:00
+- Sodium Chloride 0.9% Flush (10 mL) - Start Time: 2136-10-11 17:00:00, Stop Time: 2136-10-17 21:00:00
+- MoviPrep 2 Packet Kit (Pouch A & B) (1 L) - Start Time: 2136-10-11 17:00:00, Stop Time: 2136-10-12 20:00:00
+- Ondansetron 2mg/mL-2mL (4 mg) - Start Time: 2136-10-11 17:00:00, Stop Time: 2136-10-17 21:00:00
+- MoviPrep 2 Packet Kit (Pouch A & B) (1 L) - Start Time: 2136-10-11 17:00:00, Stop Time: 2136-10-12 20:00:00
+- Rosuvastatin Calcium (20 mg) - Start Time: 2136-10-11 17:00:00, Stop Time: 2136-10-17 21:00:00
+- Rosuvastatin Calcium (20 mg) - Start Time: 2136-10-11 17:00:00, Stop Time: 2136-10-17 21:00:00
+- Acetaminophen 500mg Tablet (500 mg) - Start Time: 2136-10-11 22:00:00, Stop Time: 2136-10-17 21:00:00
+- Acetaminophen 500mg Tablet (500 mg) - Start Time: 2136-10-11 22:00:00, Stop Time: 2136-10-17 21:00:00
+- Prochlorperazine (10 mg) - Start Time: 2136-10-11 22:00:00, Stop Time: 2136-10-12 20:00:00

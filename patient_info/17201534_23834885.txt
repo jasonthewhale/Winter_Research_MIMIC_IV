@@ -1,0 +1,115 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 41
+  (3) race: PORTUGUESE
+  (4) admission type: URGENT
+  (5) admit time: 2121-03-22 17:34:00
+  (6) discharge time: 2121-04-13 17:30:00
+  (7) transfer history: 
+2121-03-22 17:35:28 - 2121-03-23 10:10:17: Coronary Care Unit (CCU)
+2121-04-01 12:22:38 - 2121-04-03 15:54:23: Cardiac Surgery
+2121-04-11 17:09:11 - 2121-04-13 17:30:14: Cardiac Surgery
+2121-03-27 17:25:27 - 2121-04-01 12:22:38: Cardiac Vascular Intensive Care Unit (CVICU)
+2121-03-26 18:09:43 - 2121-03-26 18:15:48: Cardiac Vascular Intensive Care Unit (CVICU)
+2121-03-26 18:15:48 - 2121-03-27 17:25:27: Cardiac Vascular Intensive Care Unit (CVICU)
+2121-04-03 15:54:23 - 2121-04-11 17:09:11: Cardiac Vascular Intensive Care Unit (CVICU)
+2121-03-23 10:10:17 - 2121-03-26 18:09:43: Cardiac Vascular Intensive Care Unit (CVICU)
+2121-04-13 17:30:14: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2121-03-22 18:00:00        26.5         8.4 26.3  31.7 83.0      74.0 3.20 16.8    NaN 34.5
+2121-03-23 04:17:00        27.1         8.7 26.7  32.1 83.0     113.0 3.26 17.2    NaN 37.7
+2121-03-23 13:12:00        20.1         6.3 27.3  31.3 87.0      67.0 2.31 16.4    NaN 28.8
+2121-03-23 14:49:00        23.5         7.6 27.7  32.3 86.0      48.0 2.74 15.9    NaN 33.5
+2121-03-23 16:23:00         NaN         NaN  NaN   NaN  NaN      60.0  NaN  NaN    NaN  NaN
+2121-03-23 19:17:00        26.2         8.9 28.8  34.0 85.0      80.0 3.09 15.1    NaN 30.2
+2121-03-23 23:50:00        24.4         8.6 29.9  35.2 85.0      74.0 2.88 15.1    NaN 24.3
+2121-03-24 02:13:00        24.8         8.8 29.9  35.5 84.0      82.0 2.94 15.3    NaN 24.0
+2121-03-24 09:03:00        25.0         8.9  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2121-03-24 16:05:00        30.6        10.5 28.5  34.3 83.0      70.0 3.69 15.3    NaN 24.5
+2121-03-24 22:36:00         NaN         NaN  NaN   NaN  NaN      60.0  NaN  NaN    NaN  NaN
+2121-03-25 03:04:00        28.6         9.7 28.5  33.9 84.0      66.0 3.40 15.9    NaN 21.1
+2121-03-25 12:10:00        28.0         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2121-03-26 03:04:00        25.4         8.6 28.9  33.9 85.0      47.0 2.98 16.6    NaN 11.3
+2121-03-26 09:01:00         NaN         NaN  NaN   NaN  NaN      41.0  NaN  NaN    NaN  NaN
+2121-03-26 15:15:00        24.4         8.0 28.7  32.8 88.0      40.0 2.79 16.8    NaN 10.3
+2121-03-27 02:17:00        25.1         8.0 28.5  31.9 89.0      37.0 2.81 17.2    NaN  9.7
+2121-03-27 14:30:00        24.7         8.0 29.4  32.4 91.0      41.0 2.72 17.3    NaN  8.8
+2121-03-28 02:09:00        24.6         8.0 30.0  32.5 92.0      40.0 2.67 18.9    NaN  9.8
+2121-03-28 11:41:00        24.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2121-03-29 02:10:00        26.7         8.2 28.6  30.7 93.0      54.0 2.87 20.1    NaN 13.5
+2121-03-30 02:21:00        24.7         7.7 28.7  31.2 92.0      51.0 2.68 21.2    NaN  8.4
+2121-03-30 13:20:00        24.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2121-03-31 03:58:00        26.4         8.5 30.5  32.2 95.0      66.0 2.79 22.5    NaN 10.2
+2121-03-31 14:36:00        28.5         8.8 29.1  30.9 94.0      74.0 3.02 22.7    NaN 11.3
+2121-04-01 02:30:00        25.4         7.8 29.1  30.7 95.0      73.0 2.68 23.0    NaN  9.0
+2121-04-01 04:01:00        25.5         7.9 29.2  31.0 94.0      74.0 2.71 22.9    NaN  9.2
+2121-04-02 02:32:00        27.1         8.8 30.8  32.5 95.0      80.0 2.86 23.8    NaN 10.6
+2121-04-03 04:06:00        27.9         8.8 29.5  31.5 94.0     101.0 2.98 24.8    NaN 12.0
+2121-04-04 02:54:00        33.2        10.2 29.7  30.7 97.0     142.0 3.44 25.6    NaN 23.3
+2121-04-04 06:01:00        31.3         9.7 29.8  31.0 96.0     116.0 3.25 25.4    NaN 17.0
+2121-04-04 14:58:00        24.2         7.9 31.0  32.6 95.0      86.0 2.55 25.7    NaN 11.4
+2121-04-04 18:16:00        21.5         6.9 30.7  32.1 96.0      69.0 2.25 26.0    NaN  8.2
+2121-04-05 01:31:00        22.5         7.0 29.7  31.1 95.0      52.0 2.36 24.0    NaN  6.5
+2121-04-05 13:41:00        26.4         8.9  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2121-04-06 02:05:00        27.3         8.9 30.6  32.6 94.0      57.0 2.91 25.0    NaN 12.4
+2121-04-07 02:13:00        30.6         9.6 29.5  31.4 94.0      59.0 3.25 26.0    NaN 10.9
+2121-04-08 03:13:00        30.6         9.6 29.3  31.4 93.0      55.0 3.28 26.4    NaN  9.2
+2121-04-09 02:05:00        30.6         9.6 29.7  31.4 95.0      39.0 3.23 26.0    NaN  9.3
+2121-04-09 16:35:00        31.1         NaN  NaN   NaN  NaN      49.0  NaN  NaN    NaN  NaN
+2121-04-10 02:59:00        30.1         9.7 30.4  32.2 94.0      49.0 3.19 26.3    NaN  8.3
+2121-04-11 02:27:00        28.0         9.0 30.5  32.1 95.0      45.0 2.95 26.0    NaN  8.5
+2121-04-12 05:50:00        26.3         8.3 30.0  31.6 95.0      60.0 2.77 25.4    NaN 10.6
+2121-04-13 05:08:00        25.4         8.3 31.0  32.7 95.0      56.0 2.68 25.0    NaN  8.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2121-04-05 04:00:00
+sbp: 122.0
+dbp: 46.0
+mbp: 66.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 25.5
+temperature: 36.390000000
+temperature_site: Axillary
+spo2: 100.0
+cardiovascular: 1
+cns: 1
+renal: 0
+respiration_24hours: 2
+coagulation_24hours: 2
+liver_24hours: 2
+cns_24hours: 1
+renal_24hours: 1
+sofa_24hours: 9
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis, unspecified organism
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Flushed: 3 mL of Sodium Chloride 0.9% Flush, started on 2121-03-22 19:00:00 and stopped on 2121-03-23 11:00:00
+- Flushed: 10 mL of Sodium Chloride 0.9% Flush, started on 2121-03-23 08:00:00 and stopped on 2121-03-23 11:00:00
+- Administered Bolus from IV Drip: 25 mcg of Fentanyl, started on 2121-03-22 20:00:00 and stopped on 2121-03-23 11:00:00
+- Administered Bolus from IV Drip: 10 mg of Propofol, started on 2121-03-22 20:00:00 and stopped on 2121-03-23 14:00:00
+- Administered: 1000 mg of Vancomycin, started on 2121-03-22 20:00:00 and stopped on 2121-03-23 11:00:00
+- Administered Bolus from IV Drip: 25 mcg of Fentanyl, started on 2121-03-22 20:00:00 and stopped on 2121-03-23 11:00:00
+- Administered Bolus from IV Drip: 10 mg of Propofol, started on 2121-03-22 20:00:00 and stopped on 2121-03-23 14:00:00
+- Administered: 4.5 g of Piperacillin-Tazobactam, started on 2121-03-22 19:00:00 and stopped on 2121-03-22 21:00:00
+- Administered: 1000 mg of Acetaminophen IV, started on 2121-03-23 00:00:00 and stopped on 2121-03-23 11:00:00
+- Administered: 40 mg of Pantoprazole, started on 2121-03-22 23:00:00 and stopped on 2121-03-23 11:00:00

@@ -1,0 +1,88 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 58
+  (3) race: HISPANIC/LATINO - SALVADORAN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2132-09-23 18:02:00
+  (6) discharge time: 2132-10-04 18:30:00
+  (7) transfer history: 
+2132-09-23 11:33:00 - 2132-09-23 18:03:14: Emergency Department
+2132-09-23 18:03:14 - 2132-09-23 18:05:11: Transplant
+2132-09-23 20:41:05 - 2132-09-24 00:51:01: Med/Surg
+2132-09-23 18:05:11 - 2132-09-23 20:41:05: Discharge Lounge
+2132-09-26 14:07:56 - 2132-10-04 18:30:49: Medicine/Cardiology
+2132-09-24 00:51:01 - 2132-09-26 14:07:56: Medical Intensive Care Unit (MICU)
+2132-10-04 18:30:49: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2132-09-23 23:15:00        16.7         5.4 32.9  32.3 102.0      95.0 1.64 21.8    NaN 18.3
+2132-09-24 03:11:00        20.8         6.8 31.5  32.7  96.0      43.0 2.16 18.6    NaN 14.8
+2132-09-24 12:07:00        23.6         7.8 31.1  33.1  94.0      39.0 2.51 19.2    NaN 13.3
+2132-09-25 02:50:00        26.7         8.6 30.7  32.2  95.0      36.0 2.80 19.3    NaN 10.9
+2132-09-25 10:43:00        27.2         9.1 31.3  33.5  94.0      34.0 2.91 19.5    NaN 11.4
+2132-09-25 12:15:00        23.1         7.5 30.7  32.5  95.0      30.0 2.44 19.3    NaN  8.0
+2132-09-25 18:03:00        23.8         7.8 30.8  32.8  94.0      30.0 2.53 19.0    NaN  7.5
+2132-09-26 05:13:00        24.7         7.8 30.7  31.6  97.0      33.0 2.54 19.3    NaN  7.6
+2132-09-26 18:04:00        25.0         8.1 31.2  32.4  96.0      35.0 2.60 19.4    NaN  7.6
+2132-09-27 04:33:00        22.4         7.0 30.3  31.3  97.0      28.0 2.31 19.1    NaN  5.4
+2132-09-27 13:57:00        27.2         8.7 30.4  32.0  95.0      34.0 2.86 18.9    NaN  5.6
+2132-09-28 05:21:00        26.6         8.5 31.0  32.0  97.0      26.0 2.74 19.2    NaN  4.9
+2132-09-28 13:01:00        26.2         8.5 30.7  32.4  95.0      26.0 2.77 18.9    NaN  4.5
+2132-09-29 04:30:00        27.4         8.7 30.7  31.8  97.0      33.0 2.83 19.0    NaN  6.1
+2132-09-30 04:51:00        25.7         8.4 30.9  32.7  95.0      28.0 2.72 18.6    NaN  5.3
+2132-10-01 04:54:00        25.4         8.1 30.2  31.9  95.0      28.0 2.68 18.6    NaN  5.3
+2132-10-02 03:07:00        24.0         7.6 30.6  31.7  97.0      26.0 2.48 18.2    NaN  4.5
+2132-10-03 06:00:00        23.5         7.4 30.2  31.5  96.0      29.0 2.45 18.0    NaN  4.3
+2132-10-04 08:59:00        27.0         8.4 30.4  31.1  98.0      34.0 2.76 18.0    NaN  3.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2133-02-03 20:00:00
+sbp: 115.0
+dbp: nan
+mbp: 82.0
+sbp_ni: 115.0
+dbp_ni: nan
+mbp_ni: 82.0
+resp_rate: 23.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 93.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 3
+liver_24hours: 2
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Gastrointestinal hemorrhage, unspecified
+   drg_type: HCFA
+   description: G.I. HEMORRHAGE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Gastrointestinal hemorrhage, unspecified
+   drg_type: APR
+   description: OTHER & UNSPECIFIED GASTROINTESTINAL HEMORRHAGE
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Albumin 25% (25g /100mL) 100 mL Bag: Start time - 2132-09-24 00:00:00, Stop time - 2132-09-24 00:00:00, Medication - Albumin 25%
+- Lactulose: Start time - 2132-09-24 00:00:00, Stop time - 2132-09-25 01:00:00, Medication - Lactulose
+- Rifaximin 550mg Tablet: Start time - 2132-09-24 00:00:00, Stop time - 2132-10-04 23:00:00, Medication - Rifaximin
+- Pantoprazole 40 mg Via: Start time - 2132-09-24 00:00:00, Stop time - 2132-09-27 09:00:00, Medication - Pantoprazole
+- Albumin 25% (12.5g / 50mL): Start time - 2132-09-24 00:00:00, Stop time - 2132-09-24 00:00:00, Medication - Albumin 25%
+- Dextrose 50%: Start time - 2132-09-24 01:00:00, Stop time - 2132-09-24 08:00:00, Medication - Dextrose 50%
+- Insulin (Regular) for Hyperkalemia: Start time - 2132-09-24 01:00:00, Stop time - 2132-09-24 08:00:00, Medication - Insulin (Regular) for Hyperkalemia
+- Sodium Chloride 0.9% Flush: Start time - 2132-09-24 00:00:00, Stop time - 2132-10-04 23:00:00, Medication - Sodium Chloride 0.9% Flush
+- Sodium Chloride 0.9% Flush: Start time - 2132-09-24 02:00:00, Stop time - 2132-10-04 23:00:00, Medication - Sodium Chloride 0.9% Flush
+- Calcium Gluconate 2 g / 100 mL 0

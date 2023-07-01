@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 66
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2185-06-04 15:26:00
+  (6) discharge time: 2185-06-10 02:43:00
+  (7) transfer history: 
+2185-06-04 13:04:00 - 2185-06-04 18:48:00: Emergency Department
+2185-06-04 18:48:00 - 2185-06-05 17:53:53: Hematology/Oncology
+2185-06-05 17:53:53 - 2185-06-08 04:16:49: Hematology/Oncology
+2185-06-08 04:16:49 - 2185-06-10 04:49:51: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2185-06-10 04:49:51: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2185-06-05 05:37:00        28.3         9.0 29.0  31.8 91.0     272.0 3.10 14.2    NaN  2.7
+2185-06-06 05:45:00        29.3         9.2 28.9  31.4 92.0     287.0 3.18 14.5    NaN  5.4
+2185-06-07 06:00:00        26.6         8.4 29.1  31.6 92.0     248.0 2.89 14.6    NaN  7.8
+2185-06-08 04:47:00        30.0         9.6 29.4  32.0 92.0     286.0 3.26 14.6    NaN 13.0
+2185-06-09 03:07:00        24.8         7.6 28.8  30.6 94.0     240.0 2.64 14.9    NaN 19.4
+2185-06-09 22:16:00        22.6         7.2 29.6  31.9 93.0     237.0 2.43 15.1    NaN 19.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2184-06-07 12:00:00
+sbp: 103.0
+dbp: 64.0
+mbp: 73.0
+sbp_ni: 103.0
+dbp_ni: 64.0
+mbp_ni: 73.0
+resp_rate: 24.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Pneumonitis due to inhalation of food and vomit
+   drg_type: APR
+   description: NONEXTENSIVE PROCEDURE UNRELATED TO PRINCIPAL DIAGNOSIS
+   drg_severity: 3
+   drg_mortality: 3
+2. Pneumonitis due to inhalation of food and vomit
+   drg_type: HCFA
+   description: NON-EXTENSIVE O.R. PROC UNRELATED TO PRINCIPAL DIAGNOSIS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- PNEUMOcoccal 23-valent polysaccharide vaccine (Administered) - starttime: 2184-04-18 19:00:00, stoptime: 2184-04-19 19:00:00
+- Potassium Chloride 20 mEq / 250 mL 0.9% Sodium Chloride (Administered) - starttime: 2185-06-04 21:00:00, stoptime: 2185-06-04 23:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - starttime: 2185-06-04 21:00:00, stoptime: 2185-06-08 04:00:00
+- Atorvastatin (Administered) - starttime: 2185-06-04 21:00:00, stoptime: 2185-06-08 04:00:00
+- Raltegravir (Administered) - starttime: 2185-06-04 21:00:00, stoptime: 2185-06-08 04:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered) - starttime: 2185-06-04 21:00:00, stoptime: 2185-06-08 04:00:00
+- Insulin (Administered) - starttime: 2185-06-04 21:00:00, stoptime: 2185-06-05 22:00:00
+- Insulin (Administered) - starttime: 2185-06-04 21:00:00, stoptime: 2185-06-05 22:00:00
+- Efavirenz (Administered) - starttime: 2185-06-04 21:00:00, stoptime: 2185-06-06 15:00:00
+- Nortriptyline (Administered) - starttime: 2185-06-04 21:00:00, stoptime: 2185-06-08 04:00:00

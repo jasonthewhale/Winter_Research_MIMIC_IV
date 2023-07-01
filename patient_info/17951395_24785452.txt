@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 68
+  (3) race: AMERICAN INDIAN/ALASKA NATIVE
+  (4) admission type: EW EMER.
+  (5) admit time: 2116-07-13 23:48:00
+  (6) discharge time: 2116-07-23 14:36:00
+  (7) transfer history: 
+2116-07-13 23:56:57 - 2116-07-18 14:21:18: Surgical Intensive Care Unit (SICU)
+2116-07-18 14:24:47 - 2116-07-23 14:36:24: Surgery/Trauma
+2116-07-18 14:21:18 - 2116-07-18 14:23:10: Surgery/Trauma
+2116-07-18 14:23:10 - 2116-07-18 14:24:47: Surgical Intensive Care Unit (SICU)
+2116-07-23 14:36:24: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2116-07-14 00:31:00        25.0         8.1 30.6  32.4 94.0     249.0 2.65 13.6    NaN 10.0
+2116-07-14 06:14:00        21.4         6.8 30.4  31.8 96.0     200.0 2.24 14.0    NaN  9.5
+2116-07-14 11:22:00        25.2         8.2 30.3  32.5 93.0     200.0 2.71 14.1    NaN 11.4
+2116-07-15 00:19:00        22.1         7.3 30.3  33.0 92.0     187.0 2.41 14.3    NaN 11.7
+2116-07-16 01:45:00        22.2         7.3 30.0  32.9 91.0     200.0 2.43 14.2    NaN 15.5
+2116-07-17 02:58:00        22.8         7.5 29.6  32.9 90.0     239.0 2.53 14.2    NaN 18.1
+2116-07-18 00:41:00        22.2         7.3 30.2  32.9 92.0     247.0 2.42 13.8    NaN 16.3
+2116-07-19 05:08:00        25.3         8.1 29.8  32.0 93.0     256.0 2.72 13.9    NaN 11.2
+2116-07-20 04:28:00        24.9         8.1 30.0  32.5 92.0     281.0 2.70 14.0    NaN 10.6
+2116-07-21 06:30:00        24.9         7.9 29.6  31.7 93.0     318.0 2.67 14.2    NaN 12.0
+2116-07-22 03:56:00        25.9         8.4 30.1  32.4 93.0     378.0 2.79 14.1    NaN 10.7
+2116-07-23 04:50:00        26.0         8.4 29.9  32.3 93.0     387.0 2.81 13.8    NaN  9.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2116-07-30 08:00:00
+sbp: 96.0
+dbp: 62.0
+mbp: 73.0
+sbp_ni: 96.0
+dbp_ni: 62.0
+mbp_ni: 73.0
+resp_rate: 18.0
+temperature: 36.780000000
+temperature_site: Oral
+spo2: 90.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Malignant neoplasm of overlapping sites of hypopharynx
+   drg_type: HCFA
+   description: TRACHEOSTOMY FOR FACE, MOUTH & NECK DIAGNOSES OR LARYNGECTOMY W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Heparin (Unit Dose) - Administered from 2116-07-13 01:00:00 to 2116-07-14 00:00:00
+- Sodium Chloride 0.9% Flush (Unit Dose) - Flushed from 2116-07-14 00:00:00 to 2116-07-19 09:00:00
+- Metronidazole 500 mg / 100 mL NS (IV Piggyback) - Administered from 2116-07-14 00:00:00 to 2116-07-14 12:00:00
+- Fentanyl Citrate (IV Piggyback) - Administered Bolus from IV Drip from 2116-07-14 01:00:00 to 2116-07-18 14:00:00
+- Aspirin (Rectal) 300mg Suppository (Unit Dose) - Administered from 2116-07-14 00:00:00 to 2116-07-14 05:00:00
+- CeFAZolin 2 g / 100 mL Iso-Osmotic Dextrose (IV Piggyback) - Administered from 2116-07-14 00:00:00 to 2116-07-23 18:00:00
+- Ipratropium-Albuterol Neb (Unit Dose) - Administered from 2116-07-14 00:00:00 to 2116-07-23 18:00:00
+- Magnesium Sulfate 4 g / 100 mL (Premix Bag) (IV Piggyback) - Administered from 2116-07-14 06:00:00 to 2116-07-18 14:00:00
+- Levothyroxine 100 mcg Vial (Unit Dose) - Administered from 2116-07-14 06:00:00 to 2116-07-14 14:00:00
+- Heparin (Unit Dose) - Administered from 2116-07-14 08:00:00 to 2116-07-14 10:00:00

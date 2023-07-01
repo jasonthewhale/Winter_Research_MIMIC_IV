@@ -1,0 +1,117 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 85
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2183-04-24 22:25:00
+  (6) discharge time: 2183-05-21 18:38:00
+  (7) transfer history: 
+2183-04-24 21:26:02 - 2183-05-01 15:06:15: Medicine
+2183-05-02 18:19:14 - 2183-05-21 18:40:19: Medicine
+2183-05-01 15:06:15 - 2183-05-02 05:28:37: Trauma SICU (TSICU)
+2183-05-02 05:28:37 - 2183-05-02 18:19:14: Medical Intensive Care Unit (MICU)
+2183-05-21 18:40:19: discharge
+
+2. Medical Data
+(1) heart rate: 
+2183-05-01 19:00:00-2183-05-01 20:00:00 ST (Sinus Tachycardia)
+2183-05-01 20:00:00-2183-05-01 21:00:00 SR (Sinus Rhythm)
+2183-05-01 21:00:00-2183-05-01 22:00:00 ST (Sinus Tachycardia)
+2183-05-01 22:00:00-2183-05-01 23:00:00 SR (Sinus Rhythm)
+2183-05-01 23:00:00-2183-05-02 00:00:00 SR (Sinus Rhythm)
+2183-05-02 00:00:00-2183-05-02 01:00:00 SR (Sinus Rhythm)
+2183-05-02 01:00:00-2183-05-02 02:00:00 SR (Sinus Rhythm)
+2183-05-02 02:00:00-2183-05-02 03:00:00 SR (Sinus Rhythm)
+2183-05-02 03:00:00-2183-05-02 04:00:00 SR (Sinus Rhythm)
+2183-05-02 04:00:00-2183-05-02 05:00:00 SR (Sinus Rhythm)
+2183-05-02 05:00:00-2183-05-02 06:00:00 SR (Sinus Rhythm)
+2183-05-02 06:00:00-2183-05-02 07:00:00 ST (Sinus Tachycardia)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd   wbc
+2183-04-25 01:50:00        31.6        10.2 30.5  32.2  95.0     315.0 3.34 14.7    NaN  6.50
+2183-04-25 12:23:00        29.4         9.3  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-04-25 17:30:00        29.9         9.6 30.8  32.1  96.0     329.0 3.12 14.7    NaN  5.30
+2183-04-26 06:13:00        30.7         9.9 30.9  32.1  96.0     331.0 3.19 14.8    NaN  7.30
+2183-04-26 23:41:00        30.0         9.5  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-04-27 16:11:00        29.5         8.7 29.8  29.5 101.9     387.0 2.89 15.0    NaN  8.65
+2183-04-28 03:50:00        25.3         8.0 30.6  31.6  97.0     358.0 2.61 14.9    NaN  6.70
+2183-04-28 12:12:00        25.3         8.1 32.0  32.1 100.0     370.0 2.54 14.8    NaN  8.80
+2183-04-28 21:13:00        24.9         7.9  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-04-29 02:19:00        24.5         7.8  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-04-29 07:00:00        27.1         8.0 30.1  29.3 103.0     385.0 2.62 14.8    NaN  8.40
+2183-04-29 15:44:00        26.4         8.3  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-04-29 21:00:00        25.6         8.2  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-04-30 01:13:00        24.9         7.8  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-04-30 05:47:00        26.7         8.5 30.3  31.8  95.0     447.0 2.81 15.3    NaN  9.10
+2183-05-01 05:55:00        25.5         8.0 30.0  31.2  96.0     509.0 2.65 15.5    NaN 10.20
+2183-05-01 19:46:00        26.6         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-05-02 01:45:00        21.9         7.1 30.8  32.4  95.0     517.0 2.31 15.6    NaN 10.10
+2183-05-02 12:20:00        25.0         8.2  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-05-03 05:47:00        30.9         9.7 30.1  31.2  97.0     585.0 3.21 15.5    NaN 13.10
+2183-05-04 08:36:00        29.4         9.2 30.5  31.4  97.0     620.0 3.03 15.5    NaN 12.40
+2183-05-04 13:59:00        28.3         8.9 31.9  31.6 101.0     609.0 2.80 15.7    NaN 16.80
+2183-05-05 05:07:00        28.6         9.1 32.2  32.0 101.0     602.0 2.84 15.6    NaN 14.60
+2183-05-05 08:15:00        27.0         8.6 30.6  31.7  97.0     609.0 2.80 15.6    NaN 15.10
+2183-05-06 05:25:00        27.5         8.6 30.3  31.2  97.0     604.0 2.83 15.7    NaN 13.50
+2183-05-06 17:05:00        25.4         7.9 30.2  31.0  98.0     561.0 2.60 15.7    NaN 13.90
+2183-05-07 06:13:00        26.6         8.3 30.4  31.2  97.0     587.0 2.73 15.7    NaN 12.50
+2183-05-08 05:41:00        25.5         7.9 30.3  30.9  98.0     539.0 2.60 15.7    NaN 12.00
+2183-05-09 05:40:00        28.4         8.9 30.2  31.4  96.0     459.0 2.95 15.6    NaN  8.50
+2183-05-10 05:50:00        26.0         8.2 30.9  31.6  98.0     549.0 2.66 15.9    NaN 11.00
+2183-05-11 05:52:00        26.6         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-05-12 06:19:00        26.5         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-05-13 06:24:00        25.4         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-05-14 05:24:00        24.7         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-05-15 06:20:00        31.0         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-05-18 05:56:00        24.3         7.2 28.9  29.8  97.0     427.0 2.50 15.4    NaN 11.00
+2183-05-18 13:17:00        23.5         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN   NaN
+2183-05-19 06:30:00        22.3         6.9 30.4  31.2  98.0     426.0 2.29 15.5    NaN  9.70
+2183-05-20 05:24:00        26.7         8.4 29.9  31.6  95.0     404.0 2.82 16.2    NaN  9.90
+2183-05-21 05:59:00        26.1         8.3 30.5  31.8  96.0     452.0 2.72 16.1    NaN  8.50
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2183-05-02 05:00:00
+sbp: 145.0
+dbp: 60.0
+mbp: 80.0
+sbp_ni: 145.0
+dbp_ni: 60.0
+mbp_ni: 80.0
+resp_rate: 16.0
+temperature: 36.940000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Intestinal infection due to Clostridium difficile
+   drg_type: HCFA
+   description: MAJOR GASTROINTESTINAL DISORDERS & PERITONEAL INFECTIONS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Intestinal infection due to Clostridium difficile
+   drg_type: APR
+   description: MAJOR GASTROINTESTINAL & PERITONEAL INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Albuterol 0.083% Neb Soln (Administered) - Start Time: 2183-04-25 01:00:00, Stop Time: 2183-04-27 21:00:00
+- Ipratropium-Albuterol Neb (Administered) - Start Time: 2183-04-25 01:00:00, Stop Time: 2183-05-21 23:00:00
+- Acetaminophen 325mg Tablet (Administered) - Start Time: 2183-04-25 01:00:00, Stop Time: 2183-05-21 23:00:00
+- Metronidazole 500 mg / 100 mL NS (Administered) - Start Time: 2183-04-25 01:00:00, Stop Time: 2183-05-07 11:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2183-04-25 01:00:00, Stop Time: 2183-05-01 00:00:00
+- Sodium Chloride 0.9% - Floor Stock Bag (Administered) - Start Time: 2183-04-25 03:00:00, Stop Time: 2183-04-26 12:00:00
+- Heparin Flush (10 units/ml) (Flushed) - Start Time: 2183-04-25 08:00:00, Stop Time: 2183-05-21 23:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2183-04-25 08:00:00, Stop Time: 2183-05-21 23:00:00
+- Albuterol 0.083% Neb Soln (Administered) - Start Time: 2183-04-25 01:00:00, Stop Time: 2183-04-27 21:00:00

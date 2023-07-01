@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 55
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2183-03-18 19:21:00
+  (6) discharge time: 2183-03-28 13:35:00
+  (7) transfer history: 
+2183-03-18 13:07:00 - 2183-03-18 19:47:00: Emergency Department
+2183-03-18 19:47:00 - 2183-03-24 20:40:49: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2183-03-24 20:40:49 - 2183-03-27 10:35:59: Neuro Stepdown
+2183-03-27 10:35:59 - 2183-03-28 13:36:52: Neurology
+2183-03-28 13:36:52: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2183-03-18 20:13:00        39.1        13.4 30.4  34.3 89.0     254.0 4.41 13.1    NaN 12.2
+2183-03-19 02:44:00        37.3        12.8 30.3  34.3 88.0     256.0 4.22 13.2    NaN 14.1
+2183-03-20 01:49:00        38.0        13.1 30.6  34.5 89.0     247.0 4.28 13.4    NaN 13.8
+2183-03-21 02:03:00        38.6        13.8 31.0  35.8 87.0     269.0 4.45 13.2    NaN 18.5
+2183-03-21 13:36:00        39.2        13.6 30.4  34.7 88.0     282.0 4.47 13.5    NaN 16.7
+2183-03-22 01:20:00        38.1        13.4 30.7  35.2 87.0     252.0 4.36 13.7    NaN 13.8
+2183-03-23 03:03:00        37.3        13.2 31.2  35.4 88.0     246.0 4.23 13.6    NaN 12.1
+2183-03-24 00:23:00        41.1        14.3 30.4  34.8 87.0     267.0 4.70 13.4    NaN 11.9
+2183-03-25 05:30:00        43.3        15.2 30.5  35.1 87.0     277.0 4.99 13.4    NaN 12.6
+2183-03-26 04:26:00        38.5        13.5 30.5  35.1 87.0     253.0 4.42 13.6    NaN  9.9
+2183-03-27 06:21:00        36.0        12.4 30.8  34.4 90.0     273.0 4.02 14.0    NaN 10.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2183-03-22 08:00:00
+sbp: 167.0
+dbp: 91.0
+mbp: 122.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 10.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Nontraumatic subarachnoid hemorrhage from basilar artery
+   drg_type: HCFA
+   description: INTRACRANIAL VASCULAR PROCEDURES W PDX HEMORRHAGE W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Nontraumatic subarachnoid hemorrhage from basilar artery
+   drg_type: APR
+   description: EXTRACRANIAL VASCULAR PROCEDURES
+   drg_severity: 2
+   drg_mortality: 2
+
+Medication:
+- Ondansetron: 4mg, administered from 2183-03-18 22:00:00 to 2183-03-28 17:00:00, via IV, frequency Q8H:PRN
+- Haloperidol: 0.25mg, administered from 2183-03-18 21:00:00 to 2183-03-19 20:00:00, via IV, once
+- Nimodipine: 30mg, administered from 2183-03-18 21:00:00 to 2183-03-28 17:00:00, via PO/NG, frequency Q4H
+- Acetaminophen IV: 1000mg, administered from 2183-03-19 00:00:00 to 2183-03-19 23:00:00, via IV, once
+- Morphine Sulfate: 1mg, administered from 2183-03-19 00:00:00 to 2183-03-19 10:00:00, via IV, frequency Q6H:PRN
+- Aspirin 81mg Tab: 81mg, administered from 2183-03-18 21:00:00 to 2183-03-28 17:00:00, via PO/NG, daily

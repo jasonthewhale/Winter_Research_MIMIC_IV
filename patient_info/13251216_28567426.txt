@@ -1,0 +1,114 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 70
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2176-12-20 08:49:00
+  (6) discharge time: 2177-01-08 17:49:00
+  (7) transfer history: 
+2176-12-20 08:49:51 - 2177-01-07 17:45:05: Cardiac Vascular Intensive Care Unit (CVICU)
+2177-01-07 17:45:05 - 2177-01-08 17:59:41: Cardiac Surgery
+2177-01-08 17:59:41: discharge
+
+2. Medical Data
+(1) heart rate: 
+2176-12-21 00:00:00-2176-12-21 08:00:00 SR (Sinus Rhythm) PAC's None None None
+2176-12-21 08:00:00-2176-12-21 09:00:00 SR (Sinus Rhythm) PAC's Rare None None
+2176-12-21 09:00:00-2176-12-21 10:00:00 SR (Sinus Rhythm) PAC's Occasional None None
+2176-12-21 10:00:00-2176-12-21 11:00:00 SR (Sinus Rhythm) PAC's Occasional None None
+2176-12-21 11:00:00-2176-12-21 12:00:00 SR (Sinus Rhythm) PAC's Occasional None None
+2176-12-21 12:00:00-2176-12-21 13:00:00 SR (Sinus Rhythm) PAC's Frequent None None
+2176-12-21 13:00:00-2176-12-21 18:00:00 SR (Sinus Rhythm) PAC's Frequent None None
+2176-12-21 18:00:00-2176-12-21 19:00:00 SR (Sinus Rhythm) PAC's Rare None None
+2176-12-21 19:00:00-2176-12-21 20:00:00 SR (Sinus Rhythm) PAC's Frequent None None
+2176-12-21 20:00:00-2176-12-21 21:00:00 SA (Sinus Arrhythmia) PAC's Frequent None None
+2176-12-21 21:00:00-2176-12-23 08:00:00 SR (Sinus Rhythm) PAC's Frequent None None
+2176-12-23 08:00:00-2176-12-23 09:00:00 SR (Sinus Rhythm) PAC's None None None
+2176-12-23 09:00:00-2176-12-23 12:00:00 SR (Sinus Rhythm) PAC's None None None
+2176-12-23
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2176-12-20 09:23:00        44.5        15.3 30.8  34.4 90.0     109.0 4.97 13.6    NaN  7.3
+2176-12-20 16:45:00        28.3         9.4 31.2  33.2 94.0     186.0 3.01 13.6    NaN 12.3
+2176-12-20 19:00:00        33.4         NaN  NaN   NaN  NaN     187.0  NaN  NaN    NaN  NaN
+2176-12-20 22:00:00        28.6         9.6 31.5  33.6 94.0     186.0 3.05 13.9    NaN 15.0
+2176-12-21 02:28:00        27.3         9.3 32.0  34.1 94.0     203.0 2.91 14.0    NaN 15.5
+2176-12-21 07:42:00        24.4         8.2  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-21 12:05:00        26.9         9.2  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-21 16:11:00        26.8         9.3  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-21 19:37:00        28.6        10.1  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-22 03:49:00        28.5         9.8 31.3  34.4 91.0     118.0 3.13 14.5    NaN 12.2
+2176-12-23 01:49:00        28.1         9.8 32.0  34.9 92.0     106.0 3.06 14.6    NaN 10.6
+2176-12-23 11:30:00        28.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-24 02:39:00        30.1        10.3 31.6  34.2 92.0     133.0 3.26 14.2    NaN  9.4
+2176-12-24 13:28:00        29.3        16.5 31.5  34.4 92.0      93.0 5.23 14.2    NaN  6.8
+2176-12-25 02:24:00        28.5         9.7 31.5  34.0 93.0     187.0 3.08 14.3    NaN 12.6
+2176-12-26 02:50:00        28.9         9.7 31.2  33.6 93.0     195.0 3.11 14.1    NaN 12.2
+2176-12-26 18:03:00        30.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-27 01:56:00        29.0         9.5 30.8  32.8 94.0     294.0 3.08 14.6    NaN 16.0
+2176-12-27 13:40:00        25.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-27 17:46:00        27.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-28 02:08:00        27.6         9.1 30.5  33.0 93.0     228.0 2.98 14.5    NaN 10.6
+2176-12-28 14:00:00        25.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-28 18:11:00        25.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2176-12-29 01:00:00        27.8         9.4 31.3  33.8 93.0     246.0 3.00 14.1    NaN 11.2
+2176-12-30 02:38:00        28.4         9.6 31.2  33.8 92.0     310.0 3.08 14.2    NaN 11.2
+2176-12-30 17:35:00        27.6         9.4 31.3  34.1 92.0     322.0 3.00 14.5    NaN 11.3
+2176-12-31 04:10:00        26.7         8.9 31.1  33.3 93.0     335.0 2.86 14.8    NaN 14.1
+2177-01-01 01:48:00        24.1         7.9 31.2  32.8 95.0     301.0 2.53 14.7    NaN 12.1
+2177-01-02 01:16:00        23.7         7.9 31.6  33.3 95.0     305.0 2.50 14.5    NaN 11.0
+2177-01-03 01:10:00        24.2         7.8 30.8  32.2 96.0     336.0 2.53 14.6    NaN  8.9
+2177-01-03 02:26:00        26.8         9.0 31.9  33.6 95.0     373.0 2.82 14.6    NaN 10.1
+2177-01-04 02:02:00        29.8         9.6 30.8  32.2 96.0     393.0 3.12 15.1    NaN 10.4
+2177-01-05 02:40:00        28.8         9.4 31.4  32.6 96.0     358.0 2.99 15.9    NaN  7.6
+2177-01-06 03:13:00        29.4         9.4 31.3  32.0 98.0     318.0 3.00 15.9    NaN  7.4
+2177-01-07 03:39:00        30.0         9.6 31.2  32.0 97.0     278.0 3.08 15.7    NaN  6.9
+2177-01-08 04:51:00        31.4         9.9 30.8  31.5 98.0     267.0 3.21 15.2    NaN  6.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2180-09-15 12:00:00
+sbp: 164.0
+dbp: 102.0
+mbp: nan
+sbp_ni: 164.0
+dbp_ni: 102.0
+mbp_ni: nan
+resp_rate: nan
+temperature: 36.720000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 0
+cns: 2
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Acute myocardial infarction of other lateral wall, initial episode of care
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Acute myocardial infarction of other lateral wall, initial episode of care
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Nystatin Oral Suspension: Administered from 2177-01-07 19:00:00 to 2177-01-08 22:00:00
+- Ranitidine (Liquid) 150mg UD Cup: Administered from 2177-01-07 19:00:00 to 2177-01-08 22:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2177-01-07 19:00:00 to 2177-01-08 22:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2177-01-07 19:00:00 to 2177-01-08 22:00:00
+- Ciprofloxacin HCl 500mg Tab: Administered from 2177-01-07 19:00:00 to 2177-01-08 22:00:00
+- QUEtiapine Fumarate 25mg Tablet: Administered from 2177-01-07 19:00:00 to 2177-01-08 22:00:00
+- Insulin: Administered from 2177-01-07 19:00:00 to 2177-01-08 22:00:00
+- Metoprolol Tartrate: Administered from 2177-01-07 19:00:00 to 2177-01-08 22:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2177-01-07 19:00:00 to 2177-01-08 22:00:00
+- Amiodarone 200 mg Tab: Administered from 2177-01-07 19:00:00 to 2177-01-08 22:00:00

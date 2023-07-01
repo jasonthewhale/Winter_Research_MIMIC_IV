@@ -1,0 +1,88 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 62
+  (3) race: AMERICAN INDIAN/ALASKA NATIVE
+  (4) admission type: EW EMER.
+  (5) admit time: 2162-12-17 23:33:00
+  (6) discharge time: 2163-01-10 21:35:00
+  (7) transfer history: 
+2162-12-17 18:49:00 - 2162-12-18 00:58:00: Emergency Department
+2162-12-18 00:58:00 - 2163-01-10 21:35:12: Surgical Intensive Care Unit (SICU)
+2163-01-10 21:35:12: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2162-12-18 04:07:00        32.4        10.3 33.3  31.8 105.0     165.0 3.09 17.6    NaN  9.2
+2162-12-20 03:38:00        29.7         9.4 33.1  31.6 105.0     109.0 2.84 17.8    NaN  6.8
+2162-12-21 02:48:00        26.4         8.2 33.2  31.1 107.0     103.0 2.47 18.0    NaN  8.6
+2162-12-22 00:57:00        27.2         8.4 32.9  30.9 107.0     107.0 2.55 17.6    NaN  9.1
+2162-12-23 05:10:00        27.0         8.1 32.7  30.0 109.0     109.0 2.48 17.6    NaN  8.3
+2162-12-23 17:44:00        25.6         7.8 32.8  30.5 108.0     103.0 2.38 17.8    NaN  7.8
+2162-12-24 04:09:00        25.6         7.8 33.2  30.5 109.0     110.0 2.35 17.9    NaN  8.2
+2162-12-25 02:11:00        26.7         8.0 32.7  30.0 109.0     107.0 2.45 17.7    NaN  9.2
+2162-12-26 01:50:00        25.1         7.7 33.0  30.7 108.0     112.0 2.33 17.7    NaN  8.3
+2162-12-27 01:54:00        23.1         7.2 33.2  31.2 107.0     121.0 2.17 17.8    NaN  7.3
+2162-12-28 00:27:00        22.2         6.8 33.2  30.6 108.0     130.0 2.05 17.6    NaN  6.3
+2162-12-28 04:59:00        24.3         7.3 32.7  30.0 109.0     149.0 2.23 17.6    NaN  8.9
+2162-12-29 03:38:00        21.5         6.5 33.3  30.2 110.0     158.0 1.95 18.2    NaN  8.8
+2162-12-30 04:02:00        23.0         7.2 32.9  31.3 105.0     178.0 2.19 18.6    NaN  7.6
+2162-12-31 00:05:00        22.5         7.0 33.0  31.1 106.0     203.0 2.12 18.0    NaN  7.1
+2163-01-01 02:41:00        21.1         6.6 33.3  31.3 107.0     211.0 1.98 17.7    NaN  8.1
+2163-01-02 02:30:00        27.6         8.6 32.2  31.2 103.0     220.0 2.67 18.9    NaN  6.9
+2163-01-03 03:41:00        26.2         8.2 31.9  31.3 102.0     240.0 2.57 17.5    NaN  6.5
+2163-01-04 02:08:00        28.7         8.9 32.2  31.0 104.0     243.0 2.76 17.2    NaN  5.7
+2163-01-05 08:19:00        24.9         8.0 32.8  32.1 102.0     263.0 2.44 16.7    NaN  5.8
+2163-01-06 01:24:00        27.3         8.3 31.8  30.4 105.0     239.0 2.61 17.0    NaN  5.3
+2163-01-07 04:40:00        25.2         7.8 32.2  31.0 104.0     244.0 2.42 16.5    NaN  6.3
+2163-01-08 14:30:00        26.5         8.4 32.4  31.7 102.0     256.0 2.59 16.0    NaN  8.1
+2163-01-09 11:45:00        26.1         7.8 31.5  29.9 105.0     202.0 2.48 15.9    NaN  6.8
+2163-01-10 05:29:00        23.7         7.5 32.3  31.6 102.0     196.0 2.32 15.8    NaN  7.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2162-12-27 04:00:00
+sbp: 129.0
+dbp: 48.0
+mbp: 72.0
+sbp_ni: 129.0
+dbp_ni: 48.0
+mbp_ni: 72.0
+resp_rate: 26.5
+temperature: 36.440000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 2
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Acute respiratory failure with hypercapnia
+   drg_type: HCFA
+   description: TRACH W MV >96 HRS OR PDX EXC FACE, MOUTH & NECK W/O MAJ O.R.
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Acute respiratory failure with hypercapnia
+   drg_type: APR
+   description: TRACHEOSTOMY W MV 96+ HOURS W/O EXTENSIVE PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Flushed: 3 mL Sodium Chloride 0.9% Flush, started on 2162-12-18 02:00:00 and stopped on 2163-01-11 02:00:00
+- CefePIME: 1 g CefePIME IV Piggyback, started on 2162-12-18 03:00:00 and stopped on 2162-12-18 12:00:00
+- amLODIPine: 5 mg amLODIPine Tablet, started on 2162-12-18 03:00:00 and stopped on 2162-12-28 12:00:00
+- Ascorbic Acid: 500 mg Ascorbic Acid Tablet, started on 2162-12-18 03:00:00 and stopped on 2163-01-11 02:00:00
+- Cyanocobalamin: 500 mcg Cyanocobalamin Tablet, started on 2162-12-18 03:00:00 and stopped on 2163-01-11 02:00:00
+- Heparin: 5000 UNIT Heparin, started on 2162-12-18 02:00:00 and stopped on 2163-01-03 13:00:00
+- HydrALAZINE: 50 mg HydrALAZINE Tablet, started on 2162-12-18 03:00:00 and stopped on 2162-12-28 12:00:00
+- LevETIRAcetam: 500 mg LevETIRAcetam Tablet, started on 2162-12-18 03:00:00 and stopped on 2162-12-19 11:00:00

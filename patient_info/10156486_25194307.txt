@@ -1,0 +1,89 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 75
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2124-04-06 21:28:00
+  (6) discharge time: 2124-04-18 16:18:00
+  (7) transfer history: 
+2124-04-06 21:29:32 - 2124-04-07 20:53:26: Trauma SICU (TSICU)
+2124-04-09 17:40:47 - 2124-04-18 16:20:11: Med/Surg/Trauma
+2124-04-07 20:53:26 - 2124-04-09 17:40:47: Trauma SICU (TSICU)
+2124-04-18 16:20:11: discharge
+
+2. Medical Data
+(1) heart rate: 
+2124-04-07 09:00:00-2124-04-07 09:59:59 SR (Sinus Rhythm)
+2124-04-07 11:00:00-2124-04-07 11:59:59 SR (Sinus Rhythm)
+2124-04-07 12:00:00-2124-04-07 12:59:59 SR (Sinus Rhythm)
+2124-04-07 13:00:00-2124-04-07 13:59:59 SR (Sinus Rhythm)
+2124-04-07 14:00:00-2124-04-07 14:59:59 SR (Sinus Rhythm)
+2124-04-07 15:00:00-2124-04-07 15:59:59 ST (Sinus Tachycardia)
+2124-04-07 22:00:00-2124-04-07 22:59:59 RBBB (Right Bundle Branch Block)
+2124-04-07 23:00:00-2124-04-07 23:59:59 RBBB (Right Bundle Branch Block)
+2124-04-08 00:00:00-2124-04-08 00:59:59 RBBB (Right Bundle Branch Block)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2124-04-06 23:21:00        31.7        10.4 30.0  32.8 91.0     290.0 3.47 16.2    NaN 32.3
+2124-04-07 20:34:00        29.6         9.9 30.8  33.4 92.0     324.0 3.21 16.0    NaN 33.1
+2124-04-08 02:47:00        28.4         9.1 29.8  32.0 93.0     308.0 3.05 16.0    NaN 30.9
+2124-04-08 17:30:00        26.7         8.6 30.3  32.2 94.0     297.0 2.84 15.9    NaN 27.0
+2124-04-09 00:52:00        27.4         8.7 29.9  31.8 94.0     328.0 2.91 15.9    NaN 26.4
+2124-04-10 00:12:00        26.6         8.5 30.2  32.0 95.0     349.0 2.81 15.9    NaN 22.9
+2124-04-10 04:27:00        25.0         8.0 30.3  32.0 95.0     339.0 2.64 16.1    NaN 22.5
+2124-04-11 03:55:00        24.8         8.1 30.8  32.7 94.0     362.0 2.63 16.2    NaN 21.7
+2124-04-12 02:53:00        25.0         8.1 30.8  32.4 95.0     385.0 2.63 16.6    NaN 23.4
+2124-04-13 05:01:00        25.1         8.1 30.7  32.3 95.0     400.0 2.64 16.7    NaN 25.3
+2124-04-14 04:54:00        26.2         8.3 30.3  31.7 96.0     411.0 2.74 17.2    NaN 25.4
+2124-04-15 06:16:00        24.4         7.5 30.2  30.7 98.0     386.0 2.48 17.2    NaN 25.1
+2124-04-16 05:56:00        18.2         5.6 30.3  30.8 98.0     407.0 1.85 17.5    NaN 26.6
+2124-04-16 09:37:00        24.3         7.5 30.2  30.9 98.0     381.0 2.48 17.7    NaN 24.0
+2124-04-17 06:02:00        24.1         7.4 30.5  30.7 99.0     394.0 2.43 17.7    NaN 22.7
+2124-04-18 04:54:00        25.8         7.8 29.8  30.2 99.0     425.0 2.62 18.4    NaN 23.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2124-04-07 12:00:00
+sbp: 113.0
+dbp: 56.0
+mbp: 72.0
+sbp_ni: 113.0
+dbp_ni: 56.0
+mbp_ni: 72.0
+resp_rate: 14.0
+temperature: 36.610000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis, unspecified organism
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2124-04-06 23:00:00 and stopped on 2124-04-14 14:00:00
+- Administered: Metronidazole 500 mg / 100 mL NS, started on 2124-04-06 23:00:00 and stopped on 2124-04-09 17:00:00
+- Administered: Metoprolol Tartrate, started on 2124-04-06 23:00:00 and stopped on 2124-04-09 11:00:00
+- Administered: Acetaminophen IV, started on 2124-04-06 23:00:00 and stopped on 2124-04-08 05:00:00
+- Administered: Ciprofloxacin 400 mg / 200 mL 5% Dextrose, started on 2124-04-06 23:00:00 and stopped on 2124-04-09 11:00:00
+- Administered: HYDROmorphone (Dilaudid), started on 2124-04-06 23:00:00 and stopped on 2124-04-18 20:00:00
+- Administered: Metoprolol Tartrate, started on 2124-04-06 23:00:00 and stopped on 2124-04-09 11:00:00
+- Administered: Levothyroxine Sodium, started on 2124-04-07 08:00:00 and stopped on 2124-04-08 10:00:00
+- Administered: Metronidazole 500 mg / 100 mL NS, started on 2124-04-06 23:00:00 and stopped on 2124-04-09 17:00:00

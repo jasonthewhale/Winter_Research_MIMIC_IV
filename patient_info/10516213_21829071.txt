@@ -1,0 +1,89 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 57
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2171-11-25 00:32:00
+  (6) discharge time: 2171-12-12 21:54:00
+  (7) transfer history: 
+2171-11-24 12:49:00 - 2171-11-25 02:19:00: Emergency Department
+2171-11-25 02:19:00 - 2171-11-26 18:02:17: Med/Surg/GYN
+2171-12-04 10:48:35 - 2171-12-04 19:12:52: PACU
+2171-11-26 18:02:17 - 2171-12-04 10:48:35: Med/Surg/GYN
+2171-12-06 21:46:03 - 2171-12-08 15:43:30: Med/Surg/Trauma
+2171-12-08 15:43:30 - 2171-12-12 21:54:41: Med/Surg/Trauma
+2171-12-04 19:12:52 - 2171-12-06 21:46:03: Trauma SICU (TSICU)
+2171-12-12 21:54:41: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2171-11-24 13:15:00        30.8        10.4 31.5  33.7 94.0     289.0 3.30 17.4    NaN  5.1
+2171-11-25 09:45:00        31.7        10.8 31.7  34.0 93.0     276.0 3.41 17.0    NaN  5.5
+2171-11-26 06:01:00        30.0        10.2 31.5  34.0 93.0     294.0 3.23 17.0    NaN  5.4
+2171-11-27 08:35:00        30.0        10.1 31.1  33.7 92.0     290.0 3.25 16.9    NaN  4.5
+2171-11-30 06:05:00        29.7        10.3 32.0  34.7 92.0     258.0 3.23 16.8    NaN  5.4
+2171-12-02 07:10:00        29.4         9.9 31.8  33.6 95.0     255.0 3.11 17.0    NaN  7.0
+2171-12-03 06:52:00        28.6         9.9 32.5  34.6 94.0     246.0 3.05 16.7    NaN  8.6
+2171-12-04 05:25:00        24.1         8.4 33.2  34.7 96.0     207.0 2.52 16.9    NaN  7.7
+2171-12-04 19:45:00        29.9        10.1 30.9  33.6 92.0     187.0 3.26 18.3    NaN  8.2
+2171-12-05 03:40:00        30.3        10.3 31.2  34.2 91.0     200.0 3.32 18.5    NaN  7.0
+2171-12-05 20:15:00        31.2        10.5 30.8  33.6 92.0     251.0 3.40 17.9    NaN 12.5
+2171-12-06 01:29:00        25.6         8.6 30.9  33.7 92.0     236.0 2.79 18.0    NaN  9.7
+2171-12-07 03:54:00        24.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2171-12-07 10:18:00        24.8         8.2 31.2  33.0 95.0     183.0 2.62 17.0    NaN 10.4
+2171-12-08 11:11:00        24.2         8.1 31.2  33.4 93.0     258.0 2.59 16.6    NaN  8.1
+2171-12-09 08:46:00        24.3         8.1 31.8  33.4 95.0     271.0 2.55 16.8    NaN  6.1
+2171-12-10 11:25:00        24.1         7.7 30.3  31.9 95.0     319.0 2.54 16.4    NaN  6.2
+2171-12-11 07:07:00        22.4         7.4 31.7  33.2 96.0     364.0 2.34 17.0    NaN  6.9
+2171-12-11 19:11:00        28.4         9.2 30.1  32.3 93.0     409.0 3.04 18.5    NaN  8.3
+2171-12-12 05:15:00        25.3         8.3 30.0  32.8 92.0     374.0 2.76 18.5    NaN  7.4
+2171-12-12 13:53:00        26.2         8.6 30.3  32.9 92.0     419.0 2.84 18.5    NaN  9.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2171-12-04 21:00:00
+sbp: 116.0
+dbp: 61.0
+mbp: 84.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 16.0
+temperature: 36.610000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 1
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Toxic encephalopathy
+   drg_type: APR
+   description: SPINAL PROCEDURES
+   drg_severity: 3
+   drg_mortality: 1
+2. Toxic encephalopathy
+   drg_type: HCFA
+   description: SPINAL PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush (3 mL) - Start time: 2171-11-25 03:00:00, Stop time: 2171-12-06 01:00:00
+- Administered: OxycoDONE (Immediate Release) 5mg Tablet (5 mg) - Start time: 2171-11-25 07:00:00, Stop time: 2171-11-26 14:00:00
+- Administered: Acetaminophen 500mg Tablet (500 mg) - Start time: 2171-11-25 07:00:00, Stop time: 2171-12-06 07:00:00
+- Administered: Magnesium Oxide 400 mg Tab (400 mg) - Start time: 2171-11-25 06:00:00, Stop time: 2171-12-05 21:00:00
+- Administered: Oxycodone SR (OxyconTIN) 20mg Tablet (20 mg) - Start time: 2171-11-25 07:00:00, Stop time: 2171-12-04 20:00:00
+- Administered: Amlodipine 5mg Tablet (5 mg) - Start time: 2171-11-25 06:00:00, Stop time: 2171-12-04 08:00:00
+- Administered: Omeprazole 20mg DR Capsule (20 mg) - Start time: 2171-11-25 07:00:00, Stop time: 2171-12-04 23:00:00
+- Administered: Lactulose (15 mL) - Start time: 2171-11-25 08:00:00, Stop time: 2171-11-26 15:00:00

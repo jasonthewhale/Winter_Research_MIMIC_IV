@@ -1,0 +1,81 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 46
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2146-03-31 17:46:00
+  (6) discharge time: 2146-04-11 18:20:00
+  (7) transfer history: 
+2146-03-31 16:07:00 - 2146-03-31 20:19:00: Emergency Department
+2146-03-31 20:19:00 - 2146-04-03 21:41:09: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2146-04-03 21:41:09 - 2146-04-11 18:21:21: Hematology/Oncology Intermediate
+2146-04-11 18:21:21: discharge
+
+2. Medical Data
+(1) heart rate: 
+2146-04-01 07:36:00-2146-04-01 07:36:00 SR (Sinus Rhythm)
+2146-04-01 07:36:00-2146-04-01 07:36:00 PVC's (Premature Ventricular Contractions) Rare
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2146-03-31 21:24:00        27.6         8.1 20.0  29.3 68.0     107.0 4.04 18.5    NaN 11.8
+2146-04-01 02:31:00        26.9         7.8 20.2  29.0 70.0     124.0 3.87 18.5    NaN  8.1
+2146-04-02 03:04:00        25.2         7.7 20.2  30.6 66.0     133.0 3.81 18.7    NaN  2.7
+2146-04-03 04:08:00        19.8         6.1 20.3  30.8 66.0      94.0 3.01 18.9    NaN  3.5
+2146-04-03 15:10:00        24.0         7.4 20.6  30.8 67.0     105.0 3.60 19.2    NaN  7.3
+2146-04-03 20:34:00        22.8         7.1 20.9  31.1 67.0      91.0 3.40 19.2    NaN  7.3
+2146-04-04 07:25:00        21.6         6.7 20.8  31.0 67.0     105.0 3.22 19.0    NaN  5.5
+2146-04-04 16:05:00        26.6         8.3 21.5  31.2 69.0     122.0 3.86 19.9    NaN  7.9
+2146-04-05 07:39:00        27.6         8.6 21.4  31.2 69.0     134.0 4.02 19.4    NaN  6.2
+2146-04-06 05:09:00        28.3         8.8 21.8  31.1 70.0     149.0 4.04 19.9    NaN  5.2
+2146-04-07 05:32:00        29.3         9.0 21.5  30.7 70.0     147.0 4.18 21.1    NaN  5.8
+2146-04-08 06:23:00        31.0         9.3 21.6  30.0 72.0     143.0 4.31 22.1    NaN  7.7
+2146-04-09 05:59:00        32.5         9.6 21.6  29.5 73.0     128.0 4.44 22.3    NaN  7.2
+2146-04-10 06:14:00        31.6         9.3 21.7  29.4 74.0     119.0 4.29 22.9    NaN  7.0
+2146-04-11 06:18:00        32.4         9.6 22.2  29.6 75.0     164.0 4.32 23.3    NaN  7.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2146-04-03 10:50:00
+sbp: 126.0
+dbp: 83.0
+mbp: nan
+sbp_ni: 126.0
+dbp_ni: 83.0
+mbp_ni: nan
+resp_rate: nan
+temperature: 36.780000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: <NA>
+cns: 1
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 1
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Other streptococcal sepsis
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Other streptococcal sepsis
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 3
+   drg_mortality: 4
+
+Medication:
+- Heparin: Administered from 2146-03-31 22:00:00 to 2146-04-02 10:00:00
+- Lactated Ringers - Floor Stock Bag: Administered from 2146-03-31 22:00:00 to 2146-04-01 21:00:00
+- Lactated Ringers - Floor Stock Bag: Administered from 2146-03-31 23:00:00 to 2146-04-01 22:00:00
+- Oxycodone SR (OxyconTIN) 20mg Tablet: Administered from 2146-04-01 00:00:00 to 2146-04-02 20:00:00
+- Magnesium Sulfate 4 g / 100 mL (Premix Bag): Administered from 2146-04-01 00:00:00 to 2146-04-11 22:00:00
+- Piperacillin-Tazobactam 4.5 g / 100 mL Iso-Osmotic Dextrose: Administered from 2146-04-01 01:00:00 to 2146-04-02 10:00:00
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix): Administered from 2146-04-01 05:00:00 to 2146-04-02 10:00:00
+- Phosphorus 250 mg Tablet: Administered from 2146-04-01 06:00:00 to 2146-04-02 10:00:00
+- Levothyroxine Sodium 100mcg Tablet: Administered from 2146-03-31 23:00:00 to 2146-04-02 20:00:00

@@ -1,0 +1,76 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 50
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2126-05-10 21:44:00
+  (6) discharge time: 2126-05-20 17:52:00
+  (7) transfer history: 
+2126-05-10 19:14:00 - 2126-05-10 23:03:00: Emergency Department
+2126-05-10 23:03:00 - 2126-05-18 18:29:29: Medical Intensive Care Unit (MICU)
+2126-05-18 18:29:29 - 2126-05-20 17:53:04: Medicine
+2126-05-20 17:53:04: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2126-05-11 05:53:00        36.3        11.2 29.7  30.9 96.0     180.0 3.77 15.5    NaN 16.3
+2126-05-12 05:01:00        34.2        10.7 29.3  31.3 94.0     178.0 3.65 14.6    NaN 10.9
+2126-05-13 05:27:00        33.8        10.6 29.1  31.4 93.0     180.0 3.64 14.7    NaN 12.4
+2126-05-14 02:55:00        31.3        10.4 30.1  33.2 91.0     162.0 3.45 14.6    NaN  8.6
+2126-05-15 01:53:00        29.6         9.6 29.3  32.4 90.0     151.0 3.28 14.7    NaN  6.5
+2126-05-16 03:43:00        34.1        10.7 29.1  31.4 93.0     199.0 3.68 15.3    NaN  8.3
+2126-05-17 03:11:00        31.8        10.2 29.7  32.1 92.0     191.0 3.44 15.3    NaN  6.9
+2126-05-18 03:59:00        34.7        11.0 29.5  31.7 93.0     206.0 3.73 15.7    NaN  6.3
+2126-05-19 05:57:00        34.1        11.2 30.5  32.8 93.0     211.0 3.67 16.2    NaN  7.1
+2126-05-20 05:54:00        33.1        10.3 28.9  31.1 93.0     204.0 3.56 16.1    NaN  6.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2122-11-13 16:00:00
+sbp: 118.0
+dbp: 93.0
+mbp: 99.0
+sbp_ni: 118.0
+dbp_ni: 93.0
+mbp_ni: 99.0
+resp_rate: 22.5
+temperature: 38.560000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 1
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Human immunodeficiency virus [HIV] disease
+   drg_type: APR
+   description: HIV W MULTIPLE MAJOR HIV RELATED CONDITIONS
+   drg_severity: 4
+   drg_mortality: 4
+2. Human immunodeficiency virus [HIV] disease
+   drg_type: HCFA
+   description: HIV W MAJOR RELATED CONDITION W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Meropenem: Administered from 2126-05-11 03:00:00 to 2126-05-12 02:00:00
+- Lactated Ringers - Floor Stock Bag: Administered from 2126-05-11 04:00:00 to 2126-05-12 03:00:00
+- Vancomycin Oral Liquid: Administered from 2126-05-11 02:00:00 to 2126-05-20 22:00:00
+- Atovaquone Suspension: Administered from 2126-05-11 02:00:00 to 2126-05-20 22:00:00
+- Darunavir 800 mg Tablet: Administered from 2126-05-11 02:00:00 to 2126-05-20 22:00:00
+- Emtricitabine-Tenofovir (Truvada) 200-300mg Tablet: Administered from 2126-05-11 02:00:00 to 2126-05-20 22:00:00
+- Glycopyrrolate 1mg Tablet: Administered from 2126-05-11 02:00:00 to 2126-05-13 11:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial: Administered from 2126-05-11 00:00:00 to 2126-05-20 22:00:00
+- Hyoscyamine 0.125 mg PO/SL Tablet: Administered from 2126-05-11 02:00:00 to 2126-05-13 11:00:00
+- LevETIRAcetam Oral Solution: Administered from 2126-05-11 02:00:00 to 2126-05-20 22:00:00

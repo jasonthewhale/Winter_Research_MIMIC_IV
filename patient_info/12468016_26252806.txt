@@ -1,0 +1,82 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 50
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2139-03-10 19:34:00
+  (6) discharge time: 2139-03-24 19:48:00
+  (7) transfer history: 
+2139-03-10 14:10:00 - 2139-03-10 21:00:00: Emergency Department
+2139-03-10 21:00:00 - 2139-03-11 10:44:49: Medicine/Cardiology Intermediate
+2139-03-13 16:27:57 - 2139-03-24 19:48:45: Medicine/Cardiology
+2139-03-11 15:42:18 - 2139-03-13 16:27:57: Medical Intensive Care Unit (MICU)
+2139-03-11 10:44:49 - 2139-03-11 15:42:18: Surgical Intensive Care Unit (SICU)
+2139-03-24 19:48:45: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2139-03-11 05:55:00        26.6         8.3 27.7  31.2 89.0     431.0 3.00 16.8    NaN  9.5
+2139-03-11 09:47:00        26.6         8.5 27.8  32.0 87.0     451.0 3.06 16.6    NaN 10.3
+2139-03-12 04:10:00        26.0         8.1 27.4  31.2 88.0     474.0 2.96 16.6    NaN  8.6
+2139-03-13 04:05:00        22.5         7.0 27.3  31.1 88.0     473.0 2.56 16.8    NaN  9.2
+2139-03-13 14:37:00        23.6         7.4 27.8  31.4 89.0     512.0 2.66 16.9    NaN 11.2
+2139-03-14 06:28:00        24.1         7.4 27.4  30.7 89.0     536.0 2.70 17.1    NaN 11.0
+2139-03-15 05:51:00        26.3         8.0 27.4  30.4 90.0     574.0 2.92 16.8    NaN  9.2
+2139-03-16 05:31:00        26.3         7.8 27.2  29.7 92.0     566.0 2.87 16.9    NaN  9.1
+2139-03-17 09:38:00        28.0         8.4 27.5  30.0 92.0     571.0 3.06 17.1    NaN 10.8
+2139-03-18 11:07:00        29.1         8.5 27.1  29.2 93.0     562.0 3.14 17.2    NaN 15.1
+2139-03-19 05:35:00        29.6         8.7 27.5  29.4 94.0     542.0 3.16 17.1    NaN 13.6
+2139-03-20 05:35:00        28.3         8.4 27.6  29.7 93.0     499.0 3.04 17.2    NaN 17.7
+2139-03-21 07:19:00        29.1         8.5 27.2  29.2 93.0     489.0 3.12 17.6    NaN 12.8
+2139-03-22 06:20:00        29.8         8.8 27.4  29.5 93.0     516.0 3.21 17.7    NaN 12.2
+2139-03-23 06:05:00        29.5         8.9 28.3  30.2 94.0     516.0 3.15 18.0    NaN 12.5
+2139-03-24 05:53:00        29.1         8.6 27.7  29.6 94.0     506.0 3.10 18.0    NaN 11.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2134-11-12 10:39:00
+sbp: 81.0
+dbp: 68.0
+mbp: 71.0
+sbp_ni: 81.0
+dbp_ni: 68.0
+mbp_ni: 71.0
+resp_rate: 23.0
+temperature: 36.500000000
+temperature_site: Axillary
+spo2: 87.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   drg_type: HCFA
+   description: HEART FAILURE & SHOCK W MCC OR PERIPHERAL EXTRACORPOREAL MEMBRANE OXYGEN
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   drg_type: APR
+   description: HEART FAILURE
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Apixaban 5 MG TABLET (Administered) - Start time: 2139-03-10 23:00:00, Stop time: 2139-03-25 00:00:00
+- Atorvastatin (Administered) - Start time: 2139-03-10 23:00:00, Stop time: 2139-03-19 20:00:00
+- Ipratropium-Albuterol Neb (Administered) - Start time: 2139-03-10 23:00:00, Stop time: 2139-03-11 01:00:00
+- Furosemide (Administered) - Start time: 2139-03-11 02:00:00, Stop time: 2139-03-11 11:00:00
+- Naloxone (Administered) - Start time: 2139-03-11 02:00:00, Stop time: 2139-03-11 11:00:00
+- Clindamycin 600mg / 50 mL (Administered) - Start time: 2139-03-11 00:00:00, Stop time: 2139-03-11 13:00:00
+- Potassium Chloride 10 mEq / 100 mL SW (Administered) - Start time: 2139-03-11 04:00:00, Stop time: 2139-03-11 11:00:00
+- Ipratropium-Albuterol Neb (Administered) - Start time: 2139-03-11 02:00:00, Stop time: 2139-03-25 00:00:00

@@ -1,0 +1,87 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 58
+  (3) race: UNKNOWN
+  (4) admission type: EW EMER.
+  (5) admit time: 2129-07-10 00:59:00
+  (6) discharge time: 2129-07-18 17:42:00
+  (7) transfer history: 
+2129-07-09 17:08:00 - 2129-07-10 01:00:50: Emergency Department
+2129-07-10 01:00:50 - 2129-07-10 02:20:49: Medicine
+2129-07-11 20:09:49 - 2129-07-18 17:42:25: Medicine
+2129-07-10 03:50:58 - 2129-07-10 18:06:39: Surgery/Trauma
+2129-07-10 02:20:49 - 2129-07-10 03:50:58: Surgery/Trauma
+2129-07-10 18:06:39 - 2129-07-11 20:09:49: Trauma SICU (TSICU)
+2129-07-18 17:42:25: discharge
+
+2. Medical Data
+(1) heart rate: 
+2129-08-21 00:00:00-2129-08-21 02:00:00 SR (Sinus Rhythm) PVC's Rare
+2129-08-21 08:00:00-2129-08-21 08:00:00 ST (Sinus Tachycardia) PVC's Rare
+2129-08-21 10:00:00-2129-08-21 10:00:00 SR (Sinus Rhythm) PVC's Rare
+2129-08-21 11:00:00-2129-08-21 14:00:00 SR (Sinus Rhythm) PVC's Occasional
+2129-08-21 16:00:00-2129-08-21 16:00:00 SR (Sinus Rhythm) PVC's Rare
+2129-08-22 04:00:00-2129-08-22 06:00:00 SR (Sinus Rhythm) PVC's Rare
+2129-08-22 08:00:00-2129-08-22 09:00:00 SR (Sinus Rhythm) PVC's Occasional
+2129-08-22 11:00:00-2129-08-22 11:00:00 SR (Sinus Rhythm) PVC's Occasional
+2129-08-22 13:00:00-2129-08-22 13:00:00 SR (Sinus Rhythm) PVC's Occasional
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2129-07-09 17:23:00        36.3        11.0 28.8  30.3 95.0     184.0 3.82 13.0    NaN  6.9
+2129-07-10 06:05:00        36.0        11.0 29.2  30.6 96.0     187.0 3.77 13.1    NaN  9.4
+2129-07-10 18:31:00        30.9         9.3 28.7  30.1 95.0     171.0 3.24 13.1    NaN  9.3
+2129-07-11 00:08:00        30.5         9.2 28.9  30.2 96.0     172.0 3.18 13.2    NaN  9.8
+2129-07-11 05:11:00        28.8         8.8 29.2  30.6 96.0     137.0 3.01 13.2    NaN  8.4
+2129-07-12 05:54:00        31.1         9.6 29.4  30.9 95.0     148.0 3.27 13.1    NaN  8.0
+2129-07-13 06:30:00        29.6         9.0 29.2  30.4 96.0     144.0 3.08 13.0    NaN  7.2
+2129-07-14 06:04:00        32.2        10.0 28.9  31.1 93.0     168.0 3.46 13.1    NaN  8.2
+2129-07-15 04:28:00        32.6        10.0 28.7  30.7 94.0     186.0 3.48 13.0    NaN  8.5
+2129-07-16 06:45:00        33.9        10.5 29.2  31.0 94.0     211.0 3.59 12.7    NaN  7.6
+2129-07-18 04:34:00        30.1         9.3 29.1  30.9 94.0     239.0 3.20 12.4    NaN  7.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2129-07-10 18:20:00
+sbp: 109.0
+dbp: 55.0
+mbp: 73.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 16.0
+temperature: 37.500000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 1
+cns: 1
+renal: <NA>
+respiration_24hours: 3
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 1
+sofa_24hours: 10
+
+Physician's Diagnoses:
+1. Central cord syndrome at unspecified level of cervical spinal cord, initial encounter
+   drg_type: APR
+   description: SPINAL PROCEDURES
+   drg_severity: 4
+   drg_mortality: 3
+2. Central cord syndrome at unspecified level of cervical spinal cord, initial encounter
+   drg_type: HCFA
+   description: SPINAL PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Dexamethasone: Administered from 2129-07-10 08:00:00 to 2129-07-10 18:00:00, dose given: 4 mg, dose given unit: mL
+- Heparin: Administered from 2129-07-10 08:00:00 to 2129-07-10 18:00:00, dose given: 5000 UNIT, dose given unit: mL
+- CefTRIAXone: Administered from 2129-07-10 08:00:00 to 2129-07-10 18:00:00, dose given: 1 gm, dose given unit: VIAL
+- Sodium Chloride 0.9% Flush: Flushed from 2129-07-10 05:00:00 to 2129-07-10 18:00:00, dose given: 3 mL, dose given unit: SYR
+- Chlorhexidine Gluconate 15 mL Cup: Administered from 2129-07-10 20:00:00 to 2129-07-11 04:00:00, dose given: 15 mL, dose given unit: UDCUP
+- Famotidine: Administered from 2129-07-10 19:00:00 to 2129-07-11 10:00:00, dose given: 20 mg, dose given unit: BAG
+- Sodium Chloride 0.9% Flush: Flushed from 2129-07-10 19:00:00 to 2129-07-18 22:00:00, dose given: 5 mL, dose given unit: SYR
+- Magnesium Sulfate 4 g / 100 mL (Premix Bag): Administered from 2129-07-10 19:00:00 to 2129-07-11 20:00:00, dose given: 4 gm, dose given unit: BAG
+- Lactated Ringers - Floor Stock Bag: Administered from 2129-07-10 21:00:00 to 2129-07-11 04:00:00, dose given: 500 mL, dose given unit: mL

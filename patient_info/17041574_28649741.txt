@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 29
+  (3) race: UNKNOWN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2179-03-02 05:47:00
+  (6) discharge time: 2179-03-12 15:11:00
+  (7) transfer history: 
+2179-03-02 05:11:00 - 2179-03-02 05:48:20: Emergency Department
+2179-03-02 05:48:20 - 2179-03-02 06:05:35: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2179-03-02 22:05:31 - 2179-03-12 15:50:18: Obstetrics Antepartum
+2179-03-02 06:05:35 - 2179-03-02 06:12:46: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2179-03-02 06:12:46 - 2179-03-02 07:27:05: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2179-03-02 07:27:05 - 2179-03-02 22:05:31: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2179-03-12 15:50:18: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2179-03-02 07:52:00        29.6        10.2 30.5  34.5 89.0     221.0 3.34 14.6    NaN 19.0
+2179-03-02 14:29:00        33.2        11.1 30.0  33.4 90.0     240.0 3.70 14.6    NaN 20.7
+2179-03-03 06:20:00        28.5         9.8 30.2  34.4 88.0     223.0 3.24 14.7    NaN 12.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2179-03-02 07:12:00
+sbp: 115.0
+dbp: 70.0
+mbp: 85.0
+sbp_ni: 115.0
+dbp_ni: 70.0
+mbp_ni: 85.0
+resp_rate: 22.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 1
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Injury, poisoning and certain other consequences of external causes complicating pregnancy, third trimester
+   drg_type: APR
+   description: OTHER ANTEPARTUM DIAGNOSES
+   drg_severity: 3
+   drg_mortality: 2
+2. Injury, poisoning and certain other consequences of external causes complicating pregnancy, third trimester
+   drg_type: HCFA
+   description: OTHER ANTEPARTUM DIAGNOSES W MEDICAL COMPLICATIONS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Sodium Chloride 0.9% Flush (starttime: 2179-03-02 08:00:00, stoptime: 2179-03-03 01:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (starttime: 2179-03-02 08:00:00, stoptime: 2179-03-03 01:00:00)
+- Betamethasone Sodium Phos/Acet IV Piggyback (starttime: 2179-03-02 11:00:00, stoptime: 2179-03-03 01:00:00)
+- Magnesium Sulfate (OB) IV Piggyback (starttime: 2179-03-02 11:00:00, stoptime: 2179-03-02 14:00:00)
+- Potassium Chloride 10 mEq / 100 mL SW IV Piggyback (starttime: 2179-03-02 09:00:00, stoptime: 2179-03-03 01:00:00)
+- LORazepam 1mg Tablet (starttime: 2179-03-02 15:00:00, stoptime: 2179-03-08 21:00:00)
+- Sodium Chloride 0.9% Flush (starttime: 2179-03-02 08:00:00, stoptime: 2179-03-03 01:00:00)
+- FLUoxetine 20mg Capsule (starttime: 2179-03-02 15:00:00, stoptime: 2179-03-12 20:00:00)
+- FoLIC Acid 1 mg Tab (starttime: 2179-03-02 15:00:00, stoptime: 2179-03-12 20:00:00)
+- FoLIC Acid 1 mg Tab (starttime: 2179-03-02 15:00:00, stoptime: 2179-03-12 20:00:00)

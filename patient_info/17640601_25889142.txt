@@ -1,0 +1,83 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 83
+  (3) race: UNKNOWN
+  (4) admission type: EW EMER.
+  (5) admit time: 2187-12-19 21:21:00
+  (6) discharge time: 2187-12-27 16:30:00
+  (7) transfer history: 
+2187-12-19 18:57:00 - 2187-12-19 21:22:23: Emergency Department
+2187-12-19 21:22:23 - 2187-12-19 21:48:12: Trauma SICU (TSICU)
+2187-12-20 14:39:32 - 2187-12-27 16:30:19: Med/Surg/Trauma
+2187-12-19 21:48:12 - 2187-12-20 14:39:32: Trauma SICU (TSICU)
+2187-12-27 16:30:19: discharge
+
+2. Medical Data
+(1) heart rate: 
+2187-12-19 22:13:00-2187-12-19 23:00:00 SR (Sinus Rhythm) with PVC's
+2187-12-19 23:00:00-2187-12-20 00:00:00 SR (Sinus Rhythm) with Frequent PVC's
+2187-12-20 00:00:00-2187-12-20 01:00:00 SR (Sinus Rhythm) with Frequent PVC's
+2187-12-20 01:00:00-2187-12-20 02:00:00 SR (Sinus Rhythm) with Frequent PVC's
+2187-12-20 02:00:00-2187-12-20 03:00:00 SR (Sinus Rhythm) with Frequent PVC's
+2187-12-20 03:00:00-2187-12-20 04:00:00 SR (Sinus Rhythm) with Frequent PVC's
+2187-12-20 04:00:00-2187-12-20 05:00:00 SR (Sinus Rhythm) with Occasional PVC's
+2187-12-20 05:00:00-2187-12-20 06:00:00 SR (Sinus Rhythm) with Frequent PVC's
+2187-12-20 06:00:00-2187-12-20 07:00:00 SR (Sinus Rhythm) with Occasional PVC's
+2187-12-20 07:00:00-2187-12-20 08:00:00 SR (Sinus Rhythm) with Frequent PVC's
+2187-12-20 08:00:00-2187-12-20 09:00:00 SR (Sinus Rhythm) with Frequent PAC's
+2187-12-20 09:00:00-2187-12-20 10:00:00 SR (Sinus Rhythm) with Occasional PAC's
+2187-12-20 10:00:00-2187-12-20 11:00:00 SR (Sinus Rhythm) with Frequent PAC's
+2187-12-20 11:00:00-2187-12
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2187-12-19 22:30:00        31.4        11.3 31.2  35.8 87.0     163.0 3.61 13.1    NaN 11.5
+2187-12-20 06:07:00        27.7         9.9 30.9  35.8 86.0     138.0 3.21 13.1    NaN  7.8
+2187-12-21 07:00:00        27.3         9.4 31.1  34.4 90.0     126.0 3.02 13.7    NaN  7.8
+2187-12-22 14:05:00        24.9         8.7 30.7  34.8 88.0     138.0 2.83 13.8    NaN  7.1
+2187-12-23 05:30:00        22.2         7.7 30.5  34.7 88.0     117.0 2.52 14.8    NaN  6.1
+2187-12-23 21:10:00        26.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-12-24 05:30:00        24.5         8.6 30.6  35.1 87.0     120.0 2.80 15.5    NaN  5.7
+2187-12-25 06:00:00        26.5         9.3 30.7  35.1 88.0     139.0 3.03 15.0    NaN  6.7
+2187-12-26 05:23:00        24.4         8.5 30.8  34.7 89.0     153.0 2.75 15.0    NaN  7.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2187-12-20 04:00:00
+sbp: 111.0
+dbp: 33.0
+mbp: 53.0
+sbp_ni: 111.0
+dbp_ni: 33.0
+mbp_ni: 53.0
+resp_rate: 20.0
+temperature: 36.610000000
+temperature_site: Oral
+spo2: 86.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 1
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Fracture of medial malleolus, closed
+   drg_type: APR
+   description: KNEE & LOWER LEG PROCEDURES EXCEPT FOOT
+   drg_severity: 3
+   drg_mortality: 2
+2. Fracture of medial malleolus, closed
+   drg_type: HCFA
+   description: LOWER EXTREM & HUMER PROC EXCEPT HIP,FOOT,FEMUR W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Artificial Tears: Administered from 2187-12-20 10:00:00 to 2187-12-27 20:00:00, dose given: 2 drops, dose given unit: DROP, product amount given: None, product unit: None, product code: REFRESH, product description: Artificial Tears Preserv. Free 0.4 mL DROPPERETTE, pharmacy id: 13668938, medication: Artificial Tears, route: RIGHT EYE, frequency: QID (10, 14, 18, 22), duration: Ongoing, expiration value: 36, expiration unit: Hours
+- Erythromycin Ophthalmic Ointment: Administered from 2187-12-20 10:00:00 to 2187-12-27 20:00:00, dose given: 0.5 in, dose given unit: TUBE, product amount given: 0.005, product unit: TUBE, product code: ERYT0.5EO, product description: Erythromycin 0.5% Ophth Oint 1g UD Tube, pharmacy id: 98069775, medication: Erythromycin 0.5% Ophth Oint, route: LEFT EYE, frequency: QID (10, 14, 18, 22), duration: Ongoing, expiration value: 36, expiration unit: Hours
+- Sodium Chloride Flush: Flushed from 2187-12-20 16:00:00 to 2187-12-27 20:00:00, dose given: 3 mL, dose given unit: SYR, product amount given: 0.3, product unit: SYR, product code: NACLFLUSH, product description: Sodium Chloride 0.9% Flush, pharmacy id: 83023020, medication: Sodium Chloride 0.9% Flush, route: IV, frequency: Q8H (16, 0, 8), duration: Ongoing, expiration value: 36, expiration unit: Hours
+- OxycoDONE (Immediate Release): Administered from 2187-12-20 16:00:00 to 2187-12-25 04:00:00, dose given: 5 mg, dose given unit: TAB, product amount given: 

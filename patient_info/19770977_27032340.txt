@@ -1,0 +1,133 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 70
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2157-09-29 00:25:00
+  (6) discharge time: 2157-10-30 16:15:00
+  (7) transfer history: 
+2157-09-29 00:26:43 - 2157-10-10 07:31:36: Medicine/Cardiology
+2157-10-10 07:31:36 - 2157-10-10 08:49:06: PACU
+2157-10-10 08:49:06 - 2157-10-23 21:42:18: Cardiac Vascular Intensive Care Unit (CVICU)
+2157-10-23 21:42:18 - 2157-10-30 16:27:20: Cardiac Vascular Intensive Care Unit (CVICU)
+2157-10-30 16:27:20: discharge
+
+2. Medical Data
+(1) heart rate: 
+2157-10-11 00:00:00-2157-10-11 00:59:59 AF (Atrial Fibrillation)
+2157-10-11 01:00:00-2157-10-11 01:59:59 AF (Atrial Fibrillation)
+2157-10-11 02:17:00-2157-10-11 02:59:59 PVC's Occasional
+2157-10-11 03:00:00-2157-10-11 03:59:59 AF (Atrial Fibrillation) PVC's Occasional
+2157-10-11 04:15:00-2157-10-11 04:59:59 AF (Atrial Fibrillation) PVC's Frequent
+2157-10-11 07:00:00-2157-10-11 07:59:59 AF (Atrial Fibrillation) PVC's Occasional
+2157-10-11 08:00:00-2157-10-11 08:59:59 AF (Atrial Fibrillation) PVC's Frequent
+2157-10-11 09:00:00-2157-10-11 09:59:59 AF (Atrial Fibrillation) PVC's Occasional
+2157-10-11 10:00:00-2157-10-11 10:59:59 AF (Atrial Fibrillation) PVC's Rare
+2157-10-11 13:00:00-2157-10-11 13:59:59 AF (Atrial Fibrillation) PVC's Occasional
+2157-10-11 14:00:00-2157-10-11 14:59:59 AF (Atrial Fibrillation) PVC's Occasional
+2157-10-11 15:00:00-2157-10-11 15:59:59 AF (Atrial Fibrillation) PVC's Occasional
+2157-10-13 17:03:00-2157-10-13 17:59:59 AF (Atrial Fibrillation) PVC's Occasional
+2157-10-13 20:00:00-2157-10-13 20:59:59 AF (Atrial
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2157-09-29 02:15:00        31.1         9.8 30.3  31.5  96.0     113.0 3.23 25.2    NaN  9.0
+2157-09-29 09:30:00        28.7         9.1 29.8  31.7  94.0     108.0 3.05 25.1    NaN  7.8
+2157-09-30 05:25:00        28.3         9.2 30.7  32.5  94.0     109.0 3.00 25.3    NaN  7.3
+2157-10-01 05:25:00        28.9         9.3 30.1  32.2  94.0     137.0 3.09 25.6    NaN  6.5
+2157-10-02 05:32:00        29.0         9.3 30.0  32.1  94.0     140.0 3.10 25.2    NaN  5.9
+2157-10-03 05:25:00        28.6         9.3 30.2  32.5  93.0     154.0 3.08 25.2    NaN  6.2
+2157-10-04 05:32:00        29.1         9.3 30.3  32.0  95.0     150.0 3.07 25.0    NaN  5.6
+2157-10-05 06:17:00        29.0         9.3 30.5  32.1  95.0     177.0 3.05 25.2    NaN  6.2
+2157-10-07 07:40:00        28.2         9.2 30.9  32.6  95.0     199.0 2.98 25.1    NaN  6.2
+2157-10-08 07:06:00        27.5         8.9 30.8  32.4  95.0     210.0 2.89 25.3    NaN  5.8
+2157-10-08 15:09:00        28.0         9.0 30.6  32.1  95.0     221.0 2.94 25.2    NaN  5.8
+2157-10-09 03:51:00        27.0         8.5 30.1  31.5  96.0     207.0 2.82 25.6    NaN  6.0
+2157-10-09 15:35:00        27.2         9.0 31.7  33.1  96.0     220.0 2.84 25.7    NaN  5.7
+2157-10-10 03:35:00        26.6         8.5 30.8  32.0  96.0     212.0 2.76 26.0    NaN  4.8
+2157-10-10 14:39:00        19.0         6.4 32.3  33.7  96.0      81.0 1.98 24.1    NaN 11.8
+2157-10-10 16:33:00        23.2         7.7 31.3  33.2  94.0     118.0 2.46 23.0    NaN 15.2
+2157-10-10 18:50:00        25.6         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2157-10-11 02:07:00        25.3         8.9 31.8  35.2  90.0      98.0 2.80 21.2    NaN 16.1
+2157-10-11 07:50:00        29.0         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2157-10-11 16:34:00        21.1         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2157-10-11 19:39:00        24.0         8.4  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2157-10-11 21:20:00         NaN         NaN  NaN   NaN   NaN      66.0  NaN  NaN    NaN  NaN
+2157-10-12 01:18:00        24.0         8.6 31.9  35.8  89.0     108.0 2.70 19.1    NaN 15.2
+2157-10-12 13:41:00        25.3         8.7 30.9  34.4  90.0      91.0 2.82 19.0    NaN 16.9
+2157-10-12 22:02:00        25.8         9.0 31.5  34.9  90.0      84.0 2.86 20.0    NaN 16.1
+2157-10-13 03:39:00        25.2         8.8 31.5  34.9  90.0      68.0 2.79 19.8    NaN 15.3
+2157-10-13 10:50:00        25.3         8.5 31.1  33.6  93.0      70.0 2.73 20.4    NaN 15.8
+2157-10-13 15:29:00        22.7         7.7 31.6  33.9  93.0      56.0 2.44 20.1    NaN 14.3
+2157-10-13 22:06:00        25.7         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2157-10-14 04:36:00        28.5         9.8 31.5  34.4  92.0      46.0 3.11 19.0    NaN 13.5
+2157-10-14 10:25:00        25.9         8.8  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2157-10-14 13:39:00        32.1        10.7  NaN   NaN   NaN      34.0  NaN  NaN    NaN  NaN
+2157-10-14 17:29:00        33.0        11.0 30.7  33.3  92.0      33.0 3.58 19.3    NaN 11.6
+2157-10-14 23:48:00        33.1         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2157-10-15 03:33:00        32.8        11.2 31.4  34.1  92.0      29.0 3.57 19.6    NaN 10.5
+2157-10-15 12:14:00        31.6        10.3 30.8  32.6  95.0      26.0 3.34 20.1    NaN 11.1
+2157-10-15 19:37:00        30.0        10.0 31.4  33.3  94.0      27.0 3.18 20.2    NaN 11.7
+2157-10-16 04:08:00        31.5        10.2 30.7  32.4  95.0      27.0 3.32 20.2    NaN 11.2
+2157-10-16 12:00:00        33.1         NaN  NaN   NaN   NaN      36.0  NaN  NaN    NaN  NaN
+2157-10-17 01:28:00        33.4        10.8 31.6  32.3  98.0      39.0 3.42 20.6    NaN 11.6
+2157-10-17 11:04:00        33.2        10.6  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2157-10-18 02:05:00        32.0        10.2 31.7  31.9  99.0      53.0 3.22 21.2    NaN 11.1
+2157-10-18 11:56:00         NaN         NaN  NaN   NaN   NaN     116.0  NaN  NaN    NaN  NaN
+2157-10-19 02:41:00        35.5        11.2 31.8  31.5 101.0     127.0 3.52 22.1    NaN 13.1
+2157-10-20 02:18:00        32.6        10.3 32.4  31.6 103.0     123.0 3.18 22.1    NaN 11.8
+2157-10-21 01:50:00        34.5        10.6 31.8  30.7 104.0     126.0 3.33 22.7    NaN 13.7
+2157-10-21 13:30:00        33.2         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2157-10-22 02:11:00        32.7        10.1 32.1  30.9 104.0     121.0 3.15 22.9    NaN 13.7
+2157-10-23 01:57:00        32.6        10.0 32.2  30.7 105.0     112.0 3.11 22.8    NaN 12.6
+2157-10-24 02:30:00        29.4         9.3 32.9  31.6 104.0      96.0 2.83 22.5    NaN 13.6
+2157-10-25 01:48:00        29.6         9.4 32.5  31.8 102.0      89.0 2.89 22.5    NaN 10.5
+2157-10-26 02:23:00        27.8         8.9 32.5  32.0 102.0      83.0 2.74 22.3    NaN 10.6
+2157-10-27 02:17:00        28.6         8.9 32.5  31.1 104.0      92.0 2.74 22.1    NaN 10.7
+2157-10-28 03:09:00        27.6         8.6 33.0  31.2 106.0     101.0 2.61 21.6    NaN  9.9
+2157-10-29 02:27:00        26.6         8.4 32.7  31.6 104.0     115.0 2.57 21.9    NaN 10.3
+2157-10-30 02:25:00        25.5         8.1 33.1  31.8 104.0     128.0 2.45 22.3    NaN 10.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2157-10-19 00:00:00
+sbp: 115.0
+dbp: 43.0
+mbp: 63.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 35.0
+temperature: 36.390000000
+temperature_site: Axillary
+spo2: nan
+cardiovascular: 3
+cns: 0
+renal: 0
+respiration_24hours: 2
+coagulation_24hours: 3
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 3
+sofa_24hours: 13
+
+Physician's Diagnoses:
+1. Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W CARD CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W AMI OR COMPLEX PDX
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Furosemide: Administered from 2157-09-29 02:00:00 to 2157-09-29 08:00:00, dose given: 40 mg, dose given unit: mL
+- Acetaminophen: Administered from 2157-09-29 02:00:00 to 2157-09-30 08:00:00, dose given: 500 mg, dose given unit: TAB
+- Sodium Chloride 0.9% Flush: Administered from 2157-09-29 01:00:00 to 2157-10-10 09:00:00, dose given: 3 mL, dose given unit: SYR
+- Miconazole Powder 2%: Administered from 2157-09-29 08:00:00 to 2157-10-10 09:00:00, dose given: 1 Appl
+- Furosemide: Administered from 2157-09-29 06:00:00 to 2157-09-29 08:00:00, dose given: 40 mg, dose given unit: mL
+- Potassium Chloride 10mEq ER Tablet: Administered from 2157-09-29 05:00:00 to 2157-09-29 08:00:00, dose given: 10 mEq, dose given unit: TAB
+- Levothyroxine Sodium 25mcg Tablet: Administered from 2157-09-29 02:00:00 to 2157-10-10 09:00:00, dose given: 25 mcg, dose given unit: TAB

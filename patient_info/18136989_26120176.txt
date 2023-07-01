@@ -1,0 +1,93 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 77
+  (3) race: WHITE - EASTERN EUROPEAN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2197-02-26 22:39:00
+  (6) discharge time: 2197-03-13 19:32:00
+  (7) transfer history: 
+2197-02-26 14:43:00 - 2197-02-26 22:40:48: Emergency Department
+2197-02-26 22:40:48 - 2197-02-27 02:43:41: Medicine
+2197-03-01 21:16:37 - 2197-03-08 17:23:13: Surgery/Trauma
+2197-02-27 02:43:41 - 2197-02-27 12:04:15: Discharge Lounge
+2197-03-08 17:23:13 - 2197-03-09 10:57:57: Trauma SICU (TSICU)
+2197-03-09 10:57:57 - 2197-03-13 20:55:11: Trauma SICU (TSICU)
+2197-02-27 12:04:15 - 2197-03-01 21:16:37: Trauma SICU (TSICU)
+2197-03-13 20:55:11: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2197-02-27 13:31:00        39.4        11.7 30.0  29.7 101.0     284.0 3.90 17.9    NaN 20.2
+2197-02-28 06:47:00        32.3         9.3 29.6  28.8 103.0     256.0 3.14 17.7    NaN 15.3
+2197-03-01 02:00:00        31.4         9.2 29.9  29.3 102.0     230.0 3.08 17.4    NaN 14.2
+2197-03-02 07:03:00        29.8         9.0 30.2  30.2 100.0     218.0 2.98 17.2    NaN  9.7
+2197-03-03 07:25:00        31.0         9.1 29.7  29.4 101.0     206.0 3.06 17.2    NaN  9.0
+2197-03-07 11:10:00        28.1         8.9 30.3  31.7  96.0     311.0 2.94 17.8    NaN 17.9
+2197-03-07 16:26:00        29.1         8.9 30.0  30.6  98.0     334.0 2.97 17.7    NaN 23.1
+2197-03-08 09:43:00        18.6         5.7 29.5  30.6  96.0     294.0 1.93 17.7    NaN 15.4
+2197-03-08 16:43:00        23.6         7.6 28.3  32.2  88.0     266.0 2.69 22.7    NaN 16.2
+2197-03-08 20:08:00        23.2         7.6 28.5  32.8  87.0     233.0 2.67 21.8    NaN 15.0
+2197-03-08 22:43:00        30.3         9.9 28.4  32.7  87.0     204.0 3.49 19.4    NaN 14.3
+2197-03-09 01:49:00        30.6        10.2 28.6  33.3  86.0     211.0 3.57 19.9    NaN 14.3
+2197-03-09 05:46:00        33.2        10.8 28.1  32.5  86.0     213.0 3.85 20.4    NaN 15.1
+2197-03-09 09:58:00        33.3        11.2 28.9  33.6  86.0     210.0 3.87 21.1    NaN 14.0
+2197-03-09 20:38:00        29.1         9.6 28.6  33.0  87.0     208.0 3.36 20.7    NaN 11.3
+2197-03-10 00:11:00        27.7         9.3 29.1  33.6  87.0     192.0 3.20 20.5    NaN 10.0
+2197-03-10 07:52:00        25.3         8.2 28.3  32.4  87.0     181.0 2.90 20.5    NaN  9.2
+2197-03-10 15:21:00        24.4         7.8 28.2  32.0  88.0     168.0 2.77 20.4    NaN 10.0
+2197-03-11 02:30:00        25.0         7.9 28.3  31.6  90.0     201.0 2.79 20.0    NaN 12.2
+2197-03-11 15:50:00        23.1         7.3  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2197-03-12 01:33:00        26.0         8.7 29.6  33.5  88.0     174.0 2.94 16.7    NaN 13.9
+2197-03-12 12:08:00        25.0         8.4 30.1  33.6  90.0     173.0 2.79 17.2    NaN 12.0
+2197-03-12 17:46:00        23.8         8.0 30.1  33.6  90.0     173.0 2.66 18.0    NaN 10.2
+2197-03-13 04:27:00        23.2         7.6 29.1  32.8  89.0     175.0 2.61 18.5    NaN 11.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2195-05-20 20:00:00
+sbp: 136.0
+dbp: 66.0
+mbp: 99.0
+sbp_ni: 136.0
+dbp_ni: 66.0
+mbp_ni: 99.0
+resp_rate: nan
+temperature: 37.000000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+2. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2197-02-27 15:00:00 and stopped on 2197-03-14 01:00:00
+- Administered: Insulin, started on 2197-02-27 15:00:00 and stopped on 2197-03-14 01:00:00
+- Administered: Piperacillin-Tazobactam 2.25 g / 50 mL Iso-Osmotic Dextrose, started on 2197-02-27 18:00:00 and stopped on 2197-02-28 00:00:00
+- None: Potassium Chloride 10 mEq / 100 mL SW, started on 2197-02-27 15:00:00 and stopped on 2197-03-01 21:00:00
+- Administered: FoLIC Acid 1 mg in 50 mL 0.9% Sodium Chloride, started on 2197-02-27 19:00:00 and stopped on 2197-02-28 11:00:00
+- None: Potassium Chloride 10 mEq / 100 mL SW, started on 2197-02-27 15:00:00 and stopped on 2197-03-01 21:00:00
+- None: Potassium Chloride 10 mEq / 100 mL SW, started on 2197-02-27 15:00:00 and stopped on 2197-03-01 21:00:00
+- Administered: Digoxin, started on 2197-02-27 21:00:00 and stopped on 2197-03-01 04:00:00
+- Administered: Metoprolol Tartrate, started on 2197-02-27 23:00:00 and stopped on 2197-02-28 11:00:00

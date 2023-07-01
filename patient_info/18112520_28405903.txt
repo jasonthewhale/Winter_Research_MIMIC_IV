@@ -1,0 +1,106 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 78
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2165-03-04 16:24:00
+  (6) discharge time: 2165-03-28 12:47:00
+  (7) transfer history: 
+2165-03-04 03:35:00 - 2165-03-04 20:06:00: Emergency Department
+2165-03-04 20:06:00 - 2165-03-05 13:39:33: Medicine
+2165-03-14 13:20:38 - 2165-03-14 14:06:53: PACU
+2165-03-15 22:45:52 - 2165-03-28 12:47:26: Medicine
+2165-03-12 21:09:21 - 2165-03-14 13:20:38: Medicine
+2165-03-14 14:06:53 - 2165-03-15 22:45:52: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2165-03-05 13:39:33 - 2165-03-12 21:09:21: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2165-03-28 12:47:26: discharge
+
+2. Medical Data
+(1) heart rate: 
+2165-03-05 13:00:00-2165-03-05 13:59:59 ST (Sinus Tachycardia)
+2165-03-05 14:00:00-2165-03-05 14:59:59 SR (Sinus Rhythm)
+2165-03-05 15:00:00-2165-03-05 15:59:59 ST (Sinus Tachycardia)
+2165-03-05 16:00:00-2165-03-05 16:59:59 ST (Sinus Tachycardia)
+2165-03-05 17:00:00-2165-03-05 17:59:59 ST (Sinus Tachycardia)
+2165-03-05 18:00:00-2165-03-05 18:59:59 SR (Sinus Rhythm)
+2165-03-05 19:00:00-2165-03-05 19:59:59 ST (Sinus Tachycardia)
+2165-03-05 20:00:00-2165-03-05 20:59:59 ST (Sinus Tachycardia)
+2165-03-05 23:00:00-2165-03-05 23:59:59 ST (Sinus Tachycardia)
+2165-03-06 00:00:00-2165-03-06 00:59:59 SR (Sinus Rhythm)
+2165-03-06 02:00:00-2165-03-06 02:59:59 ST (Sinus Tachycardia)
+2165-03-06 04:00:00-2165-03-06 04:59:59 SR (Sinus Rhythm)
+2165-03-06 07:00:00-2165-03-06 07:59:59 A Flut (Atrial Flutter)
+2165-03-06 08:00:00-2165-03-06 08:59:59 A Flut (Atrial Flutter)
+2165-03-06 09:00:00-2165-03-06 09:59:59 A Flut (Atrial Flutter)
+2165-03-
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2165-03-05 06:15:00        30.8         9.8 31.4  31.8  99.0     243.0 3.12 12.8    NaN  9.7
+2165-03-05 12:22:00        30.4         9.5 31.1  31.3 100.0     237.0 3.05 12.8    NaN 12.0
+2165-03-06 01:00:00        31.0         9.6 30.9  31.0 100.0     213.0 3.11 13.0    NaN 13.7
+2165-03-06 12:10:00         NaN         9.9  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2165-03-07 05:50:00        28.8         8.9 31.0  30.9 100.0     204.0 2.87 12.8    NaN  9.4
+2165-03-08 02:19:00        29.8         9.2 30.9  30.9 100.0     240.0 2.98 12.9    NaN 10.8
+2165-03-09 04:41:00        33.0        10.5 31.0  31.8  97.0     298.0 3.39 13.0    NaN 14.9
+2165-03-10 03:06:00        28.4         9.2 31.4  32.4  97.0     303.0 2.93 13.2    NaN  9.7
+2165-03-11 03:03:00        28.5         9.0 31.0  31.6  98.0     196.0 2.90 13.4    NaN  9.5
+2165-03-12 03:15:00        29.7         9.4 30.8  31.6  97.0     222.0 3.05 13.6    NaN 14.2
+2165-03-13 06:00:00        33.6        10.5 30.8  31.3  99.0     261.0 3.41 13.6    NaN 19.2
+2165-03-13 15:40:00        30.7         9.8 31.4  31.9  98.0     235.0 3.12 13.9    NaN 19.3
+2165-03-14 07:55:00        33.1        10.7 31.3  32.3  97.0     246.0 3.42 13.7    NaN 23.0
+2165-03-14 16:34:00        34.1        10.4 30.6  30.5 100.0     279.0 3.40 13.9    NaN 25.1
+2165-03-15 01:51:00        30.9         9.4 30.6  30.4 101.0     228.0 3.07 14.2    NaN 24.3
+2165-03-16 04:31:00        26.3         8.4 31.3  31.9  98.0     181.0 2.68 13.9    NaN 18.8
+2165-03-17 04:55:00        27.4         8.7 31.4  31.8  99.0     186.0 2.77 14.1    NaN 22.5
+2165-03-18 05:05:00        27.4         8.7 31.0  31.8  98.0     203.0 2.81 14.4    NaN 22.1
+2165-03-20 05:10:00        29.2         9.1 31.1  31.2 100.0     203.0 2.93 15.2    NaN 15.4
+2165-03-21 04:50:00        28.6         8.8 30.8  30.8 100.0     209.0 2.86 15.3    NaN 15.8
+2165-03-22 06:15:00        26.1         8.1 31.3  31.0 101.0     213.0 2.59 15.7    NaN 12.7
+2165-03-23 06:00:00        26.7         8.3 31.7  31.1 102.0     231.0 2.62 15.9    NaN 11.3
+2165-03-24 04:40:00        27.7         8.7 31.5  31.4 100.0     232.0 2.76 15.9    NaN 15.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2165-03-06 18:00:00
+sbp: 79.0
+dbp: 54.0
+mbp: 63.0
+sbp_ni: 79.0
+dbp_ni: 54.0
+mbp_ni: 63.0
+resp_rate: nan
+temperature: 37.060000000
+temperature_site: Oral
+spo2: 91.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 2
+sofa_24hours: 7
+
+Physician's Diagnoses:
+1. Secondary malignant neoplasm of bone
+   drg_type: APR
+   description: OTHER SIGNIFICANT HIP & FEMUR SURGERY
+   drg_severity: 4
+   drg_mortality: 4
+2. Secondary malignant neoplasm of bone
+   drg_type: HCFA
+   description: HIP & FEMUR PROCEDURES EXCEPT MAJOR JOINT W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- HYDROmorphone (Dilaudid) - Administered from 2165-03-04 21:00:00 to 2165-03-05 12:00:00
+- Sodium Chloride 0.9% Flush - Flushed from 2165-03-04 21:00:00 to 2165-03-12 11:00:00
+- Pramipexole 0.25 mg Tablet - Administered from 2165-03-05 22:00:00 to 2165-03-28 17:00:00
+- Tamsulosin 0.4mg Capsule - Administered from 2165-03-05 22:00:00 to 2165-03-05 19:00:00
+- OxyCODONE (Immediate Release) 5mg Tablet - Administered from 2165-03-04 21:00:00 to 2165-03-05 10:00:00
+- Sodium Chloride 0.9% Flush - Flushed from 2165-03-04 21:00:00 to 2165-03-12 11:00:00
+- Ondansetron - None given
+- Albuterol 0.083% Neb Soln - Administered from 2165-03-04 23:00:00 to 2165-03-08 08:00:00

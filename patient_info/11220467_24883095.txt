@@ -1,0 +1,96 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 76
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2169-10-25 17:06:00
+  (6) discharge time: 2169-11-06 13:37:00
+  (7) transfer history: 
+2169-10-25 16:00:00 - 2169-10-25 17:07:28: Emergency Department
+2169-10-25 17:07:28 - 2169-10-25 17:48:55: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2169-10-31 18:19:37 - 2169-11-06 13:37:37: Medicine/Cardiology
+2169-10-25 18:26:57 - 2169-10-31 18:19:37: Medical Intensive Care Unit (MICU)
+2169-10-25 17:48:55 - 2169-10-25 18:26:57: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2169-11-06 13:37:37: discharge
+
+2. Medical Data
+(1) heart rate: 
+2169-10-29 00:00:00-2169-10-29 00:59:59 AF (Atrial Fibrillation)
+2169-10-29 01:00:00-2169-10-29 01:59:59 AF (Atrial Fibrillation) PAC's
+2169-10-29 02:00:00-2169-10-29 02:59:59 AF (Atrial Fibrillation) PAC's Rare
+2169-10-29 03:00:00-2169-10-29 03:59:59 AF (Atrial Fibrillation) PAC's Rare
+2169-10-29 04:00:00-2169-10-29 04:59:59 AF (Atrial Fibrillation) PAC's Rare
+2169-10-29 06:00:00-2169-10-29 06:59:59 AF (Atrial Fibrillation) PAC's Rare
+2169-10-29 07:00:00-2169-10-29 07:59:59 AF (Atrial Fibrillation) PAC's Rare
+2169-10-29 08:00:00-2169-10-29 08:59:59 AF (Atrial Fibrillation) PAC's Occasional
+2169-10-29 11:00:00-2169-10-29 11:59:59 AF (Atrial Fibrillation) PVC's Rare
+2169-10-29 12:00:00-2169-10-29 12:59:59 AF (Atrial Fibrillation) PVC's Rare
+2169-10-29 13:00:00-2169-10-29 13:59:59 A Flut (Atrial Flutter) PVC's Occasional
+2169-10-29 14:00:00-2169-10-29 14:59:59 A Flut (Atrial Flutter) PVC's Rare
+2169-10-29 15:00:00-2169-10-29 15:59:59 A Flut (Atrial Flutter) PAC's Occasional
+2169-10-29 16:00:00-2169-10-29 16:59:59 A Flut (A
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2169-10-25 22:20:00        37.3        10.8 26.9  29.0 93.0     277.0 4.01 16.7    NaN 28.2
+2169-10-26 03:20:00        37.0        10.7 26.9  28.9 93.0     245.0 3.98 16.9    NaN 21.1
+2169-10-26 15:20:00        38.3        11.1 26.8  29.0 93.0     221.0 4.14 17.2    NaN 20.7
+2169-10-27 04:00:00        33.4         9.9 27.2  29.6 92.0     178.0 3.64 17.2    NaN 16.3
+2169-10-28 02:14:00        32.9        10.0 27.2  30.4 89.0     212.0 3.68 16.6    NaN 21.4
+2169-10-29 04:03:00        32.0         9.7 26.6  30.3 88.0     213.0 3.65 16.8    NaN 15.2
+2169-10-29 18:48:00        31.4         9.9 27.3  31.5 87.0     218.0 3.62 16.8    NaN 12.5
+2169-10-30 02:57:00        31.3         9.6 27.3  30.7 89.0     218.0 3.52 17.0    NaN 11.8
+2169-10-31 03:34:00        32.6         9.8 26.7  30.1 89.0     193.0 3.67 16.7    NaN 10.4
+2169-11-01 07:48:00        32.3         9.7 26.6  30.0 89.0     204.0 3.64 16.6    NaN 10.0
+2169-11-02 07:40:00        33.2        10.0 26.7  30.1 89.0     241.0 3.75 16.1    NaN 10.2
+2169-11-03 06:45:00        34.9        10.6 26.6  30.4 88.0     282.0 3.98 15.8    NaN  9.9
+2169-11-04 05:54:00        37.0        10.9 26.3  29.5 89.0     293.0 4.15 16.0    NaN 10.5
+2169-11-05 08:53:00        34.5        10.5 27.3  30.4 90.0     309.0 3.85 16.0    NaN 10.1
+2169-11-06 06:12:00        37.6        10.8 26.5  28.7 92.0     330.0 4.07 15.9    NaN 12.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2169-10-26 16:00:00
+sbp: 108.0
+dbp: 67.0
+mbp: 81.0
+sbp_ni: 108.0
+dbp_ni: 67.0
+mbp_ni: 81.0
+resp_rate: 16.0
+temperature: 36.890000000
+temperature_site: Axillary
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Other specified sepsis
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+2. Other specified sepsis
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Meropenem: Administered from 2169-10-25 22:00:00 to 2169-10-25 23:00:00
+- Vancomycin: Administered from 2169-10-25 22:00:00 to 2169-10-26 03:00:00
+- Artificial Tear Ointment: Administered from 2169-10-25 23:00:00 to 2169-11-06 18:00:00
+- Sodium Chloride 0.9% Flush: Administered from 2169-10-26 08:00:00 to 2169-10-31 18:00:00
+- Heparin: Administered from 2169-10-25 22:00:00 to 2169-10-27 13:00:00
+- Insulin: Administered from 2169-10-25 23:00:00 to 2169-10-31 12:00:00
+- Vancomycin: Administered from 2169-10-25 23:00:00 to 2169-10-26 03:00:00
+- Magnesium Sulfate: Administered from 2169-10-25 22:00:00 to 2169-10-31 18:00:00
+- Dextrose 50%: Administered from 2169-10-26 02:00:00 to 2169-10-26 03:00:00
+- Insulin (Regular) for Hyperkalemia: Administered from 2169-10-26 02:00:00 to 2169-10-26 03:00:00

@@ -1,0 +1,75 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 59
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2178-12-15 20:45:00
+  (6) discharge time: 2178-12-22 17:42:00
+  (7) transfer history: 
+2178-12-15 11:06:00 - 2178-12-15 21:50:00: Emergency Department
+2178-12-15 21:50:00 - 2178-12-16 23:13:50: Trauma SICU (TSICU)
+2178-12-18 19:26:57 - 2178-12-22 17:42:20: Medicine
+2178-12-16 23:13:50 - 2178-12-18 19:26:57: Surgical Intensive Care Unit (SICU)
+2178-12-22 17:42:20: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2178-12-16 04:02:00        32.6        10.7 35.0  32.8 107.0      69.0 3.05 14.6    NaN  6.1
+2178-12-17 04:36:00        27.4         8.8 34.6  32.2 107.0      61.0 2.55 14.6    NaN  5.4
+2178-12-18 02:38:00        32.0        10.6 35.8  33.1 108.0      77.0 2.96 14.3    NaN  7.1
+2178-12-19 06:35:00        24.8         8.5 36.8  34.2 108.0      82.0 2.30 15.2    NaN  5.4
+2178-12-19 16:45:00        26.7         8.9  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2178-12-20 04:40:00        24.9         8.3 36.2  33.1 109.0      94.0 2.28 15.1    NaN  4.9
+2178-12-21 06:25:00        24.2         8.0 35.8  33.0 109.0     109.0 2.23 15.3    NaN  4.2
+2178-12-22 07:00:00        25.1         8.5 36.2  33.7 107.0     134.0 2.34 15.2    NaN  4.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2178-12-16 12:00:00
+sbp: 162.0
+dbp: 54.0
+mbp: 77.0
+sbp_ni: 162.0
+dbp_ni: 54.0
+mbp_ni: 77.0
+resp_rate: 14.0
+temperature: 36.560000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Closed fracture of four ribs
+   drg_type: APR
+   description: MAJOR CHEST & RESPIRATORY TRAUMA
+   drg_severity: 3
+   drg_mortality: 2
+2. Closed fracture of four ribs
+   drg_type: HCFA
+   description: MAJOR CHEST TRAUMA W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered) - Start Time: 2178-12-17 14:00:00, Stop Time: 2178-12-22 22:00:00
+- Metoprolol Tartrate 50mg Tablet (Administered) - Start Time: 2178-12-17 20:00:00, Stop Time: 2178-12-18 22:00:00
+- PHENobarbital Oral Soln (Administered) - Start Time: 2178-12-17 08:00:00, Stop Time: 2178-12-19 07:00:00
+- PHENobarbital Oral Soln (Administered) - Start Time: 2178-12-17 08:00:00, Stop Time: 2178-12-19 07:00:00
+- PHENobarbital Oral Soln (Administered) - Start Time: 2178-12-17 08:00:00, Stop Time: 2178-12-19 07:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2178-12-18 20:00:00, Stop Time: 2178-12-22 22:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2178-12-18 20:00:00, Stop Time: 2178-12-22 22:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered) - Start Time: 2178-12-17 14:00:00, Stop Time: 2178-12-22 22:00:00
+- Lisinopril 2.5 mg Tablet (Administered) - Start Time: 2178-12-19 08:00:00, Stop Time: 2178-12-22 22:00:00
+- Metoprolol Tartrate 50mg Tablet (Administered) - Start Time: 2178-12-19 08:00:00, Stop Time: 2178-12-22 22:

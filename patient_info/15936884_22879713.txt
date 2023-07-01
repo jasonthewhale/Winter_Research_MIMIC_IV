@@ -1,0 +1,70 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 77
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2118-04-29 23:20:00
+  (6) discharge time: 2118-05-05 14:25:00
+  (7) transfer history: 
+2118-04-29 19:05:00 - 2118-04-29 23:10:00: Emergency Department
+2118-04-29 23:10:00 - 2118-05-01 13:46:21: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2118-05-01 13:46:21 - 2118-05-02 00:07:13: Neuro Stepdown
+2118-05-02 00:07:13 - 2118-05-05 14:29:52: Neurology
+2118-05-05 14:29:52: discharge
+
+2. Medical Data
+(1) heart rate: 
+2115-12-08  AF (Atrial Fibrillation)
+2115-12-08  PVC's (Premature Ventricular Contractions) Rare
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2118-04-30 03:33:00        41.8        12.9 28.5  30.9 93.0     170.0 4.52 14.7    NaN 12.2
+2118-05-01 01:30:00        39.2        12.0 28.0  30.6 92.0     165.0 4.28 14.7    NaN  8.5
+2118-05-02 09:43:00        44.2        14.0 29.0  31.7 92.0     199.0 4.82 15.2    NaN 11.2
+2118-05-03 08:30:00        46.4        14.3 27.7  30.8 90.0     237.0 5.16 15.0    NaN 10.5
+2118-05-04 06:10:00        45.7        14.4 28.1  31.5 89.0     231.0 5.13 15.1    NaN 10.2
+2118-05-05 07:05:00        48.2        14.6 27.8  30.3 92.0     217.0 5.25 15.3    NaN  9.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2115-12-12 04:00:00
+sbp: 106.0
+dbp: 73.0
+mbp: 82.0
+sbp_ni: 106.0
+dbp_ni: 73.0
+mbp_ni: 82.0
+resp_rate: 20.0
+temperature: 36.500000000
+temperature_site: Axillary
+spo2: 97.0
+cardiovascular: 3
+cns: 0
+renal: <NA>
+respiration_24hours: 3
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 7
+
+Physician's Diagnoses:
+1. Other generalized epilepsy and epileptic syndromes, not intractable, without status epilepticus
+   drg_type: APR
+   description: SEIZURE
+   drg_severity: 4
+   drg_mortality: 4
+2. Other generalized epilepsy and epileptic syndromes, not intractable, without status epilepticus
+   drg_type: HCFA
+   description: SEIZURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- LevETIRAcetam: Administered from 2118-04-30 20:00:00 to 2118-05-02 11:00:00, dose given: 1000 mg, dose given unit: mg, product amount given: 100 mL, product unit: mL, product code: None, product description: LeVETiracetam 1000 mg in 100 mL 0.9% Sodium Chloride
+- Heparin: Administered from 2118-04-30 20:00:00 to 2118-05-05 18:00:00, dose given: 5000 Units, dose given unit: UNIT, product amount given: 1, product unit: VIAL, product code: HEPA5I, product description: Heparin Sodium 5000 Units / mL- 1mL Vial
+- Metoprolol Tartrate: Administered from 2118-04-30 20:00:00 to 2118-05-03 00:00:00, dose given: 12.5 mg, dose given unit: mg, product amount given: 1, product unit: HALF TAB, product code: METO12.5HT, product description: Metoprolol Tartrate
+- Docusate Sodium: Administered from 2118-04-30 20:00:00 to 2118-05-04 08:00:00, dose given: 100 mg, dose given unit: mg, product amount given: 1, product unit: CAP, product code: DOCU100, product description: Docusate Sodium 100mg Capsule
+- Acetaminophen: Administered from 2118-04-30 17:00:00 to 2118-05-05 18:00:00, dose given: 325 mg, dose given unit: mg, product amount given: 1, product unit: TAB, product code: ACET325, product description: Acetaminophen 325mg Tablet
+- Potassium Phosphate: Administered from 2118-05-01 03:00:00 to 2118-05-01 14:00:00, dose given: 15 mmol, dose given unit: mmol, product amount given: 500 mL, product unit:

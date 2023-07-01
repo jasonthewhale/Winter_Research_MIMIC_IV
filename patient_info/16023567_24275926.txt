@@ -1,0 +1,81 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 73
+  (3) race: UNKNOWN
+  (4) admission type: URGENT
+  (5) admit time: 2136-09-04 16:25:00
+  (6) discharge time: 2136-09-14 19:00:00
+  (7) transfer history: 
+2136-09-04 16:25:58 - 2136-09-04 17:37:36: Vascular
+2136-09-09 07:41:59 - 2136-09-09 09:24:53: PACU
+2136-09-05 21:14:41 - 2136-09-09 07:41:59: Vascular
+2136-09-04 17:37:36 - 2136-09-05 21:14:41: Vascular
+2136-09-10 18:03:32 - 2136-09-14 19:07:04: Cardiac Surgery
+2136-09-09 09:24:53 - 2136-09-10 18:03:32: Cardiac Vascular Intensive Care Unit (CVICU)
+2136-09-14 19:07:04: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2136-09-04 19:55:00        29.5         9.8 31.1  33.2 94.0     225.0 3.15 12.7    NaN  7.3
+2136-09-06 12:35:00        27.5         8.8 30.8  32.0 96.0     200.0 2.86 12.7    NaN  7.2
+2136-09-07 06:58:00        26.6         8.5 30.7  32.0 96.0     207.0 2.77 12.7    NaN  7.3
+2136-09-08 07:39:00        25.9         8.4 30.5  32.4 94.0     208.0 2.75 12.9    NaN  8.0
+2136-09-09 11:13:00        21.5         7.0 30.8  32.6 95.0      88.0 2.27 13.7    NaN  7.6
+2136-09-09 12:19:00        24.6         8.0 30.2  32.5 93.0     142.0 2.65 15.2    NaN 10.5
+2136-09-09 18:27:00        24.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2136-09-10 02:16:00        26.1         8.5 29.6  32.6 91.0     149.0 2.87 15.9    NaN 12.4
+2136-09-11 05:06:00        26.5         8.6 30.4  32.5 94.0     166.0 2.83 15.9    NaN 13.0
+2136-09-12 05:02:00        27.7         8.7 29.6  31.4 94.0     171.0 2.94 15.2    NaN 10.5
+2136-09-13 05:44:00        29.2         9.4 29.7  32.2 92.0     227.0 3.17 14.8    NaN  9.5
+2136-09-14 06:00:00        27.0         8.4 29.2  31.1 94.0     225.0 2.88 14.6    NaN  7.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2136-09-09 15:00:00
+sbp: 131.0
+dbp: 60.0
+mbp: 81.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 19.0
+temperature: 37.170000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 2
+sofa_24hours: 8
+
+Physician's Diagnoses:
+1. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: HCFA
+   description: CORONARY BYPASS W CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Atorvastatin: 80mg, administered from 2136-09-04 18:00:00 to 2136-09-09 09:00:00
+- Docusate Sodium: 100mg, administered from 2136-09-04 20:00:00 to 2136-09-09 09:00:00
+- Ferrous Sulfate: 325mg, administered from 2136-09-04 18:00:00 to 2136-09-09 09:00:00
+- Isosorbide Dinitrate: 10mg, administered from 2136-09-04 18:00:00 to 2136-09-07 15:00:00
+- Irbesartan: 75mg, administered from 2136-09-04 18:00:00 to 2136-09-08 11:00:00
+- Labetalol: 100mg, administered from 2136-09-04 22:00:00 to 2136-09-09 09:00:00
+- Insulin: 0.2mL, administered from 2136-09-04 17:00:00 to 2136-09-09 09:00:00
+- Aspirin: 81mg, administered from 2136-09-05 08:00:00 to 2136-09-09 09:00:00
+- Docusate Sodium: 100mg, administered from 2136-09-04 20:00:00 to 2136-09-09 09:00:00
+- Ferrous Sulfate: 325mg, administered from 2136-09-04 18:00:00 to 2136-09-09 09:00:00

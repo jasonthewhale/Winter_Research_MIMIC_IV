@@ -1,0 +1,91 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 56
+  (3) race: WHITE
+  (4) admission type: DIRECT EMER.
+  (5) admit time: 2133-12-14 18:00:00
+  (6) discharge time: 2134-01-02 18:12:00
+  (7) transfer history: 
+2133-12-14 18:02:53 - 2133-12-15 12:24:00: Cardiology Surgery Intermediate
+2133-12-26 21:47:46 - 2134-01-02 18:12:33: Cardiology Surgery Intermediate
+2133-12-15 12:24:00 - 2133-12-15 21:10:24: PACU
+2133-12-24 15:41:00 - 2133-12-24 15:48:45: Medicine
+2133-12-24 16:28:44 - 2133-12-26 21:47:46: Medicine
+2133-12-23 17:53:17 - 2133-12-23 17:58:50: Medicine
+2133-12-24 15:48:45 - 2133-12-24 15:51:13: Medicine
+2133-12-24 15:51:13 - 2133-12-24 16:28:44: Medicine
+2133-12-15 21:10:24 - 2133-12-17 05:45:00: Trauma SICU (TSICU)
+2133-12-17 05:45:00 - 2133-12-23 17:53:17: Surgical Intensive Care Unit (SICU)
+2133-12-23 17:58:50 - 2133-12-24 15:41:00: Surgical Intensive Care Unit (SICU)
+2134-01-02 18:12:33: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2133-12-15 05:50:00        36.5        11.8 29.5  32.3 91.0     146.0 4.00 14.1    NaN 12.0
+2133-12-15 21:15:00        35.0        11.5 29.5  32.9 90.0     143.0 3.90 14.1    NaN 15.5
+2133-12-16 01:44:00        34.5        11.1 29.1  32.2 90.0     131.0 3.82 14.2    NaN 14.5
+2133-12-17 01:46:00        37.4        12.0 29.6  32.1 92.0     151.0 4.05 14.7    NaN 17.4
+2133-12-18 03:05:00        35.1        11.0 29.2  31.3 93.0     141.0 3.77 14.6    NaN 12.8
+2133-12-19 03:29:00        32.7        10.3 29.4  31.5 93.0     141.0 3.50 14.9    NaN 10.9
+2133-12-20 04:56:00        32.7        10.0 29.0  30.6 95.0     138.0 3.45 14.7    NaN 10.0
+2133-12-21 03:10:00        31.3         9.8 29.4  31.3 94.0     142.0 3.33 14.8    NaN  9.1
+2133-12-21 18:45:00        31.1         9.6 29.2  30.9 95.0     143.0 3.29 14.6    NaN  9.3
+2133-12-22 02:44:00        33.4        10.3 29.0  30.8 94.0     152.0 3.55 14.7    NaN 10.6
+2133-12-23 04:30:00        30.8         9.6 29.2  31.2 94.0     148.0 3.29 14.5    NaN 10.3
+2133-12-24 01:50:00        30.4         9.3 28.4  30.6 93.0     153.0 3.27 14.3    NaN  9.4
+2133-12-26 08:52:00        33.4        10.6 29.5  31.7 93.0     204.0 3.59 14.2    NaN  9.9
+2133-12-27 05:20:00        31.8        10.1 29.1  31.8 92.0     203.0 3.47 13.9    NaN  9.8
+2133-12-28 05:07:00        32.3        10.3 29.3  31.9 92.0     227.0 3.52 13.9    NaN 10.3
+2133-12-30 03:47:00        31.6        10.2 29.5  32.3 91.0     242.0 3.46 14.1    NaN 10.0
+2133-12-31 04:58:00        30.8         9.8 29.2  31.8 92.0     222.0 3.36 14.1    NaN 10.4
+2134-01-01 05:00:00        31.0        10.0 29.6  32.3 92.0     218.0 3.38 14.2    NaN  9.8
+2134-01-02 04:56:00        29.9         9.5 29.1  31.8 92.0     196.0 3.26 14.3    NaN  9.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2133-12-17 00:00:00
+sbp: 146.0
+dbp: 66.0
+mbp: 92.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.0
+temperature: 37.000000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Pyothorax with fistula
+   drg_type: APR
+   description: MAJOR RESPIRATORY & CHEST PROCEDURES
+   drg_severity: 3
+   drg_mortality: 2
+2. Pyothorax with fistula
+   drg_type: HCFA
+   description: MAJOR CHEST PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Albuterol 0.083% Neb Soln (dose: 1, unit: NEB, start time: 2133-12-14 21:00:00, stop time: 2133-12-15 21:00:00)
+- Lansoprazole Oral Disintegrating Tab (dose: 30, unit: mg, start time: 2133-12-14 21:00:00, stop time: 2133-12-15 00:00:00)
+- Bromocriptine Mesylate (dose: 2.5, unit: mg, start time: 2133-12-14 22:00:00, stop time: 2134-01-02 22:00:00)
+- Heparin Sodium (dose: 2500, unit: UNIT, start time: 2133-12-15 08:00:00, stop time: 2133-12-24 22:00:00)
+- Heparin Sodium (dose: 5000, unit: UNIT, start time: 2133-12-15 08:00:00, stop time: 2133-12-24 22:00:00)
+- Fluticasone-Salmeterol Diskus (250/50) (dose: 1, unit: INH, start time: 2133-12-14 20:00:00, stop time: 2133-12-15 21:00:00)
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (dose: 20, unit: mg, start time: 2133-12-15 01:00:00, stop time: 2133-12-18 04:00:00)
+- Fluticasone-Salmeterol Diskus (250/50) (dose: 1, unit: INH, start time: 2133-12-14 20:00:00, stop time: 2133-12-15 21:00:00)

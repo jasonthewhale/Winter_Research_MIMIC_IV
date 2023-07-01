@@ -1,0 +1,93 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 66
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2173-02-08 22:09:00
+  (6) discharge time: 2173-02-18 15:00:00
+  (7) transfer history: 
+2173-02-08 10:48:00 - 2173-02-09 00:46:00: Emergency Department
+2173-02-09 00:46:00 - 2173-02-10 18:47:30: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2173-02-10 18:47:30 - 2173-02-12 03:40:48: Med/Surg/GYN
+2173-02-14 06:06:01 - 2173-02-18 15:09:44: Medicine/Cardiology
+2173-02-12 06:00:34 - 2173-02-14 06:06:01: Coronary Care Unit (CCU)
+2173-02-12 03:40:48 - 2173-02-12 06:00:34: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2173-02-18 15:09:44: discharge
+
+2. Medical Data
+(1) heart rate: 
+2173-02-09 01:53:00-07:00:00 SR (Sinus Rhythm)
+2173-02-09 08:00:00-09:00:00 SR (Sinus Rhythm) with Runs Vtach
+2173-02-09 11:00:00-14:00:00 SR (Sinus Rhythm) with Rare PVC's
+2173-02-09 15:00:00-16:00:00 SR (Sinus Rhythm) with Occasional PVC's
+2173-02-09 16:00:00-17:00:00 AV Paced with Rare PVC's
+2173-02-09 17:00:00-04:00:00 A Paced with Rare PVC's
+2173-02-10 04:00:00-06:00:00 A Paced with Runs Vtach PVC's
+2173-02-10 08:00:00-03:00:00 A Paced with Runs Vtach PVC's
+2173-02-12 03:00:00-06:00:00 SA (Sinus Arrhythmia) with PVC's
+2173-02-12 10:00:00-13:00:00 SR (Sinus Rhythm) with Occasional PVC's
+2173-02-12 12:00:00-17:00:00 SR (Sinus Rhythm) with Runs Vtach PVC's
+2173-02-12 19:00:00-:00:00 SR (Sinus Rhythm) with Occasional PAC's
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2173-02-09 04:46:00        24.8         8.0 30.9  32.3 96.0     101.0 2.59 17.6    NaN  9.3
+2173-02-09 12:15:00        23.6         7.8 31.2  33.1 94.0      82.0 2.50 17.4    NaN  7.7
+2173-02-09 19:36:00        22.7         7.3 30.8  32.2 96.0      86.0 2.37 17.8    NaN  7.2
+2173-02-10 03:29:00        23.6         7.6 31.4  32.2 98.0      91.0 2.42 17.7    NaN  6.3
+2173-02-11 02:00:00        28.8         9.1 30.8  31.6 98.0     128.0 2.95 18.3    NaN 12.2
+2173-02-11 12:55:00        27.7         9.0 31.0  32.5 96.0     121.0 2.90 18.1    NaN  9.6
+2173-02-11 21:50:00        27.4         8.9 31.2  32.5 96.0     109.0 2.85 18.4    NaN  8.1
+2173-02-12 03:40:00        29.6         9.4 30.7  31.8 97.0     151.0 3.06 18.7    NaN 12.2
+2173-02-13 06:21:00        27.3         8.6 30.2  31.5 96.0     112.0 2.85 18.5    NaN 12.3
+2173-02-14 03:49:00        26.2         8.3 30.4  31.7 96.0     100.0 2.73 18.6    NaN  9.6
+2173-02-15 06:00:00        26.3         8.3 30.5  31.6 97.0      94.0 2.72 18.7    NaN  7.3
+2173-02-16 09:15:00        27.0         8.5 30.5  31.5 97.0     101.0 2.79 18.7    NaN  6.4
+2173-02-17 06:20:00        27.3         8.5 30.4  31.1 98.0     110.0 2.80 18.3    NaN  6.3
+2173-02-18 07:40:00        28.8         9.0 30.4  31.3 97.0     107.0 2.96 18.2    NaN  6.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2173-02-10 08:00:00
+sbp: 130.0
+dbp: 78.0
+mbp: nan
+sbp_ni: 130.0
+dbp_ni: 78.0
+mbp_ni: nan
+resp_rate: 18.0
+temperature: 36.720000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 3
+sofa_24hours: 7
+
+Physician's Diagnoses:
+1. Hematemesis
+   drg_type: APR
+   description: OTHER & UNSPECIFIED GASTROINTESTINAL HEMORRHAGE
+   drg_severity: 4
+   drg_mortality: 4
+2. Hematemesis
+   drg_type: HCFA
+   description: G.I. HEMORRHAGE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Aspirin: 81mg Tab, administered from 2173-02-10 19:00:00 to 2173-02-18 19:00:00
+- Atorvastatin: 80mg Tab, administered from 2173-02-09 04:00:00 to 2173-02-18 19:00:00
+- Doxycycline Hyclate: 100mg Cap, administered from 2173-02-09 05:00:00 to 2173-02-12 10:00:00
+- MoviPrep: 1 L Kit, administered from 2173-02-10 15:00:00 to 2173-02-11 04:00:00
+- Pantoprazole: 40mg Via, administered from 2173-02-09 04:00:00 to 2173-02-18 19:00:00
+- Sodium Chloride 0.9% Flush: 3 mL Syringe, administered from 2173-02-09 04:00:00 to 2173-02-17 12:00:00
+- Sodium Chloride 0.9% Flush: 3 mL Syringe, administered from 2173-02-10 19:00:00 to 2173-02-14 23:00:00
+- Torsemide: 20mg Tab, administered from 2173-02-10 19:00:00 to 2173-02-12 15:00:00
+- Insulin: 4 Units, administered from 2173-02-09 10:00:00 to 2173-02-12 22:00:00

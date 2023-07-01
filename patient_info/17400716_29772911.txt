@@ -1,0 +1,87 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 77
+  (3) race: ASIAN - SOUTH EAST ASIAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2180-06-02 22:29:00
+  (6) discharge time: 2180-06-15 18:25:00
+  (7) transfer history: 
+2180-06-02 18:48:00 - 2180-06-02 23:54:00: Emergency Department
+2180-06-02 23:54:00 - 2180-06-05 10:37:01: Medicine/Cardiology
+2180-06-08 20:54:45 - 2180-06-15 18:25:38: Medicine
+2180-06-05 10:37:01 - 2180-06-08 20:54:45: Coronary Care Unit (CCU)
+2180-06-15 18:25:38: discharge
+
+2. Medical Data
+(1) heart rate: 
+2180-06-07 12:00:00-2180-06-07 13:00:00 AF (Atrial Fibrillation) PAC's None None None
+2180-06-07 16:00:00-2180-06-07 20:00:00 AF (Atrial Fibrillation) PAC's None None None
+2180-06-07 20:00:00-2180-06-07 22:00:00 AF (Atrial Fibrillation) PVC's Frequent None None
+2180-06-07 22:00:00-2180-06-07 23:00:00 AF (Atrial Fibrillation) PVC's Occasional None None
+2180-06-07 23:00:00-2180-06-08 07:00:00 AF (Atrial Fibrillation) PVC's Occasional None None
+2180-06-08 07:00:00-2180-06-08 08:00:00 AF (Atrial Fibrillation) PVC's Rare None None
+2180-06-08 08:00:00-2180-06-08 09:00:00 AF (Atrial Fibrillation) PVC's Rare None None
+2180-06-08 09:00:00-2180-06-08 10:00:00 AF (Atrial Fibrillation) PVC's Rare None None
+2180-06-08 10:00:00-2180-06-08 11:00:00 AF (Atrial Fibrillation) PVC's Rare None None
+2180-06-08 11:00:00-2180-06-08 12:00:00 AF (Atrial Fibrillation) PVC's Rare None None
+2180-06-08 12:00:00-2180-06-08 13:00:00 AF (Atrial Fibrillation) PVC's Rare None None
+2180-06-08 13:00:00-2180-06-08 14:00:00 AF (Atrial Fibrillation) PVC's None None None
+2180-06-08 14:00:00-2180-06-08 15:30:00 AF (Atrial Fibrillation) PVC's None None None
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2180-06-03 05:50:00        30.8         9.6 28.8  31.1 93.0     257.0 3.32 16.7    NaN  6.7
+2180-06-04 06:20:00        30.8         8.9 27.4  29.0 95.0     247.0 3.26 16.9    NaN  7.3
+2180-06-05 05:50:00        28.4         8.9 28.9  31.3 92.0     251.0 3.08 16.9    NaN 17.5
+2180-06-05 14:08:00         NaN         8.1  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2180-06-06 04:27:00        26.0         8.2 28.5  31.7 90.0     192.0 2.88 17.1    NaN 19.1
+2180-06-07 04:30:00        31.0         9.9 29.3  31.9 92.0     186.0 3.38 17.1    NaN 14.8
+2180-06-08 02:10:00        28.0         9.0 28.6  32.2 89.0     170.0 3.16 17.2    NaN  7.6
+2180-06-09 07:55:00        33.7        10.4 28.6  30.9 93.0     181.0 3.64 17.6    NaN  8.1
+2180-06-10 07:55:00        31.5        10.0 30.2  31.8 95.0     123.0 3.32 17.3    NaN  7.7
+2180-06-11 06:17:00        32.1         9.9 28.7  30.8 93.0     142.0 3.44 17.3    NaN 14.1
+2180-06-12 05:55:00        33.8        10.2 29.1  30.3 96.0     147.0 3.52 17.5    NaN 12.1
+2180-06-13 06:18:00        32.1        10.0 28.9  31.1 93.0     152.0 3.45 17.1    NaN 12.9
+2180-06-13 15:20:00        33.3        10.5 29.6  31.6 94.0     157.0 3.56 17.4    NaN 11.7
+2180-06-14 08:30:00        32.5         9.9 28.4  30.4 94.0     154.0 3.48 17.3    NaN 12.1
+2180-06-15 06:55:00        30.3         9.4 28.7  31.0 93.0     146.0 3.27 17.2    NaN  4.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2180-06-06 16:00:00
+sbp: 124.0
+dbp: 36.0
+mbp: 57.0
+sbp_ni: 124.0
+dbp_ni: 36.0
+mbp_ni: 57.0
+resp_rate: 19.0
+temperature: 35.900000000
+temperature_site: None
+spo2: 98.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 3
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease
+   drg_type: HCFA
+   description: RENAL FAILURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Insulin (starttime: 2180-06-07 19:00:00, stoptime: 2180-06-12 09:00:00)
+- Insulin Glargine (starttime: 2180-06-07 22:00:00, stoptime: 2180-06-12 09:00:00)
+- Sodium Chloride 0.9% Flush (starttime: 2180-06-03 02:00:00, stoptime: 2180-06-15 22:00:00)
+- Sodium Chloride 0.9% Flush (starttime: 2180-06-05 12:00:00, stoptime: 2180-06-15 22:00:00)
+- Sodium Chloride 0.9% Flush (starttime: 2180-06-08 22:00:00, stoptime: 2180-06-15 22:00:00)
+- Ipratropium-Albuterol Neb (starttime: 2180-06-04 19:00:00, stoptime: 2180-06-10 14:00:00)
+- Levothyroxine Sodium (starttime: 2180-06-03 04:00:00, stoptime: 2180-06-15 22:00:00)
+- Acetaminophen (starttime: 2180-06-03 04:00:00, stoptime: 2180-06-15 22:00:00)

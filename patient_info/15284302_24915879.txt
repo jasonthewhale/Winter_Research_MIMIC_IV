@@ -1,0 +1,95 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 57
+  (3) race: OTHER
+  (4) admission type: EW EMER.
+  (5) admit time: 2188-11-18 09:28:00
+  (6) discharge time: 2188-12-16 15:24:00
+  (7) transfer history: 
+2188-11-17 21:48:00 - 2188-11-18 09:29:09: Emergency Department
+2188-11-18 09:29:09 - 2188-11-18 18:14:31: PACU
+2188-11-18 18:14:31 - 2188-12-05 06:52:41: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2188-12-05 06:52:41 - 2188-12-08 10:42:48: Neuro Intermediate
+2188-12-08 10:42:48 - 2188-12-10 00:50:07: Neuro Intermediate
+2188-12-10 00:50:07 - 2188-12-16 15:33:51: Neurology
+2188-12-16 15:33:51: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2188-11-17 22:05:00        33.2         9.4 22.0  28.3 78.0     298.0 4.27 21.2    NaN 14.9
+2188-11-18 19:53:00        29.6         8.5 22.0  28.7 77.0     314.0 3.86 21.2    NaN 24.7
+2188-11-19 02:54:00        30.5         8.7 22.1  28.5 77.0     325.0 3.94 21.2    NaN 24.8
+2188-11-20 00:45:00        30.0         8.5 22.1  28.3 78.0     314.0 3.84 21.7    NaN 24.3
+2188-11-21 00:30:00        30.7         8.7 22.4  28.3 79.0     347.0 3.88 22.3    NaN 28.2
+2188-11-22 02:00:00        29.4         8.2 22.0  27.9 79.0     350.0 3.72 22.2    NaN 21.1
+2188-11-23 00:32:00        29.4         8.1 22.0  27.6 80.0     321.0 3.68 22.1    NaN 22.7
+2188-11-24 01:12:00        28.1         7.8 22.0  27.8 79.0     309.0 3.55 22.4    NaN 19.5
+2188-11-25 00:27:00        27.6         7.8 22.3  28.3 79.0     316.0 3.50 22.2    NaN 18.7
+2188-11-26 00:33:00        27.4         7.5 21.9  27.4 80.0     302.0 3.42 23.1    NaN 18.1
+2188-11-27 00:59:00        27.2         7.5 22.0  27.6 80.0     294.0 3.41 22.7    NaN 19.8
+2188-11-28 01:06:00        25.8         7.1 21.9  27.5 80.0     310.0 3.24 23.1    NaN 23.7
+2188-11-29 00:47:00        26.8         7.5 22.5  28.0 81.0     339.0 3.33 23.1    NaN 24.4
+2188-11-30 00:34:00        25.7         7.0 22.4  27.2 82.0     327.0 3.12 22.8    NaN 22.5
+2188-12-01 00:01:00        28.1         7.9 23.3  28.1 83.0     316.0 3.39 22.0    NaN 18.7
+2188-12-02 02:16:00        27.4         7.7 23.3  28.1 83.0     336.0 3.31 22.8    NaN 21.2
+2188-12-03 00:59:00        27.4         7.7 23.7  28.1 84.0     372.0 3.25 23.6    NaN 18.7
+2188-12-04 01:32:00        29.9         8.2 23.6  27.4 86.0     404.0 3.48 23.9    NaN 20.1
+2188-12-05 02:31:00        32.9         9.1 23.4  27.7 85.0     434.0 3.89 24.3    NaN 22.2
+2188-12-06 06:40:00        31.0         8.5 23.4  27.4 85.0     451.0 3.63 24.5    NaN 20.1
+2188-12-07 05:30:00        31.4         8.6 23.2  27.4 85.0     460.0 3.70 23.9    NaN 19.4
+2188-12-08 06:12:00        31.0         8.6 23.4  27.7 85.0     478.0 3.67 24.0    NaN 14.4
+2188-12-12 08:25:00        33.6         9.2 23.7  27.4 86.0     494.0 3.89 23.9    NaN 14.8
+2188-12-14 07:10:00        33.4         9.3 23.7  27.8 85.0     459.0 3.92 24.1    NaN 16.6
+2188-12-15 07:25:00        32.7         9.0 23.7  27.5 86.0     411.0 3.80 23.6    NaN 16.5
+2188-12-16 07:05:00        31.2         8.7 24.2  27.9 87.0     347.0 3.59 23.6    NaN 15.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2188-11-19 04:00:00
+sbp: 136.0
+dbp: 52.0
+mbp: 76.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 18.0
+temperature: 36.560000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: <NA>
+cns: 3
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 3
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Nontraumatic subacute subdural hemorrhage
+   drg_type: HCFA
+   description: ECMO OR TRACH W MV >96 HRS OR PDX EXC FACE, MOUTH & NECK W MAJ O.R.
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Nontraumatic subacute subdural hemorrhage
+   drg_type: APR
+   description: TRACHEOSTOMY W MV 96+ HOURS W EXTENSIVE PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- LeVETiracetam 2000 mg in 100 mL 0.9% Sodium Chloride (Administered) - starttime: 2181-04-22 13:00:00, stoptime: 2181-04-23 09:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - starttime: 2188-11-18 19:00:00, stoptime: 2188-12-16 20:00:00
+- Insulin (Administered) - starttime: 2188-11-18 22:00:00, stoptime: 2188-11-20 09:00:00
+- Insulin (Administered) - starttime: 2188-11-18 21:00:00, stoptime: 2188-11-20 09:00:00
+- Potassium Chloride 10 mEq / 100 mL SW (None) - starttime: 2188-11-19 00:00:00, stoptime: 2188-11-20 03:00:00
+- LeVETiracetam 1000 mg in 100 mL 0.9% Sodium Chloride (Administered) - starttime: 2188-11-18 20:00:00, stoptime: 2188-11-21 11:00:00
+- Potassium Chloride 10 mEq / 100 mL SW (None) - starttime: 2188-11-19 00:00:00, stoptime: 2188-11-20 03:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - starttime: 2188-11-18 19:00:00, stoptime: 2188-12-16 20:00:00
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix) (Administered) - starttime: 2188-11-18 19:00:00, stoptime: 2188-11-19 09:00:00
+- Insulin (Administered) - starttime: 2188-11-18 21:00:00, stoptime: 2188-11-20 09:

@@ -1,0 +1,87 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 50
+  (3) race: BLACK/AFRICAN AMERICAN
+  (4) admission type: URGENT
+  (5) admit time: 2147-02-09 21:36:00
+  (6) discharge time: 2147-03-06 16:04:00
+  (7) transfer history: 
+2147-02-09 21:37:56 - 2147-02-12 23:17:19: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2147-02-12 23:17:19 - 2147-03-06 16:04:10: Medicine
+2147-03-06 16:04:10: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2147-02-09 22:20:00        25.2         8.1 28.2  32.1 88.0     358.0 2.87 16.6    NaN 16.4
+2147-02-10 04:39:00        23.8         7.5 27.7  31.5 88.0     358.0 2.71 17.0    NaN 17.4
+2147-02-11 05:27:00        20.9         6.5 27.8  31.1 89.0     321.0 2.34 16.8    NaN 15.5
+2147-02-12 10:03:00        26.5         8.4 27.5  31.7 87.0     337.0 3.05 17.2    NaN 15.6
+2147-02-13 06:00:00        23.5         7.4 27.5  31.5 87.0     325.0 2.69 16.8    NaN 13.7
+2147-02-14 06:40:00        26.0         8.0 27.3  30.8 89.0     380.0 2.93 16.8    NaN 13.3
+2147-02-16 06:15:00        22.7         6.9 27.2  30.4 89.0     335.0 2.54 16.1    NaN 12.9
+2147-02-17 05:41:00        24.5         7.8 28.6  31.8 90.0     309.0 2.73 15.9    NaN 13.7
+2147-02-18 06:14:00        25.1         7.7 27.9  30.7 91.0     348.0 2.76 15.9    NaN 11.9
+2147-02-18 06:36:00        26.0         8.1 28.3  31.2 91.0     370.0 2.86 15.9    NaN 13.2
+2147-02-19 05:33:00        23.5         7.4 28.4  31.5 90.0     341.0 2.61 16.1    NaN 12.0
+2147-02-20 06:17:00        24.7         7.8 28.4  31.6 90.0     375.0 2.75 15.9    NaN 12.1
+2147-02-23 06:32:00        23.3         7.2 27.9  30.9 90.0     379.0 2.58 15.6    NaN  9.8
+2147-02-26 06:27:00        22.0         6.7 27.7  30.5 91.0     361.0 2.42 15.6    NaN  8.9
+2147-02-27 05:36:00        19.8         6.1 28.1  30.8 91.0     286.0 2.17 15.8    NaN  7.7
+2147-02-28 06:19:00        23.2         7.2 28.1  31.0 91.0     339.0 2.56 15.7    NaN  7.9
+2147-03-01 05:35:00        23.8         7.3 28.0  30.7 91.0     333.0 2.61 15.7    NaN  9.2
+2147-03-02 06:18:00        23.8         7.2 27.8  30.3 92.0     357.0 2.59 15.8    NaN 10.7
+2147-03-03 05:44:00        22.7         6.9 27.9  30.4 92.0     327.0 2.47 15.6    NaN 10.5
+2147-03-03 18:10:00        25.8         8.2  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2147-03-04 05:23:00        26.7         8.3 28.5  31.1 92.0     314.0 2.91 15.4    NaN 10.2
+2147-03-05 05:31:00        25.2         8.0 28.9  31.7 91.0     342.0 2.77 15.7    NaN 12.1
+2147-03-06 05:19:00        23.9         7.5 29.0  31.4 92.0     301.0 2.59 15.7    NaN 10.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2147-02-11 08:00:00
+sbp: 113.0
+dbp: 95.0
+mbp: 99.0
+sbp_ni: 113.0
+dbp_ni: 95.0
+mbp_ni: 99.0
+resp_rate: 13.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 3
+   drg_mortality: 4
+2. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- OxycoDONE (Immediate Release) - Administered - 5mg - 5mL - Cup - Start Time: 2147-02-09 23:00:00 - Stop Time: 2147-02-13 18:00:00
+- Fentanyl Patch - Applied - 100mcg/h - Patch - Start Time: 2147-02-09 23:00:00 - Stop Time: 2147-03-06 20:00:00
+- Magnesium Sulfate - None - 2g - 50mL - Bag - Start Time: 2147-02-10 01:00:00 - Stop Time: 2147-02-10 09:00:00
+- Sodium Chloride 0.9% - Administered - 500mL - Bag - Start Time: 2147-02-10 01:00:00 - Stop Time: 2147-02-10 09:00:00
+- Potassium Chloride - Administered - 20mEq - Packet - Start Time: 2147-02-10 01:00:00 - Stop Time: 2147-02-10 09:00:00
+- Neutra-Phos - Administered - 1 Packet - Start Time: 2147-02-10 08:00:00 - Stop Time: 2147-02-10 12:00:00
+- Magnesium Sulfate - None - 2g - 50mL - Bag - Start Time: 2147-02-10 01:00:00 - Stop Time: 2147-02-10 09:00:00
+- Sodium Phosphate - Administered - 15mmol - 250mL - Start Time: 2147-02-10 05:00:00 - Stop Time: 2147-02-10 09:00:00
+- Amiodarone - Administered - 200mg - Tab - Start Time: 2147-02-09 23:00:00 - Stop Time: 2147-02-26 18:00:00

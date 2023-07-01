@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 38
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2171-10-17 23:25:00
+  (6) discharge time: 2171-10-29 15:30:00
+  (7) transfer history: 
+2171-10-17 18:54:00 - 2171-10-17 23:44:00: Emergency Department
+2171-10-17 23:44:00 - 2171-10-24 13:30:21: Surgical Intensive Care Unit (SICU)
+2171-10-24 13:30:21 - 2171-10-29 15:38:28: Med/Surg
+2171-10-29 15:38:28: discharge
+
+2. Medical Data
+(1) heart rate: 
+2171-05-06 01:00:00-2171-05-06 01:00:00 ST (Sinus Tachycardia)
+2171-05-06 01:00:00-2171-05-06 01:00:00 PVC's (Premature Ventricular Contractions)
+2171-05-06 01:00:00-2171-05-06 01:00:00 Rare ectopy frequency
+2171-05-06 01:00:00-2171-05-06 01:00:00 No secondary ectopy type
+2171-05-06 01:00:00-2171-05-06 01:00:00 No secondary ectopy frequency
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2171-10-18 01:38:00        28.7        10.2 36.5  35.6 103.0      43.0 2.80 14.3    NaN  3.8
+2171-10-18 06:18:00        30.3        10.4 35.5  34.2 104.0      45.0 2.93 14.0    NaN  6.6
+2171-10-18 12:00:00        25.6         8.8 34.9  34.5 101.0      56.0 2.53 14.0    NaN  2.4
+2171-10-18 14:36:00        29.6        10.1 34.6  34.0 102.0      55.0 2.92 14.0    NaN  6.2
+2171-10-19 02:07:00        27.8         9.4 35.1  34.0 104.0      42.0 2.69 14.1    NaN  6.9
+2171-10-20 02:10:00        28.2         9.5 35.1  33.7 104.0      28.0 2.70 14.2    NaN  2.8
+2171-10-20 09:12:00        31.1        10.4 34.3  33.5 103.0      31.0 3.04 14.0    NaN  2.4
+2171-10-21 03:17:00        29.3         9.8 34.5  33.4 103.0      31.0 2.84 13.8    NaN  2.8
+2171-10-22 02:34:00        32.8        11.0 34.4  33.7 102.0      55.0 3.21 14.1    NaN  4.3
+2171-10-23 02:59:00        28.7         9.6 34.2  33.3 103.0      73.0 2.80 14.6    NaN  6.4
+2171-10-23 21:39:00        27.3         8.9 34.3  32.7 105.0      88.0 2.60 14.7    NaN  6.2
+2171-10-24 01:59:00        26.5         8.6 34.2  32.6 105.0      91.0 2.53 14.7    NaN  4.9
+2171-10-25 07:51:00        30.1        10.1 35.3  33.6 105.0     118.0 2.86 14.4    NaN  4.9
+2171-10-26 08:10:00        29.7         9.5 33.3  31.9 105.0     129.0 2.84 14.4    NaN  6.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2171-05-22 04:00:00
+sbp: 112.0
+dbp: 60.0
+mbp: 76.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 29.5
+temperature: 36.890000000
+temperature_site: Axillary
+spo2: 94.0
+cardiovascular: 1
+cns: 1
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Unspecified septicemia
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV 96+ HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Unspecified septicemia
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- HYDROmorphone (Dilaudid) 2mg Tablet: Administered from 2171-10-23 10:00:00 to 2171-10-29 19:00:00
+- Meropenem 500 mg/100 mL NS (Mini Bag Plus): Administered from 2171-10-24 19:00:00 to 2171-10-28 16:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2171-10-24 19:00:00 to 2171-10-29 19:00:00
+- Insulin: Administered from 2171-10-24 09:00:00 to 2171-10-25 00:00:00
+- Docusate Sodium 100mg Capsule: Administered from 2171-10-24 09:00:00 to 2171-10-29 19:00:00
+- Ursodiol 300mg Cap: Administered from 2171-10-18 03:00:00 to 2171-10-29 19:00:00

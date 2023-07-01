@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 54
+  (3) race: HISPANIC/LATINO - GUATEMALAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2120-05-18 23:19:00
+  (6) discharge time: 2120-05-31 18:15:00
+  (7) transfer history: 
+2120-05-18 07:16:00 - 2120-05-19 00:33:00: Emergency Department
+2120-05-19 00:33:00 - 2120-05-21 20:24:01: Medical Intensive Care Unit (MICU)
+2120-05-21 20:24:01 - 2120-05-31 18:16:49: Transplant
+2120-05-31 18:16:49: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2120-05-19 04:06:00        31.6        10.6 35.0  33.5 104.0      99.0 3.03 15.7    NaN  6.5
+2120-05-20 04:19:00        35.3        11.6 34.6  32.9 105.0     116.0 3.35 15.6    NaN 10.4
+2120-05-21 04:38:00        30.1        10.0 35.1  33.2 106.0     102.0 2.85 15.7    NaN  8.8
+2120-05-22 07:12:00        28.9         9.7 35.0  33.6 104.0      91.0 2.77 15.6    NaN  3.5
+2120-05-23 05:57:00        28.4         9.4 34.6  33.1 104.0      92.0 2.72 15.4    NaN  2.8
+2120-05-24 06:41:00        28.9         9.6 34.3  33.2 103.0     105.0 2.80 15.5    NaN  4.0
+2120-05-25 06:34:00        28.3         9.6 34.5  33.9 102.0     109.0 2.78 15.3    NaN  5.4
+2120-05-26 06:08:00        27.9         9.7 35.7  34.8 103.0     124.0 2.72 15.8    NaN  5.0
+2120-05-27 05:59:00        29.4         9.8 34.9  33.3 105.0     124.0 2.81 16.4    NaN  4.2
+2120-05-28 06:10:00        29.8         9.8 34.4  32.9 105.0     113.0 2.85 16.9    NaN  4.4
+2120-05-29 05:39:00        29.2         9.8 35.8  33.6 107.0     130.0 2.74 17.2    NaN  5.1
+2120-05-30 05:27:00        30.9        10.0 34.7  32.4 107.0     148.0 2.88 17.9    NaN  5.8
+2120-05-31 06:06:00        30.4        10.1 35.7  33.2 107.0     147.0 2.83 18.1    NaN  5.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2120-08-24 20:00:00
+sbp: 99.0
+dbp: 65.0
+mbp: 79.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 19.0
+temperature: 34.400000000
+temperature_site: Esophogeal
+spo2: 98.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Toxic encephalopathy
+   drg_type: HCFA
+   description: OTHER DISORDERS OF NERVOUS SYSTEM W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Toxic encephalopathy
+   drg_type: APR
+   description: ALTERATION IN CONSCIOUSNESS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Rifaximin 550mg Tablet (Administered) - Start time: 2119-07-08 22:00:00, Stop time: 2119-07-09 16:00:00
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix) (Administered) - Start time: 2120-05-19 04:00:00, Stop time: 2120-05-19 03:00:00
+- Lactulose (Administered) - Start time: 2120-05-19 03:00:00, Stop time: 2120-05-19 15:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start time: 2120-05-19 03:00:00, Stop time: 2120-05-21 20:00:00
+- Chlorhexidine Gluconate 15 mL Cup (Administered) - Start time: 2120-05-19 08:00:00, Stop time: 2120-05-20 23:00:00
+- FoLIC Acid 1 mg Tab (Administered) - Start time: 2120-05-19 03:00:00, Stop time: 2120-05-31 22:00:00
+- Heparin (Administered) - Start time: 2120-05-19 03:00:00, Stop time: 2120-05-31 22:00:00
+- Lactulose (Administered) - Start time: 2120-05-19 03:00:00, Stop time: 2120-05-19 15:00:00
+- Multivitamins W/minerals 1 Tablet (Administered) - Start time: 2120-05-19 03:00:00, Stop time: 2120-05-22 11:00:00

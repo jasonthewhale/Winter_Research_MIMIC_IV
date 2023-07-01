@@ -1,0 +1,75 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 54
+  (3) race: WHITE - OTHER EUROPEAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2126-01-17 19:50:00
+  (6) discharge time: 2126-01-22 13:55:00
+  (7) transfer history: 
+2126-01-17 11:16:00 - 2126-01-17 20:48:00: Emergency Department
+2126-01-17 20:48:00 - 2126-01-19 16:26:34: Medical Intensive Care Unit (MICU)
+2126-01-19 16:26:34 - 2126-01-22 13:59:05: Transplant
+2126-01-22 13:59:05: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2126-01-17 21:45:00        24.9         8.0 30.0  32.1 93.0     129.0 2.67 15.9    NaN  4.4
+2126-01-18 05:42:00        27.6         8.8 29.6  31.9 93.0     141.0 2.97 16.1    NaN  5.2
+2126-01-18 11:24:00        26.7         8.6 29.9  32.2 93.0     122.0 2.88 15.9    NaN  4.2
+2126-01-18 18:06:00        28.1         8.9 30.0  31.7 95.0     131.0 2.97 16.0    NaN  3.7
+2126-01-18 23:25:00        26.5         8.5 29.7  32.1 93.0     137.0 2.86 15.9    NaN  3.5
+2126-01-19 04:49:00        27.8         8.8 29.8  31.7 94.0     150.0 2.95 16.0    NaN  4.5
+2126-01-19 19:03:00        31.1         9.7 30.0  31.2 96.0     177.0 3.23 15.9    NaN  5.2
+2126-01-20 06:13:00        30.5         9.8 29.7  32.1 92.0     183.0 3.30 15.6    NaN  4.1
+2126-01-21 01:55:00        26.8         8.6 29.8  32.1 93.0     183.0 2.89 15.9    NaN 12.5
+2126-01-21 06:09:00        27.2         8.7 29.6  32.0 93.0     187.0 2.94 15.9    NaN 11.4
+2126-01-22 05:55:00        26.9         8.7 30.4  32.3 94.0     162.0 2.86 16.5    NaN  6.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2126-01-19 12:00:00
+sbp: 90.0
+dbp: 58.0
+mbp: 68.0
+sbp_ni: 90.0
+dbp_ni: 58.0
+mbp_ni: 68.0
+resp_rate: 21.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Portal hypertension
+   drg_type: HCFA
+   description: PANCREAS, LIVER & SHUNT PROCEDURES W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Portal hypertension
+   drg_type: APR
+   description: EXTENSIVE PROCEDURE UNRELATED TO PRINCIPAL DIAGNOSIS
+   drg_severity: 3
+   drg_mortality: 1
+
+Medication:
+- ARIPiprazole 15 mg Tablet (Administered) - Start Time: 2126-01-17 22:00:00, Stop Time: 2126-01-22 18:00:00
+- Ascorbic Acid 500 mg Tab (Administered) - Start Time: 2126-01-17 22:00:00, Stop Time: 2126-01-22 18:00:00
+- Divalproex (DELayed Release) (Administered) - Start Time: 2126-01-17 22:00:00, Stop Time: 2126-01-22 18:00:00
+- Divalproex (DELayed Release) 250 mg DR Tablet (Administered) - Start Time: 2126-01-17 22:00:00, Stop Time: 2126-01-22 18:00:00
+- Ferrous Sulfate 325 mg Tablet (Administered) - Start Time: 2126-01-17 22:00:00, Stop Time: 2126-01-22 18:00:00
+- Gabapentin 300mg Capsule (Administered) - Start Time: 2126-01-17 22:00:00, Stop Time: 2126-01-22 18:00:00
+- Pantoprazole 40 mg Via (Administered) - Start Time: 2126-01-17 22:00:00, Stop Time: 2126-01-22 08:00:00
+- Topiramate (Topamax) 25mg Tablet (Administered) - Start Time: 2126-01-17 22:00:00, Stop Time: 2126-01-22 18:00:00

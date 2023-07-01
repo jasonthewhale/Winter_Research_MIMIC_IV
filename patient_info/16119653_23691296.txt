@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 58
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2136-09-21 08:00:00
+  (6) discharge time: 2136-10-07 13:01:00
+  (7) transfer history: 
+2136-09-21 06:43:35 - 2136-09-21 22:05:49: Discharge Lounge
+2136-09-21 22:05:49 - 2136-09-21 23:08:38: PACU
+2136-09-24 17:23:54 - 2136-09-28 02:40:23: Med/Surg
+2136-09-21 23:08:38 - 2136-09-24 17:23:54: Med/Surg
+2136-09-29 15:34:43 - 2136-10-07 13:01:55: Med/Surg
+2136-09-28 21:23:18 - 2136-09-29 15:34:43: Med/Surg
+2136-09-28 02:40:23 - 2136-09-28 21:23:18: Surgical Intensive Care Unit (SICU)
+2136-10-07 13:01:55: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2136-09-21 17:45:00        39.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2136-09-22 05:31:00        35.9        12.2 31.8  34.0 94.0     203.0 3.84 13.1    NaN 14.3
+2136-09-25 09:00:00        29.3         9.7 30.7  33.1 93.0     238.0 3.16 13.3    NaN  7.2
+2136-09-26 08:55:00        33.9        11.5 31.7  34.1 93.0     281.0 3.64 13.7    NaN 13.0
+2136-09-27 05:48:00        30.8        10.4 31.6  33.7 94.0     262.0 3.28 13.6    NaN  9.9
+2136-09-28 03:49:00        27.1         9.3 31.0  34.2 91.0     242.0 2.99 13.4    NaN 11.5
+2136-09-29 05:55:00        29.7         9.6 30.2  32.3 93.0     247.0 3.18 13.7    NaN 10.3
+2136-09-30 09:21:00        30.8         9.9 30.1  32.2 93.0     378.0 3.30 13.5    NaN  7.8
+2136-10-02 04:10:00        30.0         9.8 30.0  32.8 92.0     419.0 3.27 13.8    NaN  9.2
+2136-10-03 06:17:00        33.3        10.7 30.1  32.1 94.0     478.0 3.55 14.7    NaN 13.1
+2136-10-04 06:25:00        34.0        10.9 30.6  32.2 95.0     566.0 3.57 14.8    NaN 12.1
+2136-10-05 03:51:00        32.6        10.4 30.5  31.9 96.0     583.0 3.40 14.8    NaN 11.4
+2136-10-06 05:40:00        30.6         9.6 30.3  31.4 97.0     539.0 3.18 14.6    NaN  8.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2136-09-28 16:00:00
+sbp: 112.0
+dbp: 63.0
+mbp: 74.0
+sbp_ni: 112.0
+dbp_ni: 63.0
+mbp_ni: 74.0
+resp_rate: 25.0
+temperature: 36.830000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: <NA>
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Benign neoplasm of stomach
+   drg_type: HCFA
+   description: STOMACH, ESOPHAGEAL & DUODENAL PROC W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Benign neoplasm of stomach
+   drg_type: APR
+   description: MAJOR STOMACH, ESOPHAGEAL & DUODENAL PROCEDURES
+   drg_severity: 3
+   drg_mortality: 1
+
+Medication:
+- Metronidazole 500 mg / 100 mL NS (Administered from 2136-09-22 00:00:00 to 2136-09-23 00:00:00)
+- Magnesium Sulfate 2 g / 50 mL (Premix Bag) (Administered from 2136-09-22 00:00:00 to 2136-09-22 03:00:00)
+- Lorazepam 2mg/mL Syringe (Administered from 2136-09-22 04:00:00 to 2136-09-28 03:00:00)
+- Acetaminophen IV (Administered from 2136-09-22 08:00:00 to 2136-09-24 08:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered from 2136-09-21 08:00:00 to 2136-09-23 11:00:00)
+- Chloraseptic Throat Spray 180 mL Bottle (Administered from 2136-09-22 08:00:00 to 2136-10-07 17:00:00)
+- CefazoLIN 2 g / 100 mL 5% Dextrose  ***Rx Compound*** (Administered from 2136-09-21 22:00:00 to 2136-09-22 22:00:00)

@@ -1,0 +1,83 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 74
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2157-03-20 00:00:00
+  (6) discharge time: 2157-03-31 00:45:00
+  (7) transfer history: 
+2157-03-20 06:01:07 - 2157-03-20 16:11:57: Discharge Lounge
+2157-03-22 22:18:08 - 2157-03-31 04:32:28: Trauma SICU (TSICU)
+2157-03-20 16:11:57 - 2157-03-22 22:18:08: Trauma SICU (TSICU)
+2157-03-31 04:32:28: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2157-03-20 17:00:00        27.7         8.9 32.8  32.1 102.0     178.0 2.71 16.9    NaN  7.5
+2157-03-21 02:15:00        25.0         8.3 33.1  33.2 100.0     161.0 2.51 18.0    NaN  6.1
+2157-03-22 02:00:00        23.6         7.7 33.5  32.6 103.0     159.0 2.30 18.2    NaN  6.0
+2157-03-23 02:20:00        22.1         7.1 32.9  32.1 102.0     149.0 2.16 18.1    NaN  5.0
+2157-03-24 03:00:00        22.9         7.2 33.0  31.4 105.0     166.0 2.18 18.5    NaN  8.7
+2157-03-25 01:09:00        21.8         7.0 33.3  32.1 104.0     177.0 2.10 19.0    NaN 13.3
+2157-03-25 15:33:00        21.7         6.8 32.9  31.3 105.0     152.0 2.07 19.1    NaN 14.7
+2157-03-25 23:47:00        24.4         7.9 32.8  32.4 101.0     149.0 2.41 21.1    NaN 13.0
+2157-03-26 05:42:00        22.6         7.3 32.0  32.3  99.0     151.0 2.28 21.3    NaN 14.4
+2157-03-26 07:12:00        21.3         6.9 32.4  32.4 100.0     143.0 2.13 21.4    NaN 15.4
+2157-03-26 12:22:00        27.4         8.9 31.8  32.5  98.0     154.0 2.80 21.5    NaN 18.3
+2157-03-27 01:31:00        25.4         8.5 32.0  33.5  96.0     137.0 2.66 22.4    NaN 17.5
+2157-03-28 01:43:00        24.3         8.1 32.1  33.3  96.0     111.0 2.52 22.2    NaN 22.8
+2157-03-28 16:47:00        23.0         7.4 31.4  32.2  98.0      92.0 2.36 21.9    NaN 21.0
+2157-03-29 01:58:00        21.4         6.9 31.7  32.2  98.0      82.0 2.18 21.8    NaN 17.7
+2157-03-29 14:07:00        22.1         7.3 31.6  33.0  96.0      73.0 2.31 20.9    NaN 17.7
+2157-03-30 01:45:00        22.5         7.4 31.6  32.9  96.0      77.0 2.34 21.6    NaN 17.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2157-03-26 04:00:00
+sbp: 111.0
+dbp: 40.0
+mbp: 62.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 34.0
+temperature: 38.060000000
+temperature_site: Oral
+spo2: 92.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Malignant neoplasm of cardia
+   drg_type: APR
+   description: MAJOR STOMACH, ESOPHAGEAL & DUODENAL PROCEDURES
+   drg_severity: 4
+   drg_mortality: 4
+2. Malignant neoplasm of cardia
+   drg_type: HCFA
+   description: STOMACH, ESOPHAGEAL & DUODENAL PROC W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Lactated Ringers - Floor Stock Bag (Administered) - Start Time: 2157-03-20 17:00:00, Stop Time: 2157-03-22 00:00:00
+- Acetaminophen IV (Administered) - Start Time: 2157-03-20 17:00:00, Stop Time: 2157-03-30 16:00:00
+- Heparin (Administered) - Start Time: 2157-03-20 20:00:00, Stop Time: 2157-03-24 09:00:00
+- Pantoprazole 40 mg Via (Administered) - Start Time: 2157-03-20 17:00:00, Stop Time: 2157-03-30 16:00:00
+- Ondansetron (Administered) - Start Time: 2157-03-20 17:00:00, Stop Time: 2157-03-22 00:00:00
+- Lactated Ringers - Floor Stock Bag (Administered) - Start Time: 2157-03-20 21:00:00, Stop Time: 2157-03-22 00:00:00
+- Albumin 5% (12.5g / 250mL) (Administered) - Start Time: 2157-03-20 23:00:00, Stop Time: 2157-03-22 00:00:00
+- Ondansetron (Administered) - Start Time: 2157-03-20 17:00:00, Stop Time: 2157-03-22 00:00:00
+- Acetaminophen IV (Administered) - Start Time: 2157-03-20 17:00:00, Stop Time: 2157-03-30 16:00:00
+- Ondansetron (Administered) - Start Time: 2157-03-20 17:00:00, Stop Time: 2157-03-22 00:00:00

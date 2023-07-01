@@ -1,0 +1,77 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 39
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2186-12-19 09:29:00
+  (6) discharge time: 2186-12-29 13:21:00
+  (7) transfer history: 
+2186-12-19 00:32:00 - 2186-12-19 09:30:16: Emergency Department
+2186-12-19 09:30:16 - 2186-12-19 09:58:34: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2186-12-22 21:45:46 - 2186-12-29 13:21:23: Med/Surg/GYN
+2186-12-19 09:58:34 - 2186-12-22 21:45:46: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2186-12-29 13:21:23: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2186-12-20 03:39:00        35.3        12.3 30.0  35.0 86.0     165.0 4.11 13.8    NaN  6.1
+2186-12-21 01:20:00        39.0        13.1 29.7  33.7 88.0     203.0 4.43 14.7    NaN  6.1
+2186-12-22 08:30:00        40.1        13.6 29.8  33.8 88.0     220.0 4.55 15.2    NaN 10.7
+2186-12-23 07:45:00        39.9        13.4 30.0  33.5 90.0     222.0 4.45 15.3    NaN 14.6
+2186-12-24 07:35:00        40.6        13.4 29.2  33.0 88.0     232.0 4.60 14.7    NaN 18.6
+2186-12-25 07:45:00        41.8        13.7 29.6  32.7 90.0     238.0 4.62 14.8    NaN 20.5
+2186-12-25 20:30:00        41.7        14.0 29.9  33.5 89.0     241.0 4.67 14.8    NaN 19.9
+2186-12-26 07:10:00        39.5        13.0 29.5  32.8 90.0     239.0 4.40 15.4    NaN 16.9
+2186-12-27 08:12:00        39.5        12.8 28.9  32.4 89.0     262.0 4.43 14.9    NaN 12.9
+2186-12-28 07:25:00        40.9        13.5 29.3  33.1 89.0     331.0 4.61 14.9    NaN 13.4
+2186-12-29 07:30:00        38.5        12.8 29.3  33.3 88.0     348.0 4.37 14.9    NaN  9.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2186-12-20 12:00:00
+sbp: 105.0
+dbp: 68.0
+mbp: 76.0
+sbp_ni: 105.0
+dbp_ni: 68.0
+mbp_ni: 76.0
+resp_rate: 20.0
+temperature: 37.560000000
+temperature_site: Oral
+spo2: 92.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Unspecified septicemia
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 3
+   drg_mortality: 3
+2. Unspecified septicemia
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV 96+ HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2186-12-21 23:00:00 and stopped on 2186-12-29 17:00:00
+- Administered: Metronidazole 500 mg / 100 mL NS, started on 2186-12-19 17:00:00 and stopped on 2186-12-28 13:00:00
+- Administered: Vancomycin Oral Liquid, started on 2186-12-20 00:00:00 and stopped on 2186-12-25 17:00:00
+- Administered: OxycoDONE (Immediate Release) 5mg Tablet, started on 2186-12-20 00:00:00 and stopped on 2186-12-29 17:00:00
+- Administered: Acetaminophen 500mg Tablet, started on 2186-12-20 13:00:00 and stopped on 2186-12-29 17:00:00
+- Administered: Vancomycin Oral Liquid, started on 2186-12-20 00:00:00 and stopped on 2186-12-25 17:00:00
+- Administered: Ondansetron 2mg/mL-2mL, started on 2186-12-20 16:00:00 and stopped on 2186-12-29 17:00:00
+- Administered: Metronidazole 500 mg / 100 mL NS, started on 2186-12-19 17:00:00 and stopped on 2186-12-28 13:00:00
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial, started on 2186-12-19 12:00:00 and stopped on 2186-12-29 17:00:00

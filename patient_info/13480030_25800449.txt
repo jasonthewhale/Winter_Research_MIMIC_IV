@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 53
+  (3) race: ASIAN
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2134-07-23 00:00:00
+  (6) discharge time: 2134-07-28 14:45:00
+  (7) transfer history: 
+2134-07-23 03:51:42 - 2134-07-23 12:33:05: Discharge Lounge
+2134-07-24 21:51:19 - 2134-07-25 15:45:53: Cardiac Surgery
+2134-07-25 15:45:53 - 2134-07-28 14:52:08: Cardiac Surgery
+2134-07-23 12:33:05 - 2134-07-24 21:51:19: Cardiac Vascular Intensive Care Unit (CVICU)
+2134-07-28 14:52:08: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2134-07-23 14:15:00        30.0        10.1 28.7  33.7 85.0     136.0 3.52 13.3    NaN 14.2
+2134-07-23 15:42:00        33.0        11.1 28.2  33.6 84.0     146.0 3.93 13.2    NaN 16.6
+2134-07-23 22:35:00        34.6        11.5 28.3  33.2 85.0     158.0 4.06 13.4    NaN 16.0
+2134-07-24 03:55:00        30.7        10.1 28.1  32.9 86.0     157.0 3.59 13.4    NaN 15.6
+2134-07-25 05:12:00        29.1         9.4 28.2  32.3 87.0     135.0 3.33 13.9    NaN 12.5
+2134-07-26 03:33:00        29.3         9.4 28.1  32.1 88.0     164.0 3.35 14.0    NaN 12.1
+2134-07-27 07:10:00        28.7         9.2 28.2  32.1 88.0     181.0 3.26 14.0    NaN  7.4
+2134-07-28 07:05:00        32.2        10.5 28.3  32.6 87.0     261.0 3.71 14.1    NaN  9.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2134-07-24 12:00:00
+sbp: 104.0
+dbp: 61.0
+mbp: 73.0
+sbp_ni: 98.0
+dbp_ni: 59.0
+mbp_ni: 67.0
+resp_rate: 16.0
+temperature: 36.720000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 1
+   drg_mortality: 1
+
+Medication:
+- Glycopyrrolate: Administered from 2134-07-23 13:00:00 to 2134-07-24 01:00:00
+- Neostigmine: Administered from 2134-07-23 13:00:00 to 2134-07-24 01:00:00
+- Calcium Gluconate: Administered from 2134-07-23 13:00:00 to 2134-07-24 21:00:00
+- Chlorhexidine Gluconate: Administered from 2134-07-23 20:00:00 to 2134-07-24 12:00:00
+- Fentanyl Citrate: Administered from 2134-07-23 13:00:00 to 2134-07-24 21:00:00
+- Potassium Chloride: Administered from 2134-07-23 13:00:00 to 2134-07-24 21:00:00
+- Sodium Chloride 0.9% Flush: Administered from 2134-07-23 08:00:00 to 2134-07-24 21:00:00
+- Magnesium Sulfate: Administered from 2134-07-23 13:00:00 to 2134-07-24 21:00:00
+- Cefazolin: Administered from 2134-07-23 13:00:00 to 2134-07-24 20:00:00

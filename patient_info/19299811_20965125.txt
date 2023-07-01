@@ -1,0 +1,107 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 77
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2192-05-31 23:43:00
+  (6) discharge time: 2192-06-27 10:50:00
+  (7) transfer history: 
+2192-05-31 15:42:00 - 2192-06-01 00:11:00: Emergency Department
+2192-06-01 00:11:00 - 2192-06-01 02:19:59: Transplant
+2192-06-15 22:41:48 - 2192-06-15 23:25:37: PACU
+2192-06-15 12:27:46 - 2192-06-15 22:41:48: PACU
+2192-06-12 19:15:30 - 2192-06-15 12:27:46: Transplant
+2192-06-02 17:15:34 - 2192-06-10 22:37:22: Transplant
+2192-06-12 19:04:44 - 2192-06-12 19:15:30: Transplant
+2192-06-10 22:37:22 - 2192-06-12 19:04:44: Surgical Intensive Care Unit (SICU)
+2192-06-01 02:19:59 - 2192-06-02 17:15:34: Surgical Intensive Care Unit (SICU)
+2192-06-15 23:25:37 - 2192-06-27 14:21:41: Surgical Intensive Care Unit (SICU)
+2192-06-27 14:21:41: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2192-06-01 03:10:00        26.2         7.9 30.0  30.2 100.0     147.0 2.63 20.0    NaN  6.9
+2192-06-01 13:04:00        26.1         8.0 30.4  30.7  99.0     164.0 2.63 20.3    NaN  9.2
+2192-06-02 02:38:00        25.6         7.8 30.4  30.5 100.0     168.0 2.57 20.0    NaN 10.4
+2192-06-03 05:24:00        26.5         8.0 30.7  30.2 102.0     167.0 2.61 19.7    NaN 10.7
+2192-06-04 05:38:00        27.2         7.9 29.8  29.0 103.0     170.0 2.65 19.5    NaN 10.1
+2192-06-04 07:45:00        28.0         8.4 30.4  30.0 101.0     177.0 2.76 19.5    NaN 10.6
+2192-06-05 04:59:00        30.0         8.8 30.0  29.3 102.0     194.0 2.93 19.3    NaN 13.6
+2192-06-05 14:59:00        29.3         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2192-06-06 04:16:00        28.3         8.3 30.0  29.3 102.0     192.0 2.77 19.3    NaN 16.8
+2192-06-07 05:18:00        26.4         7.7 29.7  29.2 102.0     172.0 2.59 19.2    NaN 11.7
+2192-06-08 05:17:00        27.2         8.0 29.4  29.4 100.0     151.0 2.72 19.1    NaN 10.9
+2192-06-09 05:00:00        26.1         7.7 29.4  29.5 100.0      98.0 2.62 19.0    NaN 10.5
+2192-06-10 06:26:00        27.4         8.0 29.3  29.2 100.0     110.0 2.73 19.2    NaN 16.8
+2192-06-10 22:50:00        30.8         9.4 29.7  30.5  98.0     143.0 3.16 21.1    NaN 16.0
+2192-06-11 02:50:00        29.0         8.7 29.5  30.0  98.0     138.0 2.95 21.6    NaN 16.8
+2192-06-12 02:00:00        29.7         9.0 29.1  30.3  96.0     171.0 3.09 21.1    NaN 16.2
+2192-06-13 05:08:00        29.2         8.6 29.4  29.5 100.0     192.0 2.93 20.6    NaN 14.6
+2192-06-13 17:55:00        29.9         9.0 29.2  30.1  97.0     166.0 3.08 19.9    NaN 14.3
+2192-06-14 10:15:00        27.9         8.3 29.5  29.7  99.0     157.0 2.81 19.8    NaN 14.3
+2192-06-14 23:47:00        32.0         9.5 29.3  29.7  99.0     235.0 3.24 20.2    NaN  7.0
+2192-06-15 05:26:00        30.6         9.0 29.9  29.4 102.0     192.0 3.01 20.5    NaN 24.2
+2192-06-15 09:20:00        32.7         8.9 29.4  27.2 108.0     196.0 3.03 20.8    NaN 27.8
+2192-06-15 17:35:00        30.7         9.4 30.1  30.6  98.0     235.0 3.12 19.6    NaN 25.2
+2192-06-16 03:39:00        30.9         9.7 30.6  31.4  98.0     268.0 3.17 20.6    NaN 33.6
+2192-06-16 18:48:00        30.2         9.6 30.4  31.8  96.0     227.0 3.16 20.5    NaN 30.3
+2192-06-17 02:50:00        28.0         8.5 29.3  30.4  97.0     228.0 2.90 20.1    NaN 28.5
+2192-06-18 01:46:00        24.8         7.7 30.2  31.0  97.0     201.0 2.55 19.5    NaN 20.7
+2192-06-19 03:44:00        28.9         8.8 29.0  30.4  95.0     132.0 3.03 19.2    NaN 24.9
+2192-06-20 02:25:00        28.5         8.7 29.6  30.5  97.0     183.0 2.94 19.4    NaN 27.8
+2192-06-21 02:03:00        23.5         7.2 29.4  30.6  96.0     144.0 2.45 18.6    NaN 15.1
+2192-06-21 05:48:00        22.8         6.8 28.8  29.8  97.0     129.0 2.36 18.7    NaN 12.5
+2192-06-21 14:00:00        22.6         6.8 29.3  30.1  97.0     147.0 2.32 18.6    NaN 13.4
+2192-06-22 02:02:00        26.0         7.9 28.7  30.4  95.0     179.0 2.75 18.7    NaN 16.0
+2192-06-22 13:11:00        26.8         8.2 28.3  30.6  92.0     190.0 2.90 19.0    NaN 15.9
+2192-06-23 02:10:00        23.6         7.3 29.0  30.9  94.0     185.0 2.52 19.0    NaN 15.4
+2192-06-23 16:09:00        24.8         7.4 28.0  29.8  94.0     223.0 2.64 19.2    NaN 19.1
+2192-06-24 01:50:00        23.6         7.3 28.5  30.9  92.0     194.0 2.56 18.8    NaN 18.5
+2192-06-25 02:11:00        25.5         7.7 28.7  30.2  95.0     239.0 2.68 18.7    NaN 23.7
+2192-06-26 02:23:00        27.5         8.3 28.5  30.2  95.0     177.0 2.91 18.6    NaN 17.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2192-06-20 04:00:00
+sbp: 131.0
+dbp: 33.0
+mbp: 65.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 12.5
+temperature: 37.390000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 2
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Acute vascular disorders of intestine
+   drg_type: HCFA
+   description: MAJOR SMALL & LARGE BOWEL PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Levothyroxine Sodium (Levothyroxine 100 mcg Vial)
+- Potassium Chloride (Potassium Chloride 10 mEq / 100 mL SW)
+- Ciprofloxacin (Ciprofloxacin 400 mg / 200 mL 5% Dextrose)
+- Magnesium Sulfate (Magnesium Sulfate 2 g / 50 mL (Premix Bag))
+- Potassium Chloride (Potassium Chloride 10 mEq / 100 mL SW)
+- Potassium Chloride (Potassium Chloride 10 mEq / 100 mL SW)
+- Potassium Chloride (Potassium Chloride 10 mEq / 100 mL SW)
+- Metronidazole (Metronidazole 500 mg / 100 mL NS)
+- HYDROmorphone (Dilaudid)
+- Potassium Chloride (Potassium Chloride 10 mEq / 100 mL SW)

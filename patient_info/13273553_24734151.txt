@@ -1,0 +1,121 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 65
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2134-04-18 19:25:00
+  (6) discharge time: 2134-05-05 09:30:00
+  (7) transfer history: 
+2134-04-18 17:17:00 - 2134-04-18 19:26:49: Emergency Department
+2134-04-18 19:26:49 - 2134-04-18 19:28:03: Neurology
+2134-04-18 19:28:03 - 2134-04-18 21:49:02: Neurology
+2134-04-28 21:41:04 - 2134-05-05 09:30:53: Surgery/Trauma
+2134-04-18 21:49:02 - 2134-04-18 21:50:12: Discharge Lounge
+2134-04-18 21:50:12 - 2134-04-28 21:41:04: Trauma SICU (TSICU)
+2134-05-05 09:30:53: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2134-04-19 00:19:00        37.9        11.9 31.7  31.4 101.0     410.0 3.75 14.7    NaN 25.5
+2134-04-19 05:34:00        34.9        11.2 32.1  32.1 100.0     315.0 3.49 14.7    NaN 18.4
+2134-04-20 01:23:00        29.4         9.6 31.8  32.7  97.0     301.0 3.02 14.4    NaN 12.4
+2134-04-20 16:01:00        28.4         9.1 32.0  32.0 100.0     279.0 2.84 14.7    NaN  8.8
+2134-04-21 01:46:00        27.8         8.7 31.6  31.3 101.0     256.0 2.75 14.8    NaN  7.5
+2134-04-21 21:28:00        31.0         9.6 32.2  31.0 104.0     237.0 2.98 15.0    NaN  8.7
+2134-04-22 07:35:00        29.7         9.1 31.8  30.6 104.0     234.0 2.86 14.9    NaN  9.6
+2134-04-23 01:40:00        26.9         8.2 31.8  30.5 104.0     236.0 2.58 14.8    NaN 10.3
+2134-04-24 01:45:00        26.9         7.9 31.3  29.4 107.0     253.0 2.52 15.0    NaN 10.3
+2134-04-25 00:56:00        26.1         7.6 31.4  29.1 108.0     255.0 2.42 15.1    NaN  9.6
+2134-04-26 02:02:00        25.6         7.5 32.1  29.3 109.0     251.0 2.34 15.4    NaN  9.7
+2134-04-27 02:28:00        24.7         7.2 31.7  29.1 109.0     254.0 2.27 15.5    NaN  8.4
+2134-04-28 01:36:00        25.9         7.7 32.2  29.7 108.0     289.0 2.39 15.4    NaN  9.2
+2134-04-29 05:37:00        24.1         7.0 32.1  29.0 111.0     279.0 2.18 15.7    NaN  6.8
+2134-04-30 04:26:00        26.2         7.6 32.1  29.0 111.0     335.0 2.37 15.8    NaN  6.6
+2134-05-04 08:19:00        29.1         8.9 32.7  30.6 107.0     351.0 2.72 15.5    NaN  5.3
+2134-05-05 05:30:00        29.2         8.9 32.7  30.5 107.0     357.0 2.72 15.7    NaN  5.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2134-04-19 01:00:00
+sbp: 110.0
+dbp: 63.0
+mbp: 77.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 20.0
+temperature: 36.330000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis, unspecified organism
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 3
+
+Medication:
+- Potassium Chloride 20 mEq / 50 mL Sterile Water (emar_seq: 13)
+   - Start Time: 2134-04-19 02:00:00
+   - Stop Time: 2134-04-28 21:00:00
+   - Medication: Potassium Chloride Replacement (Critical Care and Oncology)
+   - Route: IV
+   - Frequency: PRN
+   - Dispense Schedule: None
+   - Doses per 24 hours: NaN
+   - Duration: Ongoing
+   - Duration Interval: 36 Hours
+
+- Sodium Chloride 0.9% Flush (emar_seq: 17)
+   - Start Time: 2134-04-19 08:00:00
+   - Stop Time: 2134-05-05 14:00:00
+   - Medication: Sodium Chloride 0.9% Flush
+   - Route: IV
+   - Frequency: DAILY
+   - Dispense Schedule: 08
+   - Doses per 24 hours: 1.0
+   - Duration: Ongoing
+   - Duration Interval: 365 Days
+
+- Chlorhexidine Gluconate 15 mL Cup (emar_seq: 23)
+   - Start Time: 2134-04-19 08:00:00
+   - Stop Time: 2134-04-23 10:00:00
+   - Medication: Chlorhexidine Gluconate 0.12% Oral Rinse
+   - Route: ORAL
+   - Frequency: BID
+   - Dispense Schedule: 08, 20
+   - Doses per 24 hours: 2.0
+   - Duration: Ongoing
+   - Duration Interval: 365 Days
+
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (emar_seq: 24)
+   - Start Time: 2134-04-19 02:00:00
+   - Stop Time: 2134-04-19 08:00:00
+   - Medication: Famotidine
+   - Route: IV
+   - Frequency: Q24H
+   - Dispense Schedule: 2
+   - Doses per 24 hours: 1.0
+   - Duration: Ongoing
+   - Duration Interval: 36 Hours
+
+-

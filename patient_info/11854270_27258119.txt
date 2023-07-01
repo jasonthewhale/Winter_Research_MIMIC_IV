@@ -1,0 +1,85 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 67
+  (3) race: WHITE - OTHER EUROPEAN
+  (4) admission type: ELECTIVE
+  (5) admit time: 2159-08-15 15:30:00
+  (6) discharge time: 2159-08-20 16:30:00
+  (7) transfer history: 
+2159-08-15 15:31:20 - 2159-08-16 08:06:27: Cardiology Surgery Intermediate
+2159-08-16 08:14:43 - 2159-08-16 08:20:24: Cardiology Surgery Intermediate
+2159-08-17 18:36:05 - 2159-08-20 16:31:16: Cardiology Surgery Intermediate
+2159-08-16 08:06:27 - 2159-08-16 08:14:43: PACU
+2159-08-16 08:20:24 - 2159-08-16 09:14:51: PACU
+2159-08-16 09:14:51 - 2159-08-17 18:36:05: Cardiac Vascular Intensive Care Unit (CVICU)
+2159-08-20 16:31:16: discharge
+
+2. Medical Data
+(1) heart rate: 
+2159-08-16 21:00:00-2159-08-16 23:00:00 SR (Sinus Rhythm) PAC's Occasional
+2159-08-17 00:00:00-2159-08-17 01:00:00 SA (Sinus Arrhythmia) PAC's Occasional
+2159-08-17 01:00:00-2159-08-17 08:00:00 SR (Sinus Rhythm) PAC's Occasional
+2159-08-17 08:00:00-2159-08-17 09:00:00 SR (Sinus Rhythm) PAC's Frequent
+2159-08-17 09:00:00-2159-08-17 10:00:00 SR (Sinus Rhythm) PAC's Occasional
+2159-08-17 10:00:00-2159-08-17 14:00:00 SR (Sinus Rhythm) PAC's Occasional
+2159-08-17 14:00:00-2159-08-17 18:00:00 SR (Sinus Rhythm) PAC's Occasional
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2159-08-15 17:50:00        42.7        14.3 30.4  33.5 91.0     164.0 4.71 13.4    NaN  5.0
+2159-08-16 10:08:00        34.6        11.4 30.2  32.9 92.0     109.0 3.77 13.5    NaN  6.4
+2159-08-16 11:30:00        41.2        13.8 30.7  33.5 92.0     138.0 4.50 13.5    NaN 14.7
+2159-08-16 18:01:00        40.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2159-08-17 02:34:00        37.6        12.4 30.4  33.0 92.0     131.0 4.08 14.0    NaN 10.2
+2159-08-17 06:42:00        38.9        12.8  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2159-08-17 12:12:00        35.9         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2159-08-18 05:10:00        34.3        11.2 30.2  32.7 93.0     112.0 3.71 14.0    NaN 10.4
+2159-08-19 04:30:00        30.7        10.2 30.4  33.2 92.0     111.0 3.35 13.8    NaN  7.8
+2159-08-20 05:57:00        30.7        10.2 30.5  33.2 92.0     152.0 3.34 13.8    NaN  6.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2159-08-16 19:00:00
+sbp: 107.0
+dbp: 58.0
+mbp: 72.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 17.0
+temperature: 37.500000000
+temperature_site: Blood
+spo2: 94.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 4
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Congenital insufficiency of aortic valve
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 1
+2. Congenital insufficiency of aortic valve
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W CARD CATH W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2159-08-15 17:00:00, stop time: 2159-08-16 10:00:00
+- Administered: Pravastatin 40mg Tablet, start time: 2159-08-15 20:00:00, stop time: 2159-08-16 10:00:00
+- Administered: Metoprolol Tartrate 12.5mg Tablet, start time: 2159-08-15 20:00:00, stop time: 2159-08-16 10:00:00
+- Administered: Pramipexole 1mg Tablet, start time: 2159-08-15 17:00:00, stop time: 2159-08-16 10:00:00
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2159-08-15 17:00:00, stop time: 2159-08-16 10:00:00
+- Administered: Metoprolol Tartrate 12.5mg Tablet, start time: 2159-08-15 20:00:00, stop time: 2159-08-16 10:00:00
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2159-08-16 11:00:00, stop time: 2159-08-17 19:00:00
+- Administered: Acetaminophen IV 1000mg VIAL, start time: 2159-08-16 12:00:00, stop time: 2159-08-17 08:00:00
+- None: Fentanyl Citrate 25mcg/mL, start time: 2159-08-16 11:00:00, stop time: 2159-08-17 06:00:00
+- None: Fentanyl Citrate 25mcg/mL, start time: 2159-08-16 11:00:00, stop time: 2159-08-17 06:00:00

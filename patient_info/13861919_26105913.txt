@@ -1,0 +1,89 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 63
+  (3) race: BLACK/CARIBBEAN ISLAND
+  (4) admission type: EW EMER.
+  (5) admit time: 2151-04-25 01:08:00
+  (6) discharge time: 2151-05-18 17:15:00
+  (7) transfer history: 
+2151-04-24 17:06:00 - 2151-04-25 02:14:00: Emergency Department
+2151-04-25 02:14:00 - 2151-04-28 11:17:07: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2151-04-28 11:17:07 - 2151-04-30 10:45:38: Neuro Intermediate
+2151-05-01 15:10:28 - 2151-05-18 17:50:14: Neurology
+2151-04-30 10:45:38 - 2151-05-01 15:10:28: Neurology
+2151-05-18 17:50:14: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2151-04-24 17:35:00        41.9        13.3 26.7  31.7 84.0     168.0 4.99 13.6    NaN  9.1
+2151-04-25 04:04:00        39.6        12.2 26.9  30.8 87.0       NaN 4.54 14.1    NaN  9.5
+2151-04-25 04:45:00        36.4        11.4 26.3  31.3 84.0       NaN 4.34 14.0    NaN 12.2
+2151-04-26 01:16:00        35.0        10.9 26.4  31.1 85.0     176.0 4.13 13.7    NaN 10.9
+2151-04-27 02:35:00        35.7        11.1 26.2  31.1 84.0     130.0 4.23 13.4    NaN 10.8
+2151-04-28 02:25:00        39.2        12.3 26.4  31.4 84.0     172.0 4.66 13.6    NaN  9.2
+2151-04-29 07:05:00        39.0        12.6 27.1  32.3 84.0     161.0 4.65 13.9    NaN  7.5
+2151-04-30 06:21:00        35.1        11.0 26.7  31.3 85.0       NaN 4.12 13.7    NaN  7.3
+2151-05-01 04:14:00        33.3        10.3 26.3  30.9 85.0     149.0 3.91 13.8    NaN  8.2
+2151-05-02 04:40:00        36.1        11.4 26.9  31.6 85.0     167.0 4.24 14.1    NaN  8.5
+2151-05-03 04:31:00        35.8        11.3 27.0  31.6 86.0     182.0 4.18 14.4    NaN  7.6
+2151-05-05 03:48:00        35.4        11.0 26.9  31.1 87.0     238.0 4.09 14.4    NaN  6.9
+2151-05-07 05:09:00        34.3        10.8 26.6  31.5 85.0     227.0 4.06 13.7    NaN  8.8
+2151-05-08 04:23:00        34.8        11.0 26.9  31.6 85.0     252.0 4.09 13.9    NaN  8.4
+2151-05-10 05:05:00        32.3        10.1 26.6  31.3 85.0     186.0 3.79 14.0    NaN  7.7
+2151-05-11 04:53:00        33.7        10.3 26.1  30.6 85.0     273.0 3.95 14.1    NaN  8.7
+2151-05-13 03:06:00        34.1        10.7 26.9  31.4 86.0     281.0 3.98 14.3    NaN  9.3
+2151-05-15 05:30:00        32.3         9.9 26.3  30.7 86.0     338.0 3.77 14.2    NaN  7.6
+2151-05-16 03:53:00        32.2         9.9 26.2  30.7 85.0     313.0 3.78 13.9    NaN  6.8
+2151-05-17 05:46:00        33.8        10.7 26.6  31.7 84.0     336.0 4.02 13.9    NaN  8.3
+2151-05-18 04:46:00        33.9        10.5 26.2  31.0 85.0     249.0 4.01 14.2    NaN  7.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2151-04-25 16:00:00
+sbp: 159.0
+dbp: 84.0
+mbp: 107.0
+sbp_ni: 159.0
+dbp_ni: 84.0
+mbp_ni: 107.0
+resp_rate: nan
+temperature: 37.890000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Cerebral infarction due to unspecified occlusion or stenosis of other precerebral arteries
+   drg_type: HCFA
+   description: INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W CC OR TPA IN 24 HRS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Cerebral infarction due to unspecified occlusion or stenosis of other precerebral arteries
+   drg_type: APR
+   description: CVA & PRECEREBRAL OCCLUSION W INFARCT
+   drg_severity: 3
+   drg_mortality: 4
+
+Medication:
+- Chlorhexidine Gluconate 0.12% Oral Rinse (starttime: 2151-04-25 08:00:00, stoptime: 2151-04-27 16:00:00)
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (starttime: 2151-04-25 04:00:00, stoptime: 2151-04-26 10:00:00)
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix) (starttime: 2151-04-25 12:00:00, stoptime: 2151-04-26 10:00:00)
+- CefTRIAXone 1 g / 50 mL Iso-Osmotic Dextrose (starttime: 2151-04-25 12:00:00, stoptime: 2151-04-27 10:00:00)
+- Chlorhexidine Gluconate 0.12% Oral Rinse (starttime: 2151-04-25 08:00:00, stoptime: 2151-04-27 16:00:00)
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix) (starttime: 2151-04-25 20:00:00, stoptime: 2151-04-27 10:00:00)
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride (starttime: 2151-04-25 04:00:00, stoptime: 2151-04-26 10:00:00)
+- Docusate Sodium (Liquid) 100mg / 10 mL Cup (starttime: 2151-04-25 04:00:00, stoptime: 2151-05-18 22:00:00)
+- Acetaminophen 325mg Tablet (starttime: 2151-04-25 04:00:00, stoptime: 2151-05-18 22:00:00)
+- Acetaminophen 325mg Tablet (starttime: 2151-04-25 04:00:00, stoptime: 2151-05-18 22:00:00

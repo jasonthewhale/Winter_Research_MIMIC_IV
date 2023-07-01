@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 86
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2146-04-29 19:52:00
+  (6) discharge time: 2146-05-07 18:10:00
+  (7) transfer history: 
+2146-04-29 16:58:00 - 2146-04-29 19:53:01: Emergency Department
+2146-04-29 19:53:01 - 2146-04-29 20:06:16: Transplant
+2146-04-29 20:51:12 - 2146-05-04 15:56:52: Medicine/Cardiology Intermediate
+2146-04-29 20:06:16 - 2146-04-29 20:51:12: Discharge Lounge
+2146-05-05 18:50:34 - 2146-05-07 18:10:28: Medicine/Cardiology
+2146-05-04 15:56:52 - 2146-05-05 18:50:34: Coronary Care Unit (CCU)
+2146-05-07 18:10:28: discharge
+
+2. Medical Data
+(1) heart rate: 
+2146-05-04 20:00:00-2146-05-04 20:00:00 SB (Sinus Bradycardia)
+2146-05-05 00:00:00-2146-05-05 00:00:00 SR (Sinus Rhythm)
+2146-05-05 02:00:00-2146-05-05 02:00:00 SB (Sinus Bradycardia)
+2146-05-05 04:00:00-2146-05-05 04:00:00 SR (Sinus Rhythm)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2146-04-30 06:50:00        31.5        10.0 33.4  31.7 105.0     102.0 2.99 14.5    NaN  8.3
+2146-05-01 06:23:00        30.2         9.6 33.4  31.8 105.0      90.0 2.87 14.4    NaN  6.1
+2146-05-02 06:15:00        29.3         9.2 32.9  31.4 105.0      96.0 2.80 14.3    NaN  6.1
+2146-05-03 06:39:00        28.4         9.3 33.7  32.7 103.0     102.0 2.76 14.3    NaN  6.6
+2146-05-04 06:48:00        29.5         9.4 33.5  31.9 105.0      95.0 2.81 14.5    NaN  5.5
+2146-05-04 16:38:00        26.8         8.6 33.3  32.1 104.0     124.0 2.58 14.5    NaN  7.9
+2146-05-04 22:40:00        27.9         8.9 33.0  31.9 103.0     150.0 2.70 14.6    NaN 10.3
+2146-05-05 04:49:00        26.7         8.7 33.3  32.6 102.0     139.0 2.61 14.5    NaN  8.7
+2146-05-06 07:34:00        29.4         9.5 33.5  32.3 104.0     146.0 2.84 14.7    NaN  7.0
+2146-05-07 07:30:00        28.2         9.2 33.6  32.6 103.0     138.0 2.74 14.6    NaN  7.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2146-05-05 12:00:00
+sbp: 161.0
+dbp: 42.0
+mbp: 85.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 27.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 3
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Disruption of external operation (surgical) wound, not elsewhere classified, initial encounter
+   drg_type: HCFA
+   description: OTHER O.R. PROCEDURES FOR INJURIES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Atorvastatin: Administered from 2146-04-29 23:00:00 to 2146-05-07 23:00:00, dose given: 40 mg
+- Carvedilol: Administered from 2146-04-29 23:00:00 to 2146-05-05 07:00:00, dose given: 12.5 mg
+- Sodium Chloride 0.9% Flush: Flushed from 2146-04-29 23:00:00 to 2146-05-05 07:00:00, amount given: 3 mL
+- Acetaminophen: Administered from 2146-04-29 23:00:00 to 2146-05-07 23:00:00, dose given: 500 mg
+- Cinacalcet: Administered from 2146-04-29 23:00:00 to 2146-05-07 23:00:00, dose given: 30 mg
+- Diltiazem Extended-Release: Administered from 2146-04-30 08:00:00 to 2146-05-05 07:00:00, dose given: 120 mg

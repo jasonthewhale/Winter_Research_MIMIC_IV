@@ -1,0 +1,67 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 74
+  (3) race: WHITE - RUSSIAN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2139-02-20 14:47:00
+  (6) discharge time: 2139-02-24 19:15:00
+  (7) transfer history: 
+2139-02-20 14:48:04 - 2139-02-21 01:10:20: Cardiology
+2139-02-23 20:59:55 - 2139-02-24 19:38:09: Medicine/Cardiology Intermediate
+2139-02-21 01:10:20 - 2139-02-23 20:59:55: Cardiac Vascular Intensive Care Unit (CVICU)
+2139-02-24 19:38:09: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available for the heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2139-02-20 16:30:00        41.7        13.9 32.2  33.3 97.0     224.0 4.32 12.7    NaN  6.3
+2139-02-21 02:45:00        41.3        13.7 31.7  33.2 96.0     227.0 4.32 12.7    NaN  6.9
+2139-02-22 03:02:00        39.4        13.2 31.7  33.5 95.0     210.0 4.16 12.7    NaN  6.9
+2139-02-23 01:56:00        40.8        13.4 31.0  32.8 94.0     217.0 4.32 12.4    NaN  7.3
+2139-02-24 07:11:00        42.0        14.0 31.1  33.3 93.0     224.0 4.50 12.7    NaN  8.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2139-02-23 18:05:00
+sbp: 127.0
+dbp: 79.0
+mbp: 95.0
+sbp_ni: 127.0
+dbp_ni: 79.0
+mbp_ni: 95.0
+resp_rate: 22.0
+temperature: 36.780000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Sick sinus syndrome
+   drg_type: HCFA
+   description: PERMANENT CARDIAC PACEMAKER IMPLANT W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sick sinus syndrome
+   drg_type: APR
+   description: PERM CARDIAC PACEMAKER IMPLANT W/O AMI, HEART FAILURE OR SHOCK
+   drg_severity: 2
+   drg_mortality: 3
+
+Medication:
+- Flushed: 3 mL of Sodium Chloride 0.9% Flush, started on 2139-02-20 16:00:00 and stopped on 2139-02-25
+- Administered: 20 mg of Atorvastatin, started on 2139-02-20 18:00:00 and stopped on 2139-02-25
+- Administered: 1 mg of Warfarin 1mg Tablet, started on 2139-02-20 16:00:00 and stopped on 2139-02-25
+- Administered: 88 mcg of Levothyroxine Sodium, started on 2139-02-20 18:00:00 and stopped on 2139-02-25
+- Administered: 50 mg of Sertraline 50mg Tablet, started on 2139-02-20 18:00:00 and stopped on 2139-02-25
+- Administered: 1000 UNIT of Vitamin D 1,000 Unit Tablet, started on 2139-02-20 18:00:00 and stopped on 2139-02-25

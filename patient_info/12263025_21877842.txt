@@ -1,0 +1,77 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 74
+  (3) race: BLACK/AFRICAN AMERICAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2167-10-01 22:01:00
+  (6) discharge time: 2167-10-07 16:44:00
+  (7) transfer history: 
+2167-10-01 16:18:00 - 2167-10-01 22:02:19: Emergency Department
+2167-10-01 22:02:19 - 2167-10-02 14:29:46: Emergency Department Observation
+2167-10-02 14:29:46 - 2167-10-02 16:23:43: Med/Surg
+2167-10-02 16:23:43 - 2167-10-03 03:24:04: Med/Surg
+2167-10-04 18:46:36 - 2167-10-07 16:44:36: Medicine
+2167-10-03 03:24:04 - 2167-10-04 18:46:36: Medical Intensive Care Unit (MICU)
+2167-10-07 16:44:36: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2167-10-02 22:30:00        25.1         7.7  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2167-10-03 03:00:00        24.6         7.7  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2167-10-03 03:34:00        25.8         8.0 31.7  31.0 102.0     299.0 2.53 17.7    NaN  8.0
+2167-10-03 08:59:00        34.0        10.5 30.5  30.9  99.0     265.0 3.44 18.6    NaN  6.6
+2167-10-03 19:35:00        31.5        10.1 31.7  32.1  99.0     276.0 3.18 18.9    NaN  7.4
+2167-10-04 04:27:00        29.4         9.2 31.1  31.4  99.0     273.0 2.97 18.9    NaN  7.7
+2167-10-05 07:00:00        31.1         9.5 30.9  30.4 102.0     285.0 3.07 18.5    NaN  7.1
+2167-10-06 06:19:00        29.4         9.2 31.1  31.4  99.0     260.0 2.97 18.3    NaN  8.2
+2167-10-07 06:45:00        31.5         9.8 30.8  31.0  99.0     226.0 3.17 18.1    NaN  7.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2167-10-03 03:36:00
+sbp: 103.0
+dbp: 43.0
+mbp: 57.0
+sbp_ni: 103.0
+dbp_ni: 43.0
+mbp_ni: 57.0
+resp_rate: 20.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 4
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Infective myositis
+   drg_type: HCFA
+   description: TENDONITIS, MYOSITIS & BURSITIS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Infective myositis
+   drg_type: APR
+   description: OSTEOMYELITIS, SEPTIC ARTHRITIS & OTHER MUSCULOSKELETAL INFECTIONS
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- sevelamer CARBONATE 800mg Tablet (Administered) - Start Time: 2167-10-02 19:00:00, Stop Time: 2167-10-07 20:00:00
+- Acetaminophen 325mg Tablet (Administered) - Start Time: 2167-10-02 19:00:00, Stop Time: 2167-10-04 22:00:00
+- OxycoDONE (Immediate Release) 5mg Tablet (Administered) - Start Time: 2167-10-02 19:00:00, Stop Time: 2167-10-03 04:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2167-10-02 17:00:00, Stop Time: 2167-10-05 11:00:00
+- HYDROmorphone (Dilaudid) 1mg/1mL Syringe (Administered) - Start Time: 2167-10-03 00:00:00, Stop Time: 2167-10-03 03:00:00
+- CefePIME 1 g / 100 mL NS (Mini Bag Plus) (Administered) - Start Time: 2167-10-02 23:00:00, Stop Time: 2167-10-03 03:00:00
+- Vancomycin 1000 mg / 200 mL Dextrose (Premix) (Administered) - Start Time: 2167-10-02 23:00:00, Stop Time: 2167-10-03 03:00:00
+- Lactated Ringers - Floor Stock Bag (Administered) - Start Time: 2167-10-03 00:00:00, Stop Time: 2167-10-03 03:00:00
+- Phytonadione 5mg Tablet (Administered) - Start Time: 2167-10-03 01:00:00, Stop Time: 2167-10-03 03:00:00

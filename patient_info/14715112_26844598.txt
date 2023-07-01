@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 36
+  (3) race: WHITE - OTHER EUROPEAN
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2127-01-11 00:00:00
+  (6) discharge time: 2127-01-16 14:28:00
+  (7) transfer history: 
+2127-01-11 01:58:24 - 2127-01-11 09:22:55: Discharge Lounge
+2127-01-12 13:06:20 - 2127-01-16 14:28:40: Cardiology Surgery Intermediate
+2127-01-11 09:22:55 - 2127-01-12 13:06:20: Cardiac Vascular Intensive Care Unit (CVICU)
+2127-01-16 14:28:40: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2127-01-11 14:00:00        30.3        10.4 30.9  34.3 90.0     118.0 3.37 13.2    NaN 16.5
+2127-01-11 15:35:00        39.7        13.5 30.0  34.0 88.0     120.0 4.50 13.1    NaN 15.4
+2127-01-11 20:22:00        40.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2127-01-12 00:18:00        38.4        13.8 31.2  35.9 87.0      95.0 4.42 13.3    NaN 11.0
+2127-01-13 05:36:00        34.1        11.6 30.5  34.0 90.0      95.0 3.80 13.4    NaN 10.1
+2127-01-14 04:24:00        31.3        10.9 31.2  34.8 90.0      95.0 3.49 13.2    NaN  8.9
+2127-01-15 04:40:00        30.4        10.5 30.8  34.5 89.0     141.0 3.41 13.0    NaN  7.7
+2127-01-16 04:45:00        31.4        10.8 30.9  34.4 90.0     182.0 3.49 12.9    NaN  6.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2127-01-12 08:00:00
+sbp: 110.0
+dbp: 62.0
+mbp: 81.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 19.0
+temperature: 37.440000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 3
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Thoracic aortic aneurysm, without rupture
+   drg_type: APR
+   description: OTHER CARDIOTHORACIC & THORACIC VASCULAR PROCEDURES
+   drg_severity: 2
+   drg_mortality: 2
+2. Thoracic aortic aneurysm, without rupture
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W/O CARD CATH W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Potassium Chloride: Administered from 2127-01-11 10:00:00 to 2127-01-12 13:00:00
+- Calcium Gluconate: Administered from 2127-01-11 10:00:00 to 2127-01-12 13:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2127-01-11 10:00:00 to 2127-01-12 13:00:00
+- Glycopyrrolate (CVICU Reversal Protocol): Administered from 2127-01-11 18:00:00 to 2127-01-12 13:00:00
+- Neostigmine (CVICU Reversal Protocol): Administered from 2127-01-11 18:00:00 to 2127-01-12 13:00:00
+- Acetaminophen IV: Administered from 2127-01-11 10:00:00 to 2127-01-12 13:00:00
+- Fentanyl Citrate: None
+- Ketorolac: Administered from 2127-01-11 21:00:00 to 2127-01-13 18:00:00

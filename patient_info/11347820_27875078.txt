@@ -1,0 +1,75 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 32
+  (3) race: OTHER
+  (4) admission type: EW EMER.
+  (5) admit time: 2188-02-21 02:54:00
+  (6) discharge time: 2188-03-01 15:54:00
+  (7) transfer history: 
+2188-02-21 01:16:00 - 2188-02-21 03:39:00: Emergency Department
+2188-02-21 03:39:00 - 2188-02-25 17:24:33: Trauma SICU (TSICU)
+2188-02-25 17:24:33 - 2188-03-01 17:12:21: Med/Surg
+2188-03-01 17:12:21: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2188-02-21 05:46:00        40.3        13.1 27.7  32.5 85.0     310.0 4.72 13.3    NaN 15.0
+2188-02-22 02:00:00        35.9        11.4 27.0  31.8 85.0     308.0 4.23 13.6    NaN 16.2
+2188-02-23 00:30:00        33.3        10.7 27.9  32.1 87.0     299.0 3.83 13.7    NaN 15.3
+2188-02-24 02:10:00        35.2        11.2 27.0  31.9 85.0     292.0 4.16 14.2    NaN 13.7
+2188-02-25 02:54:00        37.4        11.7 27.0  31.4 86.0     281.0 4.34 14.3    NaN 11.3
+2188-02-26 06:20:00        40.6        12.9 27.3  31.8 86.0     267.0 4.73 14.5    NaN 12.9
+2188-02-27 07:00:00        42.6        13.6 27.0  31.9 85.0     258.0 5.02 14.4    NaN 16.1
+2188-02-28 06:20:00        40.2        12.8 27.1  31.8 85.0     259.0 4.72 14.6    NaN 16.6
+2188-02-29 07:20:00        39.6        12.5 27.1  31.6 86.0     235.0 4.61 14.4    NaN 17.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2188-02-24 12:00:00
+sbp: 172.0
+dbp: 98.0
+mbp: 128.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 21.0
+temperature: 36.940000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 3
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Asthma, unspecified type, with (acute) exacerbation
+   drg_type: APR
+   description: ASTHMA
+   drg_severity: 4
+   drg_mortality: 3
+2. Asthma, unspecified type, with (acute) exacerbation
+   drg_type: HCFA
+   description: RESPIRATORY SYSTEM DIAGNOSIS W VENTILATOR SUPPORT <96 HOURS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Insulin: Administered from 2188-02-21 15:00:00 to 2188-02-29 11:00:00
+- Albuterol 0.083% Neb Soln: Administered from 2188-02-25 00:00:00 to 2188-02-26 10:00:00
+- Ipratropium Bromide Neb: Administered from 2188-02-25 00:00:00 to 2188-03-01 21:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2188-02-21 05:00:00 to 2188-02-29 13:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2188-02-25 18:00:00 to 2188-02-29 13:00:00
+- Artificial Tears Preserv. Free: Administered from 2188-02-23 18:00:00 to 2188-03-01 21:00:00
+- Albuterol 0.083% Neb Soln: Administered from 2188-02-25 00:00:00 to 2188-02-26 10:00:00
+- Atropine Sulfate Ophth 1%: Administered from 2188-02-25 08:00:00 to 2188-03-01 21:00:00
+- Docusate Sodium 100mg Capsule: Administered from 2188-02-22 20:00:00 to 2188-03-01 21:00:00
+- Gabapentin 300mg Capsule: Administered from 2188-02-25 14:00:00 to 2188-03-01 21:00:00

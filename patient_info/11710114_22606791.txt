@@ -1,0 +1,99 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 82
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2111-04-29 19:38:00
+  (6) discharge time: 2111-05-17 13:55:00
+  (7) transfer history: 
+2111-04-29 19:38:35 - 2111-05-06 06:16:05: Medicine/Cardiology Intermediate
+2111-05-13 17:48:53 - 2111-05-17 13:56:05: Cardiology Surgery Intermediate
+2111-05-06 06:16:05 - 2111-05-06 10:04:11: PACU
+2111-05-06 10:04:11 - 2111-05-09 07:13:25: Cardiac Vascular Intensive Care Unit (CVICU)
+2111-05-09 07:13:25 - 2111-05-13 17:48:53: Cardiac Vascular Intensive Care Unit (CVICU)
+2111-05-17 13:56:05: discharge
+
+2. Medical Data
+(1) heart rate: 
+2111-05-06 15:00:00-2111-05-06 17:00:00 SR (Sinus Rhythm) with PVC's occurring occasionally
+2111-05-06 21:00:00-2111-05-07 02:00:00 SR (Sinus Rhythm) with PVC's occurring frequently
+2111-05-07 08:00:00-2111-05-07 09:00:00 SR (Sinus Rhythm) with PVC's occurring rarely
+2111-05-07 11:00:00-2111-05-07 14:00:00 SB (Sinus Bradycardia) with PVC's occurring occasionally
+2111-05-07 18:00:00-2111-05-07 18:00:00 SR (Sinus Rhythm) with PVC's occurring rarely
+2111-05-07 20:00:00-2111-05-07 21:00:00 SR (Sinus Rhythm) with PVC's occurring occasionally
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2111-04-29 21:23:00        34.3        11.8 31.5  34.4  92.0     149.0 3.75 11.8    NaN  7.2
+2111-04-30 04:31:00        33.2        11.3 31.7  34.0  93.0     128.0 3.56 11.7    NaN  7.2
+2111-05-01 08:10:00        35.2        12.0 31.5  34.1  92.0     154.0 3.81 11.8    NaN  9.1
+2111-05-02 07:43:00        33.4        11.4 31.6  34.1  93.0     121.0 3.61 11.9    NaN  7.4
+2111-05-04 07:59:00        31.7        10.8 32.0  34.1  94.0     113.0 3.38 11.9    NaN  7.0
+2111-05-05 07:28:00        32.6        10.9 31.5  33.4  94.0     117.0 3.46 12.0    NaN  7.4
+2111-05-06 05:59:00        34.3        11.3 31.4  32.9  95.0     117.0 3.60 11.9    NaN  8.2
+2111-05-06 13:04:00        22.2         7.1 31.3  32.0  98.0     104.0 2.27 12.1    NaN 23.3
+2111-05-06 14:29:00        31.3        10.1 30.6  32.3  95.0      85.0 3.30 13.6    NaN 24.0
+2111-05-06 18:19:00        29.4         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2111-05-07 01:44:00        26.5         8.5 30.5  32.1  95.0      70.0 2.79 14.8    NaN 19.8
+2111-05-07 14:27:00        30.0         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2111-05-08 03:04:00        27.0         8.4 30.1  31.1  97.0      65.0 2.79 14.8    NaN 15.6
+2111-05-08 11:44:00        22.3         7.2 30.6  32.3  95.0      54.0 2.35 14.6    NaN 10.0
+2111-05-08 14:47:00        22.8         7.4 30.7  32.5  95.0      57.0 2.41 14.6    NaN  9.3
+2111-05-09 02:24:00        24.9         8.0 30.3  32.1  94.0      65.0 2.64 14.2    NaN 11.8
+2111-05-09 16:15:00        27.1         8.6 30.3  31.7  95.0      86.0 2.84 14.2    NaN 13.7
+2111-05-10 01:56:00        25.0         8.1 30.7  32.4  95.0      90.0 2.64 13.8    NaN 10.8
+2111-05-11 03:54:00        25.2         8.0 30.5  31.7  96.0     117.0 2.62 13.8    NaN 10.6
+2111-05-11 15:20:00        25.1         8.1 31.0  32.3  96.0     133.0 2.61 13.8    NaN  9.5
+2111-05-12 03:13:00        22.2         6.9 30.5  31.1  98.0     107.0 2.26 13.8    NaN  5.5
+2111-05-12 07:40:00        22.1         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2111-05-12 17:24:00        23.6         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2111-05-13 01:21:00        21.7         6.8 30.6  31.3  98.0     113.0 2.22 13.8    NaN  4.6
+2111-05-13 10:19:00        26.1         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2111-05-14 04:24:00        28.3         8.9 30.5  31.4  97.0     172.0 2.92 14.6    NaN  6.8
+2111-05-15 06:00:00        27.3         8.6 30.8  31.5  98.0     189.0 2.79 14.8    NaN  5.9
+2111-05-16 04:40:00        29.3         9.0 30.6  30.7 100.0     226.0 2.94 14.7    NaN  5.9
+2111-05-17 04:48:00        30.5         9.7 30.7  31.8  97.0     269.0 3.16 14.6    NaN  6.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2111-05-07 05:00:00
+sbp: 119.0
+dbp: 40.0
+mbp: 66.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 12.0
+temperature: 36.600000000
+temperature_site: Blood
+spo2: 93.0
+cardiovascular: 1
+cns: 0
+renal: 1
+respiration_24hours: 3
+coagulation_24hours: 2
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 7
+
+Physician's Diagnoses:
+1. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 4
+   drg_mortality: 4
+2. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Metoprolol Tartrate 37.5 mg Tablet (Administered) - Start Time: 2111-04-29 22:00:00, Stop Time: 2111-05-02 18:00:00
+- HydrALAZINE 50 mg Tab (Administered) - Start Time: 2111-04-29 22:00:00, Stop Time: 2111-04-30 10:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2111-04-29 21:00:00, Stop Time: 2111-05-06 10:00:00
+- Isosorbide Dinitrate 20mg Tab (Administered) - Start Time: 2111-04-29 22:00:00, Stop Time: 2111-04-30 09:00:00
+- CloNIDine 0.1mg Tablet (Administered) - Start Time: 2111-04-29 22:00:00, Stop Time: 2111-05-06 10:00:00
+- HydrALAZINE 50 mg Tab (Administered) - Start Time: 2111-04-29 22:00:00, Stop Time: 2111-04-30 10:00:00
+- Levothyroxine Sodium 50mcg Tablet (Administered) - Start Time: 2111-04-30 06:00:00, Stop Time: 2111-05-06 10:00:00

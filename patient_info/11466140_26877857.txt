@@ -1,0 +1,124 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 67
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2144-08-19 03:27:00
+  (6) discharge time: 2144-09-07 19:47:00
+  (7) transfer history: 
+2144-08-19 00:41:00 - 2144-08-19 04:23:00: Emergency Department
+2144-08-19 04:23:00 - 2144-08-19 09:37:36: Coronary Care Unit (CCU)
+2144-08-29 17:43:01 - 2144-09-07 19:47:18: Cardiology Surgery Intermediate
+2144-08-19 09:37:36 - 2144-08-19 11:29:45: PACU
+2144-08-19 11:29:45 - 2144-08-29 17:43:01: Cardiac Vascular Intensive Care Unit (CVICU)
+2144-09-07 19:47:18: discharge
+
+2. Medical Data
+(1) heart rate: 
+2144-08-19 06:00:00-2144-08-19 06:00:00 AF (Atrial Fibrillation)
+2144-08-19 07:00:00-2144-08-19 07:00:00 SR (Sinus Rhythm)
+2144-08-19 08:00:00-2144-08-19 08:00:00 SR (Sinus Rhythm)
+2144-08-19 09:00:00-2144-08-19 09:00:00 SR (Sinus Rhythm)
+2144-08-21 08:00:00-2144-08-21 08:00:00 ST (Sinus Tachycardia)
+2144-08-21 09:00:00-2144-08-21 09:00:00 ST (Sinus Tachycardia)
+2144-08-21 10:00:00-2144-08-21 10:00:00 ST (Sinus Tachycardia)
+2144-08-21 10:45:00-2144-08-21 10:45:00 ST (Sinus Tachycardia)
+2144-08-21 11:00:00-2144-08-21 11:00:00 ST (Sinus Tachycardia)
+2144-08-23 06:00:00-2144-08-23 06:00:00 SR (Sinus Rhythm)
+2144-08-23 08:00:00-2144-08-23 08:00:00 SR (Sinus Rhythm)
+2144-08-23 09:00:00-2144-08-23 09:00:00 SR (Sinus Rhythm)
+2144-08-23 10:00:00-2144-08-23 10:00:00 SR (Sinus Rhythm)
+2144-08-23 11:00:00-2144-08-23 11:00:00 SR (Sinus Rhythm)
+2144-08-23 12:00:00-2144-08-23 12:00:00 SR (Sinus Rhythm)
+2144-08-23 13:00:00-2144-
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2144-08-19 14:25:00        24.8         8.0 32.8  32.3 102.0     166.0 2.44 12.1    NaN 22.1
+2144-08-19 16:10:00        28.9         9.2 32.3  31.8 101.0     179.0 2.85 12.3    NaN 24.8
+2144-08-19 17:30:00        27.9         NaN  NaN   NaN   NaN     195.0  NaN  NaN    NaN  NaN
+2144-08-19 21:20:00        28.1         9.4  NaN   NaN   NaN     185.0  NaN  NaN    NaN  NaN
+2144-08-20 02:21:00        27.1         9.1 31.9  33.6  95.0     142.0 2.85 13.0    NaN 18.2
+2144-08-20 14:37:00        24.6         8.5 32.8  34.6  95.0     127.0 2.59 13.2    NaN 24.9
+2144-08-20 17:23:00        21.6         7.2 32.1  33.3  96.0     113.0 2.24 13.2    NaN 22.7
+2144-08-20 22:19:00        20.3         6.9 32.2  34.0  95.0     114.0 2.14 13.2    NaN 18.2
+2144-08-21 03:49:00        23.9         7.9 31.0  33.1  94.0      89.0 2.55 13.5    NaN 13.9
+2144-08-21 09:02:00        21.9         7.5 32.1  34.2  94.0      85.0 2.34 13.8    NaN 12.3
+2144-08-21 13:00:00        25.1         8.6  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2144-08-21 21:00:00        23.6         8.1 31.5  34.3  92.0      81.0 2.57 14.7    NaN 11.9
+2144-08-22 03:00:00        24.2         8.2 31.1  33.9  92.0      72.0 2.64 14.6    NaN 11.1
+2144-08-22 15:47:00        23.1         7.7 30.4  33.3  91.0      71.0 2.53 14.6    NaN 10.1
+2144-08-22 20:00:00        26.3         8.8 31.0  33.5  93.0      68.0 2.84 14.3    NaN 10.4
+2144-08-23 01:38:00        26.0         8.8 31.2  33.8  92.0      66.0 2.82 14.3    NaN  8.9
+2144-08-23 10:06:00        27.2         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2144-08-23 21:02:00        26.9         9.0 31.1  33.5  93.0      78.0 2.89 14.2    NaN 11.6
+2144-08-24 03:03:00        27.0         8.9 30.7  33.0  93.0      90.0 2.90 14.4    NaN 11.0
+2144-08-24 13:58:00        26.6         8.9 31.3  33.5  94.0      93.0 2.84 14.4    NaN 11.7
+2144-08-24 21:50:00        26.2         8.6 30.6  32.8  93.0     100.0 2.81 14.4    NaN 10.0
+2144-08-25 02:06:00        25.6         8.5 31.1  33.2  94.0     100.0 2.73 14.3    NaN 11.0
+2144-08-25 07:05:00        28.9         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2144-08-25 16:21:00        30.3         9.8 30.4  32.3  94.0     240.0 3.22 14.2    NaN 16.4
+2144-08-25 18:37:00        29.6         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2144-08-26 02:44:00        29.5         9.3 30.8  31.5  98.0     217.0 3.02 14.5    NaN 15.1
+2144-08-26 07:55:00        30.0         9.1 29.8  30.3  98.0     240.0 3.05 14.5    NaN 14.8
+2144-08-26 14:14:00        28.2         8.9  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2144-08-27 00:32:00        28.5         8.9  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2144-08-27 03:01:00        27.9         8.9 30.8  31.9  97.0     250.0 2.89 14.3    NaN 13.5
+2144-08-27 12:49:00        28.3         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2144-08-28 01:08:00        26.2         8.3 30.6  31.7  97.0     251.0 2.71 14.3    NaN 13.2
+2144-08-28 18:06:00        27.8         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2144-08-29 00:53:00        26.2         8.4 30.8  32.1  96.0     247.0 2.73 14.8    NaN 16.5
+2144-08-30 05:32:00        26.7         8.6 31.0  32.2  96.0     276.0 2.77 15.3    NaN 17.8
+2144-08-31 05:47:00        27.7         8.6 30.7  31.0  99.0     292.0 2.80 15.3    NaN 16.4
+2144-09-01 04:30:00        27.9         8.8 30.9  31.5  98.0     358.0 2.85 15.3    NaN 15.1
+2144-09-02 05:20:00        28.7         8.8 29.3  30.7  96.0     330.0 3.00 15.1    NaN 10.6
+2144-09-03 09:05:00        27.8         8.6 30.1  30.9  97.0     344.0 2.86 15.1    NaN  9.7
+2144-09-05 05:45:00        30.3         9.2 29.3  30.4  97.0     328.0 3.14 15.3    NaN  8.0
+2144-09-06 05:37:00        31.1         9.4 29.3  30.2  97.0     360.0 3.21 15.1    NaN  7.5
+2144-09-07 05:50:00        31.3         NaN  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2144-08-19 04:16:00
+sbp: 100.33333333333333
+dbp: 62.0
+mbp: 77.33333333333333
+sbp_ni: 109.0
+dbp_ni: 69.0
+mbp_ni: 78.0
+resp_rate: 16.0
+temperature: 36.940000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery
+   drg_type: APR
+   description: CARDIAC DEFIBRILLATOR & HEART ASSIST IMPLANT
+   drg_severity: 4
+   drg_mortality: 4
+2. ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery
+   drg_type: HCFA
+   description: OTHER HEART ASSIST SYSTEM IMPLANT
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- ALPRAZolam: Administered from 2144-08-19 05:00:00 to 2144-08-20 04:00:00, dose given: 0.25 mg
+- OxyCODONE (Immediate Release): Administered from 2144-08-19 05:00:00 to 2144-08-20 04:00:00, dose given: 5 mg
+- Aspirin (Chewable) 81mg Tab: Administered from 2144-08-19 05:00:00 to 2144-08-20 04:00:00, dose given: 81 mg
+- Pantoprazole 40 mg Tablet: Administered from 2144-08-19 05:00:00 to 2144-08-20 04:00:00, dose given: 40 mg
+- TraMADol 50mg Tablet: Administered from 2144-08-19 05:00:00 to 2144-08-20 04:00:00, dose given: 50 mg
+- Fentanyl Citrate: Administered from 2144-08-19 13:00:00 to 2144-08-25 16:00:00, dose given: 25 mcg
+- Fentanyl Citrate: Administered from 2144-08-19 18:00:00 to 2144-08-20 04:00:00, dose given: 100 mcg
+- HYDROmorphone (Dilaudid): Administered from 2144-08-19 18:00:00 to 2144-08-20 04:00:00, dose given: 0.5 mg
+- Protamine Sulfate: Administered from 2144-08-19 17:00:00 to 2144-08-20 04:00:00, dose given: 50 mg

@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 76
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2185-04-07 02:28:00
+  (6) discharge time: 2185-04-13 13:15:00
+  (7) transfer history: 
+2185-04-06 19:40:00 - 2185-04-07 03:20:00: Emergency Department
+2185-04-07 03:20:00 - 2185-04-07 03:20:54: Neurology
+2185-04-10 15:24:02 - 2185-04-13 14:17:24: Med/Surg
+2185-04-07 03:20:54 - 2185-04-08 15:41:50: Med/Surg/Trauma
+2185-04-08 15:41:50 - 2185-04-10 15:24:02: Trauma SICU (TSICU)
+2185-04-13 14:17:24: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2185-04-06 21:40:00        27.3         8.1 25.3  29.7 85.0     673.0 3.20 16.9    NaN 15.2
+2185-04-08 04:00:00        33.6         9.7 25.1  28.9 87.0     769.0 3.87 16.8    NaN 17.4
+2185-04-08 16:59:00        29.0         8.7 25.7  30.0 86.0     669.0 3.39 16.7    NaN 17.0
+2185-04-09 02:55:00        26.2         7.7 25.4  29.4 87.0     658.0 3.03 16.9    NaN 11.8
+2185-04-09 23:46:00        20.6         6.1 25.5  29.6 86.0     419.0 2.39 16.6    NaN  7.9
+2185-04-10 02:45:00        23.8         7.0 25.1  29.4 85.0     532.0 2.79 16.7    NaN  9.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2185-04-09 12:00:00
+sbp: 81.0
+dbp: 43.0
+mbp: 51.0
+sbp_ni: 81.0
+dbp_ni: 43.0
+mbp_ni: 51.0
+resp_rate: 15.0
+temperature: 36.610000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis, unspecified organism
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- PNEUMOcoccal 23-valent polysaccharide vaccine (starttime: 2184-12-10 09:00:00, stoptime: 2184-12-11 12:00:00)
+- Vancomycin Oral Liquid (starttime: 2185-04-07 06:00:00, stoptime: 2185-04-13 18:00:00)
+- Sodium Chloride 0.9% Flush (starttime: 2185-04-07 06:00:00, stoptime: 2185-04-13 18:00:00)
+- Ertapenem Sodium IV Piggyback (starttime: 2185-04-07 06:00:00, stoptime: 2185-04-07 16:00:00)
+- Heparin (starttime: 2185-04-07 06:00:00, stoptime: 2185-04-07 16:00:00)
+- Vancomycin Oral Liquid (starttime: 2185-04-07 06:00:00, stoptime: 2185-04-13 18:00:00)
+- Sodium Chloride 0.9% Flush (starttime: 2185-04-07 06:00:00, stoptime: 2185-04-13 18:00:00)
+- Aspirin (starttime: 2185-04-07 08:00:00, stoptime: 2185-04-13 18:00:00)
+- Omeprazole (starttime: 2185-04-07 08:00:00, stoptime: 2185-04-08 16:00:00)
+- Vancomycin Oral Liquid (starttime: 2185-04-07 06:00:00, stoptime: 2185-04-13 18:00:00)

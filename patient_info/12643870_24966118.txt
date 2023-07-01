@@ -1,0 +1,99 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 63
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2200-09-18 21:49:00
+  (6) discharge time: 2200-10-21 18:12:00
+  (7) transfer history: 
+2200-09-18 14:33:00 - 2200-09-19 00:26:00: Emergency Department
+2200-09-19 00:26:00 - 2200-09-19 09:24:20: Medicine
+2200-10-12 18:16:00 - 2200-10-21 17:59:19: Medicine
+2200-09-19 09:24:20 - 2200-09-20 22:10:21: Medicine
+2200-09-23 13:34:54 - 2200-10-04 17:07:05: Medicine
+2200-10-12 17:32:59 - 2200-10-12 18:16:00: Medicine
+2200-10-21 17:59:19 - 2200-10-21 18:12:52: Medicine
+2200-10-04 17:07:05 - 2200-10-12 17:32:59: Medicine
+2200-09-20 22:10:21 - 2200-09-23 13:34:54: Medical Intensive Care Unit (MICU)
+2200-10-21 18:12:52: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2200-09-19 07:15:00        25.3         7.7 28.9  30.4 95.0     109.0 2.66 16.8    NaN  5.6
+2200-09-20 07:00:00        25.6         7.8 29.4  30.5 97.0     100.0 2.65 16.9    NaN  7.4
+2200-09-21 04:06:00        24.5         7.5 28.7  30.6 94.0      79.0 2.61 16.9    NaN  6.6
+2200-09-22 04:06:00        24.3         7.5 29.0  30.9 94.0      82.0 2.59 16.9    NaN  7.1
+2200-09-23 12:00:00        24.2         7.1 28.6  29.3 98.0      75.0 2.48 16.7    NaN  6.9
+2200-09-24 04:50:00        26.1         7.8 29.0  29.9 97.0      79.0 2.69 16.8    NaN  6.5
+2200-09-25 04:50:00        25.1         7.8 29.3  31.1 94.0      87.0 2.66 16.7    NaN  7.6
+2200-09-26 07:50:00        25.8         8.0 29.0  31.0 94.0      86.0 2.76 16.5    NaN  8.6
+2200-09-27 04:28:00        24.2         7.4 28.6  30.6 93.0     101.0 2.59 16.5    NaN 11.6
+2200-09-28 00:17:00        24.7         7.5 28.8  30.4 95.0     108.0 2.60 16.5    NaN  9.4
+2200-09-29 05:52:00        25.4         7.7 28.8  30.3 95.0     110.0 2.67 16.9    NaN  7.6
+2200-09-30 06:10:00        25.3         7.5 28.4  29.6 96.0     113.0 2.64 17.0    NaN  7.9
+2200-10-01 04:40:00        24.5         7.4 28.8  30.2 95.0     123.0 2.57 17.2    NaN  7.5
+2200-10-02 04:50:00        23.4         7.1 29.0  30.3 96.0     131.0 2.45 17.2    NaN  6.4
+2200-10-03 06:32:00        23.5         7.2 29.1  30.6 95.0     121.0 2.47 17.3    NaN  6.7
+2200-10-04 06:12:00        24.4         7.5 29.2  30.7 95.0     139.0 2.57 17.4    NaN  7.7
+2200-10-05 07:00:00        24.2         7.3 28.7  30.2 95.0     130.0 2.54 17.7    NaN  7.5
+2200-10-06 05:50:00        24.5         7.2 28.5  29.4 97.0     133.0 2.53 17.7    NaN  8.7
+2200-10-07 05:21:00        24.0         7.3 28.9  30.4 95.0     132.0 2.53 17.9    NaN  7.8
+2200-10-08 05:44:00        24.8         7.5 28.6  30.2 95.0     143.0 2.62 18.0    NaN  7.6
+2200-10-09 06:40:00        24.5         7.5 28.7  30.6 94.0     149.0 2.61 17.5    NaN  8.7
+2200-10-10 06:22:00        27.1         8.3 29.1  30.6 95.0     161.0 2.85 17.5    NaN 12.0
+2200-10-11 04:58:00        25.9         7.5 27.9  29.0 96.0     145.0 2.69 17.7    NaN 11.0
+2200-10-12 05:22:00        26.3         7.5 27.3  28.5 96.0     124.0 2.75 17.7    NaN  7.8
+2200-10-13 06:22:00        26.3         7.7 27.7  29.3 95.0     125.0 2.78 17.5    NaN  5.2
+2200-10-14 05:30:00        25.5         7.6 28.4  29.8 95.0     132.0 2.68 17.5    NaN  5.2
+2200-10-15 05:19:00        25.2         7.5 28.2  29.8 95.0     132.0 2.66 17.6    NaN  4.9
+2200-10-21 06:46:00        25.7         7.4 27.8  28.8 97.0     125.0 2.66 18.5    NaN  5.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2195-09-18 20:00:00
+sbp: 131.0
+dbp: 69.0
+mbp: 83.0
+sbp_ni: 131.0
+dbp_ni: 69.0
+mbp_ni: 83.0
+resp_rate: nan
+temperature: 36.390000000
+temperature_site: Oral
+spo2: 93.0
+cardiovascular: 1
+cns: 1
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 1
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Other streptococcal sepsis
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+2. Other streptococcal sepsis
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush (10 mL) - Start time: 2200-09-19 00:00:00, Stop time: 2200-09-23 13:00:00
+- Administered: Linezolid 600 mg / 300 mL D5W - Start time: 2200-09-19 03:00:00, Stop time: 2200-09-20 00:00:00
+- Administered: Levothyroxine Sodium 100mcg Tablet - Start time: 2200-09-19 08:00:00, Stop time: 2200-09-20 00:00:00
+- Administered: CefePIME 1 g Vial (Vial to be attached to MB+ on floor) - Start time: 2200-09-19 08:00:00, Stop time: 2200-09-20 00:00:00
+- Flushed: Sodium Chloride 0.9% Flush (3 mL) - Start time: 2200-09-19 00:00:00, Stop time: 2200-09-23 13:00:00
+- Administered: Acetaminophen IV - Start time: 2200-09-19 11:00:00, Stop time: 2200-09-20 00:00:00
+- Administered: Bisacodyl (Rectal) 10mg Suppository - Start time: 2200-09-20 08:00:00, Stop time: 2200-10-08 11:00:00
+- Administered: Pantoprazole 40 mg Via - Start time: 2200-09-19 13:00:00, Stop time: 2200-10-08 07:00:00
+- Flushed: Sodium Chloride 0.9% Flush (3 mL) - Start time: 2200-09-19 00:00:00, Stop time: 2200-09-23 13:00:00

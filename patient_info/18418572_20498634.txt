@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 69
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2122-07-11 06:21:00
+  (6) discharge time: 2122-07-16 15:16:00
+  (7) transfer history: 
+2122-07-11 02:06:00 - 2122-07-11 07:45:00: Emergency Department
+2122-07-11 07:45:00 - 2122-07-11 13:37:43: Medicine
+2122-07-12 17:48:16 - 2122-07-16 15:16:28: Medicine
+2122-07-11 13:37:43 - 2122-07-12 17:48:16: Trauma SICU (TSICU)
+2122-07-16 15:16:28: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2122-07-11 14:35:00        24.3         8.1 31.9  33.5 95.0     318.0 2.55 15.4    NaN  8.1
+2122-07-12 03:53:00        23.0         7.5 32.1  32.5 99.0     308.0 2.33 16.1    NaN  8.0
+2122-07-12 17:19:00        30.0         9.8 30.9  32.6 95.0     290.0 3.16 17.8    NaN  9.0
+2122-07-13 05:24:00        29.2         9.5 31.3  32.5 96.0     289.0 3.03 17.9    NaN  7.7
+2122-07-14 05:35:00        27.2         9.0 31.6  32.9 96.0     294.0 2.84 17.8    NaN  7.6
+2122-07-15 05:51:00        27.5         8.9 31.2  32.4 96.0     297.0 2.85 17.3    NaN  9.4
+2122-07-16 05:59:00        27.0         8.9 32.0  32.8 98.0     287.0 2.77 16.8    NaN  8.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2122-07-12 04:00:00
+sbp: 103.0
+dbp: 46.0
+mbp: 59.0
+sbp_ni: 103.0
+dbp_ni: 46.0
+mbp_ni: 59.0
+resp_rate: 18.0
+temperature: 36.390000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Acute on chronic combined systolic and diastolic heart failure
+   drg_type: HCFA
+   description: HEART FAILURE & SHOCK W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Acute on chronic combined systolic and diastolic heart failure
+   drg_type: APR
+   description: HEART FAILURE
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Metoprolol Tartrate: Administered from 2122-07-11 20:00:00 to 2122-07-13 09:00:00, dose given: 12.5 mg
+- Ampicillin: Administered from 2122-07-11 10:00:00 to 2122-07-16 19:00:00, dose given: 2 g
+- Sodium Chloride 0.9% Flush: Administered from 2122-07-11 09:00:00 to 2122-07-16 19:00:00, dose given: 10 mL
+- Gentamicin: Administered from 2122-07-11 10:00:00 to 2122-07-16 19:00:00, dose given: 60 mg
+- Famotidine: Administered from 2122-07-11 20:00:00 to 2122-07-16 19:00:00, dose given: 20 mg
+- Potassium Chloride: Administered from 2122-07-11 13:00:00 to 2122-07-11 14:00:00, dose given: 10 mEq
+- Potassium Chloride: Administered from 2122-07-11 13:00:00 to 2122-07-11 14:00:00, dose given: 10 mEq
+- Potassium Chloride: Administered from 2122-07-11 13:00:00 to 2122-07-11 14:00:00, dose given: 10 mEq
+- Potassium Chloride: Administered from 2122-07-11 13:00:00 to 2122-07-11 14:00:00, dose given: 10 mEq
+- Potassium Chloride: Administered from 2122-07-12 20:00:00 to 2122-07-13 09:00:00, dose given: 10 mEq

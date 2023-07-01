@@ -1,0 +1,84 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 91
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2142-05-12 13:37:00
+  (6) discharge time: 2142-05-19 13:15:00
+  (7) transfer history: 
+2142-05-12 08:25:00 - 2142-05-12 13:38:21: Emergency Department
+2142-05-12 13:38:21 - 2142-05-12 15:49:15: Medicine
+2142-05-12 15:49:15 - 2142-05-12 16:35:21: Med/Surg/Trauma
+2142-05-16 20:41:10 - 2142-05-19 13:53:24: Med/Surg/Trauma
+2142-05-12 16:35:21 - 2142-05-12 17:33:38: Emergency Department Observation
+2142-05-12 17:33:38 - 2142-05-16 20:41:10: Surgical Intensive Care Unit (SICU)
+2142-05-19 13:53:24: discharge
+
+2. Medical Data
+(1) heart rate: 
+2142-05-12 18:48:00-2142-05-12 19:00:00 ST (Sinus Tachycardia)
+2142-05-12 19:00:00-2142-05-12 20:00:00 SR (Sinus Rhythm)
+2142-05-12 20:00:00-2142-05-12 21:00:00 SR (Sinus Rhythm)
+2142-05-12 21:00:00-2142-05-12 22:00:00 SR (Sinus Rhythm)
+2142-05-12 22:00:00-2142-05-12 23:00:00 SR (Sinus Rhythm)
+2142-05-12 23:00:00-2142-05-13 00:00:00 ST (Sinus Tachycardia)
+2142-05-13 00:00:00-2142-05-13 01:00:00 ST (Sinus Tachycardia)
+2142-05-13 01:00:00-2142-05-13 02:00:00 ST (Sinus Tachycardia)
+2142-05-13 02:00:00-2142-05-13 03:00:00 ST (Sinus Tachycardia)
+2142-05-13 03:00:00-2142-05-13 04:00:00 ST (Sinus Tachycardia)
+2142-05-13 04:00:00-2142-05-13 05:00:00 SR (Sinus Rhythm)
+2142-05-13 05:00:00-2142-05-13 06:00:00 SR (Sinus Rhythm)
+2142-05-13 06:00:00-2142-05-13 07:00:00 SR (Sinus Rhythm)
+2142-05-13 07:00:00-2142-05-13 08:00:00 SR (Sinus Rhythm)
+2142-05-13 08:00:00-2142-05-13 09:00:00 SR (Sinus Rhythm)
+2142-05-13 09:00:00-214
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd   wbc
+2142-05-13 00:05:00        27.7         8.7 32.7  31.5 104.0     236.0 2.68 13.5    NaN 178.0
+2142-05-13 13:44:00        25.9         8.0 32.3  30.9 104.0     223.0 2.48 13.4    NaN 179.3
+2142-05-14 03:47:00        25.8         8.1 32.6  31.2 104.0     224.0 2.48 13.4    NaN 183.7
+2142-05-15 02:14:00        24.1         7.4 32.7  30.9 106.0     230.0 2.28 13.5    NaN 168.4
+2142-05-16 04:06:00        22.5         6.8 32.1  30.4 106.0     220.0 2.13 13.2    NaN 144.3
+2142-05-17 06:45:00        21.6         6.7 32.5  31.2 104.0     226.0 2.07 13.3    NaN 150.1
+2142-05-18 01:10:00        25.9         8.4 31.8  32.3  99.0     202.0 2.63 15.2    NaN 146.2
+2142-05-19 05:24:00        24.3         7.8 31.9  32.1  99.0     177.0 2.45 14.8    NaN 154.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2142-05-16 04:00:00
+sbp: 121.0
+dbp: 31.0
+mbp: 53.0
+sbp_ni: 121.0
+dbp_ni: 31.0
+mbp_ni: 53.0
+resp_rate: 20.0
+temperature: 36.830000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 1
+cns: 1
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Femoral hernia with gangrene, unilateral or unspecified (not specified as recurrent)
+   drg_type: HCFA
+   description: MAJOR SMALL & LARGE BOWEL PROCEDURES W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Diltiazem 30 mg Tab (Administered from 2142-05-15 11:00:00 to 2142-05-17 10:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered from 2142-05-13 20:00:00 to 2142-05-19 18:00:00)
+- Piperacillin-Tazobactam 2.25 g / 50 mL Iso-Osmotic Dextrose (Administered from 2142-05-17 00:00:00 to 2142-05-17 07:00:00)
+- Acetaminophen 325mg Tablet (Administered from 2142-05-16 22:00:00 to 2142-05-19 18:00:00)
+- TraMADOL (Ultram) 50mg Tablet (Administered from 2142-05-17 00:00:00 to 2142-05-17 10:00:00)
+- Amoxicillin-Clavulanic Acid 500mg Tablet (Administered from 2142-05-17 08:00:00 to 2142-05-17 09:00:00)
+- Famotidine (PO) 20 mg Tablet (Administered from 2142-05-16 22:00:00 to 2142-05-19 18:00:00)

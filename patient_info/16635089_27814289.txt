@@ -1,0 +1,96 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 50
+  (3) race: BLACK/AFRICAN AMERICAN
+  (4) admission type: URGENT
+  (5) admit time: 2146-10-07 21:46:00
+  (6) discharge time: 2146-10-24 21:53:00
+  (7) transfer history: 
+2146-10-07 17:19:00 - 2146-10-07 21:47:12: Emergency Department
+2146-10-07 21:47:12 - 2146-10-07 23:52:19: Transplant
+2146-10-09 22:06:21 - 2146-10-17 18:30:41: Medicine
+2146-10-20 20:10:48 - 2146-10-24 21:53:26: Vascular
+2146-10-20 12:53:22 - 2146-10-20 20:10:48: Vascular
+2146-10-17 18:30:41 - 2146-10-20 12:53:22: Vascular
+2146-10-07 23:52:19 - 2146-10-09 22:06:21: Medical Intensive Care Unit (MICU)
+2146-10-24 21:53:26: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2146-10-08 03:13:00        23.5         7.2 25.6  30.6 84.0     505.0 2.81 15.7    NaN 17.1
+2146-10-08 15:05:00        17.1         5.4 25.7  31.6 81.0     391.0 2.10 15.3    NaN 12.6
+2146-10-08 16:00:00        18.0         5.7 26.0  31.7 82.0     415.0 2.19 15.4    NaN 13.0
+2146-10-09 01:11:00        22.1         7.3 26.7  33.0 81.0     370.0 2.73 15.0    NaN 13.9
+2146-10-09 11:45:00        24.0         7.7 26.6  32.1 83.0     381.0 2.90 15.3    NaN 13.4
+2146-10-09 20:28:00        25.2         8.1 26.6  32.1 83.0     411.0 3.05 15.6    NaN 13.4
+2146-10-09 22:24:00        24.9         7.9 26.4  31.7 83.0     400.0 2.99 15.5    NaN 14.4
+2146-10-10 05:17:00        23.6         7.3 26.0  30.9 84.0     378.0 2.81 15.4    NaN 13.7
+2146-10-11 09:14:00        25.7         8.0 26.5  31.1 85.0     353.0 3.02 15.3    NaN 11.1
+2146-10-12 09:07:00        25.1         7.7 26.1  30.7 85.0     323.0 2.95 15.0    NaN  9.5
+2146-10-13 06:34:00        23.8         7.3 26.3  30.7 86.0     270.0 2.78 14.7    NaN  9.3
+2146-10-14 05:25:00        23.4         7.2 26.5  30.8 86.0     219.0 2.72 15.0    NaN  9.0
+2146-10-15 06:30:00        22.8         6.9 25.8  30.3 85.0     200.0 2.67 15.0    NaN  9.1
+2146-10-15 09:14:00        23.2         7.2  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2146-10-16 04:05:00        21.7         6.8 26.6  31.3 85.0     172.0 2.56 14.8    NaN  9.1
+2146-10-17 07:29:00        22.2         6.9 26.6  31.1 86.0     169.0 2.59 15.1    NaN  8.5
+2146-10-17 23:44:00        25.9         8.1 26.6  31.3 85.0     163.0 3.05 15.0    NaN  8.9
+2146-10-18 04:58:00        25.7         7.8 26.0  30.4 86.0     168.0 3.00 14.9    NaN  8.9
+2146-10-19 05:21:00        25.2         7.8 26.4  31.0 85.0     174.0 2.96 15.0    NaN  8.7
+2146-10-20 06:24:00        25.6         7.9 26.6  30.9 86.0     168.0 2.97 15.1    NaN  7.7
+2146-10-21 05:15:00        26.1         8.0 26.7  30.7 87.0     186.0 3.00 15.3    NaN 11.6
+2146-10-22 03:30:00        25.0         7.6 27.0  30.4 89.0     178.0 2.81 15.8    NaN 11.1
+2146-10-23 05:40:00        25.4         7.6 26.9  29.9 90.0     215.0 2.83 15.9    NaN 11.0
+2146-10-24 06:10:00        21.6         6.4 26.6  29.6 90.0     210.0 2.41 16.0    NaN  8.4
+2146-10-24 10:38:00        22.5         6.8 26.9  30.2 89.0     212.0 2.53 16.1    NaN  8.8
+2146-10-24 19:57:00        25.9         7.9 27.3  30.5 90.0     232.0 2.89 15.6    NaN  9.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2146-12-12 15:00:00
+sbp: 125.0
+dbp: 54.0
+mbp: 78.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 17.5
+temperature: 36.200000000
+temperature_site: Rectal
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: 3
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 3
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Septicemia due to escherichia coli [E. coli]
+   drg_type: HCFA
+   description: INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Septicemia due to escherichia coli [E. coli]
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Insulin: Administered from 2146-10-08 22:00:00 to 2146-10-10 12:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2146-10-09 23:00:00 to 2146-10-11 01:00:00
+- OxycoDONE (Immediate Release) 5mg Tablet: Administered from 2146-10-09 11:00:00 to 2146-10-21 18:00:00
+- Piperacillin-Tazobactam 2.25 g / 50 mL Iso-Osmotic Dextrose: Delayed Administered from 2146-10-08 10:00:00 to 2146-10-17 18:00:00
+- Dextrose 50%: Administered from 2146-10-08 05:00:00 to 2146-10-25 02:00:00
+- OxycoDONE (Immediate Release) 5mg Tablet: Administered from 2146-10-09 11:00:00 to 2146-10-21 18:00:00
+- Heparin Flush (10 units/ml): Flushed from 2146-10-11 08:00:00 to 2146-10-25 02:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2146-10-11 08:00:00 to 2146-10-25 02:00:00
+- Mycophenolate Mofetil 250mg Capsule: Administered from 2146-10-08 06:00:00 to 2146-10-25 02:00:00
+- Tacrolimus 1 mg Capsule: Administered from 2146-10-08 06:00:00 to 2146-10-12 00:00:00

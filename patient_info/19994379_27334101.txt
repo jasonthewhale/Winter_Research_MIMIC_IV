@@ -1,0 +1,94 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 68
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2131-05-30 16:54:00
+  (6) discharge time: 2131-06-21 17:20:00
+  (7) transfer history: 
+2131-05-30 12:24:00 - 2131-05-30 18:03:00: Emergency Department
+2131-05-30 18:03:00 - 2131-06-06 06:35:18: Medicine/Cardiology Intermediate
+2131-06-07 22:43:21 - 2131-06-21 17:25:05: Medicine/Cardiology Intermediate
+2131-06-06 06:35:18 - 2131-06-07 22:43:21: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2131-06-21 17:25:05: discharge
+
+2. Medical Data
+(1) heart rate: 
+2131-06-06 07:00:00-2131-06-06 11:00:00 AF (Atrial Fibrillation) with PVC's occurring rarely
+2131-06-06 11:00:00-2131-06-07 06:00:00 AF (Atrial Fibrillation) with PVC's occurring occasionally
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2131-05-31 06:20:00        26.1         8.4 34.3  32.2 107.0     183.0 2.45 16.1    NaN  5.4
+2131-06-01 06:23:00        26.6         8.4 33.5  31.6 106.0     183.0 2.51 16.1    NaN  5.0
+2131-06-02 06:52:00        26.4         8.5 34.6  32.2 107.0     185.0 2.46 15.9    NaN  5.5
+2131-06-03 06:11:00        26.8         8.3 33.3  31.0 108.0     195.0 2.49 16.0    NaN  5.9
+2131-06-04 06:00:00        25.9         8.1 33.5  31.3 107.0     194.0 2.42 15.9    NaN  6.0
+2131-06-05 06:00:00        26.7         8.2 32.9  30.7 107.0     205.0 2.49 16.0    NaN  9.0
+2131-06-06 03:25:00        22.9         7.4 33.9  32.3 105.0     178.0 2.18 15.9    NaN  7.9
+2131-06-06 05:21:00        19.6         6.1 33.5  31.1 108.0     261.0 1.82 16.0    NaN  9.8
+2131-06-06 10:00:00        21.7         7.2 34.3  33.2 103.0     161.0 2.10 15.6    NaN  8.2
+2131-06-06 16:05:00        24.0         7.9 32.5  32.9  99.0     156.0 2.43 17.3    NaN  6.6
+2131-06-06 22:09:00        22.9         7.7 33.3  33.6  99.0     141.0 2.31 17.8    NaN  6.1
+2131-06-07 02:11:00        23.3         7.8 33.6  33.5 100.0     148.0 2.32 17.8    NaN  6.0
+2131-06-08 06:12:00        24.0         7.9 33.3  32.9 101.0     156.0 2.37 17.3    NaN  6.1
+2131-06-09 06:30:00        24.8         7.9 33.2  31.9 104.0     165.0 2.38 17.0    NaN  5.7
+2131-06-10 07:50:00        27.4         8.8 33.3  32.1 104.0     187.0 2.64 16.9    NaN  8.3
+2131-06-10 16:50:00        29.1         9.1 32.7  31.3 105.0     199.0 2.78 17.1    NaN  9.2
+2131-06-11 06:05:00        27.3         8.7 33.0  31.9 103.0     179.0 2.64 16.7    NaN  9.5
+2131-06-12 06:05:00        26.1         8.0 32.5  30.7 106.0     194.0 2.46 17.2    NaN  9.2
+2131-06-13 06:53:00        27.7         8.9 33.2  32.1 103.0     244.0 2.68 17.1    NaN 12.9
+2131-06-14 06:30:00        24.7         7.9 33.1  32.0 103.0     203.0 2.39 17.0    NaN 10.7
+2131-06-14 14:57:00        27.8         8.8 33.0  31.7 104.0     237.0 2.67 17.3    NaN 11.5
+2131-06-15 06:50:00        26.1         8.2 32.7  31.4 104.0     214.0 2.51 17.3    NaN  9.4
+2131-06-16 05:55:00        26.7         8.6 33.3  32.2 104.0     238.0 2.58 17.2    NaN  9.0
+2131-06-17 06:29:00        28.1         8.9 33.1  31.7 105.0     238.0 2.69 17.0    NaN  7.4
+2131-06-18 06:00:00        26.8         8.4 32.7  31.3 104.0     221.0 2.57 17.0    NaN  8.3
+2131-06-19 06:20:00        26.5         8.5 33.2  32.1 104.0     245.0 2.56 16.8    NaN  7.5
+2131-06-20 06:33:00        27.2         8.5 32.2  31.3 103.0     232.0 2.64 17.1    NaN  7.0
+2131-06-21 08:10:00        26.0         8.2 32.2  31.5 102.0     218.0 2.55 17.0    NaN  7.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2131-05-09 00:10:00
+sbp: 100.0
+dbp: 69.0
+mbp: 78.0
+sbp_ni: 100.0
+dbp_ni: 69.0
+mbp_ni: 78.0
+resp_rate: 30.0
+temperature: 36.720000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 2
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   drg_type: APR
+   description: HEART FAILURE
+   drg_severity: 4
+   drg_mortality: 4
+2. Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   drg_type: HCFA
+   description: HEART FAILURE & SHOCK W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, IV, Q8H, from 2131-05-30 19:00:00 to 2131-06-08 09:00:00
+- Administered: Furosemide, 40 mg, IV, ONCE, from 2131-05-30 21:00:00 to 2131-06-01 03:00:00
+- Administered: Atorvastatin, 10 mg, PO/NG, QPM, from 2131-05-30 21:00:00 to 2131-05-31 16:00:00
+- Administered: Rivaroxaban, 20 mg, PO/NG, DINNER, from 2131-05-30 21:00:00 to 2131-06-05 18:00:00
+- Administered: Acetaminophen, 500 mg, PO/NG, Q6H:PRN, from 2131-05-30 20:00:00 to 2131-06-05 10:00:00
+- Administered: TraMADol, 50 mg, PO, Q6H:PRN, from 2131-05-30 20:00:00 to 2131-05-31 12:00:00
+- Administered: Gabapentin, 300 mg, PO/NG, TID, from 2131-05-30 21:00:00 to 2131-06-05 18:00:00
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, IV, Q8H, from 2131-05-30 19:00:00 to 2131-06-08 09:00:00

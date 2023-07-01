@@ -1,0 +1,69 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 55
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2124-08-07 04:36:00
+  (6) discharge time: 2124-08-13 12:34:00
+  (7) transfer history: 
+2124-08-07 03:45:00 - 2124-08-07 05:42:00: Emergency Department
+2124-08-07 05:42:00 - 2124-08-09 02:01:10: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2124-08-09 02:01:10 - 2124-08-13 12:36:08: Medicine
+2124-08-13 12:36:08: discharge
+
+2. Medical Data
+(1) heart rate: 
+2124-08-07 06:19:00-2124-08-07 07:00:00 ST (Sinus Tachycardia) with PVC's Frequent
+2124-08-07 19:00:00-2124-08-07 23:00:00 ST (Sinus Tachycardia) with PVC's Frequent
+2124-08-08 00:00:00-2124-08-08 08:00:00 ST (Sinus Tachycardia) with PVC's Occasional
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2124-08-08 04:34:00        41.9        12.8 32.7  30.5 107.0     190.0 3.92 13.2    NaN  6.0
+2124-08-09 10:47:00        38.5        11.9 33.7  30.9 109.0     178.0 3.53 13.4    NaN  5.8
+2124-08-11 06:42:00        38.4        11.6 32.3  30.2 107.0     183.0 3.59 13.4    NaN  4.9
+2124-08-12 09:55:00        41.1        13.2 33.5  32.1 104.0     205.0 3.94 13.2    NaN  7.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2124-08-07 13:00:00
+sbp: 185.0
+dbp: 82.0
+mbp: 108.0
+sbp_ni: 185.0
+dbp_ni: 82.0
+mbp_ni: 108.0
+resp_rate: 9.0
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Other complications of other bariatric procedure
+   drg_type: HCFA
+   description: OTHER DIGESTIVE SYSTEM DIAGNOSES W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Other complications of other bariatric procedure
+   drg_type: APR
+   description: MALFUNCTION, REACTION & COMPLICATION OF GI DEVICE OR PROCEDURE
+   drg_severity: 3
+   drg_mortality: 2
+
+Medication:
+- Clonazepam: Administered from 2124-08-07 07:00:00 to 2124-08-07 10:00:00
+- Heparin: Administered from 2124-08-07 07:00:00 to 2124-08-13 16:00:00
+- Multivitamins W/minerals: Administered from 2124-08-07 07:00:00 to 2124-08-13 16:00:00
+- Omeprazole: Administered from 2124-08-07 07:00:00 to 2124-08-13 16:00:00
+- Methadone: Administered from 2124-08-07 08:00:00 to 2124-08-07 14:00:00
+- Insulin: Administered from 2124-08-07 11:00:00 to 2124-08-09 09:00:00
+- Heparin: Administered from 2124-08-07 07:00:00 to 2124-08-13 16:00:00

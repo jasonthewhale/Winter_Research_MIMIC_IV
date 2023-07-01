@@ -1,0 +1,64 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 70
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2117-07-28 11:20:00
+  (6) discharge time: 2117-08-03 14:14:00
+  (7) transfer history: 
+2117-07-28 08:42:00 - 2117-07-28 11:21:00: Emergency Department
+2117-07-28 11:21:00 - 2117-07-31 18:40:32: Med/Surg/Trauma
+2117-08-01 22:24:39 - 2117-08-03 14:14:49: Med/Surg/Trauma
+2117-07-31 18:40:32 - 2117-08-01 22:24:39: Trauma SICU (TSICU)
+2117-08-03 14:14:49: discharge
+
+2. Medical Data
+(1) heart rate: 
+2117-07-31 18:43:00-2117-07-31 21:00:00 Sinus Rhythm with PAC's, Occasional
+2117-07-31 21:00:00-2117-07-31 21:00:00 Sinus Rhythm with PAC's, Rare
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2117-07-28 14:40:00        43.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2117-07-30 07:15:00        41.4        13.8 32.4  33.3 97.0     185.0 4.26 12.5    NaN  7.6
+2117-07-31 05:10:00        37.4        12.9 32.7  34.5 95.0     170.0 3.95 12.2    NaN  6.4
+2117-07-31 15:14:00        42.3        14.1 33.0  33.3 99.0     168.0 4.27 12.2    NaN  5.5
+2117-08-01 17:56:00        30.7        10.5 33.0  34.2 97.0     147.0 3.18 12.5    NaN  5.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2117-08-01 12:00:00
+sbp: 128.0
+dbp: 45.0
+mbp: 71.0
+sbp_ni: 128.0
+dbp_ni: 45.0
+mbp_ni: 71.0
+resp_rate: nan
+temperature: 37.000000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 0
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Volvulus
+   drg_type: HCFA
+   description: MAJOR SMALL & LARGE BOWEL PROCEDURES W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen 325mg Tablet (dose: 325mg, unit: mg, start time: 2117-07-28 14:00:00, stop time: 2117-07-28 23:00:00)
+- Docusate Sodium 100mg Capsule (dose: 100mg, unit: mg, start time: 2117-07-28 14:00:00, stop time: 2117-08-03 18:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (dose: 5000 Units, unit: UNIT, start time: 2117-07-28 14:00:00, stop time: 2117-08-03 18:00:00)
+- Senna 8.6 mg Tablet (dose: 8.6mg, unit: mg, start time: 2117-07-28 14:00:00, stop time: 2117-08-03 18:00:00)
+- TraZODone (dose: 25mg, unit: mg, start time: 2117-07-28 14:00:00, stop time: 2117-07-31 19:00:00)
+- Acetaminophen 500mg Tablet (dose: 500mg, unit: mg, start time: 2117-07-29 00:00:00, stop time: 2117-07-30 04:00:00)

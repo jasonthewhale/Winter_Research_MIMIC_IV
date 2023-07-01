@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 67
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2112-06-26 00:00:00
+  (6) discharge time: 2112-06-30 17:58:00
+  (7) transfer history: 
+2112-06-26 01:02:17 - 2112-06-26 13:00:02: Discharge Lounge
+2112-06-28 11:05:29 - 2112-06-30 12:55:25: Cardiology Surgery Intermediate
+2112-06-30 12:55:34 - 2112-06-30 17:59:33: Cardiology Surgery Intermediate
+2112-06-30 12:55:25 - 2112-06-30 12:55:34: Cardiology Surgery Intermediate
+2112-06-26 13:00:02 - 2112-06-28 11:05:29: Cardiac Vascular Intensive Care Unit (CVICU)
+2112-06-30 17:59:33: discharge
+
+2. Medical Data
+(1) heart rate: 
+2112-06-26 22:00:00-2112-06-26 23:00:00 SR (Sinus Rhythm) PAC's Rare
+2112-06-27 00:00:00-2112-06-27 06:00:00 SR (Sinus Rhythm) PAC's Occasional
+2112-06-27 07:00:00-2112-06-27 08:00:00 SR (Sinus Rhythm) PAC's None
+2112-06-27 21:00:00-2112-06-27 21:00:00 SR (Sinus Rhythm) PAC's None
+2112-06-28 02:00:00-2112-06-28 03:00:00 SR (Sinus Rhythm) PVC's Rare
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2112-06-26 12:36:00        28.7         9.8 29.6  34.1 87.0     102.0 3.31 13.2    NaN  9.5
+2112-06-26 13:30:00        32.3        10.8 29.0  33.4 87.0     134.0 3.73 13.3    NaN 13.3
+2112-06-26 20:35:00        33.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2112-06-27 02:51:00        32.4        10.8 28.8  33.3 86.0     197.0 3.75 13.6    NaN 12.1
+2112-06-27 12:25:00        33.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2112-06-27 20:54:00        31.3         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2112-06-28 02:17:00        30.9        10.3 29.4  33.3 88.0     151.0 3.50 13.9    NaN 11.4
+2112-06-29 04:12:00        33.2        10.8 29.3  32.5 90.0     151.0 3.69 13.6    NaN  9.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2112-06-26 14:00:00
+sbp: 104.0
+dbp: 65.0
+mbp: 81.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.0
+temperature: 36.440000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 1
+   drg_mortality: 2
+2. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Fentanyl Citrate: Administered from 2112-06-26 14:00:00 to 2112-06-27 03:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2112-06-26 08:00:00 to 2112-06-30 22:00:00
+- Potassium Chloride 20 mEq / 50 mL Sterile Water: Administered from 2112-06-26 14:00:00 to 2112-06-28 11:00:00
+- Albuterol 0.083% Neb Soln: Administered from 2112-06-26 17:00:00 to 2112-06-30 22:00:00
+- Acetaminophen IV: Administered from 2112-06-26 14:00:00 to 2112-06-27 14:00:00
+- CeFAZolin 2 g / 100 mL Iso-Osmotic Dextrose: Administered from 2112-06-26 17:00:00 to 2112-06-28 11:00:00
+- Ondansetron 2mg/mL-2mL: Administered from 2112-06-26 14:00:00 to 2112-06-30 22:00:00
+- OxyCODONE (Immediate Release) 5mg Tablet: Administered from 2112-06-26 14:00:00 to 2112-06-27 03:00:00

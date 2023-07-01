@@ -1,0 +1,83 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 79
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2112-09-20 21:27:00
+  (6) discharge time: 2112-10-04 11:12:00
+  (7) transfer history: 
+2112-09-20 19:10:00 - 2112-09-20 23:13:00: Emergency Department
+2112-09-20 23:13:00 - 2112-09-24 00:49:05: Medical Intensive Care Unit (MICU)
+2112-10-02 10:01:37 - 2112-10-04 11:13:04: Transplant
+2112-09-24 00:49:05 - 2112-10-02 10:01:37: Medical Intensive Care Unit (MICU)
+2112-10-04 11:13:04: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available for the heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2112-09-21 00:14:00        37.9        11.4 30.7  30.1 102.0     146.0 3.71 13.4    NaN 11.1
+2112-09-21 05:19:00        36.0        10.7 30.4  29.7 102.0     154.0 3.52 13.5    NaN 14.8
+2112-09-22 02:57:00        32.7         9.8 30.6  30.0 102.0     143.0 3.20 13.2    NaN 26.4
+2112-09-23 04:48:00        27.0         8.5 30.9  31.5  98.0     145.0 2.75 13.4    NaN 21.6
+2112-09-23 15:21:00        27.0         8.2 30.7  30.4 101.0     133.0 2.67 13.4    NaN 19.6
+2112-09-24 04:31:00        25.8         8.1 30.7  31.4  98.0     140.0 2.64 13.2    NaN 19.0
+2112-09-25 03:31:00        24.1         7.7 30.8  32.0  96.0     143.0 2.50 13.3    NaN 13.8
+2112-09-26 03:22:00        23.2         7.4 30.8  31.9  97.0     155.0 2.40 13.2    NaN 15.3
+2112-09-26 22:47:00        22.8         7.3 30.4  32.0  95.0     156.0 2.40 13.3    NaN 14.1
+2112-09-27 03:30:00        21.7         6.9 30.4  31.8  96.0     158.0 2.27 13.3    NaN 12.9
+2112-09-27 09:28:00        22.5         7.2 30.3  32.0  95.0     138.0 2.38 13.3    NaN 15.0
+2112-09-28 00:39:00        22.3         7.1 30.1  31.8  95.0     123.0 2.36 13.2    NaN 15.9
+2112-09-28 15:44:00        23.6         7.6 30.8  32.2  96.0     139.0 2.47 13.4    NaN 19.1
+2112-09-29 03:13:00        22.3         7.1 30.6  31.8  96.0     140.0 2.32 13.3    NaN 18.3
+2112-09-30 04:34:00        20.8         6.3 30.1  30.3 100.0     141.0 2.09 13.7    NaN 20.1
+2112-09-30 11:14:00        23.9         7.3 29.8  30.5  98.0     135.0 2.45 14.3    NaN 18.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2112-09-25 00:00:00
+sbp: 153.0
+dbp: 53.0
+mbp: 87.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 19.5
+temperature: 37.110000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 4
+sofa_24hours: 6
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W MV >96 HOURS OR PERIPHERAL EXTRACORPOREAL
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Sepsis, unspecified organism
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Insulin: Administered from 2112-09-21 01:00:00 to 2112-09-22 10:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2112-09-21 00:00:00 to 2112-09-30 19:00:00
+- CefePIME: Administered from 2112-09-21 01:00:00 to 2112-09-22 10:00:00
+- Lactated Ringers - Floor Stock Bag: Administered from 2112-09-21 01:00:00 to 2112-09-22 10:00:00
+- Chlorhexidine Gluconate 0.12% Oral Rinse: Administered from 2112-09-21 08:00:00 to 2112-10-02 10:00:00
+- Heparin: Administered from 2112-09-21 00:00:00 to 2112-09-21 10:00:00
+- Miconazole Powder 2%: Administered from 2112-09-21 01:00:00 to 2112-09-30 19:00:00
+- Potassium Chloride (Powder) 20mEq Packet: Administered from 2112-09-21 05:00:00 to 2112-09-22 10:00:00
+- Potassium Chloride: Administered from 2112-09-21 05:00:00 to 2112-09-22 10:00:00
+- Potassium Chloride: Administered from 2112-09-21 05:00:00 to 2112-09-22 10:00:00

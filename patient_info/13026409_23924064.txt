@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 72
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2122-11-03 00:00:00
+  (6) discharge time: 2122-11-11 15:00:00
+  (7) transfer history: 
+2122-11-03 04:34:02 - 2122-11-03 20:00:07: Discharge Lounge
+2122-11-05 21:22:31 - 2122-11-11 17:04:38: Cardiology Surgery Intermediate
+2122-11-03 20:00:07 - 2122-11-05 21:22:31: Surgical Intensive Care Unit (SICU)
+2122-11-11 17:04:38: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2122-11-03 17:50:00        33.1        10.7 28.8  32.3 89.0     155.0 3.72 13.5    NaN 10.7
+2122-11-04 01:34:00        34.5        11.2 28.8  32.5 89.0     149.0 3.89 13.6    NaN 11.2
+2122-11-05 02:31:00        30.8         9.8 28.7  31.8 90.0     131.0 3.41 13.7    NaN 13.4
+2122-11-06 04:21:00        28.1         8.7 27.9  31.0 90.0     135.0 3.12 13.6    NaN 10.6
+2122-11-07 06:35:00        26.9         8.4 28.3  31.2 91.0     148.0 2.97 13.7    NaN  7.4
+2122-11-08 06:35:00        29.0         9.0 28.0  31.0 90.0     170.0 3.22 13.4    NaN  6.1
+2122-11-10 12:51:00        31.9        10.0 28.5  31.3 91.0     218.0 3.51 13.6    NaN 10.3
+2122-11-11 04:48:00        28.3         8.7 28.0  30.7 91.0     180.0 3.11 13.8    NaN  8.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2122-11-05 06:00:00
+sbp: 118.0
+dbp: 63.0
+mbp: 80.0
+sbp_ni: 118.0
+dbp_ni: 63.0
+mbp_ni: 80.0
+resp_rate: nan
+temperature: 37.500000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Other specified diseases of upper respiratory tract
+   drg_type: APR
+   description: MAJOR RESPIRATORY & CHEST PROCEDURES
+   drg_severity: 1
+   drg_mortality: 3
+2. Other specified diseases of upper respiratory tract
+   drg_type: HCFA
+   description: MAJOR CHEST PROCEDURES W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen (500mg Tablet) - Start Time: 2122-11-03 08:00:00, Stop Time: 2122-11-03 22:00:00
+- Heparin - Start Time: 2122-11-03 03:00:00, Stop Time: 2122-11-03 22:00:00
+- Hydrocodone - Start Time: 2122-11-03 21:00:00, Stop Time: 2122-11-07 13:00:00
+- Heparin - Start Time: 2122-11-03 20:00:00, Stop Time: 2122-11-07 16:00:00
+- Calcium Carbonate - Start Time: 2122-11-04 00:00:00, Stop Time: 2122-11-04 23:00:00
+- Ondansetron - Start Time: 2122-11-04 00:00:00, Stop Time: 2122-11-11 21:00:00
+- Acetaminophen IV - Start Time: 2122-11-03 21:00:00, Stop Time: 2122-11-04 10:00:00
+- Albuterol 0.083% Neb Soln - Start Time: 2122-11-03 21:00:00, Stop Time: 2122-11-09 10:00:00
+- Acetylcysteine 20% - Start Time: 2122-11-04 04:00:00, Stop Time: 2122-11-09 10:00:00

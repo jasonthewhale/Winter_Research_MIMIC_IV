@@ -1,0 +1,98 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 62
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2203-08-03 22:13:00
+  (6) discharge time: 2203-08-29 18:35:00
+  (7) transfer history: 
+2203-08-03 15:58:00 - 2203-08-04 02:14:00: Emergency Department
+2203-08-04 02:14:00 - 2203-08-04 19:37:40: Surgery
+2203-08-05 20:12:21 - 2203-08-11 13:37:36: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2203-08-04 19:37:40 - 2203-08-04 22:02:36: Surgery
+2203-08-11 13:37:36 - 2203-08-21 17:36:07: Neuro Intermediate
+2203-08-21 17:36:07 - 2203-08-29 18:35:35: Medicine
+2203-08-04 22:02:36 - 2203-08-05 20:12:21: Neurology
+2203-08-29 18:35:35: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2203-08-04 06:58:00        37.1        11.6 28.5  31.3 91.0     331.0 4.07 17.6    NaN 14.6
+2203-08-05 06:00:00        35.6        11.2 28.6  31.5 91.0     287.0 3.91 17.9    NaN 15.7
+2203-08-05 20:14:00        33.0        10.8 28.9  32.7 88.0     287.0 3.74 17.5    NaN 16.9
+2203-08-06 09:28:00        29.2         9.3 28.3  31.8 89.0     246.0 3.29 17.5    NaN 13.6
+2203-08-07 00:28:00        27.3         8.7 28.5  31.9 90.0     259.0 3.05 17.9    NaN 12.9
+2203-08-08 00:13:00        31.0         9.9 28.8  31.9 90.0     282.0 3.44 18.2    NaN 12.6
+2203-08-09 00:05:00        30.2         9.4 28.5  31.1 92.0     306.0 3.30 18.3    NaN 17.0
+2203-08-10 00:10:00        33.4        10.2 28.5  30.5 93.0     368.0 3.58 18.6    NaN 20.1
+2203-08-11 00:32:00        31.8         9.7 28.5  30.5 94.0     371.0 3.40 18.6    NaN 17.9
+2203-08-12 09:32:00        28.2         8.7 28.7  30.9 93.0     372.0 3.03 18.6    NaN 17.1
+2203-08-13 04:55:00        28.0         8.6 28.7  30.7 93.0     352.0 3.00 18.7    NaN 18.5
+2203-08-13 15:30:00        30.5         9.3 28.5  30.5 94.0     399.0 3.26 18.6    NaN 22.0
+2203-08-14 05:43:00        29.3         9.1 28.8  31.1 93.0     371.0 3.16 18.4    NaN 23.8
+2203-08-15 01:15:00        26.5         7.9 28.5  29.8 96.0     357.0 2.77 18.1    NaN 23.4
+2203-08-15 16:32:00        29.1         9.0 28.8  30.9 93.0     411.0 3.12 17.9    NaN 24.4
+2203-08-16 02:40:00        28.4         8.7 28.5  30.6 93.0     435.0 3.05 17.7    NaN 21.8
+2203-08-17 03:44:00        28.4         8.7 28.4  30.6 93.0     522.0 3.06 17.7    NaN 18.8
+2203-08-17 16:05:00        28.9         8.9 28.9  30.8 94.0     568.0 3.08 17.6    NaN 19.2
+2203-08-18 06:52:00        25.9         7.9 28.9  30.5 95.0     551.0 2.73 17.7    NaN 17.3
+2203-08-19 02:12:00        25.2         7.5 28.4  29.8 96.0     567.0 2.64 17.5    NaN 12.8
+2203-08-20 06:00:00        26.2         8.1 29.2  30.9 95.0     575.0 2.77 17.2    NaN 13.2
+2203-08-21 06:08:00        25.7         7.9 28.8  30.7 94.0     643.0 2.74 17.2    NaN 10.9
+2203-08-22 06:38:00        27.0         8.2 28.6  30.4 94.0     670.0 2.87 17.2    NaN 11.7
+2203-08-23 06:50:00        27.8         8.5 28.9  30.6 95.0     652.0 2.94 17.2    NaN  9.8
+2203-08-24 05:15:00        27.2         8.1 28.7  29.8 97.0     651.0 2.82 17.3    NaN 10.5
+2203-08-25 06:16:00        27.1         8.2 29.3  30.3 97.0     641.0 2.80 17.2    NaN 11.5
+2203-08-26 06:10:00        27.8         8.4 29.5  30.2 98.0     590.0 2.85 17.4    NaN 11.9
+2203-08-27 06:04:00        28.9         8.5 28.6  29.4 97.0     596.0 2.97 17.3    NaN 12.8
+2203-08-28 06:33:00        28.1         8.6 29.7  30.6 97.0     558.0 2.90 17.5    NaN 14.0
+2203-08-29 06:00:00        28.7         8.7 29.6  30.3 98.0     513.0 2.94 17.5    NaN 12.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2203-08-14 04:00:00
+sbp: 136.0
+dbp: 64.0
+mbp: 84.0
+sbp_ni: 136.0
+dbp_ni: 64.0
+mbp_ni: 84.0
+resp_rate: nan
+temperature: 37.940000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 0
+cns: 2
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 1
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Infection following a procedure, organ and space surgical site, initial encounter
+   drg_type: HCFA
+   description: POSTOPERATIVE OR POST-TRAUMATIC INFECTIONS W O.R. PROC W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Infection following a procedure, organ and space surgical site, initial encounter
+   drg_type: APR
+   description: POST-OP, POST-TRAUMA, OTHER DEVICE INFECTIONS W O.R. PROCEDURE
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Magnesium Sulfate: Administered from 2203-08-04 03:00:00 to 2203-08-05 02:00:00
+- Sodium Chloride 0.9% Flush: Flushed from 2203-08-04 03:00:00 to 2203-08-26 00:00:00
+- OxyCODONE (Immediate Release) 5mg Tablet: Administered from 2203-08-04 04:00:00 to 2203-08-06 00:00:00
+- Acetaminophen 500mg Tablet: Administered from 2203-08-04 03:00:00 to 2203-08-04 14:00:00
+- Aspirin (Chewable) 81mg Tab: Administered from 2203-08-04 04:00:00 to 2203-08-05 17:00:00
+- Docusate Sodium 100mg Capsule: Administered from 2203-08-04 03:00:00 to 2203-08-08 20:00:00
+- Omeprazole 20mg DR Capsule: Administered from 2203-08-04 04:00:00 to 2203-08-06 21:00:00
+- Nicotine Patch: Applied from 2203-08-04 08:00:00 to 2203-08-29 23:00:00

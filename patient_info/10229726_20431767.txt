@@ -1,0 +1,70 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 63
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2128-08-18 19:15:00
+  (6) discharge time: 2128-08-22 15:58:00
+  (7) transfer history: 
+2128-08-18 14:26:00 - 2128-08-18 20:50:00: Emergency Department
+2128-08-18 20:50:00 - 2128-08-21 18:31:53: Neuro Intermediate
+2128-08-21 18:31:53 - 2128-08-22 15:58:52: Neurology
+2128-08-22 15:58:52: discharge
+
+2. Medical Data
+(1) heart rate: 
+2128-09-01 15:00:00-2128-09-01 16:00:00 ST (Sinus Tachycardia) with PVC's occurring rarely
+2128-09-01 20:00:00-2128-09-02 00:00:00 SR (Sinus Rhythm) with PVC's occurring occasionally
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2128-08-19 06:28:00        34.6        12.0 33.6  34.7 97.0     208.0 3.57 14.6    NaN  3.7
+2128-08-21 04:17:00        33.3        11.5 33.5  34.5 97.0     173.0 3.43 14.8    NaN  5.3
+2128-08-22 04:27:00        32.2        10.8 32.7  33.5 98.0     155.0 3.30 14.7    NaN  4.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2128-07-25 15:00:00
+sbp: 124.0
+dbp: 78.0
+mbp: nan
+sbp_ni: 124.0
+dbp_ni: 78.0
+mbp_ni: nan
+resp_rate: nan
+temperature: 36.440000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Myasthenia gravis with (acute) exacerbation
+   drg_type: APR
+   description: DEGENERATIVE NERVOUS SYSTEM DISORDERS EXC MULT SCLEROSIS
+   drg_severity: 3
+   drg_mortality: 3
+2. Myasthenia gravis with (acute) exacerbation
+   drg_type: HCFA
+   description: DEGENERATIVE NERVOUS SYSTEM DISORDERS W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Gabapentin 300mg Capsule (Administered) - Start Time: 2128-08-18 22:00:00, Stop Time: 2128-08-22 20:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered) - Start Time: 2128-08-18 22:00:00, Stop Time: 2128-08-22 20:00:00
+- Lisinopril 20mg Tablet (Administered) - Start Time: 2128-08-18 22:00:00, Stop Time: 2128-08-20 09:00:00
+- Mycophenolate Mofetil 500mg Tablet (None) - Start Time: 2128-08-18 22:00:00, Stop Time: 2128-08-19 16:00:00
+- Mycophenolate Mofetil 250mg Capsule (None) - Start Time: 2128-08-18 22:00:00, Stop Time: 2128-08-19 16:00:00
+- Pyridostigmine Bromide 60mg Tablet (Administered) - Start Time: 2128-08-18 22:00:00, Stop Time: 2128-08-22 20:00:00
+- Docusate Sodium 100mg Capsule (Administered) - Start Time: 2128-08-19 08:00:00, Stop Time: 2128-08-22 20:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered) - Start Time: 2128-08-18 22:00:00, Stop Time: 2128-08-22 20:00:00
+- Mycophenolate Mofetil 250mg Capsule (Administered) - Start Time: 2128-08-18 22:00:00, Stop Time: 2128-08-19 16:00:00
+- Mycophenolate Mofetil 500mg Tablet (Administered) - Start Time: 2128-08-18 22:00:00

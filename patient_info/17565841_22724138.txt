@@ -1,0 +1,83 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 87
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2158-11-25 22:51:00
+  (6) discharge time: 2158-12-10 20:40:00
+  (7) transfer history: 
+2158-11-25 14:34:00 - 2158-11-26 01:09:00: Emergency Department
+2158-11-26 01:09:00 - 2158-12-01 17:26:28: Surgical Intensive Care Unit (SICU)
+2158-12-01 17:26:28 - 2158-12-10 20:44:25: Surgery/Trauma
+2158-12-10 20:44:25: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2158-11-26 01:39:00        30.2         9.8 31.7  32.5 98.0     146.0 3.09 17.2    NaN  9.3
+2158-11-27 03:12:00        28.8         9.3 32.0  32.3 99.0     109.0 2.91 16.9    NaN  8.9
+2158-11-27 21:00:00        29.0         9.4 31.4  32.4 97.0     110.0 2.99 16.8    NaN  8.5
+2158-11-28 03:38:00        29.5         9.6 32.2  32.5 99.0     108.0 2.98 16.5    NaN  7.2
+2158-11-29 02:06:00        27.2         8.7 31.5  32.0 99.0     121.0 2.76 16.1    NaN  8.4
+2158-11-29 13:12:00        33.9        11.2 30.6  33.0 93.0     118.0 3.66 18.5    NaN 10.1
+2158-11-30 02:30:00        31.3        10.7 31.8  34.2 93.0     120.0 3.37 18.4    NaN 12.8
+2158-11-30 18:57:00        30.3         9.9 30.8  32.7 94.0     127.0 3.21 18.0    NaN 16.0
+2158-12-01 02:30:00        28.0         9.1 30.6  32.5 94.0     107.0 2.97 17.9    NaN 15.0
+2158-12-01 13:50:00        28.6         9.2 31.5  32.2 98.0     110.0 2.92 17.9    NaN 20.2
+2158-12-03 10:18:00        30.6        10.0 30.9  32.7 94.0     137.0 3.24 17.3    NaN 24.0
+2158-12-04 05:30:00        29.1         9.4 30.6  32.3 95.0     130.0 3.07 17.3    NaN 20.1
+2158-12-05 06:01:00        30.0         9.5 30.5  31.7 97.0     140.0 3.11 17.5    NaN 19.4
+2158-12-06 06:59:00        30.4         9.6 30.6  31.6 97.0     122.0 3.14 17.4    NaN 17.7
+2158-12-07 06:30:00        31.5        10.0 30.7  31.7 97.0     133.0 3.26 17.4    NaN 17.5
+2158-12-08 06:20:00        32.4        10.5 30.7  32.4 95.0     148.0 3.42 17.4    NaN 19.4
+2158-12-09 06:15:00        33.5        10.8 30.9  32.2 96.0     145.0 3.49 17.9    NaN 15.6
+2158-12-10 06:28:00        32.6        10.2 29.7  31.3 95.0     151.0 3.43 17.9    NaN 16.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2158-11-29 16:00:00
+sbp: 167.0
+dbp: 73.0
+mbp: 105.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 19.0
+temperature: 36.500000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Unspecified fracture of first lumbar vertebra, initial encounter for closed fracture
+   drg_type: HCFA
+   description: COMBINED ANTERIOR/POSTERIOR SPINAL FUSION W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Unspecified fracture of first lumbar vertebra, initial encounter for closed fracture
+   drg_type: APR
+   description: DORSAL & LUMBAR FUSION PROC EXCEPT FOR CURVATURE OF BACK
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Sodium Chloride 0.9% Flush (starttime: 2158-11-26 02:00:00, stoptime: 2158-12-11 01:00:00)
+- Furosemide (starttime: 2158-11-26 08:00:00, stoptime: 2158-11-27 07:00:00)
+- Digoxin (starttime: 2158-11-26 08:00:00, stoptime: 2158-11-26 10:00:00)
+- Verapamil SR (starttime: 2158-11-26 04:00:00, stoptime: 2158-11-28 10:00:00)
+- Morphine Sulfate (starttime: 2158-11-26 03:00:00, stoptime: 2158-11-27 03:00:00)
+- Phytonadione (starttime: 2158-11-26 12:00:00, stoptime: 2158-11-27 11:00:00)
+- Insulin (starttime: 2158-11-26 04:00:00, stoptime: 2158-12-08 10:00:00)
+- Morphine Sulfate (starttime: 2158-11-26 03:00:00, stoptime: 2158-11-27 03:00:00)
+- Morphine Sulfate (starttime: 2158-11-26 03:00:00, stoptime: 2158-11-27 03:00:00)

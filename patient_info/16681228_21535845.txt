@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 78
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2170-07-02 19:01:00
+  (6) discharge time: 2170-07-13 18:00:00
+  (7) transfer history: 
+2170-07-02 13:48:00 - 2170-07-02 19:02:29: Emergency Department
+2170-07-02 19:02:29 - 2170-07-02 21:02:34: Med/Surg
+2170-07-10 00:54:55 - 2170-07-13 18:05:29: Med/Surg
+2170-07-02 21:02:34 - 2170-07-10 00:54:55: Surgical Intensive Care Unit (SICU)
+2170-07-13 18:05:29: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2170-07-02 23:17:00        35.6        11.9 31.8  33.4 95.0     339.0 3.74 14.6    NaN 10.8
+2170-07-03 15:06:00        30.6        10.1 31.6  33.0 96.0     319.0 3.20 14.5    NaN 15.0
+2170-07-04 02:42:00        32.9        10.9 31.9  33.1 96.0     348.0 3.42 14.6    NaN 18.5
+2170-07-04 17:06:00        33.0        10.8 31.6  32.7 97.0     326.0 3.42 15.0    NaN 15.3
+2170-07-05 04:02:00        32.4        10.8 31.9  33.3 96.0     327.0 3.39 14.9    NaN 18.1
+2170-07-05 13:03:00        32.8        10.6 30.9  32.3 96.0     325.0 3.43 15.2    NaN 17.1
+2170-07-06 01:23:00        31.7        10.4 31.0  32.8 94.0     315.0 3.36 15.1    NaN 14.8
+2170-07-06 13:49:00        30.8        10.3 31.6  33.4 95.0     304.0 3.26 15.2    NaN 12.5
+2170-07-07 02:23:00        31.5        10.7 31.8  34.0 94.0     307.0 3.36 15.3    NaN 10.3
+2170-07-07 14:10:00        32.5        10.8 30.9  33.2 93.0     325.0 3.49 15.5    NaN  8.8
+2170-07-08 02:39:00        32.6        10.8 30.5  33.1 92.0     308.0 3.54 15.2    NaN  8.1
+2170-07-09 01:53:00        32.4        10.6 30.4  32.7 93.0     312.0 3.49 15.6    NaN  8.2
+2170-07-10 04:30:00        33.1        10.6 30.3  32.0 95.0     275.0 3.50 15.5    NaN  8.7
+2170-07-11 05:21:00        29.8         9.9 31.7  33.2 96.0     262.0 3.12 15.3    NaN  8.3
+2170-07-13 05:02:00        30.8        10.1 31.3  32.8 95.0     322.0 3.23 15.5    NaN  8.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2170-07-07 14:35:00
+sbp: 157.0
+dbp: 63.0
+mbp: 88.0
+sbp_ni: 157.0
+dbp_ni: 63.0
+mbp_ni: 88.0
+resp_rate: 30.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 93.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Infection following a procedure, initial encounter
+   drg_type: HCFA
+   description: POSTOPERATIVE & POST-TRAUMATIC INFECTIONS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Infection following a procedure, initial encounter
+   drg_type: APR
+   description: POST-OPERATIVE, POST-TRAUMATIC, OTHER DEVICE INFECTIONS
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Acetaminophen 500mg Tablet (dose: 500mg, unit: mg, start time: 2170-07-03 00:00:00, stop time: 2170-07-07 14:00:00)
+- Docusate Sodium 100mg Capsule (dose: 100mg, unit: mg, start time: 2170-07-03 00:00:00, stop time: 2170-07-05 10:00:00)
+- Senna 8.6 mg Tablet (dose: 8.6mg, unit: mg, start time: 2170-07-03 00:00:00, stop time: 2170-07-13 22:00:00)
+- Heparin Sodium 5000 Units / mL- 1mL Vial (dose: 5000 Units, unit: UNIT, start time: 2170-07-03 08:00:00, stop time: 2170-07-13 22:00:00)
+- Ipratropium Bromide Neb (dose: 1, unit: NEB, start time: 2170-07-03 00:00:00, stop time: 2170-07-03 10:00:00)
+- Albuterol 0.083% Neb Soln (dose: 1, unit: NEB, start time: 2170-07-03 00:00:00, stop time: 2170-07-03 10:00:00)
+- Amiodarone  150mg/100mL D5W (dose: 150mg, unit: mg, start time: 2170-07-03 01:00:00, stop time: 2170-07-03 04:00:00)
+- Sodium Chloride 0.9%  Flush (dose: 3mL, unit: mL, start time: 2170-07-03 00:00:00, stop time: 2170-07-13 22:00:00)

@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 91
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2137-03-17 20:52:00
+  (6) discharge time: 2137-03-22 14:00:00
+  (7) transfer history: 
+2137-03-17 18:06:00 - 2137-03-17 22:48:00: Emergency Department
+2137-03-17 22:48:00 - 2137-03-19 00:52:53: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2137-03-19 00:52:53 - 2137-03-22 14:19:19: Med/Surg/GYN
+2137-03-22 14:19:19: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2137-03-18 00:23:00        28.4         9.5 30.3  33.4 91.0     109.0 3.14 15.7    NaN 17.1
+2137-03-18 05:12:00        28.3         9.6 30.8  33.9 91.0     102.0 3.11 15.7    NaN 16.4
+2137-03-19 06:55:00        28.8         9.4 29.9  32.7 91.0      77.0 3.15 15.9    NaN 12.3
+2137-03-20 06:55:00        28.8         9.7 30.2  33.7 90.0     100.0 3.22 15.6    NaN  9.6
+2137-03-21 06:56:00        28.8         9.8 29.8  33.9 88.0     109.0 3.28 15.5    NaN  8.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2137-03-18 04:00:00
+sbp: 112.0
+dbp: 32.0
+mbp: 53.0
+sbp_ni: 112.0
+dbp_ni: 32.0
+mbp_ni: 53.0
+resp_rate: 12.0
+temperature: 37.170000000
+temperature_site: Oral
+spo2: 97.0
+cardiovascular: 3
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Septicemia due to escherichia coli [E. coli]
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 3
+   drg_mortality: 4
+2. Septicemia due to escherichia coli [E. coli]
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV 96+ HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen IV: Administered from 2136-11-15 02:00:00 to 2136-11-16 10:00:00
+- Influenza Vaccine Quadrivalent: Discontinued on 2136-11-15 01:39:04
+- Sodium Chloride 0.9% Flush: Discontinued via patient discharge on 2137-03-19 01:11:29
+- Ampicillin-Sulbactam 3 g / 100 mL NS (Mini Bag Plus): Inactive (Due to a change order) from 2137-03-18 00:12:20 to 2137-03-20 17:00:00
+- Allopurinol: Discontinued via patient discharge on 2137-03-18 05:26:53
+- Calcium Carbonate: Discontinued via patient discharge on 2137-03-18 05:26:53
+- Cyanocobalamin: Discontinued via patient discharge on 2137-03-18 05:26:53
+- FoLIC Acid: Discontinued via patient discharge on 2137-03-18 05:26:54
+- Gabapentin: Discontinued via patient discharge on 2137-03-18 05:26:54
+- Gabapentin: Discontinued via patient discharge on 2137-03-18 05:26:54
+- Magnesium Oxide: Discontinued via patient discharge on 2137-03-18 05:26:55

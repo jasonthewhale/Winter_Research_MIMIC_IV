@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 63
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2141-07-26 00:00:00
+  (6) discharge time: 2141-07-30 16:45:00
+  (7) transfer history: 
+2141-07-26 03:02:38 - 2141-07-26 14:58:02: Discharge Lounge
+2141-07-28 10:13:34 - 2141-07-30 16:55:47: Cardiac Surgery
+2141-07-26 14:58:02 - 2141-07-28 10:13:34: Cardiac Vascular Intensive Care Unit (CVICU)
+2141-07-30 16:55:47: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2141-07-26 15:50:00        33.5        11.3 31.7  33.7 94.0     125.0 3.57 13.0    NaN  9.5
+2141-07-26 16:45:00        39.5        13.0 31.0  32.9 94.0     154.0 4.20 13.0    NaN 13.4
+2141-07-26 21:54:00        41.0         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2141-07-27 02:57:00        40.2        13.3 30.7  33.1 93.0     158.0 4.33 13.0    NaN 11.7
+2141-07-28 02:03:00        35.5        12.1 31.6  34.1 93.0     144.0 3.83 13.2    NaN 10.2
+2141-07-28 12:10:00        36.8        12.0 30.8  32.6 95.0     152.0 3.89 13.0    NaN  9.9
+2141-07-29 06:21:00        35.1        11.4 31.0  32.5 95.0     147.0 3.68 13.1    NaN  7.8
+2141-07-30 04:22:00        32.6        10.6 31.1  32.5 96.0     164.0 3.41 13.0    NaN  6.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2141-07-28 03:00:00
+sbp: 113.0
+dbp: 50.0
+mbp: 68.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.0
+temperature: 36.610000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 3
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 1
+   drg_mortality: 1
+2. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2141-07-26 08:00:00 and stopped on 2141-07-28 10:00:00
+- Fentanyl Citrate: started on 2141-07-26 16:00:00 and stopped on 2141-07-28 01:00:00
+- Calcium Gluconate: started on 2141-07-26 16:00:00 and stopped on 2141-07-28 10:00:00
+- Fentanyl Citrate: started on 2141-07-26 16:00:00 and stopped on 2141-07-28 01:00:00
+- Atorvastatin: started on 2141-07-26 20:00:00 and stopped on 2141-07-30 21:00:00
+- Docusate Sodium: started on 2141-07-26 20:00:00 and stopped on 2141-07-30 21:00:00
+- Ranitidine: started on 2141-07-26 20:00:00 and stopped on 2141-07-30 10:00:00
+- Acetaminophen IV: started on 2141-07-26 20:00:00 and stopped on 2141-07-30 21:00:00
+- Potassium Chloride: started on 2141-07-26 16:00:00 and stopped on 2141-07-28 10:00:00
+- Cefazolin: started on 2141-07-26 16:00:00 and stopped on 2141-07-28 01:00:00

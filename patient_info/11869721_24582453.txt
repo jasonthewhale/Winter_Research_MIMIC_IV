@@ -1,0 +1,83 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 60
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2118-09-10 01:16:00
+  (6) discharge time: 2118-09-27 14:00:00
+  (7) transfer history: 
+2118-09-09 17:46:00 - 2118-09-10 02:24:00: Emergency Department
+2118-09-10 02:24:00 - 2118-09-14 03:50:28: Medicine
+2118-09-15 13:28:59 - 2118-09-27 14:14:17: Medicine
+2118-09-14 03:50:28 - 2118-09-15 13:28:59: Surgical Intensive Care Unit (SICU)
+2118-09-27 14:14:17: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2118-09-09 19:53:00        36.9        11.9 30.9  32.3 96.0     287.0 3.86 13.2    NaN  5.3
+2118-09-10 06:13:00        32.6        10.4 30.4  31.9 95.0     267.0 3.42 13.3    NaN  3.4
+2118-09-11 05:53:00        30.6        10.3 31.0  33.6 92.0     238.0 3.32 13.5    NaN  2.8
+2118-09-12 05:09:00        32.3        10.9 30.7  33.6 91.0     278.0 3.54 13.4    NaN  3.7
+2118-09-13 05:49:00        34.1        11.2 29.8  32.9 91.0     269.0 3.76 13.0    NaN  4.5
+2118-09-14 03:05:00        29.9        10.2 31.1  34.3 91.0     205.0 3.30 12.9    NaN  8.0
+2118-09-15 06:39:00        29.1         9.8 31.0  33.7 92.0     224.0 3.16 13.3    NaN  3.2
+2118-09-16 05:13:00        30.3         9.9 30.3  32.7 93.0     243.0 3.27 13.2    NaN  3.1
+2118-09-17 06:00:00        30.5        10.3 31.4  33.8 93.0     265.0 3.28 13.2    NaN  3.0
+2118-09-18 05:09:00        33.4        11.2 30.7  33.5 92.0     298.0 3.65 13.4    NaN  3.1
+2118-09-19 05:27:00        34.1        10.9 29.1  31.8 92.0     357.0 3.73 13.9    NaN  3.9
+2118-09-20 05:47:00        34.0        10.8 29.5  31.9 93.0     372.0 3.68 14.0    NaN  3.6
+2118-09-21 06:19:00        32.9        10.8 30.2  32.7 92.0     322.0 3.57 13.8    NaN  3.7
+2118-09-22 05:30:00        31.3        10.2 30.8  32.7 94.0     267.0 3.32 13.9    NaN  3.4
+2118-09-23 06:04:00        34.2        11.2 30.0  32.6 92.0     330.0 3.71 14.3    NaN  2.8
+2118-09-24 06:28:00        34.4        11.1 29.9  32.2 93.0     332.0 3.71 13.9    NaN  2.7
+2118-09-26 05:24:00        34.6        11.2 30.5  32.4 94.0     307.0 3.68 14.0    NaN  3.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2118-09-15 08:00:00
+sbp: 118.0
+dbp: 58.0
+mbp: 73.0
+sbp_ni: 118.0
+dbp_ni: 58.0
+mbp_ni: 73.0
+resp_rate: 13.0
+temperature: 37.060000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Bloodstream infection due to central venous catheter
+   drg_type: APR
+   description: POST-OPERATIVE, POST-TRAUMATIC, OTHER DEVICE INFECTIONS
+   drg_severity: 3
+   drg_mortality: 1
+2. Bloodstream infection due to central venous catheter
+   drg_type: HCFA
+   description: OTHER CIRCULATORY SYSTEM DIAGNOSES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Acetaminophen-Caff-Butalbital 1 Tablet (Administered) - Start Time: 2118-09-10 05:00:00, Stop Time: 2118-09-13 13:00:00
+- HYDROmorphone (Dilaudid) 2mg Tablet (Administered) - Start Time: 2118-09-10 05:00:00, Stop Time: 2118-09-14 04:00:00
+- CeftriaXONE 1 g / 100 mL 0.9% Sodium Chloride (Mini Bag Plus) (Administered) - Start Time: 2118-09-10 06:00:00, Stop Time: 2118-09-10 06:00:00
+- Heparin Flush (10 units/ml) (Flushed) - Start Time: 2118-09-10 08:00:00, Stop Time: 2118-09-15 14:00:00
+- Sodium Chloride 0.9% Flush (Flushed) - Start Time: 2118-09-10 05:00:00, Stop Time: 2118-09-14 04:00:00
+- Ascorbic Acid 500 mg Tab (Administered) - Start Time: 2118-09-10 06:00:00, Stop Time: 2118-09-27 19:00:00
+- Clonazepam (Administered) - Start Time: 2118-09-10 06:00:00, Stop Time: 2118-09-14 04:00:00
+- Docusate Sodium 100mg Capsule (Administered) - Start Time: 2118-09-10 06:00:00, Stop Time: 2118-09-27 19:00:00
+- Lorazepam 0.5mg Tablet (Administered) - Start Time: 2118-09-10 06:00:00, Stop Time: 2118-09-14 04:00:00

@@ -1,0 +1,107 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 72
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2123-05-21 06:49:00
+  (6) discharge time: 2123-06-11 17:55:00
+  (7) transfer history: 
+2123-05-21 03:26:00 - 2123-05-21 09:13:00: Emergency Department
+2123-05-21 09:13:00 - 2123-05-21 15:26:36: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2123-05-21 15:26:36 - 2123-05-21 17:48:34: PACU
+2123-05-24 02:10:47 - 2123-05-26 21:58:09: Medicine
+2123-05-26 21:58:09 - 2123-05-30 16:23:17: Transplant
+2123-05-30 16:23:17 - 2123-06-11 17:57:11: Transplant
+2123-05-21 17:48:34 - 2123-05-24 02:10:47: Trauma SICU (TSICU)
+2123-06-11 17:57:11: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2123-05-21 11:30:00         NaN         NaN  NaN   NaN  NaN      35.0  NaN  NaN    NaN  NaN
+2123-05-21 14:01:00        27.0         8.1 27.4  30.0 91.0      31.0 2.96 22.0    NaN  6.1
+2123-05-21 18:07:00        27.8         8.2 27.2  29.5 92.0      49.0 3.02 21.9    NaN 10.3
+2123-05-21 23:58:00        25.7         7.7 27.5  30.0 92.0      44.0 2.80 22.0    NaN  8.9
+2123-05-22 05:59:00        25.8         7.8 27.6  30.2 91.0      42.0 2.83 21.8    NaN  8.3
+2123-05-22 12:50:00        25.6         7.5 26.7  29.3 91.0      34.0 2.81 21.7    NaN  5.8
+2123-05-23 01:47:00        21.7         6.7 27.3  30.9 89.0      27.0 2.45 21.3    NaN  3.9
+2123-05-23 06:01:00        21.7         6.7 27.6  30.9 89.0      35.0 2.43 21.2    NaN  3.5
+2123-05-23 14:14:00        22.5         6.9 27.4  30.7 89.0      26.0 2.52 21.2    NaN  3.6
+2123-05-24 07:35:00        25.3         7.9 27.8  31.2 89.0      23.0 2.84 20.5    NaN  3.5
+2123-05-24 14:08:00        25.0         7.9 27.9  31.6 88.0      25.0 2.83 20.5    NaN  5.2
+2123-05-25 06:16:00        24.4         7.8 27.8  32.0 87.0      25.0 2.81 20.7    NaN  5.0
+2123-05-25 17:00:00         NaN         NaN  NaN   NaN  NaN      42.0  NaN  NaN    NaN  NaN
+2123-05-25 21:00:00         NaN         NaN  NaN   NaN  NaN      37.0  NaN  NaN    NaN  NaN
+2123-05-26 02:49:00         NaN         NaN  NaN   NaN  NaN      42.0  NaN  NaN    NaN  NaN
+2123-05-26 06:13:00        24.1         7.6 27.5  31.5 87.0      38.0 2.76 21.1    NaN  7.1
+2123-05-27 05:52:00        24.6         7.7 27.5  31.3 88.0      46.0 2.80 21.4    NaN  7.9
+2123-05-28 05:00:00        23.8         7.1 26.6  29.8 89.0      31.0 2.67 21.4    NaN  6.9
+2123-05-28 12:30:00         NaN         NaN  NaN   NaN  NaN      47.0  NaN  NaN    NaN  NaN
+2123-05-29 05:22:00        24.3         7.4 27.0  30.5 89.0      37.0 2.74 21.5    NaN  7.5
+2123-05-30 05:27:00        23.1         7.2 27.4  31.2 88.0      36.0 2.63 21.4    NaN  7.4
+2123-05-31 05:25:00        22.7         7.0 27.9  30.8 90.0      36.0 2.51 21.6    NaN  6.4
+2123-05-31 17:40:00        27.2         8.3 27.9  30.5 91.0      50.0 2.98 21.8    NaN  9.8
+2123-06-01 06:23:00        23.1         7.2 28.3  31.2 91.0       NaN 2.54 22.3    NaN  6.9
+2123-06-01 10:45:00        23.7         7.3 28.3  30.8 92.0      34.0 2.58 22.1    NaN  6.4
+2123-06-02 04:36:00        23.3         7.1 28.1  30.5 92.0      26.0 2.53 22.5    NaN  5.2
+2123-06-03 05:26:00        21.5         6.6 28.7  30.7 94.0      26.0 2.30 22.9    NaN  3.4
+2123-06-04 05:22:00        22.7         7.0 28.6  30.8 93.0       NaN 2.45 22.5    NaN  4.1
+2123-06-04 07:59:00         NaN         NaN  NaN   NaN  NaN      36.0  NaN  NaN    NaN  NaN
+2123-06-04 17:48:00        22.5         7.0 29.2  31.1 94.0      39.0 2.40 21.5    NaN  3.5
+2123-06-05 04:45:00        25.3         7.7 28.7  30.4 94.0      34.0 2.68 21.7    NaN  4.7
+2123-06-06 06:00:00        24.3         7.4 29.0  30.5 95.0      29.0 2.55 21.6    NaN  3.4
+2123-06-07 04:55:00        25.1         7.6 28.7  30.3 95.0       NaN 2.65 21.5    NaN  3.0
+2123-06-08 04:37:00        26.1         8.0 28.9  30.7 94.0      21.0 2.77 21.4    NaN  3.9
+2123-06-09 05:56:00        23.6         7.4 29.4  31.4 94.0       NaN 2.52 21.2    NaN  2.9
+2123-06-10 05:00:00        27.1         8.1 28.5  29.9 95.0      31.0 2.84 21.2    NaN  3.8
+2123-06-11 04:48:00        26.0         7.9 29.3  30.4 96.0      31.0 2.70 21.3    NaN  3.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2123-05-23 00:00:00
+sbp: 105.0
+dbp: 45.0
+mbp: 62.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 11.0
+temperature: 36.890000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: 4
+cns: 2
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 3
+liver_24hours: 2
+cns_24hours: 2
+renal_24hours: 1
+sofa_24hours: 12
+
+Physician's Diagnoses:
+1. Infection and inflammatory reaction due to internal left knee prosthesis, initial encounter
+   drg_type: HCFA
+   description: KNEE PROCEDURES W PDX OF INFECTION W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Infection and inflammatory reaction due to internal left knee prosthesis, initial encounter
+   drg_type: APR
+   description: KNEE JOINT REPLACEMENT
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Albumin 25% (25g /100mL) 100 mL Bag: Start time - 2123-05-21 11:00:00, Stop time - 2123-05-25 15:00:00
+- Influenza Vaccine Quadrivalent: Start time - 2123-05-21 11:00:00, Stop time - 2123-05-25 15:00:00
+- CefTRIAXone 2g Vial: Start time - 2123-05-21 13:00:00, Stop time - 2123-05-21 18:00:00
+- HYDROmorphone (Dilaudid): Start time - 2123-05-21 12:00:00, Stop time - 2123-05-23 09:00:00
+- Sodium Chloride 0.9% Flush: Start time - 2123-05-21 11:00:00, Stop time - 2123-05-22 20:00:00
+- Sodium Chloride 0.9% Flush: Start time - 2123-05-22 08:00:00, Stop time - 2123-06-11 22:00:00
+- Sodium Chloride 0.9% Flush: Start time - 2123-05-22 08:00:00, Stop time - 2123-06-11 22:00:00
+- Piperacillin-Tazobactam 4.5 g / 100 mL Iso-Osmotic Dextrose: Start time - 2123-05-21 19:00:00, Stop time - 2123-05-22 08:00:00
+- HYDROmorphone (Dilaudid): Start time - 2123-05-21 12:00:00, Stop time - 2123-05-23 09:00:00
+- Sodium Chloride 0.9% Flush: Start time - 2123-05-21 11:00:00, Stop time - 2123-05-22 20:00:00

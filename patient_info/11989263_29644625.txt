@@ -1,0 +1,83 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 54
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2178-08-14 10:07:00
+  (6) discharge time: 2178-08-29 12:30:00
+  (7) transfer history: 
+2178-08-14 06:27:00 - 2178-08-14 10:08:14: Emergency Department
+2178-08-14 10:08:14 - 2178-08-14 12:35:10: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2178-08-19 22:24:00 - 2178-08-20 02:17:30: Medicine
+2178-08-25 15:48:38 - 2178-08-25 15:53:16: Medicine
+2178-08-25 15:53:16 - 2178-08-29 12:55:11: Medicine
+2178-08-22 13:30:21 - 2178-08-25 15:48:38: Medicine
+2178-08-19 22:13:09 - 2178-08-19 22:24:00: Medicine
+2178-08-14 14:21:28 - 2178-08-19 22:13:09: Medical Intensive Care Unit (MICU)
+2178-08-14 13:27:32 - 2178-08-14 14:21:28: Medical Intensive Care Unit (MICU)
+2178-08-14 12:35:10 - 2178-08-14 13:27:32: Medical Intensive Care Unit (MICU)
+2178-08-20 02:17:30 - 2178-08-22 13:30:21: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2178-08-29 12:55:11: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2178-08-15 03:29:00        44.8        13.9 31.0  31.0 100.0     178.0 4.49 16.9    NaN 10.9
+2178-08-16 04:13:00        44.8        14.4 31.8  32.1  99.0     178.0 4.53 17.4    NaN  9.8
+2178-08-17 03:38:00        46.1        14.1 30.3  30.6  99.0     180.0 4.65 17.1    NaN  9.1
+2178-08-18 04:04:00        45.0        13.8 30.5  30.7  99.0     175.0 4.53 16.2    NaN  8.1
+2178-08-19 04:10:00        48.0        14.6 30.7  30.4 101.0     183.0 4.76 15.4    NaN  8.3
+2178-08-20 02:35:00        50.9        15.4 30.5  30.3 101.0     184.0 5.05 15.3    NaN  9.2
+2178-08-21 02:32:00        50.3        15.1 29.9  30.0 100.0     185.0 5.05 15.0    NaN  9.6
+2178-08-22 04:01:00        50.4        15.4 29.8  30.6  98.0     215.0 5.17 15.1    NaN  9.0
+2178-08-23 06:50:00        50.3        15.4 30.1  30.6  98.0     228.0 5.12 14.9    NaN  8.0
+2178-08-24 05:02:00        50.2        15.5 30.2  30.9  98.0     215.0 5.14 14.8    NaN  7.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2178-08-21 04:00:00
+sbp: 117.0
+dbp: 65.0
+mbp: 77.0
+sbp_ni: 117.0
+dbp_ni: 65.0
+mbp_ni: 77.0
+resp_rate: 19.0
+temperature: 37.110000000
+temperature_site: Axillary
+spo2: 92.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Acute and chronic respiratory failure with hypercapnia
+   drg_type: APR
+   description: RESPIRATORY FAILURE
+   drg_severity: 4
+   drg_mortality: 3
+2. Acute and chronic respiratory failure with hypercapnia
+   drg_type: HCFA
+   description: RESPIRATORY SYSTEM DIAGNOSIS W VENTILATOR SUPPORT <=96 HOURS
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Ipratropium Bromide HFA 12.9g Inhaler (Administered) - Start Time: 2178-08-14 18:00:00, Stop Time: 2178-08-20 02:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Administered) - Start Time: 2178-08-14 16:00:00, Stop Time: 2178-08-29 17:00:00
+- Aspirin 81mg Tab (Administered) - Start Time: 2178-08-14 21:00:00, Stop Time: 2178-08-29 17:00:00
+- CefTAZidime (Administered) - Start Time: 2178-08-14 23:00:00, Stop Time: 2178-08-15 10:00:00
+- FoLIC Acid 1 mg Tab (Administered) - Start Time: 2178-08-15 08:00:00, Stop Time: 2178-08-29 17:00:00
+- Multivitamins 1 Tablet (Administered) - Start Time: 2178-08-15 08:00:00, Stop Time: 2178-08-29 17:00:00
+- Thiamine 100mg Tablet (Administered) - Start Time: 2178-08-15 08:00:00, Stop Time: 2178-08-29 17:00:00
+- Vancomycin 2000 mg / 500 mL 0.9% Sodium Chloride (Administered) - Start Time: 2178-08-14 00:00:00, Stop Time: 2178-08-15 10:00:00
+- Ipratropium Bromide HFA 12.9g Inhaler (Administered) - Start Time: 2178-08-14 18:00:00, Stop Time: 2178-08-20 02:00:00

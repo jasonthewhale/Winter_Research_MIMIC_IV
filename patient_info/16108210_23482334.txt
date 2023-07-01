@@ -1,0 +1,83 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 79
+  (3) race: WHITE
+  (4) admission type: ELECTIVE
+  (5) admit time: 2175-03-08 07:15:00
+  (6) discharge time: 2175-03-22 16:16:00
+  (7) transfer history: 
+2175-03-08 12:58:04 - 2175-03-09 07:29:26: Cardiology Surgery Intermediate
+2175-03-10 22:05:23 - 2175-03-22 16:32:21: Cardiology Surgery Intermediate
+2175-03-09 07:29:26 - 2175-03-09 09:41:56: PACU
+2175-03-09 09:41:56 - 2175-03-10 22:05:23: Cardiac Vascular Intensive Care Unit (CVICU)
+2175-03-22 16:32:21: discharge
+
+2. Medical Data
+(1) heart rate: 
+2175-03-25 23:00:00-2175-03-26 00:00:00 SR (Sinus Rhythm)
+2175-03-26 00:00:00-2175-03-26 01:00:00 SR (Sinus Rhythm)
+2175-03-26 01:00:00-2175-03-26 02:00:00 SR (Sinus Rhythm) with PVC's occurring occasionally
+2175-03-26 02:00:00-2175-03-26 03:00:00 SR (Sinus Rhythm) with PVC's occurring rarely
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2175-03-08 14:46:00        36.3        11.9 28.6  32.8 87.0     137.0 4.16 13.2    NaN  6.8
+2175-03-09 13:52:00        18.7         6.1 29.0  32.6 89.0      78.0 2.10 13.2    NaN 14.8
+2175-03-09 16:16:00        29.4         9.7 28.7  33.0 87.0     107.0 3.38 13.0    NaN 18.8
+2175-03-09 21:50:00        26.3         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-03-10 02:57:00        25.8         8.6 28.8  33.3 86.0      90.0 2.99 13.3    NaN 12.3
+2175-03-11 05:20:00        24.8         8.2 29.3  33.1 89.0      80.0 2.80 13.2    NaN 15.2
+2175-03-12 04:55:00        21.9         7.2 28.7  32.9 87.0      78.0 2.51 13.2    NaN 12.7
+2175-03-12 17:40:00        23.6         7.7  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-03-13 04:14:00        23.0         7.3 28.3  31.7 89.0     112.0 2.58 13.4    NaN 12.7
+2175-03-13 16:36:00        26.3         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-03-13 21:51:00        25.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2175-03-14 02:24:00        25.5         8.4 28.8  32.9 87.0     143.0 2.92 14.1    NaN 12.7
+2175-03-15 05:09:00        24.4         8.0 28.6  32.8 87.0     160.0 2.80 13.8    NaN 11.3
+2175-03-16 05:28:00        25.0         8.0 28.8  32.0 90.0     169.0 2.78 14.0    NaN 11.7
+2175-03-17 04:43:00        26.2         8.1 28.0  30.9 91.0     200.0 2.89 14.1    NaN 11.3
+2175-03-18 04:05:00        26.0         7.9 28.0  30.4 92.0     217.0 2.82 14.1    NaN 10.9
+2175-03-20 05:22:00        27.6         8.4 28.1  30.4 92.0     256.0 2.99 14.4    NaN 13.2
+2175-03-21 04:57:00        27.6         8.5 28.5  30.8 93.0     272.0 2.98 14.6    NaN 12.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2175-03-24 21:30:00
+sbp: 103.0
+dbp: 53.0
+mbp: 67.0
+sbp_ni: 103.0
+dbp_ni: 53.0
+mbp_ni: 67.0
+resp_rate: 19.0
+temperature: 36.610000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 1
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Thoracic aortic aneurysm, without rupture
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 3
+2. Thoracic aortic aneurysm, without rupture
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W CARD CATH W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- amLODIPine 5mg Tablet (dose: 5mg, unit: mg, start time: 2175-03-09 08:00:00, stop time: 2175-03-09 17:00:00)
+- Sodium Chloride 0.9% Flush (dose: 3mL, unit: mL, start time: 2175-03-08 14:00:00, stop time: 2175-03-10 22:00:00)
+- Atorvastatin (dose: 40mg, unit: mg, start time: 2175-03-08 14:00:00, stop time: 2175-03-09 17:00:00)
+- Mupirocin Ointment 2% (dose: 1 Appl, unit: Appl, start time: 2175-03-08 14:00:00, stop time: 2175-03-10 22:00:00)
+- Doxazosin 4mg Tablet (dose: 4mg, unit: mg, start time: 2175-03-08 14:00:00, stop time: 2175-03-10 22:00:00)

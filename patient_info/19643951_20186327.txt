@@ -1,0 +1,74 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 91
+  (3) race: OTHER
+  (4) admission type: EW EMER.
+  (5) admit time: 2149-03-30 02:44:00
+  (6) discharge time: 2149-04-10 15:20:00
+  (7) transfer history: 
+2149-03-30 01:04:00 - 2149-03-30 05:26:00: Emergency Department
+2149-03-30 05:26:00 - 2149-03-30 18:26:46: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2149-03-30 18:26:46 - 2149-04-10 15:22:45: Medicine
+2149-04-10 15:22:45: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2149-03-30 06:31:00        30.5         9.6 30.8  31.5 98.0     150.0 3.12 12.4    NaN 18.1
+2149-03-31 07:50:00        27.0         8.9 31.6  33.0 96.0     151.0 2.82 12.6    NaN  9.6
+2149-04-01 06:16:00        31.2         9.9 30.6  31.7 96.0     177.0 3.24 12.7    NaN  7.9
+2149-04-02 07:10:00        30.0         9.8 30.9  32.7 95.0     182.0 3.17 12.4    NaN  7.1
+2149-04-03 06:07:00        29.3         9.7 31.2  33.1 94.0     181.0 3.11 12.4    NaN  6.5
+2149-04-04 05:48:00        29.0         9.4 30.8  32.4 95.0     199.0 3.05 12.6    NaN  6.2
+2149-04-05 06:07:00        28.4         9.3 31.4  32.7 96.0     192.0 2.96 12.7    NaN 11.5
+2149-04-06 10:46:00        30.2         9.9 31.3  32.8 96.0     252.0 3.16 13.0    NaN  7.7
+2149-04-07 07:20:00        29.7         9.5 30.7  32.0 96.0     233.0 3.09 13.2    NaN  8.0
+2149-04-09 06:03:00        31.2        10.2 30.8  32.7 94.0     320.0 3.31 13.2    NaN  7.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2149-03-30 16:00:00
+sbp: 112.0
+dbp: 56.0
+mbp: 71.0
+sbp_ni: 112.0
+dbp_ni: 56.0
+mbp_ni: 71.0
+resp_rate: 16.0
+temperature: 36.440000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: APR
+   description: INFECTIOUS & PARASITIC DISEASES INCLUDING HIV W O.R. PROCEDURE
+   drg_severity: 3
+   drg_mortality: 2
+2. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Heparin: Administered from 2149-03-30 08:00:00 to 2149-04-04 21:00:00, dose given: 5000 UNIT
+- Magnesium Sulfate: Administered from 2149-03-30 09:00:00 to 2149-03-31 09:00:00, dose given: 2 gm
+- Ciprofloxacin HCl: Administered from 2149-03-30 13:00:00 to 2149-04-08 10:00:00, dose given: 500 mg
+- MetroNIDAZOLE: Administered from 2149-03-30 14:00:00 to 2149-04-08 10:00:00, dose given: 500 mg
+- Sodium Chloride 0.9% Flush: Flushed from 2149-03-30 19:00:00 to 2149-04-10 19:00:00, dose given: 3 mL
+- Ciprofloxacin HCl: Administered from 2149-03-30 13:00:00 to 2149-04-08 10:00:00, dose given: 500 mg
+- Heparin: Administered from 2149-03-30 08:00:00 to 2149-04-04 21:00:00, dose given: 5000 UNIT
+- Metoprolol Tartrate: Administered from 2149-03-31 08:00:00 to 2149-04-01 10:00:00, dose given: 12.5 mg

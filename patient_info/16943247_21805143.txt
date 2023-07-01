@@ -1,0 +1,73 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 50
+  (3) race: WHITE - BRAZILIAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2125-01-22 02:10:00
+  (6) discharge time: 2125-01-27 08:50:00
+  (7) transfer history: 
+2125-01-21 16:52:00 - 2125-01-22 02:11:09: Emergency Department
+2125-01-22 02:11:09 - 2125-01-22 02:32:01: Neuro Intermediate
+2125-01-27 01:32:46 - 2125-01-27 09:07:51: Neuro Intermediate
+2125-01-22 02:45:06 - 2125-01-27 01:32:46: Neuro Intermediate
+2125-01-22 02:32:01 - 2125-01-22 02:45:06: Discharge Lounge
+2125-01-27 09:07:51: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2125-01-21 18:03:00        41.8        14.2 30.8  34.0 91.0     207.0 4.61 13.2    NaN  9.0
+2125-01-22 05:44:00        42.2        14.2 30.9  33.6 92.0     207.0 4.60 13.2    NaN  8.9
+2125-01-23 07:15:00        41.5        14.1 31.3  34.0 92.0     214.0 4.50 13.1    NaN  6.7
+2125-01-25 04:04:00        40.1        13.5 30.6  33.7 91.0     230.0 4.41 12.8    NaN  6.7
+2125-01-26 06:24:00        40.8        13.7 30.7  33.6 92.0     252.0 4.46 12.5    NaN  9.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2125-02-10 07:00:00
+sbp: 127.0
+dbp: 84.0
+mbp: 97.0
+sbp_ni: 127.0
+dbp_ni: 84.0
+mbp_ni: 97.0
+resp_rate: 15.5
+temperature: 37.440000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Malignant neoplasm of brain, unspecified
+   drg_type: APR
+   description: NERVOUS SYSTEM MALIGNANCY
+   drg_severity: 2
+   drg_mortality: 2
+2. Malignant neoplasm of brain, unspecified
+   drg_type: HCFA
+   description: CRANIOTOMY & ENDOVASCULAR INTRACRANIAL PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2125-01-22 05:00:00 and stopped on 2125-01-27 13:00:00
+- Administered: LeVETiracetam 1000 mg in 100 mL 0.9% Sodium Chloride, started on 2125-01-22 05:00:00 and stopped on 2125-01-22 11:00:00
+- Administered: Docusate Sodium 100mg Capsule, started on 2125-01-22 05:00:00 and stopped on 2125-01-27 13:00:00
+- Administered: Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride, started on 2125-01-22 05:00:00 and stopped on 2125-01-22 11:00:00
+- Administered: Iohexol 240 240 mg / mL - 50 mL Vial, started on 2125-01-22 08:00:00 and stopped on 2125-01-22 23:00:00
+- Flushed: Sodium Chloride 0.9% Flush, started on 2125-01-22 05:00:00 and stopped on 2125-01-27 13:00:00
+- Administered: Docusate Sodium 100mg Capsule, started on 2125-01-22 05:00:00 and stopped on 2125-01-27 13:00:00
+- Administered: Heparin, started on 2125-01-22 20:00:00 and stopped on 2125-01-24 10:00:00
+- Administered: LeVETiracetam, started on 2125-01-22 20:00:00 and stopped on 2125-01-26 13:00:00
+- Administered: LeVETiracetam, started on 2125-01-22 20:00:00 and stopped on 2125-01-26 13:00:00

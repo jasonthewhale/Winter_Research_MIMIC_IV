@@ -1,0 +1,71 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 42
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2124-10-03 20:24:00
+  (6) discharge time: 2124-10-06 14:20:00
+  (7) transfer history: 
+2124-10-03 16:44:00 - 2124-10-03 21:52:00: Emergency Department
+2124-10-03 21:52:00 - 2124-10-04 23:00:39: Coronary Care Unit (CCU)
+2124-10-04 23:00:39 - 2124-10-05 12:47:27: Med/Surg
+2124-10-05 12:47:27 - 2124-10-06 14:29:08: Med/Surg
+2124-10-06 14:29:08: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2124-10-04 05:27:00        28.7         9.1 26.3  31.8 83.0      69.0 3.48 19.6    NaN  5.6
+2124-10-04 11:04:00        30.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2124-10-04 17:14:00        30.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2124-10-04 21:30:00        30.0         9.7 26.1  32.3 81.0      79.0 3.71 20.1    NaN  5.7
+2124-10-05 06:28:00        29.8         9.6 26.6  32.1 83.0      70.0 3.60 20.3    NaN  4.4
+2124-10-06 07:20:00        29.9         9.2 25.8  30.8 84.0      65.0 3.57 20.3    NaN  5.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2124-10-04 16:00:00
+sbp: 146.0
+dbp: 79.0
+mbp: 97.0
+sbp_ni: 146.0
+dbp_ni: 79.0
+mbp_ni: 97.0
+resp_rate: 14.0
+temperature: 36.610000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Alcoholic cirrhosis of liver
+   drg_type: HCFA
+   description: CIRRHOSIS & ALCOHOLIC HEPATITIS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Alcoholic cirrhosis of liver
+   drg_type: APR
+   description: ALCOHOLIC LIVER DISEASE
+   drg_severity: 2
+   drg_mortality: 2
+
+Medication:
+- Acetaminophen (Liquid) - Start Time: 2124-10-04 12:00:00, Stop Time: 2124-10-06 19:00:00
+- TraZODone 50mg Tablet - Start Time: 2124-10-05 00:00:00, Stop Time: 2124-10-06 19:00:00
+- CloniDINE 0.1mg Tablet - Start Time: 2124-10-05 03:00:00, Stop Time: 2124-10-06 09:00:00
+- Benztropine Mesylate - Start Time: 2124-10-05 08:00:00, Stop Time: 2124-10-06 19:00:00
+- FoLIC Acid 1 mg Tab - Start Time: 2124-10-04 08:00:00, Stop Time: 2124-10-06 19:00:00
+- Gabapentin 100mg Capsule - Start Time: 2124-10-04 08:00:00, Stop Time: 2124-10-06 19:00:00
+- Levothyroxine Sodium 100mcg Tablet - Start Time: 2124-10-05 08:00:00, Stop Time: 2124-10-06 19:00:00
+- Multivitamins 1 Tablet - Start Time: 2124-10-04 08:00:00, Stop Time: 2124-10-06 19:00:00

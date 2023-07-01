@@ -1,0 +1,91 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 62
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2165-11-01 17:08:00
+  (6) discharge time: 2165-11-20 17:40:00
+  (7) transfer history: 
+2165-10-31 12:41:00 - 2165-11-01 18:30:00: Emergency Department
+2165-11-01 18:30:00 - 2165-11-04 08:08:11: Neurology
+2165-11-05 21:54:36 - 2165-11-08 16:59:42: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2165-11-08 16:59:42 - 2165-11-20 17:40:56: Neurology
+2165-11-04 08:08:11 - 2165-11-05 21:54:36: Neurology
+2165-11-20 17:40:56: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2165-10-31 14:21:00        34.8        11.0 31.6  31.6 100.0     181.0 3.48 13.8    NaN  8.0
+2165-11-01 21:40:00        33.5        10.6 31.4  31.6  99.0     161.0 3.38 13.3    NaN  7.3
+2165-11-02 06:00:00        34.6        11.1 31.8  32.1  99.0     165.0 3.49 13.3    NaN  6.1
+2165-11-03 06:58:00        36.0        11.5 31.8  31.9  99.0     201.0 3.62 13.2    NaN  7.8
+2165-11-04 06:00:00        32.0        10.5 32.1  32.8  98.0     167.0 3.27 13.1    NaN  4.8
+2165-11-05 06:40:00        35.5        11.2 31.4  31.5  99.0     190.0 3.57 13.2    NaN  6.6
+2165-11-05 22:20:00        32.2        10.3 31.6  32.0  99.0     170.0 3.26 13.3    NaN  5.3
+2165-11-07 00:26:00        34.6        11.0 31.5  31.8  99.0     174.0 3.49 13.2    NaN  5.7
+2165-11-08 01:09:00        32.1        10.3 31.6  32.1  99.0     163.0 3.26 13.2    NaN  4.8
+2165-11-09 06:59:00        32.4        10.6 31.8  32.7  97.0     181.0 3.33 13.1    NaN  6.0
+2165-11-11 07:25:00        31.0         9.9 31.5  31.9  99.0     141.0 3.14 13.6    NaN  5.5
+2165-11-12 06:48:00        32.9        10.2 31.0  31.0 100.0     144.0 3.29 13.3    NaN  5.4
+2165-11-13 05:50:00        34.9        10.6 31.3  30.4 103.0     151.0 3.39 13.4    NaN  5.3
+2165-11-14 05:40:00        30.8         9.5 31.4  30.8 102.0     149.0 3.03 13.3    NaN  4.3
+2165-11-15 05:45:00        32.3        10.0 30.9  31.0 100.0     146.0 3.24 13.2    NaN  5.3
+2165-11-16 07:30:00        30.0         9.5 31.3  31.7  99.0     135.0 3.04 13.4    NaN  5.0
+2165-11-17 06:22:00        27.1         8.8 31.7  32.5  98.0     110.0 2.78 13.4    NaN  3.4
+2165-11-17 12:51:00        28.1         8.9 31.1  31.7  98.0     114.0 2.86 13.3    NaN  3.3
+2165-11-17 19:33:00        28.2         9.1  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2165-11-18 00:49:00        26.8         8.5  NaN   NaN   NaN       NaN  NaN  NaN    NaN  NaN
+2165-11-18 05:50:00        27.9         8.5 30.5  30.5 100.0     106.0 2.79 13.2    NaN  3.5
+2165-11-19 05:55:00        29.6         9.4 31.2  31.8  98.0     114.0 3.01 13.3    NaN  5.9
+2165-11-20 05:45:00        29.7         9.5 31.6  32.0  99.0     117.0 3.01 13.4    NaN  3.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2165-11-07 04:00:00
+sbp: 96.0
+dbp: 50.0
+mbp: 63.0
+sbp_ni: 96.0
+dbp_ni: 50.0
+mbp_ni: 63.0
+resp_rate: nan
+temperature: 36.670000000
+temperature_site: Axillary
+spo2: nan
+cardiovascular: <NA>
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Epileptic seizures related to external causes, not intractable, without status epilepticus
+   drg_type: APR
+   description: SEIZURE
+   drg_severity: 4
+   drg_mortality: 3
+2. Epileptic seizures related to external causes, not intractable, without status epilepticus
+   drg_type: HCFA
+   description: SEIZURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- HydrALAZINE: Administered from 2164-03-28 16:00:00 to 2164-03-28 22:00:00
+- Memantine: Administered from 2164-03-28 16:00:00 to 2164-03-29 19:00:00
+- Senna: Administered from 2164-03-28 16:00:00 to 2164-03-29 19:00:00
+- Donepezil: Administered from 2165-11-01 21:00:00 to 2165-11-20 22:00:00
+- Lacosamide: Administered from 2165-11-02 08:00:00 to 2165-11-02 10:00:00
+- LevETIRAcetam: Administered from 2165-11-01 22:00:00 to 2165-11-03 10:00:00
+- LevETIRAcetam: Administered from 2165-11-01 22:00:00 to 2165-11-03 10:00:00
+- Losartan Potassium: Administered from 2165-11-02 08:00:00 to 2165-11-20 22:00:00
+- Phenytoin Sodium Extended: Administered from 2165-11-02 20:00:00 to 2165-11-07 14:00:00
+- Phenytoin Sodium Extended: Administered from 2165-11-02 20:00:00 to 2165-11-07 14:00:00

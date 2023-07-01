@@ -1,0 +1,133 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 72
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2111-09-26 23:19:00
+  (6) discharge time: 2111-11-05 18:28:00
+  (7) transfer history: 
+2111-09-26 23:22:45 - 2111-09-29 08:52:29: Cardiology Surgery Intermediate
+2111-10-21 17:42:02 - 2111-10-25 17:46:10: Cardiology Surgery Intermediate
+2111-10-25 17:46:10 - 2111-11-05 18:48:55: Cardiology Surgery Intermediate
+2111-09-29 08:52:29 - 2111-10-21 17:42:02: Cardiac Vascular Intensive Care Unit (CVICU)
+2111-11-05 18:48:55: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2111-09-28 03:22:00        34.7        11.5 29.3  33.1 88.0      82.0 3.93 12.8    NaN 13.2
+2111-09-29 04:50:00        33.1        11.2 29.8  33.8 88.0      59.0 3.76 13.0    NaN 10.3
+2111-09-29 09:25:00        34.7        11.2 29.4  32.3 91.0      50.0 3.81 13.0    NaN 11.2
+2111-09-29 16:44:00        29.3        10.1 29.8  34.5 86.0      55.0 3.39 13.0    NaN 11.9
+2111-09-29 19:49:00        27.6         9.6 29.8  34.8 86.0      48.0 3.22 12.9    NaN 11.3
+2111-09-30 00:15:00        27.4         9.4 29.7  34.3 86.0      49.0 3.17 12.9    NaN 11.8
+2111-09-30 04:25:00        27.0         9.2 29.8  34.1 87.0      44.0 3.09 13.1    NaN 12.3
+2111-09-30 09:24:00        26.4         9.1 29.7  34.5 86.0      38.0 3.06 12.9    NaN  8.7
+2111-09-30 17:00:00        27.3         NaN  NaN   NaN  NaN      42.0  NaN  NaN    NaN  NaN
+2111-10-01 02:09:00        28.4         9.7 29.6  34.2 87.0      47.0 3.28 12.8    NaN  9.3
+2111-10-01 12:10:00        28.5        10.0 29.9  35.1 85.0      50.0 3.34 12.6    NaN  9.1
+2111-10-02 02:43:00        25.6         8.8 29.4  34.4 86.0      46.0 2.99 12.7    NaN  9.1
+2111-10-02 15:45:00        24.6         8.5  NaN   NaN  NaN      78.0  NaN  NaN    NaN  NaN
+2111-10-02 21:35:00        24.9         8.7 29.9  34.9 86.0      69.0 2.91 13.2    NaN  8.9
+2111-10-03 03:10:00        28.0         9.5 29.4  33.9 87.0      64.0 3.23 13.3    NaN  9.1
+2111-10-03 11:39:00        27.1         NaN  NaN   NaN  NaN      67.0  NaN  NaN    NaN  NaN
+2111-10-03 18:00:00        29.2        10.0  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-04 00:43:00        27.8         9.8  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-04 02:33:00        27.9         9.9 30.2  35.5 85.0      62.0 3.28 13.5    NaN  8.5
+2111-10-04 07:51:00        28.5         9.7  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-04 12:16:00        26.3         9.1 29.5  34.6 85.0      48.0 3.08 13.2    NaN  9.4
+2111-10-05 02:40:00        23.1         8.0 29.1  34.6 84.0      52.0 2.75 13.2    NaN  7.9
+2111-10-05 10:26:00        25.1         8.9 29.6  35.5 83.0      77.0 3.01 13.2    NaN 11.6
+2111-10-05 17:15:00        24.1         8.6  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-06 01:38:00        24.0         8.3 29.1  34.6 84.0      99.0 2.85 13.2    NaN 10.6
+2111-10-07 03:13:00        25.9         8.9 29.1  34.4 85.0     129.0 3.06 13.7    NaN  9.5
+2111-10-07 13:40:00        26.2         9.2 29.6  35.1 84.0     142.0 3.11 14.0    NaN  9.9
+2111-10-08 01:51:00        27.9         9.5 29.1  34.1 85.0     147.0 3.27 14.0    NaN 11.1
+2111-10-08 11:00:00        25.6         8.8 29.4  34.4 86.0     158.0 2.99 14.1    NaN 11.1
+2111-10-09 02:01:00        27.6         9.1 28.8  33.0 87.0     170.0 3.16 14.4    NaN 10.5
+2111-10-10 01:48:00        26.9         8.7 28.9  32.3 89.0     190.0 3.01 14.8    NaN  9.8
+2111-10-11 02:12:00        28.7         9.1 29.3  31.7 92.0     212.0 3.11 15.3    NaN  9.2
+2111-10-11 13:03:00        29.2         NaN  NaN   NaN  NaN     252.0  NaN  NaN    NaN  NaN
+2111-10-11 20:39:00        27.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-12 04:00:00        25.1         8.0 29.9  31.9 94.0     193.0 2.68 15.5    NaN  9.7
+2111-10-13 02:38:00        23.5         7.4 29.5  31.5 94.0     177.0 2.51 15.3    NaN 10.8
+2111-10-13 06:29:00        25.0         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-14 01:07:00        26.5         8.3 29.2  31.3 93.0     170.0 2.84 15.7    NaN 13.5
+2111-10-15 02:44:00        26.7         8.4 29.4  31.5 93.0     172.0 2.86 15.8    NaN 14.1
+2111-10-16 02:06:00        23.9         7.6 30.0  31.8 95.0     146.0 2.53 16.1    NaN 12.8
+2111-10-17 01:43:00        28.2         8.9 29.3  31.6 93.0     188.0 3.04 16.2    NaN 14.3
+2111-10-18 03:54:00        25.6         7.8 29.2  30.5 96.0     188.0 2.67 16.6    NaN 14.5
+2111-10-19 01:48:00        23.8         7.3 29.4  30.7 96.0     180.0 2.48 16.7    NaN 15.1
+2111-10-20 02:20:00        24.9         7.6 29.5  30.5 97.0     193.0 2.58 16.9    NaN 16.1
+2111-10-20 12:56:00        25.4         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-21 03:55:00        22.5         7.0 30.2  31.1 97.0     196.0 2.32 16.9    NaN 13.8
+2111-10-22 04:56:00        21.9         6.6 29.6  30.1 98.0     177.0 2.23 16.7    NaN 13.5
+2111-10-22 12:02:00        21.5         6.5  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-22 20:11:00        25.1         7.7  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-22 21:08:00        24.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-23 03:50:00        24.4         7.4 28.4  30.3 94.0     178.0 2.61 18.9    NaN 12.6
+2111-10-24 02:28:00        22.7         7.0 28.8  30.8 93.0     148.0 2.43 17.7    NaN  9.5
+2111-10-24 12:43:00        23.0         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-25 06:32:00        22.2         6.8 28.7  30.6 94.0     121.0 2.37 17.2    NaN 11.1
+2111-10-26 06:16:00        21.8         6.6 28.6  30.3 94.0     102.0 2.31 17.0    NaN 11.6
+2111-10-26 16:20:00        21.8         6.6 28.6  30.3 94.0      94.0 2.31 16.8    NaN 11.0
+2111-10-27 05:05:00        21.2         6.5 28.8  30.7 94.0      90.0 2.26 16.4    NaN  9.5
+2111-10-28 03:23:00        22.0         6.7 27.5  30.5 90.0      84.0 2.44 18.0    NaN  7.7
+2111-10-28 13:00:00        24.3         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2111-10-29 05:02:00        27.3         8.4 27.3  30.8 89.0      92.0 3.08 17.1    NaN  8.4
+2111-10-29 21:46:00        24.4         7.8 27.7  32.0 87.0      92.0 2.82 16.4    NaN  6.4
+2111-10-30 08:32:00        24.7         7.9 27.6  32.0 86.0      76.0 2.86 16.4    NaN  6.8
+2111-10-30 20:30:00         NaN         NaN  NaN   NaN  NaN      86.0  NaN  NaN    NaN  NaN
+2111-10-31 05:28:00        26.5         8.3 27.6  31.3 88.0      68.0 3.01 16.5    NaN  7.0
+2111-11-01 02:35:00        26.0         8.4 27.9  32.3 86.0      85.0 3.01 16.0    NaN  6.5
+2111-11-03 04:04:00        28.1         9.0 27.8  32.0 87.0     100.0 3.24 15.8    NaN  6.8
+2111-11-04 06:00:00        29.2         9.0 27.0  30.8 88.0     115.0 3.33 15.8    NaN  8.1
+2111-11-05 05:06:00        28.9         9.2 27.3  31.8 86.0     116.0 3.37 15.7    NaN  7.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2111-09-22 08:00:00
+sbp: 143.0
+dbp: 73.0
+mbp: 93.0
+sbp_ni: 143.0
+dbp_ni: 73.0
+mbp_ni: 93.0
+resp_rate: 15.0
+temperature: 36.440000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Other postprocedural cardiac functional disturbances following cardiac surgery
+   drg_type: APR
+   description: EXTENSIVE PROCEDURE UNRELATED TO PRINCIPAL DIAGNOSIS
+   drg_severity: 4
+   drg_mortality: 4
+2. Other postprocedural cardiac functional disturbances following cardiac surgery
+   drg_type: HCFA
+   description: OTHER CIRCULATORY SYSTEM O.R. PROCEDURES
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Sodium Chloride 0.9% Flush (starttime: 2111-09-22 18:00:00, stoptime: 2111-09-26 20:00:00)
+- TraMADol 50mg Tablet (starttime: 2111-09-24 17:00:00, stoptime: 2111-09-26 20:00:00)
+- Acetaminophen 500mg Tablet (starttime: 2111-09-22 18:00:00, stoptime: 2111-09-26 20:00:00)
+- Polyethylene Glycol 17g Packet (starttime: 2111-09-22 08:00:00, stoptime: 2111-09-26 20:00:00)
+- Amiodarone 200 mg Tab (starttime: 2111-09-25 13:00:00, stoptime: 2111-09-26 20:00:00)
+- Aspirin EC 81mg EC Tab (starttime: 2111-09-23 08:00:00, stoptime: 2111-09-26 20:00:00)
+- Docusate Sodium 100mg Capsule (starttime: 2111-09-22 20:00:00, stoptime: 2111-09-26 20:00:00)
+- GlipiZIDE 5 mg Tab (starttime: 2111-09-26 08:00:00, stoptime: 2111-09-26 20:00:00)

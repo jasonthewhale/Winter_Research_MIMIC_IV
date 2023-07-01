@@ -1,0 +1,81 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 79
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2134-08-09 04:52:00
+  (6) discharge time: 2134-09-05 17:14:00
+  (7) transfer history: 
+2134-08-08 20:07:00 - 2134-08-09 11:33:00: Emergency Department
+2134-08-09 11:33:00 - 2134-08-10 17:12:46: Trauma SICU (TSICU)
+2134-08-10 17:12:46 - 2134-08-13 16:58:26: Med/Surg
+2134-08-13 23:02:31 - 2134-09-05 17:15:05: Vascular
+2134-08-13 16:58:26 - 2134-08-13 23:02:31: Vascular
+2134-09-05 17:15:05: discharge
+
+2. Medical Data
+(1) heart rate: 
+2138-02-14 02:00:00-2138-02-14 05:00:00 SR (Sinus Rhythm) PAC's Frequent
+2138-02-14 06:00:00-2138-02-14 06:00:00 SR (Sinus Rhythm) PAC's Occasional
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2134-08-10 08:51:00        34.2        11.2 28.9  32.7 88.0     207.0 3.87 13.5    NaN  7.4
+2134-08-11 07:40:00        36.0        12.1 28.8  33.6 86.0     287.0 4.19 13.5    NaN  8.2
+2134-08-12 07:50:00        38.0        12.5 27.9  33.0 85.0     292.0 4.48 13.5    NaN  7.6
+2134-08-13 06:40:00        36.3        11.8 28.0  32.4 86.0     299.0 4.21 14.0    NaN  7.8
+2134-08-14 06:33:00        36.9        12.0 28.4  32.5 87.0     337.0 4.23 14.1    NaN 10.2
+2134-08-15 08:08:00        37.8        12.0 27.7  31.7 87.0     325.0 4.33 14.2    NaN  8.1
+2134-08-17 08:41:00        36.2        11.6 28.1  32.0 88.0     412.0 4.12 14.0    NaN  9.0
+2134-08-19 16:45:00        34.9        10.9 27.3  31.1 88.0     520.0 3.99 14.3    NaN  6.9
+2134-08-20 06:32:00        35.4        11.0 27.6  31.0 89.0     455.0 3.98 14.3    NaN  6.4
+2134-08-21 10:40:00        36.3        11.8 28.7  32.5 88.0     449.0 4.11 13.8    NaN  6.8
+2134-08-22 05:20:00        37.1        11.7 27.9  31.5 89.0     523.0 4.19 14.2    NaN  6.2
+2134-08-28 06:22:00        36.9        11.9 28.6  32.3 89.0     324.0 4.17 14.2    NaN  7.2
+2134-09-04 06:13:00        38.7        12.1 27.9  31.3 89.0     263.0 4.33 13.7    NaN  7.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2138-02-13 13:00:00
+sbp: 120.0
+dbp: 59.0
+mbp: 74.0
+sbp_ni: 120.0
+dbp_ni: 59.0
+mbp_ni: 74.0
+resp_rate: 35.0
+temperature: 37.000000000
+temperature_site: Axillary
+spo2: 99.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Closed fracture of second cervical vertebra
+   drg_type: HCFA
+   description: MEDICAL BACK PROBLEMS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Closed fracture of second cervical vertebra
+   drg_type: APR
+   description: OTHER BACK & NECK DISORDERS, FRACTURES & INJURIES
+   drg_severity: 3
+   drg_mortality: 4
+
+Medication:
+- Acetaminophen IV: Administered from 2134-08-10 18:00:00 to 2134-08-11 01:00:00
+- LeVETiracetam: Administered from 2134-08-09 20:00:00 to 2134-08-11 14:00:00
+- Haloperidol: Administered from 2134-08-09 14:00:00 to 2134-08-17 13:00:00
+- Heparin: Administered from 2134-08-09 12:00:00 to 2134-09-05 21:00:00
+- Phosphorus: Administered from 2134-08-10 20:00:00 to 2134-08-11 19:00:00
+- Phenytoin Sodium (IV): Administered from 2134-08-09 20:00:00 to 2134-08-11 14:00:00
+- Levothyroxine Sodium: Administered from 2134-08-09 14:00:00 to 2134-09-05 21:00:00
+- CeftriaXONE: Administered from 2134-08-09 17:00:00 to 2134-08-14 09:00:00
+- BusPIRone: Administered from 2134-08-09 14:00:00 to 2134-09-05 21:00:00

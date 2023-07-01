@@ -1,0 +1,81 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 78
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2117-11-15 15:34:00
+  (6) discharge time: 2117-11-25 16:05:00
+  (7) transfer history: 
+2117-11-15 15:34:38 - 2117-11-17 21:43:28: Observation
+2117-11-21 13:00:41 - 2117-11-25 16:41:41: Cardiac Surgery
+2117-11-17 21:43:28 - 2117-11-20 09:16:34: Medicine/Cardiology
+2117-11-20 09:59:36 - 2117-11-21 13:00:41: Cardiac Vascular Intensive Care Unit (CVICU)
+2117-11-20 09:16:34 - 2117-11-20 09:59:36: Cardiac Vascular Intensive Care Unit (CVICU)
+2117-11-25 16:41:41: discharge
+
+2. Medical Data
+(1) heart rate: 
+2117-11-20 12:00:00-2117-11-20 12:15:00 A Paced
+2117-11-20 12:15:00-2117-11-20 12:45:00 SB (Sinus Bradycardia)
+2117-11-20 12:45:00-2117-11-20 15:00:00 A Paced
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2117-11-16 06:34:00        45.2        15.6 30.6  34.4 89.0     214.0 5.08 13.9    NaN  8.7
+2117-11-18 07:50:00        44.2        14.8 30.0  33.5 90.0     224.0 4.93 14.1    NaN 11.4
+2117-11-19 08:35:00        45.8        15.4 29.9  33.7 89.0     229.0 5.15 14.0    NaN  7.5
+2117-11-20 05:55:00        45.4        15.3 30.0  33.6 89.0     234.0 5.09 14.1    NaN  7.9
+2117-11-20 11:11:00        32.3        11.3 30.8  34.8 89.0     208.0 3.65 13.6    NaN 20.4
+2117-11-20 11:58:00        40.2        13.8 30.3  34.2 89.0     208.0 4.54 13.6    NaN 23.5
+2117-11-20 18:15:00        38.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2117-11-21 03:05:00        33.4        11.4 30.2  34.1 88.0     159.0 3.78 13.8    NaN 12.1
+2117-11-22 04:14:00        32.4        10.8 30.0  33.3 90.0     180.0 3.60 13.8    NaN 14.1
+2117-11-23 03:15:00        32.4        10.8 29.9  33.4 89.0     239.0 3.63 13.8    NaN 14.0
+2117-11-24 06:52:00        34.3        11.4 30.1  33.1 91.0     317.0 3.78 14.0    NaN 11.6
+2117-11-25 05:30:00        34.5        11.5 30.1  33.3 90.0     433.0 3.82 14.2    NaN 10.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2117-11-21 00:00:00
+sbp: 102.0
+dbp: 32.0
+mbp: 50.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: nan
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 94.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Subendocardial infarction, initial episode of care
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 2
+2. Subendocardial infarction, initial episode of care
+   drg_type: HCFA
+   description: CORONARY BYPASS W CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, Unit Dose, started on 2117-11-15 17:00:00 and stopped on 2117-11-20 09:00:00
+- Administered: Metoprolol Tartrate, 12.5 mg, Half Tab, METO12.5HT, started on 2117-11-15 20:00:00 and stopped on 2117-11-20 09:00:00
+- Administered: Aspirin, 325 mg, Tab, ASA325, started on 2117-11-16 08:00:00 and stopped on 2117-11-20 09:00:00
+- Administered: Hydrochlorothiazide, 12.5 mg, Tab, HCTZ12.5, started on 2117-11-16 08:00:00 and stopped on 2117-11-20 09:00:00
+- Administered: Lisinopril 10mg Tablet, 10 mg, Tab, LISI10, started on 2117-11-16 08:00:00 and stopped on 2117-11-19 16:00:00
+- Administered: Metoprolol Tartrate, 12.5 mg, Half Tab, METO12.5HT, started on 2117-11-15 20:00:00 and stopped on 2117-11-20 09:00:00
+- Administered: Atorvastatin, 80 mg, Tab, ATOR80, started on 2117-11-16 20:00:00 and stopped on 2117-11-20 09:00:00
+- Administered: Metoprolol Tartrate, 12.5 mg, Half Tab, METO12.5HT, started on 2117-11-15 20:00:00 and stopped on 2117-11-20 09:00:00
+- Administered: Mupirocin Ointment 2%, 1 Appl, BACT2022G, started on 2117-11-16 20:00:00 and stopped on 2117-11-19 16:00:00

@@ -1,0 +1,92 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 69
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2186-10-28 07:04:00
+  (6) discharge time: 2186-11-16 13:29:00
+  (7) transfer history: 
+2186-10-28 04:08:00 - 2186-10-28 07:06:49: Emergency Department
+2186-10-28 07:06:49 - 2186-10-28 08:38:22: Transplant
+2186-11-12 01:05:59 - 2186-11-16 13:30:05: Med/Surg
+2186-10-31 16:20:07 - 2186-10-31 21:35:35: Medicine
+2186-11-03 23:14:24 - 2186-11-12 01:05:59: Vascular
+2186-10-28 08:38:22 - 2186-10-31 16:20:07: Coronary Care Unit (CCU)
+2186-10-31 21:38:57 - 2186-11-03 23:14:24: Medical Intensive Care Unit (MICU)
+2186-10-31 21:35:35 - 2186-10-31 21:38:57: Medical Intensive Care Unit (MICU)
+2186-11-16 13:30:05: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2186-10-29 10:43:00        37.6        11.2 29.6  29.8  99.0     218.0 3.78  NaN    NaN  4.6
+2186-10-30 04:18:00        37.5        11.0 29.4  29.3 100.0     192.0 3.74  NaN    NaN  4.8
+2186-10-30 13:16:00        34.2        10.1 30.0  29.5 101.0     175.0 3.37  NaN    NaN  4.1
+2186-10-31 03:43:00        35.0        10.3 29.6  29.4 101.0     154.0 3.48  NaN    NaN  5.2
+2186-10-31 20:15:00        34.1        10.0 29.9  29.3 102.1     144.0 3.34  NaN    NaN  5.0
+2186-11-01 02:14:00        32.7         9.6 30.4  29.4 104.0     127.0 3.16  NaN    NaN  5.9
+2186-11-02 03:53:00        26.9         7.4 29.2  27.5 106.0      85.0 2.53  NaN    NaN  4.3
+2186-11-02 06:45:00        27.0         7.6 30.0  28.1 107.0      67.0 2.53  NaN    NaN  4.6
+2186-11-02 11:00:00        28.9         8.1 30.1  28.0 107.0      91.0 2.69  NaN    NaN  5.0
+2186-11-03 03:59:00        27.1         7.4 29.4  27.3 108.0      84.0 2.52  NaN    NaN  4.5
+2186-11-04 06:14:00        27.0         7.9 30.9  29.3 105.5      89.0 2.56  NaN    NaN  4.5
+2186-11-05 05:40:00        27.9         8.2 30.8  29.4 105.0      95.0 2.66  NaN    NaN  3.8
+2186-11-06 06:45:00        31.1         9.3 31.2  29.9 104.0     104.0 2.98 29.0    NaN  4.1
+2186-11-07 05:34:00        29.9         8.8 31.1  29.4 106.0     105.0 2.83 29.2    NaN  3.9
+2186-11-08 06:32:00        29.1         8.4 30.9  28.9 107.0      93.0 2.72 29.0    NaN  4.0
+2186-11-09 06:06:00        26.7         7.6 30.8  28.5 108.0      85.0 2.47 27.8    NaN  3.9
+2186-11-10 05:09:00        24.5         7.4 32.0  30.2 106.0      84.0 2.31 26.9    NaN  4.8
+2186-11-11 05:03:00        24.5         7.3 31.6  29.8 106.0      74.0 2.31 26.1    NaN  4.2
+2186-11-12 05:32:00        25.2         7.7 32.4  30.6 106.0     143.0 2.38 25.2    NaN  4.7
+2186-11-13 04:51:00        23.5         7.1 31.4  30.2 104.0     172.0 2.26 25.2    NaN  4.3
+2186-11-13 21:15:00        25.1         7.8 32.4  31.1 104.0     183.0 2.41 25.2    NaN  5.7
+2186-11-14 05:08:00        24.3         7.4 32.0  30.5 105.0     188.0 2.31 24.9    NaN  5.4
+2186-11-14 10:56:00        25.9         7.6 31.4  29.3 107.0     217.0 2.42 25.1    NaN  5.5
+2186-11-15 03:55:00        24.9         7.5 31.8  30.1 106.0     233.0 2.36 24.5    NaN  5.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2181-03-27 20:00:00
+sbp: 113.0
+dbp: 51.0
+mbp: 73.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 14.0
+temperature: 36.060000000
+temperature_site: Axillary
+spo2: 95.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 2
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Hepatic failure, unspecified with coma
+   drg_type: HCFA
+   description: DISORDERS OF LIVER EXCEPT MALIG,CIRR,ALC HEPA W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Hepatic failure, unspecified with coma
+   drg_type: APR
+   description: HEPATIC COMA & OTHER MAJOR ACUTE LIVER DISORDERS
+   drg_severity: 4
+   drg_mortality: 3
+
+Medication:
+- Furosemide: Administered from 2186-10-29 08:00:00 to 2186-10-31 22:00:00, dose given: 40 mg, dose given unit: 4 mL, product amount given: 40 mL, product unit: 4 mL, product code: FURO40I
+- Furosemide: Administered from 2186-10-29 08:00:00 to 2186-10-31 22:00:00, dose given: 20 mg, dose given unit: 2 mL, product amount given: 20 mL, product unit: 2 mL, product code: FURO40I
+- Ceftriaxone: Administered from 2186-10-28 13:00:00 to 2186-10-30 10:00:00, dose given: 1 gm, dose given unit: 100 mL, product amount given: 1 gm, product unit: 100 mL, product code: CEFTR1/100MBP
+- Lactulose Enema: Administered from 2186-10-28 16:00:00 to 2186-10-29 16:00:00, dose given: 1000 mL, dose given unit: 1 BTL, product amount given: 1000 mL, product unit: 1 BTL, product code: LACT1000R
+- Metoprolol Tartrate: Administered from 2186-10-28 18:00:00 to 2186-10-29 17:00:00, dose given: 5 mg, dose given unit: 5 mL, product amount given: 5 mL, product unit: 5 mL, product code: METO5I
+- Lactulose Enema: Administered from 2186-10-28 16:00:00 to 2186-10-29 16:00:00, dose given: 1000 mL, dose given unit: 1 BTL, product amount given: 1000 mL, product unit: 1 BTL, product code: LACT1000R
+- Ceftriaxone: Administered from 2186-10-28 13:00:00 to 2186-10-30

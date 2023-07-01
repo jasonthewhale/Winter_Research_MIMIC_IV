@@ -1,0 +1,79 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 68
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2153-03-08 00:00:00
+  (6) discharge time: 2153-03-13 13:30:00
+  (7) transfer history: 
+2153-03-08 06:43:51 - 2153-03-08 13:17:21: Discharge Lounge
+2153-03-10 11:07:58 - 2153-03-13 13:45:19: Cardiac Surgery
+2153-03-08 13:17:21 - 2153-03-10 11:07:58: Cardiac Vascular Intensive Care Unit (CVICU)
+2153-03-13 13:45:19: discharge
+
+2. Medical Data
+(1) heart rate: 
+2153-03-08 15:00:00-2153-03-08 15:00:00 SB (Sinus Bradycardia)
+2153-03-09 12:00:00-2153-03-09 12:00:00 1st AV (First degree AV Block) PVC's
+2153-03-09 13:00:00-2153-03-09 13:00:00 1st AV (First degree AV Block) PVC's
+2153-03-09 14:00:00-2153-03-09 14:00:00 1st AV (First degree AV Block) PVC's
+2153-03-09 15:00:00-2153-03-09 15:00:00 1st AV (First degree AV Block) PVC's
+2153-03-09 16:00:00-2153-03-09 16:00:00 1st AV (First degree AV Block) PVC's
+2153-03-09 17:00:00-2153-03-09 17:00:00 1st AV (First degree AV Block) PVC's
+2153-03-09 18:00:00-2153-03-09 18:00:00 1st AV (First degree AV Block) PVC's Rare
+2153-03-09 19:00:00-2153-03-09 19:00:00 1st AV (First degree AV Block) PVC's Occasional
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2153-03-08 12:30:00        38.3        13.4 31.1  35.0 89.0     142.0 4.31 12.4    NaN 10.9
+2153-03-08 13:57:00        36.9        12.9 31.4  35.0 90.0     163.0 4.11 12.6    NaN 11.1
+2153-03-08 20:00:00        36.0         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2153-03-09 03:09:00        31.6        10.9 31.4  34.5 91.0     154.0 3.47 13.1    NaN 14.2
+2153-03-10 02:39:00        33.3        11.2 31.0  33.6 92.0     138.0 3.61 13.1    NaN 14.6
+2153-03-11 07:05:00        35.7        12.1 31.4  33.9 93.0     179.0 3.85 13.2    NaN 13.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2153-03-09 05:00:00
+sbp: 146.0
+dbp: 54.0
+mbp: 78.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 21.0
+temperature: 36.670000000
+temperature_site: None
+spo2: 97.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 1
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 1
+   drg_mortality: 1
+
+Medication:
+- Sodium Chloride 0.9% Flush (10 mL) - Start time: 2153-03-08 08:00:00, Stop time: 2153-03-10 12:00:00
+- Calcium Gluconate 2 g / 100 mL 0.9% Sodium Chloride *Premix Bag* (2 g) - Start time: 2153-03-08 14:00:00, Stop time: 2153-03-10 12:00:00
+- Potassium Chloride 20 mEq / 50 mL Sterile Water (20 mEq) - Start time: 2153-03-08 14:00:00, Stop time: 2153-03-10 12:00:00
+- Fentanyl Citrate (25 mcg) - Start time: 2153-03-08 14:00:00, Stop time: 2153-03-10 12:00:00
+- Glycopyrrolate 1 mg / 5 mL Vial (0.6 mg) - Start time: 2153-03-08 14:00:00, Stop time: 2153-03-09 01:00:00
+- Neostigmine (3 mg) - Start time: 2153-03-08 14:00:00, Stop time: 2153-03-09 01:00:00
+- Fentanyl Citrate (25 mcg) - Start time: 2153-03-08 14:00:00, Stop time: 2153-03-10 12:00:00
+- Fentanyl Citrate (25 mcg) - Start time: 2153-03-08 14:00:00, Stop time: 2153-03-10 12:00:00
+- Ondansetron (4 mg) - Start time: 2153-03-08 14:00:00, Stop time: 2153-03-13 17:00:00

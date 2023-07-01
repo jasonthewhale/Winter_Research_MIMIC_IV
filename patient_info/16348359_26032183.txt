@@ -1,0 +1,98 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 36
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2175-01-15 12:54:00
+  (6) discharge time: 2175-02-08 16:30:00
+  (7) transfer history: 
+2175-01-15 12:55:36 - 2175-01-22 17:48:16: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2175-01-22 17:48:16 - 2175-01-23 14:17:01: Med/Surg
+2175-01-29 16:04:34 - 2175-02-08 17:18:10: Neurology
+2175-01-23 14:17:01 - 2175-01-29 16:04:34: Surgical Intensive Care Unit (SICU)
+2175-02-08 17:18:10: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2175-01-15 13:35:00        24.4         7.0 26.0  28.7 91.0     190.0 2.69 21.9    NaN 17.4
+2175-01-15 18:03:00        23.2         6.8 26.5  29.3 90.0     192.0 2.57 21.9    NaN 16.2
+2175-01-16 01:38:00        20.6         6.0 26.7  29.1 92.0     153.0 2.25 22.0    NaN 11.5
+2175-01-16 10:11:00        24.3         7.0 26.3  28.8 91.0     187.0 2.66 21.8    NaN 14.3
+2175-01-16 16:00:00        24.2         7.0 26.0  28.9 90.0     199.0 2.69 21.6    NaN 15.3
+2175-01-17 03:01:00        23.6         7.1 26.5  30.1 88.0     233.0 2.68 21.8    NaN 22.4
+2175-01-18 03:23:00        21.4         6.6 27.3  30.8 88.0     199.0 2.42 22.2    NaN 15.5
+2175-01-18 21:41:00        29.0         9.6 29.2  33.1 88.0     225.0 3.29 18.4    NaN 14.5
+2175-01-19 02:49:00        28.8         9.4 28.4  32.6 87.0     235.0 3.31 18.4    NaN 15.0
+2175-01-20 02:47:00        29.7         9.5 28.4  32.0 89.0     238.0 3.35 18.4    NaN 14.0
+2175-01-21 02:54:00        29.6         9.5 28.4  32.1 88.0     233.0 3.35 18.6    NaN 13.0
+2175-01-22 04:38:00        28.9         9.3 28.4  32.2 88.0     230.0 3.28 18.6    NaN 11.8
+2175-01-23 05:00:00        28.6         9.1 27.9  31.8 88.0     235.0 3.26 18.5    NaN 16.3
+2175-01-23 14:00:00        27.8         8.7 27.9  31.3 89.0     203.0 3.12 18.0    NaN 14.9
+2175-01-24 01:37:00        26.1         8.4 28.0  32.2 87.0     211.0 3.00 17.6    NaN 28.8
+2175-01-24 20:15:00        24.9         8.1 28.0  32.5 86.0     243.0 2.89 18.0    NaN 27.1
+2175-01-25 05:15:00        24.7         7.7 27.7  31.2 89.0     241.0 2.78 17.9    NaN 25.7
+2175-01-26 02:18:00        23.1         7.3 28.0  31.6 89.0     245.0 2.61 18.0    NaN 15.9
+2175-01-27 00:57:00        22.0         6.8 27.9  30.9 90.0     229.0 2.44 17.7    NaN 13.0
+2175-01-27 18:20:00        24.1         7.7 28.6  32.0 90.0     213.0 2.69 16.9    NaN 13.5
+2175-01-28 02:24:00        25.1         7.9 28.2  31.5 90.0     224.0 2.80 17.2    NaN 16.4
+2175-01-29 01:45:00        26.6         8.3 28.2  31.2 91.0     230.0 2.94 17.2    NaN 18.2
+2175-01-30 05:26:00        26.7         8.4 28.5  31.5 91.0     230.0 2.95 16.9    NaN 20.8
+2175-01-31 05:09:00        26.5         8.4 28.5  31.7 90.0     222.0 2.95 16.8    NaN 19.3
+2175-02-02 05:29:00        26.7         8.6 28.5  32.2 88.0     235.0 3.02 16.0    NaN 16.7
+2175-02-03 04:40:00        26.7         8.8 28.5  33.0 86.0     225.0 3.09 15.7    NaN 12.1
+2175-02-04 04:30:00        26.6         8.7 28.6  32.7 88.0     263.0 3.04 16.1    NaN 10.5
+2175-02-05 07:00:00        26.0         8.3 28.5  31.9 89.0     278.0 2.91 15.9    NaN 11.3
+2175-02-06 06:22:00        19.0         5.9 28.2  31.1 91.0     317.0 2.09 16.4    NaN 13.2
+2175-02-06 11:54:00        27.1         8.5 28.3  31.4 90.0     300.0 3.00 16.1    NaN 13.1
+2175-02-07 04:48:00        23.7         7.6 28.7  32.1 89.0     256.0 2.65 16.3    NaN 10.2
+2175-02-08 04:56:00        24.4         7.7 28.7  31.6 91.0     284.0 2.68 16.1    NaN  9.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2175-01-26 04:00:00
+sbp: 147.0
+dbp: 69.0
+mbp: 94.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 40.0
+temperature: 36.890000000
+temperature_site: Axillary
+spo2: 96.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Cerebral infarction due to embolism of unspecified cerebral artery
+   drg_type: APR
+   description: CRANIOTOMY EXCEPT FOR TRAUMA
+   drg_severity: 4
+   drg_mortality: 4
+2. Cerebral infarction due to embolism of unspecified cerebral artery
+   drg_type: HCFA
+   description: CRANIO W MAJOR DEV IMPL/ACUTE COMPLEX CNS PDX W MCC OR CHEMO IMPLANT
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 10 mL, started on 2175-01-16 08:00:00 and stopped on 2175-01-19 11:00:00
+- Administered: Aztreonam 1000 mg, 100 mL 0.9% Sodium Chloride (Mini Bag Plus), started on 2175-01-15 14:00:00 and stopped on 2175-01-16 02:00:00
+- Administered: Metoclopramide 10 mg, started on 2175-01-15 14:00:00 and stopped on 2175-01-24 10:00:00
+- Administered: Ipratropium Bromide HFA 12.9g Inhaler, 2 puffs, started on 2175-01-15 16:00:00 and stopped on 2175-01-16 10:00:00
+- Administered Bolus from IV Drip: Fentanyl Citrate 25 mcg, 0.5 mL, started on 2175-01-15 14:00:00 and stopped on 2175-01-17 10:00:00
+- Administered Bolus from IV Drip: Magnesium Sulfate 2 g / 50 mL (Premix Bag), started on 2175-01-15 15:00:00 and stopped on 2175-01-23 13:00:00
+- Administered: Metoprolol Tartrate 50mg Tablet, 50 mg, started on 2175-01-15 20:00:00 and stopped on 2175-01-17 10:00:00
+- Administered: Pantoprazole 40 mg Via, 40 mg, started on 2175-01-15 14:00:00 and stopped on 2175-01-21 11:00:00
+- Administered: Ipratropium Bromide HFA 12.9g Inhaler, 2 puffs, started on 2175-01-15 16:00:00 and stopped on 2175-01-16 10:00:00

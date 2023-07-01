@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 64
+  (3) race: UNKNOWN
+  (4) admission type: EW EMER.
+  (5) admit time: 2175-04-28 14:11:00
+  (6) discharge time: 2175-05-06 19:55:00
+  (7) transfer history: 
+2175-04-28 12:14:00 - 2175-04-28 15:35:00: Emergency Department
+2175-04-28 15:35:00 - 2175-05-01 18:45:00: Coronary Care Unit (CCU)
+2175-05-01 18:45:00 - 2175-05-06 19:55:50: Medicine
+2175-05-06 19:55:50: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2175-04-29 05:04:00        29.6        10.2 31.2  34.5 91.0     257.0 3.27 13.0    NaN 15.4
+2175-04-30 03:03:00        29.6         9.6 30.6  32.4 94.0     184.0 3.14 14.1    NaN 14.3
+2175-05-01 05:32:00        29.9         9.9 31.4  33.1 95.0     162.0 3.15 14.4    NaN  8.2
+2175-05-02 08:02:00        33.4        10.8 31.4  32.3 97.0     172.0 3.44 14.0    NaN  8.3
+2175-05-03 08:10:00        35.4        11.5 31.1  32.5 96.0     199.0 3.70 13.4    NaN  7.7
+2175-05-04 06:33:00        35.2        11.3 30.3  32.1 94.0     249.0 3.73 13.3    NaN  7.5
+2175-05-05 07:10:00        35.1        11.3 30.7  32.2 95.0     292.0 3.68 13.3    NaN  7.4
+2175-05-06 07:15:00        35.1        11.3 30.7  32.2 95.0     308.0 3.68 13.7    NaN  7.4
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2175-04-29 04:00:00
+sbp: 95.0
+dbp: 52.0
+mbp: 65.0
+sbp_ni: 95.0
+dbp_ni: 52.0
+mbp_ni: 65.0
+resp_rate: 12.5
+temperature: 37.890000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 3
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 2
+sofa_24hours: 7
+
+Physician's Diagnoses:
+1. Displacement of insulin pump, initial encounter
+   drg_type: HCFA
+   description: COMPLICATIONS OF TREATMENT W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Displacement of insulin pump, initial encounter
+   drg_type: APR
+   description: OTHER COMPLICATIONS OF TREATMENT
+   drg_severity: 4
+   drg_mortality: 4
+
+Medication:
+- Flushed Sodium Chloride 0.9% Flush: 10 mL, started on 2175-04-28 16:00:00 and stopped on 2175-05-01 15:00:00
+- Administered Calcium Gluconate 2 g / 100 mL 0.9% Sodium Chloride *Pharmacy Compounded*: 2 g, started on 2175-04-28 17:00:00 and stopped on 2175-04-28 18:00:00
+- Administered Heparin: 5000 UNIT, started on 2175-04-28 16:00:00 and stopped on 2175-05-03 11:00:00
+- Flushed Sodium Chloride 0.9% Flush: 10 mL, started on 2175-04-28 21:00:00 and stopped on 2175-04-29 14:00:00
+- Administered Chlorhexidine Gluconate 15 mL Cup: 15 mL, started on 2175-04-29 08:00:00 and stopped on 2175-04-29 17:00:00
+- Administered Aspirin: 325 mg, started on 2175-04-29 08:00:00 and stopped on 2175-04-29 17:00:00
+- Flushed Sodium Chloride 0.9% Flush: 3 mL, started on 2175-04-28 21:00:00 and stopped on 2175-04-29 14:00:00
+- Flushed Sodium Chloride 0.9% Flush: 3 mL, started on 2175-04-28 21:00:00 and stopped on 2175-05-07 00:00:00

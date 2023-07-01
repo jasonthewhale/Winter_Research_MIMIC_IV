@@ -1,0 +1,81 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 65
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2124-04-30 19:47:00
+  (6) discharge time: 2124-05-13 13:25:00
+  (7) transfer history: 
+2124-04-30 18:23:00 - 2124-04-30 20:16:00: Emergency Department
+2124-04-30 20:16:00 - 2124-04-30 21:02:51: Trauma SICU (TSICU)
+2124-04-30 21:02:51 - 2124-04-30 23:30:19: Neuro Stepdown
+2124-05-02 13:37:07 - 2124-05-08 22:20:55: Neuro Stepdown
+2124-04-30 23:30:19 - 2124-05-02 13:37:07: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2124-05-08 22:20:55 - 2124-05-13 13:30:22: Neurology
+2124-05-13 13:30:22: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2124-05-01 01:53:00        36.4        12.5 30.3  34.3 88.0     147.0 4.12 12.2    NaN  9.0
+2124-05-02 03:41:00        31.8        10.3 29.7  32.4 92.0     126.0 3.47 12.3    NaN  6.6
+2124-05-03 06:30:00        35.0        11.5 30.1  32.9 92.0     127.0 3.82 12.2    NaN  7.8
+2124-05-04 05:45:00        33.5        10.8 30.3  32.2 94.0     144.0 3.56 12.2    NaN  5.4
+2124-05-05 07:05:00        29.3         9.8 30.2  33.4 90.0     143.0 3.24 12.1    NaN  5.6
+2124-05-06 06:40:00        28.4         9.6 30.6  33.8 90.0     184.0 3.14 12.4    NaN  5.6
+2124-05-07 06:20:00        30.8        10.0 29.4  32.5 91.0     207.0 3.40 12.0    NaN  5.7
+2124-05-08 06:50:00        31.6        10.3 29.8  32.6 91.0     229.0 3.46 12.0    NaN  6.9
+2124-05-09 05:15:00        32.5        10.6 29.9  32.6 92.0     267.0 3.55 11.9    NaN  7.9
+2124-05-10 15:19:00        31.3        10.2 29.7  32.6 91.0     291.0 3.43 11.9    NaN  8.9
+2124-05-11 08:27:00        31.8        10.5 29.7  33.0 90.0     258.0 3.53 12.0    NaN  6.6
+2124-05-12 05:30:00        32.9        10.9 29.7  33.1 90.0     318.0 3.67 11.8    NaN  6.1
+2124-05-13 05:00:00        34.5        11.5 29.7  33.3 89.0     345.0 3.87 11.9    NaN  8.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2124-04-30 23:30:00
+sbp: 115.0
+dbp: 57.0
+mbp: 72.0
+sbp_ni: 115.0
+dbp_ni: 57.0
+mbp_ni: 72.0
+resp_rate: 14.0
+temperature: 36.500000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: <NA>
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 2
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Cerebral infarction due to embolism of right middle cerebral artery
+   drg_type: HCFA
+   description: CRANIO W MAJOR DEV IMPL/ACUTE COMPLEX CNS PDX W MCC OR CHEMO IMPLANT
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Cerebral infarction due to embolism of right middle cerebral artery
+   drg_type: APR
+   description: EXTRACRANIAL VASCULAR PROCEDURES
+   drg_severity: 4
+   drg_mortality: 3
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, started on 2124-05-01 14:00:00 and stopped on 2124-05-13 18:00:00
+- Administered: Acetaminophen 325mg Tablet, 325 mg, started on 2124-05-01 14:00:00 and stopped on 2124-05-13 18:00:00
+- Administered: Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride, 20 mg, started on 2124-05-01 14:00:00 and stopped on 2124-05-02 10:00:00
+- Administered: Heparin Sodium 5000 Units / mL- 1mL Vial, 5000 Units, started on 2124-05-01 20:00:00 and stopped on 2124-05-09 20:00:00
+- Administered: Sodium Chloride 0.9% - Floor Stock Bag, 500 mL, started on 2124-05-01 21:00:00 and stopped on 2124-05-02 10:00:00
+- Administered: Sodium Chloride 0.9% Flush, 3 mL, started on 2124-05-01 14:00:00 and stopped on 2124-05-13 18:00:00
+- Administered: Sodium Chloride 0.9% - Floor Stock Bag, 500 mL, started on 2124-05-02 03:00:00 and stopped on 2124-05-02 10:00:00
+- Administered: Sodium Chloride 0.9% Flush, 3 mL, started on 2124-05-01 14:00:00 and stopped on 2124-05-13 18:00:00
+- Administered: Aspirin (Rectal) 300mg Suppository, 300 mg, started on 2124-05-02 08:00:00 and stopped on 2124-05-02 10:00:00

@@ -1,0 +1,96 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 51
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2187-11-03 21:26:00
+  (6) discharge time: 2187-11-19 18:44:00
+  (7) transfer history: 
+2187-11-03 21:27:07 - 2187-11-11 08:38:26: Medicine/Cardiology
+2187-11-15 16:16:12 - 2187-11-19 18:45:02: Cardiology Surgery Intermediate
+2187-11-11 08:38:26 - 2187-11-11 11:31:43: PACU
+2187-11-13 00:52:49 - 2187-11-15 16:16:12: Cardiac Vascular Intensive Care Unit (CVICU)
+2187-11-11 11:31:43 - 2187-11-13 00:52:49: Cardiac Vascular Intensive Care Unit (CVICU)
+2187-11-19 18:45:02: discharge
+
+2. Medical Data
+(1) heart rate: 
+2187-11-12 07:00:00-2187-11-12 09:00:00 A Paced
+2187-11-12 17:00:00-2187-11-12 17:00:00 SB (Sinus Bradycardia)
+2187-11-12 18:00:00-2187-11-12 22:00:00 A Paced
+2187-11-12 19:00:00-2187-11-12 22:00:00 SR (Sinus Rhythm)
+2187-11-13 07:00:00-2187-11-13 08:00:00 SR (Sinus Rhythm)
+2187-11-13 17:00:00-2187-11-13 17:00:00 SB (Sinus Bradycardia)
+2187-11-13 18:00:00-2187-11-13 23:00:00 SR (Sinus Rhythm)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2187-11-04 00:13:00        36.2        11.9 30.6  32.9 93.0     212.0 3.89 12.7    NaN 12.1
+2187-11-04 07:39:00        38.6        12.6 30.4  32.6 93.0     231.0 4.14 12.7    NaN 11.9
+2187-11-05 05:49:00        38.1        12.5 31.0  32.8 95.0     222.0 4.03 12.8    NaN  8.8
+2187-11-06 06:04:00        40.9        13.7 31.1  33.5 93.0     219.0 4.41 12.5    NaN  8.9
+2187-11-07 03:45:00        37.4        12.1 30.5  32.4 94.0     196.0 3.97 12.5    NaN  7.4
+2187-11-08 06:15:00        35.3        11.7 30.9  33.1 93.0     184.0 3.79 12.5    NaN  7.8
+2187-11-09 05:59:00        36.2        11.9 31.0  32.9 94.0     171.0 3.84 12.5    NaN  8.8
+2187-11-10 06:17:00        34.8        11.7 31.0  33.6 92.0     164.0 3.77 12.5    NaN  7.7
+2187-11-11 06:30:00        39.4        13.1 30.9  33.2 93.0     199.0 4.24 12.7    NaN  9.1
+2187-11-11 14:38:00        25.0         8.3 31.4  33.2 95.0     116.0 2.64 12.5    NaN 20.6
+2187-11-11 15:45:00        32.9        11.0 31.7  33.4 95.0     124.0 3.47 12.7    NaN 23.8
+2187-11-11 18:28:00        30.9         NaN  NaN   NaN  NaN     134.0  NaN  NaN    NaN  NaN
+2187-11-11 20:55:00        24.3         8.2 31.4  33.6 94.0     117.0 2.61 12.6    NaN 17.4
+2187-11-11 23:48:00        28.5         9.3 30.5  32.6 93.0     117.0 3.05 13.4    NaN 12.6
+2187-11-12 04:14:00        24.4         8.2 30.9  33.6 92.0     125.0 2.65 13.7    NaN 11.2
+2187-11-12 13:01:00        25.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-11-13 02:03:00        23.8         7.6 30.5  31.9 96.0      92.0 2.49 13.8    NaN 10.5
+2187-11-13 08:22:00        23.2         7.7  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-11-13 13:37:00        22.7         7.4  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2187-11-14 02:08:00        24.6         8.2 31.3  33.3 94.0     100.0 2.62 14.2    NaN  8.7
+2187-11-15 03:14:00        24.0         7.8 30.6  32.5 94.0     145.0 2.55 13.6    NaN  9.5
+2187-11-16 05:56:00        26.8         8.5 29.8  31.7 94.0     202.0 2.85 13.1    NaN  9.4
+2187-11-17 05:05:00        28.3         9.2 30.3  32.5 93.0     217.0 3.04 13.0    NaN  8.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2187-11-13 01:00:00
+sbp: 111.0
+dbp: 72.0
+mbp: 83.0
+sbp_ni: 111.0
+dbp_ni: 72.0
+mbp_ni: 83.0
+resp_rate: nan
+temperature: 36.940000000
+temperature_site: Oral
+spo2: nan
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 3
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Nonrheumatic mitral (valve) insufficiency
+   drg_type: APR
+   description: CARDIAC VALVE PROCEDURES W/O AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 3
+2. Nonrheumatic mitral (valve) insufficiency
+   drg_type: HCFA
+   description: CARDIAC VALVE & OTH MAJ CARDIOTHORACIC PROC W CARD CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2187-11-03 23:00:00 and stopped on 2187-11-11 13:00:00
+- Administered: Metoprolol Tartrate 25mg Tablet, started on 2187-11-04 01:00:00 and stopped on 2187-11-04 05:00:00
+- Administered: Metoprolol Tartrate 12.5mg Tablet, started on 2187-11-04 01:00:00 and stopped on 2187-11-04 05:00:00
+- Administered: Metoprolol Tartrate 50mg Tablet, started on 2187-11-04 11:00:00 and stopped on 2187-11-11 13:00:00
+- Administered: Aspirin 81mg Tablet, started on 2187-11-04 01:00:00 and stopped on 2187-11-11 13:00:00
+- Administered: Azithromycin 250mg Tablet, started on 2187-11-04 08:00:00 and stopped on 2187-11-06 13:00:00
+- Administered: CefTRIAXone 1g Vial, started on 2187-11-04 07:00:00 and stopped on 2187-11-07 06:00:00
+- Administered: Lisinopril 20mg Tablet, started on 2187-11-04 05:00:00 and stopped on 2187-11-09 15:00:00
+- Administered: Furosemide 40mg, started on 2187-11-04 10:00:00 and stopped on 2187-11-05 00:00:00

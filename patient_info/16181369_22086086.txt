@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 91
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2168-06-09 16:43:00
+  (6) discharge time: 2168-06-15 17:15:00
+  (7) transfer history: 
+2168-06-09 13:12:00 - 2168-06-09 18:09:00: Emergency Department
+2168-06-09 18:09:00 - 2168-06-11 17:57:24: Coronary Care Unit (CCU)
+2168-06-11 17:57:24 - 2168-06-15 17:15:36: Medicine/Cardiology
+2168-06-15 17:15:36: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2168-06-10 04:40:00        27.3         8.8 29.6  32.1 92.0     247.0 2.96 18.5    NaN  7.9
+2168-06-11 05:15:00        29.1         9.3 29.2  32.0 91.0     252.0 3.19 18.7    NaN  8.6
+2168-06-12 05:55:00        29.8         9.6 29.8  32.1 93.0     249.0 3.21 18.5    NaN  7.2
+2168-06-13 06:20:00        30.1         9.5 29.5  31.5 94.0     292.0 3.22 17.9    NaN 11.5
+2168-06-14 05:50:00        31.2         9.6 29.1  30.7 95.0     280.0 3.29 17.8    NaN  7.8
+2168-06-15 09:00:00        33.1        10.4 29.3  31.4 93.0     318.0 3.55 18.0    NaN  8.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2168-06-10 02:00:00
+sbp: 112.0
+dbp: 42.0
+mbp: 57.0
+sbp_ni: 112.0
+dbp_ni: 42.0
+mbp_ni: 57.0
+resp_rate: 16.0
+temperature: 36.330000000
+temperature_site: Temporal
+spo2: 100.0
+cardiovascular: 2
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Acute on chronic combined systolic and diastolic heart failure
+   drg_type: APR
+   description: HEART FAILURE
+   drg_severity: 4
+   drg_mortality: 4
+2. Acute on chronic combined systolic and diastolic heart failure
+   drg_type: HCFA
+   description: HEART FAILURE & SHOCK W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, started on 2168-06-11 19:00:00 and stopped on 2168-06-15 21:00:00
+- Administered: Heparin, started on 2168-06-10 14:00:00 and stopped on 2168-06-15 21:00:00
+- Administered: CeftriaXONE, started on 2168-06-12 03:00:00 and stopped on 2168-06-13 15:00:00
+- Administered: Sodium Chloride 0.9% Flush, started on 2168-06-11 19:00:00 and stopped on 2168-06-15 21:00:00
+- Administered: Aspirin, started on 2168-06-11 08:00:00 and stopped on 2168-06-15 21:00:00
+- Administered: Famotidine, started on 2168-06-10 16:00:00 and stopped on 2168-06-15 21:00:00
+- Administered: Heparin, started on 2168-06-10 14:00:00 and stopped on 2168-06-15 21:00:00
+- Administered: Lisinopril, started on 2168-06-12 08:00:00 and stopped on 2168-06-15 21:00:00
+- Administered: Metoprolol Tartrate, started on 2168-06-12 20:00:00 and stopped on 2168-06-12 13:00:00
+- Administered: Sodium Chloride 0.9% Flush, started on 2168-06-11 19:00:00 and stopped on 2168-06-15 21:00:00

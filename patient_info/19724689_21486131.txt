@@ -1,0 +1,81 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 70
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2118-04-06 23:23:00
+  (6) discharge time: 2118-04-14 16:40:00
+  (7) transfer history: 
+2118-04-06 23:24:33 - 2118-04-09 07:21:27: Cardiology Surgery Intermediate
+2118-04-10 17:36:16 - 2118-04-14 16:48:42: Cardiology Surgery Intermediate
+2118-04-09 07:21:27 - 2118-04-09 09:46:52: PACU
+2118-04-09 09:46:52 - 2118-04-10 17:36:16: Cardiac Vascular Intensive Care Unit (CVICU)
+2118-04-14 16:48:42: discharge
+
+2. Medical Data
+(1) heart rate: 
+2118-04-09 13:30:00-2118-04-09 14:15:00 A Paced
+2118-04-09 14:15:00-2118-04-09 18:00:00 SR (Sinus Rhythm)
+2118-04-09 18:00:00-2118-04-09 19:00:00 ST (Sinus Tachycardia)
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2118-04-07 00:38:00        40.5        12.8 29.0  31.6 92.0     357.0 4.42 13.3    NaN  9.7
+2118-04-09 12:03:00        23.2         7.5 28.8  32.3 89.0     169.0 2.60 13.5    NaN 16.1
+2118-04-09 13:20:00        27.6         9.0 28.8  32.6 89.0     301.0 3.12 13.3    NaN 19.4
+2118-04-09 19:09:00        26.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2118-04-10 02:58:00        25.1         8.1 28.7  32.3 89.0     325.0 2.82 13.5    NaN 14.2
+2118-04-10 14:02:00        21.6         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2118-04-10 14:58:00        22.1         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2118-04-11 04:13:00        20.2         6.3 28.4  31.2 91.0     225.0 2.22 14.0    NaN  9.0
+2118-04-11 14:45:00        23.2         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2118-04-12 05:04:00        23.4         7.3 28.7  31.2 92.0     254.0 2.54 14.2    NaN  9.0
+2118-04-13 05:26:00        25.3         8.0 29.3  31.6 93.0     352.0 2.73 14.2    NaN 10.0
+2118-04-14 06:20:00        24.4         7.8 29.8  32.0 93.0     415.0 2.62 14.6    NaN  9.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2118-04-10 16:00:00
+sbp: 90.0
+dbp: 57.0
+mbp: 68.0
+sbp_ni: 90.0
+dbp_ni: 57.0
+mbp_ni: 68.0
+resp_rate: 17.0
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 99.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 1
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 3
+
+Physician's Diagnoses:
+1. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Atherosclerotic heart disease of native coronary artery without angina pectoris
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 1
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, started on 2118-04-07 01:00:00 and stopped on 2118-04-09 10:00:00
+- Administered: Levothyroxine Sodium, 88 mcg, started on 2118-04-07 01:00:00 and stopped on 2118-04-09 10:00:00
+- Administered: Docusate Sodium, 100 mg, started on 2118-04-07 01:00:00 and stopped on 2118-04-09 10:00:00
+- Administered: Aspirin (Chewable) 81mg Tab, 81 mg, started on 2118-04-07 01:00:00 and stopped on 2118-04-09 10:00:00
+- Administered: FLUoxetine 20mg Capsule, 20 mg, started on 2118-04-07 01:00:00 and stopped on 2118-04-09 10:00:00
+- Administered: Hydrochlorothiazide 25mg Tablet, 25 mg, started on 2118-04-07 01:00:00 and stopped on 2118-04-09 10:00:00
+- Administered: Lansoprazole Oral Disintegrating Tab *NF* 30mg SoluTab, 30 mg, started on 2118-04-07 01:00:00 and stopped on 2118-04-09 10:00:00
+- Administered: Metoprolol Succinate XL 25mg XL Tab, 25 mg, started on 2118-04-07 01:00:00 and stopped on 2118-04-08 17:00:00
+- Flushed: Sodium Chloride 0.9% Flush, 3 mL, started on 2118-04-07 01:00:00 and stopped on 2118-04-09 10:00:00
+- Administered: Senna 8.6 mg Tablet, 8.6 mg, started on 2118-04-07 01:00:00 and stopped on 2118-04-09 10:

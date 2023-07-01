@@ -1,0 +1,68 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 58
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2146-04-14 00:07:00
+  (6) discharge time: 2146-04-19 13:35:00
+  (7) transfer history: 
+2146-04-13 20:59:00 - 2146-04-14 02:04:00: Emergency Department
+2146-04-14 02:04:00 - 2146-04-14 02:36:18: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2146-04-14 02:36:18 - 2146-04-19 15:46:10: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2146-04-19 15:46:10: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2146-04-13 21:09:00        25.0         8.1 31.8  32.4  98.0     433.0 2.55 16.0    NaN 57.5
+2146-04-14 03:54:00        25.0         8.0 31.9  32.0 100.0     408.0 2.51 16.2    NaN 43.7
+2146-04-15 04:19:00        25.5         8.1 31.6  31.8 100.0     372.0 2.56 15.7    NaN 41.6
+2146-04-16 00:04:00        26.5         8.1 30.9  30.6 101.0     377.0 2.62 15.8    NaN 54.0
+2146-04-17 04:04:00        26.4         8.2 31.5  31.1 102.0     321.0 2.60 15.5    NaN 63.0
+2146-04-18 03:35:00        27.1         8.4 30.9  31.0 100.0     259.0 2.72 15.5    NaN 62.8
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2146-04-15 04:00:00
+sbp: 151.0
+dbp: 86.0
+mbp: 101.0
+sbp_ni: 151.0
+dbp_ni: 86.0
+mbp_ni: 101.0
+resp_rate: 27.0
+temperature: 37.280000000
+temperature_site: Axillary
+spo2: 95.0
+cardiovascular: <NA>
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Sepsis, unspecified organism
+   drg_type: APR
+   description: SEPTICEMIA & DISSEMINATED INFECTIONS
+   drg_severity: 4
+   drg_mortality: 3
+2. Sepsis, unspecified organism
+   drg_type: HCFA
+   description: SEPTICEMIA OR SEVERE SEPSIS W/O MV >96 HOURS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Piperacillin-Tazobactam: Administered from 2146-04-14 04:00:00 to 2146-04-14 18:00:00, dose given: 4.5g, dose given unit: g, product amount given: 100mL, product unit: mL, product code: ZOSY4FPB, product description: Piperacillin-Tazobactam 4.5g / 100mL Iso-Osmotic Dextrose
+- Docusate Sodium (Liquid): Administered from 2146-04-14 04:00:00 to 2146-04-19 13:00:00, dose given: 100mg, dose given unit: mg, product amount given: 1UDCUP, product unit: UDCUP, product code: DOCU100L, product description: Docusate Sodium (Liquid) 100mg / 10mL Cup
+- Enoxaparin Sodium: Administered from 2146-04-14 04:00:00 to 2146-04-15 08:00:00, dose given: 60mg, dose given unit: mg, product amount given: 0.6mL, product unit: mL, product code: ENOX60I
+- Thiamine: Administered from 2146-04-14 05:00:00 to 2146-04-19 13:00:00, dose given: 100mg, dose given unit: mg, product amount given: 1TAB, product unit: TAB, product code: THIA100
+- Vancomycin: Administered from 2146-04-14 08:00:00 to 2146-04-17 09:00:00, dose given: 1000mg, dose given unit: mg, product amount given: 200mL, product unit: mL, product code: VANC1F, product description: Vancomycin 1000mg / 200mL Dextrose (Premix)
+- Vitamin D: Administered from 2146-04-14 05:00:00 to 2146-04-19 13:00:00, dose given: 1000UNIT, dose given unit: UNIT, product amount given: 1TAB, product unit: TAB,

@@ -1,0 +1,80 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 68
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2180-03-24 00:00:00
+  (6) discharge time: 2180-03-30 15:20:00
+  (7) transfer history: 
+2180-03-24 01:32:17 - 2180-03-24 18:32:56: Discharge Lounge
+2180-03-27 12:22:38 - 2180-03-30 15:28:29: Medicine
+2180-03-24 18:32:56 - 2180-03-26 08:12:29: Medicine
+2180-03-26 20:38:45 - 2180-03-27 12:22:38: Trauma SICU (TSICU)
+2180-03-26 08:12:29 - 2180-03-26 20:38:45: Trauma SICU (TSICU)
+2180-03-30 15:28:29: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2180-03-25 04:31:00        34.9        10.9 27.2  31.2 87.0       NaN 4.01 14.1    NaN 14.8
+2180-03-25 17:29:00        33.8        10.6 27.1  31.4 86.0       NaN 3.91 14.5    NaN 16.9
+2180-03-25 19:12:00         NaN         NaN  NaN   NaN  NaN     169.0  NaN  NaN    NaN  NaN
+2180-03-25 21:35:00        32.2        10.1 27.7  31.4 89.0     173.0 3.64 14.4    NaN 20.4
+2180-03-26 06:12:00        33.4        10.8 27.9  32.3 86.0       NaN 3.87 14.6    NaN 23.4
+2180-03-26 10:27:00        31.1        10.2 28.2  32.8 86.0      42.0 3.62 14.6    NaN 22.4
+2180-03-26 16:20:00        30.1         9.7 27.4  32.2 85.0       NaN 3.54 14.6    NaN 19.8
+2180-03-26 18:14:00         NaN         NaN  NaN   NaN  NaN     114.0  NaN  NaN    NaN  NaN
+2180-03-26 21:30:00        31.2        10.3 27.9  33.0 85.0     138.0 3.69 14.7    NaN 18.1
+2180-03-27 01:14:00        30.3         9.8 27.7  32.3 86.0       NaN 3.54 14.6    NaN 17.5
+2180-03-27 16:00:00        32.2        10.2 27.1  31.7 86.0       NaN 3.76 14.6    NaN 16.3
+2180-03-28 06:28:00        31.5         9.9 27.7  31.4 88.0       NaN 3.58 14.4    NaN 13.2
+2180-03-28 09:35:00        33.1        10.4 27.4  31.4 87.0      79.0 3.80 14.6    NaN 13.6
+2180-03-29 04:43:00        29.8         9.4 27.6  31.5 88.0       NaN 3.40 14.4    NaN 12.6
+2180-03-29 06:47:00         NaN         NaN  NaN   NaN  NaN     197.0  NaN  NaN    NaN  NaN
+2180-03-30 04:33:00        27.9         8.8 27.1  31.5 86.0       NaN 3.25 14.3    NaN 10.8
+2180-03-30 06:28:00         NaN         NaN  NaN   NaN  NaN     196.0  NaN  NaN    NaN  NaN
+2180-03-30 13:07:00        31.4        10.1 27.9  32.2 87.0       NaN 3.62 14.3    NaN 13.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2180-03-27 12:00:00
+sbp: 141.0
+dbp: 59.0
+mbp: 111.0
+sbp_ni: 141.0
+dbp_ni: 59.0
+mbp_ni: 111.0
+resp_rate: 26.0
+temperature: 36.830000000
+temperature_site: None
+spo2: 93.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 3
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Crohn's disease of small intestine with intestinal obstruction
+   drg_type: APR
+   description: OTHER SMALL & LARGE BOWEL PROCEDURES
+   drg_severity: 3
+   drg_mortality: 3
+2. Crohn's disease of small intestine with intestinal obstruction
+   drg_type: HCFA
+   description: ANAL & STOMAL PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Ketorolac: Administered from 2180-03-24 19:00:00 to 2180-03-25 06:00:00, dose given: 15 mg, dose given unit: mg, product amount given: 1, product unit: VIAL, product code: KETO15I, product description: Ketorolac, pharmacy id: 71667724, medication: Ketorolac, route: IV, frequency: Q6H, disp sched: 19, 1, 7, 13, doses per 24 hrs: 4.0, duration: 48.0 hours
+- Sodium Chloride 0.9% Flush: Flushed from 2180-03-24 19:00:00 to 2180-03-30 20:00:00, dose given: 3 mL, dose given unit: mL, product amount given: 0.3, product unit: SYR, product code: NACLFLUSH, product description: Sodium Chloride 0.9% Flush, pharmacy id: 39365372, medication: Sodium Chloride 0.9% Flush, route: IV, frequency: Q8H, disp sched: 19, 3, 11, doses per 24 hrs: 3.0, duration: Ongoing
+- Fluticasone Propionate NASAL: Administered from 2180-03-24 08:00:00 to 2180-03-30 20:00:00, dose given: 2 SPRY, dose given unit: SPRY, product amount given: None, product unit: None, product code: FLUT16N, product description: Fluticasone Propionate NASAL 16g NASAL SPRAY, pharmacy id: 13111696, medication: Fluticasone Propionate NASAL, route: NU, frequency: DAILY, disp sched: 08, doses per 24 hrs: 1.0, duration: Ongoing
+- Heparin: Administered from 2180-03-24 20:00:00 to 2180-03-25 16:00:00, dose given: 5000 UNIT, dose given unit: UNIT, product amount given: 1 mL, product unit: mL, product code: HEPA5I, product description: Heparin,

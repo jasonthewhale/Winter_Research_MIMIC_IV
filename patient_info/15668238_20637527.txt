@@ -1,0 +1,85 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 83
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2184-01-27 16:52:00
+  (6) discharge time: 2184-02-08 18:02:00
+  (7) transfer history: 
+2184-01-27 16:53:05 - 2184-01-31 16:11:35: Medicine/Cardiology
+2184-02-03 20:39:41 - 2184-02-08 18:05:16: Cardiology Surgery Intermediate
+2184-02-02 08:34:32 - 2184-02-02 08:48:34: PACU
+2184-01-31 16:11:35 - 2184-02-02 08:34:32: Medicine/Cardiology
+2184-02-02 08:48:34 - 2184-02-03 20:39:41: Cardiac Vascular Intensive Care Unit (CVICU)
+2184-02-08 18:05:16: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2184-01-27 18:45:00        32.6        10.2 29.4  31.3 94.0     192.0 3.47 13.4    NaN 10.6
+2184-01-28 06:18:00        30.1         9.3 29.0  30.9 94.0     175.0 3.21 13.3    NaN  9.0
+2184-01-29 06:24:00        26.9         8.4 29.3  31.2 94.0     184.0 2.87 13.5    NaN  8.6
+2184-01-30 07:25:00        24.5         7.6 29.3  31.0 95.0     174.0 2.59 13.6    NaN  8.2
+2184-01-30 18:42:00        30.7         9.5 28.1  30.9 91.0     180.0 3.38 14.9    NaN  9.2
+2184-01-31 06:21:00        30.8         9.3 28.8  30.2 95.0     187.0 3.23 15.9    NaN  9.3
+2184-02-01 05:55:00        31.1         9.8 28.6  31.5 91.0     186.0 3.43 15.6    NaN 11.5
+2184-02-02 05:50:00        31.0         9.6 28.4  31.0 92.0     198.0 3.38 15.2    NaN 13.7
+2184-02-02 12:38:00        19.8         6.1 29.0  30.8 94.0     119.0 2.10 14.9    NaN  5.9
+2184-02-02 13:55:00        21.0         6.5 29.1  31.0 94.0     163.0 2.23 15.0    NaN 16.9
+2184-02-02 17:22:00        32.5         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2184-02-03 03:10:00        27.7         9.1 29.2  32.9 89.0     189.0 3.12 14.7    NaN 18.3
+2184-02-04 06:00:00        25.7         8.2 29.3  31.9 92.0     177.0 2.80 14.6    NaN 16.1
+2184-02-05 05:15:00        24.6         7.8 29.0  31.7 91.0     163.0 2.69 14.6    NaN 13.7
+2184-02-06 05:14:00        25.7         8.0 28.9  31.1 93.0     195.0 2.77 14.6    NaN 10.8
+2184-02-07 05:10:00        29.0         8.9 28.9  30.7 94.0     248.0 3.08 14.9    NaN 10.6
+2184-02-08 04:47:00        28.5         8.7 28.6  30.5 94.0     258.0 3.04 15.1    NaN  9.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2184-02-02 15:15:00
+sbp: 105.0
+dbp: 54.0
+mbp: 75.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 17.0
+temperature: 36.330000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 2
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Other postprocedural cardiac functional disturbances following other surgery
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 3
+   drg_mortality: 3
+2. Other postprocedural cardiac functional disturbances following other surgery
+   drg_type: HCFA
+   description: CORONARY BYPASS W CARDIAC CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2184-01-27 18:00:00, stop time: 2184-02-02 09:00:00
+- Administered: Atorvastatin 80mg Tablet, start time: 2184-01-27 18:00:00, stop time: 2184-02-02 09:00:00
+- Administered: Levetiracetam 500mg Tablet, start time: 2184-01-27 18:00:00, stop time: 2184-02-02 09:00:00
+- Administered: Levetiracetam 500mg Tablet, start time: 2184-01-27 18:00:00, stop time: 2184-02-02 09:00:00
+- Administered: Tamsulosin 0.4mg Capsule, start time: 2184-01-27 18:00:00, stop time: 2184-02-02 09:00:00
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2184-01-27 18:00:00, stop time: 2184-02-02 09:00:00
+- Administered: Heparin 1200 UNIT, start time: 2184-01-27 18:00:00, stop time: 2184-01-29 14:00:00
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2184-01-27 18:00:00, stop time: 2184-02-02 09:00:00
+- Administered: Allopurinol 100mg Tablet, start time: 2184-01-28 08:00:00, stop time: 2184-02-02 09:00:00
+- Administered: Allopurinol 100mg Tablet, start time: 2184-01-28 08:00:00, stop time: 2184-02-02 09:00:00

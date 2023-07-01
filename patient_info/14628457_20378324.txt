@@ -1,0 +1,94 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 76
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2147-12-04 17:54:00
+  (6) discharge time: 2147-12-22 12:45:00
+  (7) transfer history: 
+2147-12-04 14:05:00 - 2147-12-04 17:54:33: Emergency Department
+2147-12-04 17:54:33 - 2147-12-04 18:03:54: Neurology
+2147-12-06 18:52:44 - 2147-12-07 18:49:08: Neuro Stepdown
+2147-12-16 17:42:29 - 2147-12-18 21:32:29: Neuro Stepdown
+2147-12-04 18:39:32 - 2147-12-05 00:02:36: Neuro Stepdown
+2147-12-13 17:57:15 - 2147-12-16 17:42:29: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2147-12-05 00:02:36 - 2147-12-06 18:52:44: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2147-12-13 14:44:32 - 2147-12-13 17:57:15: Neuro Stepdown
+2147-12-19 22:06:59 - 2147-12-22 13:17:35: Neurology
+2147-12-18 21:32:29 - 2147-12-19 22:05:40: Neurology
+2147-12-07 18:49:08 - 2147-12-13 14:44:32: Neurology
+2147-12-19 22:05:40 - 2147-12-19 22:06:59: Neurology
+2147-12-04 18:03:54 - 2147-12-04 18:39:32: Discharge Lounge
+2147-12-22 13:17:35: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2147-12-05 00:56:00        40.0         NaN  NaN   NaN  NaN     252.0  NaN  NaN    NaN 12.1
+2147-12-06 02:11:00        40.0         NaN  NaN   NaN  NaN     229.0  NaN  NaN    NaN 12.6
+2147-12-07 05:32:00        38.0        11.6 24.0  30.3 79.0     218.0 4.80  NaN    NaN 10.2
+2147-12-08 04:35:00        39.0        11.9  NaN   NaN  NaN     204.0  NaN  NaN    NaN  8.1
+2147-12-09 05:20:00        42.0        12.8  NaN   NaN  NaN     206.0  NaN  NaN    NaN  8.3
+2147-12-10 06:50:00        43.0        13.0  NaN   NaN  NaN     229.0  NaN  NaN    NaN 11.2
+2147-12-11 13:00:00        42.0        13.1  NaN   NaN  NaN     215.0  NaN  NaN    NaN 11.2
+2147-12-12 04:55:00        42.0        12.7  NaN   NaN  NaN     216.0  NaN  NaN    NaN 10.5
+2147-12-13 04:40:00        43.0        12.9  NaN   NaN  NaN     217.0  NaN  NaN    NaN 12.7
+2147-12-13 21:00:00        41.0        12.4  NaN   NaN  NaN     231.0  NaN  NaN    NaN 11.2
+2147-12-14 04:20:00        42.0        12.7  NaN   NaN  NaN     218.0  NaN  NaN    NaN 10.0
+2147-12-14 23:56:00        42.0        13.1  NaN   NaN  NaN     236.0  NaN  NaN    NaN  9.8
+2147-12-15 16:48:00        42.0        12.5  NaN   NaN  NaN     234.0  NaN  NaN    NaN 10.3
+2147-12-16 03:50:00        42.0        12.6  NaN   NaN  NaN     216.0  NaN  NaN    NaN 11.1
+2147-12-17 06:55:00        45.0        13.0  NaN   NaN  NaN     219.0  NaN  NaN    NaN  9.9
+2147-12-18 06:35:00        43.5        13.1  NaN   NaN  NaN     217.0  NaN  NaN    NaN  9.8
+2147-12-19 07:35:00        44.0        13.7 25.2  30.9 82.0     234.0 5.44  NaN    NaN  9.7
+2147-12-20 04:50:00        45.0        14.2  NaN   NaN  NaN     230.0  NaN  NaN    NaN  9.5
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2147-12-05 20:00:00
+sbp: 128.0
+dbp: 53.0
+mbp: 79.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 18.0
+temperature: 36.500000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 1
+renal: 1
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Nontraumatic acute subdural hemorrhage
+   drg_type: APR
+   description: CRANIOTOMY EXCEPT FOR TRAUMA
+   drg_severity: 2
+   drg_mortality: 3
+2. Nontraumatic acute subdural hemorrhage
+   drg_type: HCFA
+   description: CRANIOTOMY & ENDOVASCULAR INTRACRANIAL PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2147-12-04 21:00:00, stop time: 2147-12-15 13:00:00
+- Flushed: Sodium Chloride 0.9% Flush, start time: 2147-12-04 00:00:00, stop time: 2147-12-07 14:00:00
+- Administered: Acetaminophen IV 1000 mg / 100 mL Bottle, start time: 2147-12-05 02:00:00, stop time: 2147-12-06 02:00:00
+- Administered: Metoprolol Tartrate, start time: 2147-12-05 02:00:00, stop time: 2147-12-05 08:00:00
+- Administered: HydrALAzine, start time: 2147-12-04 00:00:00, stop time: 2147-12-05 03:00:00
+- Administered: Potassium Chloride 20 mEq / 250 mL 0.9% Sodium Chloride, start time: 2147-12-05 04:00:00, stop time: 2147-12-06 03:00:00
+- Administered: Insulin, start time: 2147-12-05 02:00:00, stop time: 2147-12-14 12:00:00
+- Administered: Magnesium Sulfate 2 g / 50 mL (Premix Bag), start time: 2147-12-05 04:00:00, stop time: 2147-12-07 14:00:00
+- Administered: CefazoLIN 2 g / 50 mL Iso-Osmotic Dextrose (Duplex), start time: 2147-12-05 06:00:00, stop time: 2147-12-06 05:00:00
+- Administered: LeVETiracetam 750 mg in 100 mL 0.9% Sodium Chloride, start time: 2147-12-04 22:00:00, stop time: 2147

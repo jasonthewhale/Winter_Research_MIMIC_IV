@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 54
+  (3) race: HISPANIC/LATINO - GUATEMALAN
+  (4) admission type: EW EMER.
+  (5) admit time: 2120-01-02 07:24:00
+  (6) discharge time: 2120-01-09 19:00:00
+  (7) transfer history: 
+2120-01-02 05:38:00 - 2120-01-02 08:47:00: Emergency Department
+2120-01-02 08:47:00 - 2120-01-04 01:59:32: Medical Intensive Care Unit (MICU)
+2120-01-04 01:59:32 - 2120-01-09 19:20:25: Transplant
+2120-01-09 19:20:25: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2120-01-02 11:30:00        33.1        11.1 36.3  33.5 108.0     102.0 3.06 15.1    NaN  6.7
+2120-01-02 15:30:00        35.8        12.2 36.9  34.1 108.0     122.0 3.31 15.2    NaN  8.9
+2120-01-03 03:41:00        35.2        11.9 36.4  33.8 108.0     123.0 3.27 15.5    NaN  7.5
+2120-01-03 13:18:00        34.0        11.5 36.5  33.8 108.0     137.0 3.15 15.5    NaN  8.7
+2120-01-04 08:32:00        32.3        11.1 37.2  34.4 108.0     121.0 2.98 15.8    NaN  5.4
+2120-01-04 15:05:00        32.9        11.1 37.0  33.7 110.0     102.0 3.00 15.6    NaN  5.5
+2120-01-05 07:05:00        30.5        10.6 37.2  34.8 107.0     102.0 2.85 15.4    NaN  5.4
+2120-01-06 05:47:00        30.9        10.7 37.2  34.6 107.0      93.0 2.88 15.5    NaN  5.7
+2120-01-07 07:22:00        34.9        12.1 37.0  34.7 107.0     105.0 3.27 15.6    NaN  6.5
+2120-01-08 06:57:00        31.5        10.7 36.3  34.0 107.0     101.0 2.95 15.6    NaN  5.1
+2120-01-09 04:52:00        32.8        11.5 36.9  35.1 105.0     103.0 3.12 15.6    NaN  5.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2120-08-24 20:00:00
+sbp: 99.0
+dbp: 65.0
+mbp: 79.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 19.0
+temperature: 34.400000000
+temperature_site: Esophogeal
+spo2: 98.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Alcoholic cirrhosis of liver with ascites
+   drg_type: APR
+   description: ALCOHOLIC LIVER DISEASE
+   drg_severity: 3
+   drg_mortality: 3
+2. Alcoholic cirrhosis of liver with ascites
+   drg_type: HCFA
+   description: CIRRHOSIS & ALCOHOLIC HEPATITIS W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Octreotide Acetate: Administered from 2119-07-08 04:00:00 to 2119-07-10 20:00:00
+- Sucralfate: Discontinued via patient discharge on 2119-07-08 03:28:28
+- Pantoprazole 40 mg Via Sodium Chloride 0.9% Flush: Discontinued via patient discharge on 2119-07-08 03:28:28
+- CefTRIAXone 1 g / 50 mL Iso-Osmotic Dextrose: Started from 2119-07-08 04:00:00 to 2119-07-09 16:00:00
+- Pantoprazole IV Piggyback: Stopped from 2119-07-08 04:00:00 to 2119-07-09 16:00:00
+- Insulin: Administered from 2120-01-02 13:00:00 to 2120-01-03 17:00:00
+- Ferrous Sulfate 325 mg Tablet: Administered from 2120-01-02 13:00:00 to 2120-01-04 02:00:00
+- Lactulose: Administered from 2120-01-02 13:00:00 to 2120-01-09 23:00:00
+- Pantoprazole 40 mg Via: Administered from 2120-01-02 10:00:00 to 2120-01-06 11:00:00
+- Sucralfate: Administered from 2120-01-02 13:00:00 to 2120-01-09 23:00:00
+- Magnesium Sulfate 4 g / 100 mL (Premix Bag): Administered from 2120-01-03 07:00:00 to 2120-01-04 16:00:00

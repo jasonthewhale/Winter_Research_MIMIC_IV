@@ -1,0 +1,77 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 48
+  (3) race: UNKNOWN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2123-06-15 20:48:00
+  (6) discharge time: 2123-06-27 16:27:00
+  (7) transfer history: 
+2123-06-15 19:09:00 - 2123-06-15 22:50:00: Emergency Department
+2123-06-15 22:50:00 - 2123-06-22 11:19:46: Trauma SICU (TSICU)
+2123-06-22 11:19:46 - 2123-06-27 16:27:48: Surgery/Trauma
+2123-06-27 16:27:48: discharge
+
+2. Medical Data
+(1) heart rate: 
+2123-06-18 11:00:00-2123-06-18 11:00:00 SR (Sinus Rhythm)
+2123-06-18 11:00:00-2123-06-18 11:00:00 PAC's
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2123-06-16 00:42:00        40.8        13.4 30.0  32.8 91.0     319.0 4.47 22.2    NaN 17.1
+2123-06-16 05:23:00        38.3        12.6 30.0  32.9 91.0     338.0 4.20 22.6    NaN 14.3
+2123-06-16 14:25:00        38.0        12.2 29.9  32.1 93.0     309.0 4.08 22.8    NaN 14.9
+2123-06-17 02:45:00        34.7        11.0 30.0  31.7 95.0     253.0 3.67 22.5    NaN 12.9
+2123-06-17 14:10:00        35.9        11.4 29.8  31.8 94.0     251.0 3.82 22.2    NaN 14.2
+2123-06-18 04:49:00        33.1        10.7 30.3  32.3 94.0     225.0 3.53 21.8    NaN 10.2
+2123-06-20 01:35:00        34.9        11.0 29.9  31.5 95.0     269.0 3.68 20.8    NaN  8.3
+2123-06-21 02:22:00        33.5        10.5 29.5  31.3 94.0     338.0 3.56 20.4    NaN  8.5
+2123-06-22 00:08:00        33.2        10.7 30.4  32.2 94.0     350.0 3.52 20.4    NaN  8.8
+2123-06-23 06:24:00        33.2        10.5 30.2  31.6 95.0     392.0 3.48 20.5    NaN  9.2
+2123-06-24 05:20:00        33.0        10.3 30.0  31.2 96.0     442.0 3.43 20.3    NaN  9.6
+2123-06-25 09:14:00        32.9        10.4 30.8  31.6 97.0     510.0 3.38 20.3    NaN  9.9
+2123-06-26 05:25:00        32.6        10.1 30.4  31.0 98.0     618.0 3.32 19.9    NaN  9.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2123-06-17 03:00:00
+sbp: 106.0
+dbp: 56.0
+mbp: 73.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 15.0
+temperature: 37.330000000
+temperature_site: Oral
+spo2: 93.0
+cardiovascular: <NA>
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Traumatic hemopneumothorax, initial encounter
+   drg_type: APR
+   description: MUSCULOSKELETAL & OTHER PROCEDURES FOR MULTIPLE SIGNIFICANT TRAUMA
+   drg_severity: 4
+   drg_mortality: 4
+2. Traumatic hemopneumothorax, initial encounter
+   drg_type: HCFA
+   description: OTHER O.R. PROCEDURES FOR MULTIPLE SIGNIFICANT TRAUMA W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- HYDROmorphone (Dilaudid) - Administered from 2123-06-16 00:00:00 to 2123-06-16 23:00:00
+- Acetaminophen - Administered from 2123-06-16 00:00:00 to 2123-06-27 20:00:00
+- OxyCODONE (Immediate Release) - Administered from 2123-06-16 00:00:00 to 2123-06-16 04:00:00
+- Magnesium Sulfate - Administered from 2123-06-16 03:00:00 to 2123-06-22 08:00:00
+- Diazepam - Administered from 2123-06-16 00:00:00 to 2123-06-16 10:00:00
+- FoLIC Acid - Administered from 2123-06-16 08:00:00 to 2123-06-20 09:00:00
+- Multivitamins - Administered from 2123-06-16 08:00:00 to 2123-06-20 09:00:00

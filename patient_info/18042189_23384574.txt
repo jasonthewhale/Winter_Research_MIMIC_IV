@@ -1,0 +1,79 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 47
+  (3) race: WHITE
+  (4) admission type: SURGICAL SAME DAY ADMISSION
+  (5) admit time: 2162-07-20 00:00:00
+  (6) discharge time: 2162-08-06 19:40:00
+  (7) transfer history: 
+2162-07-20 00:36:55 - 2162-07-20 12:26:06: Discharge Lounge
+2162-07-22 13:53:11 - 2162-07-27 17:45:24: Cardiology Surgery Intermediate
+2162-07-22 13:26:00 - 2162-07-22 13:53:11: Cardiology Surgery Intermediate
+2162-08-02 01:17:20 - 2162-08-06 19:43:02: Medicine
+2162-08-02 01:16:04 - 2162-08-02 01:17:20: Surgery/Trauma
+2162-07-27 17:45:24 - 2162-08-02 01:16:04: Trauma SICU (TSICU)
+2162-07-20 12:26:06 - 2162-07-22 13:26:00: Trauma SICU (TSICU)
+2162-08-06 19:43:02: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2162-07-20 13:44:00        35.9        11.7 28.0  32.6 86.0     286.0 4.18 16.5    NaN  9.2
+2162-07-21 02:35:00        33.4        10.8 28.3  32.3 88.0     236.0 3.81 16.6    NaN 10.0
+2162-07-22 02:25:00        33.9        10.7 28.0  31.6 89.0     233.0 3.82 16.4    NaN  7.5
+2162-07-23 01:35:00        33.4        10.6 28.0  31.7 88.0     232.0 3.78 15.9    NaN  5.9
+2162-07-24 04:30:00        32.3        10.4 28.2  32.2 88.0     288.0 3.69 15.9    NaN  4.4
+2162-07-27 04:30:00        34.1        10.9 28.0  32.0 88.0     362.0 3.89 16.5    NaN 10.9
+2162-07-27 16:45:00        32.5        10.4 28.3  32.0 89.0     337.0 3.67 16.3    NaN  6.8
+2162-07-28 02:04:00        30.6         9.9 28.6  32.4 88.0     343.0 3.46 16.2    NaN  5.9
+2162-07-29 02:14:00        31.8        10.3 28.3  32.4 87.0     366.0 3.64 15.9    NaN  5.2
+2162-07-30 04:00:00        32.3        10.2 27.9  31.6 88.0     397.0 3.66 15.6    NaN  5.6
+2162-07-31 02:08:00        34.0        10.8 28.4  31.8 90.0     384.0 3.80 15.3    NaN  7.3
+2162-08-01 08:17:00        33.9        10.8 27.9  31.9 88.0     379.0 3.87 15.0    NaN  5.0
+2162-08-03 08:41:00        33.0        10.4 27.9  31.5 89.0     426.0 3.73 15.4    NaN  5.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2162-07-28 04:00:00
+sbp: 112.0
+dbp: 54.0
+mbp: 74.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 16.0
+temperature: 37.280000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Other specified diseases of upper respiratory tract
+   drg_type: HCFA
+   description: MAJOR CHEST PROCEDURES W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Other specified diseases of upper respiratory tract
+   drg_type: APR
+   description: MAJOR RESPIRATORY & CHEST PROCEDURES
+   drg_severity: 3
+   drg_mortality: 2
+
+Medication:
+- Heparin (Unit Dose) - Start Time: 2162-07-20 07:00:00, Stop Time: 2162-07-21 10:00:00
+- Acetaminophen IV (IV Piggyback) - Start Time: 2162-07-20 13:00:00, Stop Time: 2162-07-21 20:00:00
+- Morphine Sulfate (Unit Dose) - Start Time: 2162-07-20 14:00:00, Stop Time: 2162-07-30 13:00:00
+- Albuterol 0.083% Neb Soln (Unit Dose) - Start Time: 2162-07-20 13:00:00, Stop Time: 2162-08-07 00:00:00
+- Ipratropium-Albuterol Neb (Unit Dose) - Start Time: 2162-07-20 20:00:00, Stop Time: 2162-07-28 00:00:00
+- Heparin Sodium 5000 Units / mL- 1mL Vial (Unit Dose) - Start Time: 2162-07-20 20:00:00, Stop Time: 2162-08-07 00:00:00

@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 66
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2188-02-11 20:01:00
+  (6) discharge time: 2188-02-16 14:36:00
+  (7) transfer history: 
+2188-02-11 11:17:00 - 2188-02-11 21:23:00: Emergency Department
+2188-02-11 21:23:00 - 2188-02-11 21:41:50: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2188-02-12 17:40:39 - 2188-02-16 14:36:47: Medicine
+2188-02-11 21:41:50 - 2188-02-12 17:40:39: Medical/Surgical Intensive Care Unit (MICU/SICU)
+2188-02-16 14:36:47: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2188-02-11 23:53:00        31.7        10.1 29.5  31.9 93.0     178.0 3.42 15.0    NaN 11.0
+2188-02-13 06:00:00        34.6        10.6 29.1  30.6 95.0     245.0 3.64 15.1    NaN 11.3
+2188-02-14 09:00:00        36.0        11.2 29.6  31.1 95.0     247.0 3.79 15.1    NaN 13.6
+2188-02-15 06:45:00        37.4        11.3 28.8  30.2 95.0     271.0 3.92 15.0    NaN 11.7
+2188-02-16 06:29:00        33.4        10.4 29.5  31.1 95.0     263.0 3.52 14.7    NaN  9.1
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2188-02-12 12:00:00
+sbp: 118.0
+dbp: 61.0
+mbp: 74.0
+sbp_ni: 118.0
+dbp_ni: 61.0
+mbp_ni: 74.0
+resp_rate: 28.0
+temperature: 36.440000000
+temperature_site: Oral
+spo2: 100.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 1
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Pneumonia, unspecified organism
+   drg_type: APR
+   description: OTHER PNEUMONIA
+   drg_severity: 3
+   drg_mortality: 3
+2. Pneumonia, unspecified organism
+   drg_type: HCFA
+   description: SIMPLE PNEUMONIA & PLEURISY W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Digoxin: Administered from 2188-02-12 08:00:00 to 2188-02-16 19:00:00, dose given: 0.125 mg
+- Docusate Sodium: Administered from 2188-02-11 23:00:00 to 2188-02-16 19:00:00, dose given: 100 mg
+- Fluoxetine: Administered from 2188-02-12 08:00:00 to 2188-02-16 19:00:00, dose given: 20 mg
+- Insulin: Administered from 2188-02-12 00:00:00 to 2188-02-15 11:00:00, dose given: 15 units
+- Multivitamins: Administered from 2188-02-12 08:00:00 to 2188-02-16 19:00:00, dose given: 1 tablet
+- Prednisone: Administered from 2188-02-12 08:00:00 to 2188-02-16 19:00:00, dose given: 20 mg
+- Prednisone: Administered from 2188-02-12 08:00:00 to 2188-02-16 19:00:00, dose given: 10 mg
+- Senna: Administered from 2188-02-12 08:00:00 to 2188-02-16 19:00:00, dose given: 8.6 mg
+- Senna: Administered from 2188-02-12 08:00:00 to 2188-02-16 19:00:00, dose given: 8.6 mg
+- Tiotropium Bromide: Administered from 2188-02-12 08:00:00 to 2188-02-16 19:00:00, dose given: 1 capsule

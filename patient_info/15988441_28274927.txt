@@ -1,0 +1,97 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 38
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2114-05-15 18:30:00
+  (6) discharge time: 2114-06-14 18:00:00
+  (7) transfer history: 
+2114-05-15 11:48:00 - 2114-05-15 18:31:02: Emergency Department
+2114-05-15 18:31:02 - 2114-05-15 18:46:42: Neuro Intermediate
+2114-05-21 16:09:45 - 2114-05-31 19:45:15: Neuro Intermediate
+2114-06-04 10:43:26 - 2114-06-04 14:55:41: Neuro Surgical Intensive Care Unit (Neuro SICU)
+2114-06-04 14:55:41 - 2114-06-13 16:32:51: Neuro Intermediate
+2114-05-31 19:45:15 - 2114-06-04 10:43:26: Neuro Intermediate
+2114-05-15 18:46:42 - 2114-05-21 16:09:45: Neuro Intermediate
+2114-06-13 16:32:51 - 2114-06-14 20:34:32: Neuro Intermediate
+2114-06-14 20:34:32: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2114-05-16 04:20:00        29.3         9.0 24.8  30.7 81.0     317.0 3.63 16.9    NaN 18.7
+2114-05-17 06:20:00        28.6         8.8 24.4  30.8 79.0     281.0 3.60 16.9    NaN 12.6
+2114-05-18 06:10:00        29.6         9.5 25.5  32.1 79.0     307.0 3.73 17.3    NaN 14.5
+2114-05-19 09:10:00        29.2         9.3 25.0  31.8 79.0     296.0 3.72 17.3    NaN 17.3
+2114-05-20 06:58:00        28.2         8.9 25.0  31.6 79.0     323.0 3.56 17.5    NaN 13.1
+2114-05-21 06:10:00        28.7         9.2 25.3  32.1 79.0     365.0 3.64 17.3    NaN 13.8
+2114-05-22 06:40:00        29.4         8.8 24.1  29.9 81.0     396.0 3.65 17.5    NaN 14.7
+2114-05-23 06:15:00        30.9         9.6 24.9  31.1 80.0     417.0 3.85 17.9    NaN 14.8
+2114-05-24 06:40:00        31.0         9.3 24.3  30.0 81.0     441.0 3.82 17.8    NaN 13.3
+2114-05-25 06:25:00        31.2         9.6 25.0  30.8 81.0     480.0 3.84 18.1    NaN 16.3
+2114-05-27 07:29:00        30.7         9.5 25.1  30.9 81.0     521.0 3.78 18.1    NaN  9.4
+2114-05-28 07:38:00        31.8         9.3 24.1  29.2 82.0     508.0 3.86 17.9    NaN  8.8
+2114-05-30 03:20:00        33.0        10.1 24.5  30.6 80.0     534.0 4.13 17.6    NaN  9.5
+2114-05-31 05:35:00        32.9         9.7 24.0  29.5 81.0     488.0 4.05 17.6    NaN  8.8
+2114-06-01 05:05:00        31.0         9.4 24.7  30.3 81.0     468.0 3.81 17.7    NaN  8.4
+2114-06-02 05:35:00        32.6        10.0 24.9  30.7 81.0     461.0 4.01 17.6    NaN  9.5
+2114-06-03 07:46:00        31.2         9.3 23.8  29.8 80.0     404.0 3.91 17.5    NaN  8.4
+2114-06-04 09:05:00        34.4        10.2 23.9  29.7 81.0     434.0 4.26 17.3    NaN 12.1
+2114-06-05 06:45:00        29.7         8.8 23.7  29.6 80.0     362.0 3.72 17.5    NaN 10.0
+2114-06-06 07:00:00        29.1         9.1 24.7  31.3 79.0     335.0 3.68 17.4    NaN  8.3
+2114-06-07 04:25:00        30.6         9.4 24.5  30.7 80.0     334.0 3.84 17.2    NaN  8.6
+2114-06-08 06:10:00        28.5         8.5 24.0  29.8 81.0     271.0 3.54 17.0    NaN 13.9
+2114-06-09 07:05:00        27.3         8.4 24.5  30.8 80.0     310.0 3.43 17.2    NaN  9.6
+2114-06-10 05:35:00        27.0         8.2 24.2  30.4 80.0     287.0 3.39 17.3    NaN  9.3
+2114-06-10 10:29:00        26.8         7.8 23.4  29.1 81.0     279.0 3.33 17.2    NaN  9.5
+2114-06-11 05:14:00        24.9         7.7 24.4  30.9 79.0     290.0 3.16 17.2    NaN 12.3
+2114-06-12 04:06:00        25.2         7.8 24.2  31.0 78.0     291.0 3.22 17.3    NaN  9.9
+2114-06-13 01:22:00        26.7         8.2 24.4  30.7 80.0     313.0 3.36 17.2    NaN 11.2
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2114-06-11 20:00:00
+sbp: 115.0
+dbp: 67.0
+mbp: 80.0
+sbp_ni: 115.0
+dbp_ni: 67.0
+mbp_ni: 80.0
+resp_rate: nan
+temperature: 36.670000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 2
+
+Physician's Diagnoses:
+1. Infection and inflammatory reaction due to ventricular intracranial (communicating) shunt, initial encounter
+   drg_type: HCFA
+   description: CRANIOTOMY & ENDOVASCULAR INTRACRANIAL PROCEDURES W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Infection and inflammatory reaction due to ventricular intracranial (communicating) shunt, initial encounter
+   drg_type: APR
+   description: POST-OP, POST-TRAUMA, OTHER DEVICE INFECTIONS W O.R. PROCEDURE
+   drg_severity: 3
+   drg_mortality: 2
+
+Medication:
+- LamoTRIgine 100mg Tablet: Administered from 2114-05-15 20:00:00 to 2114-06-15 01:00:00, dose given: 50 mg
+- LamoTRIgine 100mg Tablet: Administered from 2114-05-15 20:00:00 to 2114-06-15 01:00:00, dose given: 100 mg
+- LACOSamide: Administered from 2114-05-15 20:00:00 to 2114-06-15 01:00:00, dose given: 200 mg
+- Zonisamide 100mg Capsule: Administered from 2114-05-15 20:00:00 to 2114-06-15 01:00:00, dose given: 100 mg
+- Docusate Sodium 100mg Capsule: Administered from 2114-05-15 20:00:00 to 2114-06-15 01:00:00, dose given: 100 mg
+- LACOSamide: Administered from 2114-05-15 20:00:00 to 2114-06-15 01:00:00, dose given: 200 mg
+- LamoTRIgine 100mg Tablet: Administered from 2114-05-15 20:00:00 to 2114-06-15 01:00:00, dose given: 100 mg
+- LamoTRIgine 100mg Tablet: Administered from 2114-05-15 20:00:00 to 2114-06-15 01:00:00, dose given: 50 mg

@@ -1,0 +1,72 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 65
+  (3) race: WHITE
+  (4) admission type: EW EMER.
+  (5) admit time: 2143-06-11 16:03:00
+  (6) discharge time: 2143-06-17 14:30:00
+  (7) transfer history: 
+2143-06-11 10:04:00 - 2143-06-11 17:01:00: Emergency Department
+2143-06-11 17:01:00 - 2143-06-13 16:26:45: Medical Intensive Care Unit (MICU)
+2143-06-13 16:26:45 - 2143-06-17 14:38:48: Med/Surg
+2143-06-17 14:38:48: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2143-06-11 17:30:00        37.9        11.2 31.1  29.5 105.0     192.0 3.60 19.6    NaN 10.7
+2143-06-12 02:19:00        35.9        10.6 30.8  29.5 105.0     208.0 3.43 19.8    NaN  9.5
+2143-06-13 04:21:00        33.1        10.0 31.2  30.4 103.0     205.0 3.22 20.3    NaN  8.0
+2143-06-14 07:43:00        34.6        10.6 31.8  30.7 104.0     185.0 3.34 19.8    NaN  7.5
+2143-06-15 08:17:00        35.0        10.7 31.5  30.7 103.0     194.0 3.41 19.9    NaN  7.1
+2143-06-16 07:54:00        38.5        11.0 30.1  28.6 105.0     181.0 3.66 19.8    NaN  6.3
+2143-06-17 07:20:00        34.9        10.7 30.6  30.5 100.0     173.0 3.48 19.5    NaN  5.6
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2143-10-16 16:00:00
+sbp: 77.0
+dbp: 45.0
+mbp: 53.0
+sbp_ni: 77.0
+dbp_ni: 45.0
+mbp_ni: 53.0
+resp_rate: 14.0
+temperature: 35.940000000
+temperature_site: Temporal
+spo2: 96.0
+cardiovascular: 1
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 3
+sofa_24hours: 5
+
+Physician's Diagnoses:
+1. Acute on chronic systolic heart failure
+   drg_type: HCFA
+   description: HEART FAILURE & SHOCK W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Acute on chronic systolic heart failure
+   drg_type: APR
+   description: HEART FAILURE
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Flushed: Heparin Flush (10 Units/mL) - 10 Units/mL - 5 mL Syringe (start time: 2143-06-13 17:00:00, stop time: 2143-06-14 11:00:00)
+- Flushed: Sodium Chloride 0.9% Flush - 3 mL Syringe (start time: 2143-06-11 18:00:00, stop time: 2143-06-17 18:00:00)
+- Flushed: Sodium Chloride 0.9% Flush - 10 mL Syringe (start time: 2143-06-13 17:00:00, stop time: 2143-06-17 18:00:00)
+- Administered: Albuterol 0.083% Neb Soln - 3 mL Vial (start time: 2143-06-12 10:00:00, stop time: 2143-06-17 18:00:00)
+- Administered: Calcium Carbonate (Tums) 500mg Tablet - 1 Tablet (start time: 2143-06-11 21:00:00, stop time: 2143-06-17 18:00:00)
+- Administered: Simethicone 80mg Tablet - 1 Tablet (start time: 2143-06-11 21:00:00, stop time: 2143-06-17 18:00:00)
+- Administered: Docusate Sodium 100mg Capsule - 1 Capsule (start time: 2143-06-11 21:00:00, stop time: 2143-06-17 18:00:00)
+- Administered: Fluticasone-Salmeterol Diskus (250/50) - 1 Inhalation (start time: 2143-06-12 10:00:00, stop time: 2143-06-17 18:00:00)
+- Administered: Heparin Sodium 5000 Units / mL - 1 mL Vial - 5000 Units (start time: 2143-06-12 20:00:00, stop time: 2143-06-16 15:00:00)

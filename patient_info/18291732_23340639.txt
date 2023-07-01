@@ -1,0 +1,84 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 61
+  (3) race: WHITE
+  (4) admission type: URGENT
+  (5) admit time: 2132-01-21 19:25:00
+  (6) discharge time: 2132-01-28 14:30:00
+  (7) transfer history: 
+2132-01-21 19:26:00 - 2132-01-23 09:55:42: Cardiac Surgery
+2132-01-23 09:55:42 - 2132-01-23 12:11:38: PACU
+2132-01-24 11:03:41 - 2132-01-24 11:29:46: Cardiac Surgery
+2132-01-24 11:29:46 - 2132-01-28 14:35:59: Cardiac Surgery
+2132-01-23 12:11:38 - 2132-01-24 11:03:41: Cardiac Vascular Intensive Care Unit (CVICU)
+2132-01-28 14:35:59: discharge
+
+2. Medical Data
+(1) heart rate: 
+2132-01-23 19:00:00-2132-01-23 19:00:00 SB (Sinus Bradycardia)
+2132-01-23 19:00:00-2132-01-23 19:00:00 PVC's (Premature Ventricular Contractions)
+2132-01-23 19:00:00-2132-01-23 19:00:00 Occasional ectopy frequency
+2132-01-23 19:00:00-2132-01-23 19:00:00 No secondary ectopy type
+2132-01-23 19:00:00-2132-01-23 19:00:00 No secondary ectopy frequency
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2132-01-21 20:55:00        39.4        14.2 31.5  36.1 87.0     161.0 4.52 12.7    NaN  5.5
+2132-01-23 01:58:00        37.6        13.3 31.1  35.4 88.0     143.0 4.27 12.8    NaN  4.6
+2132-01-23 15:27:00        27.2         9.7 31.6  35.7 89.0     108.0 3.07 12.8    NaN  8.1
+2132-01-23 15:44:00        33.6        12.0 31.4  35.5 88.0     132.0 3.81 13.1    NaN 11.0
+2132-01-23 18:56:00        30.7         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2132-01-23 23:59:00        25.4         9.1 31.2  35.6 88.0     103.0 2.90 12.8    NaN  6.9
+2132-01-24 03:01:00        27.5         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2132-01-25 06:14:00        28.7        10.2 31.5  35.5 89.0     117.0 3.23 13.2    NaN  7.7
+2132-01-26 06:20:00        26.6         9.4 31.5  35.2 90.0     118.0 2.98 12.9    NaN  6.4
+2132-01-27 06:50:00        24.8         8.8 31.8  35.4 90.0     148.0 2.77 12.8    NaN  4.8
+2132-01-28 07:05:00        30.8        10.7 31.6  34.9 91.0     214.0 3.40 12.9    NaN  5.0
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2132-01-24 02:00:00
+sbp: 118.0
+dbp: 54.0
+mbp: 78.0
+sbp_ni: nan
+dbp_ni: nan
+mbp_ni: nan
+resp_rate: 11.0
+temperature: 36.390000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 1
+cns: 0
+renal: 0
+respiration_24hours: 2
+coagulation_24hours: 1
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 4
+
+Physician's Diagnoses:
+1. Coronary atherosclerosis of native coronary artery
+   drg_type: APR
+   description: CORONARY BYPASS W/O AMI OR COMPLEX PDX
+   drg_severity: 1
+   drg_mortality: 1
+2. Coronary atherosclerosis of native coronary artery
+   drg_type: HCFA
+   description: CORONARY BYPASS W/O CARDIAC CATH W/O MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Metoprolol Tartrate: Administered from 2132-01-22 08:00:00 to 2132-01-22 19:00:00, dose given: 25 mg
+- Mupirocin Ointment 2%: Administered from 2132-01-21 21:00:00 to 2132-01-23 16:00:00, dose given: 1 Appl
+- Sodium Chloride 0.9% Flush: Flushed from 2132-01-21 21:00:00 to 2132-01-23 16:00:00, dose given: 3 mL
+- Allopurinol 100mg Tab: Administered from 2132-01-22 08:00:00 to 2132-01-23 16:00:00, dose given: 100 mg
+- Aspirin 81mg Tab: Administered from 2132-01-22 08:00:00 to 2132-01-23 16:00:00, dose given: 81 mg
+- Metoprolol Tartrate: Administered from 2132-01-22 08:00:00 to 2132-01-22 19:00:00, dose given: 25 mg
+- Mupirocin Ointment 2%: Administered from 2132-01-21 21:00:00 to 2132-01-23 16:00:00, dose given: 1 Appl
+- Sodium Chloride 0.9% Flush: Flushed from 2132-01-21 21:00:00 to 2132-01-23 16:00:00, dose given: 3 mL
+- Sodium Chloride 0.9% Flush: Flushed from 2132-01-21 21:00:00 to 2132-01-23 16:00:00, dose given: 3 mL
+- Allopurinol 100mg Tab: Administered from 2132-01-22 08:00:00 to 2132-01-23 16:00:00, dose given: 100 mg
+- Aspirin 81mg Tab: Administered from 2132-01-

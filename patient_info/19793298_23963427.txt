@@ -1,0 +1,68 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 26
+  (3) race: UNKNOWN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2114-03-27 17:12:00
+  (6) discharge time: 2114-03-31 15:50:00
+  (7) transfer history: 
+2114-03-27 15:28:00 - 2114-03-27 18:28:00: Emergency Department
+2114-03-27 18:28:00 - 2114-03-28 21:57:55: Trauma SICU (TSICU)
+2114-03-28 21:57:55 - 2114-03-31 16:02:24: Med/Surg
+2114-03-31 16:02:24: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2114-03-27 23:35:00        37.3        12.4 28.4  33.2 85.0     276.0 4.37 13.3    NaN 17.1
+2114-03-28 04:00:00        38.1        12.7 28.1  33.3 84.0     279.0 4.52 13.5    NaN 17.0
+2114-03-28 07:55:00        36.8         NaN  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2114-03-28 14:10:00        39.0        13.0 28.3  33.3 85.0     292.0 4.59 13.7    NaN 16.4
+2114-03-29 04:25:00        39.2        12.9 28.1  32.9 85.0     255.0 4.59 14.0    NaN 14.5
+2114-03-30 04:34:00        40.6        13.6 28.5  33.5 85.0     245.0 4.78 13.3    NaN 12.9
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2114-03-28 08:00:00
+sbp: 163.0
+dbp: 118.0
+mbp: 128.0
+sbp_ni: 163.0
+dbp_ni: 118.0
+mbp_ni: 128.0
+resp_rate: 17.0
+temperature: 37.060000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Other injury of branches of celiac and mesenteric artery, initial encounter
+   drg_type: HCFA
+   description: OTHER O.R. PROCEDURES FOR MULTIPLE SIGNIFICANT TRAUMA W CC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+2. Other injury of branches of celiac and mesenteric artery, initial encounter
+   drg_type: APR
+   description: MUSCULOSKELETAL & OTHER PROCEDURES FOR MULTIPLE SIGNIFICANT TRAUMA
+   drg_severity: 3
+   drg_mortality: 3
+
+Medication:
+- Eplerenone 50mg Tablet: Administered from 2114-03-27 23:00:00 to 2114-03-31 20:00:00
+- Lorazepam 2mg/mL Syringe: Administered from 2114-03-28 00:00:00 to 2114-03-31 20:00:00
+- Hydromorphone (Dilaudid): Administered from 2114-03-27 23:00:00 to 2114-03-28 09:00:00
+- Famotidine 20 mg / 50 mL Iso-Osmotic Sodium Chloride: Administered from 2114-03-27 23:00:00 to 2114-03-28 08:00:00
+- Sodium Chloride 0.9% Flush: Administered from 2114-03-27 23:00:00 to 2114-03-31 20:00:00
+- TraZODone: Administered from 2114-03-27 23:00:00 to 2114-03-31 20:00:00

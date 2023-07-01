@@ -1,0 +1,92 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 52
+  (3) race: HISPANIC/LATINO - GUATEMALAN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2146-05-25 06:08:00
+  (6) discharge time: 2146-06-10 18:14:00
+  (7) transfer history: 
+2146-05-25 03:03:00 - 2146-05-25 06:09:14: Emergency Department
+2146-05-25 06:09:14 - 2146-05-25 06:33:44: Medicine
+2146-05-31 12:34:36 - 2146-05-31 15:29:19: PACU
+2146-05-25 06:33:44 - 2146-05-25 14:03:16: Vascular
+2146-06-05 14:06:53 - 2146-06-10 18:14:49: Cardiac Surgery
+2146-05-26 17:17:56 - 2146-05-31 12:34:36: Medicine/Cardiology
+2146-05-25 14:03:16 - 2146-05-26 17:17:56: Coronary Care Unit (CCU)
+2146-05-31 15:29:19 - 2146-05-31 17:16:58: Cardiac Vascular Intensive Care Unit (CVICU)
+2146-05-31 17:16:58 - 2146-06-05 14:06:53: Cardiac Vascular Intensive Care Unit (CVICU)
+2146-06-10 18:14:49: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the provided csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2146-05-26 05:30:00        27.1         8.7 30.0  32.1 93.0     238.0 2.90 13.4    NaN  9.5
+2146-05-27 07:41:00        26.9         8.7 29.5  32.3 91.0     242.0 2.95 13.5    NaN 10.0
+2146-05-28 06:20:00        28.3         9.4 30.1  33.2 91.0     262.0 3.12 13.7    NaN 10.4
+2146-05-28 06:21:00        25.7         8.8 30.3  34.2 89.0     248.0 2.90 13.4    NaN  9.7
+2146-05-29 06:20:00        26.8         8.9 30.4  33.2 92.0     249.0 2.93 13.6    NaN  8.6
+2146-05-30 06:17:00        24.9         8.3 30.2  33.3 91.0     230.0 2.75 13.6    NaN  8.4
+2146-05-31 07:10:00        26.5         8.7 30.2  32.8 92.0     222.0 2.88 13.4    NaN  8.1
+2146-05-31 18:37:00        21.0         6.9 30.1  32.9 92.0     136.0 2.29 13.8    NaN 10.4
+2146-05-31 19:57:00        26.1         8.8 30.0  33.7 89.0     176.0 2.93 14.6    NaN 16.4
+2146-06-01 02:50:00        26.9         8.9 29.5  33.1 89.0     175.0 3.02 15.6    NaN 15.4
+2146-06-01 16:55:00        25.9         8.8 30.2  34.0 89.0     188.0 2.91 15.6    NaN 15.8
+2146-06-02 03:08:00        25.6         8.5 30.0  33.2 91.0     195.0 2.83 15.4    NaN 17.8
+2146-06-03 02:28:00        21.7         6.9 29.2  31.8 92.0     153.0 2.36 15.1    NaN  8.6
+2146-06-03 13:30:00        27.4         9.0  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2146-06-04 02:24:00        24.8         8.3 29.5  33.5 88.0     167.0 2.81 16.5    NaN  7.8
+2146-06-04 15:55:00        24.8         8.1  NaN   NaN  NaN       NaN  NaN  NaN    NaN  NaN
+2146-06-05 02:05:00        24.8         8.1 29.2  32.7 90.0     223.0 2.77 16.0    NaN 12.0
+2146-06-06 07:00:00        28.4         9.0 29.0  31.7 92.0     258.0 3.10 16.1    NaN 13.8
+2146-06-07 07:25:00        28.0         8.8 28.9  31.4 92.0     258.0 3.05 15.7    NaN 13.5
+2146-06-08 05:22:00        29.0         9.2 29.3  31.7 92.0     285.0 3.14 15.4    NaN 14.1
+2146-06-09 08:15:00        28.3         9.1 29.3  32.2 91.0     310.0 3.11 15.1    NaN 18.4
+2146-06-10 06:21:00        27.1         8.8 29.1  32.5 90.0     320.0 3.02 14.8    NaN 16.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2143-07-30 20:00:00
+sbp: 181.0
+dbp: 88.0
+mbp: 112.0
+sbp_ni: 181.0
+dbp_ni: 88.0
+mbp_ni: 112.0
+resp_rate: 16.0
+temperature: 36.830000000
+temperature_site: Oral
+spo2: 98.0
+cardiovascular: 0
+cns: 0
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 0
+
+Physician's Diagnoses:
+1. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: APR
+   description: CORONARY BYPASS W AMI OR COMPLEX PDX
+   drg_severity: 2
+   drg_mortality: 2
+2. Non-ST elevation (NSTEMI) myocardial infarction
+   drg_type: HCFA
+   description: CORONARY BYPASS W CARDIAC CATH W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Morphine Sulfate: Administered from 2146-05-25 09:00:00 to 2146-05-25 10:00:00
+- Aspirin: Administered on 2146-05-25 11:00:00
+- Clopidogrel 300 mg Tablet: Administered on 2146-05-25 11:00:00
+- Metoprolol Tartrate: Administered on 2146-05-25 11:00:00
+- Sodium Chloride 0.9% Flush: Administered from 2146-05-25 11:00:00 to 2146-05-31 18:00:00
+- Nephrocaps: Administered from 2146-05-25 12:00:00 to 2146-05-31 18:00:00
+- Carvedilol 12.5mg Tablet: Administered from 2146-05-25 16:00:00 to 2146-05-31 18:00:00
+- sevelamer CARBONATE 800mg Tablet: Administered from 2146-05-25 12:00:00 to 2146-05-31 18:00:00

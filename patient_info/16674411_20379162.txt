@@ -1,0 +1,65 @@
+Patient Info:
+1. General
+  (1) gender: M
+  (2) age: 91
+  (3) race: WHITE
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2154-01-20 17:19:00
+  (6) discharge time: 2154-01-26 18:35:00
+  (7) transfer history: 
+2154-01-20 12:42:00 - 2154-01-20 20:12:00: Emergency Department
+2154-01-20 20:12:00 - 2154-01-21 17:01:29: Neuro Intermediate
+2154-01-21 17:01:29 - 2154-01-24 11:01:43: Neuro Intermediate
+2154-01-24 11:01:43 - 2154-01-26 18:43:15: Neurology
+2154-01-26 18:43:15: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available for the heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc   mcv  platelet  rbc  rdw  rdwsd  wbc
+2154-01-21 06:05:00        30.1         9.9 34.4  32.9 105.0     155.0 2.88 13.4    NaN  7.8
+2154-01-22 10:02:00        31.5        10.4 34.2  33.0 104.0     173.0 3.04 13.6    NaN 11.0
+2154-01-26 04:50:00        30.9         9.8 34.1  31.7 108.0     124.0 2.87 13.2    NaN  9.1
+2154-01-26 08:40:00        31.5        10.1 34.1  32.1 106.0     131.0 2.96 13.2    NaN 10.7
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2154-01-23 16:00:00
+sbp: 130.0
+dbp: 85.0
+mbp: nan
+sbp_ni: 130.0
+dbp_ni: 85.0
+mbp_ni: nan
+resp_rate: 16.0
+temperature: 36.720000000
+temperature_site: Oral
+spo2: 96.0
+cardiovascular: <NA>
+cns: 1
+renal: <NA>
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 1
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Nontraumatic intracerebral hemorrhage in brain stem
+   drg_type: APR
+   description: INTRACRANIAL HEMORRHAGE
+   drg_severity: 4
+   drg_mortality: 4
+2. Nontraumatic intracerebral hemorrhage in brain stem
+   drg_type: HCFA
+   description: INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- HydrALAzine: Administered from 2154-01-20 21:00:00 to 2154-01-24 07:00:00, dose given: 10 mg, dose given unit: mg, product amount given: 0.5, product unit: VIAL, product code: HYDZ20I, product description: HydrALAzine, pharmacy id: 190816, route: IV, frequency: Q6H:PRN, medication status: Discontinued, verified time: 2154-01-20 20:36:43
+- Sodium Chloride 0.9% Flush: Flushed from 2154-01-20 21:00:00 to 2154-01-26 23:00:00, dose given: 3 mL, dose given unit: mL, product amount given: 0.3, product unit: SYR, product code: NACLFLUSH, product description: Sodium Chloride 0.9% Flush, pharmacy id: 39741171, route: IV, frequency: Q8H, medication status: Discontinued via patient discharge, verified time: 2154-01-20 20:36:43
+- Calcium Acetate 667mg Capsule: Administered from 2154-01-20 12:00:00 to 2154-01-26 23:00:00, dose given: 667 mg, dose given unit: mg, product amount given: 1, product unit: CAP, product code: CALC667, product description: Calcium Acetate 667mg Capsule, pharmacy id: 89250260, route: PO/NG, frequency: BID, medication status: Discontinued via patient discharge, verified time: 2154-01-20 20:46:57
+- Senna 8.6 mg Tablet: Administered from 2154-01-20 21:00:00 to 2154-01-24 20:00:00, dose given: 8.6 mg, dose given unit: mg, product amount given: 1, product unit: TAB, product code: SENN187, product description: Senna 8.6 mg Tablet, pharmacy id: 46553602, route: PO/NG, frequency: QHS, medication status: Inactive (Due to a change

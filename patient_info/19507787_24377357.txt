@@ -1,0 +1,78 @@
+Patient Info:
+1. General
+  (1) gender: F
+  (2) age: 55
+  (3) race: WHITE - OTHER EUROPEAN
+  (4) admission type: OBSERVATION ADMIT
+  (5) admit time: 2172-06-03 15:18:00
+  (6) discharge time: 2172-06-14 16:00:00
+  (7) transfer history: 
+2172-06-03 13:28:00 - 2172-06-03 19:28:00: Emergency Department
+2172-06-03 19:28:00 - 2172-06-08 19:40:54: Medical Intensive Care Unit (MICU)
+2172-06-08 19:40:54 - 2172-06-13 23:11:24: Medicine
+2172-06-13 23:11:24 - 2172-06-14 16:00:45: Medicine
+2172-06-14 16:00:45: discharge
+
+2. Medical Data
+(1) heart rate: 
+There is no data available in the csv file for heart rhythm of the patient.
+(2) blood test: 
+          charttime  hematocrit  hemoglobin  mch  mchc  mcv  platelet  rbc  rdw  rdwsd  wbc
+2172-06-03 20:17:00        37.6        11.8 27.2  31.4 87.0     294.0 4.34 18.4    NaN 13.8
+2172-06-04 04:34:00        35.6        11.1 27.1  31.2 87.0     298.0 4.10 18.6    NaN 12.9
+2172-06-05 04:22:00        37.4        11.4 26.3  30.5 86.0     294.0 4.34 19.1    NaN 13.2
+2172-06-06 03:04:00        41.1        12.5 26.3  30.4 87.0     338.0 4.75 19.3    NaN 14.8
+2172-06-07 07:21:00        39.5        12.1 26.9  30.6 88.0     340.0 4.50 19.0    NaN 12.8
+2172-06-08 03:49:00        40.1        12.5 26.9  31.2 86.0     347.0 4.65 19.3    NaN 12.8
+2172-06-09 06:14:00        38.5        12.1 26.9  31.4 86.0     373.0 4.50 19.0    NaN 12.9
+2172-06-09 21:36:00        39.5        12.5 26.9  31.6 85.0     395.0 4.64 19.2    NaN 12.7
+2172-06-10 06:14:00        38.3        11.8 26.5  30.8 86.0     376.0 4.45 18.7    NaN  9.8
+2172-06-11 05:54:00        37.3        11.4 26.4  30.6 86.0     398.0 4.32 18.7    NaN  9.1
+2172-06-12 06:30:00        39.2        12.0 26.4  30.6 86.0     457.0 4.54 18.7    NaN  9.6
+2172-06-13 05:45:00        36.2        11.2 27.1  30.9 88.0     424.0 4.13 18.6    NaN  6.3
+
+3. icu_data
+(1) vitalsign & sofa
+charttime: 2172-06-05 16:00:00
+sbp: 115.0
+dbp: 68.0
+mbp: 77.0
+sbp_ni: 115.0
+dbp_ni: 68.0
+mbp_ni: 77.0
+resp_rate: 19.0
+temperature: 36.560000000
+temperature_site: Oral
+spo2: 95.0
+cardiovascular: <NA>
+cns: 0
+renal: 0
+respiration_24hours: 0
+coagulation_24hours: 0
+liver_24hours: 0
+cns_24hours: 0
+renal_24hours: 0
+sofa_24hours: 1
+
+Physician's Diagnoses:
+1. Other pulmonary embolism without acute cor pulmonale
+   drg_type: APR
+   description: PULMONARY EMBOLISM
+   drg_severity: 3
+   drg_mortality: 3
+2. Other pulmonary embolism without acute cor pulmonale
+   drg_type: HCFA
+   description: PULMONARY EMBOLISM W MCC
+   drg_severity: <NA>
+   drg_mortality: <NA>
+
+Medication:
+- Benzonatate 100mg Capsule (Administered) - Start Time: 2172-06-04 08:00:00, Stop Time: 2172-06-13 16:00:00
+- Nicotine Patch 21mg/24Hr Patch (Applied) - Start Time: 2172-06-04 08:00:00, Stop Time: 2172-06-14 20:00:00
+- Phosphorus 250 mg Tablet (Administered) - Start Time: 2172-06-04 08:00:00, Stop Time: 2172-06-04 08:00:00
+- LORazepam 0.5mg Tablet (Administered) - Start Time: 2172-06-03 21:00:00, Stop Time: 2172-06-04 19:00:00
+- Magnesium Sulfate 2 g / 50 mL (Premix Bag) (Administered) - Start Time: 2172-06-03 22:00:00, Stop Time: 2172-06-08 20:00:00
+- Albuterol 0.083% Neb Soln 0.083%;3mL Vial (Administered) - Start Time: 2172-06-03 22:00:00, Stop Time: 2172-06-04 19:00:00
+- Ipratropium-Albuterol Neb (Administered) - Start Time: 2172-06-03 21:00:00, Stop Time: 2172-06-04 08:00:00
+- Albuterol 0.083% Neb Soln 0.083%;3mL Vial (Administered) - Start Time: 2172-06-03 22:00:00, Stop Time: 2172-06-04 19:00:00
+- Acetaminophen 325mg Tablet (Administered) - Start Time: 2172-06-03 21:00:00, Stop Time: 2172-06-06 12:00:00
